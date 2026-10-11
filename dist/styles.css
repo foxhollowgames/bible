@@ -264,7 +264,7 @@ dialog[open]::backdrop{opacity:1}
 .topbar{flex-wrap:nowrap}
 .topbar .brand{width:auto;min-width:0}
 .settings-menu{position:relative;margin-left:auto;order:10;flex:none}
-.settings-button{display:grid;place-items:center;width:44px;height:44px;padding:9px;color:var(--ink);background:#062441;border:1px solid #176a9d;border-radius:7px;cursor:pointer;transition:border-color 180ms ease,background-color 180ms ease,color 180ms ease}
+.settings-button{display:grid;place-items:center;width:44px;height:44px;padding:0;color:var(--ink);background:#062441;border:1px solid #176a9d;border-radius:7px;cursor:pointer;transition:border-color 180ms ease,background-color 180ms ease,color 180ms ease}
 .settings-button:hover{border-color:#56dcff}
 .settings-button:focus,.settings-button[aria-expanded="true"]{background:#0a3c61;border-color:#56dcff}
 @media(prefers-reduced-motion:reduce){.settings-button{transition:none}}
