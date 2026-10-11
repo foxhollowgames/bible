@@ -185,6 +185,10 @@ path.map-feature.campaign-hit:hover,path.map-feature.campaign-hit:focus-visible{
 .chapter-picker-menu [role=option]:focus{outline:none;border-color:var(--cyan);background:#124766}
 .chapter-picker-check{width:16px;flex-shrink:0}
 .sidebar-next:disabled{opacity:.3;cursor:default}
+/* Phones: move the chapter arrows in from the screen edge and give them a full touch target. */
+@media(max-width:720px){.sidebar-next{flex:none;display:grid;place-items:center;width:48px;height:48px;padding:0 0 6px;line-height:1;border-radius:8px;touch-action:manipulation}.sidebar-next:not(:disabled):active{background:#062441}.sidebar-next:first-child{margin-left:8px}.sidebar-next:last-child{margin-right:8px}.scripture-heading{gap:4px}
+/* The title shrinks on narrow phones so the longest book names still fit between the arrows. */
+.scripture-heading .chapter-picker{font-size:clamp(18px,calc((100vw - 190px)*.128),31px)}.chapter-picker-trigger{padding-inline:24px}.chapter-picker-trigger svg{right:6px}}
 
 
 .chapter-focus-button{display:block;width:100%;padding:6px 8px;margin:5px 0 8px;border:1px solid #72a6bd;border-radius:4px;background:#123f57;color:#e9f6ff;font:inherit;cursor:pointer}.chapter-focus-button:hover,.chapter-focus-button:focus-visible{background:#17678a}.map-note details{margin-bottom:6px}.map-note summary{cursor:pointer}
