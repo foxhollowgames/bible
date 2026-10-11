@@ -484,7 +484,7 @@
       "summary": "Four months later Nehemiah serves wine to the king with a sad face. The king asks why, and Nehemiah is very afraid. He says his fathers’ city lies in ruins. He prays quickly and asks to be sent to rebuild it. He asks for letters to governors and for timber from the king’s forest. The king grants it and sends officers with him. In Jerusalem he inspects the walls by night. He tells the leaders, and they agree to build despite mockery.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "uncertainty": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "susa",
         "jerusalem"
@@ -889,7 +889,7 @@
       "summary": "The law is read, and the people separate from foreigners. Nehemiah has been away at the king’s court. On his return he finds Tobiah in a temple storeroom and throws him out. The Levites have not been paid and have gone back to their fields. Traders are selling on the Sabbath, so he shuts the gates. Jews have married women of Ashdod, Ammon, and Moab. He rebukes them harshly and drives out a priest’s son. He ends by asking God to remember him for good.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "uncertainty": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "tyre",
@@ -957,7 +957,7 @@
       "summary": "Four months later Nehemiah serves wine to the king with a sad face. The king asks why, and Nehemiah is very afraid. He says his fathers’ city lies in ruins. He prays quickly and asks to be sent to rebuild it. He asks for letters to governors and for timber from the king’s forest. The king grants it and sends officers with him. In Jerusalem he inspects the walls by night. He tells the leaders, and they agree to build despite mockery.",
       "detail": "Between the king’s question and his own answer Nehemiah prays (verse 4). Then he names a time, letters for safe travel, and timber (verses 6–8). A bulla of the Persian period shows how letters were sealed. Verse 8 lists three uses for the wood. Safe travel and building materials depend on the king’s support. Nehemiah credits “the good hand of my God.” He also inspects the walls himself before he speaks to anyone (verses 12–16).",
       "dateLabel": "Chapter order",
-      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "uncertainty": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1270,7 +1270,7 @@
       "summary": "The law is read, and the people separate from foreigners. Nehemiah has been away at the king’s court. On his return he finds Tobiah in a temple storeroom and throws him out. The Levites have not been paid and have gone back to their fields. Traders are selling on the Sabbath, so he shuts the gates. Jews have married women of Ashdod, Ammon, and Moab. He rebukes them harshly and drives out a priest’s son. He ends by asking God to remember him for good.",
       "detail": "The people promised in 10:39 not to neglect God’s house. Verse 10 shows that promise broken. The Levites’ portions have stopped, so they have left to farm. The room meant for their supplies went to Tobiah (verse 5). Nehemiah’s repair is practical: honest treasurers to hand out shares (verse 13). Support, Sabbath, and marriage were the three pledges of chapter 10. All three have failed here, and the book ends with a prayer.",
       "dateLabel": "Chapter order",
-      "uncertainty": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "uncertainty": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas",
@@ -3935,14 +3935,21 @@
         "susa",
         "jerusalem"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "nehemiah-2-susa-jerusalem",
+          "from": 0,
+          "to": 1,
+          "reference": "Nehemiah 2:5–11"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "note": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Four months later Nehemiah serves wine to the king with a sad face. The king asks why, and Nehemiah is very afraid. He says his fathers’ city lies in ruins. He prays quickly and asks to be sent to rebuild it. He asks for letters to governors and for timber from the king’s forest. The king grants it and sends officers with him. In Jerusalem he inspects the walls by night. He tells the leaders, and they agree to build despite mockery.",
-      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "limits": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas",
@@ -4220,21 +4227,30 @@
       "focusPlaceIds": [
         "jerusalem",
         "tyre",
-        "ashdod"
+        "ashdod",
+        "babylon"
       ],
       "placeIds": [
         "jerusalem",
         "tyre",
-        "ashdod"
+        "ashdod",
+        "babylon"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "nehemiah-13-second-return",
+          "from": 0,
+          "to": 1,
+          "reference": "Nehemiah 13:6–7"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "note": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The law is read, and the people separate from foreigners. Nehemiah has been away at the king’s court. On his return he finds Tobiah in a temple storeroom and throws him out. The Levites have not been paid and have gone back to their fields. Traders are selling on the Sabbath, so he shuts the gates. Jews have married women of Ashdod, Ammon, and Moab. He rebukes them harshly and drives out a priest’s son. He ends by asking God to remember him for good.",
-      "limits": "The points show named towns and regions. Jerusalem’s gates and wall parts are not placed on the map.",
+      "limits": "Lines join the places Nehemiah names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas",
@@ -4245,7 +4261,70 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "nehemiah-2-susa-jerusalem",
+      "title": "Nehemiah goes to Jerusalem",
+      "points": [
+        [
+          32.189,
+          48.257
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "susa",
+        "jerusalem"
+      ],
+      "chapter": 2,
+      "verse": 5,
+      "endVerse": 11,
+      "summary": "The king gives Nehemiah letters and an escort. He comes to Jerusalem and waits three days.",
+      "detail": "The line joins the places Nehemiah names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Nehemiah names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; road not named",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "nehemiah-13-second-return",
+      "title": "Nehemiah comes back to Jerusalem",
+      "points": [
+        [
+          32.54,
+          44.42
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "chapter": 13,
+      "verse": 6,
+      "endVerse": 7,
+      "summary": "Nehemiah had gone to Artaxerxes, whom the text calls king of Babylon. He returns and finds Tobiah housed in the temple.",
+      "detail": "The line joins the places Nehemiah names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Nehemiah names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; court city not named",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [
     {
       "id": "geographic:egypt",

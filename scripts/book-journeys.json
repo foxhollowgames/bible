@@ -1,105 +1,773 @@
 {
   "reviewed": "2026-10-09",
-  "acts": {
-    "note": "Lines join the places Acts names, in order. They do not trace real roads or sea lanes.",
-    "uncertainty": "The line joins the places Acts names, in order. It does not trace a road or a sea lane.",
-    "places": {
-      "seleucia": {"name": "Seleucia", "lat": 36.1239, "lng": 35.9219, "article": "Seleucia Pieria", "revisionId": "1364719071", "summary": "Barnabas and Saul sail from Seleucia to Cyprus (Acts 13:4).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "salamis": {"name": "Salamis", "lat": 35.1833, "lng": 33.9, "article": "Salamis, Cyprus", "revisionId": "1379196958", "summary": "Barnabas and Saul preach in the synagogues at Salamis on Cyprus (Acts 13:5).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "paphos": {"name": "Paphos", "lat": 34.7667, "lng": 32.4167, "article": "Paphos", "revisionId": "1377353119", "summary": "At Paphos the proconsul Sergius Paulus believes (Acts 13:6–12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "perga": {"name": "Perga", "lat": 36.9614, "lng": 30.8539, "article": "Perga", "revisionId": "1365659311", "summary": "John leaves the group at Perga (Acts 13:13). Paul and Barnabas preach there on the way back (14:25).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "iconium": {"name": "Iconium", "lat": 37.8744, "lng": 32.4931, "article": "Konya", "revisionId": "1379290316", "summary": "Many Jews and Greeks believe at Iconium. A plot to stone Paul and Barnabas drives them out (Acts 14:1–6).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "lystra": {"name": "Lystra", "lat": 37.6019, "lng": 32.3383, "article": "Lystra", "revisionId": "1364716313", "summary": "Paul heals a lame man at Lystra, and the crowd calls him a god. He is later stoned there (Acts 14:8–19).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "derbe": {"name": "Derbe", "lat": 37.3493, "lng": 33.3617, "article": "Derbe", "revisionId": "1373542285", "summary": "Paul and Barnabas make many disciples at Derbe, then turn back (Acts 14:20–21).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "attalia": {"name": "Attalia", "lat": 36.8869, "lng": 30.7033, "article": "Antalya", "revisionId": "1378218937", "summary": "Paul and Barnabas sail from Attalia back to Antioch (Acts 14:25–26).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "troas": {"name": "Troas", "lat": 39.7517, "lng": 26.1586, "article": "Alexandria Troas", "revisionId": "1373712912", "summary": "At Troas Paul sees a man of Macedonia in a vision (Acts 16:8–9). Eutychus falls from a window there (20:7–12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "samothrace": {"name": "Samothrace", "lat": 40.45, "lng": 25.5875, "article": "Samothrace", "revisionId": "1375875277", "summary": "Paul’s ship reaches Samothrace the day before Neapolis (Acts 16:11).", "limits": "The point stands for the island. Acts names no harbor."},
-      "neapolis": {"name": "Neapolis", "lat": 40.935, "lng": 24.415, "article": "Neapolis (Thrace)", "revisionId": "1376844201", "summary": "Paul lands at Neapolis and goes on to Philippi (Acts 16:11–12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "amphipolis": {"name": "Amphipolis", "lat": 40.8183, "lng": 23.84, "article": "Amphipolis", "revisionId": "1373753322", "summary": "Paul and Silas pass through Amphipolis on the way to Thessalonica (Acts 17:1).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "apollonia": {"name": "Apollonia", "lat": 40.6237, "lng": 23.4697, "article": "Apollonia (Mygdonia)", "revisionId": "1367652191", "summary": "Paul and Silas pass through Apollonia on the way to Thessalonica (Acts 17:1).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "thessalonica": {"name": "Thessalonica", "lat": 40.6403, "lng": 22.9356, "article": "Thessaloniki", "revisionId": "1379043326", "summary": "Paul reasons in the synagogue for three Sabbaths. A mob attacks Jason’s house (Acts 17:1–9).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "beroea": {"name": "Beroea", "lat": 40.5167, "lng": 22.2, "article": "Veria", "revisionId": "1375879844", "summary": "The Beroeans examine the Scriptures daily. Men from Thessalonica stir up the crowds (Acts 17:10–13).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "cenchreae": {"name": "Cenchreae", "lat": 37.885, "lng": 22.9875, "article": "Kechries", "revisionId": "1375808687", "summary": "Paul shaves his head at Cenchreae because of a vow (Acts 18:18).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "miletus": {"name": "Miletus", "lat": 37.5303, "lng": 27.2783, "article": "Miletus", "revisionId": "1376640211", "summary": "Paul calls the Ephesian elders to Miletus and says farewell (Acts 20:17–38).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "assos": {"name": "Assos", "lat": 39.4878, "lng": 26.3369, "article": "Assos", "revisionId": "1364710295", "summary": "Paul goes to Assos by land and boards the ship there (Acts 20:13–14).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "mitylene": {"name": "Mitylene", "lat": 39.1036, "lng": 26.5547, "article": "Mytilene", "revisionId": "1377100118", "summary": "The ship comes to Mitylene after Assos (Acts 20:14).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "chios": {"name": "Chios", "lat": 38.3725, "lng": 26.1375, "article": "Chios (town)", "revisionId": "1375796384", "summary": "The ship comes opposite Chios the day after Mitylene (Acts 20:15).", "limits": "The point stands for the island. Acts names no harbor."},
-      "samos": {"name": "Samos", "lat": 37.75, "lng": 26.8333, "article": "Samos", "revisionId": "1378908030", "summary": "The ship touches at Samos the day before Miletus (Acts 20:15).", "limits": "The point stands for the island. Acts names no harbor."},
-      "cos": {"name": "Cos", "lat": 36.85, "lng": 27.2333, "article": "Kos", "revisionId": "1375842151", "summary": "The ship runs a straight course to Cos (Acts 21:1).", "limits": "The point stands for the island. Acts names no harbor."},
-      "rhodes": {"name": "Rhodes", "lat": 36.4333, "lng": 28.2167, "article": "Rhodes (city)", "revisionId": "1378375369", "summary": "The ship reaches Rhodes the day after Cos (Acts 21:1).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "patara": {"name": "Patara", "lat": 36.2662, "lng": 29.3172, "article": "Patara (Lycia)", "revisionId": "1379164107", "summary": "At Patara Paul’s group finds a ship crossing to Phoenicia (Acts 21:1–2).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "ptolemais": {"name": "Ptolemais", "lat": 32.9278, "lng": 35.0817, "article": "Acre, Israel", "revisionId": "1376936504", "summary": "Paul’s group greets the brothers at Ptolemais and stays one day (Acts 21:7).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "antipatris": {"name": "Antipatris", "lat": 32.105, "lng": 34.9304, "article": "Antipatris", "revisionId": "1369215117", "summary": "Soldiers bring Paul to Antipatris by night (Acts 23:31).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "myra": {"name": "Myra", "lat": 36.2592, "lng": 29.9853, "article": "Myra", "revisionId": "1379057982", "summary": "At Myra the centurion finds a ship sailing for Italy (Acts 27:5–6).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "cnidus": {"name": "Cnidus", "lat": 36.6858, "lng": 27.375, "article": "Knidos", "revisionId": "1364715693", "summary": "The ship reaches Cnidus slowly, and the wind turns it toward Crete (Acts 27:7).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "fair-havens": {"name": "Fair Havens", "lat": 34.9297, "lng": 24.8003, "article": "Kaloi Limenes", "revisionId": "1375806970", "summary": "Paul warns the crew at Fair Havens not to sail on (Acts 27:8–10).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "malta": {"name": "Malta", "lat": 35.9, "lng": 14.5167, "article": "Malta", "revisionId": "1379401656", "summary": "The people of the wrecked ship reach Malta. Paul heals the father of Publius there (Acts 28:1–8).", "limits": "Acts does not say where on Malta the ship ran aground."},
-      "syracuse": {"name": "Syracuse", "lat": 37.0692, "lng": 15.2875, "article": "Syracuse, Sicily", "revisionId": "1378595422", "summary": "Paul’s ship stays three days at Syracuse (Acts 28:12).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "rhegium": {"name": "Rhegium", "lat": 38.1114, "lng": 15.6619, "article": "Reggio Calabria", "revisionId": "1376162684", "summary": "The ship reaches Rhegium and waits one day for a south wind (Acts 28:13).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "puteoli": {"name": "Puteoli", "lat": 40.8444, "lng": 14.0933, "article": "Pozzuoli", "revisionId": "1376928395", "summary": "Paul lands at Puteoli and stays seven days with the brothers (Acts 28:13–14).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "three-taverns": {"name": "Three Taverns", "lat": 41.5619, "lng": 12.8739, "article": "Tre Taverne", "revisionId": "1347262371", "summary": "Brothers from Rome come to meet Paul at the Three Taverns (Acts 28:15).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "tarsus": {"name": "Tarsus", "lat": 36.9165, "lng": 34.8951, "article": "Tarsus, Mersin", "revisionId": "1376952448", "summary": "Tarsus is Paul’s home city. The brothers send him there (Acts 9:30). Barnabas later looks for him there (11:25).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "lydda": {"name": "Lydda", "lat": 31.9519, "lng": 34.8881, "article": "Lod", "revisionId": "1378734909", "summary": "Peter heals Aeneas at Lydda (Acts 9:32–35).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "azotus": {"name": "Azotus", "lat": 31.7536, "lng": 34.6617, "article": "Ashdod (ancient city)", "revisionId": "1365084074", "summary": "Philip is found at Azotus. He preaches in the towns up to Caesarea (Acts 8:40).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "gaza": {"name": "Gaza", "lat": 31.5075, "lng": 34.4597, "article": "Gaza City", "revisionId": "1377692588", "summary": "An angel sends Philip to the road from Jerusalem down to Gaza (Acts 8:26).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor."},
-      "samaria": {"name": "Samaria", "lat": 32.2764, "lng": 35.195, "article": "Samaria (ancient city)", "revisionId": "1379213380", "summary": "Philip proclaims the Christ in the city of Samaria. Peter and John come and pray for the believers (Acts 8:5–17).", "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor.", "verseScope": {"1": [], "8": [5, 9, 14], "9": [], "15": []}}
+  "note": "Lines join the places {book} names, in order. They do not trace real roads or sea lanes.",
+  "uncertainty": "The line joins the places {book} names, in order. It does not trace a road or a sea lane.",
+  "limits": "The point marks the site in the encyclopedia article. It marks no exact house or harbor.",
+  "gazetteer": {
+    "seleucia": ["Seleucia", 36.1239, 35.9219, "Seleucia Pieria", "1364719071"],
+    "salamis": ["Salamis", 35.1833, 33.9, "Salamis, Cyprus", "1379196958"],
+    "paphos": ["Paphos", 34.7667, 32.4167, "Paphos", "1377353119"],
+    "perga": ["Perga", 36.9614, 30.8539, "Perga", "1365659311"],
+    "iconium": ["Iconium", 37.8744, 32.4931, "Konya", "1379290316"],
+    "lystra": ["Lystra", 37.6019, 32.3383, "Lystra", "1364716313"],
+    "derbe": ["Derbe", 37.3493, 33.3617, "Derbe", "1373542285"],
+    "attalia": ["Attalia", 36.8869, 30.7033, "Antalya", "1378218937"],
+    "troas": ["Troas", 39.7517, 26.1586, "Alexandria Troas", "1373712912"],
+    "samothrace": ["Samothrace", 40.45, 25.5875, "Samothrace", "1375875277", "The point stands for the island. Acts names no harbor."],
+    "neapolis": ["Neapolis", 40.935, 24.415, "Neapolis (Thrace)", "1376844201"],
+    "amphipolis": ["Amphipolis", 40.8183, 23.84, "Amphipolis", "1373753322"],
+    "apollonia": ["Apollonia", 40.6237, 23.4697, "Apollonia (Mygdonia)", "1367652191"],
+    "thessalonica": ["Thessalonica", 40.6403, 22.9356, "Thessaloniki", "1379043326"],
+    "beroea": ["Beroea", 40.5167, 22.2, "Veria", "1375879844"],
+    "cenchreae": ["Cenchreae", 37.885, 22.9875, "Kechries", "1375808687"],
+    "miletus": ["Miletus", 37.5303, 27.2783, "Miletus", "1376640211"],
+    "assos": ["Assos", 39.4878, 26.3369, "Assos", "1364710295"],
+    "mitylene": ["Mitylene", 39.1036, 26.5547, "Mytilene", "1377100118"],
+    "chios": ["Chios", 38.3725, 26.1375, "Chios (town)", "1375796384", "The point stands for the island. Acts names no harbor."],
+    "samos": ["Samos", 37.75, 26.8333, "Samos", "1378908030", "The point stands for the island. Acts names no harbor."],
+    "cos": ["Cos", 36.85, 27.2333, "Kos", "1375842151", "The point stands for the island. Acts names no harbor."],
+    "rhodes": ["Rhodes", 36.4333, 28.2167, "Rhodes (city)", "1378375369"],
+    "patara": ["Patara", 36.2662, 29.3172, "Patara (Lycia)", "1379164107"],
+    "ptolemais": ["Ptolemais", 32.9278, 35.0817, "Acre, Israel", "1376936504"],
+    "antipatris": ["Antipatris", 32.105, 34.9304, "Antipatris", "1369215117"],
+    "myra": ["Myra", 36.2592, 29.9853, "Myra", "1379057982"],
+    "cnidus": ["Cnidus", 36.6858, 27.375, "Knidos", "1364715693"],
+    "fair-havens": ["Fair Havens", 34.9297, 24.8003, "Kaloi Limenes", "1375806970"],
+    "malta": ["Malta", 35.9, 14.5167, "Malta", "1379401656", "Acts does not say where on Malta the ship ran aground."],
+    "syracuse": ["Syracuse", 37.0692, 15.2875, "Syracuse, Sicily", "1378595422"],
+    "rhegium": ["Rhegium", 38.1114, 15.6619, "Reggio Calabria", "1376162684"],
+    "puteoli": ["Puteoli", 40.8444, 14.0933, "Pozzuoli", "1376928395"],
+    "three-taverns": ["Three Taverns", 41.5619, 12.8739, "Tre Taverne", "1347262371"],
+    "tarsus": ["Tarsus", 36.9165, 34.8951, "Tarsus, Mersin", "1376952448"],
+    "lydda": ["Lydda", 31.9519, 34.8881, "Lod", "1378734909"],
+    "azotus": ["Azotus", 31.7536, 34.6617, "Ashdod (ancient city)", "1365084074"],
+    "gaza": ["Gaza", 31.5075, 34.4597, "Gaza City", "1377692588"],
+    "samaria": ["Samaria", 32.2764, 35.195, "Samaria (ancient city)", "1379213380"]
+  },
+  "books": {
+    "acts": {
+      "places": {
+        "seleucia": "Barnabas and Saul sail from Seleucia to Cyprus (Acts 13:4).",
+        "salamis": "Barnabas and Saul preach in the synagogues at Salamis on Cyprus (Acts 13:5).",
+        "paphos": "At Paphos the proconsul Sergius Paulus believes (Acts 13:6–12).",
+        "perga": "John leaves the group at Perga (Acts 13:13). Paul and Barnabas preach there on the way back (14:25).",
+        "iconium": "Many Jews and Greeks believe at Iconium. A plot to stone Paul and Barnabas drives them out (Acts 14:1–6).",
+        "lystra": "Paul heals a lame man at Lystra, and the crowd calls him a god. He is later stoned there (Acts 14:8–19).",
+        "derbe": "Paul and Barnabas make many disciples at Derbe, then turn back (Acts 14:20–21).",
+        "attalia": "Paul and Barnabas sail from Attalia back to Antioch (Acts 14:25–26).",
+        "troas": "At Troas Paul sees a man of Macedonia in a vision (Acts 16:8–9). Eutychus falls from a window there (20:7–12).",
+        "samothrace": "Paul’s ship reaches Samothrace the day before Neapolis (Acts 16:11).",
+        "neapolis": "Paul lands at Neapolis and goes on to Philippi (Acts 16:11–12).",
+        "amphipolis": "Paul and Silas pass through Amphipolis on the way to Thessalonica (Acts 17:1).",
+        "apollonia": "Paul and Silas pass through Apollonia on the way to Thessalonica (Acts 17:1).",
+        "thessalonica": "Paul reasons in the synagogue for three Sabbaths. A mob attacks Jason’s house (Acts 17:1–9).",
+        "beroea": "The Beroeans examine the Scriptures daily. Men from Thessalonica stir up the crowds (Acts 17:10–13).",
+        "cenchreae": "Paul shaves his head at Cenchreae because of a vow (Acts 18:18).",
+        "miletus": "Paul calls the Ephesian elders to Miletus and says farewell (Acts 20:17–38).",
+        "assos": "Paul goes to Assos by land and boards the ship there (Acts 20:13–14).",
+        "mitylene": "The ship comes to Mitylene after Assos (Acts 20:14).",
+        "chios": "The ship comes opposite Chios the day after Mitylene (Acts 20:15).",
+        "samos": "The ship touches at Samos the day before Miletus (Acts 20:15).",
+        "cos": "The ship runs a straight course to Cos (Acts 21:1).",
+        "rhodes": "The ship reaches Rhodes the day after Cos (Acts 21:1).",
+        "patara": "At Patara Paul’s group finds a ship crossing to Phoenicia (Acts 21:1–2).",
+        "ptolemais": "Paul’s group greets the brothers at Ptolemais and stays one day (Acts 21:7).",
+        "antipatris": "Soldiers bring Paul to Antipatris by night (Acts 23:31).",
+        "myra": "At Myra the centurion finds a ship sailing for Italy (Acts 27:5–6).",
+        "cnidus": "The ship reaches Cnidus slowly, and the wind turns it toward Crete (Acts 27:7).",
+        "fair-havens": "Paul warns the crew at Fair Havens not to sail on (Acts 27:8–10).",
+        "malta": "The people of the wrecked ship reach Malta. Paul heals the father of Publius there (Acts 28:1–8).",
+        "syracuse": "Paul’s ship stays three days at Syracuse (Acts 28:12).",
+        "rhegium": "The ship reaches Rhegium and waits one day for a south wind (Acts 28:13).",
+        "puteoli": "Paul lands at Puteoli and stays seven days with the brothers (Acts 28:13–14).",
+        "three-taverns": "Brothers from Rome come to meet Paul at the Three Taverns (Acts 28:15).",
+        "tarsus": "Tarsus is Paul’s home city. The brothers send him there (Acts 9:30). Barnabas later looks for him there (11:25).",
+        "lydda": "Peter heals Aeneas at Lydda (Acts 9:32–35).",
+        "azotus": "Philip is found at Azotus. He preaches in the towns up to Caesarea (Acts 8:40).",
+        "gaza": "An angel sends Philip to the road from Jerusalem down to Gaza (Acts 8:26).",
+        "samaria": {"summary": "Philip proclaims the Christ in the city of Samaria. Peter and John come and pray for the believers (Acts 8:5–17).", "verseScope": {"1": [], "8": [5, 9, 14], "9": [], "15": []}}
+      },
+      "routes": {
+        "8": [
+          ["philip-samaria", "Philip goes to Samaria", "journey", "jerusalem>samaria", "5-5", "Persecution scatters the Jerusalem assembly. Philip goes down to the city of Samaria and proclaims the Christ.", "Narrated journey"],
+          ["gaza-road", "The road from Jerusalem to Gaza", "journey", "jerusalem>gaza", "26-26", "An angel sends Philip to this road. He meets the Ethiopian official on it. Acts does not say where.", "Named road; meeting point unknown"],
+          ["philip-coast", "Philip from Azotus to Caesarea", "journey", "azotus>caesarea", "40-40", "Philip is found at Azotus. He preaches in the towns until he reaches Caesarea.", "Narrated journey"]
+        ],
+        "9": [
+          ["saul-damascus", "Saul sets out for Damascus", "journey", "jerusalem>damascus", "1-3", "Saul sets out for Damascus with letters from the high priest. A light stops him near the city.", "Narrated journey; road not named"],
+          ["saul-escape", "Saul escapes to Tarsus", "flight", "damascus>jerusalem>caesarea>tarsus", "25-30", "Disciples lower Saul over the Damascus wall in a basket. He goes to Jerusalem. The brothers then send him to Tarsus by Caesarea.", "Narrated escape"],
+          ["peter-joppa", "Peter from Lydda to Joppa", "journey", "lydda>joppa", "32-39", "Peter heals Aeneas at Lydda. Two men bring him to Joppa, where Tabitha has died.", "Narrated journey"]
+        ],
+        "10": [
+          ["cornelius-men", "Cornelius sends for Peter", "diplomacy", "caesarea>joppa", "7-8", "Cornelius sends two servants and a soldier to Joppa to fetch Peter.", "Narrated errand"],
+          ["peter-caesarea", "Peter goes to Caesarea", "journey", "joppa>caesarea", "23-24", "Peter goes with them the next day. Some brothers from Joppa go too.", "Narrated journey"]
+        ],
+        "11": [
+          ["barnabas-antioch", "Barnabas is sent to Antioch", "journey", "jerusalem>antioch-syria", "22-22", "The Jerusalem assembly hears that Greeks in Antioch believe. It sends Barnabas there.", "Narrated journey"],
+          ["saul-antioch", "Barnabas brings Saul from Tarsus", "journey", "tarsus>antioch-syria", "25-26", "Barnabas goes to Tarsus to look for Saul and brings him to Antioch.", "Narrated journey"],
+          ["famine-relief", "Relief for Judea", "diplomacy", "antioch-syria>jerusalem", "29-30", "The disciples at Antioch send relief to the elders in Judea. Barnabas and Saul carry it. Jerusalem stands for Judea here.", "Narrated gift; city not named"]
+        ],
+        "13": [
+          ["cyprus-pisidia", "From Antioch to Cyprus and Pisidia", "journey", "antioch-syria>seleucia>salamis>paphos>perga>antioch-pisidia>iconium", "4-51", "Barnabas and Saul sail to Cyprus and cross the island. They sail to Perga and go up to Antioch of Pisidia. Driven out, they go to Iconium.", "Named stops in order"]
+        ],
+        "14": [
+          ["lycaonia-flight", "Flight to Lystra and Derbe", "flight", "iconium>lystra>derbe", "6-20", "Paul and Barnabas flee a plot at Iconium. Paul is stoned at Lystra, and they go on to Derbe.", "Narrated escape"],
+          ["return-antioch", "Return to Antioch", "journey", "derbe>lystra>iconium>antioch-pisidia>perga>attalia>antioch-syria", "21-26", "They go back through the same cities and appoint elders. They sail from Attalia to Antioch.", "Named stops in order"]
+        ],
+        "15": [
+          ["council-trip", "Up to Jerusalem about the dispute", "journey", "antioch-syria>jerusalem", "2-4", "Antioch sends Paul and Barnabas to the apostles and elders. They pass through Phoenicia and Samaria.", "Narrated journey; regions named"],
+          ["council-letter", "The letter goes to Antioch", "diplomacy", "jerusalem>antioch-syria", "30-30", "Judas and Silas carry the council’s letter to Antioch with Paul and Barnabas.", "Narrated delivery"]
+        ],
+        "16": [
+          ["to-macedonia", "From Lystra to Philippi", "journey", "derbe>lystra>troas>samothrace>neapolis>philippi", "1-12", "Paul meets Timothy at Lystra. They pass through Phrygia and Galatia to Troas. After the vision they sail to Macedonia.", "Named stops; inland course unknown"]
+        ],
+        "17": [
+          ["macedonia-athens", "From Philippi to Athens", "journey", "philippi>amphipolis>apollonia>thessalonica>beroea>athens", "1-15", "Paul and Silas go to Thessalonica, then to Beroea by night. Brothers take Paul to the sea and on to Athens.", "Named stops in order"]
+        ],
+        "18": [
+          ["athens-corinth", "Paul comes to Corinth", "journey", "athens>corinth", "1-1", "Paul leaves Athens for Corinth and stays a year and six months.", "Narrated journey"],
+          ["sail-syria", "From Corinth back to Antioch", "journey", "corinth>cenchreae>ephesus>caesarea>antioch-syria", "18-22", "Paul sails for Syria by Cenchreae and Ephesus. He lands at Caesarea, greets the assembly, and goes down to Antioch.", "Named stops; Acts does not name the assembly’s city"]
+        ],
+        "20": [
+          ["troas-miletus", "From Philippi to Miletus", "journey", "philippi>troas>assos>mitylene>chios>samos>miletus", "6-15", "The group sails from Philippi to Troas. Paul goes to Assos by land. The ship then passes the islands to Miletus.", "Named stops in order"]
+        ],
+        "21": [
+          ["miletus-jerusalem", "From Miletus to Jerusalem", "journey", "miletus>cos>rhodes>patara>tyre>ptolemais>caesarea>jerusalem", "1-17", "The ship passes Cos and Rhodes to Patara. A second ship crosses to Tyre. The group goes on by Ptolemais and Caesarea to Jerusalem.", "Named stops in order"]
+        ],
+        "23": [
+          ["paul-escort", "Paul is taken to Caesarea", "journey", "jerusalem>antipatris>caesarea", "31-33", "Soldiers take Paul to Antipatris by night. Horsemen bring him on to the governor at Caesarea.", "Narrated transfer; road not named"]
+        ],
+        "27": [
+          ["voyage-malta", "The voyage toward Italy", "journey", "caesarea>sidon>myra>cnidus>fair-havens>malta", "1-44", "The ship touches at Sidon and reaches Myra. A second ship leaves Fair Havens, and a storm drives it to Malta.", "Named stops; storm course unknown"]
+        ],
+        "28": [
+          ["malta-rome", "From Malta to Rome", "journey", "malta>syracuse>rhegium>puteoli>three-taverns>rome", "11-16", "Paul sails by Syracuse and Rhegium to Puteoli. Brothers meet him at the Market of Appius and the Three Taverns. This guide has no checked point for the Market of Appius.", "Named stops in order"]
+        ]
+      }
     },
-    "routes": {
-      "8": [
-        {"id": "philip-samaria", "title": "Philip goes to Samaria", "kind": "journey", "placeIds": ["jerusalem", "samaria"], "verse": 5, "endVerse": 5, "summary": "Persecution scatters the Jerusalem assembly. Philip goes down to the city of Samaria and proclaims the Christ.", "evidence": "Narrated journey"},
-        {"id": "gaza-road", "title": "The road from Jerusalem to Gaza", "kind": "journey", "placeIds": ["jerusalem", "gaza"], "verse": 26, "endVerse": 26, "summary": "An angel sends Philip to this road. He meets the Ethiopian official on it. Acts does not say where.", "evidence": "Named road; meeting point unknown"},
-        {"id": "philip-coast", "title": "Philip from Azotus to Caesarea", "kind": "journey", "placeIds": ["azotus", "caesarea"], "verse": 40, "endVerse": 40, "summary": "Philip is found at Azotus. He preaches in the towns until he reaches Caesarea.", "evidence": "Narrated journey"}
-      ],
-      "9": [
-        {"id": "saul-damascus", "title": "Saul sets out for Damascus", "kind": "journey", "placeIds": ["jerusalem", "damascus"], "verse": 1, "endVerse": 3, "summary": "Saul sets out for Damascus with letters from the high priest. A light stops him near the city.", "evidence": "Narrated journey; road not named"},
-        {"id": "saul-escape", "title": "Saul escapes to Tarsus", "kind": "flight", "placeIds": ["damascus", "jerusalem", "caesarea", "tarsus"], "verse": 25, "endVerse": 30, "summary": "Disciples lower Saul over the Damascus wall in a basket. He goes to Jerusalem. The brothers then send him to Tarsus by Caesarea.", "evidence": "Narrated escape"},
-        {"id": "peter-joppa", "title": "Peter from Lydda to Joppa", "kind": "journey", "placeIds": ["lydda", "joppa"], "verse": 32, "endVerse": 39, "summary": "Peter heals Aeneas at Lydda. Two men bring him to Joppa, where Tabitha has died.", "evidence": "Narrated journey"}
-      ],
-      "10": [
-        {"id": "cornelius-men", "title": "Cornelius sends for Peter", "kind": "diplomacy", "placeIds": ["caesarea", "joppa"], "verse": 7, "endVerse": 8, "summary": "Cornelius sends two servants and a soldier to Joppa to fetch Peter.", "evidence": "Narrated errand"},
-        {"id": "peter-caesarea", "title": "Peter goes to Caesarea", "kind": "journey", "placeIds": ["joppa", "caesarea"], "verse": 23, "endVerse": 24, "summary": "Peter goes with them the next day. Some brothers from Joppa go too.", "evidence": "Narrated journey"}
-      ],
-      "11": [
-        {"id": "barnabas-antioch", "title": "Barnabas is sent to Antioch", "kind": "journey", "placeIds": ["jerusalem", "antioch-syria"], "verse": 22, "endVerse": 22, "summary": "The Jerusalem assembly hears that Greeks in Antioch believe. It sends Barnabas there.", "evidence": "Narrated journey"},
-        {"id": "saul-antioch", "title": "Barnabas brings Saul from Tarsus", "kind": "journey", "placeIds": ["tarsus", "antioch-syria"], "verse": 25, "endVerse": 26, "summary": "Barnabas goes to Tarsus to look for Saul and brings him to Antioch.", "evidence": "Narrated journey"},
-        {"id": "famine-relief", "title": "Relief for Judea", "kind": "diplomacy", "placeIds": ["antioch-syria", "jerusalem"], "verse": 29, "endVerse": 30, "summary": "The disciples at Antioch send relief to the elders in Judea. Barnabas and Saul carry it. Jerusalem stands for Judea here.", "evidence": "Narrated gift; city not named"}
-      ],
-      "13": [
-        {"id": "cyprus-pisidia", "title": "From Antioch to Cyprus and Pisidia", "kind": "journey", "placeIds": ["antioch-syria", "seleucia", "salamis", "paphos", "perga", "antioch-pisidia", "iconium"], "verse": 4, "endVerse": 51, "summary": "Barnabas and Saul sail to Cyprus and cross the island. They sail to Perga and go up to Antioch of Pisidia. Driven out, they go to Iconium.", "evidence": "Named stops in order"}
-      ],
-      "14": [
-        {"id": "lycaonia-flight", "title": "Flight to Lystra and Derbe", "kind": "flight", "placeIds": ["iconium", "lystra", "derbe"], "verse": 6, "endVerse": 20, "summary": "Paul and Barnabas flee a plot at Iconium. Paul is stoned at Lystra, and they go on to Derbe.", "evidence": "Narrated escape"},
-        {"id": "return-antioch", "title": "Return to Antioch", "kind": "journey", "placeIds": ["derbe", "lystra", "iconium", "antioch-pisidia", "perga", "attalia", "antioch-syria"], "verse": 21, "endVerse": 26, "summary": "They go back through the same cities and appoint elders. They sail from Attalia to Antioch.", "evidence": "Named stops in order"}
-      ],
-      "15": [
-        {"id": "council-trip", "title": "Up to Jerusalem about the dispute", "kind": "journey", "placeIds": ["antioch-syria", "jerusalem"], "verse": 2, "endVerse": 4, "summary": "Antioch sends Paul and Barnabas to the apostles and elders. They pass through Phoenicia and Samaria.", "evidence": "Narrated journey; regions named"},
-        {"id": "council-letter", "title": "The letter goes to Antioch", "kind": "diplomacy", "placeIds": ["jerusalem", "antioch-syria"], "verse": 30, "endVerse": 30, "summary": "Judas and Silas carry the council’s letter to Antioch with Paul and Barnabas.", "evidence": "Narrated delivery"}
-      ],
-      "16": [
-        {"id": "to-macedonia", "title": "From Lystra to Philippi", "kind": "journey", "placeIds": ["derbe", "lystra", "troas", "samothrace", "neapolis", "philippi"], "verse": 1, "endVerse": 12, "summary": "Paul meets Timothy at Lystra. They pass through Phrygia and Galatia to Troas. After the vision they sail to Macedonia.", "evidence": "Named stops; inland course unknown"}
-      ],
-      "17": [
-        {"id": "macedonia-athens", "title": "From Philippi to Athens", "kind": "journey", "placeIds": ["philippi", "amphipolis", "apollonia", "thessalonica", "beroea", "athens"], "verse": 1, "endVerse": 15, "summary": "Paul and Silas go to Thessalonica, then to Beroea by night. Brothers take Paul to the sea and on to Athens.", "evidence": "Named stops in order"}
-      ],
-      "18": [
-        {"id": "athens-corinth", "title": "Paul comes to Corinth", "kind": "journey", "placeIds": ["athens", "corinth"], "verse": 1, "endVerse": 1, "summary": "Paul leaves Athens for Corinth and stays a year and six months.", "evidence": "Narrated journey"},
-        {"id": "sail-syria", "title": "From Corinth back to Antioch", "kind": "journey", "placeIds": ["corinth", "cenchreae", "ephesus", "caesarea", "antioch-syria"], "verse": 18, "endVerse": 22, "summary": "Paul sails for Syria by Cenchreae and Ephesus. He lands at Caesarea, greets the assembly, and goes down to Antioch.", "evidence": "Named stops; Acts does not name the assembly’s city"}
-      ],
-      "20": [
-        {"id": "troas-miletus", "title": "From Philippi to Miletus", "kind": "journey", "placeIds": ["philippi", "troas", "assos", "mitylene", "chios", "samos", "miletus"], "verse": 6, "endVerse": 15, "summary": "The group sails from Philippi to Troas. Paul goes to Assos by land. The ship then passes the islands to Miletus.", "evidence": "Named stops in order"}
-      ],
-      "21": [
-        {"id": "miletus-jerusalem", "title": "From Miletus to Jerusalem", "kind": "journey", "placeIds": ["miletus", "cos", "rhodes", "patara", "tyre", "ptolemais", "caesarea", "jerusalem"], "verse": 1, "endVerse": 17, "summary": "The ship passes Cos and Rhodes to Patara. A second ship crosses to Tyre. The group goes on by Ptolemais and Caesarea to Jerusalem.", "evidence": "Named stops in order"}
-      ],
-      "23": [
-        {"id": "paul-escort", "title": "Paul is taken to Caesarea", "kind": "journey", "placeIds": ["jerusalem", "antipatris", "caesarea"], "verse": 31, "endVerse": 33, "summary": "Soldiers take Paul to Antipatris by night. Horsemen bring him on to the governor at Caesarea.", "evidence": "Narrated transfer; road not named"}
-      ],
-      "27": [
-        {"id": "voyage-malta", "title": "The voyage toward Italy", "kind": "journey", "placeIds": ["caesarea", "sidon", "myra", "cnidus", "fair-havens", "malta"], "verse": 1, "endVerse": 44, "summary": "The ship touches at Sidon and reaches Myra. A second ship leaves Fair Havens, and a storm drives it to Malta.", "evidence": "Named stops; storm course unknown"}
-      ],
-      "28": [
-        {"id": "malta-rome", "title": "From Malta to Rome", "kind": "journey", "placeIds": ["malta", "syracuse", "rhegium", "puteoli", "three-taverns", "rome"], "verse": 11, "endVerse": 16, "summary": "Paul sails by Syracuse and Rhegium to Puteoli. Brothers meet him at the Market of Appius and the Three Taverns. This guide has no checked point for the Market of Appius.", "evidence": "Named stops in order"}
-      ]
+    "matthew": {
+      "places": {
+
+      },
+      "routes": {
+        "2": [
+          ["magi-bethlehem", "The wise men go to Bethlehem", "journey", "jerusalem>bethlehem", "1-11", "Wise men from the east ask in Jerusalem for the newborn king. Herod sends them on to Bethlehem.", "Narrated journey; eastern origin not named"],
+          ["flight-egypt", "Flight into Egypt", "flight", "bethlehem>egypt", "13-15", "An angel warns Joseph in a dream. He takes the child and his mother to Egypt by night.", "Narrated escape; place in Egypt not named"],
+          ["return-nazareth", "Return to Nazareth", "journey", "egypt>nazareth", "19-23", "After Herod dies, Joseph brings the family back. He fears Archelaus in Judea and settles in Nazareth.", "Narrated journey"]
+        ],
+        "3": [
+          ["jesus-jordan", "Jesus comes to the Jordan", "journey", "galilee>jordan", "13", "Jesus comes from Galilee to the Jordan, and John baptizes him.", "Regions named; towns not given"]
+        ],
+        "4": [
+          ["nazareth-capernaum", "Jesus moves to Capernaum", "journey", "nazareth>capernaum", "12-13", "Jesus hears that John is in prison. He leaves Nazareth and lives in Capernaum by the sea.", "Narrated move"]
+        ],
+        "15": [
+          ["tyre-region", "Jesus withdraws toward Tyre and Sidon", "journey", "galilee>tyre", "21", "Jesus withdraws into the region of Tyre and Sidon. A Canaanite woman meets him there.", "Region named; town not given"]
+        ],
+        "16": [
+          ["caesarea-philippi", "Jesus goes toward Caesarea Philippi", "journey", "galilee>caesarea-philippi", "13", "Jesus comes into the parts of Caesarea Philippi. He asks the disciples who people say he is.", "District named; starting town not given"]
+        ],
+        "19": [
+          ["beyond-jordan", "Jesus leaves Galilee", "journey", "galilee>jordan", "1", "Jesus departs from Galilee. He comes into the borders of Judea beyond the Jordan.", "Regions named; towns not given"]
+        ],
+        "20": [
+          ["jericho-jerusalem", "Up from Jericho toward Jerusalem", "journey", "jericho>jerusalem", "17-29", "Jesus goes up toward Jerusalem with the twelve. A great crowd follows him out of Jericho.", "Narrated journey; road not named"]
+        ],
+        "21": [
+          ["olives-city", "Jesus enters Jerusalem", "journey", "olives>jerusalem>bethany", "1-17", "Jesus rides down from the Mount of Olives into Jerusalem. That evening he goes out to Bethany.", "Named stops in order"]
+        ],
+        "26": [
+          ["last-night", "From Bethany to the Mount of Olives", "journey", "bethany>jerusalem>olives", "6-30", "Jesus is at Bethany, then keeps the Passover in the city. After the hymn they go out to the Mount of Olives.", "Named stops in order"]
+        ],
+        "28": [
+          ["to-galilee", "The eleven go to Galilee", "journey", "jerusalem>galilee", "7-16", "The angel says the risen Jesus goes ahead into Galilee. The eleven go to the mountain there.", "Narrated journey; mountain not named"]
+        ]
+      }
+    },
+    "mark": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["nazareth-jordan", "From Nazareth to the Jordan and Capernaum", "journey", "nazareth>jordan>capernaum", "9-21", "Jesus comes from Nazareth and is baptized in the Jordan. He then goes into Galilee and enters Capernaum.", "Named stops in order"]
+        ],
+        "7": [
+          ["tyre-sidon", "Through Tyre and Sidon to the lake", "journey", "tyre>sidon>sea-galilee", "24-31", "Jesus goes to the borders of Tyre and Sidon. He comes back to the Sea of Galilee through the Decapolis.", "Regions named; towns not given"]
+        ],
+        "8": [
+          ["bethsaida-caesarea", "From Bethsaida toward Caesarea Philippi", "journey", "bethsaida>caesarea-philippi", "22-27", "Jesus heals a blind man at Bethsaida. He then goes to the villages of Caesarea Philippi.", "Named stops in order"]
+        ],
+        "10": [
+          ["jordan-jericho", "Beyond the Jordan to Jericho", "journey", "jordan>jericho>jerusalem", "1-46", "Jesus teaches beyond the Jordan, then goes up toward Jerusalem. He heals Bartimaeus as he leaves Jericho.", "Narrated journey; road not named"]
+        ],
+        "11": [
+          ["olives-city", "Jesus enters Jerusalem", "journey", "olives>jerusalem>bethany", "1-11", "Jesus rides from the Mount of Olives into Jerusalem. He looks around the temple and goes out to Bethany.", "Named stops in order"]
+        ],
+        "14": [
+          ["last-night", "From Bethany to the Mount of Olives", "journey", "bethany>jerusalem>olives", "3-26", "A woman anoints Jesus at Bethany. He keeps the Passover in the city and goes out to the Mount of Olives.", "Named stops in order"]
+        ],
+        "16": [
+          ["to-galilee", "The message points to Galilee", "journey", "jerusalem>galilee", "7", "The young man at the tomb says Jesus goes ahead into Galilee. The disciples will see him there.", "Promised meeting; place not named"]
+        ]
+      }
+    },
+    "luke": {
+      "places": {
+
+      },
+      "routes": {
+        "2": [
+          ["nazareth-bethlehem", "Joseph and Mary go to Bethlehem", "journey", "nazareth>bethlehem", "4-5", "Joseph goes up from Nazareth to Bethlehem to be enrolled. Mary goes with him.", "Narrated journey"],
+          ["temple-nazareth", "To the temple and home", "journey", "bethlehem>jerusalem>nazareth", "22-39", "They bring the child to Jerusalem to present him. Then they return to Nazareth.", "Named stops in order"],
+          ["passover-trip", "The Passover trip at age twelve", "journey", "nazareth>jerusalem", "41-51", "His parents go up to Jerusalem for the Passover. The boy stays behind in the temple, then goes home with them.", "Narrated journey"]
+        ],
+        "4": [
+          ["jordan-capernaum", "From the Jordan to Nazareth and Capernaum", "journey", "jordan>nazareth>capernaum", "1-31", "Jesus returns from the Jordan and is tested in the wilderness. He reads in Nazareth and then goes down to Capernaum.", "Named stops in order"]
+        ],
+        "9": [
+          ["face-jerusalem", "Jesus sets out for Jerusalem", "journey", "galilee>jerusalem", "51", "Jesus sets his face to go to Jerusalem. The following chapters stay on this journey.", "Journey begun; road not given"]
+        ],
+        "10": [
+          ["jericho-road", "The road in the parable", "journey", "jerusalem>jericho", "30", "A man goes down from Jerusalem to Jericho and falls among robbers.", "Parable setting"]
+        ],
+        "19": [
+          ["jericho-jerusalem", "From Jericho up to Jerusalem", "journey", "jericho>bethany>olives>jerusalem", "1-41", "Jesus passes through Jericho and meets Zacchaeus. He goes up by Bethany and the Mount of Olives and weeps over the city.", "Named stops in order"]
+        ],
+        "24": [
+          ["to-bethany", "Jesus leads them out to Bethany", "journey", "jerusalem>bethany", "50", "Jesus leads the disciples out as far as Bethany and blesses them.", "Narrated walk"]
+        ]
+      }
+    },
+    "john": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["jordan-galilee", "From the Jordan to Galilee", "journey", "jordan>galilee", "28-43", "John baptizes at Bethany beyond the Jordan. The next day Jesus decides to go into Galilee.", "Regions named; towns not given"]
+        ],
+        "2": [
+          ["cana-jerusalem", "From Cana to Jerusalem", "journey", "cana>capernaum>jerusalem", "1-13", "Jesus is at a wedding in Cana. He goes down to Capernaum and then up to Jerusalem for the Passover.", "Named stops in order"]
+        ],
+        "4": [
+          ["judea-galilee", "Through Samaria to Galilee", "journey", "jerusalem>sychar>cana", "3-46", "Jesus leaves Judea and passes through Samaria. He stops at Sychar and comes again to Cana. Jerusalem stands for Judea here.", "Named stops; Judea is a region"]
+        ],
+        "5": [
+          ["feast-jerusalem", "Up to Jerusalem for a feast", "journey", "galilee>jerusalem", "1", "Jesus goes up to Jerusalem for a feast of the Jews.", "Narrated journey; starting town not given"]
+        ],
+        "7": [
+          ["feast-secret", "Up to the feast in secret", "journey", "galilee>jerusalem", "9-10", "Jesus stays in Galilee while his brothers go up. Then he goes up to the feast in secret.", "Narrated journey; road not given"]
+        ],
+        "10": [
+          ["beyond-jordan", "Jesus goes beyond the Jordan", "journey", "jerusalem>jordan", "40", "Jesus goes away beyond the Jordan to the place where John first baptized.", "Narrated journey; place not fixed"]
+        ],
+        "11": [
+          ["to-bethany", "Jesus comes to Bethany", "journey", "jordan>bethany", "6-18", "Jesus waits two days after he hears Lazarus is sick. Then he goes to Bethany, near Jerusalem.", "Narrated journey; starting place not fixed"]
+        ],
+        "12": [
+          ["bethany-jerusalem", "From Bethany into Jerusalem", "journey", "bethany>jerusalem", "1-13", "Jesus comes to Bethany six days before the Passover. The next day a crowd meets him as he comes to Jerusalem.", "Named stops in order"]
+        ]
+      }
+    },
+    "genesis": {
+      "places": {
+
+      },
+      "routes": {
+        "16": [
+          ["hagar-flees", "Hagar flees from Sarai", "flight", "hebron>beer-lahai-roi", "6-14", "Sarai treats Hagar harshly, and Hagar flees. The LORD’s angel finds her at a spring in the wilderness.", "Narrated escape; camp from Genesis 13:18"]
+        ],
+        "20": [
+          ["to-gerar", "Abraham moves to Gerar", "journey", "hebron>gerar", "1", "Abraham travels toward the South and lives as a foreigner in Gerar.", "Narrated move; camp from Genesis 18:1"]
+        ],
+        "26": [
+          ["gerar-beersheba", "Isaac from Gerar to Beersheba", "journey", "gerar>beersheba", "1-23", "Isaac goes to Gerar in a famine. Herdsmen fight over his wells, and he goes up to Beersheba.", "Named stops in order"]
+        ],
+        "32": [
+          ["mahanaim-penuel", "From Mahanaim to Peniel", "journey", "mahanaim>penuel", "2-30", "Jacob meets God’s angels and names the place Mahanaim. He wrestles by night and names that place Peniel.", "Named stops in order"]
+        ],
+        "38": [
+          ["judah-timnah", "Judah goes to Adullam and Timnah", "journey", "adullam>timnah", "1-12", "Judah goes down to an Adullamite named Hirah. Later he goes up with Hirah to his sheep shearers at Timnah.", "Named stops in order"]
+        ],
+        "42": [
+          ["brothers-egypt", "Ten brothers go down to Egypt", "journey", "canaan>egypt", "3-5", "Jacob sends ten sons to buy grain in Egypt. Benjamin stays at home.", "Regions named; towns not given"]
+        ],
+        "45": [
+          ["brothers-return", "The brothers return with wagons", "journey", "egypt>canaan", "21-25", "Joseph gives his brothers wagons and food for the road. They go up to Jacob in Canaan.", "Regions named; towns not given"]
+        ]
+      }
+    },
+    "exodus": {
+      "places": {
+
+      },
+      "routes": {
+        "3": [
+          ["flock-horeb", "Moses leads the flock to Horeb", "journey", "midian>horeb", "1", "Moses keeps Jethro’s flock in Midian. He leads it to the far side of the wilderness and comes to Horeb.", "Narrated journey; mountain site uncertain"]
+        ],
+        "14": [
+          ["turn-to-sea", "Israel turns back to the sea", "journey", "etham>sea-region", "2-22", "God tells Israel to turn back and camp by the sea. Pharaoh’s army comes after them, and Israel crosses on dry ground.", "Narrated journey; crossing site uncertain"]
+        ],
+        "15": [
+          ["sea-elim", "From the sea to Marah and Elim", "journey", "sea-region>marah>elim", "22-27", "Moses leads Israel three days without water. Marah’s water is bitter. At Elim they find twelve springs.", "Named camps; sites uncertain"]
+        ],
+        "16": [
+          ["elim-sin", "From Elim to the wilderness of Sin", "journey", "elim>wilderness-sin", "1", "Israel travels from Elim to the wilderness of Sin, between Elim and Sinai.", "Named camps; sites uncertain"]
+        ],
+        "17": [
+          ["sin-rephidim", "From the wilderness of Sin to Rephidim", "journey", "wilderness-sin>rephidim", "1", "Israel travels by stages and camps at Rephidim. There is no water to drink.", "Named camps; sites uncertain"]
+        ],
+        "19": [
+          ["rephidim-sinai", "From Rephidim to Sinai", "journey", "rephidim>sinai", "1-2", "Israel leaves Rephidim and camps in the wilderness before the mountain.", "Named camps; sites uncertain"]
+        ]
+      }
+    },
+    "numbers": {
+      "places": {
+
+      },
+      "routes": {
+        "13": [
+          ["spies", "The spies go up to Hebron", "journey", "kadesh>hebron", "17-26", "Moses sends twelve men up through the South. They come to Hebron and return to Kadesh after forty days.", "Narrated journey; Kadesh site proposed"]
+        ],
+        "20": [
+          ["edom-request", "Messengers to the king of Edom", "diplomacy", "kadesh>edom", "14-21", "Moses sends messengers from Kadesh to ask for passage. Edom refuses, and Israel turns away.", "Narrated message; Edom is a region"]
+        ],
+        "21": [
+          ["around-edom", "Around Edom to Moab", "journey", "edom>moab", "4-20", "Israel travels by the way to the Red Sea to go around Edom. The camps lead to the valley in the field of Moab.", "Narrated journey; camps not plotted"],
+          ["sihon-og", "Against Heshbon and Bashan", "military", "moab>heshbon>bashan", "21-35", "Sihon refuses passage and fights. Israel takes Heshbon, then goes up the way of Bashan and defeats Og.", "Narrated war; regions named"]
+        ]
+      }
+    },
+    "deuteronomy": {
+      "places": {
+
+      },
+      "routes": {
+        "2": [
+          ["past-edom", "Past Edom and Moab to Heshbon", "journey", "edom>moab>heshbon", "8-24", "Moses recalls how Israel passed by Seir and the wilderness of Moab. God then told them to cross the Arnon against Sihon.", "Recalled journey; regions named"]
+        ],
+        "3": [
+          ["to-bashan", "Up the way to Bashan", "military", "heshbon>bashan", "1-3", "Moses recalls that Israel went up the way to Bashan. Og came out to battle at Edrei and was defeated.", "Recalled war; regions named"]
+        ],
+        "34": [
+          ["moab-nebo", "Moses goes up Mount Nebo", "journey", "moab>nebo", "1", "Moses goes up from the plains of Moab to Mount Nebo. The LORD shows him the land.", "Narrated climb; summit traditional"]
+        ]
+      }
+    },
+    "joshua": {
+      "places": {
+
+      },
+      "routes": {
+        "2": [
+          ["spies-jericho", "Two spies go to Jericho", "journey", "shittim>jericho", "1", "Joshua secretly sends two men from Shittim. They come to Rahab’s house in Jericho.", "Narrated mission"]
+        ],
+        "7": [
+          ["jericho-ai", "Men go up from Jericho to Ai", "military", "jericho>ai", "2-5", "Joshua sends men from Jericho to spy out Ai. About three thousand go up, and the men of Ai drive them back.", "Narrated attack; Ai site traditional"]
+        ],
+        "8": [
+          ["ai-ebal", "From Ai to Mount Ebal", "journey", "ai>ebal", "28-33", "Joshua burns Ai. Then he builds an altar on Mount Ebal and reads the law to all Israel.", "Named stops in order"]
+        ],
+        "9": [
+          ["gibeon-gilgal", "The Gibeonites come to Gilgal", "diplomacy", "gibeon>gilgal", "3-6", "The people of Gibeon dress as travelers from far away. They come to the camp at Gilgal and ask for a covenant.", "Narrated embassy"]
+        ]
+      }
+    },
+    "judges": {
+      "places": {
+
+      },
+      "routes": {
+        "7": [
+          ["midian-flees", "Midian flees toward the Jordan", "flight", "jezreel>jordan", "22-25", "The trumpets sound, and the camp turns on itself and flees. Ephraim seizes the waters as far as the Jordan.", "Narrated rout; towns not plotted"]
+        ],
+        "9": [
+          ["to-thebez", "Abimelech goes on to Thebez", "military", "shechem>thebez", "45-50", "Abimelech destroys Shechem. Then he goes to Thebez and camps against it.", "Narrated attack"]
+        ],
+        "11": [
+          ["against-ammon", "Jephthah crosses to Ammon", "military", "gilead>ammon", "29-32", "Jephthah passes through Gilead and Manasseh. He crosses to the children of Ammon to fight them.", "Narrated war; regions named"]
+        ],
+        "14": [
+          ["down-to-timnah", "Samson goes down to Timnah", "journey", "zorah>timnah", "1-5", "Samson sees a Philistine woman in Timnah. He goes down again with his father and mother.", "Narrated journey; home from Judges 13:25"],
+          ["to-ashkelon", "Samson goes down to Ashkelon", "military", "timnah>ashkelon", "19", "Samson goes down to Ashkelon and strikes thirty men. He pays the riddle debt with their clothes.", "Narrated raid"]
+        ],
+        "16": [
+          ["gaza-gates", "Samson carries off Gaza’s gate", "journey", "gaza>hebron", "1-3", "Samson pulls up the doors of Gaza’s gate at midnight. He carries them to the top of the mountain before Hebron.", "Narrated feat"],
+          ["sorek-gaza", "Samson is taken to Gaza", "exile", "sorek>gaza", "4-21", "Samson loves Delilah in the valley of Sorek. The Philistines seize him, blind him, and bring him down to Gaza.", "Narrated capture"]
+        ],
+        "20": [
+          ["mizpah-gibeah", "Israel marches on Gibeah", "military", "mizpah>gibeah", "1-20", "All Israel gathers at Mizpah and hears the Levite. They camp against Gibeah.", "Narrated war"],
+          ["rimmon-flight", "Benjamin flees to the rock of Rimmon", "flight", "gibeah>rimmon-rock", "45-47", "The men of Benjamin turn and flee toward the wilderness. Six hundred stay at the rock of Rimmon four months.", "Narrated escape"]
+        ],
+        "21": [
+          ["jabesh-shiloh", "Captives brought to Shiloh", "exile", "jabesh-gilead>shiloh", "8-12", "Israel strikes Jabesh Gilead for staying away. They bring four hundred young women to the camp at Shiloh.", "Narrated capture"]
+        ]
+      }
+    },
+    "1-samuel": {
+      "places": {
+
+      },
+      "routes": {
+        "13": [
+          ["gilgal-gibeah", "Samuel leaves Gilgal for Gibeah", "journey", "gilgal>gibeah", "15", "Samuel rebukes Saul for the offering. He goes up from Gilgal to Gibeah of Benjamin.", "Narrated journey; sites uncertain"]
+        ],
+        "15": [
+          ["carmel-gilgal", "Saul goes by Carmel to Gilgal", "journey", "carmel-judah>gilgal", "12", "Saul sets up a monument for himself at Carmel. Then he goes down to Gilgal, where Samuel meets him.", "Named stops in order"]
+        ],
+        "28": [
+          ["saul-endor", "Saul goes to Endor by night", "journey", "gilboa>endor", "4-8", "Saul camps at Gilboa and fears the Philistines at Shunem. He disguises himself and goes to a woman at Endor.", "Narrated journey; sites broad"]
+        ]
+      }
+    },
+    "2-samuel": {
+      "places": {
+
+      },
+      "routes": {
+        "4": [
+          ["head-to-hebron", "Ishbosheth’s killers go to Hebron", "journey", "mahanaim>hebron", "5-8", "Rechab and Baanah kill Ishbosheth in his house. They travel all night and bring his head to David at Hebron.", "Narrated journey; house place from 2 Samuel 2:8"]
+        ],
+        "10": [
+          ["envoys-rabbah", "David’s envoys are shamed", "diplomacy", "jerusalem>rabbah>jericho", "2-5", "David sends servants to comfort Hanun of Ammon. Hanun shames them, and David tells them to wait at Jericho.", "Narrated embassy; Rabbah from 2 Samuel 11:1"]
+        ],
+        "11": [
+          ["uriah-letter", "Uriah carries the letter to Joab", "diplomacy", "jerusalem>rabbah", "14-15", "David writes to Joab and sends the letter by Uriah. It orders Uriah set where the fighting is hardest.", "Narrated message"]
+        ],
+        "12": [
+          ["david-rabbah", "David goes to take Rabbah", "military", "jerusalem>rabbah", "26-31", "Joab takes the city’s water supply and sends for David. David gathers the people, goes to Rabbah, and takes it.", "Narrated war"]
+        ],
+        "14": [
+          ["absalom-returns", "Joab brings Absalom from Geshur", "journey", "geshur>jerusalem", "23", "Joab goes to Geshur and brings Absalom to Jerusalem. The king still refuses to see him.", "Narrated journey; Geshur is a region"]
+        ],
+        "24": [
+          ["census-circuit", "Joab’s census circuit", "journey", "jordan>gilead>dan>sidon>tyre>beersheba>jerusalem", "5-8", "Joab’s men cross the Jordan and go through Gilead to Dan. They turn by Sidon and Tyre to Beersheba. They return to Jerusalem after nine months and twenty days.", "Named stops in order"]
+        ]
+      }
+    },
+    "1-kings": {
+      "places": {
+
+      },
+      "routes": {
+        "3": [
+          ["solomon-gibeon", "Solomon goes to Gibeon", "journey", "jerusalem>gibeon", "4-15", "Solomon goes to the great high place at Gibeon to sacrifice. God speaks to him in a dream, and he returns to Jerusalem.", "Narrated journey"]
+        ],
+        "15": [
+          ["asa-damascus", "Asa sends treasure to Damascus", "diplomacy", "jerusalem>damascus", "18-20", "Asa sends the temple’s silver and gold to Ben Hadad in Damascus. He asks him to break his treaty with Baasha.", "Narrated gift"]
+        ],
+        "16": [
+          ["omri-samaria", "Omri moves the capital to Samaria", "journey", "tirzah>samaria", "23-24", "Omri reigns six years in Tirzah. Then he buys the hill of Samaria and builds a city on it.", "Narrated move"]
+        ]
+      }
+    },
+    "2-kings": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["ekron-messengers", "Ahaziah sends to Ekron", "diplomacy", "samaria>ekron", "2-5", "Ahaziah falls and sends messengers to ask the god of Ekron. Elijah meets them, and they turn back.", "Narrated errand; turned back"]
+        ],
+        "4": [
+          ["shunem-carmel", "The Shunammite rides to Carmel", "journey", "shunem>carmel", "22-25", "Her son dies, and she saddles a donkey. She rides to the man of God at Mount Carmel.", "Narrated journey; sites proposed"]
+        ],
+        "6": [
+          ["dothan-samaria", "Elisha leads an army to Samaria", "journey", "dothan>samaria", "13-20", "Aram’s king sends an army to seize Elisha at Dothan. The men are struck blind, and Elisha leads them to Samaria.", "Narrated journey; Dothan site proposed"]
+        ],
+        "10": [
+          ["jehu-samaria", "Jehu goes from Jezreel to Samaria", "military", "jezreel>samaria", "12-17", "Jehu leaves Jezreel and kills Ahaziah’s relatives on the way. In Samaria he destroys all who remain of Ahab’s house.", "Narrated journey"]
+        ],
+        "12": [
+          ["hazael-jerusalem", "Hazael takes Gath and turns to Jerusalem", "military", "gath>jerusalem", "17-18", "Hazael of Aram takes Gath and sets his face toward Jerusalem. Joash sends him the temple’s treasures, and he leaves.", "Narrated threat; no attack on Jerusalem"]
+        ],
+        "15": [
+          ["north-exiled", "Assyria deports the north", "exile", "galilee>assyria", "29", "Tiglath Pileser takes Gilead, Galilee, and all Naphtali. He carries the people captive to Assyria.", "Narrated deportation; regions named"]
+        ],
+        "17": [
+          ["samaria-exiled", "Israel is carried to Assyria", "exile", "samaria>assyria", "5-6", "Assyria’s king besieges Samaria three years and takes it. He carries Israel away to Assyria.", "Narrated deportation; towns not plotted"]
+        ],
+        "18": [
+          ["lachish-jerusalem", "An Assyrian army comes from Lachish", "military", "lachish>jerusalem", "17", "The king of Assyria sends his officers from Lachish with a great army. They stand by the upper pool and call to Hezekiah’s men.", "Narrated march; road not named"]
+        ],
+        "20": [
+          ["babylon-envoys", "Babylon’s envoys visit Hezekiah", "diplomacy", "babylon>jerusalem", "12-13", "Berodach Baladan sends letters and a present to Hezekiah. Hezekiah shows the envoys all his treasures.", "Narrated embassy"]
+        ],
+        "23": [
+          ["josiah-megiddo", "Josiah goes out to Megiddo", "military", "jerusalem>megiddo", "29-30", "Pharaoh Necoh marches toward the Euphrates, and Josiah goes against him. Necoh kills him at Megiddo, and his servants carry him to Jerusalem.", "Narrated battle"],
+          ["jehoahaz-egypt", "Jehoahaz is taken to Egypt", "exile", "jerusalem>riblah>egypt", "33-34", "Necoh puts Jehoahaz in bonds at Riblah. He takes him to Egypt, and Jehoahaz dies there.", "Narrated capture; place in Egypt not named"]
+        ]
+      }
+    },
+    "1-chronicles": {
+      "places": {
+
+      },
+      "routes": {
+        "10": [
+          ["jabesh-rescue", "Jabesh Gilead brings back the bodies", "journey", "gilboa>jabesh-gilead", "8-12", "The Philistines strip Saul and his sons on Gilboa. The men of Jabesh Gilead take the bodies and bury them at Jabesh.", "Narrated journey; sites broad"]
+        ],
+        "11": [
+          ["to-jerusalem", "David goes up to Jerusalem", "military", "hebron>jerusalem", "3-5", "Israel’s elders anoint David at Hebron. David and all Israel go to Jerusalem and take the stronghold of Zion.", "Narrated march"],
+          ["bethlehem-well", "Three men fetch water from Bethlehem", "military", "adullam>bethlehem", "15-18", "David longs for water from the well at Bethlehem. Three men break through the Philistine army and bring it to him.", "Narrated raid; cave site broad"]
+        ],
+        "12": [
+          ["ziklag-hebron", "Fighters gather at Ziklag and Hebron", "journey", "ziklag>hebron", "1-23", "Men join David at Ziklag while he hides from Saul. Later the armed tribes come to Hebron to make him king.", "Named gathering places; Ziklag site uncertain"]
+        ],
+        "13": [
+          ["ark-first-try", "The ark sets out from Kiriath Jearim", "journey", "kiriath-jearim>jerusalem", "5-13", "David gathers Israel to bring the ark from Kiriath Jearim. Uzza dies, and David leaves the ark at Obed-Edom’s house.", "Narrated journey; it stops short of the city"]
+        ],
+        "14": [
+          ["gibeon-gezer", "David strikes from Gibeon to Gezer", "military", "gibeon>gezer", "13-16", "The Philistines raid the valley again. David attacks as God commands and strikes them from Gibeon to Gezer.", "Narrated pursuit"]
+        ],
+        "19": [
+          ["envoys-rabbah", "David’s envoys are shamed", "diplomacy", "jerusalem>rabbah>jericho", "2-5", "David sends messengers to comfort Hanun of Ammon. Hanun shames them, and David tells them to stay at Jericho.", "Narrated embassy; Rabbah from 1 Chronicles 20:1"]
+        ],
+        "20": [
+          ["joab-rabbah", "Joab besieges Rabbah", "military", "jerusalem>rabbah", "1-3", "Joab leads out the army and besieges Rabbah. David stays at Jerusalem, and Joab strikes the city.", "Narrated war"]
+        ],
+        "21": [
+          ["census", "Joab counts Israel", "journey", "beersheba>dan>jerusalem", "2-4", "David orders a count from Beersheba to Dan. Joab goes through all Israel and comes back to Jerusalem.", "Named limits; route not given"]
+        ]
+      }
+    },
+    "2-chronicles": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["solomon-gibeon", "Solomon goes to Gibeon", "journey", "jerusalem>gibeon", "3-13", "Solomon and the assembly go to the high place at Gibeon. God appears to him by night, and he returns to Jerusalem.", "Narrated journey"]
+        ],
+        "2": [
+          ["timber-rafts", "Timber from Lebanon by Joppa", "journey", "lebanon>joppa>jerusalem", "16", "Huram promises to cut wood in Lebanon. Rafts will bring it by sea to Joppa, and Solomon will carry it up.", "Promised delivery"]
+        ],
+        "9": [
+          ["sheba-visit", "The queen of Sheba comes to Jerusalem", "diplomacy", "sheba>jerusalem", "1-12", "The queen comes with a great caravan to test Solomon with hard questions. She gives gifts and returns to her land.", "Narrated visit; Sheba is a broad region"]
+        ],
+        "10": [
+          ["rehoboam-flees", "Rehoboam flees to Jerusalem", "flight", "shechem>jerusalem", "16-18", "Israel rejects Rehoboam at Shechem and stones his labor chief. Rehoboam hurries into his chariot and flees to Jerusalem.", "Narrated escape"]
+        ],
+        "12": [
+          ["shishak", "Shishak comes up against Jerusalem", "military", "egypt>jerusalem", "2-9", "Shishak of Egypt takes Judah’s walled cities and comes to Jerusalem. He carries off the treasures of temple and palace.", "Narrated invasion; road not named"]
+        ],
+        "14": [
+          ["zerah-pursuit", "Asa pursues to Gerar", "military", "mareshah>gerar", "9-14", "Zerah the Ethiopian comes to Mareshah with a great army. Asa prays, and his men pursue them to Gerar.", "Narrated pursuit"]
+        ],
+        "16": [
+          ["asa-damascus", "Asa sends treasure to Damascus", "diplomacy", "jerusalem>damascus", "2-4", "Asa sends silver and gold to Ben Hadad at Damascus. He asks him to break his treaty with Baasha.", "Narrated gift"]
+        ],
+        "18": [
+          ["ramoth-campaign", "Two kings go up to Ramoth Gilead", "military", "jerusalem>samaria>ramoth-gilead", "2-28", "Jehoshaphat goes down to Ahab at Samaria. Micaiah warns them, but both kings go up to Ramoth Gilead.", "Narrated campaign; Ramoth site disputed"]
+        ],
+        "20": [
+          ["to-tekoa", "Judah goes out toward Tekoa", "military", "jerusalem>tekoa", "20-24", "Judah goes out early into the wilderness of Tekoa with singers in front. They find the enemy already dead.", "Narrated march"]
+        ],
+        "25": [
+          ["amaziah-captured", "Amaziah is brought to Jerusalem", "military", "beth-shemesh>jerusalem", "21-23", "Joash of Israel defeats Amaziah at Beth Shemesh. He brings him to Jerusalem and breaks down part of its wall.", "Narrated capture"]
+        ],
+        "28": [
+          ["captives-samaria", "Captives are taken to Samaria", "exile", "jerusalem>samaria", "8", "Israel carries off two hundred thousand women and children of Judah. They bring the plunder to Samaria.", "Narrated capture; Jerusalem stands for Judah"],
+          ["captives-jericho", "The captives are returned at Jericho", "restoration", "samaria>jericho", "9-15", "The prophet Oded tells Israel to send the captives back. Named men clothe and feed them and bring them to Jericho.", "Narrated return"]
+        ],
+        "30": [
+          ["passover-letters", "Couriers carry the Passover letters", "diplomacy", "jerusalem>dan", "5-10", "Hezekiah sends couriers through all Israel, from Beersheba to Dan. Many in the north laugh at them.", "Narrated message; Dan marks the northern limit"]
+        ],
+        "32": [
+          ["lachish-envoys", "Sennacherib sends from Lachish", "military", "lachish>jerusalem", "9-19", "Sennacherib attacks Lachish and sends servants to Jerusalem. They shout to the people on the wall in their own language.", "Narrated mission; road not named"]
+        ],
+        "33": [
+          ["manasseh-taken", "Manasseh is carried to Babylon", "exile", "jerusalem>babylon", "11", "Assyrian captains take Manasseh in chains and carry him to Babylon.", "Narrated capture"],
+          ["manasseh-back", "Manasseh is brought back", "restoration", "babylon>jerusalem", "12-13", "Manasseh humbles himself and prays. God brings him again to Jerusalem, into his kingdom.", "Narrated return"]
+        ],
+        "35": [
+          ["josiah-megiddo", "Josiah goes out to Megiddo", "military", "jerusalem>megiddo", "20-24", "Neco of Egypt marches toward Carchemish, and Josiah goes out against him. Archers wound Josiah at Megiddo, and his servants bring him to Jerusalem.", "Narrated battle"]
+        ],
+        "36": [
+          ["exile", "Judah is carried to Babylon", "exile", "jerusalem>babylon", "6-20", "Nebuchadnezzar takes kings, vessels, and people to Babylon in stages. The Chaldeans burn the temple and break down the wall.", "Narrated deportations"],
+          ["cyrus-call", "Cyrus calls the people to go up", "restoration", "babylon>jerusalem", "22-23", "Cyrus of Persia says God has told him to build a house in Jerusalem. He invites God’s people to go up.", "Proclaimed return; journey not narrated"]
+        ]
+      }
+    },
+    "ezra": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["first-return", "The captives go up from Babylon", "restoration", "babylon>jerusalem", "3-11", "Cyrus lets the people go up to rebuild the house. Sheshbazzar brings up the temple vessels with them.", "Narrated return; road not named"]
+        ],
+        "2": [
+          ["register-return", "The listed families return", "restoration", "babylon>jerusalem", "1", "The list names those who came up from the captivity. They return to Jerusalem and Judah, each to his city.", "Narrated return; road not named"]
+        ],
+        "3": [
+          ["cedar", "Cedar from Lebanon by Joppa", "journey", "lebanon>joppa>jerusalem", "7", "The builders pay Sidon and Tyre to bring cedar from Lebanon. It comes by sea to Joppa.", "Narrated delivery"]
+        ],
+        "5": [
+          ["letter-to-darius", "A letter asks for a search", "diplomacy", "jerusalem>babylon", "6-17", "Governor Tattenai writes to Darius about the building. He asks for a search of the royal archives at Babylon.", "Narrated letter; the king’s seat is not named"]
+        ],
+        "7": [
+          ["ezra-journey", "Ezra goes up from Babylon", "restoration", "babylon>jerusalem", "6-9", "Ezra leaves Babylon on the first day of the first month. He reaches Jerusalem on the first day of the fifth month.", "Narrated journey; road not named"]
+        ],
+        "8": [
+          ["ahava-jerusalem", "From the Ahava camp to Jerusalem", "restoration", "babylon>jerusalem", "15-32", "Ezra gathers the group by the river Ahava and fasts for a safe road. They carry the temple gifts to Jerusalem.", "Narrated journey; Ahava not located"]
+        ]
+      }
+    },
+    "nehemiah": {
+      "places": {
+
+      },
+      "routes": {
+        "2": [
+          ["susa-jerusalem", "Nehemiah goes to Jerusalem", "journey", "susa>jerusalem", "5-11", "The king gives Nehemiah letters and an escort. He comes to Jerusalem and waits three days.", "Narrated journey; road not named"]
+        ],
+        "13": [
+          ["second-return", "Nehemiah comes back to Jerusalem", "journey", "babylon>jerusalem", "6-7", "Nehemiah had gone to Artaxerxes, whom the text calls king of Babylon. He returns and finds Tobiah housed in the temple.", "Narrated journey; court city not named"]
+        ]
+      }
+    },
+    "esther": {
+      "places": {
+
+      },
+      "routes": {
+        "2": [
+          ["mordecai-exile", "Mordecai’s family in the exile", "exile", "jerusalem>babylon", "5-6", "The text says Mordecai’s family was carried from Jerusalem with King Jeconiah. Nebuchadnezzar took them away.", "Recalled deportation"]
+        ]
+      }
+    },
+    "jeremiah": {
+      "places": {
+
+      },
+      "routes": {
+        "24": [
+          ["jeconiah-exile", "Jeconiah’s exile to Babylon", "exile", "jerusalem>babylon", "1", "Nebuchadnezzar carries King Jeconiah, the princes, and the craftsmen from Jerusalem to Babylon. The fig vision follows.", "Narrated deportation"]
+        ],
+        "26": [
+          ["uriah-egypt", "Uriah flees to Egypt", "flight", "jerusalem>egypt", "20-23", "Uriah prophesies like Jeremiah, and the king seeks his life. He flees to Egypt, but the king’s men bring him back and kill him.", "Narrated escape; place in Egypt not named"]
+        ],
+        "37": [
+          ["pharaoh-army", "Pharaoh’s army comes out", "military", "egypt>jerusalem", "5-8", "Pharaoh’s army leaves Egypt, and the Chaldeans lift the siege. Jeremiah says that army will go home.", "Narrated advance; it does not reach the city"]
+        ],
+        "41": [
+          ["mizpah-captives", "Ishmael carries off the people of Mizpah", "exile", "mizpah>gibeon", "10-14", "Ishmael takes everyone left at Mizpah and heads for Ammon. Johanan overtakes him at the great waters in Gibeon.", "Narrated capture"],
+          ["to-bethlehem", "The rescued group camps near Bethlehem", "journey", "gibeon>bethlehem", "16-18", "Johanan leads the rescued people to Geruth Chimham by Bethlehem. They mean to go on to Egypt.", "Narrated journey; camp is near Bethlehem"]
+        ],
+        "43": [
+          ["to-tahpanhes", "The survivors go to Tahpanhes", "journey", "bethlehem>tahpanhes", "5-7", "Johanan takes the whole remnant, with Jeremiah and Baruch, into Egypt. They come to Tahpanhes.", "Narrated journey; camp from Jeremiah 41:17"]
+        ],
+        "46": [
+          ["necoh-carchemish", "Egypt’s army at Carchemish", "military", "egypt>carchemish", "2", "Pharaoh Necoh’s army stands by the Euphrates at Carchemish. Nebuchadnezzar strikes it there.", "Narrated battle site; march not described"]
+        ]
+      }
+    },
+    "ezekiel": {
+      "places": {
+
+      },
+      "routes": {
+        "8": [
+          ["vision-jerusalem", "A vision carries Ezekiel to Jerusalem", "journey", "babylon>jerusalem", "1-3", "Ezekiel sits in his house among the exiles. The Spirit lifts him and brings him in visions to Jerusalem.", "Vision; not a physical journey"]
+        ],
+        "17": [
+          ["king-taken", "Babylon takes Jerusalem’s king", "exile", "jerusalem>babylon", "12-14", "The riddle is explained. The king of Babylon came to Jerusalem and took its king and princes to Babylon.", "Explained riddle"],
+          ["envoys-egypt", "Envoys go to Egypt for horses", "diplomacy", "jerusalem>egypt", "15", "The new king rebels and sends ambassadors to Egypt. He asks for horses and many people.", "Explained riddle"]
+        ],
+        "19": [
+          ["lion-egypt", "The first young lion goes to Egypt", "exile", "jerusalem>egypt", "3-4", "The lament pictures a prince as a young lion. The nations trap him and bring him with hooks to Egypt.", "Lament image; the prince is not named"],
+          ["lion-babylon", "The second young lion goes to Babylon", "exile", "jerusalem>babylon", "5-9", "A second young lion is caged. They bring him to the king of Babylon so his voice is heard no more.", "Lament image; the prince is not named"]
+        ],
+        "21": [
+          ["two-ways", "The sword at the fork in the road", "military", "babylon>jerusalem", "19-22", "Ezekiel marks two roads for Babylon’s king, to Rabbah and to Jerusalem. The lot in his right hand falls on Jerusalem.", "Sign act; road chosen by lot"]
+        ],
+        "26": [
+          ["against-tyre", "Nebuchadnezzar comes against Tyre", "military", "babylon>tyre", "7-11", "God says he will bring Nebuchadnezzar on Tyre from the north. Horses, chariots, and siege works follow.", "Prophetic attack"]
+        ],
+        "30": [
+          ["against-egypt", "Babylon’s king against Egypt", "military", "babylon>egypt", "10-11", "God says Nebuchadnezzar will end the multitude of Egypt. He and his people will be brought in to destroy the land.", "Prophetic attack"]
+        ],
+        "33": [
+          ["fugitive", "A fugitive brings news of the fall", "flight", "jerusalem>babylon", "21", "A man who escaped from Jerusalem reaches Ezekiel among the exiles. He says the city has been struck.", "Narrated arrival; Babylon stands for the exile community"]
+        ]
+      }
+    },
+    "daniel": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["first-captives", "Young nobles are taken to Babylon", "exile", "jerusalem>babylon", "1-6", "Nebuchadnezzar besieges Jerusalem and takes temple vessels to the land of Shinar. He orders young nobles brought to his court.", "Narrated deportation"]
+        ]
+      }
+    },
+    "romans": {
+      "places": {
+
+      },
+      "routes": {
+        "15": [
+          ["plan-rome", "Paul’s plan: Jerusalem, then Rome", "journey", "jerusalem>rome", "25-28", "Paul says he is going to Jerusalem with a gift for the saints. After that he plans to visit Rome on the way to Spain.", "Stated plan; Spain is not plotted"]
+        ]
+      }
+    },
+    "1-corinthians": {
+      "places": {
+
+      },
+      "routes": {
+        "16": [
+          ["plan-corinth", "Paul’s plan to come to Corinth", "journey", "ephesus>corinth", "5-8", "Paul will stay at Ephesus until Pentecost. Then he will pass through Macedonia and come to Corinth.", "Stated plan; Macedonian towns not named"],
+          ["gift-jerusalem", "The gift for Jerusalem", "diplomacy", "corinth>jerusalem", "3-4", "Paul will send approved people with letters to carry the gift to Jerusalem. He may go with them.", "Stated plan"]
+        ]
+      }
+    },
+    "galatians": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["damascus-jerusalem", "From Damascus up to Jerusalem", "journey", "damascus>jerusalem", "17-18", "Paul says he went away into Arabia and returned to Damascus. After three years he went up to Jerusalem to visit Peter.", "Recalled journey; Arabia is not plotted"]
+        ],
+        "2": [
+          ["antioch-jerusalem", "Up to Jerusalem with Barnabas and Titus", "journey", "antioch-syria>jerusalem", "1-2", "After fourteen years Paul goes up again to Jerusalem with Barnabas and Titus. He lays his message before the leaders.", "Recalled journey; starting city from Galatians 2:11"]
+        ]
+      }
+    },
+    "1-thessalonians": {
+      "places": {
+
+      },
+      "routes": {
+        "3": [
+          ["timothy-sent", "Timothy is sent from Athens", "diplomacy", "athens>thessalonica", "1-6", "Paul stays behind at Athens and sends Timothy to strengthen the Thessalonians. Timothy comes back with good news of their faith.", "Recalled mission"]
+        ]
+      }
+    },
+    "revelation": {
+      "places": {
+
+      },
+      "routes": {
+        "1": [
+          ["seven-assemblies", "The book goes to seven assemblies", "diplomacy", "patmos>ephesus>smyrna>pergamum>thyatira>sardis>philadelphia>laodicea", "9-11", "John is on the island of Patmos. A voice tells him to write what he sees and send it to seven assemblies.", "Named order of the seven cities"]
+        ]
+      }
+    },
+    "zechariah": {
+      "places": {
+
+      },
+      "routes": {
+        "6": [
+          ["exiles-arrive", "Men arrive from Babylon", "restoration", "babylon>jerusalem", "9-11", "Three men have come from Babylon with silver and gold. Zechariah is to make crowns from it and crown Joshua the high priest.", "Narrated arrival; the house is taken to be in Jerusalem"]
+        ]
+      }
     }
   }
 }

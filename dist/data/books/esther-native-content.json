@@ -484,7 +484,7 @@
       "summary": "The king’s servants propose gathering beautiful young women for him to choose from. Mordecai, a Jew of Benjamin, lives in Susa. He has raised his orphaned cousin Esther as a daughter. Esther is taken to the palace and wins the keeper’s favor. She does not reveal her people, as Mordecai told her. After a year of preparation she goes to the king. He loves her more than the others and makes her queen. Mordecai uncovers a plot to kill the king, and it is written in the records.",
       "year": null,
       "dateLabel": "Chapter order",
-      "uncertainty": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "uncertainty": "Lines join the places Esther names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "susa",
         "jerusalem",
@@ -843,7 +843,7 @@
       "summary": "The king’s servants propose gathering beautiful young women for him to choose from. Mordecai, a Jew of Benjamin, lives in Susa. He has raised his orphaned cousin Esther as a daughter. Esther is taken to the palace and wins the keeper’s favor. She does not reveal her people, as Mordecai told her. After a year of preparation she goes to the king. He loves her more than the others and makes her queen. Mordecai uncovers a plot to kill the king, and it is written in the records.",
       "detail": "Esther gains favor while keeping her family identity concealed. Verses 8 and 16 say she “was taken.” Verse 12 requires a year of oils and perfumes. The Egyptian perfume vessel shown is far older and only a comparison. Verse 20 shows her still obeying Mordecai as queen. Mordecai’s report in verses 21–23 is recorded and not rewarded. That second hidden fact will later change the court.",
       "dateLabel": "Chapter order",
-      "uncertainty": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "uncertainty": "Lines join the places Esther names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas",
@@ -2352,14 +2352,21 @@
         "jerusalem",
         "babylon"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "esther-2-mordecai-exile",
+          "from": 0,
+          "to": 1,
+          "reference": "Esther 2:5–6"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "note": "Lines join the places Esther names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The king’s servants propose gathering beautiful young women for him to choose from. Mordecai, a Jew of Benjamin, lives in Susa. He has raised his orphaned cousin Esther as a daughter. Esther is taken to the palace and wins the keeper’s favor. She does not reveal her people, as Mordecai told her. After a year of preparation she goes to the king. He loves her more than the others and makes her queen. Mordecai uncovers a plot to kill the king, and it is written in the records.",
-      "limits": "Jerusalem and Babylon belong to the earlier family account. The palace story takes place in Susa.",
+      "limits": "Lines join the places Esther names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas",
@@ -2562,7 +2569,39 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "esther-2-mordecai-exile",
+      "title": "Mordecai’s family in the exile",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          32.54,
+          44.42
+        ]
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "chapter": 2,
+      "verse": 5,
+      "endVerse": 6,
+      "summary": "The text says Mordecai’s family was carried from Jerusalem with King Jeconiah. Nebuchadnezzar took them away.",
+      "detail": "The line joins the places Esther names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Esther names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Recalled deportation",
+      "kind": "exile",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

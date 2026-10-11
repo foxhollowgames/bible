@@ -1029,7 +1029,7 @@
       "summary": "Paul gives directions for the collection for the saints. Each should set money aside on the first day of the week. Approved people will carry the gift to Jerusalem. Paul plans to come through Macedonia and stay in Ephesus until Pentecost. He asks them to receive Timothy without fear and says Apollos will come later. He tells them to watch, stand firm, and do everything in love. He commends the household of Stephanas. He signs the greeting with his own hand.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers show the receiving church, recalled settings, and intended destinations. No exact household or journey is assigned.",
+      "uncertainty": "Lines join the places 1 Corinthians names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "ephesus"
@@ -1375,7 +1375,7 @@
       "summary": "Paul gives directions for the collection for the saints. Each should set money aside on the first day of the week. Approved people will carry the gift to Jerusalem. Paul plans to come through Macedonia and stay in Ephesus until Pentecost. He asks them to receive Timothy without fear and says Apollos will come later. He tells them to watch, stand firm, and do everything in love. He commends the household of Stephanas. He signs the greeting with his own hand.",
       "detail": "Verse 13 gives four short commands. Watch, stand firm, be courageous, be strong. Verse 14 adds a fifth: all is to be done in love. The letter dealt with parties (1:12) and lawsuits (6:6). Chapter 13 described what love does. Verse 14 applies it to “all that you do.”",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers show the receiving church, recalled settings, and intended destinations. No exact household or journey is assigned.",
+      "uncertainty": "Lines join the places 1 Corinthians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -4869,26 +4869,104 @@
       "chapter": 16,
       "focusPlaceIds": [
         "jerusalem",
-        "ephesus"
+        "ephesus",
+        "corinth"
       ],
       "placeIds": [
         "jerusalem",
-        "ephesus"
+        "ephesus",
+        "corinth"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-corinthians-16-plan-corinth",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Corinthians 16:5–8"
+        },
+        {
+          "id": "1-corinthians-16-gift-jerusalem",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Corinthians 16:3–4"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers show the receiving church, recalled settings, and intended destinations. No exact household or journey is assigned.",
+      "note": "Lines join the places 1 Corinthians names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Paul gives directions for the collection for the saints. Each should set money aside on the first day of the week. Approved people will carry the gift to Jerusalem. Paul plans to come through Macedonia and stay in Ephesus until Pentecost. He asks them to receive Timothy without fear and says Apollos will come later. He tells them to watch, stand firm, and do everything in love. He commends the household of Stephanas. He signs the greeting with his own hand.",
-      "limits": "Selected markers show the receiving church, recalled settings, and intended destinations. No exact household or journey is assigned.",
+      "limits": "Lines join the places 1 Corinthians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "1-corinthians-16-plan-corinth",
+      "title": "Paul’s plan to come to Corinth",
+      "points": [
+        [
+          37.95,
+          27.366666666666667
+        ],
+        [
+          37.9,
+          22.866666666666667
+        ]
+      ],
+      "placeIds": [
+        "ephesus",
+        "corinth"
+      ],
+      "chapter": 16,
+      "verse": 5,
+      "endVerse": 8,
+      "summary": "Paul will stay at Ephesus until Pentecost. Then he will pass through Macedonia and come to Corinth.",
+      "detail": "The line joins the places 1 Corinthians names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Corinthians names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Stated plan; Macedonian towns not named",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "1-corinthians-16-gift-jerusalem",
+      "title": "The gift for Jerusalem",
+      "points": [
+        [
+          37.9,
+          22.866666666666667
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "corinth",
+        "jerusalem"
+      ],
+      "chapter": 16,
+      "verse": 3,
+      "endVerse": 4,
+      "summary": "Paul will send approved people with letters to carry the gift to Jerusalem. He may go with them.",
+      "detail": "The line joins the places 1 Corinthians names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Corinthians names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Stated plan",
+      "kind": "diplomacy",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

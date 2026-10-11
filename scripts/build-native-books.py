@@ -86,8 +86,8 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     # Match Isaiah: generated art has no repeated credit beneath each portrait.
     # Keep licensed artwork credits and descriptive image alt text.
     write_text(D/f'book-{slug}-portraits.js',pm)
-    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.6'").replace('Isaiah',name).replace('ISA${',code+'${')
-    app=app.replace("const releaseVersion = '20261009.6';", "const releaseVersion = '20261009.6';")
+    app=native.replace("'./portraits.js'",f"'./book-{slug}-portraits.js?v=20261009.7'").replace('Isaiah',name).replace('ISA${',code+'${')
+    app=app.replace("const releaseVersion = '20261009.7';", "const releaseVersion = '20261009.7';")
     # Psalms uses three-digit publisher chapter filenames.
     if code=='PSA':app=app.replace("String(chapter).padStart(2, '0')", "String(chapter).padStart(3, '0')")
     # Added books have one complete Scripture source, not Isaiah's chapter sources.
@@ -155,6 +155,6 @@ html=(D/'index.html').read_text(encoding='utf-8')
 html=re.sub(r'  <meta (?:property="og:[^\n]+|name="twitter:[^\n]+)\n','',html)
 html=re.sub(r'  <link rel="canonical"[^\n]+\n','',html)
 html=html.replace('<title>Isaiah Study Guide</title>','<title>Bible Study Guide</title>').replace('<b>ISAIAH<small>STUDY GUIDE</small></b>','<b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b>')
-html=html.replace('app.js?v=20261009.6','native-book.js?v=20261009.6')
+html=html.replace('app.js?v=20261009.7','native-book.js?v=20261009.7')
 html=html.replace('<span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span>','')
 write_text(D/'book.html',html)

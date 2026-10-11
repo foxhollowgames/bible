@@ -754,7 +754,7 @@
       "summary": "The book calls itself a revelation of Jesus Christ, sent to John. John writes to seven assemblies in Asia. He was on the island of Patmos because of God’s word. On the Lord’s day he hears a voice like a trumpet. He sees one like a son of man among seven golden lampstands. His eyes are like fire, and a sharp sword comes from his mouth. John falls at his feet like a dead man. The figure tells him to write, and says the lampstands are the seven assemblies.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the seven addressed cities and the island of Patmos. Heavenly and symbolic settings have no marker.",
+      "uncertainty": "Lines join the places Revelation names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "patmos",
         "smyrna",
@@ -1423,7 +1423,7 @@
       "summary": "The book calls itself a revelation of Jesus Christ, sent to John. John writes to seven assemblies in Asia. He was on the island of Patmos because of God’s word. On the Lord’s day he hears a voice like a trumpet. He sees one like a son of man among seven golden lampstands. His eyes are like fire, and a sharp sword comes from his mouth. John falls at his feet like a dead man. The figure tells him to write, and says the lampstands are the seven assemblies.",
       "detail": "Verse 17 shows John’s response to the vision: he falls as though dead. The speaker lays his right hand on him and says not to fear. Verses 17–18 give the reason in what the speaker says of himself. He is the first and the last, and the Living one. He was dead and is alive forever. He holds the keys of Death and Hades. Only then does verse 19 give the order to write.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the seven addressed cities and the island of Patmos. Heavenly and symbolic settings have no marker.",
+      "uncertainty": "Lines join the places Revelation names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "net-patmos",
@@ -5488,14 +5488,21 @@
         "ephesus",
         "laodicea"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "revelation-1-seven-assemblies",
+          "from": 0,
+          "to": 7,
+          "reference": "Revelation 1:9–11"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show the seven addressed cities and the island of Patmos. Heavenly and symbolic settings have no marker.",
+      "note": "Lines join the places Revelation names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The book calls itself a revelation of Jesus Christ, sent to John. John writes to seven assemblies in Asia. He was on the island of Patmos because of God’s word. On the Lord’s day he hears a voice like a trumpet. He sees one like a son of man among seven golden lampstands. His eyes are like fire, and a sharp sword comes from his mouth. John falls at his feet like a dead man. The figure tells him to write, and says the lampstands are the seven assemblies.",
-      "limits": "Markers show the seven addressed cities and the island of Patmos. Heavenly and symbolic settings have no marker.",
+      "limits": "Lines join the places Revelation names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "net-patmos",
@@ -5867,7 +5874,69 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "revelation-1-seven-assemblies",
+      "title": "The book goes to seven assemblies",
+      "points": [
+        [
+          37.3,
+          26.533333333333335
+        ],
+        [
+          37.95,
+          27.366666666666667
+        ],
+        [
+          38.45,
+          27.15
+        ],
+        [
+          39.11666666666667,
+          27.15
+        ],
+        [
+          38.916666666666664,
+          27.85
+        ],
+        [
+          38.46666666666667,
+          28.1
+        ],
+        [
+          38.333333333333336,
+          28.516666666666666
+        ],
+        [
+          37.766666666666666,
+          29.05
+        ]
+      ],
+      "placeIds": [
+        "patmos",
+        "ephesus",
+        "smyrna",
+        "pergamum",
+        "thyatira",
+        "sardis",
+        "philadelphia",
+        "laodicea"
+      ],
+      "chapter": 1,
+      "verse": 9,
+      "endVerse": 11,
+      "summary": "John is on the island of Patmos. A voice tells him to write what he sees and send it to seven assemblies.",
+      "detail": "The line joins the places Revelation names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Revelation names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Named order of the seven cities",
+      "kind": "diplomacy",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

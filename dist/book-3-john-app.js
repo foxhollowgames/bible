@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-3-john-portraits.js?v=20261009.6';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-3-john-portraits.js?v=20261009.7';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.6';
+const releaseVersion = '20261009.7';
 const chapters = Array.from({ length: 1 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };

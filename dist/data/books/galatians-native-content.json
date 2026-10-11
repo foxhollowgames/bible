@@ -518,7 +518,7 @@
       "summary": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "uncertainty": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "damascus"
@@ -550,7 +550,7 @@
       "summary": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "uncertainty": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "antioch-syria"
@@ -701,7 +701,7 @@
       "summary": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
       "detail": "Verse 11 says Paul’s good news is not of human origin. Verse 12 denies two human routes: he neither received it nor was taught it. It came through revelation of Jesus Christ. The rest of the chapter gives evidence from his movements. He did not consult anyone or go to Jerusalem (verses 16–17). His first visit came three years later and lasted fifteen days (verse 18). Verse 20 swears before God that this is no lie.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "uncertainty": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -725,7 +725,7 @@
       "summary": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
       "detail": "Verse 12 gives the facts: Peter ate with Gentiles and then withdrew in fear. Verse 13 says the other Jewish believers and Barnabas followed him. Verse 14 names the fault: not walking by the truth of the good news. Paul answers “before them all.” His question points to the gap. Peter himself had lived like a Gentile. Now his withdrawal pressed Gentiles to live like Jews.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "uncertainty": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -3357,14 +3357,21 @@
         "jerusalem",
         "damascus"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "galatians-1-damascus-jerusalem",
+          "from": 0,
+          "to": 1,
+          "reference": "Galatians 1:17–18"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "note": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Paul writes to the assemblies of Galatia as an apostle sent by Jesus Christ. He gives no thanks. He is amazed that they are turning so quickly to a different good news. He says anyone who brings another message is cursed. His message did not come from a human source. He once persecuted the assembly and advanced in Judaism. God called him, and he went to Arabia, not to Jerusalem. After three years he visited Peter for fifteen days and saw James.",
-      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "limits": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -3379,14 +3386,21 @@
         "jerusalem",
         "antioch-syria"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "galatians-2-antioch-jerusalem",
+          "from": 0,
+          "to": 1,
+          "reference": "Galatians 2:1–2"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "note": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "narrative": "After fourteen years Paul goes to Jerusalem with Barnabas and Titus. Titus, a Greek, is not forced to be circumcised. James, Peter, and John give Paul and Barnabas the right hand of fellowship. They ask only that he remember the poor. In Antioch Peter eats with Gentiles, then draws back when men come from James. Barnabas is carried along too. Paul rebukes Peter before everyone. He says a person is justified by faith in Christ, not by law.",
-      "limits": "Markers show the cities Paul names in his memories. Mount Sinai and the Jerusalem above have no point.",
+      "limits": "Lines join the places Galatians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -3461,7 +3475,70 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "galatians-1-damascus-jerusalem",
+      "title": "From Damascus up to Jerusalem",
+      "points": [
+        [
+          33.513,
+          36.292
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "damascus",
+        "jerusalem"
+      ],
+      "chapter": 1,
+      "verse": 17,
+      "endVerse": 18,
+      "summary": "Paul says he went away into Arabia and returned to Damascus. After three years he went up to Jerusalem to visit Peter.",
+      "detail": "The line joins the places Galatians names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Galatians names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Recalled journey; Arabia is not plotted",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "galatians-2-antioch-jerusalem",
+      "title": "Up to Jerusalem with Barnabas and Titus",
+      "points": [
+        [
+          36.2,
+          36.15
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "antioch-syria",
+        "jerusalem"
+      ],
+      "chapter": 2,
+      "verse": 1,
+      "endVerse": 2,
+      "summary": "After fourteen years Paul goes up again to Jerusalem with Barnabas and Titus. He lays his message before the leaders.",
+      "detail": "The line joins the places Galatians names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Galatians names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Recalled journey; starting city from Galatians 2:11",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

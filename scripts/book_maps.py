@@ -89,37 +89,45 @@ def _areas(book):
         out.append(dict(id=f"geographic:{place['id']}",placeId=place['id'],name=area['name'],points=ring,narrativeRegion=True,summary=area['summary'],sourceIds=['geo']))
     return out
 
-def _site_source(pid,place):
+def _site_source(pid,name,article,revision):
     limits='Anyone can edit this source. Use it as a place to start. The article marks the modern or excavated site.'
-    return dict(id=f'wiki-site-{pid}',title=f"{place['article']} · Wikipedia",author='Wikipedia contributors',category='Encyclopedia background',type='Encyclopedia background',
-        perspective='historical',url='https://en.wikipedia.org/wiki/'+quote(place['article'].replace(' ','_')),summary=f"The article gives the location used for {place['name']}.",
-        revisionId=place['revisionId'],revisionUrl=f"https://en.wikipedia.org/w/index.php?oldid={place['revisionId']}",license='CC BY-SA 4.0',
+    return dict(id=f'wiki-site-{pid}',title=f"{article} · Wikipedia",author='Wikipedia contributors',category='Encyclopedia background',type='Encyclopedia background',
+        perspective='historical',url='https://en.wikipedia.org/wiki/'+quote(article.replace(' ','_')),summary=f"The article gives the location used for {name}.",
+        revisionId=revision,revisionUrl=f"https://en.wikipedia.org/w/index.php?oldid={revision}",license='CC BY-SA 4.0',
         licenseUrl='https://creativecommons.org/licenses/by-sa/4.0/',reviewed=f"{JOURNEYS['reviewed']}: site coordinates read. The article text was not reviewed.",limits=limits,limitations=limits)
 
 def _journeys(slug,book,content):
-    """Add chapter paths that join the places a book names, in the order it names them."""
-    plan=JOURNEYS.get(slug)
+    """Add chapter paths that join the places a book names, in the order it names them.
+
+    A route row is [id, title, kind, "place>place", "verse-endVerse", summary, evidence].
+    A gazetteer row is [name, lat, lng, article, revision, optional limit].
+    """
+    plan=JOURNEYS['books'].get(slug)
     if not plan:return
+    note=JOURNEYS['note'].format(book=book['name']);doubt=JOURNEYS['uncertainty'].format(book=book['name'])
     have={p['id']:p for p in content['places']};focus={f['chapter']:f for f in content['chapterMaps']}
     for chapter,routes in plan['routes'].items():
-        n=int(chapter);item=focus[n]
-        for route in routes:
-            for pid in route['placeIds']:
+        n=int(chapter);item=focus[n];bare=not item['routes']
+        for rid,title,kind,stops,span,summary,evidence in routes:
+            stops=stops.split('>');first,_,last=span.partition('-');first=int(first);last=int(last or first)
+            for pid in stops:
                 if pid in have:continue
-                new=plan['places'][pid];source=_site_source(pid,new);content['sources'].append(source)
-                have[pid]=dict(id=pid,name=new['name'],lat=new['lat'],lng=new['lng'],summary=new['summary'],detail=new['summary'],limits=new['limits'],uncertainty=new['limits'],
-                    sourceIds=['web',source['id']],verseScope=new.get('verseScope',{}),chapterLocation=True)
+                name,lat,lng,article,revision,*limit=JOURNEYS['gazetteer'][pid];info=plan['places'][pid]
+                if isinstance(info,str):info=dict(summary=info)
+                limits=limit[0] if limit else JOURNEYS['limits'];source=_site_source(pid,name,article,revision);content['sources'].append(source)
+                have[pid]=dict(id=pid,name=name,lat=lat,lng=lng,summary=info['summary'],detail=info['summary'],limits=limits,uncertainty=limits,
+                    sourceIds=['web',source['id']],verseScope=info.get('verseScope',{}),chapterLocation=True)
                 content['places'].append(have[pid])
-            rid=f"{slug}-{n}-{route['id']}";points=[[have[pid]['lat'],have[pid]['lng']] for pid in route['placeIds']]
-            content['textRoutes'].append(dict(id=rid,title=route['title'],points=points,placeIds=route['placeIds'],chapter=n,verse=route['verse'],endVerse=route['endVerse'],
-                summary=route['summary'],detail=plan['uncertainty'],uncertainty=plan['uncertainty'],evidence=route['evidence'],kind=route['kind'],direction=True,textRoute=True,sourceIds=['web']))
-            span=str(route['verse'])+('' if route['endVerse']==route['verse'] else f"–{route['endVerse']}")
-            item['routes'].append({'id':rid,'from':0,'to':len(points)-1,'reference':f"{book['name']} {n}:{span}"})
-            for key in ('focusPlaceIds','placeIds'):item[key]=list(dict.fromkeys(item[key]+route['placeIds']))
-        # The old note said no journey was drawn. Say what the new lines show.
-        item['note']=item['limits']=plan['note']
-        for row in content['passages']+content['events']:
-            if row['chapter']==n:row['uncertainty']=plan['note']
+            full=f"{slug}-{n}-{rid}";points=[[have[pid]['lat'],have[pid]['lng']] for pid in stops]
+            content['textRoutes'].append(dict(id=full,title=title,points=points,placeIds=stops,chapter=n,verse=first,endVerse=last,
+                summary=summary,detail=doubt,uncertainty=doubt,evidence=evidence,kind=kind,direction=True,textRoute=True,sourceIds=['web']))
+            item['routes'].append({'id':full,'from':0,'to':len(points)-1,'reference':f"{book['name']} {n}:{first}"+('' if last==first else f'–{last}')})
+            for key in ('focusPlaceIds','placeIds'):item[key]=list(dict.fromkeys(item[key]+stops))
+        # A chapter that had no line said so in its note. Say what the new lines show.
+        if bare:
+            item['note']=item['limits']=note
+            for row in content['passages']+content['events']:
+                if row['chapter']==n:row['uncertainty']=note
 
 def add_map_context(slug,book,content):
     """Add the layers for one book. A book with no entry keeps its place markers only."""

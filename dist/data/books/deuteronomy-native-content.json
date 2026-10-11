@@ -665,7 +665,7 @@
       "summary": "Israel wandered around Mount Seir for many days. The LORD told them not to fight Esau’s people and to pay for food. He gave Moab and Ammon to Lot’s children, so Israel must leave them alone. Other peoples had also replaced earlier peoples in those lands. Thirty-eight years passed until the fighting men of the first generation died. Then the LORD gave Sihon the Amorite into Israel’s hand. Moses sent Sihon words of peace, and Sihon refused. Israel defeated him and destroyed his cities.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "uncertainty": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "moab",
         "edom",
@@ -700,7 +700,7 @@
       "summary": "Og king of Bashan comes out to fight, and the LORD gives him to Israel. Israel takes his sixty walled cities. Moses gives the land east of the Jordan to Reuben, Gad, and half of Manasseh. Their fighting men must still cross and help their brothers. Moses tells Joshua not to fear the kingdoms ahead. Moses begs the LORD to let him cross and see the good land. The LORD refuses and tells him to look from the top of Pisgah. He must strengthen Joshua, who will lead the people over.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "uncertainty": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "moab",
         "bashan",
@@ -1805,7 +1805,7 @@
       "summary": "Moses climbs Mount Nebo, and the LORD shows him the whole land. The LORD says this is the land sworn to Abraham, Isaac, and Jacob. Moses may see it but not cross over. Moses dies there in Moab, and no one knows his tomb. He was 120, with clear eyes and full strength. Israel weeps for him thirty days. Joshua is full of the spirit of wisdom, because Moses laid hands on him. No prophet like Moses has risen since, whom the LORD knew face to face.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "uncertainty": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "moab",
         "nebo",
@@ -1876,7 +1876,7 @@
       "summary": "Israel wandered around Mount Seir for many days. The LORD told them not to fight Esau’s people and to pay for food. He gave Moab and Ammon to Lot’s children, so Israel must leave them alone. Other peoples had also replaced earlier peoples in those lands. Thirty-eight years passed until the fighting men of the first generation died. Then the LORD gave Sihon the Amorite into Israel’s hand. Moses sent Sihon words of peace, and Sihon refused. Israel defeated him and destroyed his cities.",
       "detail": "Israel is on its way to land God promised. Verse 5 says the promise has edges. Mount Seir belongs to Esau, “because I have given” it to him. Verses 9 and 19 say the same of Moab and Ammon, Lot’s children. So the LORD gives land to other peoples too, and Israel must respect it. Israel is to buy food and water there, not take it (verse 6). Sihon’s land is given to Israel, and he refuses peace (verses 24–30).",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "uncertainty": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-11",
@@ -1903,7 +1903,7 @@
       "summary": "Og king of Bashan comes out to fight, and the LORD gives him to Israel. Israel takes his sixty walled cities. Moses gives the land east of the Jordan to Reuben, Gad, and half of Manasseh. Their fighting men must still cross and help their brothers. Moses tells Joshua not to fear the kingdoms ahead. Moses begs the LORD to let him cross and see the good land. The LORD refuses and tells him to look from the top of Pisgah. He must strengthen Joshua, who will lead the people over.",
       "detail": "Moses’s prayer in verses 24–25 is personal: let me see the good land. The answer is a flat no: “Speak no more to me of this matter.” He may look from a mountain but not cross (verse 27). Verse 28 turns at once to what he can still do. He is to appoint Joshua, encourage him, and strengthen him. Joshua will finish the work, and Moses must make him ready for it. Verses 21–22 show Moses already doing this.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "uncertainty": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-11",
@@ -2756,7 +2756,7 @@
       "summary": "Moses climbs Mount Nebo, and the LORD shows him the whole land. The LORD says this is the land sworn to Abraham, Isaac, and Jacob. Moses may see it but not cross over. Moses dies there in Moab, and no one knows his tomb. He was 120, with clear eyes and full strength. Israel weeps for him thirty days. Joshua is full of the spirit of wisdom, because Moses laid hands on him. No prophet like Moses has risen since, whom the LORD knew face to face.",
       "detail": "The book ends with a death and a handover in the same breath. Verse 8 gives the people thirty days to weep. Verse 9 says Joshua is ready, “for Moses had laid his hands on him.” The people listen to him, so the work goes on. Verse 10 does not let Joshua replace Moses in honor. No prophet since has been known by the LORD “face to face.” The loss is real, and the people still have a leader.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "uncertainty": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-11",
@@ -6901,14 +6901,21 @@
         "edom",
         "heshbon"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "deuteronomy-2-past-edom",
+          "from": 0,
+          "to": 2,
+          "reference": "Deuteronomy 2:8–24"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "note": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Israel wandered around Mount Seir for many days. The LORD told them not to fight Esau’s people and to pay for food. He gave Moab and Ammon to Lot’s children, so Israel must leave them alone. Other peoples had also replaced earlier peoples in those lands. Thirty-eight years passed until the fighting men of the first generation died. Then the LORD gave Sihon the Amorite into Israel’s hand. Moses sent Sihon words of peace, and Sihon refused. Israel defeated him and destroyed his cities.",
-      "limits": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "limits": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-11",
@@ -6921,22 +6928,31 @@
         "moab",
         "bashan",
         "gilead",
-        "canaan"
+        "canaan",
+        "heshbon"
       ],
       "placeIds": [
         "moab",
         "bashan",
         "gilead",
-        "canaan"
+        "canaan",
+        "heshbon"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "deuteronomy-3-to-bashan",
+          "from": 0,
+          "to": 1,
+          "reference": "Deuteronomy 3:1–3"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "note": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Og king of Bashan comes out to fight, and the LORD gives him to Israel. Israel takes his sixty walled cities. Moses gives the land east of the Jordan to Reuben, Gad, and half of Manasseh. Their fighting men must still cross and help their brothers. Moses tells Joshua not to fear the kingdoms ahead. Moses begs the LORD to let him cross and see the good land. The LORD refuses and tells him to look from the top of Pisgah. He must strengthen Joshua, who will lead the people over.",
-      "limits": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "limits": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-11",
@@ -7713,14 +7729,21 @@
         "nebo",
         "canaan"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "deuteronomy-34-moab-nebo",
+          "from": 0,
+          "to": 1,
+          "reference": "Deuteronomy 34:1"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "note": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Moses climbs Mount Nebo, and the LORD shows him the whole land. The LORD says this is the land sworn to Abraham, Isaac, and Jacob. Moses may see it but not cross over. Moses dies there in Moab, and no one knows his tomb. He was 120, with clear eyes and full strength. Israel weeps for him thirty days. Joshua is full of the spirit of wisdom, because Moses laid hands on him. No prophet like Moses has risen since, whom the LORD knew face to face.",
-      "limits": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
+      "limits": "Lines join the places Deuteronomy names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-11",
@@ -7759,6 +7782,104 @@
         "atlas-exodus",
         "atlas-canaan",
         "wiki-deuteronomy"
+      ]
+    },
+    {
+      "id": "deuteronomy-2-past-edom",
+      "title": "Past Edom and Moab to Heshbon",
+      "points": [
+        [
+          30.75,
+          35.5
+        ],
+        [
+          31.85,
+          35.65
+        ],
+        [
+          31.8,
+          35.81
+        ]
+      ],
+      "placeIds": [
+        "edom",
+        "moab",
+        "heshbon"
+      ],
+      "chapter": 2,
+      "verse": 8,
+      "endVerse": 24,
+      "summary": "Moses recalls how Israel passed by Seir and the wilderness of Moab. God then told them to cross the Arnon against Sihon.",
+      "detail": "The line joins the places Deuteronomy names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Deuteronomy names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Recalled journey; regions named",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "deuteronomy-3-to-bashan",
+      "title": "Up the way to Bashan",
+      "points": [
+        [
+          31.8,
+          35.81
+        ],
+        [
+          32.65,
+          36.1
+        ]
+      ],
+      "placeIds": [
+        "heshbon",
+        "bashan"
+      ],
+      "chapter": 3,
+      "verse": 1,
+      "endVerse": 3,
+      "summary": "Moses recalls that Israel went up the way to Bashan. Og came out to battle at Edrei and was defeated.",
+      "detail": "The line joins the places Deuteronomy names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Deuteronomy names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Recalled war; regions named",
+      "kind": "military",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "deuteronomy-34-moab-nebo",
+      "title": "Moses goes up Mount Nebo",
+      "points": [
+        [
+          31.85,
+          35.65
+        ],
+        [
+          31.768,
+          35.726
+        ]
+      ],
+      "placeIds": [
+        "moab",
+        "nebo"
+      ],
+      "chapter": 34,
+      "verse": 1,
+      "endVerse": 1,
+      "summary": "Moses goes up from the plains of Moab to Mount Nebo. The LORD shows him the land.",
+      "detail": "The line joins the places Deuteronomy names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Deuteronomy names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated climb; summit traditional",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
       ]
     }
   ],

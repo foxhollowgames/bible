@@ -696,7 +696,7 @@
       "summary": "Solomon marries Pharaoh’s daughter and brings her to Jerusalem. He offers sacrifices at Gibeon, and the LORD appears to him in a dream. God tells him to ask for what he wants. Solomon asks for an understanding heart to judge the people. God is pleased and adds riches and honor. Two prostitutes then come to him, each claiming the same living baby. Solomon calls for a sword to divide the child. The true mother gives up her claim, and he returns the child to her.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "uncertainty": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "gibeon",
         "jerusalem"
@@ -1115,7 +1115,7 @@
       "summary": "Abijam rules Judah three years and follows his father’s sins. For David’s sake the LORD keeps a lamp in Jerusalem. Asa rules forty-one years and does what is right. He removes idols and even deposes his grandmother for her idol. Baasha of Israel fortifies Ramah to block Judah. Asa sends temple and palace treasure to Ben Hadad of Syria. Ben Hadad attacks northern Israel, and Baasha withdraws. In Israel, Baasha has killed Nadab and all Jeroboam’s house.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "uncertainty": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "tirzah",
@@ -1151,7 +1151,7 @@
       "summary": "A prophet tells Baasha that his house will end like Jeroboam’s. His son Elah is killed while drunk by Zimri, a chariot commander. Zimri rules seven days and burns the palace over himself. Omri defeats a rival and becomes king. He buys the hill of Samaria and builds his capital there. His son Ahab marries Jezebel of Sidon and builds a temple for Baal. Ahab does more evil than all before him. In his days a man rebuilds Jericho at the cost of two sons.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "uncertainty": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "tirzah",
         "gibbethon",
@@ -1450,7 +1450,7 @@
       "summary": "Solomon marries Pharaoh’s daughter and brings her to Jerusalem. He offers sacrifices at Gibeon, and the LORD appears to him in a dream. God tells him to ask for what he wants. Solomon asks for an understanding heart to judge the people. God is pleased and adds riches and honor. Two prostitutes then come to him, each claiming the same living baby. Solomon calls for a sword to divide the child. The true mother gives up her claim, and he returns the child to her.",
       "detail": "Solomon calls himself “a little child” in verse 7. His request in verse 9 is for a heart that hears. He wants it in order to judge God’s people, not for himself. Verse 11 lists what he did not ask for: long life, riches, his enemies’ deaths. The first case tests the gift. Two women of low standing come with no witnesses (verse 18). The king hears them and finds the one who loves the child.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "uncertainty": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -1771,7 +1771,7 @@
       "summary": "Abijam rules Judah three years and follows his father’s sins. For David’s sake the LORD keeps a lamp in Jerusalem. Asa rules forty-one years and does what is right. He removes idols and even deposes his grandmother for her idol. Baasha of Israel fortifies Ramah to block Judah. Asa sends temple and palace treasure to Ben Hadad of Syria. Ben Hadad attacks northern Israel, and Baasha withdraws. In Israel, Baasha has killed Nadab and all Jeroboam’s house.",
       "detail": "Asa is one of the kings this book praises (verses 11–14). His answer to a border threat is to buy a foreign army. The payment in verse 18 comes from the temple’s own treasure. Verse 19 asks Ben Hadad to break his treaty with Israel. The plan works (verses 20–22). The price is paid by Israelite towns in the north. Second Chronicles 16:7–9 records a prophet’s rebuke for this bargain.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "uncertainty": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -1799,7 +1799,7 @@
       "summary": "A prophet tells Baasha that his house will end like Jeroboam’s. His son Elah is killed while drunk by Zimri, a chariot commander. Zimri rules seven days and burns the palace over himself. Omri defeats a rival and becomes king. He buys the hill of Samaria and builds his capital there. His son Ahab marries Jezebel of Sidon and builds a temple for Baal. Ahab does more evil than all before him. In his days a man rebuilds Jericho at the cost of two sons.",
       "detail": "This chapter moves through five rulers in thirty-four verses. Three of them die by violence or fire. Verse 24 records the one act of Omri that lasts. He buys a hill at a fair price and names the city for its seller. Samaria remains the capital until the kingdom falls (2 Kings 17:5–6). The book judges Omri only by his worship (verses 25–26). Verse 34 ties Jericho’s rebuilding to Joshua’s curse (Joshua 6:26).",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "uncertainty": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -6750,14 +6750,21 @@
         "gibeon",
         "jerusalem"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-kings-3-solomon-gibeon",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Kings 3:4–15"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "note": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Solomon marries Pharaoh’s daughter and brings her to Jerusalem. He offers sacrifices at Gibeon, and the LORD appears to him in a dream. God tells him to ask for what he wants. Solomon asks for an understanding heart to judge the people. God is pleased and adds riches and honor. Two prostitutes then come to him, each claiming the same living baby. Solomon calls for a sword to divide the child. The true mother gives up her claim, and he returns the child to her.",
-      "limits": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "limits": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -7107,14 +7114,21 @@
         "damascus",
         "gibbethon"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-kings-15-asa-damascus",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Kings 15:18–20"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "note": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Abijam rules Judah three years and follows his father’s sins. For David’s sake the LORD keeps a lamp in Jerusalem. Asa rules forty-one years and does what is right. He removes idols and even deposes his grandmother for her idol. Baasha of Israel fortifies Ramah to block Judah. Asa sends temple and palace treasure to Ben Hadad of Syria. Ben Hadad attacks northern Israel, and Baasha withdraws. In Israel, Baasha has killed Nadab and all Jeroboam’s house.",
-      "limits": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "limits": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -7136,14 +7150,21 @@
         "sidon",
         "jericho"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-kings-16-omri-samaria",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Kings 16:23–24"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "note": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "narrative": "A prophet tells Baasha that his house will end like Jeroboam’s. His son Elah is killed while drunk by Zimri, a chariot commander. Zimri rules seven days and burns the palace over himself. Omri defeats a rival and becomes king. He buys the hill of Samaria and builds his capital there. His son Ahab marries Jezebel of Sidon and builds a temple for Baal. Ahab does more evil than all before him. In his days a man rebuilds Jericho at the cost of two sons.",
-      "limits": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
+      "limits": "Lines join the places 1 Kings names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -7635,6 +7656,99 @@
         "atlas-canaan",
         "wiki-1-kings",
         "dm-kings-council"
+      ]
+    },
+    {
+      "id": "1-kings-3-solomon-gibeon",
+      "title": "Solomon goes to Gibeon",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          31.85,
+          35.18
+        ]
+      ],
+      "placeIds": [
+        "jerusalem",
+        "gibeon"
+      ],
+      "chapter": 3,
+      "verse": 4,
+      "endVerse": 15,
+      "summary": "Solomon goes to the great high place at Gibeon to sacrifice. God speaks to him in a dream, and he returns to Jerusalem.",
+      "detail": "The line joins the places 1 Kings names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Kings names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "1-kings-15-asa-damascus",
+      "title": "Asa sends treasure to Damascus",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          33.513,
+          36.292
+        ]
+      ],
+      "placeIds": [
+        "jerusalem",
+        "damascus"
+      ],
+      "chapter": 15,
+      "verse": 18,
+      "endVerse": 20,
+      "summary": "Asa sends the temple’s silver and gold to Ben Hadad in Damascus. He asks him to break his treaty with Baasha.",
+      "detail": "The line joins the places 1 Kings names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Kings names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated gift",
+      "kind": "diplomacy",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "1-kings-16-omri-samaria",
+      "title": "Omri moves the capital to Samaria",
+      "points": [
+        [
+          32.287,
+          35.342
+        ],
+        [
+          32.276,
+          35.194
+        ]
+      ],
+      "placeIds": [
+        "tirzah",
+        "samaria"
+      ],
+      "chapter": 16,
+      "verse": 23,
+      "endVerse": 24,
+      "summary": "Omri reigns six years in Tirzah. Then he buys the hill of Samaria and builds a city on it.",
+      "detail": "The line joins the places 1 Kings names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Kings names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated move",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
       ]
     }
   ],

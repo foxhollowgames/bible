@@ -4,7 +4,7 @@ import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.6';
+const releaseVersion = '20261009.7';
 const chapters = Array.from({ length: 66 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: -701, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };

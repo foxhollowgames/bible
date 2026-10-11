@@ -849,7 +849,7 @@
       "summary": "The LORD tells Moses to send one leader from each tribe into Canaan. Moses tells them to look at the land, the people, and the cities. They travel forty days and bring back a huge cluster of grapes. They report that the land flows with milk and honey. They also say the people are strong and the cities walled. Caleb says Israel should go up at once and is well able to win. The others say the people are too strong. They spread a bad report and say they felt like grasshoppers.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "uncertainty": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "kadesh",
         "canaan",
@@ -1073,7 +1073,7 @@
       "summary": "Miriam dies at Kadesh. There is no water, and the people quarrel with Moses and Aaron. The LORD tells Moses to take the rod and speak to the rock. Moses calls the people rebels and strikes the rock twice, and water pours out. The LORD says they did not believe him and will not bring Israel in. Edom refuses to let Israel pass through, even for payment. At Mount Hor, Moses puts Aaron’s garments on his son Eleazar. Aaron dies there, and Israel weeps thirty days.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "uncertainty": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "kadesh",
         "edom"
@@ -1108,7 +1108,7 @@
       "summary": "The king of Arad attacks, and Israel defeats him after a vow to the LORD. On the road around Edom the people speak against God and Moses. They call the manna disgusting food. The LORD sends venomous snakes, and many die. The people confess, and Moses prays. Moses sets a bronze snake on a pole, and whoever looks at it lives. Israel travels on and sings at a well. They defeat the kings Sihon and Og and take their land.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "uncertainty": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "edom",
         "moab",
@@ -1951,7 +1951,7 @@
       "summary": "The LORD tells Moses to send one leader from each tribe into Canaan. Moses tells them to look at the land, the people, and the cities. They travel forty days and bring back a huge cluster of grapes. They report that the land flows with milk and honey. They also say the people are strong and the cities walled. Caleb says Israel should go up at once and is well able to win. The others say the people are too strong. They spread a bad report and say they felt like grasshoppers.",
       "detail": "Moses asked for facts in verses 18–20: the land, the people, the cities. Verses 27–29 answer with facts, and no one disputes them. The split comes with the conclusion. Caleb says, “We are well able” (verse 30). The others say, “We aren’t able” (verse 31). Then verse 32 calls their next words “an evil report.” They now say the land eats its people and that they looked like grasshoppers.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "uncertainty": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-8",
@@ -2119,7 +2119,7 @@
       "summary": "Miriam dies at Kadesh. There is no water, and the people quarrel with Moses and Aaron. The LORD tells Moses to take the rod and speak to the rock. Moses calls the people rebels and strikes the rock twice, and water pours out. The LORD says they did not believe him and will not bring Israel in. Edom refuses to let Israel pass through, even for payment. At Mount Hor, Moses puts Aaron’s garments on his son Eleazar. Aaron dies there, and Israel weeps thirty days.",
       "detail": "Verse 8 told Moses to speak to the rock before the people. In verse 10 Moses speaks to the people and calls them rebels. He says “we” will bring the water, and he strikes the rock twice. The water still comes, and the people drink. Verse 12 gives God’s charge: they did not believe him or show him holy. Long service does not exempt Moses. The chapter begins with Miriam’s death and ends with Aaron’s.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "uncertainty": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-8",
@@ -2146,7 +2146,7 @@
       "summary": "The king of Arad attacks, and Israel defeats him after a vow to the LORD. On the road around Edom the people speak against God and Moses. They call the manna disgusting food. The LORD sends venomous snakes, and many die. The people confess, and Moses prays. Moses sets a bronze snake on a pole, and whoever looks at it lives. Israel travels on and sings at a well. They defeat the kings Sihon and Og and take their land.",
       "detail": "The people ask Moses to pray that the snakes be taken away (verse 7). The LORD does not remove them. He gives a cure that each bitten person must use. Verse 9 states it simply: one who “looked at the serpent of bronze” lived. The cure has the shape of the thing that harmed them. Second Kings 18:4 reports that Israel later burned incense to this bronze snake. King Hezekiah broke it in pieces.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "uncertainty": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-exodus",
@@ -7927,14 +7927,21 @@
         "canaan",
         "hebron"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "numbers-13-spies",
+          "from": 0,
+          "to": 1,
+          "reference": "Numbers 13:17–26"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "note": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The LORD tells Moses to send one leader from each tribe into Canaan. Moses tells them to look at the land, the people, and the cities. They travel forty days and bring back a huge cluster of grapes. They report that the land flows with milk and honey. They also say the people are strong and the cities walled. Caleb says Israel should go up at once and is well able to win. The others say the people are too strong. They spread a bad report and say they felt like grasshoppers.",
-      "limits": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "limits": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-8",
@@ -8063,14 +8070,21 @@
         "kadesh",
         "edom"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "numbers-20-edom-request",
+          "from": 0,
+          "to": 1,
+          "reference": "Numbers 20:14–21"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "note": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Miriam dies at Kadesh. There is no water, and the people quarrel with Moses and Aaron. The LORD tells Moses to take the rod and speak to the rock. Moses calls the people rebels and strikes the rock twice, and water pours out. The LORD says they did not believe him and will not bring Israel in. Edom refuses to let Israel pass through, even for payment. At Mount Hor, Moses puts Aaron’s garments on his son Eleazar. Aaron dies there, and Israel weeps thirty days.",
-      "limits": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "limits": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "yale-8",
@@ -8091,14 +8105,27 @@
         "heshbon",
         "bashan"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "numbers-21-around-edom",
+          "from": 0,
+          "to": 1,
+          "reference": "Numbers 21:4–20"
+        },
+        {
+          "id": "numbers-21-sihon-og",
+          "from": 0,
+          "to": 2,
+          "reference": "Numbers 21:21–35"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "note": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The king of Arad attacks, and Israel defeats him after a vow to the LORD. On the road around Edom the people speak against God and Moses. They call the manna disgusting food. The LORD sends venomous snakes, and many die. The people confess, and Moses prays. Moses sets a bronze snake on a pole, and whoever looks at it lives. Israel travels on and sings at a well. They defeat the kings Sihon and Og and take their land.",
-      "limits": "Markers show regions or traditional identifications. Many campsites, the sea crossing, and Mount Hor lack secure locations.",
+      "limits": "Lines join the places Numbers names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-exodus",
@@ -8493,6 +8520,135 @@
         "web",
         "atlas",
         "atlas-exodus"
+      ]
+    },
+    {
+      "id": "numbers-13-spies",
+      "title": "The spies go up to Hebron",
+      "points": [
+        [
+          30.65,
+          34.43
+        ],
+        [
+          31.53,
+          35.1
+        ]
+      ],
+      "placeIds": [
+        "kadesh",
+        "hebron"
+      ],
+      "chapter": 13,
+      "verse": 17,
+      "endVerse": 26,
+      "summary": "Moses sends twelve men up through the South. They come to Hebron and return to Kadesh after forty days.",
+      "detail": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; Kadesh site proposed",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "numbers-20-edom-request",
+      "title": "Messengers to the king of Edom",
+      "points": [
+        [
+          30.65,
+          34.43
+        ],
+        [
+          30.75,
+          35.5
+        ]
+      ],
+      "placeIds": [
+        "kadesh",
+        "edom"
+      ],
+      "chapter": 20,
+      "verse": 14,
+      "endVerse": 21,
+      "summary": "Moses sends messengers from Kadesh to ask for passage. Edom refuses, and Israel turns away.",
+      "detail": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated message; Edom is a region",
+      "kind": "diplomacy",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "numbers-21-around-edom",
+      "title": "Around Edom to Moab",
+      "points": [
+        [
+          30.75,
+          35.5
+        ],
+        [
+          31.85,
+          35.65
+        ]
+      ],
+      "placeIds": [
+        "edom",
+        "moab"
+      ],
+      "chapter": 21,
+      "verse": 4,
+      "endVerse": 20,
+      "summary": "Israel travels by the way to the Red Sea to go around Edom. The camps lead to the valley in the field of Moab.",
+      "detail": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; camps not plotted",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "numbers-21-sihon-og",
+      "title": "Against Heshbon and Bashan",
+      "points": [
+        [
+          31.85,
+          35.65
+        ],
+        [
+          31.8,
+          35.81
+        ],
+        [
+          32.65,
+          36.1
+        ]
+      ],
+      "placeIds": [
+        "moab",
+        "heshbon",
+        "bashan"
+      ],
+      "chapter": 21,
+      "verse": 21,
+      "endVerse": 35,
+      "summary": "Sihon refuses passage and fights. Israel takes Heshbon, then goes up the way of Bashan and defeats Og.",
+      "detail": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Numbers names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated war; regions named",
+      "kind": "military",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
       ]
     }
   ],
