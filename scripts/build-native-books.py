@@ -98,7 +98,6 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     # Added books have no date slider. A nation shows in the chapters its record lists.
     app=app.replace("visibleAt(region) && (state.studyMode === 'map' || (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter)))", "region.chapterCoverage.includes(state.chapter)")
     # Explain empty maps and expose the actual location limits in Map context.
-    app=app.replace('class="chapter-focus-button">Focus ', 'class="chapter-focus-button" ${chapterPoints(data, state.chapter).length ? \'\' : \'disabled\'}>Focus ')
     app=app.replace('${focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : \'\'}', '${!chapterPoints(data, state.chapter).length ? \'<p>This chapter has no mapped places.</p>\' : \'\'}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join(\'\')}</details>` : \'\'}')
     app=app.replace('const url = new URL(s.url);\n    url.searchParams.set(\'t\', `${moment.seconds}s`);', 'const url = new URL(moment.url || s.url);\n    if (!moment.url) url.searchParams.set(\'t\', `${moment.seconds}s`);')
     # Some builders store review date and scope as separate fields.

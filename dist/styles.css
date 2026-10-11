@@ -187,10 +187,10 @@ path.map-feature.campaign-hit:hover,path.map-feature.campaign-hit:focus-visible{
 .sidebar-next:disabled{opacity:.3;cursor:default}
 
 
-.chapter-focus-button{display:block;width:100%;padding:6px 8px;margin:5px 0 8px;border:1px solid #72a6bd;border-radius:4px;background:#123f57;color:#e9f6ff;font:inherit;cursor:pointer}.chapter-focus-button:hover,.chapter-focus-button:focus-visible{background:#17678a}.map-note details{margin-bottom:6px}.map-note summary{cursor:pointer}
+.map-recenter{position:absolute;z-index:3;top:22px;left:50%;transform:translateX(-50%);padding:6px 14px;border:1px solid #72a6bd;border-radius:4px;background:#123f57;color:#e9f6ff;font:inherit;font-size:13px;cursor:pointer;box-shadow:0 2px 8px #0006}.map-recenter:hover,.map-recenter:focus-visible{background:#17678a}.map-recenter[hidden]{display:none}@media(max-width:480px){.map-recenter{top:10px;left:calc(50% + 82px)}}.map-note details{margin-bottom:6px}.map-note summary{cursor:pointer}
 
 .movement-legend{display:grid;gap:5px;margin:8px 0}.movement-legend span{display:flex;align-items:center;gap:6px}.movement-legend i{width:15px;height:4px;display:inline-block;flex:none}.movement-legend .impact-key{width:10px;height:10px;border:2px solid #ed6b5d;border-radius:50%;background:transparent}.map-story{margin:16px 0;padding:14px;border:1px solid #416681;border-radius:7px;background:#0a304b}.map-story h2{font-size:16px;margin:0 0 8px}.map-story p{font-size:13px;line-height:1.55;margin:8px 0}.map-story summary{font-size:12px;cursor:pointer;color:#b5e1f0}.story-route{display:flex;align-items:flex-start;gap:8px;width:100%;text-align:left;background:#103e59;color:#f1f5f3;border:1px solid #547b8f;border-radius:5px;padding:9px;margin:7px 0;font:inherit;font-size:13px;cursor:pointer}.story-route:hover,.story-route:focus-visible{background:#1a506c}.story-route i{display:block;width:16px;height:5px;margin-top:6px;flex:none}.story-route small{display:block;font-size:11px;line-height:1.4;color:#c4d5e1;margin-top:3px}.layers .map-note{line-height:1.45}
-.layers{max-height:calc(100% - 32px);overflow:auto;scrollbar-width:thin}.layer-option{font-size:12px;padding:4px 2px}.movement-legend{font-size:10px}.map-note .chapter-focus-button{padding:4px 6px;margin:4px 0}
+.layers{max-height:calc(100% - 32px);overflow:auto;scrollbar-width:thin}.layer-option{font-size:12px;padding:4px 2px}.movement-legend{font-size:10px}
 .faction-legend[hidden]{display:none}
 
 /* Keep panels visible until their closing transition ends. */

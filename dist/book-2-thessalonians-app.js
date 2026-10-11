@@ -759,7 +759,7 @@ function initMap() {
   }
   map.getPane('geography').style.pointerEvents = 'none';
   addGeographyLabels();
-  map.on('moveend', persist).on('moveend zoomend resize', refreshMapDetails).on('dragstart zoomstart', () => { const card = $('#contextCard'); if (card.dataset.pinned !== 'true') hideModalPanel(card); });
+  map.on('moveend', persist).on('moveend zoomend', updateRecenter).on('resize', keepChapterView).on('moveend zoomend resize', refreshMapDetails).on('dragstart zoomstart', () => { const card = $('#contextCard'); if (card.dataset.pinned !== 'true') hideModalPanel(card); });
   Promise.allSettled(['data/land.geojson','data/lakes-detail.geojson','data/relief.json','data/rivers.geojson'].map(p => fetch(p).then(r => r.json()))).then(r => {
     if (r[0].status === 'fulfilled') L.geoJSON(r[0].value, {pane:'base',interactive:false, style: { color: '#dfc990', weight: 1, fillColor: '#a4ac79', fillOpacity: 1 } }).addTo(map);
     if (r[1].status === 'fulfilled') L.geoJSON(r[1].value, {pane:'water',interactive:false, style: { color: '#81bbca', weight: 1.2, fillColor: '#155c80', fillOpacity: 1 } }).addTo(map);
@@ -883,12 +883,23 @@ const factions = {
 function factionById(id) { return factions[id] || data.factions?.[id]; }
 function factionFor(feature) { return factionById(feature.faction || feature.id) || { name: 'Place', color: '#594530', selectedBorder: '#34271b' }; }
 let lastMapChapter;
-function focusChapterMap(animate = true) {
+let mapHome;
+// Recenter shows only after the map leaves the chapter view.
+function updateRecenter() {
+  const button = $('#recenterMap');
+  if (!button) return;
+  if (!map || !mapHome) { button.hidden = true; return; }
+  const zoom = map.getZoom(), offset = map.project(map.getCenter(), zoom).distanceTo(map.project(mapHome.center, zoom));
+  button.hidden = Math.abs(zoom - mapHome.zoom) < .01 && offset < 2;
+}
+// A resize keeps the chapter view when the reader has not moved the map.
+function keepChapterView() { if (mapHome && $('#recenterMap')?.hidden) focusChapterMap(false, true); }
+function focusChapterMap(animate = true, keepCard = false) {
   if (!map) return;
   const focus = chapterFocus(data, state.chapter), points = chapterPoints(data, state.chapter);
   lastMapChapter = state.chapter;
-  if (!points.length) return;
-  closeCard();
+  if (!points.length) { mapHome = null; updateRecenter(); return; }
+  if (!keepCard) closeCard();
   map.stop();
   map.invalidateSize({pan:false});
   const size = map.getSize();
@@ -896,7 +907,9 @@ function focusChapterMap(animate = true) {
   const options = { maxZoom:focus.maxZoom || 10,
     paddingTopLeft:[Math.min(panel.width + 35, size.x * .5), 50],
     paddingBottomRight:[40,50], animate:animate && !reducedMapMotion.matches, duration:.8 };
-  map.fitBounds(L.latLngBounds(points).pad(.12), options);
+  const bounds = L.latLngBounds(points).pad(.12), target = map._getBoundsCenterZoom?.(bounds, options);
+  mapHome = target && { zoom:target.zoom, center:map._limitCenter(target.center, target.zoom, map.options.maxBounds) };
+  map.fitBounds(bounds, options);
 }
 function focusedRoutes() { return chapterRoutes(data, state.chapter); }
 function chapterAreas() { return (data.narrativeRegions || []).filter(r=>chapterFocus(data,state.chapter)?.placeIds.includes(r.placeId)); }
@@ -987,7 +1000,7 @@ function drawOverlays() {
   const focus = chapterFocus(data, state.chapter);
   const kinds = [...new Set(campaigns.filter(c=>c.chapterRoute).map(c=>c.kind))];
   const roadKey = roads.length ? '<div class="road-key"><span><i></i>Well-supported route</span><span><i class="probable"></i>Probable route</span></div>' : '';
-  $('.map-note').innerHTML = `<button data-action="focus-chapter" class="chapter-focus-button" ${chapterPoints(data, state.chapter).length ? '' : 'disabled'}>Focus 2 Thessalonians ${state.chapter}</button><div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${!chapterPoints(data, state.chapter).length ? '<p>This chapter has no mapped places.</p>' : ''}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join('')}</details>` : ''}`;
+  $('.map-note').innerHTML = `<div class="movement-legend">${kinds.map(kind=>{const s=movementStyle({kind});return `<span><i style="background:${s.color}"></i>${s.label}</span>`;}).join('')}${focus?.impacts?.length && state.layers.places ? '<span><i class="impact-key"></i>Destruction / distress</span>' : ''}</div>${roadKey}${!chapterPoints(data, state.chapter).length ? '<p>This chapter has no mapped places.</p>' : ''}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join('')}</details>` : ''}`;
   refreshMapDetails();
 }
 function refreshMapDetails() {
