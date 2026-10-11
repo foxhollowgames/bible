@@ -13,7 +13,7 @@
 .directory-page .book-card .book-status{margin-bottom:8px}
 .directory-page a.book-card:hover{transform:translateY(-3px);box-shadow:0 9px 22px #0006}
 .directory-page a.book-card:hover img{transform:none}
-@media(max-width:650px){.directory-page .book-card{min-height:150px;padding:15px}.directory-page .book-card h3{font-size:22px}}
+@media(max-width:650px){.directory-page .book-card{min-height:150px;padding:15px;container-type:inline-size}.directory-page .book-card h3{font-size:22px;font-size:clamp(14px,15cqi,22px);overflow-wrap:break-word}}
 .directory-page .book-card.has-artwork{background-size:cover;background-position:center top}
 .directory-page .book-card img{opacity:0;transition:opacity .4s ease}
 .directory-page .book-card img.loaded{opacity:1}
