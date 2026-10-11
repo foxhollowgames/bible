@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-1-john-portraits.js?v=20261009.6';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-1-john-portraits.js?v=20261011.1';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.6';
+const releaseVersion = '20261011.1';
 const chapters = Array.from({ length: 5 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -192,15 +192,16 @@ function initSettings() {
   function close(restoreFocus = false) {
     panel.hidden = true;
     button.setAttribute('aria-expanded', 'false');
-    button.setAttribute('aria-label', 'Open settings');
+    button.setAttribute('aria-label', 'Open menu');
     if (restoreFocus) button.focus();
   }
   button.addEventListener('click', () => {
     if (!panel.hidden) return close();
     panel.hidden = false;
     button.setAttribute('aria-expanded', 'true');
-    button.setAttribute('aria-label', 'Close settings');
+    button.setAttribute('aria-label', 'Close menu');
   });
+  panel.addEventListener('click', event => { if (event.target.closest('[data-study-mode]')) close(true); });
   document.addEventListener('click', event => { if (!menu.contains(event.target)) close(); });
   document.addEventListener('focusin', event => { if (!menu.contains(event.target)) close(); });
   menu.addEventListener('keydown', event => {
