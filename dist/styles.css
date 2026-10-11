@@ -39,7 +39,6 @@
 .app-shell{height:auto;min-height:100dvh}
 .topbar{min-height:64px;gap:8px}
 .topbar .brand{order:0;width:100%}
-.topbar #tourButton{order:1}
 .topbar .segmented{order:2;margin-left:0}
 .topbar .perspective{order:3;margin-left:auto}
 #main{align-items:stretch}
@@ -113,7 +112,6 @@
 @media(max-width:720px){
 .topbar{height:auto;min-height:0;padding:6px 8px;gap:6px}
 .topbar .segmented button{min-width:0;padding:7px 10px}
-.topbar #tourButton{order:0}
 .timeline{padding:6px 10px}
 .timeline-header output{white-space:normal}
 }
@@ -275,8 +273,8 @@ dialog[open]::backdrop{opacity:1}
 .settings-panel h2{font:24px var(--serif);margin:0 0 20px}
 .settings-panel fieldset{min-width:0;margin:0 0 22px;padding:0;border:0}
 .settings-panel legend{font-weight:600;margin-bottom:10px}
-.topbar .settings-panel .perspective{margin:0;display:flex}
-.settings-panel .perspective button{flex:1;min-height:40px}
+.topbar .settings-panel .perspective,.topbar .settings-panel .study-mode{margin:0;display:flex}
+.settings-panel .perspective button,.settings-panel .study-mode button{flex:1;min-height:40px}
 .portrait-setting{display:flex;align-items:center;gap:10px;font-weight:600;line-height:1.5;cursor:pointer}
 .portrait-setting input{appearance:none;position:relative;width:40px;height:24px;flex:none;margin:0;border:1px solid #7d9caf;border-radius:999px;background:#284b63;cursor:pointer}
 .portrait-setting input::before{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#f1f7fb}
@@ -327,4 +325,4 @@ dialog[open]::backdrop{opacity:1}
 .map-mode .map-workspace{width:100%;height:100%;min-height:0}
 .map-mode .timeline{flex-shrink:0}
 .study-mode button:focus-visible{outline:2px solid #7feaff;outline-offset:3px}
-@media(max-width:400px){.topbar{gap:4px}.topbar .brand{gap:6px}.topbar .compass{width:30px;height:30px}.topbar .segmented button{padding:7px 8px}.topbar .study-mode{margin-left:0}.topbar .settings-button{width:32px}}
+@media(max-width:400px){.topbar{gap:4px}.topbar .brand{gap:6px}.topbar .compass{width:30px;height:30px}.topbar .segmented button{padding:7px 8px}.topbar .settings-button{width:32px}}
