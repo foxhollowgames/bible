@@ -326,7 +326,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem is the temple rebuilding setting described in Gafney’s commentary.",
-      "limits": "Approximate city marker. No temple dimensions, timber path, or future building plan is assigned.",
+      "limits": "The marker shows an approximate city location. No temple dimensions, timber path, or future building plan is assigned.",
       "sourceIds": [
         "gafney-haggai"
       ]
@@ -337,7 +337,7 @@
       "lat": 30.05,
       "lng": 31.23,
       "summary": "Egypt appears in God’s reminder of the promise made when the people came out.",
-      "limits": "Broad regional reference. The remembered rescue has no reconstructed route in Haggai.",
+      "limits": "The marker shows a broad region. The remembered rescue has no reconstructed route in Haggai.",
       "sourceIds": [
         "web"
       ]

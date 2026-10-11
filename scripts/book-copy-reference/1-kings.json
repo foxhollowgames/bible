@@ -163,7 +163,6 @@
   "people.abiathar.relations": "Son of Ahimelech and father of Jonathan. He carried the ark before David.",
   "people.abiathar.meaning": "He helps Adonijah and eats at his feast. Solomon says he deserves death but spares him for his service to David. Solomon ends his work as priest and sends him to Anathoth. Chapter 4 still lists him as a priest.",
   "people.david.meaning": "He is old and cold when Adonijah claims the throne. Bathsheba and Nathan remind him of his oath, and he has Solomon anointed. He tells Solomon to keep God’s law and to deal with Joab and Shimei. After his death the LORD spares part of the kingdom for his sake.",
-
   "places.gath.summary": "Two of Shimei’s slaves run away to Achish, king of Gath, in chapter 2. Shimei goes there and brings them back. Solomon has him killed for leaving Jerusalem.",
   "places.gath.limits": "The marker shows the town’s general location.",
   "places.beersheba.summary": "Elijah runs from Jezebel to Beersheba in chapter 19. He leaves his servant there and walks on into the wilderness.",
@@ -250,7 +249,6 @@
   "places.aphek.limits": "The location of this battle town is not certain. The marker shows a general area.",
   "places.ramoth-gilead.summary": "Ahab and Jehoshaphat go to fight Syria for Ramoth Gilead in chapter 22. An arrow strikes Ahab in the battle, and he dies at evening.",
   "places.ramoth-gilead.limits": "The town’s location is disputed. The marker shows a general area.",
-
   "sources.web.limits": "The reading text gives the book’s own account. It cannot by itself check dates, appearances, numbers, or every event.",
   "sources.atlas-canaan.limits": "Map positions are estimates for display. A town marker does not prove each event.",
   "sources.terrain.limits": "Modern terrain is a map aid. It does not show ancient shorelines or settlements.",
@@ -264,7 +262,7 @@
   "sources.dm-kings-council.summary": "McClellan compares readings of the heavenly council. He questions the idea that the whole Bible teaches one view of God.",
   "sources.lds-kings-solomon.limits": "Its older claims about motives and past events are not adopted as verified facts. The bronze sea comparison is Church interpretation.",
   "sources.met-244562.limits": "Its form differs from the temple stands described in Kings. It is a comparison and does not show how those stands looked.",
-
   "chapters.*.mapNote": "Points mark named towns and wide regions. Disputed sites and exact buildings are not certain.",
-  "chapters.*.routeEvidence": "Lines join the named places in story order. They do not show real roads, sea trips, or battle moves."
+  "chapters.*.routeEvidence": "Lines join the named places in story order. They do not show real roads, sea trips, or battle moves.",
+  "sources.dm-kings-council.limits": "This is an older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus."
 }

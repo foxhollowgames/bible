@@ -287,7 +287,6 @@
   "people.cyrus.role": "King of Persia who lets the people go up",
   "people.cyrus.relations": "King of Persia. His order goes through all his kingdom in writing.",
   "people.cyrus.meaning": "In his first year the LORD stirs up his spirit. He says the LORD told him to build a house in Jerusalem. He tells any of the LORD’s people to go up. The book ends with his words.",
-
   "places.gibeon.summary": "God’s Tent of Meeting and Bezalel’s bronze altar stand at Gibeon. Solomon offers there, and God appears to him that night (chapter 1).",
   "places.gibeon.limits": "The marker shows the town’s general location.",
   "places.jerusalem.summary": "Solomon builds the temple here, and Judah’s kings rule from the city. Kings repair or shut the temple in turn. The Chaldeans burn it in chapter 36.",
@@ -374,7 +373,6 @@
   "places.megiddo.limits": "The marker shows the town, not the battle spot in the valley.",
   "places.carchemish.summary": "Neco goes up to fight at Carchemish by the Euphrates. Josiah goes out against him on the way (35:20).",
   "places.carchemish.limits": "The marker shows the town’s general location.",
-
   "sources.web.limits": "The text alone cannot prove its numbers, dates, or what people looked like. It cannot prove private motives.",
   "sources.atlas-exodus.limits": "The route shown is a study tradition. It does not prove a sea crossing or a Sinai site.",
   "sources.atlas.limits": "Use the map labels for the setting. The linked atlas also includes LDS commentary.",
@@ -391,11 +389,11 @@
   "sources.luther-2-chronicles.limits": "This is a scholar’s teaching overview. Its views on author, date, and literary form do not prove each event.",
   "sources.schaser-2-chronicles.limits": "These are named scholars’ readings, not conclusions all scholars share. Links to later Christian texts are comparisons made by the interpreter.",
   "sources.wiki-2-chronicles.summary": "The opening gives the book’s structure and points to other works to read.",
-  "sources.wiki-2-chronicles.limits": "Background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship.",
+  "sources.wiki-2-chronicles.limits": "Use this source for background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship.",
   "sources.cfm-2026-30.limits": "This is faith teaching and application. The lesson does not prove ancient battles or what a disease was.",
   "sources.lds-2-chronicles.limits": "This is LDS teaching, not a finding from digs. A named place link does not prove every building detail.",
   "sources.met-244562.limits": "Its form differs from the temple stands described in Kings. It is a comparison, not a model of those stands.",
-
   "chapters.*.mapNote": "Points mark named towns and broad regions in the book. Many ancient sites are only roughly placed.",
-  "chapters.*.routeEvidence": "The map draws no route for this book."
+  "chapters.*.routeEvidence": "The map draws no route for this book.",
+  "sources.cfm-chronicles-context.limits": "This source gives book context. It is not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct."
 }

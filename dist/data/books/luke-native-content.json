@@ -73,7 +73,7 @@
       "summary": "The lesson studies Mary, Elizabeth, and Zacharias through faithful responses and waiting.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -85,7 +85,7 @@
         "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed Luke chapters receive teaching coverage."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limitations": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -95,7 +95,7 @@
       "summary": "The lesson uses John’s concrete instructions to explain changed conduct as evidence of repentance.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -107,7 +107,7 @@
         "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed Luke chapters receive teaching coverage."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limitations": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -117,7 +117,7 @@
       "summary": "The lesson connects love for neighbors with the Samaritan’s practical care.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -129,7 +129,7 @@
         "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed Luke chapters receive teaching coverage."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limitations": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -139,7 +139,7 @@
       "summary": "The lesson contrasts trust in God’s mercy with self-praise that condemns others.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -151,7 +151,7 @@
         "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed Luke chapters receive teaching coverage."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limitations": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -161,7 +161,7 @@
       "summary": "The lesson teaches resurrection through the Gospel accounts.",
       "category": "LDS Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "publisher": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2023,
@@ -173,7 +173,7 @@
         "scope": "Complete lesson body and additional resources read. Linked talks, videos, dictionary articles, and other editions were not separately reviewed. Only listed Luke chapters receive teaching coverage."
       },
       "type": "LDS Come, Follow Me",
-      "limitations": "Selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+      "limitations": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -183,7 +183,7 @@
       "summary": "The map index supplies selected city and regional references.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
+      "limits": "Use this source for geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
       "author": "NET Bible and ROHR Productions",
       "publisher": "bible.org",
       "reviewed": {
@@ -192,7 +192,7 @@
       },
       "license": "Linked reference. No map image or dictionary prose reproduced.",
       "type": "Geographic reference",
-      "limitations": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains."
+      "limitations": "Use this source for geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains."
     },
     {
       "id": "atlas-canaan",
@@ -201,9 +201,9 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -358,7 +358,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Greek words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -372,7 +372,7 @@
       "perspective": "historical",
       "category": "Greek text",
       "url": "https://github.com/byztxt/byzantine-majority-text",
-      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "summary": "This edition gives a Greek New Testament text with dictionary numbers. This study guide uses these numbers to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
       "license": "Public domain.",
       "type": "Greek text",
@@ -1658,14 +1658,14 @@
       "lat": 31.705,
       "lng": 35.202,
       "summary": "The childhood account places the birth and shepherds’ visit in Bethlehem.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "The childhood account places the birth and shepherds’ visit in Bethlehem.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1693,14 +1693,14 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem holds temple visits, final teaching, execution, and the beginning of the witness task.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Jerusalem holds temple visits, final teaching, execution, and the beginning of the witness task.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1728,14 +1728,14 @@
       "lat": 31.86,
       "lng": 35.55,
       "summary": "John teaches and baptizes in the Jordan region. No exact baptism site is assigned.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "John teaches and baptizes in the Jordan region. No exact baptism site is assigned.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1763,14 +1763,14 @@
       "lat": 32.85,
       "lng": 35.3,
       "summary": "Galilee holds early work and appears in remembered words at the tomb.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Galilee holds early work and appears in remembered words at the tomb.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1798,14 +1798,14 @@
       "lat": 33.27,
       "lng": 35.2,
       "summary": "Tyre appears among the crowd’s origins and in a judgment comparison.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Tyre appears among the crowd’s origins and in a judgment comparison.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1833,14 +1833,14 @@
       "lat": 33.56,
       "lng": 35.37,
       "summary": "Sidon appears in the Elijah comparison, the crowd’s origins, and a town warning.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Sidon appears in the Elijah comparison, the crowd’s origins, and a town warning.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1868,14 +1868,14 @@
       "lat": 31.87,
       "lng": 35.45,
       "summary": "Jericho holds Zacchaeus’ welcome and appears within the Samaritan story.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Jericho holds Zacchaeus’ welcome and appears within the Samaritan story.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1903,14 +1903,14 @@
       "lat": 31.779,
       "lng": 35.247,
       "summary": "The Mount of Olives holds teaching nights, the entry’s descent, and prayer before arrest.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "The Mount of Olives holds teaching nights, the entry’s descent, and prayer before arrest.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true
     },
     {
@@ -1919,14 +1919,14 @@
       "lat": 32.7,
       "lng": 35.3,
       "summary": "Nazareth holds the childhood settlement and the disputed hometown teaching.",
-      "limits": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "limits": "The marker shows an approximate town reference from the NET coordinate line. No house or workshop is identified.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "Nazareth holds the childhood settlement and the disputed hometown teaching.",
-      "uncertainty": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "uncertainty": "The marker shows an approximate town reference from the NET coordinate line. No house or workshop is identified.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1954,14 +1954,14 @@
       "lat": 32.86666666666667,
       "lng": 35.56666666666667,
       "summary": "Capernaum appears in teaching, healing, and warnings to towns.",
-      "limits": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "limits": "The marker shows an approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "Capernaum appears in teaching, healing, and warnings to towns.",
-      "uncertainty": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "uncertainty": "The marker shows an approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1989,14 +1989,14 @@
       "lat": 31.766666666666666,
       "lng": 35.25,
       "summary": "Bethany appears beside the entry and the final blessing.",
-      "limits": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "limits": "The marker shows an approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "Bethany appears beside the entry and the final blessing.",
-      "uncertainty": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "uncertainty": "The marker shows an approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -2025,14 +2025,14 @@
       "lat": 32.9,
       "lng": 35.61666666666667,
       "summary": "The feeding setting and a warning name Bethsaida.",
-      "limits": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "limits": "The marker shows a broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "The feeding setting and a warning name Bethsaida.",
-      "uncertainty": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "uncertainty": "The marker shows a broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -2060,14 +2060,14 @@
       "lat": 32.8,
       "lng": 35.583333333333336,
       "summary": "The lake holds fishing and crossings. Gennesaret is the lake name in the fishing account.",
-      "limits": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "limits": "The marker shows a lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "The lake holds fishing and crossings. Gennesaret is the lake name in the fishing account.",
-      "uncertainty": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "uncertainty": "The marker shows a lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
       "chapterLocation": true,
       "word": {
         "language": "greek",

@@ -1,0 +1,8 @@
+{
+  "places.susa.limits": "The marker shows the ancient city location. No precise palace room or journey road is reconstructed.",
+  "places.jerusalem.limits": "The marker is for reference only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+  "places.babylon.limits": "The marker shows an approximate location. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+  "sources.web.summary": "This source gives the complete public-domain reading text for ten chapters.",
+  "sources.luther-esther.limits": "This is a literary teaching overview. The story’s court setting does not verify its events.",
+  "sources.atlas-persia.limits": "This is a library reference only. Unreviewed map labels are not used to place events."
+}

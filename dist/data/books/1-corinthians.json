@@ -2528,7 +2528,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem is the intended destination of the collected gift.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -2541,7 +2541,7 @@
       "lat": 37.9,
       "lng": 22.866666666666667,
       "summary": "Corinth names the church receiving the letter.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -2554,7 +2554,7 @@
       "lat": 37.95,
       "lng": 27.366666666666667,
       "summary": "Ephesus appears in Paul’s recalled danger and planned stay.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -2688,7 +2688,7 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
+      "limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
     },
     {
       "id": "net-acts-map",

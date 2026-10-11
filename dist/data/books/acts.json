@@ -5428,7 +5428,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem holds the first witness, council disputes, and Paul’s arrest.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -5441,7 +5441,7 @@
       "lat": 33.513,
       "lng": 36.292,
       "summary": "Damascus holds Saul’s changed task, healing, teaching, and escape.",
-      "limits": "Approximate location. Region markers do not define ancient borders. Anathoth, Mizpah, Ramah, and Heshbon have competing site identifications.",
+      "limits": "The marker shows an approximate location. Region markers do not define ancient borders. Anathoth, Mizpah, Ramah, and Heshbon have competing site identifications.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -5454,7 +5454,7 @@
       "lat": 32.054,
       "lng": 34.751,
       "summary": "Joppa holds Tabitha’s household and Peter’s stay before Cornelius’ invitation.",
-      "limits": "Broad reference marker. Ancient boundaries and exact narrative movements are not established.",
+      "limits": "The marker shows a broad location. Ancient boundaries and exact narrative movements are not established.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -5467,7 +5467,7 @@
       "lat": 33.27,
       "lng": 35.2,
       "summary": "Tyre appears in Herod’s dispute and Paul’s farewell journey.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -5480,7 +5480,7 @@
       "lat": 33.56,
       "lng": 35.37,
       "summary": "Sidon appears in Herod’s dispute and the imprisoned traveler’s permitted visit.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -5493,7 +5493,7 @@
       "lat": 32.483333333333334,
       "lng": 34.88333333333333,
       "summary": "Caesarea holds Cornelius’ household and Paul’s later hearings in custody.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5505,7 +5505,7 @@
       "lat": 41.9,
       "lng": 12.483333333333333,
       "summary": "Rome is the promised destination where Paul remains guarded while teaching visitors.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5517,7 +5517,7 @@
       "lat": 37.9,
       "lng": 22.866666666666667,
       "summary": "Corinth holds shared work, extended teaching, and the hearing before Gallio.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5529,7 +5529,7 @@
       "lat": 37.95,
       "lng": 27.366666666666667,
       "summary": "Ephesus holds Apollos’ instruction and the conflict over changed worship and trade.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5541,7 +5541,7 @@
       "lat": 37.983333333333334,
       "lng": 23.733333333333334,
       "summary": "Athens holds the speech that begins with an altar and the hearers’ own poets.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5553,7 +5553,7 @@
       "lat": 36.2,
       "lng": 36.15,
       "summary": "Antioch in Syria supports teaching, relief, and the departure of Barnabas and Saul.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5595,7 +5595,7 @@
       "lat": 38.3,
       "lng": 31.166666666666668,
       "summary": "Pisidian Antioch holds a synagogue invitation, wider interest, and divided responses.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5619,7 +5619,7 @@
       "lat": 41,
       "lng": 24.283333333333335,
       "summary": "Philippi holds Lydia’s welcome, the lost income dispute, imprisonment, and the jailer’s household.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
@@ -5805,7 +5805,7 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
+      "limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
     },
     {
       "id": "net-acts-map",

@@ -60,5 +60,6 @@
   "chapters.18.mapNote": "This chapter’s map has no points. Its houses and teaching scenes have no known location.",
   "chapters.22.mapNote": "This chapter’s map has no points. Its houses and teaching scenes have no known location.",
   "chapters.25.mapNote": "This chapter’s map has no points. Its houses and teaching scenes have no known location.",
-  "chapters.*.routeEvidence": "The map shows points, not travel lines. It does not join movements from other Gospels."
+  "chapters.*.routeEvidence": "The map shows points, not travel lines. It does not join movements from other Gospels.",
+  "sources.lds-js-matthew.summary": "This text is an extract from Joseph Smith’s translation of Matthew 23:39 and chapter 24."
 }

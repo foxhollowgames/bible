@@ -96,5 +96,6 @@
   "sources.net-deut-32.limits": "These are scholarly translation notes. Their choice of an original reading is an editors’ judgment. This guide did not review all the manuscripts.",
   "sources.dm-deuteronomy.limits": "This is an older scholarly reading, separate from Church teaching. The proposed order of events was not checked here. Hebrew and Greek text is not copied from the post.",
   "chapters.*.mapNote": "Moses speaks in Moab, and the other points show places he names. Regions and traditional sites are approximate.",
-  "chapters.*.routeEvidence": "The line shows the trip from Horeb to Kadesh that Moses recalls in chapter 1. It is a simple line, and the camps along it are not known."
+  "chapters.*.routeEvidence": "The line shows the trip from Horeb to Kadesh that Moses recalls in chapter 1. It is a simple line, and the camps along it are not known.",
+  "sources.scholar-weinfeld.limits": "The publisher description and edition metadata were reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument."
 }

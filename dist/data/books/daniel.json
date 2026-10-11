@@ -1976,7 +1976,7 @@
       "lat": 32.54,
       "lng": 44.42,
       "summary": "Babylon is the court setting for the opening stories.",
-      "limits": "Approximate city marker. It does not locate a palace room or trace a journey.",
+      "limits": "The marker shows an approximate city location. It does not locate a palace room or trace a journey.",
       "sourceIds": [
         "web"
       ]
@@ -1987,7 +1987,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem is the city remembered through captured vessels and prayer.",
-      "limits": "Approximate city marker. It does not locate a palace room or trace a journey.",
+      "limits": "The marker shows an approximate city location. It does not locate a palace room or trace a journey.",
       "sourceIds": [
         "web"
       ]

@@ -7098,7 +7098,7 @@
       "type": "Primary evidence · museum record",
       "url": "https://www.britishmuseum.org/collection/object/W_1855-1003-1",
       "summary": "The Taylor Prism preserves an Assyrian royal account. The museum dates this object to 691 BCE. The campaign against Judah occurred in 701 BCE. The photograph shows two views of one object.",
-      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.",
       "reviewed": "Checked September 29, 2026. Object identity and date checked in the museum’s indexed collection record. Direct access to the object page returned HTTP 403. Photograph and public-domain release checked on Wikimedia Commons.",
       "license": "Museum record linked only. Photograph by David Castor, released into the public domain by its creator.",
       "image": {
@@ -7117,7 +7117,7 @@
       },
       "previewText": "This clay prism presents Sennacherib’s account of his campaigns. Royal claims reflect the ruler’s viewpoint.",
       "category": "Primary evidence · museum record",
-      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.",
       "perspective": "historical",
       "chapterCoverage": [
         18
@@ -7134,7 +7134,7 @@
       "type": "Primary evidence",
       "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14_7",
       "summary": "The relief shows Sennacherib receiving the spoils of Lachish. It presents the conquest from the Assyrian king’s viewpoint.",
-      "limitations": "The date of the relief is not the campaign date. Its images celebrate imperial victory; they do not document every detail of Isaiah.",
+      "limitations": "The relief was carved after the campaign. Its pictures praise Assyria’s victory. They do not show every detail in Isaiah.",
       "license": "Linked reading; original study guide summary, no article reproduction",
       "image": {
         "src": "assets/lachish-relief.jpg",

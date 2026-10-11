@@ -713,7 +713,7 @@
       "lat": 32.276,
       "lng": 35.194,
       "summary": "Samaria is one of the centers named when Micah identifies the people’s wrongdoing.",
-      "limits": "Approximate ancient city marker. The warning does not supply an invasion route.",
+      "limits": "The marker shows the approximate location of the ancient city. The warning does not supply an invasion route.",
       "sourceIds": [
         "web"
       ]
@@ -724,7 +724,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem receives warnings of ruin and a later vision of nations seeking instruction.",
-      "limits": "Approximate city marker. The visions do not locate future buildings or battle movements.",
+      "limits": "The marker shows an approximate city location. The visions do not locate future buildings or battle movements.",
       "sourceIds": [
         "web"
       ]
@@ -735,7 +735,7 @@
       "lat": 31.565,
       "lng": 34.849,
       "summary": "Micah names Lachish among towns addressed in the lament.",
-      "limits": "Approximate ancient city marker. The order of town names does not establish an army route.",
+      "limits": "The marker shows the approximate location of the ancient city. The order of town names does not establish an army route.",
       "sourceIds": [
         "web"
       ]
@@ -746,7 +746,7 @@
       "lat": 32.54,
       "lng": 44.42,
       "summary": "Babylon appears as the place of distress and promised rescue in chapter four.",
-      "limits": "Approximate city marker. The passage does not give a journey’s path.",
+      "limits": "The marker shows an approximate city location. The passage does not give a journey’s path.",
       "sourceIds": [
         "web"
       ]
@@ -757,7 +757,7 @@
       "lat": 31.705,
       "lng": 35.202,
       "summary": "Bethlehem Ephrathah is the small place from which the promised ruler will come.",
-      "limits": "Approximate locality marker. It does not identify a particular birth building.",
+      "limits": "The marker shows an approximate locality. It does not identify a particular birth building.",
       "sourceIds": [
         "web"
       ]
@@ -768,7 +768,7 @@
       "lat": 30.05,
       "lng": 31.23,
       "summary": "Egypt appears in memories of rescue and in the final hope for renewed wonders.",
-      "limits": "Broad regional reference. No specific departure point or route is assigned.",
+      "limits": "The marker shows a broad region. No specific departure point or route is assigned.",
       "sourceIds": [
         "web"
       ]
@@ -779,7 +779,7 @@
       "lat": 32.2,
       "lng": 35.8,
       "summary": "Gilead appears in the request that God feed the people as in earlier days.",
-      "limits": "Broad regional reference. The request does not establish a particular pasture boundary.",
+      "limits": "The marker shows a broad region. The request does not establish a particular pasture boundary.",
       "sourceIds": [
         "web"
       ]

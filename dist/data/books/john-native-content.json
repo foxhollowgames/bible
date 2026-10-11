@@ -164,7 +164,7 @@
       "summary": "The map index supplies selected city and regional references.",
       "category": "Geographic reference",
       "perspective": "historical",
-      "limits": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
+      "limits": "Use this source for geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
       "author": "NET Bible and ROHR Productions",
       "publisher": "bible.org",
       "reviewed": {
@@ -173,7 +173,7 @@
       },
       "license": "Linked reference. No map image or dictionary prose reproduced.",
       "type": "Geographic reference",
-      "limitations": "Geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains."
+      "limitations": "Use this source for geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains."
     },
     {
       "id": "atlas-canaan",
@@ -182,9 +182,9 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -358,7 +358,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Greek words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -372,7 +372,7 @@
       "perspective": "historical",
       "category": "Greek text",
       "url": "https://github.com/byztxt/byzantine-majority-text",
-      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "summary": "This edition gives a Greek New Testament text with dictionary numbers. This study guide uses these numbers to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
       "license": "Public domain.",
       "type": "Greek text",
@@ -1516,14 +1516,14 @@
       "lat": 31.705,
       "lng": 35.202,
       "summary": "Bethlehem appears in the crowd’s disputed claim about the Christ’s origin.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Bethlehem appears in the crowd’s disputed claim about the Christ’s origin.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1551,14 +1551,14 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem holds feast disputes, final conflict, and the burial and appearance setting.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Jerusalem holds feast disputes, final conflict, and the burial and appearance setting.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1586,14 +1586,14 @@
       "lat": 31.86,
       "lng": 35.55,
       "summary": "Beyond the Jordan holds John’s early witness and Jesus’ later withdrawal.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Beyond the Jordan holds John’s early witness and Jesus’ later withdrawal.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1621,14 +1621,14 @@
       "lat": 32.85,
       "lng": 35.3,
       "summary": "Galilee holds early signs and the final shared meal by the lake.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Galilee holds early signs and the final shared meal by the lake.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1656,14 +1656,14 @@
       "lat": 31.779,
       "lng": 35.247,
       "summary": "The Mount of Olives appears in the retained opening of chapter eight.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "The Mount of Olives appears in the retained opening of chapter eight.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true
     },
     {
@@ -1672,14 +1672,14 @@
       "lat": 32.7,
       "lng": 35.3,
       "summary": "Nazareth appears in identity questions and the execution title.",
-      "limits": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "limits": "The marker shows an approximate town reference from the NET coordinate line. No house or workshop is identified.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "Nazareth appears in identity questions and the execution title.",
-      "uncertainty": "Approximate town reference from the NET coordinate line. No house or workshop is identified.",
+      "uncertainty": "The marker shows an approximate town reference from the NET coordinate line. No house or workshop is identified.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1707,14 +1707,14 @@
       "lat": 32.86666666666667,
       "lng": 35.56666666666667,
       "summary": "Capernaum holds the bread teaching and the official’s sick son.",
-      "limits": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "limits": "The marker shows an approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "Capernaum holds the bread teaching and the official’s sick son.",
-      "uncertainty": "Approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+      "uncertainty": "The marker shows an approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1742,7 +1742,7 @@
       "lat": 31.766666666666666,
       "lng": 35.25,
       "summary": "Bethany near Jerusalem holds Lazarus’ home and the anointing meal.",
-      "limits": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "limits": "The marker shows an approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
       "sourceIds": [
         "web",
         "net-nt-map"
@@ -1759,7 +1759,7 @@
         ]
       },
       "detail": "Bethany near Jerusalem holds Lazarus’ home and the anointing meal.",
-      "uncertainty": "Approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+      "uncertainty": "The marker shows an approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1788,14 +1788,14 @@
       "lat": 32.9,
       "lng": 35.61666666666667,
       "summary": "Bethsaida identifies the origins of Andrew, Peter, and Philip.",
-      "limits": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "limits": "The marker shows a broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "Bethsaida identifies the origins of Andrew, Peter, and Philip.",
-      "uncertainty": "Broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+      "uncertainty": "The marker shows a broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1823,14 +1823,14 @@
       "lat": 32.8,
       "lng": 35.583333333333336,
       "summary": "The Sea of Galilee, also called Tiberias, holds crossings and the final fishing scene.",
-      "limits": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "limits": "The marker shows a lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "verseScope": {},
       "detail": "The Sea of Galilee, also called Tiberias, holds crossings and the final fishing scene.",
-      "uncertainty": "Lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+      "uncertainty": "The marker shows a lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1859,13 +1859,13 @@
       "lat": 32.733333333333334,
       "lng": 35.333333333333336,
       "summary": "Cana holds the wedding sign and the official’s request. It also names Nathanael’s hometown.",
-      "limits": "Broad NET reference vicinity. Competing site claims remain unresolved. No wedding house receives a fixed point.",
+      "limits": "The marker shows a broad vicinity from the NET reference. Competing site claims remain unresolved. No wedding house receives a fixed point.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "detail": "Cana holds the wedding sign and the official’s request. It also names Nathanael’s hometown.",
-      "uncertainty": "Broad NET reference vicinity. Competing site claims remain unresolved. No wedding house receives a fixed point.",
+      "uncertainty": "The marker shows a broad vicinity from the NET reference. Competing site claims remain unresolved. No wedding house receives a fixed point.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1894,13 +1894,13 @@
       "lat": 32.2,
       "lng": 35.3,
       "summary": "The well conversation occurs near Sychar in Samaria.",
-      "limits": "Broad NET reference vicinity. The marker does not identify an ancient ruin or authenticate the well.",
+      "limits": "The marker shows a broad vicinity from the NET reference. The marker does not identify an ancient ruin or authenticate the well.",
       "sourceIds": [
         "web",
         "net-nt-map"
       ],
       "detail": "The well conversation occurs near Sychar in Samaria.",
-      "uncertainty": "Broad NET reference vicinity. The marker does not identify an ancient ruin or authenticate the well.",
+      "uncertainty": "The marker shows a broad vicinity from the NET reference. The marker does not identify an ancient ruin or authenticate the well.",
       "chapterLocation": true,
       "word": {
         "language": "greek",

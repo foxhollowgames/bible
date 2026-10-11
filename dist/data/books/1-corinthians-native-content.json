@@ -140,9 +140,9 @@
       "category": "Geography",
       "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng",
       "summary": "This Church-published atlas identifies towns and regions in Canaan.",
-      "limits": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "type": "Geography",
-      "limitations": "Existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
+      "limitations": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -564,7 +564,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Greek dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Greek words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -578,7 +578,7 @@
       "perspective": "historical",
       "category": "Greek text",
       "url": "https://github.com/byztxt/byzantine-majority-text",
-      "summary": "Provides a Greek New Testament text with dictionary numbers. This study guide uses these to check selected words against their verses.",
+      "summary": "This edition gives a Greek New Testament text with dictionary numbers. This study guide uses these numbers to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Greek match. It shows Greek dictionary forms. The forms in the verses can differ. Other Greek editions differ in some verses.",
       "license": "Public domain.",
       "type": "Greek text",
@@ -1396,14 +1396,14 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem is the intended destination of the collected gift.",
-      "limits": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "verseScope": {},
       "detail": "Jerusalem is the intended destination of the collected gift.",
-      "uncertainty": "Approximate reference marker. It identifies no exact house, road, execution site, or ancient border.",
+      "uncertainty": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1431,14 +1431,14 @@
       "lat": 37.9,
       "lng": 22.866666666666667,
       "summary": "Corinth names the church receiving the letter.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
       ],
       "verseScope": {},
       "detail": "Corinth names the church receiving the letter.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "uncertainty": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "chapterLocation": true,
       "word": {
         "language": "greek",
@@ -1466,14 +1466,14 @@
       "lat": 37.95,
       "lng": 27.366666666666667,
       "summary": "Ephesus appears in Paul’s recalled danger and planned stay.",
-      "limits": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "limits": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "sourceIds": [
         "web",
         "net-acts-map"
       ],
       "verseScope": {},
       "detail": "Ephesus appears in Paul’s recalled danger and planned stay.",
-      "uncertainty": "Broad city reference. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
+      "uncertainty": "The marker shows a broad city location. Exact houses, riverside meeting points, courtrooms, and ancient routes remain unassigned.",
       "chapterLocation": true,
       "word": {
         "language": "greek",

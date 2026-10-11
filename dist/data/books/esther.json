@@ -1621,7 +1621,7 @@
       "lat": 32.189,
       "lng": 48.257,
       "summary": "The palace, gate, and city square form the setting for Esther’s choices.",
-      "limits": "Ancient city location. No precise palace room or journey road is reconstructed.",
+      "limits": "The marker shows the ancient city location. No precise palace room or journey road is reconstructed.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1634,7 +1634,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "The family account recalls people carried away from Jerusalem before the palace story.",
-      "limits": "Reference marker only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
+      "limits": "The marker is for reference only. Exact houses, camps, battle lines, property boundaries, and ancient roads remain uncertain.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1647,7 +1647,7 @@
       "lat": 32.54,
       "lng": 44.42,
       "summary": "Nebuchadnezzar’s earlier capture of people forms part of the family account.",
-      "limits": "Approximate reference marker. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
+      "limits": "The marker shows an approximate location. It does not establish an exact ascent, house, camp, deportation settlement, ancient road, or battle position.",
       "sourceIds": [
         "web",
         "atlas",
@@ -1660,7 +1660,7 @@
       "id": "web",
       "title": "Esther · World English Bible",
       "url": "https://ebible.org/engwebp/EST01.htm",
-      "summary": "Complete public-domain reading text for ten chapters.",
+      "summary": "This source gives the complete public-domain reading text for ten chapters.",
       "category": "Scripture",
       "perspective": "historical",
       "limits": "The text supplies the story and its speakers’ claims. It does not independently verify events."
@@ -1700,7 +1700,7 @@
       "summary": "Jacobson and Schifferdecker read Esther as a story about courage and life under foreign rulers.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "A literary teaching overview. The story’s court setting does not verify its events.",
+      "limits": "This is a literary teaching overview. The story’s court setting does not verify its events.",
       "author": "Diane Jacobson · revised Kathryn Schifferdecker",
       "year": 2023,
       "chapterCoverage": [
@@ -1849,7 +1849,7 @@
       "summary": "The Seminary lesson recommends this map for the Persian setting.",
       "category": "Geography",
       "perspective": "historical",
-      "limits": "Library reference only. Unreviewed map labels are not used to place events.",
+      "limits": "This is a library reference only. Unreviewed map labels are not used to place events.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": "Current map",
       "chapterCoverage": [],

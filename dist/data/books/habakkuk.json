@@ -369,7 +369,7 @@
       "lat": 34.0,
       "lng": 35.85,
       "summary": "Lebanon appears among the places harmed by violence in the taunt against the oppressor.",
-      "limits": "Broad regional reference. The poem does not identify particular forests or an army route.",
+      "limits": "The marker shows a broad region. The poem does not identify particular forests or an army route.",
       "sourceIds": [
         "web"
       ]
@@ -380,7 +380,7 @@
       "lat": 28.4,
       "lng": 35.3,
       "summary": "Midian appears among the trembling dwellings in the prayer’s description of God’s arrival.",
-      "limits": "Broad regional reference. The prayer’s movement does not establish an ordinary traveled path.",
+      "limits": "The marker shows a broad region. The prayer’s movement does not establish an ordinary traveled path.",
       "sourceIds": [
         "web"
       ]

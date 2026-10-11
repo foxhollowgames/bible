@@ -1,0 +1,16 @@
+{
+  "places.bethlehem.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.jerusalem.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.jordan.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.galilee.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.olives.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.nazareth.limits": "The marker shows an approximate town reference from the NET coordinate line. No house or workshop is identified.",
+  "places.capernaum.limits": "The marker shows an approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+  "places.bethany.limits": "The marker shows an approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+  "places.bethsaida.limits": "The marker shows a broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+  "places.sea-galilee.limits": "The marker shows a lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+  "places.cana.limits": "The marker shows a broad vicinity from the NET reference. Competing site claims remain unresolved. No wedding house receives a fixed point.",
+  "places.sychar.limits": "The marker shows a broad vicinity from the NET reference. The marker does not identify an ancient ruin or authenticate the well.",
+  "sources.net-nt-map.limits": "Use this source for geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
+  "sources.atlas-canaan.limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
+}

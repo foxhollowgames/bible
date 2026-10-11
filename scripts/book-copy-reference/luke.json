@@ -1,0 +1,22 @@
+{
+  "places.bethlehem.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.jerusalem.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.jordan.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.galilee.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.tyre.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.sidon.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.jericho.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.olives.limits": "The marker shows an approximate location. It identifies no exact house, road, execution site, or ancient border.",
+  "places.nazareth.limits": "The marker shows an approximate town reference from the NET coordinate line. No house or workshop is identified.",
+  "places.capernaum.limits": "The marker shows an approximate town reference from the NET coordinate line. No specific synagogue or house is reconstructed.",
+  "places.bethany.limits": "The marker shows an approximate reference from the NET coordinate line. This is not Bethany beyond the Jordan or an identified house.",
+  "places.bethsaida.limits": "The marker shows a broad vicinity from the NET reference. This marker does not identify one ancient ruin or a boat landing.",
+  "places.sea-galilee.limits": "The marker shows a lake reference from the NET coordinate line. No exact storm position or crossing route is assigned.",
+  "sources.cfm-nt-2023-2.limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+  "sources.cfm-nt-2023-5.limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+  "sources.cfm-nt-2023-17.limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+  "sources.cfm-nt-2023-20.limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+  "sources.cfm-nt-2023-27.limits": "This source gives selected Church teaching only. Lesson headings alone do not establish teaching coverage.",
+  "sources.net-nt-map.limits": "Use this source for geographic reference only. It does not verify events, ancient roads, houses, tombs, or the unnamed mountains.",
+  "sources.atlas-canaan.limits": "This source supplies existing selected reference coordinates only. The earlier review record remains unchanged. This source does not verify Gospel events or exact routes."
+}

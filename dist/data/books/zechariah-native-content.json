@@ -217,7 +217,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -231,7 +231,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",
@@ -1009,12 +1009,12 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem receives promises of rebuilding, changed conduct, protection, and worship by many nations.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Jerusalem receives promises of rebuilding, changed conduct, protection, and worship by many nations.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1041,12 +1041,12 @@
       "lat": 32.54,
       "lng": 44.42,
       "summary": "Babylon appears as the place from which people must leave or have brought gifts.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Babylon appears as the place from which people must leave or have brought gifts.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1073,12 +1073,12 @@
       "lat": 33.513,
       "lng": 36.292,
       "summary": "Damascus appears at the beginning of the warning against northern and coastal cities.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Damascus appears at the beginning of the warning against northern and coastal cities.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1105,12 +1105,12 @@
       "lat": 33.27,
       "lng": 35.2,
       "summary": "Tyre’s stored wealth and sea power face judgment before the promised king arrives.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Tyre’s stored wealth and sea power face judgment before the promised king arrives.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1137,12 +1137,12 @@
       "lat": 33.56,
       "lng": 35.37,
       "summary": "Sidon appears with Tyre among places addressed in the opening warning of chapter nine.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Sidon appears with Tyre among places addressed in the opening warning of chapter nine.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1169,12 +1169,12 @@
       "lat": 31.5,
       "lng": 34.46,
       "summary": "Gaza’s king faces loss after the threatened fall of Tyre.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Gaza’s king faces loss after the threatened fall of Tyre.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1201,12 +1201,12 @@
       "lat": 31.67,
       "lng": 34.55,
       "summary": "Ashkelon appears among cities threatened with fear and abandonment.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Ashkelon appears among cities threatened with fear and abandonment.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1233,12 +1233,12 @@
       "lat": 31.75,
       "lng": 34.66,
       "summary": "Ashdod appears where outsiders will dwell as Philistine pride is removed.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Ashdod appears where outsiders will dwell as Philistine pride is removed.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1265,12 +1265,12 @@
       "lat": 31.777,
       "lng": 34.852,
       "summary": "Ekron faces disappointed hope before a later promise of inclusion among God’s people.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Ekron faces disappointed hope before a later promise of inclusion among God’s people.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1297,12 +1297,12 @@
       "lat": 30.05,
       "lng": 31.23,
       "summary": "Egypt appears in promised gathering and the warning about nations refusing to worship.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Egypt appears in promised gathering and the warning about nations refusing to worship.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1329,12 +1329,12 @@
       "lat": 32.2,
       "lng": 35.8,
       "summary": "Gilead appears among places where the gathered people will live.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Gilead appears among places where the gathered people will live.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1361,12 +1361,12 @@
       "lat": 34.0,
       "lng": 35.85,
       "summary": "Lebanon appears in gathering promises and the lament over destroyed forests.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Lebanon appears in gathering promises and the lament over destroyed forests.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1393,12 +1393,12 @@
       "lat": 31.93,
       "lng": 35.22,
       "summary": "Bethel sends visitors who ask whether their long practice of fasting should continue.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "Bethel sends visitors who ask whether their long practice of fasting should continue.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1425,12 +1425,12 @@
       "lat": 31.779,
       "lng": 35.247,
       "summary": "The Mount of Olives appears in the extraordinary vision of rescue during the final battle.",
-      "limits": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "limits": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "sourceIds": [
         "web"
       ],
       "detail": "The Mount of Olives appears in the extraordinary vision of rescue during the final battle.",
-      "uncertainty": "Approximate city or regional reference. No visionary boundaries, split mountain path, or battle route is reconstructed.",
+      "uncertainty": "The marker shows an approximate city or region. No visionary boundaries, split mountain path, or battle route is reconstructed.",
       "chapterLocation": true
     }
   ],

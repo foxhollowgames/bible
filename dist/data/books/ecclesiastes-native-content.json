@@ -64,7 +64,7 @@
       "summary": "JPS identifies Michael V. Fox’s commentary and describes questions about justice and lasting value.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "Bibliographic verification only. No chapter interpretation is attributed to unread commentary.",
+      "limits": "This record gives bibliographic verification only. No chapter interpretation is attributed to unread commentary.",
       "author": "Michael V. Fox",
       "year": 2004,
       "publisher": "The Jewish Publication Society",
@@ -74,7 +74,7 @@
         "scope": "Publisher description and author record reviewed. Commentary text not reviewed."
       },
       "type": "Scholarly study",
-      "limitations": "Bibliographic verification only. No chapter interpretation is attributed to unread commentary.",
+      "limitations": "This record gives bibliographic verification only. No chapter interpretation is attributed to unread commentary.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -84,7 +84,7 @@
       "summary": "The opening overview distinguishes the Preacher from the closing writer.",
       "category": "Wikipedia overview",
       "perspective": "historical",
-      "limits": "Overview and bibliography discovery. Detailed reader notes use scripture and reviewed named sources.",
+      "limits": "The guide uses this source for an overview and to find other works. Detailed reader notes use scripture and reviewed named sources.",
       "author": "Wikipedia contributors",
       "year": 2026,
       "publisher": "Wikipedia",
@@ -101,7 +101,7 @@
         "fox-ecclesiastes-record"
       ],
       "type": "Wikipedia overview",
-      "limitations": "Overview and bibliography discovery. Detailed reader notes use scripture and reviewed named sources."
+      "limitations": "The guide uses this source for an overview and to find other works. Detailed reader notes use scripture and reviewed named sources."
     },
     {
       "id": "cfm-ecclesiastes",
@@ -202,7 +202,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -216,7 +216,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",
@@ -848,13 +848,13 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "The opening places the royal speaker in Jerusalem.",
-      "limits": "A setting for the royal voice in chapters 1–2. It does not verify Solomon’s authorship or date later examples.",
+      "limits": "The marker shows a setting for the royal voice in chapters 1–2. It does not verify Solomon’s authorship or date later examples.",
       "sourceIds": [
         "web",
         "atlas-canaan"
       ],
       "detail": "The opening places the royal speaker in Jerusalem.",
-      "uncertainty": "A setting for the royal voice in chapters 1–2. It does not verify Solomon’s authorship or date later examples.",
+      "uncertainty": "The marker shows a setting for the royal voice in chapters 1–2. It does not verify Solomon’s authorship or date later examples.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",

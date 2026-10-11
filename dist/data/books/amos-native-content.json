@@ -322,7 +322,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -336,7 +336,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",
@@ -842,12 +842,12 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem is named in warnings directed toward Judah and the opening divine roar.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Jerusalem is named in warnings directed toward Judah and the opening divine roar.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -874,12 +874,12 @@
       "lat": 33.513,
       "lng": 36.292,
       "summary": "Damascus receives a charge about violence and later marks a warning of distant captivity.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Damascus receives a charge about violence and later marks a warning of distant captivity.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -906,12 +906,12 @@
       "lat": 33.27,
       "lng": 35.2,
       "summary": "Tyre faces a charge about handing over whole captive communities.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Tyre faces a charge about handing over whole captive communities.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -938,12 +938,12 @@
       "lat": 30.75,
       "lng": 35.55,
       "summary": "Edom faces charges about continuing violence against a brother people.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Edom faces charges about continuing violence against a brother people.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -970,12 +970,12 @@
       "lat": 31.951,
       "lng": 35.94,
       "summary": "Rabbah receives a warning within the speech against Ammon.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Rabbah receives a warning within the speech against Ammon.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1002,12 +1002,12 @@
       "lat": 32.276,
       "lng": 35.194,
       "summary": "Samaria is the city where wealth, oppression, and false security receive public scrutiny.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Samaria is the city where wealth, oppression, and false security receive public scrutiny.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",
@@ -1034,12 +1034,12 @@
       "lat": 30.05,
       "lng": 31.23,
       "summary": "Egypt appears among the remembered places of rescue and the witnesses to Samaria’s wrongdoing.",
-      "limits": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "limits": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "sourceIds": [
         "web"
       ],
       "detail": "Egypt appears among the remembered places of rescue and the witnesses to Samaria’s wrongdoing.",
-      "uncertainty": "Approximate geographic reference. Prophetic warnings do not establish a traveled route or an exact battlefield.",
+      "uncertainty": "The marker shows an approximate location. Prophetic warnings do not establish a traveled route or an exact battlefield.",
       "chapterLocation": true,
       "word": {
         "language": "hebrew",

@@ -273,7 +273,6 @@
   "people.jehiel-treasurer.role": "Gershonite who keeps the precious stones",
   "people.jehiel-treasurer.relations": "Called the Gershonite.",
   "people.jehiel-treasurer.meaning": "People who have precious stones give them for the LORD’s house. The stones go into the treasure under Jehiel’s hand.",
-
   "places.adullam.summary": "In chapter 11, three of the thirty chief men go down to David. He is at the cave of Adullam. The Philistines camp in the valley of Rephaim.",
   "places.adullam.limits": "The marker shows the general area. The cave’s exact place is not certain.",
   "places.aram.summary": "The children of Ammon hire chariots and horsemen from Aram-maacah and nearby lands (chapter 19). Joab and David defeat the Syrians. The Syrians then make peace with David.",
@@ -334,24 +333,23 @@
   "places.tyre.limits": "The marker shows the city’s general location.",
   "places.ziklag.summary": "Simeon’s families live at Ziklag until David’s reign (chapter 4). David stays there while he hides from Saul (chapter 12). Men of Benjamin and Manasseh join him there.",
   "places.ziklag.limits": "The site of Ziklag is not certain. The marker shows a general area.",
-
   "sources.web.limits": "The Bible text alone does not prove its dates, numbers, motives, or how people looked.",
   "sources.atlas.limits": "Use the map labels as background. The linked atlas also includes LDS commentary.",
   "sources.atlas-canaan.limits": "Marker positions are estimates for display. A town marker does not prove that an event happened there.",
   "sources.terrain.limits": "Modern terrain is a map aid. It does not show ancient shorelines or settlements.",
   "sources.tuell-chronicles.summary": "Tuell covers the family lists, David’s temple role, and debates about how the book formed.",
-  "sources.tuell-chronicles.limits": "Introductory background only. The full list of works and the commentaries it cites were not available. Scholars dispute who wrote the book and when.",
+  "sources.tuell-chronicles.limits": "This source gives introductory background only. The full list of works and the commentaries it cites were not available. Scholars dispute who wrote the book and when.",
   "sources.luther-chronicles.summary": "The overview links the book’s picture of David to worship and a later community’s concerns.",
-  "sources.luther-chronicles.limits": "A scholar’s teaching overview. It is not a separate record of each battle or speech. Its proposed date and priestly author remain unproven ideas.",
+  "sources.luther-chronicles.limits": "This is a scholar’s teaching overview. It is not a separate record of each battle or speech. Its proposed date and priestly author remain unproven ideas.",
   "sources.schaser-chronicles.summary": "Schaser discusses music as prophecy and what the book leaves out. He gives options for the adversary in 21:1.",
-  "sources.schaser-chronicles.limits": "One named scholar’s reading. Scholars still debate who the adversary is and how later belief applied the verse. The source gives a wrong Samuel book label. The label was checked against 2 Samuel 24:1.",
+  "sources.schaser-chronicles.limits": "This is one named scholar’s reading. Scholars still debate who the adversary is and how later belief applied the verse. The source gives a wrong Samuel book label. The label was checked against 2 Samuel 24:1.",
   "sources.mcclellan-chronicles.summary": "McClellan proposes that Chronicles shows a contest over priestly authority. He warns against reading modern ideas back into it.",
-  "sources.mcclellan-chronicles.limits": "A proposal, not proof of every author’s motive. The machine-made transcript may contain errors. Audio was not checked. Other interview topics are not used here.",
+  "sources.mcclellan-chronicles.limits": "This is a proposal, not proof of every author’s motive. The machine-made transcript may contain errors. Audio was not checked. Other interview topics are not used here.",
   "sources.wiki-1-chronicles.summary": "The opening gives the book’s structure and a list of works to look for.",
-  "sources.wiki-1-chronicles.limits": "Background only. The author, the date of writing, and the order of events are not treated as certain. They are checked against scholarship.",
+  "sources.wiki-1-chronicles.limits": "Use this source for background only. The author, the date of writing, and the order of events are not treated as certain. They are checked against scholarship.",
   "sources.cfm-chronicles-context.summary": "The article explains that history books choose what to tell. It directly compares Chronicles with Samuel and Kings.",
   "sources.cfm-chronicles-context.limits": "Book background, not a weekly lesson on 1 Chronicles alone. Faith lessons and historical comparison stay separate.",
-
   "chapters.*.mapNote": "The points show named towns and wide regions. The family lists do not describe journeys between them.",
-  "chapters.*.routeEvidence": "No route is drawn for this chapter."
+  "chapters.*.routeEvidence": "No route is drawn for this chapter.",
+  "sources.lds-chronicles.limits": "This source gives a selected LDS application. Broad claims about later Jewish religion are not adopted. The chart invites comparison, not an assumption that the accounts are identical."
 }

@@ -155,7 +155,7 @@
       "lat": 30.75,
       "lng": 35.55,
       "summary": "Edom is the people and mountain region addressed in the vision.",
-      "limits": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "limits": "The marker shows an approximate city or region. The marker does not identify a particular rock dwelling or crossroads.",
       "sourceIds": [
         "web"
       ]
@@ -166,7 +166,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem appears as the city whose defeat Edom exploited.",
-      "limits": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "limits": "The marker shows an approximate city or region. The marker does not identify a particular rock dwelling or crossroads.",
       "sourceIds": [
         "web"
       ]
@@ -177,7 +177,7 @@
       "lat": 32.276,
       "lng": 35.194,
       "summary": "Samaria appears among the fields named in the closing land promise.",
-      "limits": "Approximate city or region reference. The marker does not identify a particular rock dwelling or crossroads.",
+      "limits": "The marker shows an approximate city or region. The marker does not identify a particular rock dwelling or crossroads.",
       "sourceIds": [
         "web"
       ]

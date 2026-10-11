@@ -378,7 +378,7 @@
       "lat": 36.36,
       "lng": 43.15,
       "summary": "Nineveh is the city Jonah must address and the object of God’s final question.",
-      "limits": "Approximate ancient city marker. No king, palace room, or walking path is identified.",
+      "limits": "The marker shows the approximate location of the ancient city. No king, palace room, or walking path is identified.",
       "sourceIds": [
         "web"
       ]
@@ -389,7 +389,7 @@
       "lat": 32.054,
       "lng": 34.751,
       "summary": "Joppa is the port where Jonah finds the ship bound for Tarshish.",
-      "limits": "Approximate port marker. Tarshish and the ship’s course remain uncertain and unmapped.",
+      "limits": "The marker shows the approximate location of the port. Tarshish and the ship’s course remain uncertain and unmapped.",
       "sourceIds": [
         "web"
       ]

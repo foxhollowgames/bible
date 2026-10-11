@@ -189,7 +189,7 @@
       "summary": "McClellan compares readings of the heavenly council. He questions the idea that the whole Bible teaches one view of God.",
       "category": "Scholar commentary",
       "perspective": "historical",
-      "limits": "Older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus.",
+      "limits": "This is an older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus.",
       "author": "Dan McClellan",
       "year": "July 30, 2010",
       "chapterCoverage": [
@@ -201,7 +201,7 @@
         "porter-record"
       ],
       "type": "Scholar commentary",
-      "limitations": "Older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus.",
+      "limitations": "This is an older critical commentary. Porter’s full thesis and House’s commentary were not read. One post does not establish scholarly consensus.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -598,7 +598,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -612,7 +612,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",

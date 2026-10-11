@@ -165,7 +165,7 @@
       "summary": "The article explains that the history books select what they tell. It compares Chronicles with Samuel and Kings.",
       "category": "Come, Follow Me",
       "perspective": "lds",
-      "limits": "Book context, not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct.",
+      "limits": "This source gives book context. It is not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2026,
       "chapterCoverage": [
@@ -179,7 +179,7 @@
       ],
       "reviewed": "2026-10-05: Complete article and notes reviewed, including note 2’s comparison of 1 Chronicles 19–20 with 2 Samuel 10–12.",
       "type": "Come, Follow Me",
-      "limitations": "Book context, not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct.",
+      "limitations": "This source gives book context. It is not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -280,7 +280,7 @@
       "summary": "The opening gives the book’s structure and points to other works to read.",
       "category": "Encyclopedia background",
       "perspective": "historical",
-      "limits": "Background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship.",
+      "limits": "Use this source for background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship.",
       "author": "Wikipedia contributors",
       "year": "Reviewed revision",
       "chapterCoverage": [
@@ -298,7 +298,7 @@
         "japhet-record"
       ],
       "type": "Encyclopedia background",
-      "limitations": "Background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship."
+      "limitations": "Use this source for background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship."
     },
     {
       "id": "cfm-2026-30",
@@ -401,7 +401,7 @@
       "type": "Primary evidence · museum record",
       "url": "https://www.britishmuseum.org/collection/object/W_1855-1003-1",
       "summary": "The Taylor Prism preserves an Assyrian royal account. The museum dates this object to 691 BCE. The campaign against Judah occurred in 701 BCE. The photograph shows two views of one object.",
-      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.",
       "reviewed": "Checked September 29, 2026. Object identity and date checked in the museum’s indexed collection record. Direct access to the object page returned HTTP 403. Photograph and public-domain release checked on Wikimedia Commons.",
       "license": "Museum record linked only. Photograph by David Castor, released into the public domain by its creator.",
       "image": {
@@ -420,7 +420,7 @@
       },
       "previewText": "This clay prism presents Sennacherib’s account of his campaigns. Royal claims reflect the ruler’s viewpoint.",
       "category": "Primary evidence · museum record",
-      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.",
       "perspective": "historical",
       "chapterCoverage": [
         32
@@ -747,7 +747,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -761,7 +761,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",

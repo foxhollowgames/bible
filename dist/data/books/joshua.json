@@ -4470,7 +4470,7 @@
       "name": "Egypt / Nile valley",
       "lat": 30.1,
       "lng": 31.2,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4482,7 +4482,7 @@
       "name": "Canaan · broad region",
       "lat": 31.7,
       "lng": 35.1,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4494,7 +4494,7 @@
       "name": "Hebron",
       "lat": 31.53,
       "lng": 35.1,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4506,7 +4506,7 @@
       "name": "Heshbon · proposed locality",
       "lat": 31.8,
       "lng": 35.81,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4518,7 +4518,7 @@
       "name": "Bashan · broad region",
       "lat": 32.65,
       "lng": 36.1,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4530,7 +4530,7 @@
       "name": "Gilead · broad region",
       "lat": 32.1,
       "lng": 35.8,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4542,7 +4542,7 @@
       "name": "Mount Gerizim",
       "lat": 32.2,
       "lng": 35.27,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4554,7 +4554,7 @@
       "name": "Mount Ebal",
       "lat": 32.24,
       "lng": 35.28,
-      "summary": "Named geographical reference in Joshua.",
+      "summary": "The book of Joshua names this geographical feature.",
       "limits": "The marker shows a broad locality or traditional identification. It does not verify occupation dates, an event, or precise tribal boundaries.",
       "sourceIds": [
         "web",
@@ -4566,7 +4566,7 @@
       "name": "Shittim · proposed region",
       "lat": 31.86,
       "lng": 35.7,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The precise camp location is uncertain.",
       "sourceIds": [
         "web",
@@ -4578,7 +4578,7 @@
       "name": "Jordan · crossing region",
       "lat": 31.86,
       "lng": 35.55,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "This shows a river region, not an identified ancient ford.",
       "sourceIds": [
         "web",
@@ -4590,7 +4590,7 @@
       "name": "Gilgal · approximate region",
       "lat": 31.86,
       "lng": 35.5,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The camp’s precise identification is uncertain.",
       "sourceIds": [
         "web",
@@ -4602,7 +4602,7 @@
       "name": "Jericho · Tell es-Sultan",
       "lat": 31.871,
       "lng": 35.444,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The site marker does not establish the date or cause of the narrated destruction.",
       "sourceIds": [
         "web",
@@ -4614,7 +4614,7 @@
       "name": "Ai · traditional et-Tell identification",
       "lat": 31.916,
       "lng": 35.26,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The identification and conquest chronology are disputed.",
       "sourceIds": [
         "web",
@@ -4626,7 +4626,7 @@
       "name": "Bethel · traditional Beitin locality",
       "lat": 31.93,
       "lng": 35.22,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The marker is a traditional locality, not an event verification.",
       "sourceIds": [
         "web",
@@ -4638,7 +4638,7 @@
       "name": "Gibeon · el-Jib locality",
       "lat": 31.847,
       "lng": 35.183,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The location does not identify a precise battle site.",
       "sourceIds": [
         "web",
@@ -4650,7 +4650,7 @@
       "name": "Jerusalem",
       "lat": 31.777,
       "lng": 35.235,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The marker does not identify a particular king or campaign.",
       "sourceIds": [
         "web",
@@ -4662,7 +4662,7 @@
       "name": "Jarmuth · Tel Yarmut locality",
       "lat": 31.708,
       "lng": 34.975,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The marker shows the traditional site, not a verified king’s residence.",
       "sourceIds": [
         "web",
@@ -4674,7 +4674,7 @@
       "name": "Lachish · Tel Lachish",
       "lat": 31.565,
       "lng": 34.849,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The site has a long history. Its presence does not verify Joshua’s campaign.",
       "sourceIds": [
         "web",
@@ -4686,7 +4686,7 @@
       "name": "Beth-horon · pass region",
       "lat": 31.89,
       "lng": 35.125,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "This shows the pass region, not an excavated campaign road.",
       "sourceIds": [
         "web",
@@ -4698,7 +4698,7 @@
       "name": "Azekah · traditional locality",
       "lat": 31.699,
       "lng": 34.936,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The marker does not identify the described pursuit route.",
       "sourceIds": [
         "web",
@@ -4710,7 +4710,7 @@
       "name": "Hazor · excavated site",
       "lat": 33.017,
       "lng": 35.569,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "Excavated fire deposits do not identify Joshua as their cause.",
       "sourceIds": [
         "web",
@@ -4723,7 +4723,7 @@
       "name": "Debir · approximate southern region",
       "lat": 31.42,
       "lng": 35.02,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "Competing site identifications remain. This regional marker is not a certain town location.",
       "sourceIds": [
         "web",
@@ -4735,7 +4735,7 @@
       "name": "Gezer · traditional Tel Gezer",
       "lat": 31.86,
       "lng": 34.919,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The marker does not establish the chronology of forced labor described in the chapter.",
       "sourceIds": [
         "web",
@@ -4747,7 +4747,7 @@
       "name": "Shiloh · traditional locality",
       "lat": 32.055,
       "lng": 35.289,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The marker does not independently date the assembly or sanctuary.",
       "sourceIds": [
         "web",
@@ -4759,7 +4759,7 @@
       "name": "Shechem · Tell Balata locality",
       "lat": 32.214,
       "lng": 35.282,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The locality does not verify the covenant ceremony or Joseph’s burial.",
       "sourceIds": [
         "web",
@@ -4771,7 +4771,7 @@
       "name": "Timnath-serah · traditional region",
       "lat": 32.117,
       "lng": 35.157,
-      "summary": "Named locality or region in Joshua.",
+      "summary": "The book of Joshua names this town or region.",
       "limits": "The identification is debated. The marker does not identify Joshua’s grave.",
       "sourceIds": [
         "web",

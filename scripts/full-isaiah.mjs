@@ -142,7 +142,7 @@ for (const note of notes) Object.assign(note, simpleNoteByChapter.get(note.chapt
 export function addFullIsaiah(content, scripture) {
   const web = content.sources.find(s => s.id === 'web');
   web.title = 'Isaiah — World English Bible';
-  web.summary = 'The complete book of Isaiah in the public-domain World English Bible. Chapter notes distinguish the biblical account from historical evidence.';
+  web.summary = 'This source gives the complete book of Isaiah in the public-domain World English Bible. Chapter notes distinguish the biblical account from historical evidence.';
   web.url = 'https://ebible.org/engwebp/ISA01.htm';
   for (const note of notes) {
     const c = note.chapter, sourceId = `web${c}`;

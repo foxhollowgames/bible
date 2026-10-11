@@ -7698,7 +7698,7 @@
       "summary": "The article explains that the history books select what they tell. It compares Chronicles with Samuel and Kings.",
       "category": "Come, Follow Me",
       "perspective": "lds",
-      "limits": "Book context, not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct.",
+      "limits": "This source gives book context. It is not a dedicated 1 Chronicles weekly lesson. Faith applications and historical comparison remain distinct.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2026,
       "chapterCoverage": [
@@ -7798,7 +7798,7 @@
       "summary": "The opening gives the book’s structure and points to other works to read.",
       "category": "Encyclopedia background",
       "perspective": "historical",
-      "limits": "Background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship.",
+      "limits": "Use this source for background only. Its claims about author, writing date, and order of events are not taken as certain. They are checked against scholarship.",
       "author": "Wikipedia contributors",
       "year": "Reviewed revision",
       "chapterCoverage": [
@@ -7909,7 +7909,7 @@
       "type": "Primary evidence · museum record",
       "url": "https://www.britishmuseum.org/collection/object/W_1855-1003-1",
       "summary": "The Taylor Prism preserves an Assyrian royal account. The museum dates this object to 691 BCE. The campaign against Judah occurred in 701 BCE. The photograph shows two views of one object.",
-      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "limitations": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.",
       "reviewed": "Checked September 29, 2026. Object identity and date checked in the museum’s indexed collection record. Direct access to the object page returned HTTP 403. Photograph and public-domain release checked on Wikimedia Commons.",
       "license": "Museum record linked only. Photograph by David Castor, released into the public domain by its creator.",
       "image": {
@@ -7928,7 +7928,7 @@
       },
       "previewText": "This clay prism presents Sennacherib’s account of his campaigns. Royal claims reflect the ruler’s viewpoint.",
       "category": "Primary evidence · museum record",
-      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Their dates must not be used as the date of the campaign. The royal account promotes Sennacherib’s rule.",
+      "limits": "The Taylor, Chicago, and Jerusalem prisms are separate objects. Do not use their dates as the date of the campaign. The royal account promotes Sennacherib’s rule.",
       "perspective": "historical",
       "chapterCoverage": [
         32

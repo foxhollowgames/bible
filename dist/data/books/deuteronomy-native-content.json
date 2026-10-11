@@ -289,11 +289,11 @@
       "category": "Scholarly publication",
       "perspective": "historical",
       "reviewed": "2026-10-05: Publisher description and edition metadata reviewed. The full commentary was not read.",
-      "limits": "Publisher description and edition metadata reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument.",
+      "limits": "The publisher description and edition metadata were reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument.",
       "license": "Linked publication record. Original summary.",
       "chapterCoverage": [],
       "type": "Scholarly publication",
-      "limitations": "Publisher description and edition metadata reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument."
+      "limitations": "The publisher description and edition metadata were reviewed. The full commentary was not read. This record verifies identity and scope. It does not independently verify every argument."
     },
     {
       "id": "dm-deuteronomy",
@@ -596,7 +596,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -610,7 +610,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",

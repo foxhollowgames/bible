@@ -107,7 +107,7 @@ export function addChapterEnrichment(content, scripture) {
     }
     if (source.id.startsWith('cfm2026-')) {
       const range = source.title.match(/— (.*?):/)?.[1] || 'these chapters';
-      source.studyText = `The Come, Follow Me lesson for ${range}. ${source.summary}`;
+      source.studyText = `This is the Come, Follow Me lesson for ${range}. ${source.summary}`;
     }
   }
   content.chapterStudies = readings.map(reading => {

@@ -55,7 +55,7 @@
       "summary": "The overview connects the walls, the public law reading, the settling of Jerusalem, and later changes.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "A scholarly teaching overview. The exact editing dates and the author remain uncertain.",
+      "limits": "This is a scholarly teaching overview. The exact editing dates and the author remain uncertain.",
       "author": "Mark Throntveit · revised Jione Havea",
       "year": 2023,
       "chapterCoverage": [
@@ -75,7 +75,7 @@
       ],
       "reviewed": "2026-10-05: Complete main summary and introductory sections reviewed.",
       "type": "Scholarly study",
-      "limitations": "A scholarly teaching overview. The exact editing dates and the author remain uncertain.",
+      "limitations": "This is a scholarly teaching overview. The exact editing dates and the author remain uncertain.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -85,7 +85,7 @@
       "summary": "The discussion studies how the returning families understand their losses and their shared past.",
       "category": "Scholarly study",
       "perspective": "historical",
-      "limits": "A named reading of community identity. Its outline of the history does not prove every scene.",
+      "limits": "This is a named reading of community identity. Its outline of the history does not prove every scene.",
       "author": "Mark Throntveit · revised Jione Havea",
       "year": 2023,
       "chapterCoverage": [
@@ -96,7 +96,7 @@
       ],
       "reviewed": "2026-10-05: Complete main Background section reviewed.",
       "type": "Scholarly study",
-      "limitations": "A named reading of community identity. Its outline of the history does not prove every scene.",
+      "limitations": "This is a named reading of community identity. Its outline of the history does not prove every scene.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -182,7 +182,7 @@
       "summary": "The lesson studies work in the face of opposition and help in understanding scripture.",
       "category": "Come, Follow Me",
       "perspective": "lds",
-      "limits": "Selected chapters only. The lesson’s detailed questions about opposition cover chapters 2, 4, and 6.",
+      "limits": "This source covers selected chapters only. The lesson’s detailed questions about opposition cover chapters 2, 4, and 6.",
       "author": "The Church of Jesus Christ of Latter-day Saints",
       "year": 2026,
       "chapterCoverage": [
@@ -194,7 +194,7 @@
       ],
       "reviewed": "2026-10-05: Complete main and children’s lesson sections reviewed. Linked supplements were not reviewed.",
       "type": "Come, Follow Me",
-      "limitations": "Selected chapters only. The lesson’s detailed questions about opposition cover chapters 2, 4, and 6.",
+      "limitations": "This source covers selected chapters only. The lesson’s detailed questions about opposition cover chapters 2, 4, and 6.",
       "license": "Linked source. Original guide summaries."
     },
     {
@@ -417,7 +417,7 @@
       "perspective": "historical",
       "category": "Historical lexicon",
       "url": "https://github.com/openscriptures/strongs",
-      "summary": "Lists Hebrew dictionary forms and their possible meanings. Use it with the passage to study a word.",
+      "summary": "This dictionary lists Hebrew words in their dictionary forms. It gives the possible meanings of each word. Use it with the passage to study a word.",
       "limits": "This is an older dictionary. Compare its meanings with the passage. A list of meanings alone cannot show which one applies.",
       "license": "Source XML declares Public Domain. Only selected headwords are used.",
       "type": "Historical lexicon",
@@ -431,7 +431,7 @@
       "perspective": "historical",
       "category": "Hebrew text",
       "url": "https://hb.openscriptures.org/",
-      "summary": "Provides the Hebrew text and word identifiers. This study guide uses these to check selected words against their verses.",
+      "summary": "This source gives the Hebrew text with a label for each word. This study guide uses these labels to check selected words against their verses.",
       "limits": "The app checks selected words, not every English–Hebrew match. It shows Hebrew dictionary forms. The forms in the verses can differ.",
       "license": "Hebrew text public domain; lemma/morphology data CC BY 4.0. Original work of the Open Scriptures Hebrew Bible, https://hb.openscriptures.org/.",
       "type": "Hebrew text",

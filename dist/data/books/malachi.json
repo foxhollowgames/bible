@@ -437,7 +437,7 @@
       "lat": 31.778,
       "lng": 35.235,
       "summary": "Jerusalem appears in the accusation about broken bonds and the promise of acceptable offerings.",
-      "limits": "Approximate city marker. The disputes give no specific altar layout or travel route.",
+      "limits": "The marker shows an approximate city location. The disputes give no specific altar layout or travel route.",
       "sourceIds": [
         "web"
       ]
@@ -448,7 +448,7 @@
       "lat": 30.75,
       "lng": 35.55,
       "summary": "Edom appears in the opening dispute about love and the threatened rebuilding of ruined places.",
-      "limits": "Broad regional reference. The passage gives no particular ruined town or border line.",
+      "limits": "The marker shows a broad region. The passage gives no particular ruined town or border line.",
       "sourceIds": [
         "web"
       ]
