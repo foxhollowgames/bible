@@ -74,7 +74,7 @@ The revision applies plain-English principles from ASD-STE100. It does not estab
 
 ## Wider narrative maps — September 28, 2026 UTC
 
-- Chapter selection and Focus Isaiah show the full chapter view. The redundant Big picture and Local detail buttons have been removed.
+- Chapter selection and Recenter show the full chapter view. The redundant Big picture and Local detail buttons have been removed.
 - All 66 chapters have narrative notes. The data contains 81 places, nine approximate geographic areas, and 39 narrative path records across 19 chapters with mapped movements.
 - Isaiah 15 has eight distress markers and four flight connections. The text’s unnamed attacker remains unnamed. Branches do not claim distinct refugee groups or confirmed starting towns.
 - Tests cover movement kinds, scripture references, geographic areas, Moab’s missing military itinerary, the full chapter 36 campaign, local detail, future exile, visionary connections, and suppression of unrelated inherited campaigns.
