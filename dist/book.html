@@ -8,7 +8,7 @@
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
-  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261009.5">
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261011.1">
   <link rel="preload" as="image" type="image/webp" href="assets/relief.webp">
 </head>
 <body>
@@ -17,12 +17,11 @@
     <header class="topbar">
       <a class="brand" href="#" aria-label="Isaiah Study Guide home"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b></a>
       <a class="bible-directory-link" href="books.html">Bible books</a>
-      <nav class="segmented study-mode" aria-label="Study mode"><button type="button" data-study-mode="read" class="active" aria-pressed="true" aria-controls="scriptureSidebar">Read</button><button type="button" data-study-mode="map" aria-pressed="false" aria-controls="mapView">Map</button></nav>
-      <div class="segmented" aria-label="Study guides"><button id="tourButton" aria-label="Open study guides">Guides</button></div>
       <div class="settings-menu" id="settingsMenu">
         <button id="settingsButton" class="settings-button" aria-label="Open settings" aria-expanded="false" aria-controls="settingsPanel"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
         <section id="settingsPanel" class="settings-panel" aria-labelledby="settingsHeading" hidden>
           <h2 id="settingsHeading">Settings</h2>
+          <fieldset><legend>Study mode</legend><div class="segmented study-mode"><button type="button" data-study-mode="read" class="active" aria-pressed="true" aria-controls="scriptureSidebar">Read</button><button type="button" data-study-mode="map" aria-pressed="false" aria-controls="mapView">Map</button></div></fieldset>
           <fieldset><legend>Study perspective</legend><div class="segmented perspective"><button data-perspective="historical" class="active" aria-pressed="true">Historical</button><button data-perspective="lds" aria-pressed="false">LDS</button></div></fieldset>
           <label class="portrait-setting"><input id="nonGeneratedPortraits" type="checkbox" role="switch" aria-describedby="portraitSettingHelp"><span>Use non-generated portraits</span></label>
           <p id="portraitSettingHelp">Use old art when we have a free copy.</p>
@@ -67,7 +66,7 @@
     } else {
       const appScript = document.createElement('script');
       appScript.type = 'module';
-      appScript.src = 'native-book.js?v=20261009.6';
+      appScript.src = 'native-book.js?v=20261011.1';
       document.body.append(appScript);
     }
   </script>

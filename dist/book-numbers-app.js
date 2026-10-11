@@ -1,10 +1,10 @@
 import { initChapterPicker } from './chapter-picker.js';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-numbers-portraits.js?v=20261009.6';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPortraitMode, webpCopy, webpSourceHtml } from './book-numbers-portraits.js?v=20261011.1';
 import { initModalDragging } from './modal-drag.js';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261009.6';
+const releaseVersion = '20261011.1';
 const chapters = Array.from({ length: 36 }, (_, i) => i + 1);
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
@@ -1197,7 +1197,7 @@ function guideReadingHtml(step) {
 function renderGuideStep() { const guide = data.guides.find(g => g.id === guideState?.id); const step = guide?.steps?.[guideState.index]; if (!guide || !step) { guideState = null; return renderGuides(); } const extraSources = (step.sourceIds || []).filter(id => !/^web(?:\d+)?$/.test(id)); const sourceHtml = extraSources.length ? sourcesHtml(extraSources) : ''; $('#tourDrawer').innerHTML = `<button class="dialog-close" data-action="close-guides" aria-label="Close guide">×</button><button class="back-button guide-back" data-action="guide-list">← Back to guide list</button><p class="tour-progress">${esc(guide.title)} · Step ${guideState.index + 1} of ${guide.steps.length}</p><h2>${esc(step.title)}</h2><p>${richText(step.text || '')}</p>${sourceInsightsHtml(step.sourceIds, step.chapter)}${guideReadingHtml(step)}${sourceHtml ? `<div class="word-section"><h3>Sources</h3>${sourceHtml}</div>` : ''}${passageInterpretationHtml()}<div class="tour-nav"><button data-action="guide-prev" ${guideState.index === 0 ? 'disabled' : ''}>← Previous</button><button data-action="guide-next">${guideState.index === guide.steps.length - 1 ? 'Finish' : 'Next →'}</button></div>`; $('#tourDrawer').scrollTop = 0; }
 function moveGuide(direction) { const guide = data.guides.find(g => g.id === guideState?.id); if (!guide) return; const next = guideState.index + direction; if (next < 0) return; if (next >= guide.steps.length) { showToast(`${guide.title} complete. You can continue your study.`); guideState = null; hideModalPanel($('#tourDrawer')); return; } guideState.index = next; applyGuideStep(); }
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCard(); });
-$('#layerToggle').dataset.action = 'toggle-layers'; $('#libraryButton').dataset.action = 'library'; $('#tourButton').dataset.action = 'open-guides'; $('#returnPassage').dataset.action = 'return-passage';
+$('#layerToggle').dataset.action = 'toggle-layers'; $('#libraryButton').dataset.action = 'library'; $('#returnPassage').dataset.action = 'return-passage';
 load();
 
 function chapterContextHtml(chapter = state.chapter) {
