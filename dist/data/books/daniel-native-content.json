@@ -258,7 +258,7 @@
       "summary": "Nebuchadnezzar of Babylon takes Jerusalem and carries off some temple vessels. He orders young men of noble families trained for his court. Daniel and three friends are chosen and given Babylonian names. They are to eat the king’s food and drink his wine. Daniel resolves not to defile himself and asks to be excused. The official fears for his own head. Daniel proposes ten days on vegetables and water. The four look healthier, and God gives them learning and wisdom.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "uncertainty": "Lines join the places Daniel names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "babylon",
         "jerusalem"
@@ -613,7 +613,7 @@
       "summary": "Nebuchadnezzar of Babylon takes Jerusalem and carries off some temple vessels. He orders young men of noble families trained for his court. Daniel and three friends are chosen and given Babylonian names. They are to eat the king’s food and drink his wine. Daniel resolves not to defile himself and asks to be excused. The official fears for his own head. Daniel proposes ten days on vegetables and water. The four look healthier, and God gives them learning and wisdom.",
       "detail": "The four accept new names, a foreign education, and royal service. Verse 8 shows where Daniel draws his line: the king’s table. He decides in his heart, and then he asks. He does not defy the official. His proposal protects that official too (verses 10–13). The test is short, and its result can be checked. The chapter says three times that “God gave” (verses 2, 9, 17).",
       "dateLabel": "Book order",
-      "uncertainty": "City markers locate named references. They do not trace the movements of visions.",
+      "uncertainty": "Lines join the places Daniel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -2353,14 +2353,21 @@
         "babylon",
         "jerusalem"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "daniel-1-first-captives",
+          "from": 0,
+          "to": 1,
+          "reference": "Daniel 1:1–6"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "City markers locate named references. They do not trace the movements of visions.",
+      "note": "Lines join the places Daniel names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Nebuchadnezzar of Babylon takes Jerusalem and carries off some temple vessels. He orders young men of noble families trained for his court. Daniel and three friends are chosen and given Babylonian names. They are to eat the king’s food and drink his wine. Daniel resolves not to defile himself and asks to be excused. The official fears for his own head. Daniel proposes ten days on vegetables and water. The four look healthier, and God gives them learning and wisdom.",
-      "limits": "City markers locate named references. They do not trace the movements of visions.",
+      "limits": "Lines join the places Daniel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -2571,7 +2578,39 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "daniel-1-first-captives",
+      "title": "Young nobles are taken to Babylon",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          32.54,
+          44.42
+        ]
+      ],
+      "placeIds": [
+        "jerusalem",
+        "babylon"
+      ],
+      "chapter": 1,
+      "verse": 1,
+      "endVerse": 6,
+      "summary": "Nebuchadnezzar besieges Jerusalem and takes temple vessels to the land of Shinar. He orders young nobles brought to his court.",
+      "detail": "The line joins the places Daniel names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Daniel names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated deportation",
+      "kind": "exile",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

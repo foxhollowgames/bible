@@ -81,39 +81,54 @@ for (const entry of directory) {
 }
 // Chapter journeys: each line joins places the book names, and each new place has a checked point.
 const journeys = await read('./book-journeys.json');
-let paths = 0;
-for (const [book, plan] of Object.entries(journeys)) {
-  if (book === 'reviewed') continue;
+let paths = 0, stops = 0;
+const kinds = ['journey','flight','diplomacy','military','exile','restoration'];
+for (const [id, [name, lat, lng, article, revision, limit]] of Object.entries(journeys.gazetteer)) {
+  assert(name && article && /^\d+$/.test(revision), `Gazetteer ${id} needs a reviewed article`); coordinate([lat, lng], `Gazetteer ${id}`);
+  if (limit) short(limit, `Gazetteer ${id}`);
+}
+for (const [book, plan] of Object.entries(journeys.books)) {
+  const entry = directory.find(item => item.id === book); assert(entry?.status === 'ready', `Journeys name unknown book ${book}`);
   const data = await read(`../dist/data/books/${book}-native-content.json`);
   const scripture = await read(`../dist/data/books/${book}-native-scripture.json`);
+  const base = await read(`../dist/data/books/${book}.json`);
   const places = new Map(data.places.map(place => [place.id, place])), sources = new Set(data.sources.map(source => source.id));
-  short(plan.note, `${book} journey note`); short(plan.uncertainty, `${book} journey limit`);
+  const own = new Set(base.places.map(place => place.id));
+  const note = journeys.note.replace('{book}', entry.name); short(note, `${book} journey note`); short(journeys.uncertainty.replace('{book}', entry.name), `${book} journey limit`);
   const allText = Object.values(scripture.chapters).flat().map(verse => verse.text).join(' ');
-  for (const [id, place] of Object.entries(plan.places)) {
-    assert(/^\d+$/.test(place.revisionId) && place.article, `${book}: place ${id} needs a reviewed article`);
-    assert(allText.includes(place.name), `${book}: the text never names ${place.name}`);
-    coordinate([place.lat, place.lng], `${book} ${id}`); short(place.summary, `${book} place ${id}`); short(place.limits, `${book} place ${id}`);
-  }
+  const used = new Set();
   for (const [chapter, routes] of Object.entries(plan.routes)) {
     const focus = data.chapterMaps.find(item => item.chapter === Number(chapter)), verses = scripture.chapters[chapter];
-    assert.equal(focus.note, plan.note, `${book} ${chapter}: the map note must describe the lines`);
-    for (const route of routes) {
-      const built = data.textRoutes.find(item => item.id === `${book}-${chapter}-${route.id}`);
-      assert(built && focus.routes.some(ref => ref.id === built.id), `${book} ${chapter}: route ${route.id} was not built`);
-      assert(verses.some(v => v.verse === route.verse) && verses.some(v => v.verse === route.endVerse) && route.verse <= route.endVerse, `${book} ${chapter}: route ${route.id} cites a missing verse`);
-      assert.equal(built.points.length, route.placeIds.length); assert(route.placeIds.length >= 2);
-      assert(['journey','flight','diplomacy','military','exile','restoration'].includes(route.kind), `${book} ${chapter}: route ${route.id} has no path style`);
-      for (const id of route.placeIds) {
-        assert(places.has(id) && focus.placeIds.includes(id), `${book} ${chapter}: route ${route.id} uses unmapped place ${id}`);
+    assert(focus && verses, `${book}: no chapter ${chapter}`);
+    if (!base.chapters.find(c => c.chapter === Number(chapter)).route.length) assert.equal(focus.note, note, `${book} ${chapter}: the map note must describe the lines`);
+    assert.equal(new Set(routes.map(route => route[0])).size, routes.length, `${book} ${chapter}: duplicate route id`);
+    for (const [rid, title, kind, stopList, span, summary, evidence] of routes) {
+      const ids = stopList.split('>'), [first, last = first] = span.split('-').map(Number);
+      const built = data.textRoutes.find(item => item.id === `${book}-${chapter}-${rid}`);
+      assert(built && focus.routes.some(ref => ref.id === built.id), `${book} ${chapter}: route ${rid} was not built`);
+      assert(title && evidence && kinds.includes(kind), `${book} ${chapter}: route ${rid} needs a title, evidence, and path style`);
+      assert(verses.some(v => v.verse === first) && verses.some(v => v.verse === last) && first <= last, `${book} ${chapter}: route ${rid} cites a missing verse`);
+      assert(ids.length >= 2 && built.points.length === ids.length, `${book} ${chapter}: route ${rid} needs two or more stops`);
+      ids.forEach((id, i) => assert(id !== ids[i + 1], `${book} ${chapter}: route ${rid} repeats ${id}`));
+      for (const id of ids) {
+        assert(places.has(id) && focus.placeIds.includes(id), `${book} ${chapter}: route ${rid} uses unmapped place ${id}`);
         for (const sid of places.get(id).sourceIds) assert(sources.has(sid), `${book}: place ${id} cites missing source ${sid}`);
+        if (own.has(id)) continue;
+        used.add(id);
         // A new stop must be named in the chapter that draws it, or in the chapter beside it when the trip crosses a chapter break.
         const near = [-1, 0, 1].flatMap(step => scripture.chapters[Number(chapter) + step] || []);
-        if (plan.places[id]) assert(near.some(v => v.text.includes(plan.places[id].name)), `${book} ${chapter}: the chapter does not name ${plan.places[id].name}`);
+        assert(near.some(v => v.text.includes(journeys.gazetteer[id][0])), `${book} ${chapter}: the chapter does not name ${journeys.gazetteer[id][0]}`);
       }
-      short(route.summary, `${book} ${chapter} ${route.id}`); paths++;
+      short(summary, `${book} ${chapter} ${rid}`); paths++;
     }
   }
+  for (const id of used) {
+    const info = plan.places[id]; assert(info, `${book}: new place ${id} needs a note`);
+    short(typeof info === 'string' ? info : info.summary, `${book} place ${id}`);
+    assert(allText.includes(journeys.gazetteer[id][0]), `${book}: the text never names ${journeys.gazetteer[id][0]}`); stops++;
+  }
+  for (const id of Object.keys(plan.places)) assert(used.has(id), `${book}: place note ${id} is unused`);
 }
-console.log(`Book journeys passed: ${paths} chapter paths.`);
+console.log(`Book journeys passed: ${Object.keys(journeys.books).length} books, ${paths} chapter paths, ${stops} added stops.`);
 for (const id of Object.keys(config.books)) assert(directory.some(entry => entry.id === id && entry.status === 'ready'), `Map file names unknown book ${id}`);
 console.log(`Book maps passed: ${books} books, ${regions} nation notes, ${roads} road records, ${areas} atlas areas.`);

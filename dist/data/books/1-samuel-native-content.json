@@ -958,7 +958,7 @@
       "summary": "Jonathan attacks a Philistine post, and the Philistines gather a huge army. Israel’s men hide in caves and pits, and some cross the Jordan. Saul waits seven days at Gilgal for Samuel, as he was told. Samuel does not come, and the soldiers begin to leave. Saul offers the burnt offering himself. Samuel arrives at once and says Saul’s kingdom will not last. The LORD has sought a man after his own heart. Saul is left with six hundred men, and only he and Jonathan have swords.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "uncertainty": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "michmash",
         "gibeah",
@@ -1029,7 +1029,7 @@
       "summary": "Samuel gives Saul the LORD’s command to destroy Amalek completely. The reason given is Amalek’s attack on Israel after Egypt. Saul defeats them but spares King Agag and the best animals. The LORD tells Samuel he regrets making Saul king. Saul greets Samuel and claims he has obeyed. Samuel asks about the sheep he hears and says obeying is better than sacrifice. Saul admits he feared the people, and the LORD rejects him as king. Samuel kills Agag and never visits Saul again.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "uncertainty": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "carmel-judah",
         "gilgal"
@@ -1479,7 +1479,7 @@
       "summary": "The Philistines gather for war, and Achish expects David to fight for him. Samuel is dead, and Saul has driven mediums from the land. Saul is afraid, and the LORD gives him no answer. He disguises himself and visits a medium at Endor by night. He asks her to bring up Samuel. Samuel says the LORD has given the kingdom to David. Tomorrow Saul and his sons will die. Saul falls to the ground, and the woman persuades him to eat.",
       "year": null,
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "uncertainty": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "shunem",
         "gilboa",
@@ -1942,7 +1942,7 @@
       "summary": "Jonathan attacks a Philistine post, and the Philistines gather a huge army. Israel’s men hide in caves and pits, and some cross the Jordan. Saul waits seven days at Gilgal for Samuel, as he was told. Samuel does not come, and the soldiers begin to leave. Saul offers the burnt offering himself. Samuel arrives at once and says Saul’s kingdom will not last. The LORD has sought a man after his own heart. Saul is left with six hundred men, and only he and Jonathan have swords.",
       "detail": "Saul’s answer in verse 11 lists three things he saw. The people were scattering, Samuel was late, and the Philistines had gathered. Verses 5–8 confirm that all three were true. His conclusion follows in verse 12: “I forced myself.” Every reason concerns what he could see. None concerns the instruction in 10:8 to wait. Samuel’s reply in verse 13 names only that: Saul did not keep the command.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "uncertainty": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -1997,7 +1997,7 @@
       "summary": "Samuel gives Saul the LORD’s command to destroy Amalek completely. The reason given is Amalek’s attack on Israel after Egypt. Saul defeats them but spares King Agag and the best animals. The LORD tells Samuel he regrets making Saul king. Saul greets Samuel and claims he has obeyed. Samuel asks about the sheep he hears and says obeying is better than sacrifice. Saul admits he feared the people, and the LORD rejects him as king. Samuel kills Agag and never visits Saul again.",
       "detail": "Saul’s account changes as Samuel presses him. In verse 13 he says he has done what the LORD commanded. In verse 15 “they” spared the animals, for sacrifice. In verses 20–21 he obeyed, but “the people” took the plunder. Verse 9 had said that Saul and the people spared them together. He speaks of “the LORD your God” three times (verses 15, 21, 30). In verse 30 he still asks to be honored before the elders.",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "uncertainty": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -2341,7 +2341,7 @@
       "summary": "The Philistines gather for war, and Achish expects David to fight for him. Samuel is dead, and Saul has driven mediums from the land. Saul is afraid, and the LORD gives him no answer. He disguises himself and visits a medium at Endor by night. He asks her to bring up Samuel. Samuel says the LORD has given the kingdom to David. Tomorrow Saul and his sons will die. Saul falls to the ground, and the woman persuades him to eat.",
       "detail": "Saul comes for help to a person his own law condemned (verse 3). In verse 9 she fears the visit is a trap. Saul swears by the LORD that she will not be punished (verse 10). He uses God’s name to protect a practice God’s law forbids. The message he receives adds little to chapter 15 (verses 17–18). Only the date is new: tomorrow. The woman he endangered is the one who feeds him (verses 21–25).",
       "dateLabel": "Chapter order · historical year uncertain",
-      "uncertainty": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "uncertainty": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -6514,14 +6514,21 @@
         "gibeah",
         "gilgal"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-samuel-13-gilgal-gibeah",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Samuel 13:15"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "note": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Jonathan attacks a Philistine post, and the Philistines gather a huge army. Israel’s men hide in caves and pits, and some cross the Jordan. Saul waits seven days at Gilgal for Samuel, as he was told. Samuel does not come, and the soldiers begin to leave. Saul offers the burnt offering himself. Samuel arrives at once and says Saul’s kingdom will not last. The LORD has sought a man after his own heart. Saul is left with six hundred men, and only he and Jonathan have swords.",
-      "limits": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "limits": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -6563,14 +6570,21 @@
         "carmel-judah",
         "gilgal"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-samuel-15-carmel-gilgal",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Samuel 15:12"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "note": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Samuel gives Saul the LORD’s command to destroy Amalek completely. The reason given is Amalek’s attack on Israel after Egypt. Saul defeats them but spares King Agag and the best animals. The LORD tells Samuel he regrets making Saul king. Saul greets Samuel and claims he has obeyed. Samuel asks about the sheep he hears and says obeying is better than sacrifice. Saul admits he feared the people, and the LORD rejects him as king. Samuel kills Agag and never visits Saul again.",
-      "limits": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "limits": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan",
@@ -6927,14 +6941,21 @@
         "gilboa",
         "endor"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-samuel-28-saul-endor",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Samuel 28:4–8"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "note": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The Philistines gather for war, and Achish expects David to fight for him. Samuel is dead, and Saul has driven mediums from the land. Saul is afraid, and the LORD gives him no answer. He disguises himself and visits a medium at Endor by night. He asks her to bring up Samuel. Samuel says the LORD has given the kingdom to David. Tomorrow Saul and his sons will die. Saul falls to the ground, and the woman persuades him to eat.",
-      "limits": "The points show named towns and broad regions. Camp, cave, and house positions are not certain.",
+      "limits": "Lines join the places 1 Samuel names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "atlas-canaan"
@@ -7506,6 +7527,99 @@
         "atlas-canaan",
         "scholar-mccarter",
         "wiki-1-samuel"
+      ]
+    },
+    {
+      "id": "1-samuel-13-gilgal-gibeah",
+      "title": "Samuel leaves Gilgal for Gibeah",
+      "points": [
+        [
+          31.855,
+          35.49
+        ],
+        [
+          31.823,
+          35.231
+        ]
+      ],
+      "placeIds": [
+        "gilgal",
+        "gibeah"
+      ],
+      "chapter": 13,
+      "verse": 15,
+      "endVerse": 15,
+      "summary": "Samuel rebukes Saul for the offering. He goes up from Gilgal to Gibeah of Benjamin.",
+      "detail": "The line joins the places 1 Samuel names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Samuel names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; sites uncertain",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "1-samuel-15-carmel-gilgal",
+      "title": "Saul goes by Carmel to Gilgal",
+      "points": [
+        [
+          31.434,
+          35.128
+        ],
+        [
+          31.855,
+          35.49
+        ]
+      ],
+      "placeIds": [
+        "carmel-judah",
+        "gilgal"
+      ],
+      "chapter": 15,
+      "verse": 12,
+      "endVerse": 12,
+      "summary": "Saul sets up a monument for himself at Carmel. Then he goes down to Gilgal, where Samuel meets him.",
+      "detail": "The line joins the places 1 Samuel names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Samuel names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Named stops in order",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "1-samuel-28-saul-endor",
+      "title": "Saul goes to Endor by night",
+      "points": [
+        [
+          32.52,
+          35.405
+        ],
+        [
+          32.635,
+          35.397
+        ]
+      ],
+      "placeIds": [
+        "gilboa",
+        "endor"
+      ],
+      "chapter": 28,
+      "verse": 4,
+      "endVerse": 8,
+      "summary": "Saul camps at Gilboa and fears the Philistines at Shunem. He disguises himself and goes to a woman at Endor.",
+      "detail": "The line joins the places 1 Samuel names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Samuel names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; sites broad",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
       ]
     }
   ],

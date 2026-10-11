@@ -597,7 +597,7 @@
       "summary": "Paul could not bear the separation and sent Timothy from Athens. Timothy was to strengthen them so that no one would be shaken by afflictions. Paul had warned them that suffering would come. He feared the tempter had tempted them and the work was wasted. Timothy has now returned with good news of their faith and love. Paul says he lives if they stand firm in the Lord. He prays night and day to see them and supply what their faith lacks. He prays that their love will increase.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
+      "uncertainty": "Lines join the places 1 Thessalonians names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "athens"
       ],
@@ -733,7 +733,7 @@
       "summary": "Paul could not bear the separation and sent Timothy from Athens. Timothy was to strengthen them so that no one would be shaken by afflictions. Paul had warned them that suffering would come. He feared the tempter had tempted them and the work was wasted. Timothy has now returned with good news of their faith and love. Paul says he lives if they stand firm in the Lord. He prays night and day to see them and supply what their faith lacks. He prays that their love will increase.",
       "detail": "Verse 5 states Paul’s fear: the tempter may have undone the work. He sent Timothy because he could bear it no longer. Verse 6 reports the answer, and it has three parts. Their faith holds, their love holds, and they remember the writers kindly. The third part matters to a man torn away from them (2:17). They long to see him as he longs to see them. Verse 7 says this comforted him in his own distress.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers show the city addressed and the cities Paul names from his past work.",
+      "uncertainty": "Lines join the places 1 Thessalonians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -2729,19 +2729,28 @@
     {
       "chapter": 3,
       "focusPlaceIds": [
-        "athens"
+        "athens",
+        "thessalonica"
       ],
       "placeIds": [
-        "athens"
+        "athens",
+        "thessalonica"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "1-thessalonians-3-timothy-sent",
+          "from": 0,
+          "to": 1,
+          "reference": "1 Thessalonians 3:1–6"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers show the city addressed and the cities Paul names from his past work.",
+      "note": "Lines join the places 1 Thessalonians names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Paul could not bear the separation and sent Timothy from Athens. Timothy was to strengthen them so that no one would be shaken by afflictions. Paul had warned them that suffering would come. He feared the tempter had tempted them and the work was wasted. Timothy has now returned with good news of their faith and love. Paul says he lives if they stand firm in the Lord. He prays night and day to see them and supply what their faith lacks. He prays that their love will increase.",
-      "limits": "Markers show the city addressed and the cities Paul names from his past work.",
+      "limits": "Lines join the places 1 Thessalonians names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -2779,7 +2788,39 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "1-thessalonians-3-timothy-sent",
+      "title": "Timothy is sent from Athens",
+      "points": [
+        [
+          37.983333333333334,
+          23.733333333333334
+        ],
+        [
+          40.61666666666667,
+          22.916666666666668
+        ]
+      ],
+      "placeIds": [
+        "athens",
+        "thessalonica"
+      ],
+      "chapter": 3,
+      "verse": 1,
+      "endVerse": 6,
+      "summary": "Paul stays behind at Athens and sends Timothy to strengthen the Thessalonians. Timothy comes back with good news of their faith.",
+      "detail": "The line joins the places 1 Thessalonians names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places 1 Thessalonians names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Recalled mission",
+      "kind": "diplomacy",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

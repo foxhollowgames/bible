@@ -322,7 +322,7 @@
       "summary": "Mark begins with John the Baptist preaching in the desert. Jesus is baptized, and a voice from heaven calls him the beloved Son. He is tested in the desert for forty days. He announces that God’s Kingdom is near and calls four fishermen. In Capernaum he teaches with authority and drives out an unclean spirit. He heals Simon’s mother-in-law and many others at the door. Before dawn he goes out alone to pray. He then leaves for other towns and heals a man with a skin disease.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "nazareth",
         "jordan",
@@ -513,7 +513,7 @@
       "summary": "Pharisees ask why Jesus’s disciples eat with unwashed hands. He says they honor God with their lips and hold to human tradition. The law says to honor father and mother. They let a man declare his goods “Corban,” a gift to God. He then gives his parents nothing. Jesus says evil comes from within, out of the heart. He heals a foreign woman’s daughter. He opens the ears and mouth of a deaf man.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "tyre",
@@ -545,7 +545,7 @@
       "summary": "Jesus feeds four thousand people with seven loaves. Pharisees ask for a sign, and he refuses. In the boat the disciples worry that they have one loaf. He asks whether they still do not understand. At Bethsaida he heals a blind man in two stages. He asks who they say he is, and Peter calls him the Christ. Jesus says he must suffer, and Peter rebukes him. Jesus says his followers must take up their cross.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "sea-galilee",
         "bethsaida",
@@ -607,7 +607,7 @@
       "summary": "Jesus teaches about marriage and blesses the children. A rich man asks how to inherit eternal life and leaves in sorrow. Jesus foretells his death a third time. James and John ask to sit at his right and left in glory. He says whoever would be great must be a servant. At Jericho a blind beggar named Bartimaeus cries out to him. Jesus asks what he wants. He asks to see, receives his sight, and follows Jesus.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jordan",
         "jerusalem",
@@ -640,7 +640,7 @@
       "summary": "Jesus rides into Jerusalem on a colt, and people shout “Hosanna.” The next day he finds a fig tree with leaves and no fruit. He says no one will eat from it again. He drives the buyers and sellers out of the temple. He says God’s house should be a house of prayer for all nations. The following morning the fig tree has withered. He teaches about faith, prayer, and forgiveness. The leaders ask by what authority he does these things.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "bethany",
@@ -730,7 +730,7 @@
       "summary": "The leaders look for a way to arrest Jesus. At Bethany a woman pours costly perfume on his head. Some scold her, and Jesus defends her. Judas agrees to betray him. Jesus eats the Passover and gives the bread and the cup. In Gethsemane he prays in anguish while his friends sleep. He is arrested, and all the disciples run. The council condemns him, and Peter denies him three times.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "bethany",
@@ -792,7 +792,7 @@
       "summary": "After the Sabbath three women bring spices to the tomb. They wonder who will roll away the stone. They find it moved and a young man in white inside. He says Jesus has risen and is not there. They must tell his disciples and Peter that he goes ahead to Galilee. The women flee, trembling and afraid. The longer ending tells of Jesus appearing to Mary Magdalene and others. He sends the eleven into all the world.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "jerusalem",
         "galilee"
@@ -827,7 +827,7 @@
       "summary": "Mark begins with John the Baptist preaching in the desert. Jesus is baptized, and a voice from heaven calls him the beloved Son. He is tested in the desert for forty days. He announces that God’s Kingdom is near and calls four fishermen. In Capernaum he teaches with authority and drives out an unclean spirit. He heals Simon’s mother-in-law and many others at the door. Before dawn he goes out alone to pray. He then leaves for other towns and heals a man with a skin disease.",
       "detail": "By the evening of verse 33 the whole town is at the door. Jesus has healed many. Before dawn he leaves to pray alone (verse 35). The disciples find him and say everyone is looking for him. Verse 38 gives his answer: “Let’s go elsewhere.” He came to preach, and other towns have not heard. Success in one place does not decide where he goes next.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -970,7 +970,7 @@
       "summary": "Pharisees ask why Jesus’s disciples eat with unwashed hands. He says they honor God with their lips and hold to human tradition. The law says to honor father and mother. They let a man declare his goods “Corban,” a gift to God. He then gives his parents nothing. Jesus says evil comes from within, out of the heart. He heals a foreign woman’s daughter. He opens the ears and mouth of a deaf man.",
       "detail": "“Corban” in verse 11 means something pledged to God. A man could say this about the support he owed his parents. Verse 12 states the result. He is then not allowed to do anything for his father or mother. A religious vow cancels a plain commandment. Jesus says this makes God’s word void (verse 13). The example shows how piety can excuse neglect.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -994,7 +994,7 @@
       "summary": "Jesus feeds four thousand people with seven loaves. Pharisees ask for a sign, and he refuses. In the boat the disciples worry that they have one loaf. He asks whether they still do not understand. At Bethsaida he heals a blind man in two stages. He asks who they say he is, and Peter calls him the Christ. Jesus says he must suffer, and Peter rebukes him. Jesus says his followers must take up their cross.",
       "detail": "This is the only healing in the Gospels done in two steps. After the first touch the man sees people like walking trees (verse 24). After the second he sees clearly (verse 25). Mark places the story between two scenes of poor sight. The disciples fail to understand the loaves (verses 17–21). Peter then names Jesus rightly and rejects his suffering (verses 29–32). Their sight is also partial.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -1040,7 +1040,7 @@
       "summary": "Jesus teaches about marriage and blesses the children. A rich man asks how to inherit eternal life and leaves in sorrow. Jesus foretells his death a third time. James and John ask to sit at his right and left in glory. He says whoever would be great must be a servant. At Jericho a blind beggar named Bartimaeus cries out to him. Jesus asks what he wants. He asks to see, receives his sight, and follows Jesus.",
       "detail": "Jesus asks the same question twice in this chapter. In verse 36 he asks James and John what they want. They ask for the seats of honor. In verse 51 he asks a blind beggar. The beggar asks to see. One request seeks rank, and the other seeks sight. Verse 52 says the beggar then followed Jesus on the road.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -1065,7 +1065,7 @@
       "summary": "Jesus rides into Jerusalem on a colt, and people shout “Hosanna.” The next day he finds a fig tree with leaves and no fruit. He says no one will eat from it again. He drives the buyers and sellers out of the temple. He says God’s house should be a house of prayer for all nations. The following morning the fig tree has withered. He teaches about faith, prayer, and forgiveness. The leaders ask by what authority he does these things.",
       "detail": "Mark wraps the temple scene inside the fig tree story. The tree is cursed in verses 12–14 and found dead in verses 20–21. Between them Jesus stops the temple’s trade. Verse 17 quotes Isaiah 56:7 and Jeremiah 7:11. The house was meant for the prayer of all nations. A tree with leaves and no fruit frames that charge. The show of life without its purpose is what is judged.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -1131,7 +1131,7 @@
       "summary": "The leaders look for a way to arrest Jesus. At Bethany a woman pours costly perfume on his head. Some scold her, and Jesus defends her. Judas agrees to betray him. Jesus eats the Passover and gives the bread and the cup. In Gethsemane he prays in anguish while his friends sleep. He is arrested, and all the disciples run. The council condemns him, and Peter denies him three times.",
       "detail": "Some at the table call the woman’s gift a waste (verses 4–5). Verse 8 gives Jesus’s reading of it. She has done what she could and prepared his body for burial. She alone acts as if his death is near. The disciples make promises in this chapter. Peter swears he will die before denying him (verse 31). By verse 50 they have all fled.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -1177,7 +1177,7 @@
       "summary": "After the Sabbath three women bring spices to the tomb. They wonder who will roll away the stone. They find it moved and a young man in white inside. He says Jesus has risen and is not there. They must tell his disciples and Peter that he goes ahead to Galilee. The women flee, trembling and afraid. The longer ending tells of Jesus appearing to Mary Magdalene and others. He sends the eleven into all the world.",
       "detail": "The disciples fled at the arrest (14:50). Peter denied Jesus three times (14:66–72). Verse 7 sends a message to “his disciples and Peter.” Peter is named on his own. The one who failed most publicly is not left out. The message also promises a meeting in Galilee, as Jesus said (14:28). The first word to those who ran is an invitation back.",
       "dateLabel": "Book order",
-      "uncertainty": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "uncertainty": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "black-mark"
@@ -4685,14 +4685,21 @@
         "capernaum",
         "sea-galilee"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-1-nazareth-jordan",
+          "from": 0,
+          "to": 2,
+          "reference": "Mark 1:9–21"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Mark begins with John the Baptist preaching in the desert. Jesus is baptized, and a voice from heaven calls him the beloved Son. He is tested in the desert for forty days. He announces that God’s Kingdom is near and calls four fishermen. In Capernaum he teaches with authority and drives out an unclean spirit. He heals Simon’s mother-in-law and many others at the door. Before dawn he goes out alone to pray. He then leaves for other towns and heals a man with a skin disease.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -4825,14 +4832,21 @@
         "sidon",
         "sea-galilee"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-7-tyre-sidon",
+          "from": 0,
+          "to": 2,
+          "reference": "Mark 7:24–31"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Pharisees ask why Jesus’s disciples eat with unwashed hands. He says they honor God with their lips and hold to human tradition. The law says to honor father and mother. They let a man declare his goods “Corban,” a gift to God. He then gives his parents nothing. Jesus says evil comes from within, out of the heart. He heals a foreign woman’s daughter. He opens the ears and mouth of a deaf man.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -4851,14 +4865,21 @@
         "caesarea-philippi",
         "jerusalem"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-8-bethsaida-caesarea",
+          "from": 0,
+          "to": 1,
+          "reference": "Mark 8:22–27"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Jesus feeds four thousand people with seven loaves. Pharisees ask for a sign, and he refuses. In the boat the disciples worry that they have one loaf. He asks whether they still do not understand. At Bethsaida he heals a blind man in two stages. He asks who they say he is, and Peter calls him the Christ. Jesus says he must suffer, and Peter rebukes him. Jesus says his followers must take up their cross.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -4897,14 +4918,21 @@
         "jerusalem",
         "jericho"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-10-jordan-jericho",
+          "from": 0,
+          "to": 2,
+          "reference": "Mark 10:1–46"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Jesus teaches about marriage and blesses the children. A rich man asks how to inherit eternal life and leaves in sorrow. Jesus foretells his death a third time. James and John ask to sit at his right and left in glory. He says whoever would be great must be a servant. At Jericho a blind beggar named Bartimaeus cries out to him. Jesus asks what he wants. He asks to see, receives his sight, and follows Jesus.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -4921,14 +4949,21 @@
         "bethany",
         "olives"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-11-olives-city",
+          "from": 0,
+          "to": 2,
+          "reference": "Mark 11:1–11"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Jesus rides into Jerusalem on a colt, and people shout “Hosanna.” The next day he finds a fig tree with leaves and no fruit. He says no one will eat from it again. He drives the buyers and sellers out of the temple. He says God’s house should be a house of prayer for all nations. The following morning the fig tree has withered. He teaches about faith, prayer, and forgiveness. The leaders ask by what authority he does these things.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -4989,14 +5024,21 @@
         "olives",
         "galilee"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-14-last-night",
+          "from": 0,
+          "to": 2,
+          "reference": "Mark 14:3–26"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "The leaders look for a way to arrest Jesus. At Bethany a woman pours costly perfume on his head. Some scold her, and Jesus defends her. Judas agrees to betray him. Jesus eats the Passover and gives the bread and the cup. In Gethsemane he prays in anguish while his friends sleep. He is arrested, and all the disciples run. The council condemns him, and Peter denies him three times.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -5033,21 +5075,271 @@
         "jerusalem",
         "galilee"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "mark-16-to-galilee",
+          "from": 0,
+          "to": 1,
+          "reference": "Mark 16:7"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "note": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "narrative": "After the Sabbath three women bring spices to the tomb. They wonder who will roll away the stone. They find it moved and a young man in white inside. He says Jesus has risen and is not there. They must tell his disciples and Peter that he goes ahead to Galilee. The women flee, trembling and afraid. The longer ending tells of Jesus appearing to Mary Magdalene and others. He sends the eleven into all the world.",
-      "limits": "The points mark places this chapter names, as settings or in speech. The exact houses, roads, and tombs are not known.",
+      "limits": "Lines join the places Mark names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web",
         "black-mark"
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "mark-1-nazareth-jordan",
+      "title": "From Nazareth to the Jordan and Capernaum",
+      "points": [
+        [
+          32.7,
+          35.3
+        ],
+        [
+          31.86,
+          35.55
+        ],
+        [
+          32.86666666666667,
+          35.56666666666667
+        ]
+      ],
+      "placeIds": [
+        "nazareth",
+        "jordan",
+        "capernaum"
+      ],
+      "chapter": 1,
+      "verse": 9,
+      "endVerse": 21,
+      "summary": "Jesus comes from Nazareth and is baptized in the Jordan. He then goes into Galilee and enters Capernaum.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Named stops in order",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "mark-7-tyre-sidon",
+      "title": "Through Tyre and Sidon to the lake",
+      "points": [
+        [
+          33.27,
+          35.2
+        ],
+        [
+          33.56,
+          35.37
+        ],
+        [
+          32.8,
+          35.583333333333336
+        ]
+      ],
+      "placeIds": [
+        "tyre",
+        "sidon",
+        "sea-galilee"
+      ],
+      "chapter": 7,
+      "verse": 24,
+      "endVerse": 31,
+      "summary": "Jesus goes to the borders of Tyre and Sidon. He comes back to the Sea of Galilee through the Decapolis.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Regions named; towns not given",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "mark-8-bethsaida-caesarea",
+      "title": "From Bethsaida toward Caesarea Philippi",
+      "points": [
+        [
+          32.9,
+          35.61666666666667
+        ],
+        [
+          33.233333333333334,
+          35.68333333333333
+        ]
+      ],
+      "placeIds": [
+        "bethsaida",
+        "caesarea-philippi"
+      ],
+      "chapter": 8,
+      "verse": 22,
+      "endVerse": 27,
+      "summary": "Jesus heals a blind man at Bethsaida. He then goes to the villages of Caesarea Philippi.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Named stops in order",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "mark-10-jordan-jericho",
+      "title": "Beyond the Jordan to Jericho",
+      "points": [
+        [
+          31.86,
+          35.55
+        ],
+        [
+          31.87,
+          35.45
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "jordan",
+        "jericho",
+        "jerusalem"
+      ],
+      "chapter": 10,
+      "verse": 1,
+      "endVerse": 46,
+      "summary": "Jesus teaches beyond the Jordan, then goes up toward Jerusalem. He heals Bartimaeus as he leaves Jericho.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated journey; road not named",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "mark-11-olives-city",
+      "title": "Jesus enters Jerusalem",
+      "points": [
+        [
+          31.779,
+          35.247
+        ],
+        [
+          31.778,
+          35.235
+        ],
+        [
+          31.766666666666666,
+          35.25
+        ]
+      ],
+      "placeIds": [
+        "olives",
+        "jerusalem",
+        "bethany"
+      ],
+      "chapter": 11,
+      "verse": 1,
+      "endVerse": 11,
+      "summary": "Jesus rides from the Mount of Olives into Jerusalem. He looks around the temple and goes out to Bethany.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Named stops in order",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "mark-14-last-night",
+      "title": "From Bethany to the Mount of Olives",
+      "points": [
+        [
+          31.766666666666666,
+          35.25
+        ],
+        [
+          31.778,
+          35.235
+        ],
+        [
+          31.779,
+          35.247
+        ]
+      ],
+      "placeIds": [
+        "bethany",
+        "jerusalem",
+        "olives"
+      ],
+      "chapter": 14,
+      "verse": 3,
+      "endVerse": 26,
+      "summary": "A woman anoints Jesus at Bethany. He keeps the Passover in the city and goes out to the Mount of Olives.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Named stops in order",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    },
+    {
+      "id": "mark-16-to-galilee",
+      "title": "The message points to Galilee",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          32.85,
+          35.3
+        ]
+      ],
+      "placeIds": [
+        "jerusalem",
+        "galilee"
+      ],
+      "chapter": 16,
+      "verse": 7,
+      "endVerse": 7,
+      "summary": "The young man at the tomb says Jesus goes ahead into Galilee. The disciples will see him there.",
+      "detail": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Mark names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Promised meeting; place not named",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [
     {
       "id": "geographic:galilee",

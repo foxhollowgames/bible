@@ -953,7 +953,7 @@
       "summary": "Paul says the strong should bear the weaknesses of the weak. Christ did not please himself. Paul tells them to accept one another as Christ accepted them. He quotes four Scriptures about Gentiles praising God. He explains that he has taught from Jerusalem as far as Illyricum. He plans to visit Rome on his way to Spain. First he will carry a gift from Macedonia and Achaia to Jerusalem’s poor. He asks them to pray for his safety in Judea.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers show intended destinations named in the letter. They do not prove completed journeys.",
+      "uncertainty": "Lines join the places Romans names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "rome",
         "jerusalem"
@@ -1301,7 +1301,7 @@
       "summary": "Paul says the strong should bear the weaknesses of the weak. Christ did not please himself. Paul tells them to accept one another as Christ accepted them. He quotes four Scriptures about Gentiles praising God. He explains that he has taught from Jerusalem as far as Illyricum. He plans to visit Rome on his way to Spain. First he will carry a gift from Macedonia and Achaia to Jerusalem’s poor. He asks them to pray for his safety in Judea.",
       "detail": "Chapter 14 dealt with believers who judged each other over food and days. Verse 7 gives the rule that ends that section. They are to accept one another as Christ accepted them. Verses 8–9 show what that acceptance covered. Christ served the circumcised to confirm the promises to the fathers. He did it so that the Gentiles also might glorify God. Verse 26 shows it in practice: Gentile assemblies send money to Jerusalem’s poor.",
       "dateLabel": "Book order",
-      "uncertainty": "Selected markers show intended destinations named in the letter. They do not prove completed journeys.",
+      "uncertainty": "Lines join the places Romans names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -4646,14 +4646,21 @@
         "rome",
         "jerusalem"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "romans-15-plan-rome",
+          "from": 0,
+          "to": 1,
+          "reference": "Romans 15:25–28"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Selected markers show intended destinations named in the letter. They do not prove completed journeys.",
+      "note": "Lines join the places Romans names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Paul says the strong should bear the weaknesses of the weak. Christ did not please himself. Paul tells them to accept one another as Christ accepted them. He quotes four Scriptures about Gentiles praising God. He explains that he has taught from Jerusalem as far as Illyricum. He plans to visit Rome on his way to Spain. First he will carry a gift from Macedonia and Achaia to Jerusalem’s poor. He asks them to pray for his safety in Judea.",
-      "limits": "Selected markers show intended destinations named in the letter. They do not prove completed journeys.",
+      "limits": "Lines join the places Romans names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -4675,7 +4682,39 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "romans-15-plan-rome",
+      "title": "Paul’s plan: Jerusalem, then Rome",
+      "points": [
+        [
+          31.778,
+          35.235
+        ],
+        [
+          41.9,
+          12.483333333333333
+        ]
+      ],
+      "placeIds": [
+        "jerusalem",
+        "rome"
+      ],
+      "chapter": 15,
+      "verse": 25,
+      "endVerse": 28,
+      "summary": "Paul says he is going to Jerusalem with a gift for the saints. After that he plans to visit Rome on the way to Spain.",
+      "detail": "The line joins the places Romans names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Romans names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Stated plan; Spain is not plotted",
+      "kind": "journey",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [],
   "chapterStudies": [
     {

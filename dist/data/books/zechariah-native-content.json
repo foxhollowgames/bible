@@ -396,7 +396,7 @@
       "summary": "Zechariah sees four chariots come out between two bronze mountains. They go out to patrol the whole earth. Then God tells him to collect silver and gold from exiles newly come from Babylon. He must make a crown and set it on Joshua the high priest. He says a man called the Branch will build the LORD’s temple. That man will rule on his throne and be a priest there. The crown will be kept in the temple as a reminder. People from far away will come and help build.",
       "year": null,
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "uncertainty": "Lines join the places Zechariah names, in order. They do not trace real roads or sea lanes.",
       "placeIds": [
         "babylon"
       ],
@@ -794,7 +794,7 @@
       "summary": "Zechariah sees four chariots come out between two bronze mountains. They go out to patrol the whole earth. Then God tells him to collect silver and gold from exiles newly come from Babylon. He must make a crown and set it on Joshua the high priest. He says a man called the Branch will build the LORD’s temple. That man will rule on his throne and be a priest there. The crown will be kept in the temple as a reminder. People from far away will come and help build.",
       "detail": "The crown is set on a priest, not on the governor. Verse 13 then describes one figure called the Branch. He builds the temple, sits on a throne, and serves as priest. Israel had kept those two offices apart. Here there is “counsel of peace” between them. The gold comes from exiles who just arrived (verse 10). Verse 15 says more people from far away will share in the building.",
       "dateLabel": "Book order",
-      "uncertainty": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "uncertainty": "Lines join the places Zechariah names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ],
@@ -2854,19 +2854,28 @@
     {
       "chapter": 6,
       "focusPlaceIds": [
-        "babylon"
+        "babylon",
+        "jerusalem"
       ],
       "placeIds": [
-        "babylon"
+        "babylon",
+        "jerusalem"
       ],
-      "routes": [],
+      "routes": [
+        {
+          "id": "zechariah-6-exiles-arrive",
+          "from": 0,
+          "to": 1,
+          "reference": "Zechariah 6:9–11"
+        }
+      ],
       "contextRoutes": [],
       "contextPlaceIds": [],
       "impacts": [],
       "maxZoom": 7,
-      "note": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "note": "Lines join the places Zechariah names, in order. They do not trace real roads or sea lanes.",
       "narrative": "Zechariah sees four chariots come out between two bronze mountains. They go out to patrol the whole earth. Then God tells him to collect silver and gold from exiles newly come from Babylon. He must make a crown and set it on Joshua the high priest. He says a man called the Branch will build the LORD’s temple. That man will rule on his throne and be a priest there. The crown will be kept in the temple as a reminder. People from far away will come and help build.",
-      "limits": "Markers locate selected geographic references. Visions and promises do not establish traveled army or return paths.",
+      "limits": "Lines join the places Zechariah names, in order. They do not trace real roads or sea lanes.",
       "sourceIds": [
         "web"
       ]
@@ -3057,7 +3066,39 @@
       ]
     }
   ],
-  "textRoutes": [],
+  "textRoutes": [
+    {
+      "id": "zechariah-6-exiles-arrive",
+      "title": "Men arrive from Babylon",
+      "points": [
+        [
+          32.54,
+          44.42
+        ],
+        [
+          31.778,
+          35.235
+        ]
+      ],
+      "placeIds": [
+        "babylon",
+        "jerusalem"
+      ],
+      "chapter": 6,
+      "verse": 9,
+      "endVerse": 11,
+      "summary": "Three men have come from Babylon with silver and gold. Zechariah is to make crowns from it and crown Joshua the high priest.",
+      "detail": "The line joins the places Zechariah names, in order. It does not trace a road or a sea lane.",
+      "uncertainty": "The line joins the places Zechariah names, in order. It does not trace a road or a sea lane.",
+      "evidence": "Narrated arrival; the house is taken to be in Jerusalem",
+      "kind": "restoration",
+      "direction": true,
+      "textRoute": true,
+      "sourceIds": [
+        "web"
+      ]
+    }
+  ],
   "narrativeRegions": [
     {
       "id": "geographic:egypt",

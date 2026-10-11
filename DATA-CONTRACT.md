@@ -92,6 +92,12 @@ Do not give a book nations when its text sets no political period. Job, Psalms, 
 
 ## Added-book chapter journeys
 
-`scripts/book-journeys.json` holds chapter paths for a book. Acts is the first. `places` gives each new stop a name, a point, the encyclopedia article and revision that supplied the point, a summary, and a limit. `routes.<chapter>` lists paths with `id`, `title`, `kind`, `placeIds`, `verse`, `endVerse`, `summary`, and `evidence`. `scripts/book_maps.py` adds the places, the paths, and the chapter focus. It also replaces the chapter map note with the journey note.
+`scripts/book-journeys.json` holds chapter paths for the added books. `scripts/book_maps.py` builds them. `scripts/check-book-maps.mjs` checks them.
 
-A path joins places the text names, in the text's order. It is not a road or a sea lane. Each new stop must be named in that chapter or the one beside it. Only site coordinates were read from the place articles. The Market of Appius has no point because its article gives none.
+`books.<id>.routes.<chapter>` lists rows: `[id, title, kind, "place>place", "verse-endVerse", summary, evidence]`. `kind` is `journey`, `flight`, `military`, `exile`, `restoration`, or `diplomacy`. A path uses the book's own places first. `evidence` is a short label, such as "Narrated journey" or "Stated plan". It also names the main doubt, such as a region that stands for an unnamed town.
+
+`gazetteer.<id>` adds a stop that the book does not have: `[name, lat, lng, article, revision, optional limit]`. The point comes from the encyclopedia article at that revision. Only the coordinates were read. `books.<id>.places.<id>` gives the note for each added stop. The text of that chapter, or the chapter beside it, must name the stop.
+
+A path joins places in the order the text gives. It is not a road or a sea lane. A chapter that had no path gets the shared `note` as its map note. A chapter that already had a path keeps its own note.
+
+Do not draw a path when the text gives no second place. Jonah has none: Tarshish is not plotted, and Jonah 3 names no starting point. Visions, laments, parables, and stated plans can have a path only when `evidence` says so.
