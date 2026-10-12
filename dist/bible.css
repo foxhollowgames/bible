@@ -18,3 +18,27 @@
 .directory-page .book-card img{opacity:0;transition:opacity .4s ease}
 .directory-page .book-card img.loaded{opacity:1}
 @media(prefers-reduced-motion:reduce){.directory-page .book-card,.directory-page .book-card img{transition:none}.directory-page a.book-card:hover,.directory-page a.book-card:hover img{transform:none}}
+
+/* The directory menu matches the reader menu in styles.css. */
+.bible-header .settings-menu{position:relative;margin-left:auto;flex:none}
+.settings-button{display:grid;place-items:center;width:44px;height:44px;padding:0;color:var(--ink);background:#062441;border:1px solid #176a9d;border-radius:7px;transition:border-color 180ms ease,background-color 180ms ease}
+.settings-button:hover{border-color:#56dcff;background:#062441}
+.settings-button:focus,.settings-button[aria-expanded="true"]{background:#0a3c61;border-color:#56dcff}
+.settings-panel{position:absolute;top:calc(100% + 10px);right:0;width:min(320px,calc(100vw - 24px));max-height:calc(100dvh - 85px);overflow:auto;padding:20px;background:#052440;border:1px solid #4299c4;border-radius:10px;box-shadow:0 12px 32px #0008;font:14px/1.5 var(--sans)}
+.settings-panel h2{font:24px var(--serif);margin:0 0 8px}
+.settings-panel fieldset{min-width:0;margin:0 0 22px;padding:0;border:0}
+.settings-panel legend{font-weight:600;margin-bottom:10px;padding:0}
+.settings-panel p{margin:9px 0 0;color:#b5cfdf;font:13px/1.6 var(--sans)}
+.settings-panel .settings-scope{margin:0 0 20px}
+.settings-panel .segmented{display:flex}
+.settings-panel .segmented button{flex:1;min-height:40px;padding:7px 12px;color:var(--ink);background:#062441;border:1px solid #176a9d;border-right:0;border-radius:0}
+.settings-panel .segmented button:first-child{border-radius:6px 0 0 6px}
+.settings-panel .segmented button:last-child{border-radius:0 6px 6px 0;border-right:1px solid #176a9d}
+.settings-panel .segmented button.active{background:#0877c4;border-color:#3dd8ff;box-shadow:inset 0 0 0 1px #a5f0ff}
+.portrait-setting{display:flex;align-items:center;gap:10px;font-weight:600;line-height:1.5;cursor:pointer}
+.portrait-setting input{appearance:none;position:relative;width:40px;height:24px;flex:none;margin:0;border:1px solid #7d9caf;border-radius:999px;background:#284b63;cursor:pointer}
+.portrait-setting input::before{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#f1f7fb}
+.portrait-setting input:checked{background:#0877c4;border-color:#56dcff}
+.portrait-setting input:checked::before{transform:translateX(16px)}
+@media(max-width:650px){.bible-header{flex-wrap:nowrap;padding:10px 18px}}
+@media(prefers-reduced-motion:reduce){.settings-button{transition:none}}
