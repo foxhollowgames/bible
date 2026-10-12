@@ -1,10 +1,10 @@
-import { initChapterPicker } from './chapter-picker.js?v=20261011.3';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261011.3';
-import { initModalDragging } from './modal-drag.js?v=20261011.3';
-import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261011.3';
+import { initChapterPicker } from './chapter-picker.js?v=20261012.2';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261012.2';
+import { initModalDragging } from './modal-drag.js?v=20261012.2';
+import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261012.2';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261011.3';
+const releaseVersion = '20261012.2';
 // One reader serves every book. native-book.js names the book. The book's content file supplies its settings.
 const book = { id: '', name: '', bibleCode: '', chapterCount: 0, chapterDigits: 2, ...globalThis.studyBook };
 const storageKey = `${book.id}-native-study-state`;
