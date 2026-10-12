@@ -27,7 +27,7 @@ assert.deepEqual(book.chapters.filter(c=>c.places.length).map(c=>c.chapter),[40]
 assert(book.chapters.every(c=>c.route.length===0&&!('year' in c)));
 assert.deepEqual(book.chapters.filter(c=>c.lds.sourceIds.includes('cfm-job-2026')).map(c=>c.chapter),[1,2,3,4,5,8,11,12,13,14,16,19,21,22,23,24,31,38,39,40,42]);
 assert(book.scripture[13].find(v=>v.verse===15).text.includes('no hope'));
-assert(book.chapters[12].meaning.includes('King James Bible'));
+assert(book.chapters[12].lds.text.includes('King James Bible'),'Job 13 must name the King James Bible reading of verse 15');
 const manifest=JSON.parse(await readFile(new URL('../scripts/job-generated-portraits.json',root),'utf8'));
 assert.equal(Object.keys(manifest).length,17);
 for(const p of Object.values(manifest))assert(p.originalPath,'Generated portrait lacks its original saved path');
