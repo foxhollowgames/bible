@@ -54,7 +54,7 @@ async function main() {
   assert(styleSource.includes('path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}'), 'Keyboard focus must not restore the blue road style');
   assert(appSource.includes("weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1"), 'Rivers must remain visible beneath political overlays');
   assert(appSource.includes('function ensureLayerOptions()') && appSource.includes("fetch(`${p}?v=${releaseVersion}`)"), 'Startup must recover the layer controls and version its data requests');
-  assert(indexSource.includes('styles.css?v=20261012.2') && indexSource.includes("native-book.js?v=20261012.2") && appSource.includes("const releaseVersion = '20261012.2';"), 'The page must request one version of its release assets');
+  assert(indexSource.includes('styles.css?v=20261012.3') && indexSource.includes("native-book.js?v=20261012.3") && appSource.includes("const releaseVersion = '20261012.3';"), 'The page must request one version of its release assets');
   assert(indexSource.includes('<title>Bible Wayfinder</title>') && indexSource.includes('<b id="bookBrand">BIBLE<small>WAYFINDER</small></b>') && !indexSource.includes('Isaiah') && !appSource.includes('Isaiah'), 'The shared reader must take the book name from its data');
   assert(content.book?.id === 'isaiah' && content.book.name === 'Isaiah' && content.book.chapterCount === 66 && content.book.bibleCode === 'ISA', 'The content must name its book for the shared reader');
   assert(!indexSource.includes('Meridian') && !appSource.includes('Meridian application'), 'The retired brand must not appear in the user interface');
