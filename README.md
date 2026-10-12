@@ -29,7 +29,7 @@ The sections from here to "Bible study directory" describe the Isaiah guide. Isa
 
 ## Study scope
 
-Open the hamburger menu in the upper right to select **Historical** or **LDS**. The menu also has **Use non-generated portraits**. This option uses local copies of public domain or freely licensed art for all 12 people. Each portrait has source and license links. If an image is missing or cannot load, a color tile shows the first letter of the person's name. Both settings are saved in this browser.
+Open the hamburger menu in the upper right to select **Historical** or **LDS**. The menu also has **Use historical art**. This option uses local copies of public domain or freely licensed art for all 12 people. Each portrait has source and license links. If an image is missing or cannot load, a color tile shows the first letter of the person's name. Both settings are saved in this browser.
 
 Portrait credits and license records are in `scripts/isaiah-portrait-images.json`. `python scripts/build-isaiah.py` copies them to `dist/data/books/isaiah-art.json`. The images are in `dist/assets/portraits/commons/`. To download these images again, run `python scripts/fetch-portrait-images.py`. Historical art does not establish actual appearance.
 
