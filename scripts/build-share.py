@@ -108,6 +108,15 @@ def main():
         page=fill(shell,block).replace('<html lang="en">',f'<html lang="en" data-book="{slug}">',1)
         page=page.replace(f'<title>{NAME}</title>',f'<title>{html.escape(name)} · {NAME}</title>',1)
         (D/f'{slug}.html').write_text(page,encoding='utf-8')
+    # The directory shows licensed old art for a cover when the portrait setting asks for it.
+    licensed={}
+    for slug,cover in covers.items():
+        art_file=D/f'data/books/{slug}-art.json'
+        for record in (json.loads(art_file.read_text(encoding='utf-8')) if art_file.exists() else {}).values():
+            image=record.get('licensed') or (None if record.get('generated') else record)
+            if record.get('src')==f'assets/portraits/{cover}' and image and image.get('sourceUrl'):
+                licensed[slug]={key:image[key] for key in ['src','credit','sourceUrl','license','licenseUrl']}
+    (D/'data/books/directory-covers.json').write_text(json.dumps(licensed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     site=SHARE/'site.jpg'
     picks=['genesis','ruth','psalms','isaiah','matthew','acts']
     if force or not site.exists():site_card([D/'assets/portraits'/covers[slug] for slug in picks],site)
@@ -116,5 +125,5 @@ def main():
         path=D/name;path.write_text(fill(re.sub(r'  <meta name="description"[^\n]*\n','',path.read_text(encoding='utf-8')),home),encoding='utf-8')
     rows=[f'  <url><loc>{SITE}</loc></url>']+[f'  <url><loc>{SITE}{book["id"]}.html</loc></url>' for book in ready]
     (D/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+'\n'.join(rows)+'\n</urlset>\n',encoding='utf-8')
-    print(f'Wrote {len(ready)} book pages, {len(ready)+1} share cards, and the sitemap.')
+    print(f'Wrote {len(ready)} book pages, {len(ready)+1} share cards, {len(licensed)} licensed directory covers, and the sitemap.')
 if __name__=='__main__':main()
