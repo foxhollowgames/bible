@@ -1,10 +1,10 @@
-import { initChapterPicker } from './chapter-picker.js?v=20261011.3';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261011.3';
-import { initModalDragging } from './modal-drag.js?v=20261011.3';
-import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261011.3';
+import { initChapterPicker } from './chapter-picker.js?v=20261012.1';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261012.1';
+import { initModalDragging } from './modal-drag.js?v=20261012.1';
+import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261012.1';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261011.3';
+const releaseVersion = '20261012.1';
 // One reader serves every book. native-book.js names the book. The book's content file supplies its settings.
 const book = { id: '', name: '', bibleCode: '', chapterCount: 0, chapterDigits: 2, ...globalThis.studyBook };
 const storageKey = `${book.id}-native-study-state`;
@@ -404,7 +404,7 @@ function renderScripture() {
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
   const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>${esc(book.name)} ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="Choose ${esc(book.name)} chapter, current chapter ${state.chapter}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu">${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === chapters.length ? 'disabled' : ''}>›</button></div>${body}`;
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} chapter, current chapter ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only chapter`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === chapters.length ? 'disabled' : ''}>›</button></div>${body}`;
   initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
 }
