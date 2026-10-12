@@ -1,5 +1,5 @@
 import coverPreviews from './book-cover-placeholders.js';
-import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261012.3';
+import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261012.4';
 // WebP copies and blurred previews come from scripts/optimize-images.py.
 const bookArtwork={
   "genesis": "genesis/zilpah.png",
