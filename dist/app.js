@@ -1,10 +1,11 @@
-import { initChapterPicker } from './chapter-picker.js?v=20261012.1';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261012.1';
-import { initModalDragging } from './modal-drag.js?v=20261012.1';
-import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261012.1';
+import { initChapterPicker } from './chapter-picker.js?v=20261012.3';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261012.3';
+import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261012.3';
+import { initModalDragging } from './modal-drag.js?v=20261012.3';
+import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261012.3';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261012.1';
+const releaseVersion = '20261012.3';
 // One reader serves every book. native-book.js names the book. The book's content file supplies its settings.
 const book = { id: '', name: '', bibleCode: '', chapterCount: 0, chapterDigits: 2, ...globalThis.studyBook };
 const storageKey = `${book.id}-native-study-state`;
@@ -12,7 +13,8 @@ const dataFile = part => `data/books/${book.id}-${part}.json`;
 let chapters = [];
 // A book with dated events has a date timeline. Other books use chapter order.
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
-let state = { ...defaults, ...readSaved(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
+// Menu choices apply to every book. The rest of the state belongs to this book.
+let state = { ...defaults, ...readSaved(), ...readPreferences(), layers: { ...defaults.layers, ...(readSaved().layers || {}) } };
 let data = { sources: [], passages: [], events: [], places: [], campaigns: [], ancientRoads: [], regions: [], words: [], guides: [], periods: [] };
 let scripture = { translation: 'World English Bible', chapters: {} };
 let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sidebarPersonHistory = [], entityLinkCache = {chapter:null, terms:[]};
@@ -20,7 +22,7 @@ let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sid
 function bookNamePattern() { return book.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
 function publisherChapter(chapter) { return `https://ebible.org/engwebp/${book.bibleCode}${String(chapter).padStart(book.chapterDigits, '0')}.htm`; }
 function readSaved() { try { return JSON.parse(localStorage.getItem(storageKey)) || {}; } catch { return {}; } }
-function persist() { try { localStorage.setItem(storageKey, JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} updateUrl(); }
+function persist() { try { localStorage.setItem(storageKey, JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} savePreferences(state); updateUrl(); }
 function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, study: state.studyMode, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
 function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); if (['read','map'].includes(p.get('study'))) state.studyMode = p.get('study'); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
 function esc(s='') { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -212,25 +214,8 @@ function buildStaticUi() {
   }
 }
 function initSettings() {
-  const menu = $('#settingsMenu'), button = $('#settingsButton'), panel = $('#settingsPanel');
-  function close(restoreFocus = false) {
-    panel.hidden = true;
-    button.setAttribute('aria-expanded', 'false');
-    button.setAttribute('aria-label', 'Open menu');
-    if (restoreFocus) button.focus();
-  }
-  button.addEventListener('click', () => {
-    if (!panel.hidden) return close();
-    panel.hidden = false;
-    button.setAttribute('aria-expanded', 'true');
-    button.setAttribute('aria-label', 'Close menu');
-  });
+  const panel = $('#settingsPanel'), close = initMenu($('#settingsMenu'));
   panel.addEventListener('click', event => { if (event.target.closest('[data-study-mode]')) close(true); });
-  document.addEventListener('click', event => { if (!menu.contains(event.target)) close(); });
-  document.addEventListener('focusin', event => { if (!menu.contains(event.target)) close(); });
-  menu.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && !panel.hidden) { event.preventDefault(); event.stopPropagation(); close(true); }
-  });
   $('#nonGeneratedPortraits').addEventListener('change', event => {
     state.portraitMode = event.target.checked ? 'non-generated' : 'generated';
     setPortraitMode(state.portraitMode);
