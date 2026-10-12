@@ -1,0 +1,357 @@
+{
+  "featurePeople": {
+    "galatians-1": [
+      "paul",
+      "jesus",
+      "peter"
+    ],
+    "galatians-2": [
+      "paul",
+      "jesus",
+      "peter",
+      "barnabas",
+      "titus"
+    ],
+    "galatians-3": [
+      "paul",
+      "jesus",
+      "abraham"
+    ],
+    "galatians-4": [
+      "paul",
+      "jesus",
+      "abraham",
+      "hagar",
+      "isaac"
+    ],
+    "galatians-5": [
+      "paul",
+      "jesus"
+    ],
+    "galatians-6": [
+      "paul",
+      "jesus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Apostle who defends his message to the Galatians",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 1–6"
+      ],
+      "importance": "Paul says he got his message by revelation, not from men. He tells how he met Peter and the other apostles. He opposes Peter at Antioch over the shared meal. He then tells the Galatians not to take on circumcision. He ends in his own hand.",
+      "connections": "He writes with all the brothers with him. He names Peter, Barnabas, and Titus in his story.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Crucified and risen Lord who frees believers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 1–6"
+      ],
+      "importance": "Paul says his message came by revelation of Jesus Christ. He says Christ redeemed us from the curse of the law. He says all who are baptized into Christ are one. Paul says that in Christ neither circumcision nor uncircumcision counts.",
+      "connections": "Paul says Jesus gave himself for our sins and God raised him. Paul calls believers children of God in Christ.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 36,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "peter": {
+      "name": "Peter, also called Cephas",
+      "role": "Apostle Paul visited, then opposed at Antioch",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 1:18; 2:7–14"
+      ],
+      "importance": "Paul visits Peter for fifteen days in Jerusalem. At Antioch Peter eats with the Gentiles. When people come from James, he draws back and separates himself. Paul says they did not walk uprightly. He confronts Peter before them all.",
+      "connections": "Paul calls him Cephas in 2:9. Paul stayed with him fifteen days. Barnabas joined his withdrawal.",
+      "verseScope": {},
+      "linkNames": [
+        "Peter",
+        "Cephas"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4074",
+        "key": "Peter",
+        "checkedVerses": 5,
+        "example": [
+          1,
+          18
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πέτρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Pétros"
+      }
+    },
+    "barnabas": {
+      "name": "Barnabas",
+      "role": "Paul’s companion, carried away at Antioch",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 2:1, 9, 13"
+      ],
+      "importance": "Barnabas goes with Paul and Titus to Jerusalem. James, Cephas, and John give him and Paul the right hand of fellowship. At Antioch Paul says even Barnabas was carried away by the hypocrisy.",
+      "connections": "He goes up to Jerusalem with Paul and Titus. James, Cephas, and John gave him and Paul the right hand.",
+      "verseScope": {},
+      "linkNames": [
+        "Barnabas"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G921",
+        "key": "Barnabas",
+        "checkedVerses": 3,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαρνάβας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Barnábas"
+      }
+    },
+    "titus": {
+      "name": "Titus",
+      "role": "Greek who went with Paul and was not circumcised",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 2:1–3"
+      ],
+      "importance": "Paul takes Titus with him to Jerusalem. Titus is a Greek. Paul says he was not compelled to be circumcised. Paul says false brothers came in to spy on their liberty.",
+      "connections": "He goes up to Jerusalem with Paul and Barnabas.",
+      "verseScope": {},
+      "linkNames": [
+        "Titus"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5103",
+        "key": "Titus",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τίτος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Títos"
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Ancestor who believed God and received a promise",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 3; 4"
+      ],
+      "importance": "Paul says Abraham believed God, and it was counted to him for righteousness. Paul says those of faith are his children. The promise came before the law, which came 430 years after. Paul says the law does not cancel it.",
+      "connections": "He had two sons, one by the servant and one by the free woman.",
+      "verseScope": {},
+      "linkNames": [
+        "Abraham"
+      ],
+      "chapterIds": [
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G11",
+        "key": "Abraham",
+        "checkedVerses": 9,
+        "example": [
+          3,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀβραάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Abraám"
+      }
+    },
+    "hagar": {
+      "name": "Hagar",
+      "role": "Abraham’s servant, used as a picture of bondage",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 4:24–25"
+      ],
+      "importance": "Paul calls the two women two covenants. He says Hagar is Mount Sinai in Arabia. He says she bears children to bondage. He says she answers to the Jerusalem that exists now. The letter does not give her own words.",
+      "connections": "Paul says her son was born by the servant. He sets him beside the son of the free woman.",
+      "verseScope": {},
+      "linkNames": [
+        "Hagar"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G28",
+        "key": "Hagar",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          24
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἄγαρ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Ágar"
+      }
+    },
+    "isaac": {
+      "name": "Isaac",
+      "role": "Son of promise, born to the free woman",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Galatians 4:28"
+      ],
+      "importance": "Paul says Isaac was born through promise. Paul says the readers are children of promise like him. Paul says the one born by the flesh persecuted the one born by the Spirit. Paul says it is so now.",
+      "connections": "Paul says the readers are children of promise as Isaac was. He is the son of the free woman.",
+      "verseScope": {},
+      "linkNames": [
+        "Isaac"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2464",
+        "key": "Isaac",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          28
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰσαάκ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Isaák"
+      }
+    }
+  }
+}

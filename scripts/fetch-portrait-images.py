@@ -63,7 +63,7 @@ def main():
         if person == 'hezekiah':
             images[person]['credit'] = 'Unknown painter; photograph by David Castor'
         print(person, license_name, images[person]['credit'][:100])
-    target = ROOT / 'dist' / 'data' / 'portrait-images.json'
+    target = ROOT / "scripts" / "isaiah-portrait-images.json"
     target.write_text(json.dumps(images, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 if __name__ == '__main__':

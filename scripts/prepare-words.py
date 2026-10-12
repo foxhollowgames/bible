@@ -8,7 +8,7 @@ headwords={int(d.get('n')):d.find('o:w',NS).attrib for d in lex.findall('.//o:di
 hb=E.parse(ROOT/'scripts/Isa.xml')
 verses={v.get('osisID'):v for v in hb.findall('.//o:verse',NS)}
 words=[]
-scripture=json.loads((ROOT/'dist/data/scripture.json').read_text(encoding='utf-8'))['chapters']
+scripture=json.loads((ROOT/'dist/data/books/isaiah-native-scripture.json').read_text(encoding='utf-8'))['chapters']
 
 def tokens(text):
     return {re.sub(r'^\W+|\W+$', '', token).casefold() for token in text.split()}
@@ -122,7 +122,7 @@ for strong,label,aliases,meaning in catalog:
             words[-1].update(scope='dictionary',sourceIds=['strong','oshb','web' if chapter==36 else f'web{chapter}'])
             covered.update((chapter,v,match.casefold()) for v in hits)
 
-out=ROOT/'dist/data/content.json'; content=json.loads(out.read_text(encoding='utf-8')); content['words']=words
+out=ROOT/'dist/data/books/isaiah-native-content.json'; content=json.loads(out.read_text(encoding='utf-8')); content['words']=words
 if not any(s['id']=='lxx7' for s in content['sources']):
     template=next(s for s in content['sources'] if s['id']=='lxx36')
     content['sources'].append({**template,'id':'lxx7','title':'Isaiah 7 — Swete’s Septuagint','url':'https://biblehub.com/sepd/isaiah/7.htm'})

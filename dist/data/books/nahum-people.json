@@ -1,0 +1,56 @@
+{
+  "featurePeople": {
+    "nahum-1": [
+      "nahum"
+    ],
+    "nahum-2": [
+      "nahum"
+    ],
+    "nahum-3": [
+      "nahum"
+    ]
+  },
+  "people": {
+    "nahum": {
+      "name": "Nahum, the Elkoshite",
+      "role": "Prophet named in the vision about Nineveh",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Nineveh"
+      ],
+      "passages": [
+        "Nahum 1–3"
+      ],
+      "importance": "His vision describes ruined power from the viewpoint of people harmed by its cruelty.",
+      "connections": "The opening identifies him as the Elkoshite. The book gives no family history.",
+      "verseScope": {},
+      "linkNames": [
+        "Nahum"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5151",
+        "key": "Nahum",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "נַחוּם",
+        "transliteration": "Nachûwm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

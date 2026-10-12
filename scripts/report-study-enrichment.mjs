@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-const content = JSON.parse(await readFile(new URL('../dist/data/content.json', import.meta.url), 'utf8'));
+const content = JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-content.json', import.meta.url), 'utf8'));
 const clean = value => String(value).replaceAll('|', '\\|').replaceAll('\n', ' ');
 const source = id => content.sources.find(s => s.id === id);
 const chapters = content.chapterStudies.map(study => {

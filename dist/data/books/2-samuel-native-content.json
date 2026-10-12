@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "2-samuel",
+    "name": "2 Samuel",
+    "bibleCode": "2SA",
+    "chapterCount": 24,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

@@ -1,11 +1,11 @@
 # Bible guide expansion
 
-The original Isaiah address remains `/`. The directory is `/books.html`.
-Book pages use `/book.html?book=<slug>`.
+The directory is `/`. Every book page uses `/<slug>.html`. Isaiah is `/isaiah.html`.
+Earlier links to `/#chapter=...`, `/books.html`, and `/book.html?book=<slug>` still work.
 
 ## Current batch
 
-- Isaiah: existing guide, unchanged reading and map behavior.
+- Isaiah: all 66 chapters and 1,292 verses, 70 passage notes, 24 profiles, and a dated map timeline.
 - Genesis: all 50 chapters and 1,533 World English Bible verses.
 - Genesis: 50 original chapter studies, 39 selected person profiles, and 28 place records.
 - Genesis: historical and LDS sources use separate source categories and perspective controls.
@@ -131,9 +131,10 @@ Her prompt uses watercolor and ink, a green shawl, an open desert camp, and morn
 
 ## Rebuild and checks
 
-All ready book guides use Isaiah's HTML shell, stylesheet, chapter picker, modal controls, and navigation.
-Run `python scripts/build-native-books.py` after editing book data or the Isaiah interface.
-This creates book-specific adaptations from `app.js` and `portraits.js`.
+All 66 guides use one HTML shell, stylesheet, reader script, chapter picker, modal controls, and navigation.
+Run `python scripts/build-native-books.py` after editing book data. It writes data only.
+Reader changes in `dist/app.js` and `dist/portraits.js` apply to every book at once. There are no per-book script copies.
+Run `python scripts/build-isaiah.py` after editing Isaiah's settings or people.
 Do not restore the separate book renderer or its Events and Meanings sections.
 Original meanings belong in the chapter introduction. Sources use Isaiah's inline footnotes and source details.
 Books without secure event years use chapter order in the existing timeline controls.

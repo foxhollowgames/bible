@@ -1,4 +1,4 @@
-name: Deploy Meridian to GitHub Pages
+name: Deploy Bible Wayfinder to GitHub Pages
 
 on:
   push:

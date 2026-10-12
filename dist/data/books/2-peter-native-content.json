@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "2-peter",
+    "name": "2 Peter",
+    "bibleCode": "2PE",
+    "chapterCount": 3,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

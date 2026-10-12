@@ -73,7 +73,7 @@ export function addPrismAndHarmony(content) {
       summary: 'The university provides the full edition as a free PDF. It includes an English translation, transliteration, and copies of the cuneiform signs. The Hezekiah passage is in column III. It is on printed pages 32–34 and PDF pages 46–48. Sennacherib claims 46 walled cities, captives, and tribute. He says that he trapped Hezekiah in Jerusalem. He does not claim to have captured Jerusalem.',
       limitations: 'This 1924 translation uses older language and includes uncertain readings. Royal claims and totals are not independent counts. The inscription does not confirm the angel in Isaiah’s account. It also does not confirm the number of Assyrian deaths.',
       reviewed: reviewed + 'University publication record and the Hezekiah section of the linked PDF checked. The complete book was not reviewed.',
-      license: 'Free PDF linked from the university. Its current publication page displays CC BY-NC-ND 4.0. Isaiah Study Guide reproduces no pages.'
+      license: 'Free PDF linked from the university. Its current publication page displays CC BY-NC-ND 4.0. Bible Wayfinder reproduces no pages.'
     },
     {
       id: 'prism-jerusalem', group: 'sennacherib-prism',

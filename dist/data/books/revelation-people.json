@@ -1,0 +1,367 @@
+{
+  "featurePeople": {
+    "revelation-1": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-2": [
+      "john-vision",
+      "jesus",
+      "balaam",
+      "balak"
+    ],
+    "revelation-3": [
+      "john-vision",
+      "jesus",
+      "david"
+    ],
+    "revelation-4": [
+      "john-vision"
+    ],
+    "revelation-5": [
+      "john-vision",
+      "jesus",
+      "david"
+    ],
+    "revelation-6": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-7": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-8": [
+      "john-vision"
+    ],
+    "revelation-9": [
+      "john-vision"
+    ],
+    "revelation-10": [
+      "john-vision"
+    ],
+    "revelation-11": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-12": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-13": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-14": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-15": [
+      "john-vision",
+      "jesus",
+      "moses"
+    ],
+    "revelation-16": [
+      "john-vision"
+    ],
+    "revelation-17": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-18": [
+      "john-vision"
+    ],
+    "revelation-19": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-20": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-21": [
+      "john-vision",
+      "jesus"
+    ],
+    "revelation-22": [
+      "john-vision",
+      "jesus",
+      "david"
+    ]
+  },
+  "people": {
+    "john-vision": {
+      "name": "John",
+      "role": "John, who writes down what he hears and sees",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Revelation 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22"
+      ],
+      "importance": "John is on the isle of Patmos. He hears a loud voice behind him and sees one like a son of man. John falls at his feet like a dead man. He is told to write what he sees and send it to seven assemblies. At the end he falls to worship an angel, who tells him to worship God.",
+      "connections": "He calls the readers his brothers. He shares their oppression, Kingdom, and perseverance in Christ Jesus.",
+      "verseScope": {},
+      "linkNames": [
+        "John"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2491",
+        "key": "John",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰωάννης",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iōánnēs"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Faithful witness, firstborn of the dead, and ruler of kings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Revelation 1, 2, 3, 5, 6, 7, 11, 12, 13, 14, 15, 17, 19, 20, 21, 22"
+      ],
+      "importance": "The book begins as the Revelation of Jesus Christ. A figure like a son of man says he was dead and is alive forever. He holds the keys of Death and of Hades. He speaks the messages to the seven assemblies. In the last chapter Jesus says he sent his angel and is coming soon.",
+      "connections": "John greets the seven assemblies from God, the seven Spirits, and Jesus Christ.",
+      "verseScope": {
+        "13": [
+          8
+        ]
+      },
+      "linkNames": [
+        "Jesus",
+        "Christ",
+        "Lamb"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 13,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "balaam": {
+      "name": "Balaam",
+      "role": "Man who taught Balak to throw a stumbling block",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Revelation 2"
+      ],
+      "importance": "In the message to Pergamum, some there hold the teaching of Balaam. The message says he taught Balak how to make the children of Israel stumble. The teaching led them to eat things sacrificed to idols and to commit sexual immorality. The message gives no story of Balaam.",
+      "connections": "The message says Balaam taught Balak. It also names the children of Israel.",
+      "verseScope": {},
+      "linkNames": [
+        "Balaam"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G903",
+        "key": "Balaam",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          14
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαλαάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Balaám"
+      }
+    },
+    "balak": {
+      "name": "Balak",
+      "role": "Man Balaam taught to throw a stumbling block",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Revelation 2"
+      ],
+      "importance": "The message to Pergamum names Balak once. It says Balaam taught him to throw a stumbling block before the children of Israel. The message tells no other story about Balak.",
+      "connections": "The message says Balaam taught him. It also names the children of Israel.",
+      "verseScope": {},
+      "linkNames": [
+        "Balak"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G904",
+        "key": "Balak",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          14
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαλάκ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Balák"
+      }
+    },
+    "david": {
+      "name": "David",
+      "role": "King of old, named in titles of Jesus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Revelation 3, 5, 22"
+      ],
+      "importance": "David does nothing in Revelation. His name appears in titles. The one in Philadelphia’s message has the key of David. An elder calls the Lion of Judah the Root of David. Jesus calls himself the root and offspring of David.",
+      "connections": "The key, the root, and the offspring are all called David’s.",
+      "verseScope": {},
+      "linkNames": [
+        "David"
+      ],
+      "chapterIds": [
+        3,
+        5,
+        22
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1138",
+        "key": "David",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          7
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Δαβίδ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Dabíd"
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Servant of God, named in a song",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Revelation 15"
+      ],
+      "importance": "In chapter 15, John sees people standing beside a sea of glass. They sing the song of Moses, the servant of God. They also sing the song of the Lamb. The song praises the Lord God’s works and calls him King of the nations.",
+      "connections": "Those who sing sing the song of Moses and the song of the Lamb.",
+      "verseScope": {},
+      "linkNames": [
+        "Moses"
+      ],
+      "chapterIds": [
+        15
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3475",
+        "key": "Moses",
+        "checkedVerses": 1,
+        "example": [
+          15,
+          3
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μωσεύς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Mōseús"
+      }
+    }
+  }
+}

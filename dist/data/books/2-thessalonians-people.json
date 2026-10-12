@@ -1,0 +1,178 @@
+{
+  "featurePeople": {
+    "2-thessalonians-1": [
+      "paul",
+      "jesus",
+      "silas",
+      "timothy"
+    ],
+    "2-thessalonians-2": [
+      "paul",
+      "jesus"
+    ],
+    "2-thessalonians-3": [
+      "paul",
+      "jesus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer who corrects the Thessalonians and asks for prayer",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Thessalonians 1:1; 2:5; 3:1–18"
+      ],
+      "importance": "Paul thanks the Thessalonians for growing faith in suffering. He asks them not to be shaken by a letter said to come from him. He tells them to withdraw from brothers who will not work. He signs the greeting with his own hand as the sign in every letter.",
+      "connections": "He writes with Silvanus and Timothy. He calls the readers brothers.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "silas": {
+      "name": "Silvanus",
+      "role": "Co-sender named with Paul and Timothy",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Thessalonians 1:1"
+      ],
+      "importance": "The letter names Silvanus in the opening line with Paul and Timothy. The letter says “we” after that. It says nothing else about him by name.",
+      "connections": "The letter names him first after Paul. Timothy follows him.",
+      "verseScope": {},
+      "linkNames": [
+        "Silvanus"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4610",
+        "key": "Silvanus",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σιλουανός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Silouanós"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Co-sender named with Paul and Silvanus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Thessalonians 1:1"
+      ],
+      "importance": "The letter names Timothy in the opening line with Paul and Silvanus. The letter says “we” after that. It says nothing else about him by name.",
+      "connections": "The letter names him last, after Paul and Silvanus.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord who will come, bring relief, and judge",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Thessalonians 1–3"
+      ],
+      "importance": "Paul says the Lord Jesus will be revealed from heaven. He will give relief to the afflicted and punish those who do not obey. Some claim the day of Christ has already come. Paul answers that it has not, and he gives no date.",
+      "connections": "Paul calls him the Lord Jesus Christ. Paul links the readers’ calling and comfort with him.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 11,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    }
+  }
+}

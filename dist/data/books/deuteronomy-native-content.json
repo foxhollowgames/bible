@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "deuteronomy",
+    "name": "Deuteronomy",
+    "bibleCode": "DEU",
+    "chapterCount": 34,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

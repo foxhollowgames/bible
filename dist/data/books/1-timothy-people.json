@@ -1,0 +1,245 @@
+{
+  "featurePeople": {
+    "1-timothy-1": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "1-timothy-2": [
+      "paul",
+      "timothy",
+      "jesus",
+      "adam",
+      "eve"
+    ],
+    "1-timothy-3": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "1-timothy-4": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "1-timothy-5": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "1-timothy-6": [
+      "paul",
+      "timothy",
+      "jesus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer who left Timothy at Ephesus to correct teachers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Timothy 1–6"
+      ],
+      "importance": "Paul says he urged Timothy to stay at Ephesus. He calls himself a past blasphemer and persecutor who received mercy. He gives rules for prayer, overseers, widows, and the rich. He hopes to come to Timothy soon.",
+      "connections": "He calls Timothy his true child in faith. He names Hymenaeus and Alexander as men he handed over.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Paul’s true child, told to stay at Ephesus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Timothy 1–6"
+      ],
+      "importance": "Paul tells Timothy to stay at Ephesus. He is to stop certain men from teaching a different doctrine. Paul tells him not to let anyone despise his youth. He is to read, exhort, and teach. He is to guard what was entrusted to him.",
+      "connections": "Paul calls him his true child in faith and his child Timothy.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord and one mediator between God and men",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Timothy 1–6"
+      ],
+      "importance": "Paul says Christ Jesus came to save sinners, and Paul is chief of them. Paul says Jesus gave himself as a ransom for all. Paul charges Timothy to keep the commandment until Jesus appears.",
+      "connections": "Paul calls him our hope and the man Christ Jesus. He says Jesus testified before Pontius Pilate.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 15,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "adam": {
+      "name": "Adam",
+      "role": "First man formed, named in a reason for teaching rules",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Timothy 2:13–14"
+      ],
+      "importance": "In chapter 2 Paul says he does not permit a woman to teach. He adds that she may not have authority over a man. As his reason, Paul says Adam was formed first. Paul also says Adam was not deceived. Paul does not name a local dispute.",
+      "connections": "Paul names him just before Eve. He says Adam was formed first.",
+      "verseScope": {},
+      "linkNames": [
+        "Adam"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G76",
+        "key": "Adam",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀδάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Adám"
+      }
+    },
+    "eve": {
+      "name": "Eve",
+      "role": "First woman, named in a reason for teaching rules",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Timothy 2:13–14"
+      ],
+      "importance": "In chapter 2 Paul gives a reason for his rule about women teaching. He says Adam was formed first, then Eve. He says the woman was deceived and fell into disobedience. Paul does not name a local incident.",
+      "connections": "Paul names her just after Adam. He says she was formed after him and was deceived.",
+      "verseScope": {},
+      "linkNames": [
+        "Eve"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2096",
+        "key": "Eve",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Εὖα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Eûa"
+      }
+    }
+  }
+}

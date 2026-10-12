@@ -1,0 +1,117 @@
+{
+  "featurePeople": {
+    "amos-1": [
+      "amos"
+    ],
+    "amos-2": [
+      "amos"
+    ],
+    "amos-3": [
+      "amos"
+    ],
+    "amos-4": [
+      "amos"
+    ],
+    "amos-5": [
+      "amos"
+    ],
+    "amos-6": [
+      "amos"
+    ],
+    "amos-7": [
+      "amos",
+      "amaziah"
+    ],
+    "amos-8": [
+      "amos"
+    ],
+    "amos-9": [
+      "amos"
+    ]
+  },
+  "people": {
+    "amos": {
+      "name": "Amos",
+      "role": "Herdsman and grower of sycamore figs who speaks to Israel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Amos 1–9"
+      ],
+      "importance": "His warnings connect worship with justice, honest trade, and care for poor people.",
+      "connections": "He disputes Amaziah’s claim that royal authority can stop his words.",
+      "verseScope": {},
+      "linkNames": [
+        "Amos"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5986",
+        "key": "Amos",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "עָמוֹס",
+        "transliteration": "ʻÂmôwç",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amaziah": {
+      "name": "Amaziah of Bethel",
+      "role": "Priest who orders Amos away from the royal sanctuary",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Amos 7:10–17"
+      ],
+      "importance": "His appeal to royal control brings the conflict over prophetic speech into public view.",
+      "connections": "He reports Amos’s words to Jeroboam. He is distinct from the king named Amaziah.",
+      "verseScope": {},
+      "linkNames": [
+        "Amaziah"
+      ],
+      "chapterIds": [
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H558",
+        "key": "Amaziah",
+        "checkedVerses": 3,
+        "example": [
+          7,
+          10
+        ],
+        "hebrew": "אֲמַצְיָה",
+        "transliteration": "ʼĂmatsyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Amaziah.”"
+      }
+    }
+  }
+}

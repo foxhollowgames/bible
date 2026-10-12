@@ -1,0 +1,1413 @@
+{
+  "featurePeople": {
+    "ezra-1": [
+      "cyrus",
+      "jeremiah",
+      "nebuchadnezzar",
+      "sheshbazzar",
+      "mithredath-treasurer"
+    ],
+    "ezra-2": [
+      "zerubbabel",
+      "jeshua-priest",
+      "nebuchadnezzar",
+      "returning-families"
+    ],
+    "ezra-3": [
+      "jeshua-priest",
+      "zerubbabel",
+      "moses",
+      "david",
+      "asaph-singer",
+      "cyrus"
+    ],
+    "ezra-4": [
+      "zerubbabel",
+      "jeshua-priest",
+      "cyrus",
+      "darius-ezra",
+      "ahasuerus-ezra",
+      "artaxerxes-ezra",
+      "mithredath-writer",
+      "rehum-chancellor",
+      "shimshai"
+    ],
+    "ezra-5": [
+      "haggai",
+      "zechariah-prophet",
+      "zerubbabel",
+      "jeshua-priest",
+      "tattenai",
+      "shethar-bozenai",
+      "sheshbazzar",
+      "cyrus",
+      "nebuchadnezzar",
+      "darius-ezra"
+    ],
+    "ezra-6": [
+      "darius-ezra",
+      "cyrus",
+      "artaxerxes-ezra",
+      "haggai",
+      "zechariah-prophet"
+    ],
+    "ezra-7": [
+      "ezra",
+      "aaron",
+      "moses",
+      "artaxerxes-ezra"
+    ],
+    "ezra-8": [
+      "ezra",
+      "artaxerxes-ezra",
+      "iddo-casiphia",
+      "sherebiah",
+      "hashabiah",
+      "meremoth",
+      "eleazar-phinehas",
+      "jozabad-ezra",
+      "noadiah-ezra",
+      "david"
+    ],
+    "ezra-9": [
+      "ezra",
+      "foreign-wives-children"
+    ],
+    "ezra-10": [
+      "ezra",
+      "shecaniah-jehiel",
+      "jehohanan-eliashib",
+      "jeshua-priest",
+      "foreign-wives-children",
+      "marriage-objectors",
+      "shabbethai"
+    ]
+  },
+  "people": {
+    "cyrus": {
+      "name": "Cyrus",
+      "role": "Persian king who lets the people rebuild the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 1, 3, 4, 5, 6"
+      ],
+      "importance": "In his first year Cyrus sends an order through his kingdom. It says the LORD’s people may go to Jerusalem and build his house. He also brings out the vessels Nebuchadnezzar took. Later the builders and Darius both point back to this order.",
+      "connections": "He is king of Persia. He gives the temple vessels to Mithredath, who counts them out to Sheshbazzar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3566",
+        "key": "Cyrus",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "כּוֹרֶשׁ",
+        "transliteration": "Kôwresh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jeremiah": {
+      "name": "Jeremiah",
+      "role": "Earlier prophet named in the book’s first verse",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 1"
+      ],
+      "importance": "The LORD spoke a word by Jeremiah before this book begins. Verse 1 says the LORD stirred Cyrus so that word would come true.",
+      "connections": "The first verse names him beside Cyrus. He does not act in this book.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3414",
+        "key": "Jeremiah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יִרְמְיָה",
+        "transliteration": "Yirmᵉyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nebuchadnezzar": {
+      "name": "Nebuchadnezzar",
+      "role": "King of Babylon who took the people and the vessels",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 1, 2, 5"
+      ],
+      "importance": "He took the temple vessels from Jerusalem. He put them in the house of his gods. He carried the people away to Babylon. The elders say he also destroyed the temple. The book begins when the people and the vessels come back.",
+      "connections": "He is king of Babylon. Cyrus later brings out the vessels he took.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5020",
+        "key": "Nebuchadnezzar",
+        "checkedVerses": 4,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "נְבוּכַדְנֶצַּר",
+        "transliteration": "Nᵉbûwkadnetstsar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "sheshbazzar": {
+      "name": "Sheshbazzar",
+      "role": "Prince of Judah who carries the vessels home",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Babylon",
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 1, 5"
+      ],
+      "importance": "Mithredath counts the temple vessels out to him. He brings them up from Babylon to Jerusalem. The elders later say he laid the foundations of God’s house.",
+      "connections": "Chapter 1 calls him the prince of Judah. In chapter 5 the elders say Cyrus made him governor.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8339",
+        "key": "Sheshbazzar",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          8
+        ],
+        "hebrew": "שֵׁשְׁבַּצַּר",
+        "transliteration": "Shêshᵉbatstsar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mithredath-treasurer": {
+      "name": "Mithredath, Cyrus’s treasurer",
+      "role": "Treasurer who counts out the temple vessels",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 1"
+      ],
+      "importance": "Cyrus brings out the temple vessels by his hand. Mithredath counts them out to Sheshbazzar. The list comes to 5,400 vessels of gold and silver.",
+      "connections": "He serves Cyrus as treasurer. He counts the vessels out to Sheshbazzar.",
+      "verseScope": {},
+      "linkNames": [
+        "Mithredath"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4990",
+        "key": "Mithredath",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          8
+        ],
+        "hebrew": "מִתְרְדָת",
+        "transliteration": "Mithrᵉdâth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zerubbabel": {
+      "name": "Zerubbabel",
+      "role": "Leader who starts the altar and the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 2, 3, 4, 5"
+      ],
+      "importance": "His name stands first in the list of those who return. He and Jeshua build the altar and start the temple. He tells the neighbors they may not build with him. After Haggai and Zechariah speak, he starts building again.",
+      "connections": "He is the son of Shealtiel. He works with Jeshua the son of Jozadak.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2216",
+        "key": "Zerubbabel",
+        "checkedVerses": 5,
+        "example": [
+          2,
+          2
+        ],
+        "hebrew": "זְרֻבָּבֶל",
+        "transliteration": "Zᵉrubbâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jeshua-priest": {
+      "name": "Jeshua, son of Jozadak",
+      "role": "Priest who builds the altar with Zerubbabel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 2, 3, 4, 5, 10"
+      ],
+      "importance": "He and his brother priests build the altar with Zerubbabel. They offer burnt offerings and start the temple. He joins Zerubbabel in refusing the neighbors’ help. In chapter 10, four men of his family promise to send their foreign wives away.",
+      "connections": "He is the son of Jozadak and works with Zerubbabel. Four of his family are named in chapter 10.",
+      "verseScope": {
+        "2": [
+          2
+        ],
+        "3": [
+          2,
+          8
+        ],
+        "10": [
+          18
+        ]
+      },
+      "linkNames": [
+        "Jeshua"
+      ],
+      "chapterIds": [
+        2,
+        3,
+        4,
+        5,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3442",
+        "key": "Jeshua",
+        "checkedVerses": 10,
+        "example": [
+          2,
+          2
+        ],
+        "hebrew": "יֵשׁוּעַ",
+        "transliteration": "Yêshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "returning-families": {
+      "name": "The returning families and temple workers",
+      "role": "Families and temple workers counted in the return list",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 2"
+      ],
+      "importance": "They leave Babylon and go back to Jerusalem and Judah, each to his city. The whole group numbers 42,360. Some cannot show their fathers’ houses. Some priests are not found in the records and are kept from serving.",
+      "connections": "They come with Zerubbabel and Jeshua. The list names families, priests, Levites, singers, gatekeepers, and temple servants.",
+      "verseScope": {},
+      "linkNames": [
+        "returning families",
+        "temple workers"
+      ],
+      "chapterIds": [
+        2
+      ]
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Earlier leader whose law the people follow",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 3, 7"
+      ],
+      "importance": "Moses does not act in this book. The builders set up the altar as his law says. Ezra is a skilled scribe in that same law.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3,
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 2,
+        "example": [
+          3,
+          2
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "david": {
+      "name": "David",
+      "role": "Earlier king whose directions the singers follow",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 3, 8"
+      ],
+      "importance": "David does not act in this book. The priests and Levites praise the LORD by his directions in chapter 3. Chapter 8 says he gave the temple servants to help the Levites.",
+      "connections": "The book calls him king of Israel. Hattush, of the sons of David, travels with Ezra.",
+      "verseScope": {
+        "8": [
+          2
+        ]
+      },
+      "linkNames": [],
+      "chapterIds": [
+        3,
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1732",
+        "key": "David",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          10
+        ],
+        "hebrew": "דָּוִד",
+        "transliteration": "Dâvid",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "asaph-singer": {
+      "name": "Asaph, the singer",
+      "role": "Earlier singer whose sons play at the foundation",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 3"
+      ],
+      "importance": "Asaph does not act in this book. His sons play cymbals when the builders lay the temple’s foundation. They sing that the LORD is good.",
+      "connections": "The Levites with cymbals in 3:10 are called the sons of Asaph.",
+      "verseScope": {
+        "3": [
+          10
+        ]
+      },
+      "linkNames": [
+        "Asaph"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H623",
+        "key": "Asaph",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          41
+        ],
+        "hebrew": "אָסָף",
+        "transliteration": "ʼÂçâph",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "darius-ezra": {
+      "name": "Darius, the Persian king",
+      "role": "Persian king who lets the temple be finished",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 4, 5, 6"
+      ],
+      "importance": "Work on the temple stops until his second year. Tattenai asks him to search for Cyrus’s order, and a scroll is found. Darius tells Tattenai to leave the work alone and pay its costs. The temple is finished in his sixth year.",
+      "connections": "He is king of Persia. Tattenai and Shetharbozenai write to him, and he answers them.",
+      "verseScope": {},
+      "linkNames": [
+        "Darius"
+      ],
+      "chapterIds": [
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1868",
+        "key": "Darius",
+        "checkedVerses": 9,
+        "example": [
+          4,
+          24
+        ],
+        "hebrew": "דָּֽרְיָוֵשׁ",
+        "transliteration": "Dârᵉyâvêsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahasuerus-ezra": {
+      "name": "Ahasuerus, the ruler named in opposition",
+      "role": "Persian king who is sent an accusation",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 4"
+      ],
+      "importance": "Ezra 4:6 is his only verse in this book. At the start of his reign, enemies write an accusation against Judah and Jerusalem. The book does not give his answer.",
+      "connections": "He is named in one verse, between Darius and Artaxerxes.",
+      "verseScope": {},
+      "linkNames": [
+        "Ahasuerus"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H325",
+        "key": "Ahasuerus",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          6
+        ],
+        "hebrew": "אֲחַשְׁוֵרוֹשׁ",
+        "transliteration": "ʼĂchashvêrôwsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "artaxerxes-ezra": {
+      "name": "Artaxerxes, the Persian king",
+      "role": "Persian king who stops the city, then sends Ezra",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 4, 6, 7, 8"
+      ],
+      "importance": "Rehum and Shimshai warn him that Jerusalem is a rebel city. He orders the building to stop. In his seventh year he gives Ezra a letter. It lets Ezra carry silver and gold, teach the law, and appoint judges.",
+      "connections": "He is king of Persia. Rehum and Shimshai write to him, and he later sends Ezra.",
+      "verseScope": {},
+      "linkNames": [
+        "Artaxerxes"
+      ],
+      "chapterIds": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H783",
+        "key": "Artaxerxes",
+        "checkedVerses": 11,
+        "example": [
+          4,
+          7
+        ],
+        "hebrew": "אַרְתַּחְשַׁשְׁתָּא",
+        "transliteration": "ʼArtachshashtâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mithredath-writer": {
+      "name": "Mithredath, the letter writer",
+      "role": "Man who writes to Artaxerxes with Bishlam and Tabeel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 4"
+      ],
+      "importance": "He writes to Artaxerxes with Bishlam, Tabeel, and their companions. The letter is in the Syrian language. The book does not give its words.",
+      "connections": "He is named with Bishlam and Tabeel. He is not Mithredath the treasurer in chapter 1.",
+      "verseScope": {},
+      "linkNames": [
+        "Mithredath"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4990",
+        "key": "Mithredath",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          8
+        ],
+        "hebrew": "מִתְרְדָת",
+        "transliteration": "Mithrᵉdâth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "rehum-chancellor": {
+      "name": "Rehum, the chancellor",
+      "role": "Chancellor who writes against Jerusalem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria"
+      ],
+      "passages": [
+        "Ezra 4"
+      ],
+      "importance": "He writes to Artaxerxes that Jerusalem is a rebel city. He says a finished city will pay no tribute. The king tells him to stop the builders. Rehum hurries to Jerusalem and stops them by force.",
+      "connections": "He writes with Shimshai the scribe and their companions. Artaxerxes answers them.",
+      "verseScope": {
+        "4": [
+          8,
+          9,
+          17,
+          23
+        ]
+      },
+      "linkNames": [
+        "Rehum"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7348",
+        "key": "Rehum",
+        "checkedVerses": 5,
+        "example": [
+          2,
+          2
+        ],
+        "hebrew": "רְחוּם",
+        "transliteration": "Rᵉchûwm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shimshai": {
+      "name": "Shimshai, the scribe",
+      "role": "Scribe who writes against Jerusalem with Rehum",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria"
+      ],
+      "passages": [
+        "Ezra 4"
+      ],
+      "importance": "He and Rehum write a letter against Jerusalem to Artaxerxes. The king’s answer is read before them. They hurry to Jerusalem and stop the Jews by force.",
+      "connections": "He is a scribe. He writes with Rehum the chancellor to Artaxerxes.",
+      "verseScope": {},
+      "linkNames": [
+        "Shimshai"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8124",
+        "key": "Shimshai",
+        "checkedVerses": 4,
+        "example": [
+          4,
+          8
+        ],
+        "hebrew": "שִׁמְשַׁי",
+        "transliteration": "Shimshay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "haggai": {
+      "name": "Haggai",
+      "role": "Prophet who helps the builders start again",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 5, 6"
+      ],
+      "importance": "Haggai speaks to the Jews in the name of the God of Israel. Zerubbabel and Jeshua then begin to build again. Chapter 6 says the elders built and did well through his words.",
+      "connections": "He speaks at the same time as Zechariah. Zerubbabel and Jeshua build while he speaks.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        5,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2292",
+        "key": "Haggai",
+        "checkedVerses": 2,
+        "example": [
+          5,
+          1
+        ],
+        "hebrew": "חַגַּי",
+        "transliteration": "Chaggay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zechariah-prophet": {
+      "name": "Zechariah, the prophet associated with Iddo",
+      "role": "Prophet who helps the builders start again",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 5, 6"
+      ],
+      "importance": "Zechariah speaks to the Jews in the name of the God of Israel. Zerubbabel and Jeshua then begin to build again. Chapter 6 says the elders built and did well through his words.",
+      "connections": "Ezra calls him the son of Iddo. He speaks at the same time as Haggai.",
+      "verseScope": {
+        "5": [
+          1
+        ],
+        "6": [
+          14
+        ]
+      },
+      "linkNames": [
+        "Zechariah"
+      ],
+      "chapterIds": [
+        5,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2148",
+        "key": "Zechariah",
+        "checkedVerses": 6,
+        "example": [
+          5,
+          1
+        ],
+        "hebrew": "זְכַרְיָה",
+        "transliteration": "Zᵉkaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "tattenai": {
+      "name": "Tattenai",
+      "role": "Governor who asks about the temple work",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 5"
+      ],
+      "importance": "He comes to the builders and asks who gave them an order to build. He asks for their names. He does not stop them, and he sends their answer to Darius. When Darius replies, Tattenai does what the king says.",
+      "connections": "He is the governor beyond the River. He works with Shetharbozenai and writes to Darius.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        5
+      ]
+    },
+    "shethar-bozenai": {
+      "name": "Shethar Bozenai",
+      "role": "Official who questions the builders with Tattenai",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 5"
+      ],
+      "importance": "He comes with Tattenai to ask who let the Jews build. He sends the letter to Darius with him. Darius tells them both to stay away from the work. They do what the king says.",
+      "connections": "The reading text spells his name Shetharbozenai. He is always named with Tattenai.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        5
+      ]
+    },
+    "ezra": {
+      "name": "Ezra",
+      "role": "Priest and scribe who teaches God’s law",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Babylon",
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 7, 8, 9, 10"
+      ],
+      "importance": "Ezra leaves Babylon with a letter from Artaxerxes. He fasts at the river Ahava. He brings the people and the gifts safely to Jerusalem. There he learns that many men have married foreign women. He tears his clothes and prays. Then he tells the men to separate from those wives.",
+      "connections": "He is the son of Seraiah, and his line goes back to Aaron. Artaxerxes gives him a letter and gifts.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5830",
+        "key": "Ezra",
+        "checkedVerses": 10,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "עֶזְרָא",
+        "transliteration": "ʻEzrâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Earlier chief priest at the head of Ezra’s line",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 7"
+      ],
+      "importance": "Aaron does not act in this book. Ezra’s family list ends with him and calls him the chief priest.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {
+        "7": [
+          5
+        ]
+      },
+      "linkNames": [],
+      "chapterIds": [
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          5
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "iddo-casiphia": {
+      "name": "Iddo, the leader at Casiphia",
+      "role": "Chief at Casiphia whom Ezra asks for helpers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "Ezra finds no sons of Levi in his camp. He sends eleven men to Iddo to ask for ministers for God’s house. Sherebiah, Hashabiah, their relatives, and 220 temple servants then join Ezra.",
+      "connections": "He is the chief at the place Casiphia. His brothers are the temple servants there.",
+      "verseScope": {
+        "8": [
+          17
+        ]
+      },
+      "linkNames": [
+        "Iddo"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5714",
+        "key": "Iddo",
+        "checkedVerses": 2,
+        "example": [
+          5,
+          1
+        ],
+        "hebrew": "עִדּוֹ",
+        "transliteration": "ʻIddôw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "sherebiah": {
+      "name": "Sherebiah",
+      "role": "Levite who joins Ezra and guards the gifts",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "He comes from Casiphia after Ezra asks for ministers. The text calls him a man of discretion. Ezra weighs the silver, gold, and vessels into his hands. He must guard them until they are weighed in Jerusalem.",
+      "connections": "He is of the sons of Mahli. He comes with his sons and brothers, eighteen in all.",
+      "verseScope": {
+        "8": [
+          18,
+          24
+        ]
+      },
+      "linkNames": [
+        "Sherebiah"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8274",
+        "key": "Sherebiah",
+        "checkedVerses": 2,
+        "example": [
+          8,
+          18
+        ],
+        "hebrew": "שֵׁרֵבְיָה",
+        "transliteration": "Shêrêbᵉyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hashabiah": {
+      "name": "Hashabiah, the recruited Levite",
+      "role": "Man from Casiphia who guards the gifts",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "He comes from Casiphia after Ezra asks for ministers. Ezra sets him apart with Sherebiah and ten others. Ezra weighs the silver, gold, and vessels into their hands for the journey.",
+      "connections": "He comes with Jeshaiah of the sons of Merari. Twenty of their brothers and sons come too.",
+      "verseScope": {
+        "8": [
+          19,
+          24
+        ]
+      },
+      "linkNames": [
+        "Hashabiah"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2811",
+        "key": "Hashabiah",
+        "checkedVerses": 2,
+        "example": [
+          8,
+          19
+        ],
+        "hebrew": "חֲשַׁבְיָה",
+        "transliteration": "Chăshabyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "meremoth": {
+      "name": "Meremoth, son of Uriah",
+      "role": "Priest who takes the weighed gifts in Jerusalem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "On the fourth day in Jerusalem the gifts are weighed into his hand. This happens in the house of God. Everything is counted, and the weight is written down.",
+      "connections": "He is the son of Uriah the priest. Eleazar, Jozabad, and Noadiah are with him.",
+      "verseScope": {
+        "8": [
+          33
+        ]
+      },
+      "linkNames": [
+        "Meremoth"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4822",
+        "key": "Meremoth",
+        "checkedVerses": 2,
+        "example": [
+          8,
+          33
+        ],
+        "hebrew": "מְרֵמוֹת",
+        "transliteration": "Mᵉrêmôwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eleazar-phinehas": {
+      "name": "Eleazar, son of Phinehas",
+      "role": "Man with Meremoth when the gifts are weighed",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "Ezra 8:33 is his only verse. He is with Meremoth when the silver, gold, and vessels are weighed in God’s house.",
+      "connections": "He is the son of Phinehas. He stands with Meremoth, Jozabad, and Noadiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Eleazar"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H499",
+        "key": "Eleazar",
+        "checkedVerses": 3,
+        "example": [
+          7,
+          5
+        ],
+        "hebrew": "אֶלְעָזָר",
+        "transliteration": "ʼElʻâzâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jozabad-ezra": {
+      "name": "Jozabad, son of Jeshua",
+      "role": "Levite present when the gifts are weighed",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "Ezra 8:33 is his only sure verse. He is with Meremoth when the silver, gold, and vessels are weighed in God’s house. Chapter 10 lists other men named Jozabad.",
+      "connections": "He is the son of Jeshua and a Levite. He stands with Noadiah, Meremoth, and Eleazar.",
+      "verseScope": {
+        "8": [
+          33
+        ]
+      },
+      "linkNames": [
+        "Jozabad"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3107",
+        "key": "Jozabad",
+        "checkedVerses": 3,
+        "example": [
+          8,
+          33
+        ],
+        "hebrew": "יוֹזָבָד",
+        "transliteration": "Yôwzâbâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "noadiah-ezra": {
+      "name": "Noadiah, son of Binnui",
+      "role": "Levite present when the gifts are weighed",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 8"
+      ],
+      "importance": "Ezra 8:33 is his only verse. He is with Meremoth when the silver, gold, and vessels are weighed in God’s house.",
+      "connections": "He is the son of Binnui and a Levite. He stands with Jozabad, Meremoth, and Eleazar.",
+      "verseScope": {},
+      "linkNames": [
+        "Noadiah"
+      ],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5129",
+        "key": "Noadiah",
+        "checkedVerses": 1,
+        "example": [
+          8,
+          33
+        ],
+        "hebrew": "נוֹעַדְיָה",
+        "transliteration": "Nôwʻadyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "foreign-wives-children": {
+      "name": "The foreign wives and their children",
+      "role": "Women and children the men agree to send away",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezra 9, 10"
+      ],
+      "importance": "The princes tell Ezra that men of Israel have married women from nearby peoples. Shecaniah proposes sending away the wives and their children. The men swear to do it. The book gives none of the women’s or children’s words.",
+      "connections": "They are the wives and children of men listed in chapter 10. None of them is named.",
+      "verseScope": {},
+      "linkNames": [
+        "foreign wives",
+        "foreign women",
+        "women from other nations"
+      ],
+      "chapterIds": [
+        9,
+        10
+      ]
+    },
+    "shecaniah-jehiel": {
+      "name": "Shecaniah, son of Jehiel",
+      "role": "Man who proposes sending the foreign wives away",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 10"
+      ],
+      "importance": "He tells Ezra, “We have trespassed against our God.” He says there is still hope for Israel. He proposes a covenant to put away the wives and their children. Ezra then makes the leaders swear to do it.",
+      "connections": "He is the son of Jehiel, of the sons of Elam. He speaks to Ezra.",
+      "verseScope": {
+        "10": [
+          2
+        ]
+      },
+      "linkNames": [
+        "Shecaniah"
+      ],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7935",
+        "key": "Shecaniah",
+        "checkedVerses": 3,
+        "example": [
+          8,
+          3
+        ],
+        "hebrew": "שְׁכַנְיָה",
+        "transliteration": "Shᵉkanyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehohanan-eliashib": {
+      "name": "Jehohanan, son of Eliashib",
+      "role": "Man whose room Ezra enters to fast",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 10"
+      ],
+      "importance": "Ezra 10:6 is his only verse. Ezra goes into his room after the leaders swear. There Ezra eats no bread and drinks no water. Jehohanan himself does nothing in the story.",
+      "connections": "He is the son of Eliashib. Ezra uses his room.",
+      "verseScope": {
+        "10": [
+          6
+        ]
+      },
+      "linkNames": [
+        "Jehohanan"
+      ],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3076",
+        "key": "Jehohanan",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          6
+        ],
+        "hebrew": "יְהוֹחָנָן",
+        "transliteration": "Yᵉhôwchânân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "marriage-objectors": {
+      "name": "Jonathan and Jahzeiah",
+      "role": "Two men who stand against the plan in this translation",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 10"
+      ],
+      "importance": "The people ask for set times to hear each case. Our reading text says only these two men stood against this. The Church Bible’s main text says they worked on the matter. The book does not give their reasons.",
+      "connections": "Jonathan is the son of Asahel. Jahzeiah is the son of Tikvah. Meshullam and Shabbethai help them.",
+      "verseScope": {
+        "10": [
+          15
+        ]
+      },
+      "linkNames": [
+        "Jonathan",
+        "Jahzeiah"
+      ],
+      "chapterIds": [
+        10
+      ]
+    },
+    "shabbethai": {
+      "name": "Shabbethai, the Levite",
+      "role": "Levite who helps Jonathan and Jahzeiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Ezra 10"
+      ],
+      "importance": "Ezra 10:15 is his only verse. He and Meshullam help Jonathan and Jahzeiah. In our reading text those two stand against the plan.",
+      "connections": "He is a Levite. Ezra 10:15 names him with Meshullam, Jonathan, and Jahzeiah.",
+      "verseScope": {
+        "10": [
+          15
+        ]
+      },
+      "linkNames": [
+        "Shabbethai"
+      ],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7678",
+        "key": "Shabbethai",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          15
+        ],
+        "hebrew": "שַׁבְּתַי",
+        "transliteration": "Shabbᵉthay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

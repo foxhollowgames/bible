@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "acts",
+    "name": "Acts",
+    "bibleCode": "ACT",
+    "chapterCount": 28,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

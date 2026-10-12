@@ -1,0 +1,396 @@
+{
+  "featurePeople": {
+    "hebrews-1": [
+      "jesus"
+    ],
+    "hebrews-2": [
+      "jesus",
+      "abraham"
+    ],
+    "hebrews-3": [
+      "jesus",
+      "moses"
+    ],
+    "hebrews-4": [
+      "jesus"
+    ],
+    "hebrews-5": [
+      "jesus",
+      "aaron",
+      "melchizedek"
+    ],
+    "hebrews-6": [
+      "jesus",
+      "melchizedek",
+      "abraham"
+    ],
+    "hebrews-7": [
+      "jesus",
+      "moses",
+      "aaron",
+      "melchizedek",
+      "abraham"
+    ],
+    "hebrews-8": [
+      "jesus",
+      "moses"
+    ],
+    "hebrews-9": [
+      "jesus",
+      "moses",
+      "aaron"
+    ],
+    "hebrews-10": [
+      "jesus",
+      "moses"
+    ],
+    "hebrews-11": [
+      "jesus",
+      "moses",
+      "abraham",
+      "sarah",
+      "rahab"
+    ],
+    "hebrews-12": [
+      "jesus",
+      "moses"
+    ],
+    "hebrews-13": [
+      "jesus",
+      "timothy"
+    ]
+  },
+  "people": {
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Son of God and great high priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13"
+      ],
+      "importance": "The writer says the Son purified us of our sins. Then he sat down at the right hand of God. He was made like his brothers and suffered. So he can help those who are tempted. He offered himself once for all. He entered the holy place by his blood. The readers are told to look to Jesus and hold fast.",
+      "connections": "The writer calls him the Apostle and High Priest of our confession. He is the Son over God’s house.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 13,
+        "example": [
+          2,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Servant faithful in all God’s house",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 3, 7, 8, 9, 10, 11, 12"
+      ],
+      "importance": "The writer says Moses was faithful as a servant in God’s house. Christ is faithful as a Son over it. Moses was warned to make the tabernacle by the pattern shown on the mountain. When grown, he refused to be called the son of Pharaoh’s daughter. He chose to share ill treatment with God’s people. He said he was terrified and trembling at the fearful sight.",
+      "connections": "The writer names his law and the pattern for the tabernacle. He also names Moses leading out of Egypt.",
+      "verseScope": {},
+      "linkNames": [
+        "Moses"
+      ],
+      "chapterIds": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3475",
+        "key": "Moses",
+        "checkedVerses": 11,
+        "example": [
+          3,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μωσεύς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Mōseús"
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Priest called by God",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 5, 7, 9"
+      ],
+      "importance": "The writer says no one takes priestly honor for himself. He is called by God, as Aaron was. Christ did not glorify himself either. Aaron’s rod that budded is kept in the ark. The writer asks why another priest was needed. This priest is not called after the order of Aaron.",
+      "connections": "The writer names the order of Aaron. He also names Aaron’s rod that budded.",
+      "verseScope": {},
+      "linkNames": [
+        "Aaron"
+      ],
+      "chapterIds": [
+        5,
+        7,
+        9
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2",
+        "key": "Aaron",
+        "checkedVerses": 3,
+        "example": [
+          5,
+          4
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀαρών",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Aarṓn"
+      }
+    },
+    "melchizedek": {
+      "name": "Melchizedek",
+      "role": "King of Salem and priest of God Most High",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 5, 6, 7"
+      ],
+      "importance": "He met Abraham on his return from the slaughter of the kings. He blessed Abraham, and Abraham gave him a tenth. The writer says he is without father or mother. He has neither beginning of days nor end of life. Scripture says Christ is a priest forever after his order.",
+      "connections": "He met Abraham and blessed him. Abraham gave him a tenth.",
+      "verseScope": {},
+      "linkNames": [
+        "Melchizedek"
+      ],
+      "chapterIds": [
+        5,
+        6,
+        7
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3198",
+        "key": "Melchizedek",
+        "checkedVerses": 9,
+        "example": [
+          5,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μελχισεδέκ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Melchisedék"
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Patriarch who received God’s promise",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 2, 6, 7, 11"
+      ],
+      "importance": "God swore to Abraham by himself, because no one was greater. Abraham went out when called, not knowing where he went. He gave Melchizedek a tenth. He offered up Isaac, his only born son. The writer says Christ helps the offspring of Abraham.",
+      "connections": "He met Melchizedek, gave him a tenth, and offered up Isaac.",
+      "verseScope": {},
+      "linkNames": [
+        "Abraham"
+      ],
+      "chapterIds": [
+        2,
+        6,
+        7,
+        11
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G11",
+        "key": "Abraham",
+        "checkedVerses": 10,
+        "example": [
+          2,
+          16
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀβραάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Abraám"
+      }
+    },
+    "sarah": {
+      "name": "Sarah",
+      "role": "Wife who bore a child past age",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 11"
+      ],
+      "importance": "The writer says Sarah received power to conceive by faith. She bore a child when she was past age. She counted him faithful who had promised.",
+      "connections": "The writer says she counted the one who promised as faithful.",
+      "verseScope": {},
+      "linkNames": [
+        "Sarah"
+      ],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4564",
+        "key": "Sarah",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σάῤῥα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sárrha"
+      }
+    },
+    "rahab": {
+      "name": "Rahab",
+      "role": "Prostitute who received the spies in peace",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 11"
+      ],
+      "importance": "The walls of Jericho fell. The writer says Rahab the prostitute did not perish with the disobedient. She had received the spies in peace. The writer lists her among those who acted by faith.",
+      "connections": "She did not perish with those who were disobedient.",
+      "verseScope": {},
+      "linkNames": [
+        "Rahab"
+      ],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4460",
+        "key": "Rahab",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          31
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ῥαάβ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Rhaáb"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Brother who has been freed",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hebrews 13"
+      ],
+      "importance": "In the closing notes, the writer says Timothy has been freed. If he comes soon, the writer will visit the readers with him. The letter says nothing more about him.",
+      "connections": "The writer calls him our brother. The writer hopes to see the readers with him.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        13
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 1,
+        "example": [
+          13,
+          23
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    }
+  }
+}

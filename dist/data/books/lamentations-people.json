@@ -1,0 +1,32 @@
+{
+  "featurePeople": {
+    "lamentations-1": [],
+    "lamentations-2": [],
+    "lamentations-3": [
+      "grieving-speaker"
+    ],
+    "lamentations-4": [],
+    "lamentations-5": []
+  },
+  "people": {
+    "grieving-speaker": {
+      "name": "The grieving man",
+      "role": "Unnamed speaker who describes affliction",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Lamentations 3:1–66"
+      ],
+      "importance": "He recalls mercy while continuing to describe pain and ask for justice.",
+      "connections": "His voice joins a shared prayer, then speaks again about his enemies.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3
+      ]
+    }
+  }
+}

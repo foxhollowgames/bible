@@ -16,7 +16,7 @@ const missing = [];
 const walk = folder => {
   for (const entry of readdirSync(folder, {withFileTypes:true})) {
     const path = join(folder, entry.name);
-    if (entry.isDirectory()) { if (path !== join(assets, 'trailer')) walk(path); continue; }
+    if (entry.isDirectory()) { if (path !== join(assets, 'share')) walk(path); continue; }
     if (!/\.(png|jpe?g)$/i.test(entry.name)) continue;
     masters++;
     missing.push(...copies(path).filter(copy => !existsSync(copy)));

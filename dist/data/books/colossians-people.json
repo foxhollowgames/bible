@@ -1,0 +1,267 @@
+{
+  "featurePeople": {
+    "colossians-1": [
+      "paul",
+      "jesus",
+      "timothy",
+      "epaphras"
+    ],
+    "colossians-2": [
+      "paul",
+      "jesus"
+    ],
+    "colossians-3": [
+      "jesus"
+    ],
+    "colossians-4": [
+      "paul",
+      "jesus",
+      "tychicus",
+      "epaphras",
+      "onesimus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer in chains who prays for the Colossians",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Colossians 1:1, 23–29; 2:1; 4:3, 18"
+      ],
+      "importance": "Paul gives thanks for the Colossians’ faith and love. He says he labors and suffers for them. He asks them to pray for him. He asks them to read this letter to the Laodiceans. He signs with his own hand and asks them to remember his chains.",
+      "connections": "He writes with Timothy. He sends Tychicus and Onesimus to tell the readers his news.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord, image of God, and head of the assembly",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Colossians 1–4"
+      ],
+      "importance": "Paul says all things were created by Jesus and through him. Paul says he is above thrones and powers. Paul says he reconciled the readers through his death. Paul then tells them to walk in him and to live as his people.",
+      "connections": "Paul calls him the Son and the head of the body, the assembly. Paul says all things were created by him.",
+      "verseScope": {
+        "4": [
+          3,
+          12
+        ]
+      },
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 24,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Brother named with Paul in the greeting",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Colossians 1:1"
+      ],
+      "importance": "Paul names Timothy as our brother in the first line. The letter says nothing else about him.",
+      "connections": "The letter names him beside Paul, before it greets the Colossians.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "tychicus": {
+      "name": "Tychicus",
+      "role": "Messenger Paul sends to tell his news",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Colossians 4:7–9"
+      ],
+      "importance": "Paul says Tychicus will make all his affairs known to the Colossians. Paul sends him to learn their circumstances. He is also to comfort their hearts. Onesimus goes with him.",
+      "connections": "Paul calls him a beloved brother, faithful servant, and fellow bondservant. He goes with Onesimus.",
+      "verseScope": {},
+      "linkNames": [
+        "Tychicus"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5190",
+        "key": "Tychicus",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          7
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τυχικός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Tychikós"
+      }
+    },
+    "epaphras": {
+      "name": "Epaphras",
+      "role": "Colossian who taught them and prays for them",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Colossians 1:7–8; 4:12–13"
+      ],
+      "importance": "Paul says the Colossians learned the Good News from Epaphras. He told Paul about their love. Paul says Epaphras always strives for them in prayer. He has great zeal for them and for Laodicea and Hierapolis.",
+      "connections": "Paul says Epaphras is one of them. He cares for those in Colossae, Laodicea, and Hierapolis.",
+      "verseScope": {},
+      "linkNames": [
+        "Epaphras"
+      ],
+      "chapterIds": [
+        1,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1889",
+        "key": "Epaphras",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          7
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἐπαφρᾶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Epaphrâs"
+      }
+    },
+    "onesimus": {
+      "name": "Onesimus",
+      "role": "Faithful brother sent with Tychicus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Colossians 4:9"
+      ],
+      "importance": "Paul calls Onesimus the faithful and beloved brother. He sends Onesimus with Tychicus. Together they will tell the Colossians everything that is going on.",
+      "connections": "Paul says he is one of you, the Colossians. He goes with Tychicus.",
+      "verseScope": {},
+      "linkNames": [
+        "Onesimus"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3682",
+        "key": "Onesimus",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ὀνήσιμος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Onḗsimos"
+      }
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "featurePeople": {
+    "jude-1": [
+      "jude-letter",
+      "jesus",
+      "moses",
+      "cain",
+      "balaam",
+      "korah",
+      "enoch",
+      "adam"
+    ]
+  },
+  "people": {
+    "jude-letter": {
+      "name": "Jude",
+      "role": "Writer who calls himself a servant of Jesus Christ",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "He plans to write about a shared salvation. He writes instead to urge his readers to defend the faith. He warns of men who crept in and denies their teaching. He ends with orders. Build yourselves up and pray. Show mercy to some, and snatch others from the fire.",
+      "connections": "He identifies himself as a servant of Jesus Christ and brother of James.",
+      "verseScope": {},
+      "linkNames": [
+        "Jude"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2455",
+        "key": "Jude",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰούδας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Ioúdas"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Master and Lord, source of mercy",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude says certain men deny him as the only Master and Lord. Readers are told to keep in God’s love and look for his mercy. That mercy leads to eternal life.",
+      "connections": "Jude identifies himself as his servant and warns against denying him.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Man whose body Michael and the devil argued over",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude says Michael argued with the devil about the body of Moses. Michael did not dare to curse the devil. He said, “May the Lord rebuke you!” Jude says the men he warns about speak evil of what they do not know.",
+      "connections": "Michael, the archangel, argued with the devil about his body.",
+      "verseScope": {},
+      "linkNames": [
+        "Moses"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3475",
+        "key": "Moses",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μωσεύς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Mōseús"
+      }
+    },
+    "cain": {
+      "name": "Cain",
+      "role": "Man whose way Jude warns against",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude says the men he warns about went in the way of Cain. Jude does not say here what Cain did. The warning ends in woe.",
+      "connections": "Jude places his way beside Balaam's error and Korah's rebellion.",
+      "verseScope": {},
+      "linkNames": [
+        "Cain"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2535",
+        "key": "Cain",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Κάϊν",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Káïn"
+      }
+    },
+    "balaam": {
+      "name": "Balaam",
+      "role": "Man whose error was done for hire",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude says the men he warns about ran in the error of Balaam for hire. The phrase “for hire” ties his error to payment. Jude gives no story of Balaam here.",
+      "connections": "Jude names him with Cain and Korah.",
+      "verseScope": {},
+      "linkNames": [
+        "Balaam"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G903",
+        "key": "Balaam",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαλαάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Balaám"
+      }
+    },
+    "korah": {
+      "name": "Korah",
+      "role": "Man whose rebellion ended in destruction",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude says the men he warns about perished in Korah’s rebellion. Jude gives no story of Korah here. The name shows that rebellion ends in ruin.",
+      "connections": "Jude names him with Cain and Balaam.",
+      "verseScope": {},
+      "linkNames": [
+        "Korah"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2879",
+        "key": "Korah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Κορέ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Koré"
+      }
+    },
+    "enoch": {
+      "name": "Enoch",
+      "role": "Seventh from Adam, who prophesied judgment",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude says Enoch prophesied about the men he warns about. Enoch said the Lord came with ten thousands of his holy ones. The Lord comes to judge all the ungodly for their works and words.",
+      "connections": "Jude calls him the seventh from Adam.",
+      "verseScope": {},
+      "linkNames": [
+        "Enoch"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1802",
+        "key": "Enoch",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          14
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἐνώχ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Enṓch"
+      }
+    },
+    "adam": {
+      "name": "Adam",
+      "role": "First man, named to place Enoch",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Jude 1"
+      ],
+      "importance": "Jude names Adam only once. He uses the name to say Enoch was the seventh from Adam. Jude tells no story about Adam.",
+      "connections": "Jude calls Enoch the seventh from Adam.",
+      "verseScope": {},
+      "linkNames": [
+        "Adam"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G76",
+        "key": "Adam",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          14
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀδάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Adám"
+      }
+    }
+  }
+}

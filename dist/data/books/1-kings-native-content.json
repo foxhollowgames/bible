@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "1-kings",
+    "name": "1 Kings",
+    "bibleCode": "1KI",
+    "chapterCount": 22,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

@@ -1,0 +1,244 @@
+{
+  "featurePeople": {
+    "philemon-1": [
+      "paul",
+      "timothy",
+      "jesus",
+      "philemon",
+      "onesimus",
+      "epaphras"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Prisoner who writes to Philemon about Onesimus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philemon 1"
+      ],
+      "importance": "Paul writes from chains and calls himself aged. He chooses to appeal and not to command. He asks Philemon to receive Onesimus as he would receive Paul. He offers to repay anything Onesimus owes, and he signs this with his own hand.",
+      "connections": "He names Timothy beside himself and asks Philemon to receive Onesimus as a partner.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Brother named with Paul in the greeting",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philemon 1"
+      ],
+      "importance": "Paul names Timothy as a brother in the first line. Timothy sends the greeting with Paul. The letter says nothing else about him.",
+      "connections": "Paul calls him a brother before addressing the household assembly.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord named in the greetings, the thanks, and the blessing",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philemon 1"
+      ],
+      "importance": "Paul gives thanks for Philemon’s faith toward the Lord Jesus. He asks that Onesimus be a beloved brother in the Lord. The letter ends with the grace of the Lord Jesus Christ.",
+      "connections": "Paul calls himself a prisoner of Christ Jesus. He ends with grace from the Lord Jesus Christ.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "philemon": {
+      "name": "Philemon",
+      "role": "Beloved fellow worker asked to receive Onesimus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philemon 1:1–22"
+      ],
+      "importance": "Paul thanks Philemon for his love and for refreshing the saints. Then Paul asks him to receive Onesimus as a beloved brother. Paul wants Philemon to act by free will. Paul also asks him to prepare a guest room.",
+      "connections": "Paul praises his love and asks him to receive Onesimus as Paul himself.",
+      "verseScope": {},
+      "linkNames": [
+        "Philemon"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5371",
+        "key": "Philemon",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Φιλήμων",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Philḗmōn"
+      }
+    },
+    "onesimus": {
+      "name": "Onesimus",
+      "role": "Paul’s child, sent back to Philemon",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philemon 1:10–21"
+      ],
+      "importance": "Paul became his father in chains. Paul calls him once useless and now useful. Paul sends him back to Philemon and asks Philemon to receive him as a brother. The letter does not say how Philemon answered.",
+      "connections": "Paul calls him his child and own heart, and offers to carry any debt.",
+      "verseScope": {},
+      "linkNames": [
+        "Onesimus"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3682",
+        "key": "Onesimus",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          10
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ὀνήσιμος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Onḗsimos"
+      }
+    },
+    "epaphras": {
+      "name": "Epaphras",
+      "role": "Fellow prisoner who sends greetings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philemon 1:23"
+      ],
+      "importance": "Paul calls Epaphras his fellow prisoner in Christ Jesus. Epaphras sends greetings to Philemon. The letter says nothing else about him.",
+      "connections": "Paul names him before Mark, Aristarchus, Demas, and Luke.",
+      "verseScope": {},
+      "linkNames": [
+        "Epaphras"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1889",
+        "key": "Epaphras",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          23
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἐπαφρᾶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Epaphrâs"
+      }
+    }
+  }
+}

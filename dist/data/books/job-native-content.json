@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "job",
+    "name": "Job",
+    "bibleCode": "JOB",
+    "chapterCount": 42,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

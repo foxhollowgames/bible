@@ -1,17 +1,27 @@
-const slug=new URLSearchParams(location.search).get('book')||'genesis';
+// Every book opens through this entry. The address names the book.
+// A book page names its book in data-book. The earlier address names it in the query.
+const slug=document.documentElement.dataset.book||new URLSearchParams(location.search).get('book');
+if(!slug)location.replace('./');
 const directory=await fetch('data/books/directory.json',{cache:'no-store'}).then(r=>r.json());
 const book=directory.find(b=>b.id===slug);
-if(slug==='isaiah')location.replace('./'+location.hash);
-else if(book?.status==='ready'){
-  document.title=`${book.name} Study Guide`;
-  document.querySelector('.brand').setAttribute('aria-label',`${book.name} Study Guide home`);
-  document.querySelector('.brand').href='books.html';
+if(book?.status==='ready'){
+  document.title=`${book.name} · Bible Wayfinder`;
   document.querySelector('#bookBrand').firstChild.textContent=book.name.toUpperCase();
+  document.querySelector('#bookBrand small').textContent='BIBLE WAYFINDER';
+  // Show the address that has this book's share tags.
+  if(!document.documentElement.dataset.book)history.replaceState(null,'',`${slug}.html${location.hash}`);
   // Earlier book links used view=map. Preserve these links after the renderer change.
   const hash=new URLSearchParams(location.hash.slice(1));
   if(!hash.has('study')&&hash.get('view')==='map'){hash.set('study','map');location.hash=hash.toString();}
-  await import(`./book-${slug}-app.js?v=20261011.1`);
-}else{
-  document.querySelector('#main').innerHTML=`<section class="word-view"><h1>${book?.name||'Book not found'}</h1><p>This study guide has not been built yet.</p><a href="books.html">Open the Bible directory</a></section>`;
+  // Isaiah first saved reader settings under its own keys. Keep those settings.
+  const storageKey=`${slug}-native-study-state`,earlierKeys={isaiah:['isaiah-study-guide-state','meridian-state']}[slug]||[];
+  try{
+    const earlier=earlierKeys.map(key=>localStorage.getItem(key)).find(Boolean);
+    if(earlier&&!localStorage.getItem(storageKey))localStorage.setItem(storageKey,earlier);
+  }catch{}
+  globalThis.studyBook={id:slug,name:book.name};
+  await import('./app.js?v=20261011.3');
+}else if(slug){
+  document.querySelector('#main').innerHTML=`<section class="word-view"><h1>${book?.name||'Book not found'}</h1><p>This guide has not been built yet.</p><a href="./">Open the Bible directory</a></section>`;
   document.querySelectorAll('.topbar button').forEach(b=>b.disabled=true);
 }

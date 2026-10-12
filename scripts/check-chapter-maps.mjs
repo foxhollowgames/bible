@@ -3,8 +3,8 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 import { chapterFocus, chapterRoutes, chapterPoints, movementStyles } from '../dist/chapter-map.js';
 import { addChapterGeography } from './chapter-geography.mjs';
-const data = JSON.parse(await readFile(new URL('../dist/data/content.json',import.meta.url)));
-const scripture = JSON.parse(await readFile(new URL('../dist/data/scripture.json',import.meta.url)));
+const data = JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-content.json',import.meta.url)));
+const scripture = JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-scripture.json',import.meta.url)));
 assert.deepEqual(data.chapterMaps.map(c => c.chapter),Array.from({length:66},(_,i)=>i+1));
 const sourceIds = new Set(data.sources.map(s=>s.id));
 for (const focus of data.chapterMaps) {
@@ -94,7 +94,8 @@ context.state.chapter=36;
 context.focusChapterMap();
 assert.deepEqual(calls[5].points,chapterPoints(data,36));
 const campaignStart = app.indexOf('function displayedCampaigns()'), campaignEnd = app.indexOf('function chapterPlaceVisible(',campaignStart);
-const campaignContext = vm.createContext({data,state:{layers:{history:false}},visibleAt:()=>true,focusedRoutes:()=>chapterRoutes(data,15)});
+const campaignContext = vm.createContext({data,book:data.book,state:{layers:{history:false}},visibleAt:()=>true,focusedRoutes:()=>chapterRoutes(data,15)});
+vm.runInContext(app.slice(app.indexOf('function datedMap()'),campaignStart),campaignContext);
 vm.runInContext(app.slice(campaignStart,campaignEnd),campaignContext);
 assert(campaignContext.displayedCampaigns().every(c=>c.chapterRoute),'An inherited timeline date must not add unrelated campaign paths');
 campaignContext.state.layers.history=true;
@@ -104,11 +105,12 @@ assert.equal(campaignContext.displayedCampaigns().length,0,'Isaiah 1 must not sh
 const featureContextStart = app.indexOf('function placeVerseInChapter(');
 const featureContextEnd = app.indexOf('function featureScriptureHtml(', featureContextStart);
 const featureContext = vm.createContext({
-  data, scripture, state:{chapter:44},
+  data, scripture, book:data.book, chapters:Array.from({length:data.book.chapterCount}, (_, i) => i + 1), state:{chapter:44},
   source:id=>data.sources.find(item=>item.id===id),
   mapDisplayName:name=>name.replace(/ · (?:approximate(?: regional influence)?|regional focus|uncertain site)$/i, ''),
   mapDisplayText:text=>text
 });
+vm.runInContext(app.slice(app.indexOf('function bookNamePattern('),app.indexOf('function readSaved(')),featureContext);
 vm.runInContext(app.slice(featureContextStart,featureContextEnd),featureContext);
 const libnah = data.places.find(place=>place.id==='libnah');
 let mapCard = featureContext.featureChapterContext(libnah);

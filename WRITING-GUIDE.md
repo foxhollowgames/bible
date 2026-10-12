@@ -1,4 +1,4 @@
-# Isaiah Study Guide writing guide
+# Bible Wayfinder writing guide
 
 Use plain English based on ASD-STE100 principles for app labels, instructions, messages, and original study notes. Use familiar words for a general reader. Explain necessary terms without reducing the passage's depth. This is a project writing guide, not a claim of full STE100 compliance.
 
@@ -107,7 +107,7 @@ Identify the speaker when describing a disputed claim. Keep uncertainty that cha
 
 Save book edits in source files or rebuild overlays before rebuilding reader data. Preserve scripture, source links, people links, map data, and publication status. Run `npm run check:bible` and the relevant book checks. Read the changed passages after rebuilding. Run `npm run check` and `node --check dist/app.js` when shared reader files change.
 
-Use Isaiah's existing information layout when adding books. Fix shared book builders rather than editing generated reader files alone.
+Every book uses the same information layout. Fix shared book builders rather than editing generated reader files alone.
 
 Do not place an AI illustration label or appearance disclaimer beneath each portrait. Keep the shared artwork note in the footer. Keep descriptive image alt text, original art metadata, and licensed artwork credits with their license links.
 
@@ -117,7 +117,7 @@ Use each book's publisher code and chapter filename format for scripture quotati
 
 Display structured source-review records as readable dates and scope notes. Do not show object placeholders such as `[object Object]`. Run `npm run check:bible` after rebuilding to check these presentation rules across all available books.
 
-Interface copy lives in `dist/index.html` and `dist/app.js`. Study content comes from `scripts/create-content.mjs`, `scripts/full-isaiah.mjs`, `scripts/come-follow-me.mjs`, and `scripts/prepare-words.py`. Update the source files, then rebuild `dist/data/content.json`. Run the content generator before the word-study generator, because the content generator starts with an empty word list.
+Interface copy lives in `dist/book.html`, `dist/index.html`, and `dist/app.js`. After a change to `dist/book.html`, run `python scripts/build-share.py`. It serves every book, so it must not name one book. Isaiah's study content comes from `scripts/create-content.mjs`, `scripts/full-isaiah.mjs`, `scripts/come-follow-me.mjs`, and `scripts/prepare-words.py`. Update the source files, then rebuild `dist/data/books/isaiah-native-content.json` and run `python scripts/build-isaiah.py`. Run the content generator before the word-study generator, because the content generator starts with an empty word list.
 
 Run `npm run check` and `node --check dist/app.js`. Check changed messages in both Map and Read views where applicable. These checks validate app data and behavior; they do not establish STE100 compliance.
 

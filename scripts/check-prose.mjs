@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 
-const data = JSON.parse(await readFile(new URL('../dist/data/content.json', import.meta.url)));
+const data = JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-content.json', import.meta.url)));
 const errors = [];
 const proseKeys = new Set([
   'summary', 'limitations', 'studyText', 'detail',

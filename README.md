@@ -1,24 +1,37 @@
-# Isaiah Study Guide â€” Isaiah Study Guide
+# Bible Wayfinder
 
-Isaiah Study Guide is a local, map-first study guide for all 66 chapters of Isaiah. It connects the World English Bible text with chapter summaries, selected historical settings, geography, language notes, and an optional faithful Latter-day Saint reading layer.
+Bible Wayfinder is a local, map-first study guide for all 66 books of the Bible. It connects the World English Bible text with chapter summaries, selected historical settings, geography, language notes, and an optional faithful Latter-day Saint reading layer.
 
-The public site is [isaiah.josephnewelldesign.com](https://isaiah.josephnewelldesign.com/). GitHub Pages publishes the contents of `dist` after each push to `main`.
+The public site is [isaiah.josephnewelldesign.com](https://isaiah.josephnewelldesign.com/). GitHub Pages publishes the contents of `dist` after each push to `main`. The address and the repository keep the name of the first book.
+
+## One reader for every book
+
+The home page is the book directory. Every book opens at `<id>.html`, such as `isaiah.html`.
+`scripts/build-share.py` writes these pages from the shell `dist/book.html`. Each page has its own share card and tags.
+`book.html?book=<id>` still opens a book.
+One reader serves every book: `dist/book.html`, `dist/native-book.js`, `dist/app.js`, and `dist/portraits.js`.
+Each book supplies four data files in `dist/data/books`. `DATA-CONTRACT.md` lists them and the settings a book can use.
+Earlier Isaiah links to the home address with a chapter still open Isaiah. Links to `books.html` open the directory.
 
 ## Run locally
 
-Node.js is required (already available on the build computer). No dependency installation is needed. Double-click **Start Isaiah Study Guide.cmd**, or run this from the project folder:
+Node.js is required (already available on the build computer). No dependency installation is needed. Double-click **Start Bible Wayfinder.cmd**, or run this from the project folder:
 
 ```text
 npm start
 ```
 
-Open [Isaiah Study Guide](http://127.0.0.1:4173). Keep the server window open while studying. Run `npm run check` to validate the local reading text, citation URL syntax and IDs, reference integrity, map coordinates, and curated word associations. This check does not verify external website availability or adjudicate scholarly claims.
+Open [Bible Wayfinder](http://127.0.0.1:4173). Keep the server window open while studying. Run `npm run check` and `npm run check:bible` to validate the reading text, citation URL syntax and IDs, reference integrity, map coordinates, and word associations. These checks do not verify external website availability or adjudicate scholarly claims.
+
+# Isaiah
+
+The sections from here to "Bible study directory" describe the Isaiah guide. Isaiah was the first book. It has a dated map timeline, curated word studies, and conference sources that the other books do not have yet.
 
 ## Study scope
 
 Open the hamburger menu in the upper right to select **Historical** or **LDS**. The menu also has **Use non-generated portraits**. This option uses local copies of public domain or freely licensed art for all 12 people. Each portrait has source and license links. If an image is missing or cannot load, a color tile shows the first letter of the person's name. Both settings are saved in this browser.
 
-Portrait credits and license records are in `dist/data/portrait-images.json`. The images are in `dist/assets/portraits/commons/`. To download these images again, run `python scripts/fetch-portrait-images.py`. Historical art does not establish actual appearance.
+Portrait credits and license records are in `scripts/isaiah-portrait-images.json`. `python scripts/build-isaiah.py` copies them to `dist/data/books/isaiah-art.json`. The images are in `dist/assets/portraits/commons/`. To download these images again, run `python scripts/fetch-portrait-images.py`. Historical art does not establish actual appearance.
 
 The guide includes all 1,292 verses of Isaiah, 70 passage notes, 1,310 word-study records, and six guided studies. Use the chapter selector above the reading text to reach any chapter. Previous and Next stop at chapters 1 and 66.
 
@@ -40,7 +53,7 @@ The wider story includes coalition attacks, the northern approach to Zion, Moabâ
 
 For Isaiah 15, red rings mark eight places of destruction or distress. Four orange branches connect a representative Moab origin with Zoar, Luhith, Horonaim, and the Brook of the Willows. These branches summarize separate textual references. They do not claim separate refugee groups, a sequence of stops, or starting towns. The attacker and military approach are unnamed, so the map does not invent a military warpath.
 
-To rebuild, run `node scripts/fetch-scripture.mjs` once to obtain missing publisher pages. Then run `python scripts/prepare-scripture.py`, `node scripts/create-content.mjs`, and `python scripts/prepare-words.py` in that order. The cached pages support later offline rebuilds. Chapter notes and new guides are maintained in `scripts/full-isaiah.mjs`.
+To rebuild, run `node scripts/fetch-scripture.mjs` once to obtain missing publisher pages. Then run `python scripts/prepare-scripture.py`, `node scripts/create-content.mjs`, `python scripts/prepare-words.py`, and `python scripts/build-isaiah.py` in that order. The cached pages support later offline rebuilds. Chapter notes and new guides are maintained in `scripts/full-isaiah.mjs`.
 
 Historical mode presents the shared historical evidence and its limits. LDS mode retains that material and adds separately labeled Church resources and faithful interpretation. The historical map uses approximate places, influence areas, and schematic routes where the evidence does not justify exact boundaries or reconstructed movements.
 
@@ -62,14 +75,14 @@ To rebuild the terrain, run `node scripts/fetch-detail.mjs` and `python scripts/
 
 Core reading, map data, imagery, Leaflet, and the app itself are stored locally, so ordinary study does not need an account or network connection. Source links open external readings when available.
 
-- The World English Bible text is public domain; its local source and reuse note are in `dist/data/scripture.json` and the `web` source record.
+- The World English Bible text is public domain; its local source and reuse note are in `dist/data/books/isaiah-native-scripture.json` and the `web` source record.
 - Land and lake base layers use Natural Earth geographic data, recorded as public domain in the `earth` source record.
 - The local terrain image is a modern elevation reference. Its provider attribution and interpretive limitation are recorded in `dist/data/relief.json`.
 - `dist/vendor/leaflet-LICENSE.txt` contains the bundled Leaflet license.
 - The reading landscape was generated for this project with OpenAI image generation. It is an interpretive illustration, not archaeological evidence or a documentary reconstruction of a particular site.
 - The six tooltip portraits are interpretive illustrations generated with OpenAI image generation. They use distinct poses, expressions, backgrounds, and viewing angles for recognition. Names and story labels distinguish Isaiah, Hezekiah, Sennacherib, Merodach-baladan, Nebuchadnezzar II, and Cyrus; they do not represent a complete succession of rulers at every timeline date. Assets and prompts are stored in `dist/assets/portraits/`.
 
-Every linked research source has its own attribution, reuse note, and limitations in `dist/data/content.json`. Public access to a source does not by itself grant redistribution rights.
+Every linked research source has its own attribution, reuse note, and limitations in `dist/data/books/isaiah-native-content.json`. Public access to a source does not by itself grant redistribution rights.
 
 ## Prism and harmony sources
 
@@ -91,8 +104,8 @@ Maintain chapter selections and source scope in `scripts/chapter-enrichment.mjs`
 
 ## Bible study directory
 
-The Bible directory is [Bible Study Guides](https://isaiah.josephnewelldesign.com/books.html).
-The original Isaiah URL remains unchanged. All 66 books have local ready guides covering 1,189 chapters.
+The Bible directory is the home page, [Bible Wayfinder](https://isaiah.josephnewelldesign.com/).
+All 66 books have ready guides covering 1,189 chapters. Isaiah is one of them.
 Genesis includes all 50 chapters and 1,533 verses. Exodus includes all 40 chapters and 1,213 verses.
 Leviticus includes all 27 chapters and 859 verses.
 Each has selected events and people, portraits, map journeys, meanings, and separate historical and LDS sources.

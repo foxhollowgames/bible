@@ -1,0 +1,627 @@
+{
+  "featurePeople": {
+    "john-1": [
+      "jesus",
+      "john-baptizer",
+      "peter"
+    ],
+    "john-2": [
+      "jesus",
+      "mary-mother"
+    ],
+    "john-3": [
+      "jesus",
+      "john-baptizer",
+      "nicodemus"
+    ],
+    "john-4": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "john-5": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "john-6": [
+      "jesus",
+      "peter"
+    ],
+    "john-7": [
+      "jesus",
+      "nicodemus"
+    ],
+    "john-8": [
+      "jesus"
+    ],
+    "john-9": [
+      "jesus"
+    ],
+    "john-10": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "john-11": [
+      "jesus",
+      "thomas",
+      "martha",
+      "mary-bethany",
+      "lazarus"
+    ],
+    "john-12": [
+      "jesus",
+      "martha",
+      "mary-bethany",
+      "lazarus"
+    ],
+    "john-13": [
+      "jesus",
+      "peter"
+    ],
+    "john-14": [
+      "jesus",
+      "thomas"
+    ],
+    "john-15": [
+      "jesus"
+    ],
+    "john-16": [
+      "jesus"
+    ],
+    "john-17": [
+      "jesus"
+    ],
+    "john-18": [
+      "jesus",
+      "peter"
+    ],
+    "john-19": [
+      "jesus",
+      "mary-mother",
+      "mary-magdalene",
+      "nicodemus"
+    ],
+    "john-20": [
+      "jesus",
+      "peter",
+      "mary-magdalene",
+      "thomas"
+    ],
+    "john-21": [
+      "jesus",
+      "peter",
+      "thomas"
+    ]
+  },
+  "people": {
+    "jesus": {
+      "name": "Jesus of Nazareth",
+      "role": "Person presented as the Word made flesh and the Son of God",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 1–21"
+      ],
+      "importance": "Signs and words lead toward his death, resurrection, and the task of testimony.",
+      "connections": "His mother and brothers appear in the account. The beloved disciple receives care for his mother.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 242,
+        "example": [
+          1,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "mary-mother": {
+      "name": "Mary, mother of Jesus",
+      "role": "Mother present at the wedding and cross",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 2:1–12; 19:25–27"
+      ],
+      "importance": "Her request at the wedding and presence at the cross connect need with continued care.",
+      "connections": "The account does not give her personal name. Jesus joins her care with the beloved disciple.",
+      "verseScope": {
+        "19": [
+          25,
+          26,
+          27
+        ]
+      },
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        19
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3137",
+        "key": "Mary",
+        "checkedVerses": 14,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μαρία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "María"
+      }
+    },
+    "john-baptizer": {
+      "name": "John the Baptizer",
+      "role": "Witness who directs his own followers toward Jesus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 1; 3:23–30; 4:1; 5:33–36; 10:40–41"
+      ],
+      "importance": "He refuses the Christ title and describes joy when Jesus increases.",
+      "connections": "His disciples question the growth of Jesus’ following.",
+      "verseScope": {
+        "1": [
+          6,
+          15,
+          19,
+          26,
+          28,
+          32,
+          35,
+          40
+        ],
+        "3": [
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "4": [
+          1
+        ],
+        "5": [
+          33,
+          36
+        ],
+        "10": [
+          40,
+          41
+        ]
+      },
+      "linkNames": [
+        "John"
+      ],
+      "chapterIds": [
+        1,
+        3,
+        4,
+        5,
+        10
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2491",
+        "key": "John",
+        "checkedVerses": 18,
+        "example": [
+          1,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰωάννης",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iōánnēs",
+        "languageNote": "This is the dictionary form of the name “John.”"
+      }
+    },
+    "peter": {
+      "name": "Simon Peter",
+      "role": "Disciple who confesses, resists washing, denies, and receives a renewed task",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 1; 6; 13; 18; 20–21"
+      ],
+      "importance": "Three questions about love connect his renewed following with feeding the flock.",
+      "connections": "Andrew is his brother. John names his father as Jonah.",
+      "verseScope": {
+        "1": [
+          40,
+          42,
+          44
+        ],
+        "6": [
+          8,
+          68
+        ],
+        "13": [
+          6,
+          8,
+          9,
+          24,
+          36,
+          37
+        ],
+        "18": [
+          10,
+          11,
+          15,
+          16,
+          17,
+          18,
+          25,
+          26,
+          27
+        ],
+        "20": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "21": [
+          2,
+          3,
+          7,
+          11,
+          15,
+          17,
+          20,
+          21
+        ]
+      },
+      "linkNames": [
+        "Peter",
+        "Simon Peter"
+      ],
+      "chapterIds": [
+        1,
+        6,
+        13,
+        18,
+        20,
+        21
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4074",
+        "key": "Peter",
+        "checkedVerses": 32,
+        "example": [
+          1,
+          40
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πέτρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Pétros",
+        "languageNote": "This is the dictionary form of the name “Peter.”"
+      }
+    },
+    "mary-magdalene": {
+      "name": "Mary Magdalene",
+      "role": "Witness at the cross who reports seeing the risen Jesus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 19:25; 20:1–18"
+      ],
+      "importance": "Hearing her name changes her mistaken recognition and leads to her testimony.",
+      "connections": "John distinguishes her from Jesus’ mother, Mary of Clopas, and Mary of Bethany.",
+      "verseScope": {
+        "19": [
+          25
+        ],
+        "20": [
+          1,
+          11,
+          16,
+          18
+        ]
+      },
+      "linkNames": [
+        "Mary Magdalene"
+      ],
+      "chapterIds": [
+        19,
+        20
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3137",
+        "key": "Mary",
+        "checkedVerses": 14,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μαρία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "María",
+        "languageNote": "This is the dictionary form of the name “Mary.”"
+      }
+    },
+    "nicodemus": {
+      "name": "Nicodemus",
+      "role": "Teacher and council member who visits Jesus at night",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 3; 7:50–52; 19:39"
+      ],
+      "importance": "His appearances move from questions toward a hearing request and public burial care.",
+      "connections": "He later requests a lawful hearing and brings spices for burial.",
+      "verseScope": {},
+      "linkNames": [
+        "Nicodemus"
+      ],
+      "chapterIds": [
+        3,
+        7,
+        19
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3530",
+        "key": "Nicodemus",
+        "checkedVerses": 5,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Νικόδημος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Nikódēmos"
+      }
+    },
+    "thomas": {
+      "name": "Thomas",
+      "role": "Disciple who asks questions and later confesses Jesus as Lord and God",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 11:16; 14:5; 20:24–29; 21:2"
+      ],
+      "importance": "His absence from one appearance makes another encounter address the problem of unseen testimony.",
+      "connections": "John also calls him Didymus. He joins the later fishing group.",
+      "verseScope": {},
+      "linkNames": [
+        "Thomas",
+        "Didymus"
+      ],
+      "chapterIds": [
+        11,
+        14,
+        20,
+        21
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2381",
+        "key": "Thomas",
+        "checkedVerses": 7,
+        "example": [
+          11,
+          16
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Θωμᾶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Thōmâs"
+      }
+    },
+    "martha": {
+      "name": "Martha of Bethany",
+      "role": "Woman who confesses Jesus as the Christ before Lazarus leaves the tomb",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 11; 12:2"
+      ],
+      "importance": "Her confession remains beside grief and a practical objection about the body after four days.",
+      "connections": "Mary is her sister, and Lazarus is her brother.",
+      "verseScope": {},
+      "linkNames": [
+        "Martha"
+      ],
+      "chapterIds": [
+        11,
+        12
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3136",
+        "key": "Martha",
+        "checkedVerses": 9,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μάρθα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Mártha",
+        "languageNote": "This is the dictionary form of the name “Martha.”"
+      }
+    },
+    "mary-bethany": {
+      "name": "Mary of Bethany",
+      "role": "Woman who mourns her brother and later anoints Jesus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 11–12"
+      ],
+      "importance": "Her tears and costly gift place grief and preparation for burial beside restored life.",
+      "connections": "Martha is her sister, and Lazarus is her brother. She is not Mary Magdalene.",
+      "verseScope": {
+        "11": [
+          1,
+          2,
+          19,
+          20,
+          28,
+          31,
+          32,
+          45
+        ],
+        "12": [
+          3
+        ]
+      },
+      "linkNames": [
+        "Mary"
+      ],
+      "chapterIds": [
+        11,
+        12
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3137",
+        "key": "Mary",
+        "checkedVerses": 14,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μαρία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "María",
+        "languageNote": "This is the dictionary form of the name “Mary.”"
+      }
+    },
+    "lazarus": {
+      "name": "Lazarus of Bethany",
+      "role": "Man whom Jesus calls from the tomb",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "John 11–12"
+      ],
+      "importance": "His restored life brings both belief and another plan for killing. He is not Luke’s story character.",
+      "connections": "Martha and Mary are his sisters. He later shares the meal at Bethany.",
+      "verseScope": {},
+      "linkNames": [
+        "Lazarus"
+      ],
+      "chapterIds": [
+        11,
+        12
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2976",
+        "key": "Lazarus",
+        "checkedVerses": 11,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Λάζαρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Lázaros",
+        "languageNote": "This is the dictionary form of the name “Lazarus.”"
+      }
+    }
+  }
+}

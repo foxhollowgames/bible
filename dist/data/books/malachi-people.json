@@ -1,0 +1,134 @@
+{
+  "featurePeople": {
+    "malachi-1": [
+      "malachi"
+    ],
+    "malachi-2": [
+      "malachi"
+    ],
+    "malachi-3": [
+      "malachi"
+    ],
+    "malachi-4": [
+      "malachi",
+      "moses",
+      "elijah"
+    ]
+  },
+  "people": {
+    "malachi": {
+      "name": "Malachi, the named messenger",
+      "role": "Messenger named at the opening of the book",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Malachi 1–4"
+      ],
+      "importance": "The repeated disputes connect rejected offerings with failures in teaching and treatment of others.",
+      "connections": "The book gives no family history or secure personal dates.",
+      "verseScope": {},
+      "linkNames": [
+        "Malachi"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4401",
+        "key": "Malachi",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "מַלְאָכִי",
+        "transliteration": "Malʼâkîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Earlier servant whose instruction the people must remember",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Malachi 4:4"
+      ],
+      "importance": "Remembered instruction connects preparation for the coming day with the people’s existing obligations.",
+      "connections": "The final chapter recalls the instruction given through him for Israel.",
+      "verseScope": {},
+      "linkNames": [
+        "Moses"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          4
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "elijah": {
+      "name": "Elijah",
+      "role": "Prophet promised before the coming day of the Lord",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Malachi 4:5–6"
+      ],
+      "importance": "His promised task concerns restored relationships before the warning’s final curse.",
+      "connections": "The closing promise connects his coming with changed hearts between parents and children.",
+      "verseScope": {},
+      "linkNames": [
+        "Elijah"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H452",
+        "key": "Elijah",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          5
+        ],
+        "hebrew": "אֵלִיָּה",
+        "transliteration": "ʼÊlîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

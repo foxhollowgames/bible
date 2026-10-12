@@ -1,0 +1,132 @@
+{
+  "featurePeople": {
+    "hosea-1": [
+      "hosea",
+      "gomer"
+    ],
+    "hosea-2": [
+      "hosea"
+    ],
+    "hosea-3": [
+      "hosea"
+    ],
+    "hosea-4": [
+      "hosea"
+    ],
+    "hosea-5": [
+      "hosea"
+    ],
+    "hosea-6": [
+      "hosea"
+    ],
+    "hosea-7": [
+      "hosea"
+    ],
+    "hosea-8": [
+      "hosea"
+    ],
+    "hosea-9": [
+      "hosea"
+    ],
+    "hosea-10": [
+      "hosea"
+    ],
+    "hosea-11": [
+      "hosea"
+    ],
+    "hosea-12": [
+      "hosea"
+    ],
+    "hosea-13": [
+      "hosea"
+    ],
+    "hosea-14": [
+      "hosea"
+    ]
+  },
+  "people": {
+    "hosea": {
+      "name": "Hosea",
+      "role": "Prophet whose family life pictures Israel’s broken faith",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hosea 1–14"
+      ],
+      "importance": "The LORD tells Hosea to take a wife and name three children. Hosea marries Gomer and gives the children the names he is told. Later he buys a woman for fifteen pieces of silver and barley. His speeches then charge Israel and call it to return.",
+      "connections": "He is Beeri’s son and Gomer’s husband.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1954",
+        "key": "Hosea",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "הוֹשֵׁעַ",
+        "transliteration": "Hôwshêaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gomer": {
+      "name": "Gomer",
+      "role": "Woman named as Hosea’s wife",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Hosea 1:3–9"
+      ],
+      "importance": "Hosea takes her as his wife. She bears Jezreel, Lo-Ruhamah, and Lo-Ammi. The LORD gives each child a name. The text gives her no speech and no reasons. It does not name the woman Hosea buys in chapter 3.",
+      "connections": "She is Diblaim’s daughter and Hosea’s wife. She bears a son, a daughter, and another son.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1586",
+        "key": "Gomer",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "גֹּמֶר",
+        "transliteration": "Gômer",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

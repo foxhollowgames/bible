@@ -1,0 +1,229 @@
+{
+  "featurePeople": {
+    "2-timothy-1": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "2-timothy-2": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "2-timothy-3": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "2-timothy-4": [
+      "paul",
+      "timothy",
+      "jesus",
+      "titus",
+      "tychicus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer in chains who asks Timothy to come soon",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Timothy 1–4"
+      ],
+      "importance": "Paul writes in chains and tells Timothy not to be ashamed. He says his time of departure has come. He lists who left him and who stayed. He asks Timothy to come before winter. He asks for his cloak, the books, and Mark.",
+      "connections": "He calls Timothy his beloved child. He asks Timothy to bring Mark, a cloak, and the books.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Paul’s beloved child, told to preach and endure",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Timothy 1–4"
+      ],
+      "importance": "Paul remembers Timothy’s tears and his family’s faith. He tells Timothy to guard sound teaching and to endure hardship. He tells him to preach the word and to correct others gently. Paul asks him to come soon.",
+      "connections": "Paul calls him his beloved child. His grandmother Lois and mother Eunice had sincere faith.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord who will judge, and who stood by Paul",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Timothy 1–4"
+      ],
+      "importance": "Paul tells Timothy to remember Jesus Christ, risen from the dead. Paul says the Lord will judge the living and the dead. Paul says the Lord stood by him at his first defense. Paul expects the Lord to deliver him into his heavenly Kingdom.",
+      "connections": "Paul calls him our Lord and Savior. Paul says he is risen and of David’s offspring.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 13,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "titus": {
+      "name": "Titus",
+      "role": "Worker who has gone to Dalmatia",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Timothy 4:10"
+      ],
+      "importance": "Paul says Titus went to Dalmatia. The verse gives no reason and no task. It is one of three departures Paul lists as he asks Timothy to come.",
+      "connections": "Paul names him with Demas, who went to Thessalonica, and Crescens, who went to Galatia.",
+      "verseScope": {},
+      "linkNames": [
+        "Titus"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5103",
+        "key": "Titus",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          10
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τίτος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Títos"
+      }
+    },
+    "tychicus": {
+      "name": "Tychicus",
+      "role": "Worker Paul sent to Ephesus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Timothy 4:12"
+      ],
+      "importance": "Paul says he sent Tychicus to Ephesus. The letter gives no reason. The note comes between the request to bring Mark and the request for the cloak.",
+      "connections": "Paul names him just after asking Timothy to bring Mark.",
+      "verseScope": {},
+      "linkNames": [
+        "Tychicus"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5190",
+        "key": "Tychicus",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τυχικός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Tychikós"
+      }
+    }
+  }
+}

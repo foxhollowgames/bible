@@ -1,0 +1,273 @@
+{
+  "featurePeople": {
+    "ecclesiastes-1": [
+      "preacher-ecclesiastes",
+      "david"
+    ],
+    "ecclesiastes-2": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-3": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-4": [
+      "preacher-ecclesiastes",
+      "solitary-worker-ecclesiastes",
+      "young-king-ecclesiastes",
+      "old-king-ecclesiastes"
+    ],
+    "ecclesiastes-5": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-6": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-7": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-8": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-9": [
+      "preacher-ecclesiastes",
+      "poor-rescuer-ecclesiastes",
+      "attacking-king-ecclesiastes",
+      "beloved-wife-ecclesiastes"
+    ],
+    "ecclesiastes-10": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-11": [
+      "preacher-ecclesiastes"
+    ],
+    "ecclesiastes-12": [
+      "preacher-ecclesiastes",
+      "closing-writer-ecclesiastes"
+    ]
+  },
+  "people": {
+    "preacher-ecclesiastes": {
+      "name": "The Preacher",
+      "role": "Main speaker who examines work, pleasure, and death",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 1:1, 12; 2; 3; 12:8–10"
+      ],
+      "importance": "His questions test whether effort, wealth, and wisdom can secure lasting gain.",
+      "connections": "The opening presents him as David’s son and a king in Jerusalem.",
+      "verseScope": {},
+      "linkNames": [
+        "Preacher"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "david": {
+      "name": "David",
+      "role": "Father named in the opening description",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 1:1"
+      ],
+      "importance": "The family description gives the speaker a royal setting.",
+      "connections": "The title identifies the Preacher as his son. It does not name Solomon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1732",
+        "key": "David",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "דָּוִד",
+        "transliteration": "Dâvid",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "closing-writer-ecclesiastes": {
+      "name": "The closing writer",
+      "role": "Voice that describes the Preacher’s teaching",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 12:9–14"
+      ],
+      "importance": "His advice closes the book with responsibility for actions.",
+      "connections": "He praises the Preacher’s careful words and urges obedience to God.",
+      "verseScope": {},
+      "linkNames": [
+        "closing writer"
+      ],
+      "chapterIds": [
+        12
+      ]
+    },
+    "solitary-worker-ecclesiastes": {
+      "name": "The solitary worker",
+      "role": "Worker with no son or brother",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 4:8"
+      ],
+      "importance": "His question shows how gathering wealth can replace enjoyment and companionship.",
+      "connections": "He keeps working and seeking wealth without asking whom the work serves.",
+      "verseScope": {
+        "4": [
+          8
+        ]
+      },
+      "linkNames": [
+        "solitary worker",
+        "one who is alone"
+      ],
+      "chapterIds": [
+        4
+      ]
+    },
+    "young-king-ecclesiastes": {
+      "name": "The wise youth",
+      "role": "Poor young man in the example of changing rulers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 4:13–16"
+      ],
+      "importance": "His success still cannot secure the praise of later generations.",
+      "connections": "The account describes him leaving prison and gaining rule.",
+      "verseScope": {
+        "4": [
+          13
+        ]
+      },
+      "linkNames": [
+        "wise youth"
+      ],
+      "chapterIds": [
+        4
+      ]
+    },
+    "old-king-ecclesiastes": {
+      "name": "The old king",
+      "role": "Ruler who refuses further advice",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 4:13"
+      ],
+      "importance": "Refusing to listen makes his age and rank poor guides to wisdom.",
+      "connections": "The Preacher compares him unfavorably with a poor, wise youth.",
+      "verseScope": {
+        "4": [
+          13
+        ]
+      },
+      "linkNames": [
+        "old and foolish king"
+      ],
+      "chapterIds": [
+        4
+      ]
+    },
+    "poor-rescuer-ecclesiastes": {
+      "name": "The poor rescuer",
+      "role": "Wise man who saves a small city",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 9:14–16"
+      ],
+      "importance": "Poverty can cause people to ignore advice that already helped them.",
+      "connections": "The people forget him after his wisdom delivers their city.",
+      "verseScope": {
+        "9": [
+          15
+        ]
+      },
+      "linkNames": [
+        "poor wise man"
+      ],
+      "chapterIds": [
+        9
+      ]
+    },
+    "attacking-king-ecclesiastes": {
+      "name": "The attacking king",
+      "role": "Ruler who surrounds a small city",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 9:14–15"
+      ],
+      "importance": "The example compares armed strength with advice from a person of little status.",
+      "connections": "He builds defenses for his attack, but a poor man’s wisdom saves the city.",
+      "verseScope": {
+        "9": [
+          14
+        ]
+      },
+      "linkNames": [
+        "great king"
+      ],
+      "chapterIds": [
+        9
+      ]
+    },
+    "beloved-wife-ecclesiastes": {
+      "name": "The beloved wife",
+      "role": "Partner in the Preacher’s advice about enjoying life",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ecclesiastes 9:9"
+      ],
+      "importance": "Shared life appears among gifts that people can enjoy during their short lives.",
+      "connections": "He urges a listener to live joyfully with the wife he loves.",
+      "verseScope": {
+        "9": [
+          9
+        ]
+      },
+      "linkNames": [
+        "wife"
+      ],
+      "chapterIds": [
+        9
+      ]
+    }
+  }
+}

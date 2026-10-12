@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 const root = new URL('../',import.meta.url);
 const regions = JSON.parse(await readFile(new URL('scripts/terrain-regions.json',root)));
 const relief = JSON.parse(await readFile(new URL('dist/data/relief.json',root)));
-const content = JSON.parse(await readFile(new URL('dist/data/content.json',root)));
+const content = JSON.parse(await readFile(new URL('dist/data/books/isaiah-native-content.json',root)));
 const latitude = (y,z) => Math.atan(Math.sinh(Math.PI*(1-2*y/2**z)))*180/Math.PI;
 let count=0;
 assert.equal(relief.closeDetail?.length,regions.length,'Every terrain region needs a map layer');

@@ -3,9 +3,9 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 
 const app = await readFile(new URL('../dist/app.js', import.meta.url), 'utf8');
-const data = JSON.parse(await readFile(new URL('../dist/data/content.json', import.meta.url), 'utf8'));
+const data = JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-content.json', import.meta.url), 'utf8'));
 const context = vm.createContext({
-  data, scripture: JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')), state: {chapter:36, perspective:'historical'},
+  data, book: data.book, chapters: Array.from({length:data.book.chapterCount}, (_, i) => i + 1), scripture: JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-scripture.json', import.meta.url), 'utf8')), state: {chapter:36, perspective:'historical'},
   source: id => data.sources.find(s => s.id === id),
   esc: value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;'),
   linkedEntityHtml: value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;'),
@@ -13,6 +13,7 @@ const context = vm.createContext({
   sourceImageHtml: image => image ? `<img src="${image.src}">` : ''
 });
 for (const [start, end] of [
+  ['function bookNamePattern(', 'function readSaved('],
   ['function passageFootnotes(', '// Render outside'],
   ['function mapDisplayText(', 'function sourceMediaHtml('],
   ['function sourceMediaHtml(', 'function openFeature('],

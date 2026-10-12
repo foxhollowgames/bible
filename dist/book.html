@@ -2,21 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Study all 66 chapters of Isaiah through scripture, historical context, geography, language notes, and an optional Latter-day Saint reading layer.">
   <meta name="theme-color" content="#04192d"><meta name="color-scheme" content="dark">
-  <title>Bible Study Guide</title>
+  <!-- share -->
+  <meta name="description" content="Map-first study guides for all 66 books of the Bible.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bible Wayfinder">
+  <meta property="og:title" content="Bible Wayfinder">
+  <meta property="og:description" content="Map-first study guides for all 66 books of the Bible.">
+  <meta property="og:url" content="https://isaiah.josephnewelldesign.com/">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://isaiah.josephnewelldesign.com/assets/share/site.jpg">
+  <meta property="og:image:secure_url" content="https://isaiah.josephnewelldesign.com/assets/share/site.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Bible Wayfinder. Map-first study guides for all 66 books of the Bible.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bible Wayfinder">
+  <meta name="twitter:description" content="Map-first study guides for all 66 books of the Bible.">
+  <meta name="twitter:image" content="https://isaiah.josephnewelldesign.com/assets/share/site.jpg">
+  <meta name="twitter:image:alt" content="Bible Wayfinder. Map-first study guides for all 66 books of the Bible.">
+  <link rel="canonical" href="https://isaiah.josephnewelldesign.com/">
+  <!-- /share -->
+  <title>Bible Wayfinder</title>
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
   <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
-  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261011.1">
+  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261011.3">
   <link rel="preload" as="image" type="image/webp" href="assets/relief.webp">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to study content</a>
   <div class="app-shell" id="app">
     <header class="topbar">
-      <a class="brand" href="#" aria-label="Isaiah Study Guide home"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b id="bookBrand">BIBLE<small>STUDY GUIDE</small></b></a>
-      <a class="bible-directory-link" href="books.html">Bible books</a>
+      <a class="brand" href="./" aria-label="Bible Wayfinder home"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b id="bookBrand">BIBLE<small>WAYFINDER</small></b></a>
+      <a class="bible-directory-link" href="./">Bible books</a>
       <div class="settings-menu" id="settingsMenu">
         <button id="settingsButton" class="settings-button" aria-label="Open menu" aria-expanded="false" aria-controls="settingsPanel"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
         <section id="settingsPanel" class="settings-panel" aria-labelledby="settingsHeading" hidden>
@@ -43,7 +63,7 @@
             <div class="map-labels" aria-hidden="true"><span class="map-label label-sea">Mediterranean<br>Sea</span></div>
           </div>
           <!-- Map mode uses the timeline instead of the scripture panel. -->
-          <section class="timeline" aria-label="Historical timeline" hidden><div class="timeline-header"><div class="timeline-date"><span id="timelineChapter" class="eyebrow"></span><output id="dateLabel" for="timelineRange" aria-describedby="timelineChapter"></output></div><button class="text-button hidden" id="returnPassage">Return to passage</button></div><input id="timelineRange" type="range" min="-780" max="-539" step="1" aria-label="Historical date"><div class="periods" id="periods"></div><div id="timelineTooltip" class="timeline-tooltip" role="tooltip" hidden></div></section>
+          <section class="timeline" aria-label="Historical timeline" hidden><div class="timeline-header"><div class="timeline-date"><span id="timelineChapter" class="eyebrow"></span><output id="dateLabel" for="timelineRange" aria-describedby="timelineChapter"></output></div><button class="text-button hidden" id="returnPassage">Return to passage</button></div><input id="timelineRange" type="range" min="1" max="1" step="1" aria-label="Historical date"><div class="periods" id="periods"></div><div id="timelineTooltip" class="timeline-tooltip" role="tooltip" hidden></div></section>
         </section>
       </section>
     </main>
@@ -53,10 +73,10 @@
     <dialog id="sourceDialog" aria-labelledby="sourceDialogTitle"><button class="dialog-close" aria-label="Close source details">×</button><div id="sourceContent"></div></dialog>
   </div>
   <section id="localLaunchHelp" hidden style="max-width:620px;margin:12vh auto;padding:28px;line-height:1.6">
-    <h1>Open Isaiah Study Guide through its local server</h1>
+    <h1>Open Bible Wayfinder through its local server</h1>
     <p>The map will not work if you open this file by itself.</p>
-    <p>Open the Isaiah Study Guide folder. Double-click <strong>Start Isaiah Study Guide.cmd</strong>. Keep that window open while you study.</p>
-    <p><a href="http://127.0.0.1:4173/" style="color:#92e5ff">Open Isaiah Study Guide</a></p>
+    <p>Open the Bible Wayfinder folder. Double-click <strong>Start Bible Wayfinder.cmd</strong>. Keep that window open while you study.</p>
+    <p><a href="http://127.0.0.1:4173/" style="color:#92e5ff">Open Bible Wayfinder</a></p>
     <p>If the server is already running, use the link above.</p>
   </section>
   <script src="vendor/leaflet.js"></script>
@@ -67,7 +87,7 @@
     } else {
       const appScript = document.createElement('script');
       appScript.type = 'module';
-      appScript.src = 'native-book.js?v=20261011.1';
+      appScript.src = 'native-book.js?v=20261011.3';
       document.body.append(appScript);
     }
   </script>

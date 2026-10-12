@@ -190,7 +190,7 @@ def enrich_context(book):
     if len(actual)!=len(expected) or set(actual)!=expected:
         raise ValueError(f'{slug}: context must cover every chapter exactly once')
     records={s['id']:s for s in json.loads((ROOT/'scripts/study-objects.json').read_text(encoding='utf8'))}
-    isaiah={s['id']:s for s in json.loads((ROOT/'dist/data/content.json').read_text(encoding='utf8'))['sources']}
+    isaiah={s['id']:s for s in json.loads((ROOT/'dist/data/books/isaiah-native-content.json').read_text(encoding='utf8'))['sources']}
     image_chapters={}
     for row in notes:
         for object_id in row[4:]:image_chapters.setdefault(object_id,[]).append(row[0])

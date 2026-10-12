@@ -30,16 +30,17 @@ for (const [id, article, revision, summary] of config.wikipedia) { assert(/^\d+$
 
 let books = 0, regions = 0, roads = 0, areas = 0;
 for (const entry of directory) {
-  if (entry.status !== 'ready' || entry.id === 'isaiah') continue;
+  if (entry.status !== 'ready') continue;
   const data = await read(`../dist/data/books/${entry.id}-native-content.json`);
+  // A book with a date timeline has its own map checks: check-chapter-maps.mjs.
+  if (data.book.timeline) continue;
   const scripture = await read(`../dist/data/books/${entry.id}-native-scripture.json`);
-  const app = await readFile(new URL(`../dist/book-${entry.id}-app.js`, import.meta.url), 'utf8');
   const sources = new Map(data.sources.map(source => [source.id, source]));
   assert.equal(sources.size, data.sources.length, `${entry.id}: duplicate source id`);
   const chapters = new Set(data.chapterMaps.map(item => item.chapter));
   const cfg = config.books[entry.id] || {};
   const label = `${entry.id}`;
-  assert(app.includes('region.chapterCoverage.includes(state.chapter)'), `${label}: nations must follow the open chapter`);
+  assert(!data.book.timeline && data.regions.every(region => region.chapterCoverage), `${label}: nations must follow the open chapter`);
   assert.equal(new Set(data.regions.map(r => r.id)).size, data.regions.length, `${label}: duplicate region id`);
   assert.equal(!!data.regions.length, !!cfg.nations, `${label}: nations must match the map file`);
   assert.equal(!!data.ancientRoads.length, !!cfg.roads, `${label}: roads must match the map file`);

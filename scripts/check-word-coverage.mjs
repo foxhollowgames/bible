@@ -4,8 +4,8 @@ import vm from 'node:vm';
 
 const read = path => readFile(new URL(path, import.meta.url), 'utf8');
 const [app, content, scripture, hebrew] = await Promise.all([
-  read('../dist/app.js'), read('../dist/data/content.json').then(JSON.parse),
-  read('../dist/data/scripture.json').then(JSON.parse), read('Isa.xml'),
+  read('../dist/app.js'), read('../dist/data/books/isaiah-native-content.json').then(JSON.parse),
+  read('../dist/data/books/isaiah-native-scripture.json').then(JSON.parse), read('Isa.xml'),
 ]);
 const context = vm.createContext({data:content, state:{chapter:7}, esc:s=>s});
 vm.runInContext(app.slice(app.indexOf('function eligibleWords('), app.indexOf('async function load(')), context);

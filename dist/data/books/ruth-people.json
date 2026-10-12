@@ -1,0 +1,832 @@
+{
+  "featurePeople": {
+    "ruth-1": [
+      "elimelech",
+      "naomi",
+      "mahlon",
+      "chilion",
+      "ruth",
+      "orpah"
+    ],
+    "ruth-1-journey": [
+      "elimelech",
+      "naomi",
+      "mahlon",
+      "chilion",
+      "ruth",
+      "orpah"
+    ],
+    "ruth-2": [
+      "ruth",
+      "naomi",
+      "boaz",
+      "harvest-supervisor",
+      "elimelech"
+    ],
+    "ruth-3": [
+      "ruth",
+      "naomi",
+      "boaz",
+      "nearer-redeemer"
+    ],
+    "ruth-4": [
+      "ruth",
+      "naomi",
+      "boaz",
+      "nearer-redeemer",
+      "obed",
+      "jesse",
+      "david",
+      "rachel",
+      "leah",
+      "tamar",
+      "judah",
+      "perez",
+      "hezron",
+      "ram",
+      "amminadab",
+      "nahshon",
+      "salmon",
+      "mahlon",
+      "chilion",
+      "elimelech"
+    ]
+  },
+  "people": {
+    "elimelech": {
+      "name": "Elimelech",
+      "role": "Naomi’s husband",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region"
+      ],
+      "passages": [
+        "Ruth 1; 4"
+      ],
+      "importance": "He leaves Bethlehem in a famine and takes his family to Moab. He dies there. In chapter 4 Boaz buys the land that was his.",
+      "connections": "Husband of Naomi. Father of Mahlon and Chilion.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H458",
+        "key": "Elimelech",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "אֱלִימֶלֶךְ",
+        "transliteration": "ʼĔlîymelek",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "naomi": {
+      "name": "Naomi",
+      "role": "Widow who returns to Bethlehem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region",
+        "Bethlehem"
+      ],
+      "passages": [
+        "Ruth 1–4"
+      ],
+      "importance": "She loses her husband and both sons in Moab. She returns to Bethlehem and calls herself Mara, meaning bitter. She sends Ruth to Boaz at the threshing floor. At the end she nurses Ruth’s son Obed.",
+      "connections": "Wife of Elimelech. Mother of Mahlon and Chilion. Mother-in-law of Ruth and Orpah.",
+      "verseScope": {},
+      "linkNames": [
+        "Mara"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5281",
+        "key": "Naomi",
+        "checkedVerses": 20,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "נׇעֳמִי",
+        "transliteration": "Noʻŏmîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mahlon": {
+      "name": "Mahlon",
+      "role": "Naomi’s son and Ruth’s first husband",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region"
+      ],
+      "passages": [
+        "Ruth 1; 4"
+      ],
+      "importance": "He moves to Moab with his parents and marries there. He dies with no child named. Boaz later marries Ruth to keep Mahlon’s name on his land.",
+      "connections": "Son of Elimelech and Naomi. Brother of Chilion. Ruth 4:10 names Ruth as his wife.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4248",
+        "key": "Mahlon",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "מַחְלוֹן",
+        "transliteration": "Machlôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "chilion": {
+      "name": "Chilion",
+      "role": "Naomi’s son who dies in Moab",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region"
+      ],
+      "passages": [
+        "Ruth 1; 4"
+      ],
+      "importance": "He moves to Moab with his parents and marries there. He dies with no child named. Ruth was Mahlon’s wife, so Chilion’s wife was Orpah. In chapter 4 Boaz buys what was his.",
+      "connections": "Son of Elimelech and Naomi. Brother of Mahlon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3630",
+        "key": "Chilion",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "כִּלְיוֹן",
+        "transliteration": "Kilyôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ruth": {
+      "name": "Ruth",
+      "role": "Moabite widow, worker, and mother of Obed",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region",
+        "Bethlehem"
+      ],
+      "passages": [
+        "Ruth 1–4"
+      ],
+      "importance": "She stays with Naomi and goes with her to Bethlehem. She picks up leftover grain in Boaz’s field to feed them both. At the threshing floor she asks Boaz to act as her near relative. She marries him and bears Obed.",
+      "connections": "Daughter-in-law of Naomi. Wife of Mahlon, then Boaz.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7327",
+        "key": "Ruth",
+        "checkedVerses": 12,
+        "example": [
+          1,
+          4
+        ],
+        "hebrew": "רוּת",
+        "transliteration": "Rûwth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "orpah": {
+      "name": "Orpah",
+      "role": "Widowed daughter-in-law who returns home",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region"
+      ],
+      "passages": [
+        "Ruth 1"
+      ],
+      "importance": "She sets out for Judah with Naomi and Ruth. Naomi tells her twice to go back. She weeps, kisses Naomi, and returns to her people in Moab.",
+      "connections": "Daughter-in-law of Naomi. Sister-in-law of Ruth.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6204",
+        "key": "Orpah",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          4
+        ],
+        "hebrew": "עׇרְפָּה",
+        "transliteration": "ʻOrpâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "boaz": {
+      "name": "Boaz",
+      "role": "Relative of Elimelech who marries Ruth",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem"
+      ],
+      "passages": [
+        "Ruth 2–4"
+      ],
+      "importance": "He lets Ruth gather grain in his field and keeps her safe. At the threshing floor he promises to help her. At the gate he buys Elimelech’s land before ten elders. He marries Ruth, and Obed is born.",
+      "connections": "From Elimelech’s family. Husband of Ruth and father of Obed.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1162",
+        "key": "Boaz",
+        "checkedVerses": 18,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "בֹּעַז",
+        "transliteration": "Bôʻaz",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "harvest-supervisor": {
+      "name": "The harvest supervisor",
+      "role": "Unnamed servant set over Boaz’s reapers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem"
+      ],
+      "passages": [
+        "Ruth 2:5–7"
+      ],
+      "importance": "Boaz asks him who the young woman is. He says she is the Moabite who came back with Naomi. He says she asked to gather grain and has worked since morning.",
+      "connections": "Servant of Boaz. He answers Boaz’s question about Ruth.",
+      "verseScope": {},
+      "linkNames": [
+        "servant who was set over the reapers"
+      ],
+      "chapterIds": [
+        2
+      ]
+    },
+    "nearer-redeemer": {
+      "name": "The nearer relative",
+      "role": "Unnamed closer relative who gives up his right",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem"
+      ],
+      "passages": [
+        "Ruth 3:12–13; 4:1–8"
+      ],
+      "importance": "Boaz stops him at the gate and offers him Elimelech’s land. He says he will buy it back. Boaz says the duty also includes Ruth. He gives up his right and takes off his sandal.",
+      "connections": "A closer relative of Elimelech than Boaz.",
+      "verseScope": {},
+      "linkNames": [
+        "nearer kinsman"
+      ],
+      "chapterIds": [
+        3,
+        4
+      ]
+    },
+    "obed": {
+      "name": "Obed",
+      "role": "Child born to Ruth and Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem"
+      ],
+      "passages": [
+        "Ruth 4:13–22"
+      ],
+      "importance": "He is born after Boaz marries Ruth. Naomi takes him and nurses him. The neighbor women name him Obed.",
+      "connections": "Son of Boaz and Ruth. Father of Jesse and grandfather of David.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5744",
+        "key": "Obed",
+        "checkedVerses": 3,
+        "example": [
+          4,
+          17
+        ],
+        "hebrew": "עוֹבֵד",
+        "transliteration": "ʻÔwbêd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jesse": {
+      "name": "Jesse",
+      "role": "Father of David",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:17,22"
+      ],
+      "importance": "Jesse does nothing in this book. Ruth 4:17 and 4:22 name him as Obed’s son and David’s father.",
+      "connections": "Son of Obed. Father of David.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3448",
+        "key": "Jesse",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          17
+        ],
+        "hebrew": "יִשַׁי",
+        "transliteration": "Yishay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "david": {
+      "name": "David",
+      "role": "Later king descended from Ruth and Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:17,22"
+      ],
+      "importance": "David does nothing in this book. His name ends the family list in Ruth 4:22. The list runs from Perez through Boaz and Obed to him.",
+      "connections": "Son of Jesse. Grandson of Obed.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1732",
+        "key": "David",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          17
+        ],
+        "hebrew": "דָּוִד",
+        "transliteration": "Dâvid",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "perez": {
+      "name": "Perez",
+      "role": "Ancestor of Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:12,18"
+      ],
+      "importance": "The people at the gate ask that Boaz’s house be like Perez’s house. The closing family list starts with Perez. It names him as Hezron’s father.",
+      "connections": "Son of Judah and Tamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6557",
+        "key": "Perez",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          12
+        ],
+        "hebrew": "פֶּרֶץ",
+        "transliteration": "Perets",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hezron": {
+      "name": "Hezron",
+      "role": "Son of Perez and ancestor of Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:18–19"
+      ],
+      "importance": "Hezron does nothing in this book. The closing list names him as Perez’s son and Ram’s father.",
+      "connections": "Son of Perez. Father of Ram.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2696",
+        "key": "Hezron",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          18
+        ],
+        "hebrew": "חֶצְרוֹן",
+        "transliteration": "Chetsrôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ram": {
+      "name": "Ram",
+      "role": "Son of Hezron and ancestor of Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:19"
+      ],
+      "importance": "Ram does nothing in this book. The closing list names him as Hezron’s son and Amminadab’s father.",
+      "connections": "Son of Hezron. Father of Amminadab.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7410",
+        "key": "Ram",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          19
+        ],
+        "hebrew": "רָם",
+        "transliteration": "Râm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amminadab": {
+      "name": "Amminadab",
+      "role": "Father of Nahshon and ancestor of Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:19–20"
+      ],
+      "importance": "Amminadab does nothing in this book. The closing list names him as Ram’s son and Nahshon’s father.",
+      "connections": "Son of Ram. Father of Nahshon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5992",
+        "key": "Amminadab",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          19
+        ],
+        "hebrew": "עַמִּינָדָב",
+        "transliteration": "ʻAmmîynâdâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "salmon": {
+      "name": "Salmon",
+      "role": "Father of Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:20–21"
+      ],
+      "importance": "Salmon does nothing in this book. The closing list names him as Nahshon’s son and Boaz’s father.",
+      "connections": "Son of Nahshon. Father of Boaz.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8009",
+        "key": "Salmon",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          20
+        ],
+        "hebrew": "שַׂלְמָה",
+        "transliteration": "Salmâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nahshon": {
+      "name": "Nahshon",
+      "role": "Father of Salmon and ancestor of Boaz",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4:20"
+      ],
+      "importance": "Nahshon does nothing in this book. The closing list names him as Amminadab’s son and Salmon’s father.",
+      "connections": "Son of Amminadab. Father of Salmon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5177",
+        "key": "Nahshon",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          20
+        ],
+        "hebrew": "נַחְשׁוֹן",
+        "transliteration": "Nachshôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "leah": {
+      "name": "Leah",
+      "role": "Mother of six sons and Dinah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4"
+      ],
+      "importance": "Leah does not act in this book. The people at the gate name her when they bless Ruth. They say Rachel and Leah built the house of Israel.",
+      "connections": "Daughter of Laban. Wife of Jacob. Sister of Rachel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3812",
+        "key": "Leah",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          11
+        ],
+        "hebrew": "לֵאָה",
+        "transliteration": "Lêʼâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "rachel": {
+      "name": "Rachel",
+      "role": "Mother of Joseph and Benjamin",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4"
+      ],
+      "importance": "Rachel does not act in this book. The people at the gate ask the LORD to make Ruth like her and Leah. They say both women built the house of Israel.",
+      "connections": "Daughter of Laban. Wife of Jacob. Sister of Leah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7354",
+        "key": "Rachel",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          11
+        ],
+        "hebrew": "רָחֵל",
+        "transliteration": "Râchêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "judah": {
+      "name": "Judah",
+      "role": "Father of Perez through Tamar",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4"
+      ],
+      "importance": "Judah does not act in this book. The people at the gate name him in their blessing. They say Tamar bore Perez to Judah.",
+      "connections": "Son of Jacob and Leah. Father of Perez and Zerah through Tamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3063",
+        "key": "Judah",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יְהוּדָה",
+        "transliteration": "Yᵉhûwdâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "tamar": {
+      "name": "Tamar",
+      "role": "Mother of Perez, named in the gate blessing",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ruth 4"
+      ],
+      "importance": "Tamar does not act in this book. The people at the gate say she bore Perez to Judah. They ask that Boaz’s house be like the house of Perez.",
+      "connections": "Widow of Er and Onan. Mother of Perez and Zerah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8559",
+        "key": "Tamar",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          12
+        ],
+        "hebrew": "תָּמָר",
+        "transliteration": "Tâmâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

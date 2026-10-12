@@ -1,0 +1,104 @@
+{
+  "featurePeople": {
+    "1-john-1": [
+      "jesus"
+    ],
+    "1-john-2": [
+      "jesus"
+    ],
+    "1-john-3": [
+      "jesus",
+      "cain"
+    ],
+    "1-john-4": [
+      "jesus"
+    ],
+    "1-john-5": [
+      "jesus"
+    ]
+  },
+  "people": {
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Son of the Father, our Counselor and the atoning sacrifice",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First John 1–5"
+      ],
+      "importance": "The writers say they heard, saw, and touched the Word of life. His blood cleanses us from all sin. He is a Counselor with the Father and the atoning sacrifice for our sins. He laid down his life for us. Believers should also lay down their lives for the brothers.",
+      "connections": "The writer joins fellowship with the Father to fellowship with his Son, Jesus Christ.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 12,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "cain": {
+      "name": "Cain",
+      "role": "Brother who killed his brother",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First John 3:12"
+      ],
+      "importance": "The writer says to love one another, unlike Cain. Cain was of the evil one and killed his brother. The writer says his deeds were evil and his brother’s righteous. Whoever hates his brother is called a murderer.",
+      "connections": "The letter sets his evil deeds beside the righteous deeds of his brother.",
+      "verseScope": {},
+      "linkNames": [
+        "Cain"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2535",
+        "key": "Cain",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Κάϊν",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Káïn"
+      }
+    }
+  }
+}

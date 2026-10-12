@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "colossians",
+    "name": "Colossians",
+    "bibleCode": "COL",
+    "chapterCount": 4,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

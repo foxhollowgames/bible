@@ -1,0 +1,44 @@
+{
+  "featurePeople": {
+    "obadiah-1": [
+      "obadiah"
+    ]
+  },
+  "people": {
+    "obadiah": {
+      "name": "Obadiah",
+      "role": "Prophet named in the vision against Edom",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Obadiah 1:1–21"
+      ],
+      "importance": "His vision connects judgment with betrayal, seized wealth, and attacks on people escaping violence.",
+      "connections": "The book gives no parent, household, or court position. He is distinct from Ahab’s steward.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5662",
+        "key": "Obadiah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "עֹבַדְיָה",
+        "transliteration": "ʻÔbadyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1990 @@
+{
+  "featurePeople": {
+    "joshua-1": [
+      "joshua",
+      "moses",
+      "reuben",
+      "gad",
+      "manasseh"
+    ],
+    "joshua-2": [
+      "rahab",
+      "joshua",
+      "sihon",
+      "og"
+    ],
+    "joshua-3": [
+      "joshua",
+      "moses"
+    ],
+    "joshua-3-journey": [
+      "joshua",
+      "moses"
+    ],
+    "joshua-4": [
+      "joshua",
+      "reuben",
+      "gad",
+      "manasseh",
+      "moses"
+    ],
+    "joshua-4-journey": [
+      "joshua",
+      "reuben",
+      "gad",
+      "manasseh",
+      "moses"
+    ],
+    "joshua-5": [
+      "joshua"
+    ],
+    "joshua-6": [
+      "joshua",
+      "rahab"
+    ],
+    "joshua-7": [
+      "joshua",
+      "achan",
+      "judah"
+    ],
+    "joshua-8": [
+      "joshua",
+      "moses"
+    ],
+    "joshua-9": [
+      "joshua",
+      "moses",
+      "sihon",
+      "og"
+    ],
+    "joshua-10": [
+      "joshua",
+      "adoni-zedek",
+      "hoham",
+      "piram",
+      "japhia",
+      "debir-king"
+    ],
+    "joshua-10-journey": [
+      "joshua",
+      "adoni-zedek",
+      "hoham",
+      "piram",
+      "japhia",
+      "debir-king"
+    ],
+    "joshua-11": [
+      "joshua",
+      "jabin-joshua",
+      "jobab-madon",
+      "moses",
+      "judah",
+      "gad"
+    ],
+    "joshua-12": [
+      "joshua",
+      "moses",
+      "sihon",
+      "og",
+      "tirzah",
+      "manasseh",
+      "gad"
+    ],
+    "joshua-13": [
+      "joshua",
+      "moses",
+      "sihon",
+      "og",
+      "balaam",
+      "reuben",
+      "gad",
+      "manasseh",
+      "levi"
+    ],
+    "joshua-14": [
+      "joshua",
+      "eleazar",
+      "moses",
+      "caleb",
+      "joseph",
+      "judah",
+      "ephraim",
+      "manasseh"
+    ],
+    "joshua-15": [
+      "caleb",
+      "othniel",
+      "achsah",
+      "judah",
+      "joshua",
+      "hoglah",
+      "reuben",
+      "gad"
+    ],
+    "joshua-16": [
+      "joseph",
+      "ephraim",
+      "manasseh"
+    ],
+    "joshua-17": [
+      "joshua",
+      "eleazar",
+      "manasseh",
+      "joseph",
+      "mahlah",
+      "noah-daughter",
+      "hoglah",
+      "milcah-daughter",
+      "tirzah",
+      "moses",
+      "ephraim",
+      "issachar",
+      "asher"
+    ],
+    "joshua-18": [
+      "joshua",
+      "benjamin",
+      "moses",
+      "hoglah",
+      "joseph",
+      "judah",
+      "reuben",
+      "manasseh",
+      "gad"
+    ],
+    "joshua-19": [
+      "joshua",
+      "eleazar",
+      "simeon",
+      "zebulun",
+      "issachar",
+      "asher",
+      "naphtali",
+      "dan",
+      "judah",
+      "ephraim"
+    ],
+    "joshua-20": [
+      "joshua",
+      "moses",
+      "judah",
+      "reuben",
+      "ephraim",
+      "manasseh",
+      "naphtali",
+      "gad"
+    ],
+    "joshua-21": [
+      "joshua",
+      "eleazar",
+      "moses",
+      "levi",
+      "aaron",
+      "caleb",
+      "judah",
+      "reuben",
+      "simeon",
+      "benjamin",
+      "ephraim",
+      "manasseh",
+      "zebulun",
+      "issachar",
+      "dan",
+      "naphtali",
+      "gad",
+      "asher"
+    ],
+    "joshua-22": [
+      "joshua",
+      "phinehas",
+      "eleazar",
+      "achan",
+      "reuben",
+      "gad",
+      "manasseh",
+      "moses"
+    ],
+    "joshua-22-journey": [
+      "joshua",
+      "phinehas",
+      "eleazar",
+      "achan",
+      "reuben",
+      "gad",
+      "manasseh",
+      "moses"
+    ],
+    "joshua-23": [
+      "joshua",
+      "moses"
+    ],
+    "joshua-24": [
+      "joshua",
+      "terah",
+      "nahor",
+      "abraham",
+      "isaac",
+      "jacob",
+      "esau",
+      "moses",
+      "aaron",
+      "balak",
+      "balaam",
+      "joseph",
+      "eleazar",
+      "phinehas",
+      "ephraim"
+    ]
+  },
+  "people": {
+    "moses": {
+      "name": "Moses",
+      "role": "Prophet who leads Israel from Egypt",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 1, 3, 4, 8, 9, 11, 12, 13, 14, 17, 18, 20, 21, 22, 23, 24"
+      ],
+      "importance": "Joshua follows the instructions Moses gave Israel. His earlier leadership shapes the people's new life.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        3,
+        4,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 51,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Moses's brother and appointed priest",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 21, 24"
+      ],
+      "importance": "Aaron's descendants receive cities for their service as priests.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        21,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 6,
+        "example": [
+          21,
+          4
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joshua": {
+      "name": "Joshua",
+      "role": "Leader after Moses",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shittim · proposed region",
+        "Gilgal · approximate region",
+        "Shiloh · traditional locality",
+        "Shechem · Tell Balata locality"
+      ],
+      "passages": [
+        "Joshua 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24"
+      ],
+      "importance": "He leads the crossing, campaigns, allotments, and covenant assembly.",
+      "connections": "Son of Nun. He later leads Israel in the book of Joshua.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3091",
+        "key": "Joshua",
+        "checkedVerses": 151,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יְהוֹשׁוּעַ",
+        "transliteration": "Yᵉhôwshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eleazar": {
+      "name": "Eleazar",
+      "role": "Priest at the allotments",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh · traditional locality"
+      ],
+      "passages": [
+        "Joshua 14, 17, 19, 21, 22, 24"
+      ],
+      "importance": "He helps oversee inheritance and dies at the book’s close.",
+      "connections": "Brother of Nadab, Abihu, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        17,
+        19,
+        21,
+        22,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H499",
+        "key": "Eleazar",
+        "checkedVerses": 8,
+        "example": [
+          14,
+          1
+        ],
+        "hebrew": "אֶלְעָזָר",
+        "transliteration": "ʼElʻâzâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "caleb": {
+      "name": "Caleb",
+      "role": "Claimant of Hebron",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Hebron"
+      ],
+      "passages": [
+        "Joshua 14, 15, 21"
+      ],
+      "importance": "He recalls the scouting mission and asks Joshua for Hebron.",
+      "connections": "Son of Jephunneh. He serves alongside Joshua.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        15,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3612",
+        "key": "Caleb",
+        "checkedVerses": 9,
+        "example": [
+          14,
+          6
+        ],
+        "hebrew": "כָּלֵב",
+        "transliteration": "Kâlêb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "balaam": {
+      "name": "Balaam",
+      "role": "Seer asked to curse Israel",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 13, 24"
+      ],
+      "importance": "Joshua recalls how God changed Balaam's curse into a blessing.",
+      "connections": "Son of Beor. Balak seeks his services.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1109",
+        "key": "Balaam",
+        "checkedVerses": 3,
+        "example": [
+          13,
+          22
+        ],
+        "hebrew": "בִּלְעָם",
+        "transliteration": "Bilʻâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "balak": {
+      "name": "Balak",
+      "role": "King of Moab",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24"
+      ],
+      "importance": "Joshua recalls Balak's attempt to bring a curse on Israel.",
+      "connections": "Son of Zippor. He sends for Balaam.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1111",
+        "key": "Balak",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          9
+        ],
+        "hebrew": "בָּלָק",
+        "transliteration": "Bâlâq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "phinehas": {
+      "name": "Phinehas",
+      "role": "Leader of the altar inquiry",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gilead · broad region"
+      ],
+      "passages": [
+        "Joshua 22, 24"
+      ],
+      "importance": "He leads the delegation that hears the eastern tribes’ explanation.",
+      "connections": "Son of Eleazar. Grandson of Aaron.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6372",
+        "key": "Phinehas",
+        "checkedVerses": 5,
+        "example": [
+          22,
+          13
+        ],
+        "hebrew": "פִּינְחָס",
+        "transliteration": "Pîynᵉchâç",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "sihon": {
+      "name": "Sihon",
+      "role": "Amorite king associated with Heshbon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 2, 9, 12, 13"
+      ],
+      "importance": "Moses's victory over Sihon gave Israel land east of the Jordan.",
+      "connections": "Ruler who refuses passage and fights Israel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        9,
+        12,
+        13
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5511",
+        "key": "Sihon",
+        "checkedVerses": 7,
+        "example": [
+          2,
+          10
+        ],
+        "hebrew": "סִיחוֹן",
+        "transliteration": "Çîychôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "og": {
+      "name": "Og",
+      "role": "King of Bashan",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 2, 9, 12, 13"
+      ],
+      "importance": "His former kingdom becomes part of Israel's land east of the Jordan.",
+      "connections": "Ruler opposed by Israel in the northern region.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        9,
+        12,
+        13
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5747",
+        "key": "Og",
+        "checkedVerses": 6,
+        "example": [
+          2,
+          10
+        ],
+        "hebrew": "עוֹג",
+        "transliteration": "ʻÔwg",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mahlah": {
+      "name": "Mahlah",
+      "role": "Daughter of Zelophehad who receives inheritance",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 17"
+      ],
+      "importance": "She joins her sisters in asking Eleazar and Joshua for their promised share.",
+      "connections": "Daughter of Zelophehad, from Manasseh. She acts with her four sisters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4244",
+        "key": "Mahlah",
+        "checkedVerses": 1,
+        "example": [
+          17,
+          3
+        ],
+        "hebrew": "מַחְלָה",
+        "transliteration": "Machlâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "noah-daughter": {
+      "name": "Noah",
+      "role": "Daughter of Zelophehad who receives inheritance",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 17"
+      ],
+      "importance": "She joins her sisters in asking Eleazar and Joshua for their promised share.",
+      "connections": "Daughter of Zelophehad, from Manasseh. She acts with her four sisters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5270",
+        "key": "Noah",
+        "checkedVerses": 1,
+        "example": [
+          17,
+          3
+        ],
+        "hebrew": "נֹעָה",
+        "transliteration": "Nôʻâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hoglah": {
+      "name": "Hoglah",
+      "role": "Daughter of Zelophehad who receives inheritance",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 15, 17, 18"
+      ],
+      "importance": "She joins her sisters in asking Eleazar and Joshua for their promised share.",
+      "connections": "Daughter of Zelophehad, from Manasseh. She acts with her four sisters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        15,
+        17,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2295",
+        "key": "Hoglah",
+        "checkedVerses": 1,
+        "example": [
+          17,
+          3
+        ],
+        "hebrew": "חׇגְלָה",
+        "transliteration": "Choglâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "milcah-daughter": {
+      "name": "Milcah",
+      "role": "Daughter of Zelophehad who receives inheritance",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 17"
+      ],
+      "importance": "She joins her sisters in asking Eleazar and Joshua for their promised share.",
+      "connections": "Daughter of Zelophehad, from Manasseh. She acts with her four sisters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4435",
+        "key": "Milcah",
+        "checkedVerses": 1,
+        "example": [
+          17,
+          3
+        ],
+        "hebrew": "מִלְכָּה",
+        "transliteration": "Milkâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "tirzah": {
+      "name": "Tirzah",
+      "role": "Daughter of Zelophehad who receives inheritance",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 12, 17"
+      ],
+      "importance": "She joins her sisters in asking Eleazar and Joshua for their promised share.",
+      "connections": "Daughter of Zelophehad, from Manasseh. She acts with her four sisters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12,
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8656",
+        "key": "Tirzah",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          24
+        ],
+        "hebrew": "תִּרְצָה",
+        "transliteration": "Tirtsâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Covenant recipient and migrating ancestor",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24"
+      ],
+      "importance": "Joshua recalls how God led Abraham and promised to help his family.",
+      "connections": "Husband of Sarah. Father of Ishmael and Isaac. Uncle of Lot.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H85",
+        "key": "Abraham",
+        "checkedVerses": 2,
+        "example": [
+          24,
+          2
+        ],
+        "hebrew": "אַבְרָהָם",
+        "transliteration": "ʼAbrâhâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "isaac": {
+      "name": "Isaac",
+      "role": "Son of Abraham and Sarah",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24"
+      ],
+      "importance": "Joshua recalls Isaac while telling how God cared for Israel's ancestors.",
+      "connections": "Husband of Rebekah. Father of Esau and Jacob.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3327",
+        "key": "Isaac",
+        "checkedVerses": 2,
+        "example": [
+          24,
+          3
+        ],
+        "hebrew": "יִצְחָק",
+        "transliteration": "Yitschâq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "esau": {
+      "name": "Esau",
+      "role": "Isaac's elder son",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24"
+      ],
+      "importance": "Joshua recalls God's gift of Seir to Esau.",
+      "connections": "Twin brother of Jacob. Ancestor of Edom.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6215",
+        "key": "Esau",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          4
+        ],
+        "hebrew": "עֵשָׂו",
+        "transliteration": "ʻÊsâv",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jacob": {
+      "name": "Jacob",
+      "role": "Ancestor of Israel's tribes",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24"
+      ],
+      "importance": "Joshua recalls how Jacob's family went to Egypt before Israel's rescue.",
+      "connections": "Son of Isaac and Rebekah. Father of twelve sons and Dinah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3290",
+        "key": "Jacob",
+        "checkedVerses": 2,
+        "example": [
+          24,
+          4
+        ],
+        "hebrew": "יַעֲקֹב",
+        "transliteration": "Yaʻăqôb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joseph": {
+      "name": "Joseph",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 14, 16, 17, 18, 24"
+      ],
+      "importance": "Joseph’s descendants receive land through Ephraim and Manasseh. His name joins the two tribes.",
+      "connections": "Son of Jacob and Rachel. Husband of Asenath. Father of Ephraim and Manasseh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        16,
+        17,
+        18,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3130",
+        "key": "Joseph",
+        "checkedVerses": 11,
+        "example": [
+          14,
+          4
+        ],
+        "hebrew": "יוֹסֵף",
+        "transliteration": "Yôwçêph",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "judah": {
+      "name": "Judah",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 7, 11, 14, 15, 18, 19, 20, 21"
+      ],
+      "importance": "Judah’s tribe receives land in the south. Caleb’s family settles within this area.",
+      "connections": "Son of Jacob and Leah. Father of Perez and Zerah through Tamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7,
+        11,
+        14,
+        15,
+        18,
+        19,
+        20,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3063",
+        "key": "Judah",
+        "checkedVerses": 22,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "יְהוּדָה",
+        "transliteration": "Yᵉhûwdâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "reuben": {
+      "name": "Reuben",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 1, 4, 13, 15, 18, 20, 21, 22"
+      ],
+      "importance": "Reuben’s tribe receives land east of the Jordan. Its warriors must help the other tribes.",
+      "connections": "Son of Jacob and Leah. Brother of Joseph.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4,
+        13,
+        15,
+        18,
+        20,
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7205",
+        "key": "Reuben",
+        "checkedVerses": 21,
+        "example": [
+          4,
+          12
+        ],
+        "hebrew": "רְאוּבֵן",
+        "transliteration": "Rᵉʼûwbên",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "simeon": {
+      "name": "Simeon",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 19, 21"
+      ],
+      "importance": "Simeon’s tribe receives towns within Judah’s share. Judah’s land is too large for its own needs.",
+      "connections": "Brother of Levi and Dinah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        19,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8095",
+        "key": "Simeon",
+        "checkedVerses": 4,
+        "example": [
+          19,
+          1
+        ],
+        "hebrew": "שִׁמְעוֹן",
+        "transliteration": "Shimʻôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "levi": {
+      "name": "Levi",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 13, 21"
+      ],
+      "importance": "Levi’s tribe receives towns among the other tribes. Priestly service takes the place of one large territory.",
+      "connections": "Brother of Simeon and Dinah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3878",
+        "key": "Levi",
+        "checkedVerses": 3,
+        "example": [
+          13,
+          14
+        ],
+        "hebrew": "לֵוִי",
+        "transliteration": "Lêvîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "benjamin": {
+      "name": "Benjamin",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 18, 21"
+      ],
+      "importance": "Benjamin’s tribe receives land between Judah and Joseph’s tribes. Its town list includes Jerusalem.",
+      "connections": "Son of Rachel. Full brother of Joseph.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        18,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1144",
+        "key": "Benjamin",
+        "checkedVerses": 6,
+        "example": [
+          18,
+          11
+        ],
+        "hebrew": "בִּנְיָמִין",
+        "transliteration": "Binyâmîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ephraim": {
+      "name": "Ephraim",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 14, 16, 17, 19, 20, 21, 24"
+      ],
+      "importance": "Ephraim’s tribe receives land west of the Jordan. The book notes Canaanites remaining at Gezer.",
+      "connections": "Son of Joseph and Asenath. Brother of Manasseh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H669",
+        "key": "Ephraim",
+        "checkedVerses": 18,
+        "example": [
+          14,
+          4
+        ],
+        "hebrew": "אֶפְרַיִם",
+        "transliteration": "ʼEphrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "manasseh": {
+      "name": "Manasseh",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 1, 4, 12, 13, 14, 16, 17, 18, 20, 21, 22"
+      ],
+      "importance": "Manasseh’s descendants receive land on both sides of the Jordan. Zelophehad’s daughters receive a share.",
+      "connections": "Son of Joseph and Asenath. Brother of Ephraim.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4519",
+        "key": "Manasseh",
+        "checkedVerses": 37,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "מְנַשֶּׁה",
+        "transliteration": "Mᵉnashsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zebulun": {
+      "name": "Zebulun",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 19, 21"
+      ],
+      "importance": "Zebulun’s tribe receives its towns and borders by lot at Shiloh.",
+      "connections": "Son of Jacob and Leah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        19,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2074",
+        "key": "Zebulun",
+        "checkedVerses": 6,
+        "example": [
+          19,
+          10
+        ],
+        "hebrew": "זְבוּלוּן",
+        "transliteration": "Zᵉbûwlûwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "issachar": {
+      "name": "Issachar",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 17, 19, 21"
+      ],
+      "importance": "Issachar’s tribe receives towns that include Shunem. Its border reaches the Jordan.",
+      "connections": "Son of Jacob and Leah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        19,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3485",
+        "key": "Issachar",
+        "checkedVerses": 6,
+        "example": [
+          17,
+          10
+        ],
+        "hebrew": "יִשָּׂשכָר",
+        "transliteration": "Yissâˢkâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "dan": {
+      "name": "Dan",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 19, 21"
+      ],
+      "importance": "Dan’s tribe receives towns but struggles to hold its land. It later takes Leshem.",
+      "connections": "Son of Jacob and Bilhah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        19,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1835",
+        "key": "Dan",
+        "checkedVerses": 5,
+        "example": [
+          19,
+          40
+        ],
+        "hebrew": "דָּן",
+        "transliteration": "Dân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "naphtali": {
+      "name": "Naphtali",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 19, 20, 21"
+      ],
+      "importance": "Naphtali’s tribe receives northern towns that include Hazor and Kedesh.",
+      "connections": "Son of Jacob and Bilhah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        19,
+        20,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5321",
+        "key": "Naphtali",
+        "checkedVerses": 5,
+        "example": [
+          19,
+          32
+        ],
+        "hebrew": "נַפְתָּלִי",
+        "transliteration": "Naphtâlîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gad": {
+      "name": "Gad",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 1, 4, 11, 12, 13, 15, 18, 20, 21, 22"
+      ],
+      "importance": "Gad’s tribe receives land east of the Jordan. Its warriors help the western tribes.",
+      "connections": "Son of Jacob and Zilpah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4,
+        11,
+        12,
+        13,
+        15,
+        18,
+        20,
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1410",
+        "key": "Gad",
+        "checkedVerses": 19,
+        "example": [
+          4,
+          12
+        ],
+        "hebrew": "גָּד",
+        "transliteration": "Gâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "asher": {
+      "name": "Asher",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 17, 19, 21"
+      ],
+      "importance": "Asher’s tribe receives land near the northern coast. Its town list reaches toward Sidon.",
+      "connections": "Son of Jacob and Zilpah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        19,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H836",
+        "key": "Asher",
+        "checkedVerses": 8,
+        "example": [
+          17,
+          7
+        ],
+        "hebrew": "אָשֵׁר",
+        "transliteration": "ʼÂshêr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "rahab": {
+      "name": "Rahab",
+      "role": "Jericho resident who protects the spies",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jericho · Tell es-Sultan"
+      ],
+      "passages": [
+        "Joshua 2; 6:17,22–25"
+      ],
+      "importance": "She protects the spies and asks them to save her family. They keep their promise.",
+      "connections": "Her household is preserved after she protects two Israelite spies.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7343",
+        "key": "Rahab",
+        "checkedVerses": 5,
+        "example": [
+          2,
+          1
+        ],
+        "hebrew": "רָחָב",
+        "transliteration": "Râchâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "achan": {
+      "name": "Achan",
+      "role": "Man accused of taking forbidden goods",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 7; 22:20"
+      ],
+      "importance": "Achan hides goods taken from Jericho. His confession explains Israel’s earlier defeat at Ai.",
+      "connections": "Son of Carmi, within Judah’s lineage.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5912",
+        "key": "Achan",
+        "checkedVerses": 6,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "עָכָן",
+        "transliteration": "ʻÂkân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "othniel": {
+      "name": "Othniel",
+      "role": "Caleb’s kinsman and captor of Debir",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Debir · approximate southern region"
+      ],
+      "passages": [
+        "Joshua 15:16–17"
+      ],
+      "importance": "His capture of Debir links military success with a marriage arrangement. Read Achsah’s subsequent request as her own action.",
+      "connections": "Son of Kenaz. He marries Caleb’s daughter Achsah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        15
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6274",
+        "key": "Othniel",
+        "checkedVerses": 1,
+        "example": [
+          15,
+          17
+        ],
+        "hebrew": "עׇתְנִיאֵל",
+        "transliteration": "ʻOthnîyʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "achsah": {
+      "name": "Achsah",
+      "role": "Caleb’s daughter who requests springs",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Debir · approximate southern region"
+      ],
+      "passages": [
+        "Joshua 15:16–19"
+      ],
+      "importance": "She requests water in addition to land. The short account gives her a direct role in securing resources.",
+      "connections": "Daughter of Caleb and wife of Othniel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        15
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5915",
+        "key": "Achsah",
+        "checkedVerses": 2,
+        "example": [
+          15,
+          16
+        ],
+        "hebrew": "עַכְסָה",
+        "transliteration": "ʻAkçâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "adoni-zedek": {
+      "name": "Adoni-zedek",
+      "role": "King of Jerusalem in the southern coalition",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Joshua 10"
+      ],
+      "importance": "Adoni Zedek gathers kings to attack Gibeon after it makes peace with Israel.",
+      "connections": "He gathers four other kings against Gibeon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H139",
+        "key": "Adoni-zedek",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          1
+        ],
+        "hebrew": "אֲדֹנִי־צֶדֶק",
+        "transliteration": "ʼĂdônîy-Tsedeq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hoham": {
+      "name": "Hoham",
+      "role": "King of Hebron in the southern coalition",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Hebron"
+      ],
+      "passages": [
+        "Joshua 10:3,23"
+      ],
+      "importance": "The account names him as a coalition member. It supplies little personal detail.",
+      "connections": "Named with Adoni-zedek and three other kings.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1944",
+        "key": "Hoham",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "הוֹהָם",
+        "transliteration": "Hôwhâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "piram": {
+      "name": "Piram",
+      "role": "King of Jarmuth in the southern coalition",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jarmuth · Tel Yarmut locality"
+      ],
+      "passages": [
+        "Joshua 10:3,23"
+      ],
+      "importance": "Piram joins four other kings against Gibeon. Joshua defeats their forces.",
+      "connections": "Named among the five allied kings.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6502",
+        "key": "Piram",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "פִּרְאָם",
+        "transliteration": "Pirʼâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "japhia": {
+      "name": "Japhia",
+      "role": "King of Lachish in the southern coalition",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Lachish · Tel Lachish"
+      ],
+      "passages": [
+        "Joshua 10:3,23"
+      ],
+      "importance": "He joins four other kings against Gibeon. Their attack draws Joshua into the battle.",
+      "connections": "Named among the five allied kings.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3309",
+        "key": "Japhia",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "יָפִיעַ",
+        "transliteration": "Yâphîyaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "debir-king": {
+      "name": "Debir",
+      "role": "King of Eglon in the southern coalition",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 10:3,23"
+      ],
+      "importance": "This Debir is a person. He is distinct from the town of Debir in Joshua 15.",
+      "connections": "Named among the five allied kings.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1688",
+        "key": "Debir",
+        "checkedVerses": 10,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "דְּבִיר",
+        "transliteration": "Dᵉbîyr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jabin-joshua": {
+      "name": "Jabin",
+      "role": "King of Hazor in Joshua’s northern campaign",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Hazor · excavated site"
+      ],
+      "passages": [
+        "Joshua 11"
+      ],
+      "importance": "This king of Hazor gathers northern rulers against Joshua. Their army loses the battle.",
+      "connections": "He summons Jobab and other northern rulers.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2985",
+        "key": "Jabin",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "יָבִין",
+        "transliteration": "Yâbîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jobab-madon": {
+      "name": "Jobab",
+      "role": "King of Madon in the northern coalition",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 11:1"
+      ],
+      "importance": "He is distinct from the Jobab listed as an Edomite king in Genesis 36.",
+      "connections": "Summoned by Jabin of Hazor.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3103",
+        "key": "Jobab",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "יוֹבָב",
+        "transliteration": "Yôwbâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "terah": {
+      "name": "Terah",
+      "role": "Ancestor recalled at Shechem",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24:2"
+      ],
+      "importance": "Joshua recalls Terah's household while telling how Israel's ancestors served other gods.",
+      "connections": "Father of Abraham and Nahor.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8646",
+        "key": "Terah",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          2
+        ],
+        "hebrew": "תֶּרַח",
+        "transliteration": "Terach",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nahor": {
+      "name": "Nahor",
+      "role": "Abraham’s brother recalled at Shechem",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Joshua 24:2"
+      ],
+      "importance": "Abraham's brother belongs to the earlier household Joshua recalls in his final speech.",
+      "connections": "Son of Terah and brother of Abraham.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5152",
+        "key": "Nahor",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          2
+        ],
+        "hebrew": "נָחוֹר",
+        "transliteration": "Nâchôwr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

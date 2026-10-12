@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "daniel",
+    "name": "Daniel",
+    "bibleCode": "DAN",
+    "chapterCount": 12,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

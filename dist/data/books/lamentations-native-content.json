@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "lamentations",
+    "name": "Lamentations",
+    "bibleCode": "LAM",
+    "chapterCount": 5,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

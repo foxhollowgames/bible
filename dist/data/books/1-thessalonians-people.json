@@ -1,0 +1,192 @@
+{
+  "featurePeople": {
+    "1-thessalonians-1": [
+      "paul",
+      "silas",
+      "timothy",
+      "jesus"
+    ],
+    "1-thessalonians-2": [
+      "paul",
+      "jesus"
+    ],
+    "1-thessalonians-3": [
+      "paul",
+      "timothy",
+      "jesus"
+    ],
+    "1-thessalonians-4": [
+      "paul",
+      "jesus"
+    ],
+    "1-thessalonians-5": [
+      "paul",
+      "jesus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer who sent Timothy and longs to see the Thessalonians",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Thessalonians 1–5"
+      ],
+      "importance": "Paul recalls how he and his team worked among the Thessalonians. He says Satan hindered his visits. He sent Timothy to learn about their faith. Timothy’s good news comforts Paul. Paul asks that the letter be read to all the brothers.",
+      "connections": "He writes with Silvanus and Timothy. He sent Timothy to the Thessalonians.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "silas": {
+      "name": "Silvanus",
+      "role": "Co-sender named with Paul and Timothy",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Thessalonians 1:1"
+      ],
+      "importance": "The letter names Silvanus in the opening line with Paul and Timothy. The letter says “we” after that. It says nothing else about him by name.",
+      "connections": "The letter names him second, between Paul and Timothy.",
+      "verseScope": {},
+      "linkNames": [
+        "Silvanus"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4610",
+        "key": "Silvanus",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σιλουανός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Silouanós"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Co-sender whom Paul sent to the Thessalonians",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Thessalonians 1:1; 3:2–6"
+      ],
+      "importance": "Paul sends Timothy to establish and comfort the Thessalonians in their faith. Timothy comes back with glad news of their faith and love. The news comforts Paul in his distress and affliction.",
+      "connections": "He is named with Paul and Silvanus. Paul calls him our brother and God’s servant.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord who rose from the dead and will come",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Thessalonians 1–5"
+      ],
+      "importance": "Paul says the Thessalonians wait for God’s Son from heaven. Paul says Jesus died and rose again. He says the dead in Christ will rise first. He tells the readers to comfort one another with these words.",
+      "connections": "Paul calls him the Lord Jesus Christ and God’s Son. He says God raised him from the dead.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 15,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    }
+  }
+}

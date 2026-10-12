@@ -1,14 +1,14 @@
 """Give added books Isaiah's map layers: nations, ancient roads, and atlas areas.
 
 Persistent records live in scripts/book-map-context.json. Road lines that Isaiah already
-has come from dist/data/content.json, so both readers draw the same corridor.
+has come from dist/data/books/isaiah-native-content.json, so every book draws the same corridor.
 """
 import json,re
 from pathlib import Path
 from urllib.parse import quote
 ROOT=Path(__file__).resolve().parent.parent
 CONFIG=json.loads((ROOT/'scripts/book-map-context.json').read_text(encoding='utf-8'))
-ISAIAH=json.loads((ROOT/'dist/data/content.json').read_text(encoding='utf-8'))
+ISAIAH=json.loads((ROOT/'dist/data/books/isaiah-native-content.json').read_text(encoding='utf-8'))
 KML=(ROOT/'scripts/isaiah-geography.kml').read_text(encoding='utf-8')
 JOURNEYS=json.loads((ROOT/'scripts/book-journeys.json').read_text(encoding='utf-8'))
 # The reader already knows these powers and their colors.

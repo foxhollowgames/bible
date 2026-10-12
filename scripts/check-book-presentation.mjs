@@ -1,10 +1,13 @@
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {existsSync, readFileSync} from 'node:fs';
 import vm from 'node:vm';
 
 const read = path => readFileSync(path, 'utf8');
 const directory = JSON.parse(read('dist/data/books/directory.json'));
-const books = directory.filter(book => book.status === 'ready' && book.id !== 'isaiah');
+// These checks read each book's base record. A book without one has its own checks.
+const books = directory.filter(book => book.status === 'ready' && existsSync(`dist/data/books/${book.id}.json`));
+const app = read('dist/app.js');
+const profileCode = read('dist/portraits.js');
 const esc = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('"', '&quot;');
 let portraits = 0, chapters = 0, contextNotes = 0, evidenceImages = 0;
 const distinctParagraphs = new Set();
@@ -15,11 +18,10 @@ for (const book of books) {
   const authored = JSON.parse(read(`scripts/book-context-complete/${book.id}.json`));
   assert.equal(authored.length, raw.chapterCount, 'Persistent sources must cover every ready chapter');
   assert.equal(new Set(authored.map(row => row[0])).size, raw.chapterCount, 'Persistent sources must not repeat chapters');
-  const app = read(`dist/book-${book.id}-app.js`);
-  const profileCode = read(`dist/book-${book.id}-portraits.js`);
   const profile = vm.createContext({document:{addEventListener:() => {}, querySelectorAll:() => []}});
   vm.runInContext(profileCode.replaceAll('export ', ''), profile);
   const art = JSON.parse(read(`dist/data/books/${book.id}-art.json`));
+  profile.setPeople(JSON.parse(read(`dist/data/books/${book.id}-people.json`)), art);
   for (const person of raw.people) {
     const html = profile.portraitsHtml([person.id]);
     const detail = profile.personProfileHtml(person.id);
@@ -46,13 +48,13 @@ for (const book of books) {
     assert(!html.includes('portrait failed to load'), 'Use an accurate unavailable-image description');
   }
 
-  const context = vm.createContext({data, scripture, chapters:Array.from({length:raw.chapterCount}, (_, i) => i + 1),
+  const context = vm.createContext({data, scripture, book:{chapterDigits:2, ...data.book}, chapters:Array.from({length:raw.chapterCount}, (_, i) => i + 1),
     state:{chapter:1, perspective:'historical'}, esc, URL,
     source:id => data.sources.find(item => item.id === id), mapDisplayName:text => text,
     mapDisplayText:text => text, linkedEntityHtml:esc, mapStoryHtml:() => '',
     chapterEvidenceHtml:() => '', chapterInterviewNotesHtml:() => '',
     sourceImageHtml:() => '', webpSourceHtml:() => ''});
-  for (const name of ['sourcesHtml', 'passageFootnotes', 'chapterSourceIds', 'sourceMediaHtml', 'sourceInsightsHtml',
+  for (const name of ['bookNamePattern', 'publisherChapter', 'sourcesHtml', 'passageFootnotes', 'chapterSourceIds', 'sourceMediaHtml', 'sourceInsightsHtml',
     'scriptureExcerptHtml', 'placeVerseInChapter', 'sourceChapters', 'genericPlaceDescription',
     'featureChapterContext', 'passageContextHtml', 'librarySourceHtml', 'chapterContextHtml',
     'chapterEvidenceHtml', 'sourceImageHtml']) {
@@ -146,10 +148,11 @@ for (const book of books) {
     assert(context.sourceMediaHtml([object.id], {chapter:1, allExcerpts:true}).includes('<img'), 'Source details still show the actual object outside its chapter scope');
     evidenceImages++;
   }
-  assert(app.includes('.filter(([key]) =>'), 'Do not offer empty layer controls');
-  assert(app.includes('This chapter has no mapped places.'), 'Describe empty map information');
-  assert(app.includes('[focus.narrative, focus.limits]'), 'Keep location limits beside map context');
-  assert(app.includes('function librarySourceHtml('), 'Keep full source details available');
-  assert(app.includes('We do not know how these people looked.'), 'Keep the shared footer artwork note');
+  assert(data.book.mapLimits, 'Keep location limits beside map context');
 }
+assert(app.includes('.filter(([key]) =>'), 'Do not offer empty layer controls');
+assert(app.includes('This chapter has no mapped places.'), 'Describe empty map information');
+assert(app.includes('[focus.narrative, focus.limits]'), 'Keep location limits beside map context');
+assert(app.includes('function librarySourceHtml('), 'Keep full source details available');
+assert(app.includes('We do not know how these people looked.'), 'Keep the shared footer artwork note');
 console.log(`Book presentation passed: ${books.length} books, ${chapters} chapters, ${portraits} portraits, ${contextNotes} contextual readings, ${evidenceImages} scoped image records, exact quotations, and licensed credits.`);

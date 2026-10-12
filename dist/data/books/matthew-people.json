@@ -1,0 +1,519 @@
+{
+  "featurePeople": {
+    "matthew-1": [
+      "jesus",
+      "mary-mother",
+      "joseph-mary"
+    ],
+    "matthew-2": [
+      "jesus",
+      "mary-mother",
+      "joseph-mary"
+    ],
+    "matthew-3": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "matthew-4": [
+      "jesus",
+      "john-baptizer",
+      "peter"
+    ],
+    "matthew-5": [
+      "jesus"
+    ],
+    "matthew-6": [
+      "jesus"
+    ],
+    "matthew-7": [
+      "jesus"
+    ],
+    "matthew-8": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-9": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "matthew-10": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-11": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "matthew-12": [
+      "jesus",
+      "mary-mother"
+    ],
+    "matthew-13": [
+      "jesus",
+      "mary-mother"
+    ],
+    "matthew-14": [
+      "jesus",
+      "john-baptizer",
+      "peter"
+    ],
+    "matthew-15": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-16": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-17": [
+      "jesus",
+      "john-baptizer",
+      "peter"
+    ],
+    "matthew-18": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-19": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-20": [
+      "jesus"
+    ],
+    "matthew-21": [
+      "jesus",
+      "john-baptizer"
+    ],
+    "matthew-22": [
+      "jesus"
+    ],
+    "matthew-23": [
+      "jesus"
+    ],
+    "matthew-24": [
+      "jesus"
+    ],
+    "matthew-25": [
+      "jesus"
+    ],
+    "matthew-26": [
+      "jesus",
+      "peter"
+    ],
+    "matthew-27": [
+      "jesus",
+      "mary-magdalene"
+    ],
+    "matthew-28": [
+      "jesus",
+      "mary-magdalene"
+    ]
+  },
+  "people": {
+    "jesus": {
+      "name": "Jesus of Nazareth",
+      "role": "Teacher presented as the Christ and Son of God",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Matthew 1–28"
+      ],
+      "importance": "He is born in Bethlehem, and his family settles in Nazareth. He teaches, heals, and calls twelve disciples in Galilee. In Jerusalem he is arrested and crucified. He rises and sends the eleven to teach all nations.",
+      "connections": "Mary is his mother. Joseph names him Jesus, as an angel told him.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 166,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "mary-mother": {
+      "name": "Mary, mother of Jesus",
+      "role": "Mother named in the birth and hometown accounts",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Matthew 1–2; 12:46; 13:55"
+      ],
+      "importance": "She is engaged to Joseph and is found pregnant by the Holy Spirit. Wise men see the child with her in a house. Joseph takes her and the child to Egypt and back. Later she stands outside with Jesus’ brothers, asking to speak to him.",
+      "connections": "Joseph is her husband. Matthew names four brothers of Jesus and mentions his sisters.",
+      "verseScope": {
+        "1": [
+          16,
+          18,
+          20
+        ],
+        "2": [
+          11
+        ],
+        "12": [
+          46,
+          47,
+          48,
+          49
+        ],
+        "13": [
+          55
+        ]
+      },
+      "linkNames": [
+        "Mary"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        12,
+        13
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3137",
+        "key": "Mary",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          16
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μαρία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "María"
+      }
+    },
+    "joseph-mary": {
+      "name": "Joseph, Mary’s husband",
+      "role": "Man who names Jesus and protects the child",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Matthew 1–2"
+      ],
+      "importance": "He plans to send Mary away secretly, but an angel stops him in a dream. He takes her as his wife and names the child Jesus. Dreams then send him to Egypt, back to Israel, and into Galilee. The child escapes Herod, and the family settles in Nazareth.",
+      "connections": "Jacob is his father, and Mary is his wife. An angel speaks to him in dreams.",
+      "verseScope": {
+        "1": [
+          16,
+          18,
+          19,
+          20,
+          24
+        ],
+        "2": [
+          13,
+          14,
+          19,
+          21
+        ]
+      },
+      "linkNames": [
+        "Joseph"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2501",
+        "key": "Joseph",
+        "checkedVerses": 9,
+        "example": [
+          1,
+          16
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰωσήφ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iōsḗph"
+      }
+    },
+    "john-baptizer": {
+      "name": "John the Baptizer",
+      "role": "Preacher who baptizes Jesus and later dies in prison",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Matthew 3; 4:12; 9:14; 11; 14"
+      ],
+      "importance": "He preaches in the wilderness of Judea and tells people to repent. He baptizes Jesus in the Jordan. From prison he sends disciples to ask if Jesus is the one who comes. Herod has him beheaded to keep an oath made on his birthday.",
+      "connections": "His disciples bring questions to Jesus. Herod the tetrarch puts him in prison for the sake of Herodias.",
+      "verseScope": {
+        "3": [
+          1,
+          4,
+          13,
+          14
+        ],
+        "4": [
+          12
+        ],
+        "9": [
+          14
+        ],
+        "11": [
+          2,
+          4,
+          7,
+          11,
+          12,
+          13,
+          18
+        ],
+        "14": [
+          2,
+          3,
+          4,
+          8,
+          10
+        ],
+        "17": [
+          1,
+          13
+        ],
+        "21": [
+          25,
+          26,
+          32
+        ],
+        "10": []
+      },
+      "linkNames": [
+        "John the Baptizer"
+      ],
+      "chapterIds": [
+        3,
+        4,
+        9,
+        11,
+        14,
+        17,
+        21
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2491",
+        "key": "John",
+        "checkedVerses": 26,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰωάννης",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iōánnēs",
+        "languageNote": "This is the dictionary form of the name “John.”"
+      }
+    },
+    "peter": {
+      "name": "Simon Peter",
+      "role": "Fisherman who follows Jesus and speaks for the disciples",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Matthew 4:18–20; 8:14; 14:28–31; 16; 17; 18:21; 26"
+      ],
+      "importance": "He leaves his nets to follow Jesus. He walks on the water, then fears the wind and starts to sink. He calls Jesus the Christ, then rebukes him for speaking of death. In the high priest’s court he denies Jesus three times and weeps bitterly.",
+      "connections": "Andrew is his brother. Jesus heals his wife’s mother of a fever.",
+      "verseScope": {
+        "4": [
+          18
+        ],
+        "8": [
+          14
+        ],
+        "10": [
+          2
+        ],
+        "14": [
+          28,
+          29
+        ],
+        "15": [
+          15
+        ],
+        "16": [
+          16,
+          18,
+          22,
+          23
+        ],
+        "17": [
+          1,
+          4,
+          24,
+          26
+        ],
+        "18": [
+          21
+        ],
+        "19": [
+          27
+        ],
+        "26": [
+          33,
+          35,
+          37,
+          40,
+          58,
+          69,
+          73,
+          75
+        ]
+      },
+      "linkNames": [
+        "Peter",
+        "Simon Peter"
+      ],
+      "chapterIds": [
+        4,
+        8,
+        10,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        26
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4074",
+        "key": "Peter",
+        "checkedVerses": 24,
+        "example": [
+          4,
+          18
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πέτρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Pétros",
+        "languageNote": "This is the dictionary form of the name “Peter.”"
+      }
+    },
+    "mary-magdalene": {
+      "name": "Mary Magdalene",
+      "role": "Witness at the cross, burial, and opened tomb",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Matthew 27:56–61; 28:1–10"
+      ],
+      "importance": "She watches the cross from afar. She sits opposite the tomb with the other Mary. After the Sabbath an angel tells them that Jesus has risen. They run to tell the disciples and meet Jesus on the way.",
+      "connections": "She watches with Mary the mother of James and Joses. She is not Jesus’ mother.",
+      "verseScope": {
+        "27": [
+          56,
+          61
+        ],
+        "28": [
+          1
+        ]
+      },
+      "linkNames": [
+        "Mary Magdalene"
+      ],
+      "chapterIds": [
+        27,
+        28
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3137",
+        "key": "Mary",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          16
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μαρία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "María",
+        "languageNote": "This is the dictionary form of the name “Mary.”"
+      }
+    }
+  }
+}

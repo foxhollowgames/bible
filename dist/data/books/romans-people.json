@@ -1,0 +1,468 @@
+{
+  "featurePeople": {
+    "romans-1": [
+      "paul",
+      "jesus",
+      "david"
+    ],
+    "romans-2": [
+      "jesus"
+    ],
+    "romans-3": [
+      "jesus"
+    ],
+    "romans-4": [
+      "jesus",
+      "abraham",
+      "sarah",
+      "david"
+    ],
+    "romans-5": [
+      "jesus"
+    ],
+    "romans-6": [
+      "jesus"
+    ],
+    "romans-7": [
+      "jesus"
+    ],
+    "romans-8": [
+      "jesus"
+    ],
+    "romans-9": [
+      "jesus",
+      "abraham",
+      "sarah"
+    ],
+    "romans-10": [
+      "jesus"
+    ],
+    "romans-11": [
+      "jesus",
+      "abraham",
+      "david"
+    ],
+    "romans-12": [
+      "jesus"
+    ],
+    "romans-13": [
+      "jesus"
+    ],
+    "romans-14": [
+      "jesus"
+    ],
+    "romans-15": [
+      "paul",
+      "jesus"
+    ],
+    "romans-16": [
+      "paul",
+      "jesus",
+      "priscilla",
+      "aquila",
+      "phoebe",
+      "tertius",
+      "timothy"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Letter speaker who hopes to visit the Roman believers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 1–16"
+      ],
+      "importance": "He seeks encouragement from the believers as well as sharing his teaching.",
+      "connections": "His companions send greetings. Tertius names his own writing role.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "The one through whom Paul describes God’s gift and welcome",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 1–16"
+      ],
+      "importance": "His welcome supplies the pattern for receiving others across disputed practices.",
+      "connections": "Paul connects his death and resurrection with the believers’ changed life.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 68,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Ancestor whose trust comes before circumcision",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 4; 9; 11"
+      ],
+      "importance": "The order of promise and sign connects him with believers from different peoples.",
+      "connections": "Sarah shares the promised birth despite their old age.",
+      "verseScope": {},
+      "linkNames": [
+        "Abraham"
+      ],
+      "chapterIds": [
+        4,
+        9,
+        11
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G11",
+        "key": "Abraham",
+        "checkedVerses": 9,
+        "example": [
+          4,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀβραάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Abraám"
+      }
+    },
+    "sarah": {
+      "name": "Sarah",
+      "role": "Abraham’s wife whose condition makes the promised birth seem impossible",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 4:19; 9:9"
+      ],
+      "importance": "Her remembered condition makes the promise depend on God’s power rather than visible strength.",
+      "connections": "Paul connects her body with Abraham’s old age and God’s promise.",
+      "verseScope": {},
+      "linkNames": [
+        "Sarah"
+      ],
+      "chapterIds": [
+        4,
+        9
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4564",
+        "key": "Sarah",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          19
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σάῤῥα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sárrha"
+      }
+    },
+    "david": {
+      "name": "David",
+      "role": "Remembered king whose words Paul cites in his argument",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 1:3; 4:6–8; 11:9–10"
+      ],
+      "importance": "His cited words join earlier Scripture with the letter’s questions about mercy and failure.",
+      "connections": "Paul names Jesus as David’s descendant and cites David’s words about forgiveness.",
+      "verseScope": {},
+      "linkNames": [
+        "David"
+      ],
+      "chapterIds": [
+        1,
+        4,
+        11
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1138",
+        "key": "David",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Δαβίδ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Dabíd"
+      }
+    },
+    "priscilla": {
+      "name": "Prisca, also called Priscilla",
+      "role": "Worker whom Paul greets with Aquila",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 16:3–5"
+      ],
+      "importance": "Their household and risk show the personal help behind Paul’s wider teaching task.",
+      "connections": "Paul says they risked their lives for him. A church meets in their house.",
+      "verseScope": {},
+      "linkNames": [
+        "Prisca"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4251",
+        "key": "Prisca",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          3
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πρίσκα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Príska"
+      }
+    },
+    "aquila": {
+      "name": "Aquila",
+      "role": "Worker whom Paul greets with Prisca",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 16:3–5"
+      ],
+      "importance": "His shared work connects a household with the needs of a wider group of believers.",
+      "connections": "A church meets in their house. Paul and Gentile churches thank them.",
+      "verseScope": {},
+      "linkNames": [
+        "Aquila"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G207",
+        "key": "Aquila",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          3
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀκύλας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Akýlas"
+      }
+    },
+    "phoebe": {
+      "name": "Phoebe",
+      "role": "Servant or deacon of the church in Cenchreae",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 16:1–2"
+      ],
+      "importance": "Her previous help to many people supports Paul’s request for practical welcome.",
+      "connections": "Paul asks the Roman believers to welcome her and help with her needs.",
+      "verseScope": {},
+      "linkNames": [
+        "Phoebe"
+      ],
+      "chapterIds": [
+        16
+      ]
+    },
+    "tertius": {
+      "name": "Tertius",
+      "role": "Writer who adds his own greeting within Paul’s letter",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 16:22"
+      ],
+      "importance": "His named writing role makes another person’s contribution visible within the letter.",
+      "connections": "He greets the Roman believers alongside Paul’s other companions.",
+      "verseScope": {},
+      "linkNames": [
+        "Tertius"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5060",
+        "key": "Tertius",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          22
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τέρτιος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Tértios"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Worker who sends greetings with Paul’s companions",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Romans 16:21"
+      ],
+      "importance": "His greeting connects the letter’s readers with workers beyond Paul alone.",
+      "connections": "Lucius, Jason, and Sosipater also send greetings in the same verse.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          21
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    }
+  }
+}

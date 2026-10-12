@@ -1,0 +1,65 @@
+{
+  "book": {
+    "id": "isaiah",
+    "name": "Isaiah",
+    "bibleCode": "ISA",
+    "chapterCount": 66,
+    "chapterDigits": 2,
+    "timeline": { "start": -780, "end": -539, "default": -701 },
+    "verseLinks": "words",
+    "sourceNotes": "inline",
+    "placeCredits": [
+      { "label": "OpenBible.info", "url": "https://www.openbible.info/geo/" },
+      { "label": "OSM contributors", "url": "https://www.openstreetmap.org/copyright" }
+    ],
+    "mapLabels": [
+      { "label": "ASSYRIA", "className": "label-assyria" },
+      { "label": "JUDAH", "className": "label-judah" }
+    ]
+  },
+  "chapterDateBands": [
+    { "from": 1, "to": 5, "label": "~740 - 680 BCE" },
+    { "from": 6, "to": 6, "label": "~742 - 734 BCE" },
+    { "from": 7, "to": 8, "label": "~735 - 732 BCE" },
+    { "from": 9, "to": 12, "label": "~740 - 680 BCE" },
+    { "from": 13, "to": 14, "label": "~625 - 539 BCE" },
+    { "from": 15, "to": 19, "label": "~740 - 600 BCE" },
+    { "from": 20, "to": 20, "label": "~711 BCE" },
+    { "from": 21, "to": 23, "label": "~740 - 680 BCE" },
+    { "from": 24, "to": 27, "label": "~500 - 400 BCE" },
+    { "from": 28, "to": 33, "label": "~715 - 701 BCE" },
+    { "from": 34, "to": 35, "label": "~550 - 539 BCE" },
+    { "from": 36, "to": 36, "label": "~701 BCE" },
+    { "from": 37, "to": 37, "label": "~701 - 681 BCE" },
+    { "from": 38, "to": 38, "label": "~715 - 701 BCE" },
+    { "from": 39, "to": 39, "label": "~704 - 703 BCE" },
+    { "from": 40, "to": 55, "label": "~550 - 539 BCE" },
+    { "from": 56, "to": 66, "label": "~539 - 450 BCE" }
+  ],
+  "sourceGroups": [
+    {
+      "id": "sennacherib-prism",
+      "title": "Sennacherib’s Prism",
+      "description": "Museum records, a free scholarly edition, and a public-domain photograph. Compare the royal account with Isaiah 36–37."
+    },
+    {
+      "id": "opening-isaiah",
+      "title": "Opening Isaiah: A Harmony",
+      "description": "Public sample, publisher information, and author interviews. Ann N. Madsen and Shon D. Hopkin’s study aid is separate from official Church teaching."
+    },
+    {
+      "id": "conference-year",
+      "title": "General conference · past year",
+      "description": [
+        "We checked 72 talks from October 2025 and April 2026. We found {count} talks that name Isaiah or cite his words. We may not have found hints that do not name him.",
+        "Each talk links to the chapter it uses. The questions are original study prompts."
+      ],
+      "parts": ["April 2026", "October 2025"]
+    },
+    {
+      "id": "mcclellan",
+      "title": "Dan McClellan and his sources",
+      "description": "This group has four videos and five works used in them. Each note says what we checked. It also says what the source cannot prove. The video about who wrote Isaiah links to chapter 39. The other videos help with the whole book."
+    }
+  ]
+}

@@ -1,91 +1,30 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Study all 66 chapters of Isaiah through scripture, historical context, geography, language notes, and an optional Latter-day Saint reading layer.">
-  <meta name="theme-color" content="#04192d"><meta name="color-scheme" content="dark">
-  <meta property="og:type" content="website"><meta property="og:title" content="Isaiah Study Guide">
-  <meta property="og:description" content="A map-first guide to all 66 chapters of Isaiah.">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#04192d"><title>Bible Wayfinder</title>
+  <!-- share -->
+  <meta name="description" content="Map-first study guides for all 66 books of the Bible.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bible Wayfinder">
+  <meta property="og:title" content="Bible Wayfinder">
+  <meta property="og:description" content="Map-first study guides for all 66 books of the Bible.">
   <meta property="og:url" content="https://isaiah.josephnewelldesign.com/">
-  <meta property="og:site_name" content="Isaiah Study Guide">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://isaiah.josephnewelldesign.com/assets/isaiah-share-v1.png">
-  <meta property="og:image:secure_url" content="https://isaiah.josephnewelldesign.com/assets/isaiah-share-v1.png">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:image" content="https://isaiah.josephnewelldesign.com/assets/share/site.jpg">
+  <meta property="og:image:secure_url" content="https://isaiah.josephnewelldesign.com/assets/share/site.jpg">
+  <meta property="og:image:type" content="image/jpeg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Isaiah Study Guide. Explore all 66 chapters through scripture, maps, and historical context.">
+  <meta property="og:image:alt" content="Bible Wayfinder. Map-first study guides for all 66 books of the Bible.">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Isaiah Study Guide">
-  <meta name="twitter:description" content="A map-first guide to all 66 chapters of Isaiah.">
-  <meta name="twitter:image" content="https://isaiah.josephnewelldesign.com/assets/isaiah-share-v1.png">
-  <meta name="twitter:image:alt" content="Isaiah Study Guide. Explore all 66 chapters through scripture, maps, and historical context.">
+  <meta name="twitter:title" content="Bible Wayfinder">
+  <meta name="twitter:description" content="Map-first study guides for all 66 books of the Bible.">
+  <meta name="twitter:image" content="https://isaiah.josephnewelldesign.com/assets/share/site.jpg">
+  <meta name="twitter:image:alt" content="Bible Wayfinder. Map-first study guides for all 66 books of the Bible.">
   <link rel="canonical" href="https://isaiah.josephnewelldesign.com/">
-  <title>Isaiah Study Guide</title>
-  <link rel="icon" href="favicon.ico" sizes="32x32">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
-  <link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css?v=20261011.1">
-  <link rel="preload" as="image" type="image/webp" href="assets/relief.webp">
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to study content</a>
-  <div class="app-shell" id="app">
-    <header class="topbar">
-      <a class="brand" href="#" aria-label="Isaiah Study Guide home"><span class="compass" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" focusable="false"><path fill="currentColor" d="M12 0C14 8 16 10 24 12C16 14 14 16 12 24C10 16 8 14 0 12C8 10 10 8 12 0Z"/></svg></span><b>ISAIAH<small>STUDY GUIDE</small></b></a>
-      <a class="bible-directory-link" href="books.html">Bible books</a>
-      <div class="settings-menu" id="settingsMenu">
-        <button id="settingsButton" class="settings-button" aria-label="Open menu" aria-expanded="false" aria-controls="settingsPanel"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
-        <section id="settingsPanel" class="settings-panel" aria-labelledby="settingsHeading" hidden>
-          <h2 id="settingsHeading">Menu</h2>
-          <fieldset><legend>Study mode</legend><div class="segmented study-mode"><button type="button" data-study-mode="read" class="active" aria-pressed="true" aria-controls="scriptureSidebar">Read</button><button type="button" data-study-mode="map" aria-pressed="false" aria-controls="mapView">Map</button></div></fieldset>
-          <fieldset><legend>Study perspective</legend><div class="segmented perspective"><button data-perspective="historical" class="active" aria-pressed="true">Historical</button><button data-perspective="lds" aria-pressed="false">LDS</button></div></fieldset>
-          <label class="portrait-setting"><input id="nonGeneratedPortraits" type="checkbox" role="switch" aria-describedby="portraitSettingHelp"><span>Use non-generated portraits</span></label>
-          <p id="portraitSettingHelp">Use old art when we have a free copy.</p>
-          <button id="libraryButton" class="source-details-button" type="button">Open source library</button>
-        </section>
-      </div>
-    </header>
-    <main id="main">
-      <section class="map-view view active" id="mapView" aria-label="Map study">
-        <aside class="scripture-sidebar" id="scriptureSidebar"><div id="sidebarContent" class="sidebar-content"></div>
-        <div id="scriptureResize" class="scripture-resize" role="separator" tabindex="0" aria-label="Resize scripture panel" aria-controls="scriptureSidebar" aria-orientation="vertical" aria-valuemin="280" aria-valuemax="720" aria-valuenow="432"></div>
-        </aside>
-        <section class="map-workspace">
-          <div class="map-stage"><div id="map" aria-label="Historical map"></div><div class="map-veil"></div>
-            <aside class="layers panel" aria-label="Map layers"><button class="layer-heading" id="layerToggle" aria-expanded="true" aria-controls="layerOptions">Map layers <svg class="layer-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></button><div id="layerOptions"></div><div id="factionLegend" class="faction-legend" aria-label="Visible kingdoms"></div><p class="map-note">Arrows show travel direction.</p><p class="map-coverage-key"><span aria-hidden="true"></span>Gray areas are outside the study map.</p></aside>
-            <button class="map-recenter" id="recenterMap" data-action="focus-chapter" hidden>Recenter</button>
-            <section class="context-card panel hidden" id="contextCard" aria-live="polite"></section>
-            <section class="tour-drawer panel hidden" id="tourDrawer" aria-live="polite"></section>
-            <div class="map-labels" aria-hidden="true"><span class="map-label label-assyria">ASSYRIA</span><span class="map-label label-judah">JUDAH</span><span class="map-label label-sea">Mediterranean<br>Sea</span></div>
-          </div>
-          <!-- Map mode uses the timeline instead of the scripture panel. -->
-          <section class="timeline" aria-label="Historical timeline" hidden><div class="timeline-header"><div class="timeline-date"><span id="timelineChapter" class="eyebrow"></span><output id="dateLabel" for="timelineRange" aria-describedby="timelineChapter"></output></div><button class="text-button hidden" id="returnPassage">Return to passage</button></div><input id="timelineRange" type="range" min="-780" max="-539" step="1" aria-label="Historical date"><div class="periods" id="periods"></div><div id="timelineTooltip" class="timeline-tooltip" role="tooltip" hidden></div></section>
-        </section>
-      </section>
-    </main>
-    <footer class="site-footer">Map lines and places may not be exact. We use the best facts we have. <span aria-hidden="true">·</span> <span id="portraitAttribution">The portraits are art. We do not know how these people looked.</span> <span aria-hidden="true">·</span> <span id="scriptureAttribution">World English Bible · Public domain</span></footer>
-    <div id="toast" role="status" class="toast hidden"></div>
-    <dialog id="libraryDialog"><button class="dialog-close" aria-label="Close source library">×</button><div id="libraryContent"></div></dialog>
-    <dialog id="sourceDialog" aria-labelledby="sourceDialogTitle"><button class="dialog-close" aria-label="Close source details">×</button><div id="sourceContent"></div></dialog>
-  </div>
-  <section id="localLaunchHelp" hidden style="max-width:620px;margin:12vh auto;padding:28px;line-height:1.6">
-    <h1>Open Isaiah Study Guide through its local server</h1>
-    <p>The map will not work if you open this file by itself.</p>
-    <p>Open the Isaiah Study Guide folder. Double-click <strong>Start Isaiah Study Guide.cmd</strong>. Keep that window open while you study.</p>
-    <p><a href="http://127.0.0.1:4173/" style="color:#92e5ff">Open Isaiah Study Guide</a></p>
-    <p>If the server is already running, use the link above.</p>
-  </section>
-  <script src="vendor/leaflet.js"></script>
-  <script>
-    if (location.protocol === 'file:') {
-      document.getElementById('app').style.display = 'none';
-      document.getElementById('localLaunchHelp').hidden = false;
-    } else {
-      const appScript = document.createElement('script');
-      appScript.type = 'module';
-      appScript.src = 'app.js?v=20261011.1';
-      document.body.append(appScript);
-    }
-  </script>
-</body></html>
+  <!-- /share -->
+<script>
+  // Earlier Isaiah links used this address with a chapter in the hash. Send them to the Isaiah guide.
+  if (/(?:^#|&)chapter=\d/.test(location.hash)) location.replace('isaiah.html' + location.hash);
+</script><link rel="icon" href="favicon.ico" sizes="32x32"><link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180"><link rel="stylesheet" href="bible.css?v=20261011.3"></head>
+<body class="directory-page"><a class="skip" href="#main">Skip to books</a><header class="bible-header"><a class="bible-brand" href="./">BIBLE <span>WAYFINDER</span></a></header>
+<main id="main" class="directory-main"><div class="directory-intro"><p class="eyebrow">SCRIPTURE · PEOPLE · PLACES</p><h1>Choose a book.</h1></div>
+<p id="directoryStatus" role="status" class="muted" hidden></p><div id="bookGroups"></div></main><script type="module" src="books.js?v=20261011.3"></script></body></html>

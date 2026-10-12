@@ -4,14 +4,14 @@
     "name": "Genesis",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=genesis"
+    "url": "genesis.html"
   },
   {
     "id": "exodus",
     "name": "Exodus",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=exodus",
+    "url": "exodus.html",
     "description": "Deliverance · covenant · law · sacred worship"
   },
   {
@@ -19,7 +19,7 @@
     "name": "Leviticus",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=leviticus",
+    "url": "leviticus.html",
     "description": "Offerings · priestly service · holiness · justice"
   },
   {
@@ -27,7 +27,7 @@
     "name": "Numbers",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=numbers",
+    "url": "numbers.html",
     "description": "Wilderness · leadership · covenant · inheritance"
   },
   {
@@ -35,7 +35,7 @@
     "name": "Deuteronomy",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=deuteronomy",
+    "url": "deuteronomy.html",
     "description": "Remembrance · covenant · law · succession"
   },
   {
@@ -43,7 +43,7 @@
     "name": "Joshua",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=joshua",
+    "url": "joshua.html",
     "description": "Crossing · campaigns · inheritance · covenant"
   },
   {
@@ -51,7 +51,7 @@
     "name": "Judges",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=judges",
+    "url": "judges.html",
     "description": "Deliverers · disputed power · faith · social collapse"
   },
   {
@@ -59,7 +59,7 @@
     "name": "Ruth",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=ruth",
+    "url": "ruth.html",
     "description": "Loss · loyalty · gleaning · family redemption"
   },
   {
@@ -67,7 +67,7 @@
     "name": "1 Samuel",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=1-samuel",
+    "url": "1-samuel.html",
     "description": "Hannah · Samuel · Saul · David · the rise of kingship"
   },
   {
@@ -75,7 +75,7 @@
     "name": "2 Samuel",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=2-samuel",
+    "url": "2-samuel.html",
     "description": "David’s kingdom · Nathan · Bathsheba · Tamar · Absalom · Rizpah"
   },
   {
@@ -83,7 +83,7 @@
     "name": "1 Kings",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=1-kings",
+    "url": "1-kings.html",
     "description": "Solomon · temple · divided kingdoms · Elijah · Naboth · Micaiah"
   },
   {
@@ -91,7 +91,7 @@
     "name": "2 Kings",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=2-kings",
+    "url": "2-kings.html",
     "description": "Elisha · royal succession · Samaria · Hezekiah · Josiah · exile"
   },
   {
@@ -99,7 +99,7 @@
     "name": "1 Chronicles",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=1-chronicles",
+    "url": "1-chronicles.html",
     "description": "Genealogies · David · the ark · temple preparations · worship service"
   },
   {
@@ -107,7 +107,7 @@
     "name": "2 Chronicles",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=2-chronicles",
+    "url": "2-chronicles.html",
     "description": "Solomon’s temple · Judah’s kings · reform · exile · return"
   },
   {
@@ -115,7 +115,7 @@
     "name": "Ezra",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=ezra",
+    "url": "ezra.html",
     "description": "Return · temple rebuilding · God’s law · families"
   },
   {
@@ -123,7 +123,7 @@
     "name": "Nehemiah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=nehemiah",
+    "url": "nehemiah.html",
     "description": "Walls · family debts · God’s law · daily worship"
   },
   {
@@ -131,7 +131,7 @@
     "name": "Esther",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=esther",
+    "url": "esther.html",
     "description": "Palace choices · danger · courage · Purim"
   },
   {
@@ -139,7 +139,7 @@
     "name": "Job",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=job",
+    "url": "job.html",
     "description": "Loss · disputed blame · questions · renewed life"
   },
   {
@@ -147,7 +147,7 @@
     "name": "Psalms",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=psalms",
+    "url": "psalms.html",
     "description": "Prayer · praise · grief · remembered rescue"
   },
   {
@@ -155,7 +155,7 @@
     "name": "Proverbs",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=proverbs",
+    "url": "proverbs.html",
     "description": "Wisdom · honest work · careful speech · fair conduct"
   },
   {
@@ -163,7 +163,7 @@
     "name": "Ecclesiastes",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=ecclesiastes",
+    "url": "ecclesiastes.html",
     "description": "Work · passing time · injustice · daily joy"
   },
   {
@@ -171,7 +171,7 @@
     "name": "Song of Solomon",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=song-of-solomon",
+    "url": "song-of-solomon.html",
     "description": "Love poems · night searches · family voices"
   },
   {
@@ -179,14 +179,14 @@
     "name": "Isaiah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "./"
+    "url": "isaiah.html"
   },
   {
     "id": "jeremiah",
     "name": "Jeremiah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=jeremiah",
+    "url": "jeremiah.html",
     "description": "Warnings · competing prophets · Jerusalem’s fall · return"
   },
   {
@@ -194,7 +194,7 @@
     "name": "Lamentations",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=lamentations",
+    "url": "lamentations.html",
     "description": "Ruined Jerusalem · grief · mercy · unanswered prayer"
   },
   {
@@ -202,7 +202,7 @@
     "name": "Ezekiel",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=ezekiel",
+    "url": "ezekiel.html",
     "description": "Exile · visions · failed rulers · renewed life · divine presence"
   },
   {
@@ -210,7 +210,7 @@
     "name": "Daniel",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=daniel",
+    "url": "daniel.html",
     "description": "Court service · forced worship · prayer · visions · waiting"
   },
   {
@@ -218,7 +218,7 @@
     "name": "Hosea",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=hosea",
+    "url": "hosea.html",
     "description": "Broken belonging · failed rulers · remembered care · freely given love"
   },
   {
@@ -226,7 +226,7 @@
     "name": "Joel",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=joel",
+    "url": "joel.html",
     "description": "Crop disaster · shared prayer · restored life · judgment against traded people"
   },
   {
@@ -234,7 +234,7 @@
     "name": "Amos",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=amos",
+    "url": "amos.html",
     "description": "Public justice · honest trade · rejected worship · challenged speech · restored homes"
   },
   {
@@ -242,7 +242,7 @@
     "name": "Obadiah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=obadiah",
+    "url": "obadiah.html",
     "description": "Betrayed brotherhood · fleeing captives · repayment · restored belonging"
   },
   {
@@ -250,7 +250,7 @@
     "name": "Jonah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=jonah",
+    "url": "jonah.html",
     "description": "Flight · rescue · changed conduct · disputed mercy · an unanswered question"
   },
   {
@@ -258,7 +258,7 @@
     "name": "Micah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=micah",
+    "url": "micah.html",
     "description": "Seized homes · paid answers · peace · a shepherd · justice · mercy"
   },
   {
@@ -266,7 +266,7 @@
     "name": "Nahum",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=nahum",
+    "url": "nahum.html",
     "description": "Threatened power · refuge · ruined defenses · cruelty · abandoned people"
   },
   {
@@ -274,7 +274,7 @@
     "name": "Habakkuk",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=habakkuk",
+    "url": "habakkuk.html",
     "description": "Violence · a disputed answer · waiting · injured peoples · joy amid loss"
   },
   {
@@ -282,7 +282,7 @@
     "name": "Zephaniah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=zephaniah",
+    "url": "zephaniah.html",
     "description": "Indifference · threatened wealth · humility · proud cities · gathered outcasts"
   },
   {
@@ -290,7 +290,7 @@
     "name": "Haggai",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=haggai",
+    "url": "haggai.html",
     "description": "Private houses · shared work · a smaller temple · presence · promised blessing"
   },
   {
@@ -298,7 +298,7 @@
     "name": "Zechariah",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=zechariah",
+    "url": "zechariah.html",
     "description": "Night visions · restored service · justice · a lowly king · shepherds · holy daily life"
   },
   {
@@ -306,7 +306,7 @@
     "name": "Malachi",
     "testament": "Old Testament",
     "status": "ready",
-    "url": "book.html?book=malachi",
+    "url": "malachi.html",
     "description": "Doubted love · rejected offerings · fidelity · justice · changed hearts"
   },
   {
@@ -314,7 +314,7 @@
     "name": "Matthew",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=matthew",
+    "url": "matthew.html",
     "description": "Jesus · teaching · healing · disputed authority · cross · resurrection"
   },
   {
@@ -322,7 +322,7 @@
     "name": "Mark",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=mark",
+    "url": "mark.html",
     "description": "Hearing · healing · incomplete understanding · service · cross · resurrection"
   },
   {
@@ -330,7 +330,7 @@
     "name": "Luke",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=luke",
+    "url": "luke.html",
     "description": "Mercy · welcome · possessions · service · Jerusalem · resurrection"
   },
   {
@@ -338,7 +338,7 @@
     "name": "John",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=john",
+    "url": "john.html",
     "description": "Signs · testimony · life · love · cross · resurrection"
   },
   {
@@ -346,7 +346,7 @@
     "name": "Acts",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=acts",
+    "url": "acts.html",
     "description": "Witness · shared care · disputed belonging · travel · hearings"
   },
   {
@@ -354,7 +354,7 @@
     "name": "Romans",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=romans",
+    "url": "romans.html",
     "description": "Grace · shared belonging · Israel · changed conduct · welcome"
   },
   {
@@ -362,7 +362,7 @@
     "name": "1 Corinthians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=1-corinthians",
+    "url": "1-corinthians.html",
     "description": "Unity · freedom · shared meals · gifts · love · resurrection"
   },
   {
@@ -370,7 +370,7 @@
     "name": "2 Corinthians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=2-corinthians",
+    "url": "2-corinthians.html",
     "description": "Comfort · restored relationships · giving · weakness · disputed authority"
   },
   {
@@ -378,7 +378,7 @@
     "name": "Galatians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=galatians",
+    "url": "galatians.html",
     "description": "Promise · belonging · disputed meals · freedom · the Spirit"
   },
   {
@@ -386,7 +386,7 @@
     "name": "Ephesians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=ephesians",
+    "url": "ephesians.html",
     "description": "Grace · shared belonging · one body · household care · spiritual resistance"
   },
   {
@@ -394,7 +394,7 @@
     "name": "Philippians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=philippians",
+    "url": "philippians.html",
     "description": "Shared work · humility · costly service · joy · contentment"
   },
   {
@@ -402,7 +402,7 @@
     "name": "Colossians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=colossians",
+    "url": "colossians.html",
     "description": "Christ's fullness · received life · changed conduct · shared letters"
   },
   {
@@ -410,7 +410,7 @@
     "name": "1 Thessalonians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=1-thessalonians",
+    "url": "1-thessalonians.html",
     "description": "Shared work · remembered care · waiting · resurrection hope · alert conduct"
   },
   {
@@ -418,7 +418,7 @@
     "name": "2 Thessalonians",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=2-thessalonians",
+    "url": "2-thessalonians.html",
     "description": "Endurance · relief · tested messages · quiet work · correction"
   },
   {
@@ -426,7 +426,7 @@
     "name": "1 Timothy",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=1-timothy",
+    "url": "1-timothy.html",
     "description": "Teaching · prayer · tested care · visible conduct · family duties · generous use"
   },
   {
@@ -434,7 +434,7 @@
     "name": "2 Timothy",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=2-timothy",
+    "url": "2-timothy.html",
     "description": "Remembered faith · chains · patient correction · Scripture · departure"
   },
   {
@@ -442,7 +442,7 @@
     "name": "Titus",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=titus",
+    "url": "titus.html",
     "description": "Tested leaders · household care · grace · good work · shared support"
   },
   {
@@ -450,7 +450,7 @@
     "name": "Philemon",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=philemon",
+    "url": "philemon.html",
     "description": "Household assembly · affection · debt · partnership · reception as a brother"
   },
   {
@@ -458,7 +458,7 @@
     "name": "Hebrews",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=hebrews",
+    "url": "hebrews.html",
     "description": "The Son · shared suffering · priesthood · access · promises · endurance"
   },
   {
@@ -466,7 +466,7 @@
     "name": "James",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=james",
+    "url": "james.html",
     "description": "Wisdom · active faith · fair treatment · speech · shared care"
   },
   {
@@ -474,7 +474,7 @@
     "name": "1 Peter",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=1-peter",
+    "url": "1-peter.html",
     "description": "Living hope · shared belonging · unequal power · gentle witness · willing care"
   },
   {
@@ -482,7 +482,7 @@
     "name": "2 Peter",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=2-peter",
+    "url": "2-peter.html",
     "description": "Growing qualities · recalled rescue · corrupt promises · patient hope"
   },
   {
@@ -490,7 +490,7 @@
     "name": "1 John",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=1-john",
+    "url": "1-john.html",
     "description": "Shared witness · honest confession · practical love · careful testing · confidence"
   },
   {
@@ -498,7 +498,7 @@
     "name": "2 John",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=2-john",
+    "url": "2-john.html",
     "description": "Truth and love · received teaching · limits of welcome · shared joy"
   },
   {
@@ -506,7 +506,7 @@
     "name": "3 John",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=3-john",
+    "url": "3-john.html",
     "description": "Faithful welcome · shared support · disputed authority · personal testimony"
   },
   {
@@ -514,7 +514,7 @@
     "name": "Jude",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=jude",
+    "url": "jude.html",
     "description": "Urgent warning · failed promises · restrained speech · mercy · keeping power"
   },
   {
@@ -522,7 +522,7 @@
     "name": "Revelation",
     "testament": "New Testament",
     "status": "ready",
-    "url": "book.html?book=revelation",
+    "url": "revelation.html",
     "description": "Assembly messages · faithful witness · coercive power · judgment · renewed life"
   }
 ]

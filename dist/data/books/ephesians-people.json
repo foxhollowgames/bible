@@ -1,0 +1,151 @@
+{
+  "featurePeople": {
+    "ephesians-1": [
+      "paul",
+      "jesus"
+    ],
+    "ephesians-2": [
+      "jesus"
+    ],
+    "ephesians-3": [
+      "paul",
+      "jesus"
+    ],
+    "ephesians-4": [
+      "jesus"
+    ],
+    "ephesians-5": [
+      "jesus"
+    ],
+    "ephesians-6": [
+      "paul",
+      "jesus",
+      "tychicus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Prisoner of Christ Jesus who writes to the saints",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ephesians 1:1; 3:1; 6:19–22"
+      ],
+      "importance": "Paul writes to the saints at Ephesus and prays for them. He says he is a prisoner for the Gentiles. He asks them not to lose heart over his troubles. He asks them to pray that he speaks boldly in chains. He sends Tychicus with news.",
+      "connections": "He sends Tychicus to tell the readers his news and to comfort them.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        3,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord who makes Jews and Gentiles one body",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ephesians 1–6"
+      ],
+      "importance": "Paul says Christ broke down the wall between Jews and Gentiles. He made both one body through the cross. Paul calls him the head of the assembly. Paul tells readers to forgive as God forgave them in Christ.",
+      "connections": "Paul calls him the head of the assembly. He tells husbands to love as Christ loved the assembly.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 44,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "tychicus": {
+      "name": "Tychicus",
+      "role": "Messenger Paul sends to tell his news",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ephesians 6:21–22"
+      ],
+      "importance": "Paul sends Tychicus so the readers will know how he is doing. Tychicus will make known all things about Paul. He is also to comfort their hearts.",
+      "connections": "Paul calls him the beloved brother and faithful servant in the Lord.",
+      "verseScope": {},
+      "linkNames": [
+        "Tychicus"
+      ],
+      "chapterIds": [
+        6
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5190",
+        "key": "Tychicus",
+        "checkedVerses": 1,
+        "example": [
+          6,
+          21
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τυχικός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Tychikós"
+      }
+    }
+  }
+}

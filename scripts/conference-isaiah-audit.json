@@ -586,7 +586,8 @@
           "url": "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng&id=p18#p18",
           "contextUrl": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/55renlund?lang=eng#note20",
           "location": "Note 20",
-          "kind": "Named Isaiah reference through another scripture"
+          "kind": "Named Isaiah reference through another scripture",
+          "chapters": [61]
         }
       ]
     },

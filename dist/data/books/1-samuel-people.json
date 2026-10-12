@@ -1,0 +1,2426 @@
+{
+  "featurePeople": {
+    "1-samuel-1": [
+      "hannah",
+      "peninnah",
+      "elkanah",
+      "eli",
+      "samuel"
+    ],
+    "1-samuel-1-journey": [
+      "hannah",
+      "peninnah",
+      "elkanah",
+      "eli",
+      "samuel"
+    ],
+    "1-samuel-2": [
+      "hannah",
+      "elkanah",
+      "samuel",
+      "eli",
+      "hophni",
+      "phinehas-eli",
+      "man-of-god"
+    ],
+    "1-samuel-3": [
+      "samuel",
+      "eli"
+    ],
+    "1-samuel-4": [
+      "eli",
+      "hophni",
+      "phinehas-eli",
+      "ichabod",
+      "ichabod-mother"
+    ],
+    "1-samuel-4-journey": [
+      "eli",
+      "hophni",
+      "phinehas-eli",
+      "ichabod",
+      "ichabod-mother"
+    ],
+    "1-samuel-5": [],
+    "1-samuel-5-journey": [],
+    "1-samuel-6": [
+      "joshua-beth-shemesh"
+    ],
+    "1-samuel-6-journey": [
+      "joshua-beth-shemesh"
+    ],
+    "1-samuel-7": [
+      "samuel",
+      "abinadab-ark",
+      "eleazar-ark"
+    ],
+    "1-samuel-7-journey": [
+      "samuel",
+      "abinadab-ark",
+      "eleazar-ark"
+    ],
+    "1-samuel-8": [
+      "samuel",
+      "joel-samuel",
+      "abijah-samuel"
+    ],
+    "1-samuel-9": [
+      "saul",
+      "kish",
+      "samuel",
+      "saul-servant"
+    ],
+    "1-samuel-10": [
+      "samuel",
+      "saul",
+      "kish"
+    ],
+    "1-samuel-11": [
+      "saul",
+      "samuel",
+      "nahash"
+    ],
+    "1-samuel-11-journey": [
+      "saul",
+      "samuel",
+      "nahash"
+    ],
+    "1-samuel-12": [
+      "samuel",
+      "saul",
+      "nahash",
+      "moses",
+      "aaron",
+      "gideon",
+      "jephthah"
+    ],
+    "1-samuel-13": [
+      "saul",
+      "samuel",
+      "jonathan-saul"
+    ],
+    "1-samuel-14": [
+      "saul",
+      "jonathan-saul",
+      "jonathan-armor-bearer",
+      "ahijah-priest",
+      "abner",
+      "ahinoam-saul",
+      "merab",
+      "michal",
+      "ishvi",
+      "malchishua"
+    ],
+    "1-samuel-15": [
+      "saul",
+      "samuel",
+      "agag"
+    ],
+    "1-samuel-16": [
+      "samuel",
+      "jesse",
+      "david",
+      "eliab-david",
+      "abinadab-david",
+      "shammah",
+      "saul"
+    ],
+    "1-samuel-16-journey": [
+      "samuel",
+      "jesse",
+      "david",
+      "eliab-david",
+      "abinadab-david",
+      "shammah",
+      "saul"
+    ],
+    "1-samuel-17": [
+      "david",
+      "goliath",
+      "saul",
+      "jesse",
+      "eliab-david",
+      "abinadab-david",
+      "shammah",
+      "abner"
+    ],
+    "1-samuel-17-journey": [
+      "david",
+      "goliath",
+      "saul",
+      "jesse",
+      "eliab-david",
+      "abinadab-david",
+      "shammah",
+      "abner"
+    ],
+    "1-samuel-18": [
+      "david",
+      "jonathan-saul",
+      "saul",
+      "merab",
+      "michal",
+      "adriel"
+    ],
+    "1-samuel-19": [
+      "saul",
+      "david",
+      "jonathan-saul",
+      "michal",
+      "samuel"
+    ],
+    "1-samuel-19-journey": [
+      "saul",
+      "david",
+      "jonathan-saul",
+      "michal",
+      "samuel"
+    ],
+    "1-samuel-20": [
+      "david",
+      "jonathan-saul",
+      "saul",
+      "jonathan-boy"
+    ],
+    "1-samuel-21": [
+      "david",
+      "ahimelech-priest",
+      "doeg",
+      "achish",
+      "goliath"
+    ],
+    "1-samuel-21-journey": [
+      "david",
+      "ahimelech-priest",
+      "doeg",
+      "achish",
+      "goliath"
+    ],
+    "1-samuel-22": [
+      "david",
+      "jesse",
+      "gad",
+      "saul",
+      "doeg",
+      "ahimelech-priest",
+      "abiathar"
+    ],
+    "1-samuel-22-journey": [
+      "david",
+      "jesse",
+      "gad",
+      "saul",
+      "doeg",
+      "ahimelech-priest",
+      "abiathar"
+    ],
+    "1-samuel-23": [
+      "david",
+      "abiathar",
+      "saul",
+      "jonathan-saul"
+    ],
+    "1-samuel-23-journey": [
+      "david",
+      "abiathar",
+      "saul",
+      "jonathan-saul"
+    ],
+    "1-samuel-24": [
+      "david",
+      "saul"
+    ],
+    "1-samuel-25": [
+      "david",
+      "samuel",
+      "abigail",
+      "nabal",
+      "ahinoam-david",
+      "michal",
+      "palti"
+    ],
+    "1-samuel-26": [
+      "david",
+      "saul",
+      "abishai",
+      "ahimelech-hittite",
+      "abner"
+    ],
+    "1-samuel-27": [
+      "david",
+      "achish",
+      "abigail",
+      "ahinoam-david"
+    ],
+    "1-samuel-27-journey": [
+      "david",
+      "achish",
+      "abigail",
+      "ahinoam-david"
+    ],
+    "1-samuel-28": [
+      "saul",
+      "samuel",
+      "endor-medium",
+      "david",
+      "achish"
+    ],
+    "1-samuel-29": [
+      "david",
+      "achish"
+    ],
+    "1-samuel-29-journey": [
+      "david",
+      "achish"
+    ],
+    "1-samuel-30": [
+      "david",
+      "abigail",
+      "ahinoam-david",
+      "abiathar",
+      "egyptian-servant"
+    ],
+    "1-samuel-30-journey": [
+      "david",
+      "abigail",
+      "ahinoam-david",
+      "abiathar",
+      "egyptian-servant"
+    ],
+    "1-samuel-31": [
+      "saul",
+      "jonathan-saul",
+      "abinadab-saul",
+      "malchishua",
+      "saul-armor-bearer"
+    ],
+    "1-samuel-31-journey": [
+      "saul",
+      "jonathan-saul",
+      "abinadab-saul",
+      "malchishua",
+      "saul-armor-bearer"
+    ]
+  },
+  "people": {
+    "hannah": {
+      "name": "Hannah",
+      "role": "Mother who dedicates Samuel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ramah · broad locality",
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 1–2"
+      ],
+      "importance": "She has no children, and Peninnah provokes her each year at Shiloh. She weeps, prays, and vows to give a son to the LORD. Samuel is born, and she brings him to Eli once he is weaned. Then she prays a song of praise.",
+      "connections": "Wife of Elkanah. Mother of Samuel, then of three more sons and two daughters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2584",
+        "key": "Hannah",
+        "checkedVerses": 11,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "חַנָּה",
+        "transliteration": "Channâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "peninnah": {
+      "name": "Peninnah",
+      "role": "Elkanah’s other wife",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ramah · broad locality",
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 1"
+      ],
+      "importance": "She has children, and Hannah has none. Year after year she provokes Hannah on the trip to Shiloh. Hannah weeps and does not eat. The book does not name Peninnah after chapter 1.",
+      "connections": "Elkanah’s wife beside Hannah. She has sons and daughters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6444",
+        "key": "Peninnah",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "פְּנִנָּה",
+        "transliteration": "Pᵉninnâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "elkanah": {
+      "name": "Elkanah",
+      "role": "Husband who takes his family to Shiloh",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ramah · broad locality",
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 1–2"
+      ],
+      "importance": "He takes his family to Shiloh each year to worship and sacrifice. He gives Hannah a double portion and asks why she weeps. He agrees that she may keep Samuel home until he is weaned. Eli blesses him and Hannah in chapter 2.",
+      "connections": "Husband of Hannah and Peninnah. Father of Samuel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H511",
+        "key": "Elkanah",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "אֶלְקָנָה",
+        "transliteration": "ʼElqânâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "samuel": {
+      "name": "Samuel",
+      "role": "Prophet and judge who anoints kings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ramah · broad locality",
+        "Shiloh",
+        "Kiriath Jearim",
+        "Mizpah · proposed locality",
+        "Bethel",
+        "Gilgal · uncertain locality",
+        "Beersheba",
+        "Gibeah · proposed locality",
+        "Jabesh Gilead · broad locality",
+        "Michmash",
+        "Carmel in Judah",
+        "Bethlehem",
+        "Maon · broad locality",
+        "Shunem",
+        "Mount Gilboa · broad setting",
+        "Endor · broad locality"
+      ],
+      "passages": [
+        "1 Samuel 1–3; 7–16; 19; 25; 28"
+      ],
+      "importance": "As a boy he hears the LORD call and tells Eli the hard message. He judges Israel, prays at Mizpah, and warns the people about a king. He anoints Saul, later tells him the LORD has rejected him, and anoints David. He dies in chapter 25, yet Saul asks for him at Endor.",
+      "connections": "Son of Hannah and Elkanah. Father of Joel and Abijah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        19,
+        25,
+        28
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8050",
+        "key": "Samuel",
+        "checkedVerses": 109,
+        "example": [
+          1,
+          20
+        ],
+        "hebrew": "שְׁמוּאֵל",
+        "transliteration": "Shᵉmûwʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eli": {
+      "name": "Eli",
+      "role": "Priest and judge at Shiloh",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 1–4"
+      ],
+      "importance": "He thinks Hannah is drunk, then blesses her prayer. He scolds his sons but does not stop them. He teaches Samuel how to answer the LORD’s call. He falls and dies when he hears the ark is taken.",
+      "connections": "Father of Hophni and Phinehas. He raises the boy Samuel at Shiloh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5941",
+        "key": "Eli",
+        "checkedVerses": 29,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "עֵלִי",
+        "transliteration": "ʻÊlîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hophni": {
+      "name": "Hophni",
+      "role": "Eli’s son and priest at Shiloh",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh",
+        "Ebenezer battle area · uncertain"
+      ],
+      "passages": [
+        "1 Samuel 1–4"
+      ],
+      "importance": "He and Phinehas have their servant take meat from offerings by force. They sleep with the women who serve at the Tent of Meeting. They do not listen to Eli. Both die on the day the Philistines take the ark.",
+      "connections": "Son of Eli and brother of Phinehas.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2652",
+        "key": "Hophni",
+        "checkedVerses": 5,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "חׇפְנִי",
+        "transliteration": "Chophnîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "phinehas-eli": {
+      "name": "Phinehas",
+      "role": "Eli’s son and priest at Shiloh",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh",
+        "Ebenezer battle area · uncertain"
+      ],
+      "passages": [
+        "1 Samuel 1–4; 14:3"
+      ],
+      "importance": "He is not Aaron’s grandson of the same name. He and Hophni take offerings by force and do not listen to Eli. Both die on the day the ark is taken. His wife gives birth that day and dies.",
+      "connections": "Son of Eli and brother of Hophni. Father of Ichabod. Chapter 14 names Ahitub as Ichabod’s brother.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6372",
+        "key": "Phinehas",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "פִּינְחָס",
+        "transliteration": "Pîynᵉchâç",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "man-of-god": {
+      "name": "The unnamed man of God",
+      "role": "Unnamed messenger who warns Eli",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 2:27–36"
+      ],
+      "importance": "He comes to Eli with a message from the LORD. He says Eli honors his sons above the LORD. He says Hophni and Phinehas will die in one day as a sign. He says the LORD will raise up a faithful priest.",
+      "connections": "He speaks to Eli about Eli’s house and its priests.",
+      "verseScope": {},
+      "linkNames": [
+        "man of God"
+      ],
+      "chapterIds": [
+        2
+      ]
+    },
+    "ichabod": {
+      "name": "Ichabod",
+      "role": "Child born the day the ark is taken",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 4:19–22; 14:3"
+      ],
+      "importance": "He is born as his mother hears that the ark is taken. She names him Ichabod and says, “The glory has departed from Israel!” She dies about that time. Chapter 14 names him only as the brother of Ahitub.",
+      "connections": "Son of Phinehas and his unnamed wife. Grandson of Eli.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4,
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H350",
+        "key": "Ichabod",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          21
+        ],
+        "hebrew": "אִי־כָבוֹד",
+        "transliteration": "ʼÎy-kâbôwd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ichabod-mother": {
+      "name": "Ichabod’s mother",
+      "role": "Unnamed woman who dies after giving birth",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shiloh"
+      ],
+      "passages": [
+        "1 Samuel 4:19–22"
+      ],
+      "importance": "She hears that the ark is taken and that Eli and Phinehas are dead. Her pains come, and she gives birth to a son. She names him Ichabod and says the glory has departed from Israel. She dies about that time.",
+      "connections": "Wife of Phinehas and daughter-in-law of Eli.",
+      "verseScope": {},
+      "linkNames": [
+        "daughter-in-law"
+      ],
+      "chapterIds": [
+        4
+      ]
+    },
+    "joshua-beth-shemesh": {
+      "name": "Joshua",
+      "role": "Man of Beth Shemesh who owns the field",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Beth Shemesh"
+      ],
+      "passages": [
+        "1 Samuel 6:14,18"
+      ],
+      "importance": "He is not the Joshua who followed Moses. The cart with the ark stops in his field by a great stone. The people offer the cows there. The text tells nothing more about him.",
+      "connections": "The cart with the ark stops in his field.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3091",
+        "key": "Joshua",
+        "checkedVerses": 2,
+        "example": [
+          6,
+          14
+        ],
+        "hebrew": "יְהוֹשׁוּעַ",
+        "transliteration": "Yᵉhôwshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abinadab-ark": {
+      "name": "Abinadab",
+      "role": "Man whose house keeps the ark",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Kiriath Jearim"
+      ],
+      "passages": [
+        "1 Samuel 7:1"
+      ],
+      "importance": "The men of Kiriath Jearim bring the ark to his house on the hill. They set apart his son Eleazar to keep it. The ark stays twenty years. He is not David’s brother or Saul’s son of the same name.",
+      "connections": "Father of Eleazar, who is set apart to keep the ark.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H41",
+        "key": "Abinadab",
+        "checkedVerses": 4,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "אֲבִינָדָב",
+        "transliteration": "ʼĂbîynâdâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eleazar-ark": {
+      "name": "Eleazar",
+      "role": "Man set apart to keep the ark",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Kiriath Jearim"
+      ],
+      "passages": [
+        "1 Samuel 7:1"
+      ],
+      "importance": "He is not Aaron’s son Eleazar. The men of Kiriath Jearim set him apart to keep the ark. The ark stays in his father’s house on the hill. The text says nothing more about him.",
+      "connections": "Son of Abinadab at Kiriath Jearim.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H499",
+        "key": "Eleazar",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "אֶלְעָזָר",
+        "transliteration": "ʼElʻâzâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joel-samuel": {
+      "name": "Joel",
+      "role": "Samuel’s son, a judge who takes bribes",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Beersheba"
+      ],
+      "passages": [
+        "1 Samuel 8:1–3"
+      ],
+      "importance": "Samuel makes him a judge in Beersheba with his brother Abijah. The two take bribes and twist justice. The elders point to them when they ask Samuel for a king.",
+      "connections": "Samuel’s firstborn son. Brother of Abijah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3100",
+        "key": "Joel",
+        "checkedVerses": 1,
+        "example": [
+          8,
+          2
+        ],
+        "hebrew": "יוֹאֵל",
+        "transliteration": "Yôwʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abijah-samuel": {
+      "name": "Abijah",
+      "role": "Samuel’s son, a judge who takes bribes",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Beersheba"
+      ],
+      "passages": [
+        "1 Samuel 8:1–3"
+      ],
+      "importance": "Samuel makes him a judge in Beersheba with his brother Joel. The two take bribes and twist justice. The elders point to them when they ask for a king. He is not a king or priest named Abijah.",
+      "connections": "Samuel’s second son. Brother of Joel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H29",
+        "key": "Abijah",
+        "checkedVerses": 1,
+        "example": [
+          8,
+          2
+        ],
+        "hebrew": "אֲבִיָּה",
+        "transliteration": "ʼĂbîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "saul": {
+      "name": "Saul",
+      "role": "Israel’s first king",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ramah · broad locality",
+        "Mizpah · proposed locality",
+        "Gibeah · proposed locality",
+        "Jabesh Gilead · broad locality",
+        "Gilgal · uncertain locality",
+        "Michmash",
+        "Carmel in Judah",
+        "Bethlehem",
+        "Valley of Elah · broad setting",
+        "Gath · Tell es-Safi",
+        "Adullam · broad locality",
+        "Moab · broad region",
+        "Nob · uncertain locality",
+        "Keilah · proposed locality",
+        "Ziph · broad wilderness setting",
+        "Maon · broad locality",
+        "En Gedi",
+        "Shunem",
+        "Mount Gilboa · broad setting",
+        "Endor · broad locality",
+        "Beth Shan"
+      ],
+      "passages": [
+        "1 Samuel 9–31"
+      ],
+      "importance": "Samuel anoints him, and he rescues Jabesh Gilead. He offers at Gilgal and spares Agag, and Samuel says the LORD rejects him. He hunts David and has the priests of Nob killed. He falls on his sword at Mount Gilboa.",
+      "connections": "Son of Kish. Father of Jonathan, Merab, Michal, and other children.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7586",
+        "key": "Saul",
+        "checkedVerses": 241,
+        "example": [
+          9,
+          2
+        ],
+        "hebrew": "שָׁאוּל",
+        "transliteration": "Shâʼûwl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "kish": {
+      "name": "Kish",
+      "role": "Saul’s father",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 9–10; 14:51"
+      ],
+      "importance": "His donkeys are lost, and he sends Saul and a servant to find them. The search brings Saul to Samuel. Samuel says Kish has stopped caring about the donkeys and worries for Saul.",
+      "connections": "A man of Benjamin, son of Abiel. Father of Saul.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        10,
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7027",
+        "key": "Kish",
+        "checkedVerses": 5,
+        "example": [
+          9,
+          1
+        ],
+        "hebrew": "קִישׁ",
+        "transliteration": "Qîysh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "saul-servant": {
+      "name": "Saul’s searching companion",
+      "role": "Unnamed servant who says to ask the seer",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ramah · broad locality"
+      ],
+      "passages": [
+        "1 Samuel 9"
+      ],
+      "importance": "He and Saul search for the donkeys and do not find them. Saul wants to go home. The servant says a man of God is in the city. He offers his own silver as the gift, and they meet Samuel.",
+      "connections": "He goes with Saul to look for Kish’s donkeys.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9
+      ]
+    },
+    "nahash": {
+      "name": "Nahash",
+      "role": "Ammonite king who camps against Jabesh Gilead",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jabesh Gilead · broad locality"
+      ],
+      "passages": [
+        "1 Samuel 11; 12:12"
+      ],
+      "importance": "He camps against Jabesh Gilead and demands every right eye for a covenant. The elders get seven days and send for help. Saul comes and strikes the Ammonites. Samuel later says his attack made the people ask for a king.",
+      "connections": "Enemy of Jabesh Gilead. Saul’s army scatters his men.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11,
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5176",
+        "key": "Nahash",
+        "checkedVerses": 3,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "נָחָשׁ",
+        "transliteration": "Nâchâsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jonathan-saul": {
+      "name": "Jonathan",
+      "role": "Saul’s son, fighter, and David’s sworn friend",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Michmash",
+        "Gibeah · proposed locality",
+        "Gilgal · uncertain locality",
+        "Ramah · broad locality",
+        "Keilah · proposed locality",
+        "Ziph · broad wilderness setting",
+        "Maon · broad locality",
+        "Mount Gilboa · broad setting",
+        "Beth Shan",
+        "Jabesh Gilead · broad locality"
+      ],
+      "passages": [
+        "1 Samuel 13–14; 18–20; 23; 31"
+      ],
+      "importance": "He attacks a Philistine garrison with only his armor bearer, and Israel wins. He makes a covenant with David and gives him his robe and sword. He warns David that Saul means to kill him. He dies with Saul at Mount Gilboa.",
+      "connections": "Son of Saul. Brother of Merab and Michal. He makes a covenant with David.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        14,
+        18,
+        19,
+        20,
+        23,
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3083",
+        "key": "Jonathan",
+        "checkedVerses": 37,
+        "example": [
+          14,
+          6
+        ],
+        "hebrew": "יְהוֹנָתָן",
+        "transliteration": "Yᵉhôwnâthân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jonathan-armor-bearer": {
+      "name": "Jonathan’s armor bearer",
+      "role": "Unnamed young man who climbs with Jonathan",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Michmash"
+      ],
+      "passages": [
+        "1 Samuel 14:1–14"
+      ],
+      "importance": "Jonathan asks him to cross to the Philistine garrison. He says he is with Jonathan. He climbs up after Jonathan and kills the men Jonathan strikes down. The two kill about twenty men, and the Philistine camp trembles.",
+      "connections": "He goes with Jonathan, and Saul does not know.",
+      "verseScope": {},
+      "linkNames": [
+        "armor bearer"
+      ],
+      "chapterIds": [
+        14
+      ]
+    },
+    "ahijah-priest": {
+      "name": "Ahijah",
+      "role": "Priest who wears an ephod with Saul",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality",
+        "Michmash"
+      ],
+      "passages": [
+        "1 Samuel 14:3,18"
+      ],
+      "importance": "He is with Saul’s six hundred men at Gibeah and wears an ephod. Saul tells him to bring God’s ark. The noise in the Philistine camp grows, and Saul tells him to stop.",
+      "connections": "Son of Ahitub and grandson of Phinehas, from Eli’s house.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H281",
+        "key": "Ahijah",
+        "checkedVerses": 2,
+        "example": [
+          14,
+          3
+        ],
+        "hebrew": "אֲחִיָּה",
+        "transliteration": "ʼĂchîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abner": {
+      "name": "Abner",
+      "role": "Commander of Saul’s army",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Michmash",
+        "Gibeah · proposed locality",
+        "Bethlehem",
+        "Valley of Elah · broad setting",
+        "Gath · Tell es-Safi",
+        "Ziph · broad wilderness setting"
+      ],
+      "passages": [
+        "1 Samuel 14:50; 17:55–57; 20:25; 26"
+      ],
+      "importance": "He cannot tell Saul whose son David is, and he brings David in. He sits by Saul at the new moon meal. In chapter 26 he sleeps while David takes Saul’s spear. David calls out and blames him for not guarding the king.",
+      "connections": "Son of Ner. Ner and Saul’s father Kish are both sons of Abiel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        17,
+        20,
+        26
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H74",
+        "key": "Abner",
+        "checkedVerses": 9,
+        "example": [
+          14,
+          50
+        ],
+        "hebrew": "אַבְנֵר",
+        "transliteration": "ʼAbnêr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahinoam-saul": {
+      "name": "Ahinoam",
+      "role": "Saul’s wife",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 14:50"
+      ],
+      "importance": "Chapter 14 names her as Saul’s wife and the daughter of Ahimaaz. She has no story in the book. She is not David’s wife Ahinoam of Jezreel.",
+      "connections": "Daughter of Ahimaaz.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H293",
+        "key": "Ahinoam",
+        "checkedVerses": 4,
+        "example": [
+          14,
+          50
+        ],
+        "hebrew": "אֲחִינֹעַם",
+        "transliteration": "ʼĂchîynôʻam",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "merab": {
+      "name": "Merab",
+      "role": "Saul’s elder daughter",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 14:49; 18:17–19"
+      ],
+      "importance": "Saul offers her to David if David will fight the Philistines. Saul hopes the Philistines will kill him. When the time comes, Saul gives her to Adriel. The text records no words from her.",
+      "connections": "Saul’s firstborn daughter and Michal’s sister. She is given to Adriel as wife.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4764",
+        "key": "Merab",
+        "checkedVerses": 3,
+        "example": [
+          14,
+          49
+        ],
+        "hebrew": "מֵרָב",
+        "transliteration": "Mêrâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "michal": {
+      "name": "Michal",
+      "role": "Saul’s daughter who helps David escape",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 14:49; 18–19; 25:44"
+      ],
+      "importance": "She loves David, and Saul uses that to set a trap for him. She becomes David’s wife. She lets David down through a window and lays the teraphim in his bed. Saul later gives her to Palti.",
+      "connections": "Saul’s younger daughter. Wife of David, later given by Saul to Palti.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        18,
+        19,
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4324",
+        "key": "Michal",
+        "checkedVerses": 9,
+        "example": [
+          14,
+          49
+        ],
+        "hebrew": "מִיכָל",
+        "transliteration": "Mîykâl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ishvi": {
+      "name": "Ishvi",
+      "role": "Son named in the list of Saul’s family",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 14:49"
+      ],
+      "importance": "Chapter 14 lists him as a son of Saul with Jonathan and Malchishua. He has no story in the book. Chapter 31 names Abinadab with those two brothers and does not name Ishvi.",
+      "connections": "Named with Jonathan and Malchishua.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3440",
+        "key": "Ishvi",
+        "checkedVerses": 1,
+        "example": [
+          14,
+          49
+        ],
+        "hebrew": "יִשְׁוִי",
+        "transliteration": "Yishvîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "malchishua": {
+      "name": "Malchishua",
+      "role": "Saul’s son who dies at Gilboa",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Mount Gilboa · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 14:49; 31:2"
+      ],
+      "importance": "Chapter 14 lists him as a son of Saul. The Philistines kill him with Jonathan and Abinadab at Mount Gilboa. The men of Jabesh Gilead take the sons’ bodies from the wall. They bury the bones.",
+      "connections": "Son of Saul. Brother of Jonathan, and of Abinadab in chapter 31.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4444",
+        "key": "Malchishua",
+        "checkedVerses": 2,
+        "example": [
+          14,
+          49
+        ],
+        "hebrew": "מַלְכִּישׁוּעַ",
+        "transliteration": "Malkîyshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "agag": {
+      "name": "Agag",
+      "role": "Amalekite king Saul spares and Samuel kills",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gilgal · uncertain locality"
+      ],
+      "passages": [
+        "1 Samuel 15"
+      ],
+      "importance": "Saul takes him alive and spares him, against the LORD’s command. Samuel calls for him at Gilgal. Agag comes cheerfully and says the bitterness of death is past. Samuel cuts him in pieces before the LORD.",
+      "connections": "Saul’s captive after the attack on Amalek.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        15
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H90",
+        "key": "Agag",
+        "checkedVerses": 5,
+        "example": [
+          15,
+          8
+        ],
+        "hebrew": "אֲגַג",
+        "transliteration": "ʼĂgag",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eliab-david": {
+      "name": "Eliab",
+      "role": "Jesse’s oldest son",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Valley of Elah · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 16:6; 17:13,28"
+      ],
+      "importance": "Samuel sees him first and thinks he is the LORD’s anointed. The LORD says not to look at his height. He follows Saul to battle and angrily says David came only to watch. He is not the tribal leader Eliab in Numbers.",
+      "connections": "David’s older brother.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16,
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H446",
+        "key": "Eliab",
+        "checkedVerses": 3,
+        "example": [
+          16,
+          6
+        ],
+        "hebrew": "אֱלִיאָב",
+        "transliteration": "ʼĔlîyʼâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abinadab-david": {
+      "name": "Abinadab",
+      "role": "One of Jesse’s older sons",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Valley of Elah · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 16:8; 17:13"
+      ],
+      "importance": "Jesse has him pass before Samuel, and the LORD does not choose him. He follows Saul to the battle with Eliab and Shammah. He is not the ark’s host or Saul’s son of the same name.",
+      "connections": "Brother of David, Eliab, and Shammah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16,
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H41",
+        "key": "Abinadab",
+        "checkedVerses": 4,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "אֲבִינָדָב",
+        "transliteration": "ʼĂbîynâdâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shammah": {
+      "name": "Shammah",
+      "role": "One of Jesse’s older sons",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Valley of Elah · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 16:9; 17:13"
+      ],
+      "importance": "Jesse has him pass before Samuel, and the LORD does not choose him. He follows Saul to the battle with Eliab and Abinadab.",
+      "connections": "Brother of David, Eliab, and Abinadab.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16,
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8048",
+        "key": "Shammah",
+        "checkedVerses": 2,
+        "example": [
+          16,
+          9
+        ],
+        "hebrew": "שַׁמָּה",
+        "transliteration": "Shammâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "goliath": {
+      "name": "Goliath",
+      "role": "Philistine champion from Gath",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gath · Tell es-Safi",
+        "Valley of Elah · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 17; 21:9; 22:10"
+      ],
+      "importance": "He stands before Israel for forty days and calls for one man to fight. Saul and all Israel are afraid. David hits him in the forehead with a sling stone and cuts off his head. Later Ahimelech gives David his sword at Nob.",
+      "connections": "A Philistine from Gath. David fights him alone.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1555",
+        "key": "Goliath",
+        "checkedVerses": 4,
+        "example": [
+          17,
+          4
+        ],
+        "hebrew": "גׇּלְיַת",
+        "transliteration": "Golyath",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "adriel": {
+      "name": "Adriel",
+      "role": "Man who marries Merab",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Samuel 18:19"
+      ],
+      "importance": "Saul gives him Merab at the time she should have gone to David. The book says nothing more about him.",
+      "connections": "Called the Meholathite. Husband of Merab.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5741",
+        "key": "Adriel",
+        "checkedVerses": 1,
+        "example": [
+          18,
+          19
+        ],
+        "hebrew": "עַדְרִיאֵל",
+        "transliteration": "ʻAdrîyʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jonathan-boy": {
+      "name": "Jonathan’s young attendant",
+      "role": "Unnamed boy who fetches Jonathan’s arrows",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 20:35–40"
+      ],
+      "importance": "Jonathan shoots arrows and sends him to find them. Jonathan calls, “Isn’t the arrow beyond you?” That call tells David to flee. The boy knows nothing of the plan and carries the weapons to the city.",
+      "connections": "He serves Jonathan and carries his weapons.",
+      "verseScope": {},
+      "linkNames": [
+        "boy"
+      ],
+      "chapterIds": [
+        20
+      ]
+    },
+    "ahimelech-priest": {
+      "name": "Ahimelech",
+      "role": "Priest at Nob who helps David",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Nob · uncertain locality"
+      ],
+      "passages": [
+        "1 Samuel 21–22"
+      ],
+      "importance": "He trembles when David comes alone. He gives David holy bread and the sword of Goliath. Doeg reports it, and Saul has him and his father’s house killed. He is not Ahimelech the Hittite in chapter 26.",
+      "connections": "Son of Ahitub. Father of Abiathar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H288",
+        "key": "Ahimelech",
+        "checkedVerses": 11,
+        "example": [
+          21,
+          1
+        ],
+        "hebrew": "אֲחִימֶלֶךְ",
+        "transliteration": "ʼĂchîymelek",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "doeg": {
+      "name": "Doeg",
+      "role": "Saul’s Edomite herdsman who kills the priests",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Nob · uncertain locality",
+        "Gibeah · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 21–22"
+      ],
+      "importance": "He is at Nob the day Ahimelech helps David. He tells Saul what he saw. Saul’s guards will not strike the priests, so Doeg does. He kills eighty-five priests and strikes the city of Nob.",
+      "connections": "An Edomite, called the best of Saul’s herdsmen.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1673",
+        "key": "Doeg",
+        "checkedVerses": 4,
+        "example": [
+          21,
+          7
+        ],
+        "hebrew": "דֹּאֵג",
+        "transliteration": "Dôʼêg",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "achish": {
+      "name": "Achish",
+      "role": "King of Gath who hosts David",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gath · Tell es-Safi",
+        "Aphek · proposed locality"
+      ],
+      "passages": [
+        "1 Samuel 21; 27–29"
+      ],
+      "importance": "David first comes to him in fear and acts insane before him. Later he takes in David and six hundred men and gives him Ziklag. He believes David’s false reports about the raids. His princes distrust David, so he sends David back before the battle.",
+      "connections": "Son of Maoch. He gives David the town of Ziklag.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        21,
+        27,
+        28,
+        29
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H397",
+        "key": "Achish",
+        "checkedVerses": 18,
+        "example": [
+          21,
+          10
+        ],
+        "hebrew": "אֲכִישׁ",
+        "transliteration": "ʼĂkîysh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gad": {
+      "name": "Gad",
+      "role": "Prophet who tells David to leave the stronghold",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Moab · broad region"
+      ],
+      "passages": [
+        "1 Samuel 22:5"
+      ],
+      "importance": "He tells David not to stay in the stronghold and to go to Judah. David leaves and comes to the forest of Hereth. He is not Jacob’s son Gad or the tribe of Gad.",
+      "connections": "He speaks to David while David is in the stronghold.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1410",
+        "key": "Gad",
+        "checkedVerses": 2,
+        "example": [
+          13,
+          7
+        ],
+        "hebrew": "גָּד",
+        "transliteration": "Gâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abiathar": {
+      "name": "Abiathar",
+      "role": "Priest who escapes the killing at Nob",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Nob · uncertain locality",
+        "Keilah · proposed locality",
+        "Ziklag · uncertain locality"
+      ],
+      "passages": [
+        "1 Samuel 22–23; 30:7"
+      ],
+      "importance": "He escapes when Doeg kills the priests and flees to David. He tells David what Saul did, and David says to stay with him. He brings the ephod when David asks the LORD about Keilah. He brings it again at Ziklag.",
+      "connections": "Son of Ahimelech. He joins David and brings an ephod.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22,
+        23,
+        30
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H54",
+        "key": "Abiathar",
+        "checkedVerses": 6,
+        "example": [
+          22,
+          20
+        ],
+        "hebrew": "אֶבְיָתָר",
+        "transliteration": "ʼEbyâthâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abigail": {
+      "name": "Abigail",
+      "role": "Woman who stops David’s attack on Nabal",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Maon · broad locality",
+        "Carmel in Judah",
+        "Gath · Tell es-Safi",
+        "Ziklag · uncertain locality"
+      ],
+      "passages": [
+        "1 Samuel 25; 27:3; 30:5,18"
+      ],
+      "importance": "A servant tells her that Nabal insulted David’s men. She loads food on donkeys, meets David, and asks him not to shed blood. David turns back, and after Nabal dies she becomes his wife. The Amalekites take her from Ziklag, and David rescues her.",
+      "connections": "Wife of Nabal, then wife of David.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25,
+        27,
+        30
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H26",
+        "key": "Abigail",
+        "checkedVerses": 11,
+        "example": [
+          25,
+          3
+        ],
+        "hebrew": "אֲבִיגַיִל",
+        "transliteration": "ʼĂbîygayil",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nabal": {
+      "name": "Nabal",
+      "role": "Rich flock owner who refuses David’s request",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Maon · broad locality",
+        "Carmel in Judah"
+      ],
+      "passages": [
+        "1 Samuel 25"
+      ],
+      "importance": "David’s men protect his shepherds, then ask for food at shearing time. He insults them and gives nothing. David sets out to kill every male in his house, and Abigail stops him. Nabal hears of it, becomes like a stone, and dies about ten days later.",
+      "connections": "Husband of Abigail. He is of the house of Caleb.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5037",
+        "key": "Nabal",
+        "checkedVerses": 16,
+        "example": [
+          25,
+          3
+        ],
+        "hebrew": "נָבָל",
+        "transliteration": "Nâbâl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahinoam-david": {
+      "name": "Ahinoam",
+      "role": "David’s wife from Jezreel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gath · Tell es-Safi",
+        "Ziklag · uncertain locality"
+      ],
+      "passages": [
+        "1 Samuel 25:43; 27:3; 30:5,18"
+      ],
+      "importance": "David takes her as wife in chapter 25. She lives with him at Gath and then at Ziklag. The Amalekites carry her off, and David rescues her. She is not Saul’s wife Ahinoam.",
+      "connections": "Wife of David, named with Abigail. She is from Jezreel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25,
+        27,
+        30
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H293",
+        "key": "Ahinoam",
+        "checkedVerses": 4,
+        "example": [
+          14,
+          50
+        ],
+        "hebrew": "אֲחִינֹעַם",
+        "transliteration": "ʼĂchîynôʻam",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "palti": {
+      "name": "Palti",
+      "role": "Man to whom Saul gives Michal",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Samuel 25:44"
+      ],
+      "importance": "Saul gives him Michal, though she is David’s wife. The text gives no reason and no words from Palti or Michal.",
+      "connections": "Son of Laish, from Gallim.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6406",
+        "key": "Palti",
+        "checkedVerses": 1,
+        "example": [
+          25,
+          44
+        ],
+        "hebrew": "פַּלְטִי",
+        "transliteration": "Palṭîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abishai": {
+      "name": "Abishai",
+      "role": "David’s companion who goes into Saul’s camp",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ziph · broad wilderness setting"
+      ],
+      "passages": [
+        "1 Samuel 26:6–9"
+      ],
+      "importance": "He offers to go down with David into Saul’s camp at night. He asks to pin the sleeping Saul to the ground with one stroke. David says no one may strike the LORD’s anointed. They take Saul’s spear and water jar and leave.",
+      "connections": "Son of Zeruiah and brother of Joab.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        26
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H52",
+        "key": "Abishai",
+        "checkedVerses": 4,
+        "example": [
+          26,
+          6
+        ],
+        "hebrew": "אֲבִישַׁי",
+        "transliteration": "ʼĂbîyshay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahimelech-hittite": {
+      "name": "Ahimelech",
+      "role": "Hittite man David asks about the camp visit",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ziph · broad wilderness setting"
+      ],
+      "passages": [
+        "1 Samuel 26:6"
+      ],
+      "importance": "David asks him and Abishai who will go down to Saul’s camp. Abishai answers, and the text gives no answer from Ahimelech. He is not the priest Ahimelech of Nob.",
+      "connections": "Named with Abishai before the camp visit.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        26
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H288",
+        "key": "Ahimelech",
+        "checkedVerses": 11,
+        "example": [
+          21,
+          1
+        ],
+        "hebrew": "אֲחִימֶלֶךְ",
+        "transliteration": "ʼĂchîymelek",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "endor-medium": {
+      "name": "The woman at Endor",
+      "role": "Unnamed woman Saul asks to bring up Samuel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Endor · broad locality"
+      ],
+      "passages": [
+        "1 Samuel 28"
+      ],
+      "importance": "Saul comes at night and asks her to bring up Samuel. She fears a trap, because Saul drove such people from the land. She cries out when she sees Samuel and knows her guest is Saul. Afterward she urges Saul to eat and cooks a calf and bread.",
+      "connections": "Saul comes to her in disguise. She later feeds him and his servants.",
+      "verseScope": {},
+      "linkNames": [
+        "woman"
+      ],
+      "chapterIds": [
+        28
+      ]
+    },
+    "egyptian-servant": {
+      "name": "The Egyptian servant",
+      "role": "Sick Egyptian left behind who guides David",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Besor · broad stream region"
+      ],
+      "passages": [
+        "1 Samuel 30:11–16"
+      ],
+      "importance": "His Amalekite master leaves him sick in the field for three days. David’s men give him bread, water, figs, and raisins. He makes David swear not to kill him or hand him back. Then he leads David to the Amalekite camp.",
+      "connections": "Servant of an Amalekite who raided Ziklag.",
+      "verseScope": {},
+      "linkNames": [
+        "Egyptian"
+      ],
+      "chapterIds": [
+        30
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4713",
+        "key": "Egyptian",
+        "checkedVerses": 1,
+        "example": [
+          30,
+          11
+        ],
+        "hebrew": "מִצְרִי",
+        "transliteration": "Mitsrîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Egyptian.”"
+      }
+    },
+    "abinadab-saul": {
+      "name": "Abinadab",
+      "role": "Saul’s son who dies at Gilboa",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Mount Gilboa · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 31:2"
+      ],
+      "importance": "The Philistines kill him with Jonathan and Malchishua at Mount Gilboa. Chapter 14 does not list him among Saul’s sons. He is not David’s brother or the ark’s host.",
+      "connections": "Brother of Jonathan and Malchishua.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H41",
+        "key": "Abinadab",
+        "checkedVerses": 4,
+        "example": [
+          7,
+          1
+        ],
+        "hebrew": "אֲבִינָדָב",
+        "transliteration": "ʼĂbîynâdâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "saul-armor-bearer": {
+      "name": "Saul’s armor bearer",
+      "role": "Unnamed armor bearer at Saul’s last battle",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Mount Gilboa · broad setting"
+      ],
+      "passages": [
+        "1 Samuel 31:4–6"
+      ],
+      "importance": "The archers press Saul, and he asks his armor bearer to kill him. He is terrified and will not. Saul falls on his own sword, and the armor bearer does the same. He is not Jonathan’s armor bearer from chapter 14.",
+      "connections": "Serves Saul at Gilboa.",
+      "verseScope": {},
+      "linkNames": [
+        "armor bearer"
+      ],
+      "chapterIds": [
+        31
+      ]
+    },
+    "jesse": {
+      "name": "Jesse",
+      "role": "David’s father at Bethlehem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Moab · broad region"
+      ],
+      "passages": [
+        "1 Samuel 16–17; 22"
+      ],
+      "importance": "He has seven sons pass before Samuel, then sends for David from the sheep. He sends David to Saul with bread, wine, and a young goat. Later he sends David to the battle with food for his brothers. David takes him to the king of Moab for safety.",
+      "connections": "Father of David and seven other sons, among them Eliab, Abinadab, and Shammah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16,
+        17,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3448",
+        "key": "Jesse",
+        "checkedVerses": 24,
+        "example": [
+          16,
+          1
+        ],
+        "hebrew": "יִשַׁי",
+        "transliteration": "Yishay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "david": {
+      "name": "David",
+      "role": "Shepherd anointed king who flees from Saul",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Ramah · broad locality",
+        "Gibeah · proposed locality",
+        "Valley of Elah · broad setting",
+        "Gath · Tell es-Safi",
+        "Nob · uncertain locality",
+        "Adullam · broad locality",
+        "Moab · broad region",
+        "Keilah · proposed locality",
+        "Ziph · broad wilderness setting",
+        "Maon · broad locality",
+        "En Gedi",
+        "Carmel in Judah",
+        "Ziklag · uncertain locality",
+        "Shunem",
+        "Mount Gilboa · broad setting",
+        "Endor · broad locality",
+        "Aphek · proposed locality",
+        "Jezreel",
+        "Besor · broad stream region"
+      ],
+      "passages": [
+        "1 Samuel 16–31"
+      ],
+      "importance": "Samuel anoints him, and he plays the harp for Saul and kills Goliath. Saul tries to kill him, so he flees and gathers about six hundred men. Twice he spares Saul’s life. He lives under Achish, raids nearby peoples, leaves no one alive, and lies about it.",
+      "connections": "Son of Jesse. Sworn friend of Jonathan. Husband of Michal, Abigail, and Ahinoam.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1732",
+        "key": "David",
+        "checkedVerses": 231,
+        "example": [
+          16,
+          13
+        ],
+        "hebrew": "דָּוִד",
+        "transliteration": "Dâvid",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Prophet who leads Israel from Egypt",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Samuel 12"
+      ],
+      "importance": "Samuel says the LORD appointed Moses and Aaron. He says the LORD sent them to bring Israel’s fathers out of Egypt. Samuel uses this to show what the LORD has done for the people.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          6
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Moses’s brother and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Samuel 12"
+      ],
+      "importance": "Samuel names him with Moses in chapter 12. He says the LORD sent the two to bring Israel’s fathers out of Egypt. Aaron has no other part in this book.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          6
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gideon": {
+      "name": "Gideon",
+      "role": "Rescuer Samuel names as Jerubbaal",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Samuel 12"
+      ],
+      "importance": "Samuel lists Jerubbaal among the men the LORD sent to rescue Israel. Jerubbaal is another name for Gideon. He has no other part in this book.",
+      "connections": "Son of Joash and father of Abimelech and Jotham.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ]
+    },
+    "jephthah": {
+      "name": "Jephthah",
+      "role": "Rescuer Samuel names in his speech",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Samuel 12"
+      ],
+      "importance": "Samuel lists him among the men the LORD sent to rescue Israel. Samuel says the LORD was already their king then. Jephthah has no other part in this book.",
+      "connections": "Son of Gilead and a woman described as a prostitute. Father of one daughter.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3316",
+        "key": "Jephthah",
+        "checkedVerses": 1,
+        "example": [
+          12,
+          11
+        ],
+        "hebrew": "יִפְתָּח",
+        "transliteration": "Yiphtâch",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1065 @@
+{
+  "featurePeople": {
+    "exodus-1": [
+      "shiphrah",
+      "puah",
+      "pharaoh"
+    ],
+    "exodus-2": [
+      "moses",
+      "jochebed",
+      "miriam",
+      "pharaoh-daughter",
+      "zipporah",
+      "jethro"
+    ],
+    "exodus-2-journey": [
+      "moses",
+      "jochebed",
+      "miriam",
+      "pharaoh-daughter",
+      "zipporah",
+      "jethro"
+    ],
+    "exodus-3": [
+      "moses"
+    ],
+    "exodus-4": [
+      "moses",
+      "aaron",
+      "zipporah"
+    ],
+    "exodus-4-journey": [
+      "moses",
+      "aaron",
+      "zipporah"
+    ],
+    "exodus-5": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-6": [
+      "moses",
+      "aaron",
+      "amram",
+      "jochebed"
+    ],
+    "exodus-7": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-8": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-9": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-10": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-11": [
+      "moses",
+      "pharaoh"
+    ],
+    "exodus-12": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-12-journey": [
+      "moses",
+      "aaron",
+      "pharaoh"
+    ],
+    "exodus-13": [
+      "moses",
+      "joseph"
+    ],
+    "exodus-13-journey": [
+      "moses",
+      "joseph"
+    ],
+    "exodus-14": [
+      "moses",
+      "pharaoh"
+    ],
+    "exodus-15": [
+      "moses",
+      "miriam"
+    ],
+    "exodus-16": [
+      "moses",
+      "aaron"
+    ],
+    "exodus-17": [
+      "moses",
+      "aaron",
+      "joshua",
+      "hur"
+    ],
+    "exodus-18": [
+      "moses",
+      "jethro",
+      "zipporah"
+    ],
+    "exodus-19": [
+      "moses",
+      "aaron"
+    ],
+    "exodus-20": [
+      "moses"
+    ],
+    "exodus-21": [
+      "moses"
+    ],
+    "exodus-22": [
+      "moses"
+    ],
+    "exodus-23": [
+      "moses"
+    ],
+    "exodus-24": [
+      "moses",
+      "aaron",
+      "nadab",
+      "abihu",
+      "joshua"
+    ],
+    "exodus-25": [
+      "moses"
+    ],
+    "exodus-26": [
+      "moses"
+    ],
+    "exodus-27": [
+      "moses",
+      "aaron"
+    ],
+    "exodus-28": [
+      "moses",
+      "aaron",
+      "nadab",
+      "abihu",
+      "eleazar",
+      "ithamar"
+    ],
+    "exodus-29": [
+      "moses",
+      "aaron"
+    ],
+    "exodus-30": [
+      "moses",
+      "aaron"
+    ],
+    "exodus-31": [
+      "moses",
+      "bezalel",
+      "oholiab"
+    ],
+    "exodus-32": [
+      "moses",
+      "aaron",
+      "joshua"
+    ],
+    "exodus-33": [
+      "moses",
+      "joshua"
+    ],
+    "exodus-34": [
+      "moses"
+    ],
+    "exodus-35": [
+      "moses",
+      "bezalel",
+      "oholiab"
+    ],
+    "exodus-36": [
+      "bezalel",
+      "oholiab"
+    ],
+    "exodus-37": [
+      "bezalel"
+    ],
+    "exodus-38": [
+      "bezalel",
+      "oholiab",
+      "ithamar"
+    ],
+    "exodus-39": [
+      "moses",
+      "aaron",
+      "bezalel",
+      "oholiab"
+    ],
+    "exodus-40": [
+      "moses",
+      "aaron"
+    ]
+  },
+  "people": {
+    "moses": {
+      "name": "Moses",
+      "role": "Prophet who leads Israel from Egypt",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Midian",
+        "Horeb / Sinai tradition",
+        "Goshen / eastern delta",
+        "Rameses / eastern delta",
+        "Succoth / delta region",
+        "Etham / wilderness edge",
+        "Sea crossing / uncertain region",
+        "Marah / uncertain wilderness site",
+        "Elim / traditional region",
+        "Wilderness of Sin / traditional region",
+        "Rephidim / traditional region",
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 2–40"
+      ],
+      "importance": "His call begins the confrontation with Pharaoh. He later leads, intercedes, and receives covenant instructions.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 261,
+        "example": [
+          2,
+          10
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Moses's brother and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Midian",
+        "Egypt / Nile valley",
+        "Goshen / eastern delta",
+        "Rameses / eastern delta",
+        "Succoth / delta region",
+        "Wilderness of Sin / traditional region",
+        "Rephidim / traditional region",
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 4–40"
+      ],
+      "importance": "He speaks with Moses and serves in worship. His role in the calf episode also requires attention.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 109,
+        "example": [
+          4,
+          14
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "miriam": {
+      "name": "Miriam",
+      "role": "Prophetess and sister of Moses",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Midian",
+        "Marah / uncertain wilderness site",
+        "Elim / traditional region"
+      ],
+      "passages": [
+        "Exodus 15:20–21"
+      ],
+      "importance": "She leads women in song after deliverance. Her later story continues in Numbers.",
+      "connections": "Sister of Moses and Aaron. The watching sister in Exodus 2 is unnamed there.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        15
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4813",
+        "key": "Miriam",
+        "checkedVerses": 2,
+        "example": [
+          15,
+          20
+        ],
+        "hebrew": "מִרְיָם",
+        "transliteration": "Miryâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jochebed": {
+      "name": "Jochebed",
+      "role": "Mother of Moses and Aaron",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Midian"
+      ],
+      "passages": [
+        "Exodus 2; 6:20"
+      ],
+      "importance": "The family record names her. Exodus 2 describes the mother's actions to preserve Moses.",
+      "connections": "Wife of Amram. Member of Levi's family.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3115",
+        "key": "Jochebed",
+        "checkedVerses": 1,
+        "example": [
+          6,
+          20
+        ],
+        "hebrew": "יוֹכֶבֶד",
+        "transliteration": "Yôwkebed",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amram": {
+      "name": "Amram",
+      "role": "Father of Moses and Aaron",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley"
+      ],
+      "passages": [
+        "Exodus 6:18–20"
+      ],
+      "importance": "The family record links Moses and Aaron to Levi. Exodus records little direct action by Amram.",
+      "connections": "Husband of Jochebed. Descendant of Levi.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6019",
+        "key": "Amram",
+        "checkedVerses": 2,
+        "example": [
+          6,
+          18
+        ],
+        "hebrew": "עַמְרָם",
+        "transliteration": "ʻAmrâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "pharaoh-daughter": {
+      "name": "Pharaoh's daughter",
+      "role": "Unnamed Egyptian woman who adopts Moses",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Midian"
+      ],
+      "passages": [
+        "Exodus 2:5–10"
+      ],
+      "importance": "She recognizes a Hebrew child and protects him. Her choice saves Moses from the river.",
+      "connections": "Daughter of the ruler. Adoptive mother of Moses.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2
+      ]
+    },
+    "shiphrah": {
+      "name": "Shiphrah",
+      "role": "Midwife who protects Hebrew boys",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Rameses / eastern delta",
+        "Pithom / eastern delta"
+      ],
+      "passages": [
+        "Exodus 1:15–21"
+      ],
+      "importance": "She refuses the king's order to kill. Her action supports life under oppression.",
+      "connections": "Named alongside Puah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8236",
+        "key": "Shiphrah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          15
+        ],
+        "hebrew": "שִׁפְרָה",
+        "transliteration": "Shiphrâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "puah": {
+      "name": "Puah",
+      "role": "Midwife who resists the king's command",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Rameses / eastern delta",
+        "Pithom / eastern delta"
+      ],
+      "passages": [
+        "Exodus 1:15–21"
+      ],
+      "importance": "Her courage appears before Moses's public work. She protects children threatened by royal policy.",
+      "connections": "Named alongside Shiphrah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6326",
+        "key": "Puah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          15
+        ],
+        "hebrew": "פּוּעָה",
+        "transliteration": "Pûwʻâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zipporah": {
+      "name": "Zipporah",
+      "role": "Moses's wife",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Midian",
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 2; 4; 18"
+      ],
+      "importance": "She acts during the difficult circumcision episode. The short account leaves parts of the danger unexplained.",
+      "connections": "Daughter of Jethro. Mother of Gershom and Eliezer.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        4,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6855",
+        "key": "Zipporah",
+        "checkedVerses": 3,
+        "example": [
+          2,
+          21
+        ],
+        "hebrew": "צִפֹּרָה",
+        "transliteration": "Tsippôrâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jethro": {
+      "name": "Jethro",
+      "role": "Priest of Midian and Moses's father-in-law",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Midian",
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 2–4; 18"
+      ],
+      "importance": "He welcomes Moses and later gives practical counsel. Shared judging reduces the burden on one leader.",
+      "connections": "Father of Zipporah, Moses’s wife. Exodus also calls her father Reuel.",
+      "verseScope": {},
+      "linkNames": [
+        "Reuel"
+      ],
+      "chapterIds": [
+        2,
+        3,
+        4,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3503",
+        "key": "Jethro",
+        "checkedVerses": 8,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "יִתְרוֹ",
+        "transliteration": "Yithrôw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "pharaoh": {
+      "name": "Pharaoh",
+      "role": "Title of the Egyptian rulers in Exodus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt / Nile valley",
+        "Rameses / eastern delta",
+        "Pithom / eastern delta",
+        "Goshen / eastern delta",
+        "Succoth / delta region",
+        "Sea crossing / uncertain region"
+      ],
+      "passages": [
+        "Exodus 1–14"
+      ],
+      "importance": "The Egyptian king controls Israel's labor and refuses freedom. His decisions bring suffering to both peoples.",
+      "connections": "One ruler seeks Moses's death. A later ruler confronts Moses's demand.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6547",
+        "key": "Pharaoh",
+        "checkedVerses": 106,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "פַּרְעֹה",
+        "transliteration": "Parʻôh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joshua": {
+      "name": "Joshua",
+      "role": "Military leader and Moses's assistant",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Rephidim / traditional region",
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 17; 24; 32–33"
+      ],
+      "importance": "He leads the fight with Amalek and accompanies Moses. His service begins before his later leadership.",
+      "connections": "Son of Nun. He later leads Israel in the book of Joshua.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        24,
+        32,
+        33
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3091",
+        "key": "Joshua",
+        "checkedVerses": 7,
+        "example": [
+          17,
+          9
+        ],
+        "hebrew": "יְהוֹשׁוּעַ",
+        "transliteration": "Yᵉhôwshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hur": {
+      "name": "Hur",
+      "role": "Man who supports Moses during battle",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Rephidim / traditional region"
+      ],
+      "passages": [
+        "Exodus 17:10–12; 24:14"
+      ],
+      "importance": "Hur and Aaron hold up Moses’s hands during the battle. Moses needs their help.",
+      "connections": "He works with Aaron in Exodus 17. A Hur appears in Bezalel's family record.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2354",
+        "key": "Hur",
+        "checkedVerses": 6,
+        "example": [
+          17,
+          10
+        ],
+        "hebrew": "חוּר",
+        "transliteration": "Chûwr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "bezalel": {
+      "name": "Bezalel",
+      "role": "Skilled worker appointed for the sanctuary",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 31; 35–38"
+      ],
+      "importance": "His skill includes work in metal, stone, and wood. He directs the making of sacred furnishings.",
+      "connections": "Son of Uri. Grandson of Hur. Member of Judah's tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        31,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    "oholiab": {
+      "name": "Oholiab",
+      "role": "Skilled worker alongside Bezalel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 31; 35–38"
+      ],
+      "importance": "His work includes design and textiles. The sanctuary requires several kinds of skill.",
+      "connections": "Son of Ahisamach. Member of Dan's tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        31,
+        35,
+        36,
+        37,
+        38,
+        39
+      ]
+    },
+    "nadab": {
+      "name": "Nadab",
+      "role": "Son of Aaron who approaches Sinai",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 6; 24; 28"
+      ],
+      "importance": "Nadab joins Moses and the elders before God. Leviticus 10 tells about his death.",
+      "connections": "Son of Aaron. Brother of Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6,
+        24,
+        28
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5070",
+        "key": "Nadab",
+        "checkedVerses": 4,
+        "example": [
+          6,
+          23
+        ],
+        "hebrew": "נָדָב",
+        "transliteration": "Nâdâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abihu": {
+      "name": "Abihu",
+      "role": "Son of Aaron and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 6; 24; 28"
+      ],
+      "importance": "He appears at the covenant meal and among the priests. His later account belongs to Leviticus.",
+      "connections": "Son of Aaron. Brother of Nadab, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6,
+        24,
+        28
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H30",
+        "key": "Abihu",
+        "checkedVerses": 4,
+        "example": [
+          6,
+          23
+        ],
+        "hebrew": "אֲבִיהוּא",
+        "transliteration": "ʼĂbîyhûwʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eleazar": {
+      "name": "Eleazar",
+      "role": "Son of Aaron and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 6; 28"
+      ],
+      "importance": "The family and clothing lists name him. His later responsibilities develop in other books.",
+      "connections": "Brother of Nadab, Abihu, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6,
+        28
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H499",
+        "key": "Eleazar",
+        "checkedVerses": 3,
+        "example": [
+          6,
+          23
+        ],
+        "hebrew": "אֶלְעָזָר",
+        "transliteration": "ʼElʻâzâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ithamar": {
+      "name": "Ithamar",
+      "role": "Son of Aaron who oversees sanctuary accounts",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Exodus 6; 28; 38:21"
+      ],
+      "importance": "The materials account places him over the Levites' service. Worship includes accountable work.",
+      "connections": "Brother of Nadab, Abihu, and Eleazar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6,
+        28,
+        38
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H385",
+        "key": "Ithamar",
+        "checkedVerses": 3,
+        "example": [
+          6,
+          23
+        ],
+        "hebrew": "אִיתָמָר",
+        "transliteration": "ʼÎythâmâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joseph": {
+      "name": "Joseph",
+      "role": "Son sold into Egypt and later royal official",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Succoth / delta region",
+        "Etham / wilderness edge"
+      ],
+      "passages": [
+        "Genesis 30; 37–50"
+      ],
+      "importance": "He survives betrayal and false accusation. His later authority preserves the family during famine.",
+      "connections": "Son of Jacob and Rachel. Husband of Asenath. Father of Ephraim and Manasseh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3130",
+        "key": "Joseph",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          5
+        ],
+        "hebrew": "יוֹסֵף",
+        "transliteration": "Yôwçêph",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

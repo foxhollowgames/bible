@@ -1,0 +1,204 @@
+{
+  "featurePeople": {
+    "zechariah-1": [
+      "zechariah-prophet",
+      "darius-ezra"
+    ],
+    "zechariah-2": [
+      "zechariah-prophet"
+    ],
+    "zechariah-3": [
+      "zechariah-prophet",
+      "jeshua-priest"
+    ],
+    "zechariah-4": [
+      "zechariah-prophet",
+      "zerubbabel"
+    ],
+    "zechariah-5": [
+      "zechariah-prophet"
+    ],
+    "zechariah-6": [
+      "zechariah-prophet",
+      "jeshua-priest"
+    ],
+    "zechariah-7": [
+      "zechariah-prophet",
+      "darius-ezra"
+    ],
+    "zechariah-8": [
+      "zechariah-prophet"
+    ],
+    "zechariah-9": [],
+    "zechariah-10": [],
+    "zechariah-11": [],
+    "zechariah-12": [],
+    "zechariah-13": [],
+    "zechariah-14": []
+  },
+  "people": {
+    "zechariah-prophet": {
+      "name": "Zechariah, son of Berechiah",
+      "role": "Prophet named in the opening and dated messages",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Zechariah 1:1, 7; 7:1, 8"
+      ],
+      "importance": "His questions make the visions’ explanations part of the account rather than assumed knowledge.",
+      "connections": "The opening names Berechiah as his father and Iddo as his grandfather.",
+      "verseScope": {},
+      "linkNames": [
+        "Zechariah"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2148",
+        "key": "Zechariah",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "זְכַרְיָה",
+        "transliteration": "Zᵉkaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zerubbabel": {
+      "name": "Zerubbabel",
+      "role": "Governor addressed in the promise to finish the house",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Zechariah 4:6–10"
+      ],
+      "importance": "The same hands must lay the foundation and finish the work despite small beginnings.",
+      "connections": "He is the governor also addressed by Haggai during the rebuilding.",
+      "verseScope": {},
+      "linkNames": [
+        "Zerubbabel"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2216",
+        "key": "Zerubbabel",
+        "checkedVerses": 4,
+        "example": [
+          4,
+          6
+        ],
+        "hebrew": "זְרֻבָּבֶל",
+        "transliteration": "Zᵉrubbâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jeshua-priest": {
+      "name": "Joshua, son of Jehozadak",
+      "role": "High priest restored in one vision and crowned in another",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Zechariah 3; 6:11"
+      ],
+      "importance": "Changed clothing shows removed wrongdoing, while his future service still requires obedience.",
+      "connections": "He is Jehozadak’s son, the high priest also addressed in Haggai.",
+      "verseScope": {},
+      "linkNames": [
+        "Joshua"
+      ],
+      "chapterIds": [
+        3,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3091",
+        "key": "Joshua",
+        "checkedVerses": 6,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "יְהוֹשׁוּעַ",
+        "transliteration": "Yᵉhôwshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "darius-ezra": {
+      "name": "Darius, the Persian king",
+      "role": "Persian king whose regnal years date the opening messages",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Zechariah 1:1, 7; 7:1"
+      ],
+      "importance": "His second and fourth regnal years supply time references without dating the later visions.",
+      "connections": "He is the Persian king also named in Haggai and Ezra.",
+      "verseScope": {},
+      "linkNames": [
+        "Darius"
+      ],
+      "chapterIds": [
+        1,
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1867",
+        "key": "Darius",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "דָּֽרְיָוֵשׁ",
+        "transliteration": "Dârᵉyâvêsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "featurePeople": {
+    "jonah-1": [
+      "jonah"
+    ],
+    "jonah-2": [
+      "jonah"
+    ],
+    "jonah-3": [
+      "jonah"
+    ],
+    "jonah-4": [
+      "jonah"
+    ]
+  },
+  "people": {
+    "jonah": {
+      "name": "Jonah, son of Amittai",
+      "role": "Prophet who flees a command to address Nineveh",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Joppa",
+        "Nineveh"
+      ],
+      "passages": [
+        "Jonah 1–4"
+      ],
+      "importance": "He accepts rescue for himself but disputes God’s mercy toward the city.",
+      "connections": "He is Amittai’s son. Sailors try to save him before he speaks to Nineveh.",
+      "verseScope": {},
+      "linkNames": [
+        "Jonah"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3124",
+        "key": "Jonah",
+        "checkedVerses": 16,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יוֹנָה",
+        "transliteration": "Yôwnâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

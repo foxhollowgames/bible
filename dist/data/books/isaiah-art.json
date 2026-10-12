@@ -1,0 +1,230 @@
+{
+  "rezin": {
+    "src": "assets/portraits/rezin-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/rezin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:King_Rezin_as_he_is_protrayed_in_the_Liber_Chronicarum.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/King_Rezin_as_he_is_protrayed_in_the_Liber_Chronicarum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Michael Wolgemut",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "description": "King Rezin. Date: 1493. Object ID: RP-P-2016-49-30-8.",
+      "date": "1493",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "ahaz": {
+    "src": "assets/portraits/ahaz-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/ahaz.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahaz.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Ahaz.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Published by Guillaume Rouille (1518?-1589)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "Ahaz, king of Judah, the son and successor of Jotham",
+      "date": "1553",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "pekah": {
+    "src": "assets/portraits/pekah-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/pekah.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pekah.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pekah.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Guillaume Rouille",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "Pekah",
+      "date": "1553",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "remaliah": {
+    "src": "assets/portraits/remaliah-v2.png",
+    "generated": true
+  },
+  "uzziah": {
+    "src": "assets/portraits/uzziah-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/uzziah.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ozias-Uzziah.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Ozias-Uzziah.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Guillaume Rouille",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "Ozias-Uzziah",
+      "date": "1553",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "jotham": {
+    "src": "assets/portraits/jotham-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/jotham.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joatham_rex.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Joatham_rex.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Guillaume Rouille",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "Joatham rex",
+      "date": "1553",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "david": {
+    "src": "assets/portraits/david-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/david.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:King_David,_the_King_of_Israel.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/King_David%2C_the_King_of_Israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Gerard van Honthorst",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "",
+      "date": "1622date QS:P571,+1622-00-00T00:00:00Z/9",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "jesse": {
+    "src": "assets/portraits/jesse-v2.png",
+    "generated": true
+  },
+  "amoz": {
+    "src": "assets/portraits/amoz-v2.png",
+    "generated": true
+  },
+  "shear-jashub": {
+    "src": "assets/portraits/shear-jashub-v2.png",
+    "generated": true
+  },
+  "maher-shalal-hash-baz": {
+    "src": "assets/portraits/maher-shalal-hash-baz-v2.png",
+    "generated": true
+  },
+  "isaiah": {
+    "src": "assets/portraits/isaiah-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/isaiah.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jesaja_(Michelangelo).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Jesaja_%28Michelangelo%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Michelangelo",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "fresco painted by Michelangelo and his assistants for the Sistine Chapel in the Vatican between 1508 to 1512",
+      "date": "between 1508 and 1512date QS:P571,+1550-00-00T00:00:00Z/7,P1319,+1508-00-00T00:00:00Z/9,P1326,+1512-00-00T00:00:00Z/9",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "hezekiah": {
+    "src": "assets/portraits/hezekiah-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/hezekiah.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%85hus_kyrka-10.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/%C3%85hus_kyrka-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Unknown painter; photograph by David Castor",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "King Hezekiah of Judah from a 17th century painting by unknown artist in the choir of Sankta Maria kyrka in Åhus, Sweden.",
+      "date": "",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "sennacherib": {
+    "src": "assets/portraits/sennacherib-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/sennacherib.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanherib-tr-4271.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Sanherib-tr-4271.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Timo Roller",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "description": "Cast of a rock relief of Sennacherib from the foot of Cudi Dağı, near Cizre. The cast is exhibited in Landshut, Germany (src).",
+      "date": "2015-05-05",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "sargon-ii": {
+    "src": "assets/portraits/sargon-ii-v2.png",
+    "generated": true
+  },
+  "esarhaddon": {
+    "src": "assets/portraits/esarhaddon-v2.png",
+    "generated": true
+  },
+  "rabshakeh": {
+    "src": "assets/portraits/rabshakeh-v2.png",
+    "generated": true
+  },
+  "eliakim": {
+    "src": "assets/portraits/eliakim-v2.png",
+    "generated": true
+  },
+  "shebna": {
+    "src": "assets/portraits/shebna-v2.png",
+    "generated": true
+  },
+  "joah": {
+    "src": "assets/portraits/joah-v2.png",
+    "generated": true
+  },
+  "merodach-baladan": {
+    "src": "assets/portraits/merodach-baladan-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/merodach-baladan.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vorderasiatisches_Museum_Berlin_027.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Vorderasiatisches_Museum_Berlin_027.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Einsamer Schütze",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "Vorderasiatisches Museum (Near East Museum), Berlin. Kudurru of the babylonian king Marduk-apla-idinna II/Merodach-baladan.",
+      "date": "2011-06-28",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "nebuchadnezzar": {
+    "src": "assets/portraits/nebuchadnezzar-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/nebuchadnezzar.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nebuchadnezzar_II_crop.png",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Nebuchadnezzar_II_crop.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Unknown artist",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "description": "Etemenanki Babylon",
+      "date": "?",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  },
+  "nabopolassar": {
+    "src": "assets/portraits/nabopolassar-v2.png",
+    "generated": true
+  },
+  "cyrus": {
+    "src": "assets/portraits/cyrus-v2.png",
+    "generated": true,
+    "licensed": {
+      "src": "assets/portraits/commons/cyrus.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyrus_II_(The_Great)_(cropped).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cyrus_II_%28The_Great%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "credit": "Surenae",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Winged genius relief in Pasargadae",
+      "date": "Taken on 15 November 2022, 15:55:14",
+      "note": "Display uses a square crop. Historical art does not establish actual appearance."
+    }
+  }
+}

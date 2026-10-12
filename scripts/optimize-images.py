@@ -19,7 +19,8 @@ PORTRAIT_SIZES = {'-192': 192, '-480': 480, '': 960}
 PHOTO_LONG_SIDE = 1600
 # The map overlay keeps its measured resolution.
 FULL_SIZE = {'relief.png'}
-SKIPPED_FOLDERS = {'trailer'}
+# Share cards are for link previews. They need no WebP copies.
+SKIPPED_FOLDERS = {'share'}
 
 
 def plan(master):

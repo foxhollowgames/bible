@@ -1,0 +1,301 @@
+{
+  "featurePeople": {
+    "james-1": [
+      "james-letter",
+      "jesus"
+    ],
+    "james-2": [
+      "james-letter",
+      "jesus",
+      "abraham",
+      "isaac",
+      "rahab"
+    ],
+    "james-3": [
+      "james-letter"
+    ],
+    "james-4": [
+      "james-letter"
+    ],
+    "james-5": [
+      "james-letter",
+      "job",
+      "elijah"
+    ]
+  },
+  "people": {
+    "james-letter": {
+      "name": "James",
+      "role": "Servant of God and the Lord Jesus Christ",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 1, 2, 3, 4, 5"
+      ],
+      "importance": "James greets the twelve tribes in the Dispersion. He tells them to ask God for wisdom and to be doers of the word. He warns against favoring the rich and against careless speech. He tells the sick to call for the elders.",
+      "connections": "He writes to the twelve tribes in the Dispersion. He calls them brothers.",
+      "verseScope": {},
+      "linkNames": [
+        "James"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2385",
+        "key": "James",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰάκωβος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iákōbos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord Jesus Christ, our glorious Lord",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 1, 2"
+      ],
+      "importance": "James names him in the greeting. James says not to hold the faith of our glorious Lord with partiality (chapter 2). A man in fine clothing gets a good seat. A poor man is told to stand. James calls that partiality.",
+      "connections": "James calls himself a servant of God and of the Lord Jesus Christ.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Our father, called the friend of God",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 2"
+      ],
+      "importance": "James says Abraham offered up his son Isaac on the altar. Faith worked with his works. James quotes Scripture that Abraham believed God, and it was counted as righteousness. Abraham was called the friend of God.",
+      "connections": "James calls him our father. He ties his faith to his offering of Isaac.",
+      "verseScope": {},
+      "linkNames": [
+        "Abraham"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G11",
+        "key": "Abraham",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          21
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀβραάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Abraám"
+      }
+    },
+    "isaac": {
+      "name": "Isaac",
+      "role": "Abraham’s son, offered on the altar",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 2"
+      ],
+      "importance": "James names Isaac once. Abraham offered him up on the altar. James uses this act to show faith working with works.",
+      "connections": "James calls him Abraham’s son.",
+      "verseScope": {},
+      "linkNames": [
+        "Isaac"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2464",
+        "key": "Isaac",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          21
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰσαάκ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Isaák"
+      }
+    },
+    "rahab": {
+      "name": "Rahab",
+      "role": "Woman called a prostitute, who received the messengers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 2"
+      ],
+      "importance": "James calls her Rahab the prostitute. She received the messengers and sent them out another way. James says she was justified by works, as Abraham was.",
+      "connections": "James places her after Abraham as a second example.",
+      "verseScope": {},
+      "linkNames": [
+        "Rahab"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4460",
+        "key": "Rahab",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          25
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ῥαάβ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Rhaáb"
+      }
+    },
+    "job": {
+      "name": "Job",
+      "role": "Man known for perseverance",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 5"
+      ],
+      "importance": "James tells the readers to be patient until the coming of the Lord. He calls those who endured blessed. He names Job’s perseverance. He says the Lord is full of compassion and mercy.",
+      "connections": "James says his readers have heard of his perseverance. They have seen the Lord in the outcome.",
+      "verseScope": {},
+      "linkNames": [
+        "Job"
+      ],
+      "chapterIds": [
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2492",
+        "key": "Job",
+        "checkedVerses": 1,
+        "example": [
+          5,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰώβ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iṓb"
+      }
+    },
+    "elijah": {
+      "name": "Elijah",
+      "role": "Prophet whose prayer stopped and brought rain",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "James 5"
+      ],
+      "importance": "James says Elijah prayed earnestly that it might not rain. It did not rain for three years and six months. He prayed again, and the sky gave rain. James uses him to show that a righteous person’s prayer is powerful.",
+      "connections": "James says he was a man with a nature like ours.",
+      "verseScope": {},
+      "linkNames": [
+        "Elijah"
+      ],
+      "chapterIds": [
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2243",
+        "key": "Elijah",
+        "checkedVerses": 1,
+        "example": [
+          5,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἡλίας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Hēlías"
+      }
+    }
+  }
+}

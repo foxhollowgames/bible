@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "song-of-solomon",
+    "name": "Song of Solomon",
+    "bibleCode": "SNG",
+    "chapterCount": 8,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

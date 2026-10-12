@@ -1,0 +1,4498 @@
+{
+  "featurePeople": {
+    "2-chronicles-1": [
+      "solomon",
+      "david",
+      "moses",
+      "bezalel"
+    ],
+    "2-chronicles-2": [
+      "solomon",
+      "david",
+      "hiram",
+      "hiram-artisan"
+    ],
+    "2-chronicles-3": [
+      "solomon",
+      "david",
+      "araunah"
+    ],
+    "2-chronicles-4": [
+      "solomon",
+      "hiram-artisan"
+    ],
+    "2-chronicles-5": [
+      "solomon",
+      "david",
+      "moses",
+      "asaph-singer",
+      "heman-singer",
+      "jeduthun"
+    ],
+    "2-chronicles-6": [
+      "solomon",
+      "david"
+    ],
+    "2-chronicles-7": [
+      "solomon",
+      "david"
+    ],
+    "2-chronicles-8": [
+      "solomon",
+      "david",
+      "moses",
+      "hiram",
+      "pharaoh-daughter-solomon"
+    ],
+    "2-chronicles-9": [
+      "solomon",
+      "queen-sheba",
+      "hiram",
+      "nathan-prophet",
+      "ahijah-shiloh",
+      "iddo-seer",
+      "jeroboam",
+      "rehoboam",
+      "david"
+    ],
+    "2-chronicles-10": [
+      "rehoboam",
+      "jeroboam",
+      "solomon",
+      "ahijah-shiloh",
+      "adoram",
+      "david",
+      "jesse"
+    ],
+    "2-chronicles-11": [
+      "rehoboam",
+      "shemaiah",
+      "jeroboam",
+      "solomon",
+      "david",
+      "mahalath-rehoboam",
+      "abihail-rehoboam",
+      "maacah-queen",
+      "abijam"
+    ],
+    "2-chronicles-12": [
+      "rehoboam",
+      "shishak",
+      "shemaiah",
+      "naamah",
+      "iddo-seer",
+      "abijam",
+      "solomon"
+    ],
+    "2-chronicles-13": [
+      "abijam",
+      "jeroboam",
+      "david",
+      "solomon",
+      "rehoboam",
+      "aaron",
+      "iddo-seer"
+    ],
+    "2-chronicles-14": [
+      "asa",
+      "abijam",
+      "zerah-cushite"
+    ],
+    "2-chronicles-15": [
+      "asa",
+      "azariah-oded",
+      "oded-azariah",
+      "maacah-queen"
+    ],
+    "2-chronicles-16": [
+      "asa",
+      "baasha",
+      "ben-hadad-asa",
+      "hanani-seer"
+    ],
+    "2-chronicles-17": [
+      "jehoshaphat",
+      "asa",
+      "david",
+      "amasiah"
+    ],
+    "2-chronicles-18": [
+      "jehoshaphat",
+      "ahab",
+      "micaiah",
+      "zedekiah-chenaanah",
+      "amon-governor",
+      "joash-prince",
+      "ahab-prophets"
+    ],
+    "2-chronicles-19": [
+      "jehoshaphat",
+      "jehu-hanani",
+      "amariah-chief",
+      "zebadiah-ishmael"
+    ],
+    "2-chronicles-20": [
+      "jehoshaphat",
+      "jahaziel",
+      "asaph-singer",
+      "azubah",
+      "ahaziah-ahab",
+      "eliezer-dodavahu",
+      "abraham",
+      "asa"
+    ],
+    "2-chronicles-21": [
+      "jehoram-judah",
+      "jehoshaphat",
+      "ahab",
+      "elijah",
+      "ahaziah-judah",
+      "david"
+    ],
+    "2-chronicles-22": [
+      "ahaziah-judah",
+      "jehoram-judah",
+      "joram-israel",
+      "athaliah",
+      "omri",
+      "ahab",
+      "hazael",
+      "jehu-nimshi",
+      "jehosheba",
+      "joash-nurse",
+      "joash-judah",
+      "jehoiada"
+    ],
+    "2-chronicles-23": [
+      "jehoiada",
+      "joash-judah",
+      "athaliah",
+      "mattan-baal",
+      "david",
+      "moses"
+    ],
+    "2-chronicles-24": [
+      "joash-judah",
+      "jehoiada",
+      "zibiah",
+      "zechariah-jehoiada",
+      "athaliah",
+      "moses",
+      "zabad-shimeath",
+      "jehozabad",
+      "amaziah"
+    ],
+    "2-chronicles-25": [
+      "amaziah",
+      "jehoaddan",
+      "joash-israel",
+      "joash-judah",
+      "jehoahaz-israel",
+      "jehu-nimshi",
+      "moses",
+      "amaziah-man-god",
+      "amaziah-prophet",
+      "obed-edom-amaziah"
+    ],
+    "2-chronicles-26": [
+      "azariah",
+      "amaziah",
+      "jechiliah",
+      "zechariah-uzziah",
+      "azariah-uzziah-priest",
+      "jotham",
+      "isaiah",
+      "aaron"
+    ],
+    "2-chronicles-27": [
+      "jotham",
+      "azariah",
+      "jerushah",
+      "ahaz"
+    ],
+    "2-chronicles-28": [
+      "ahaz",
+      "pekah",
+      "pul",
+      "oded-samaria",
+      "captive-care-leaders",
+      "hezekiah",
+      "david"
+    ],
+    "2-chronicles-29": [
+      "hezekiah",
+      "abi",
+      "ahaz",
+      "david",
+      "gad",
+      "nathan-prophet",
+      "asaph-singer",
+      "heman-singer",
+      "jeduthun",
+      "aaron"
+    ],
+    "2-chronicles-30": [
+      "hezekiah",
+      "moses",
+      "abraham",
+      "isaac",
+      "solomon",
+      "david"
+    ],
+    "2-chronicles-31": [
+      "hezekiah",
+      "azariah-hezekiah-priest",
+      "conaniah-hezekiah",
+      "shimei-conaniah",
+      "kore-imnah",
+      "aaron"
+    ],
+    "2-chronicles-32": [
+      "hezekiah",
+      "sennacherib",
+      "isaiah",
+      "manasseh-king",
+      "david"
+    ],
+    "2-chronicles-33": [
+      "manasseh-king",
+      "hezekiah",
+      "amon-king",
+      "josiah",
+      "david",
+      "solomon",
+      "moses"
+    ],
+    "2-chronicles-34": [
+      "josiah",
+      "hilkiah-priest",
+      "shaphan",
+      "huldah",
+      "shallum-huldah",
+      "ahikam",
+      "achbor",
+      "asaiah",
+      "joah-joahaz",
+      "maaseiah-josiah",
+      "moses",
+      "david"
+    ],
+    "2-chronicles-35": [
+      "josiah",
+      "necho",
+      "jeremiah",
+      "hilkiah-priest",
+      "david",
+      "solomon",
+      "moses",
+      "aaron",
+      "asaph-singer",
+      "heman-singer",
+      "jeduthun",
+      "samuel"
+    ],
+    "2-chronicles-36": [
+      "jehoahaz-judah",
+      "jehoiakim",
+      "jehoiachin",
+      "zedekiah",
+      "nebuchadnezzar",
+      "necho",
+      "jeremiah",
+      "cyrus",
+      "josiah"
+    ]
+  },
+  "people": {
+    "solomon": {
+      "name": "Solomon",
+      "role": "King building and dedicating the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem",
+        "Gibeon"
+      ],
+      "passages": [
+        "2 Chronicles 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 30, 33, 35"
+      ],
+      "importance": "He asks God for wisdom at Gibeon. He builds the temple with help from Huram of Tyre. He prays at its dedication, and fire comes down from heaven. Hezekiah’s Passover joy is the greatest in Jerusalem since his time.",
+      "connections": "Son of David and Bathsheba. Father of Rehoboam.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        30,
+        33,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8010",
+        "key": "Solomon",
+        "checkedVerses": 74,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "שְׁלֹמֹה",
+        "transliteration": "Shᵉlômôh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "david": {
+      "name": "David",
+      "role": "Earlier king whose plans and promise guide later kings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 17, 21, 23, 28, 29, 30, 32, 33, 34, 35"
+      ],
+      "importance": "Solomon is already king in his place when the book opens. Solomon builds the temple on the site David chose. Later kings follow his orders for priests, Levites, and music. God keeps David’s house because of the covenant with him.",
+      "connections": "Son of Jesse. Father of Amnon, Absalom, Tamar, Solomon, and other children.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        17,
+        21,
+        23,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1732",
+        "key": "David",
+        "checkedVerses": 66,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "דָּוִד",
+        "transliteration": "Dâvid",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Earlier leader whose law guides temple worship",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 1, 5, 8, 23, 24, 25, 30, 33, 34, 35"
+      ],
+      "importance": "He made the Tent of Meeting in the wilderness. He put the two tablets in the ark at Horeb. Later kings and priests follow his law for offerings, a tax, and Passover.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        5,
+        8,
+        23,
+        24,
+        25,
+        30,
+        33,
+        34,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 12,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "bezalel": {
+      "name": "Bezalel",
+      "role": "Maker of the bronze altar at Gibeon",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 1"
+      ],
+      "importance": "He made the bronze altar that stands at Gibeon. Solomon offers one thousand burnt offerings on it. The book names him only here.",
+      "connections": "Son of Uri. Grandson of Hur. Member of Judah's tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ]
+    },
+    "hiram": {
+      "name": "Hiram",
+      "role": "King of Tyre who sends timber and sailors",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Tyre"
+      ],
+      "passages": [
+        "2 Chronicles 2, 8, 9"
+      ],
+      "importance": "Solomon asks him for timber and a skilled worker. Huram answers in writing and blesses the LORD. He sends Huram-abi, and wood by sea to Joppa. Later his sailors go with Solomon’s servants to Ophir for gold.",
+      "connections": "This book calls him Huram. He sent cedars to David and now deals with Solomon.",
+      "verseScope": {
+        "2": [
+          3,
+          11,
+          12
+        ]
+      },
+      "linkNames": [
+        "Huram"
+      ],
+      "chapterIds": [
+        2,
+        8,
+        9
+      ]
+    },
+    "hiram-artisan": {
+      "name": "Huram-abi",
+      "role": "Craftsman making temple furnishings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Tyre",
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 2, 4"
+      ],
+      "importance": "Huram the king sends him to Solomon. He makes the pillars, the sea, the pots, and other bronze vessels. He is not King Huram, though 4:11 calls him Huram.",
+      "connections": "Son of a woman of Dan and a man of Tyre (2:14). Kings words his mother’s family differently.",
+      "verseScope": {
+        "2": [
+          13
+        ],
+        "4": [
+          11,
+          16
+        ]
+      },
+      "linkNames": [
+        "Huram-abi",
+        "Huram"
+      ],
+      "chapterIds": [
+        2,
+        4
+      ]
+    },
+    "araunah": {
+      "name": "Ornan",
+      "role": "Ornan, Jebusite owner of the threshing floor",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 3"
+      ],
+      "importance": "This book calls him Ornan. Solomon builds the LORD’s house on his threshing floor on Mount Moriah. David had chosen that place. This book does not tell how David got it.",
+      "connections": "A Jebusite. The place David chose for the temple was his threshing floor.",
+      "verseScope": {},
+      "linkNames": [
+        "Ornan"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H771",
+        "key": "Ornan",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "אׇרְנָן",
+        "transliteration": "ʼOrnân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "asaph-singer": {
+      "name": "Asaph, the singer",
+      "role": "Singer whose family leads temple music",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 5, 20, 29, 35"
+      ],
+      "importance": "He stands with the singers when the ark enters the temple. Jahaziel, from his family, speaks before Jehoshaphat’s battle. Hezekiah’s Levites sing his words, and the book calls him a seer. His sons sing at Josiah’s Passover.",
+      "connections": "Son of Berechiah. Leads a musical family.",
+      "verseScope": {
+        "29": [
+          13,
+          30
+        ],
+        "35": [
+          15
+        ]
+      },
+      "linkNames": [
+        "Asaph"
+      ],
+      "chapterIds": [
+        5,
+        20,
+        29,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H623",
+        "key": "Asaph",
+        "checkedVerses": 5,
+        "example": [
+          5,
+          12
+        ],
+        "hebrew": "אָסָף",
+        "transliteration": "ʼÂçâph",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "heman-singer": {
+      "name": "Heman, the singer",
+      "role": "Singer whose sons serve in the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 5, 29, 35"
+      ],
+      "importance": "He sings with cymbals and harps when the ark enters the temple. His sons help cleanse the temple for Hezekiah. Josiah’s singers follow his command.",
+      "connections": "He stands with Asaph and Jeduthun. His sons Jehuel and Shimei serve under Hezekiah.",
+      "verseScope": {
+        "29": [
+          14
+        ],
+        "35": [
+          15
+        ]
+      },
+      "linkNames": [
+        "Heman"
+      ],
+      "chapterIds": [
+        5,
+        29,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1968",
+        "key": "Heman",
+        "checkedVerses": 3,
+        "example": [
+          5,
+          12
+        ],
+        "hebrew": "הֵימָן",
+        "transliteration": "Hêymân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jeduthun": {
+      "name": "Jeduthun",
+      "role": "Singer called the king’s seer",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 5, 29, 35"
+      ],
+      "importance": "He sings when the ark enters the temple. His sons help cleanse the temple for Hezekiah. In 35:15 the book calls him the king’s seer.",
+      "connections": "He stands with Asaph and Heman. His sons Shemaiah and Uzziel serve under Hezekiah.",
+      "verseScope": {
+        "29": [
+          14
+        ],
+        "35": [
+          15
+        ]
+      },
+      "linkNames": [],
+      "chapterIds": [
+        5,
+        29,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3038",
+        "key": "Jeduthun",
+        "checkedVerses": 3,
+        "example": [
+          5,
+          12
+        ],
+        "hebrew": "יְדוּתוּן",
+        "transliteration": "Yᵉdûwthûwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "pharaoh-daughter-solomon": {
+      "name": "Pharaoh’s daughter, Solomon’s wife",
+      "role": "Unnamed Egyptian wife of Solomon",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 8"
+      ],
+      "importance": "Solomon moves her out of David’s city to a house he built for her. He says the places the ark has come are holy. She says and does nothing in the account.",
+      "connections": "Wife of Solomon. Distinct from the princess who finds Moses in Exodus.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8
+      ]
+    },
+    "queen-sheba": {
+      "name": "The queen of Sheba",
+      "role": "Unnamed queen who tests Solomon with questions",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sheba · broad southern Arabian reference",
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 9"
+      ],
+      "importance": "She comes with camels, spices, gold, and precious stones. Solomon answers all her hard questions. She says the report was true and blesses the LORD. They trade gifts, and she goes home.",
+      "connections": "She rules Sheba. She meets Solomon in Jerusalem.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9
+      ]
+    },
+    "nathan-prophet": {
+      "name": "Nathan",
+      "role": "Earlier prophet named in records and music orders",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 9, 29"
+      ],
+      "importance": "He does not act in this book. His history is one record of Solomon’s reign. Hezekiah places the Levite players as David, Gad, and Nathan commanded.",
+      "connections": "Named with Ahijah and Iddo in 9:29. Named with David and Gad in 29:25.",
+      "verseScope": {
+        "9": [
+          29
+        ],
+        "29": [
+          25
+        ]
+      },
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        29
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5416",
+        "key": "Nathan",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          29
+        ],
+        "hebrew": "נָתָן",
+        "transliteration": "Nâthân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahijah-shiloh": {
+      "name": "Ahijah, the Shilonite",
+      "role": "Prophet whose word to Jeroboam comes true",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 9, 10"
+      ],
+      "importance": "He does not appear in person. His prophecy is one record of Solomon’s reign. When Rehoboam refuses the people, the book says the LORD’s word by Ahijah stands.",
+      "connections": "From Shiloh. He spoke the LORD’s word to Jeroboam the son of Nebat.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H281",
+        "key": "Ahijah",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          29
+        ],
+        "hebrew": "אֲחִיָּה",
+        "transliteration": "ʼĂchîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "iddo-seer": {
+      "name": "Iddo, the seer",
+      "role": "Seer whose writings record three kings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 9, 12, 13"
+      ],
+      "importance": "He does not act in the account. His visions about Jeroboam record Solomon’s acts. His other writings record Rehoboam and Abijah. Chapter 13 calls him a prophet.",
+      "connections": "The book names his writings for Solomon, Rehoboam, and Abijah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        12,
+        13
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5714",
+        "key": "Iddo",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          15
+        ],
+        "hebrew": "עִדּוֹ",
+        "transliteration": "ʻIddôw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jeroboam": {
+      "name": "Jeroboam",
+      "role": "First king of the northern tribes",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt · broad region",
+        "Shechem"
+      ],
+      "passages": [
+        "2 Chronicles 9, 10, 11, 13"
+      ],
+      "importance": "He returns from Egypt and asks Rehoboam to lighten the people’s load. Israel leaves Rehoboam, and Jeroboam rules the north. He casts off the Levites and makes calf idols. Abijah defeats him, and the LORD strikes him dead.",
+      "connections": "Son of Nebat and the widow Zeruah. Father of Abijah and Nadab.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        10,
+        11,
+        13
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3379",
+        "key": "Jeroboam",
+        "checkedVerses": 18,
+        "example": [
+          9,
+          29
+        ],
+        "hebrew": "יָרׇבְעָם",
+        "transliteration": "Yârobʻâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "rehoboam": {
+      "name": "Rehoboam",
+      "role": "King whose harsh answer divides the kingdom",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Shechem",
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 9, 10, 11, 12, 13"
+      ],
+      "importance": "He answers the people roughly, and most of Israel leaves him. Shemaiah stops him from fighting to win them back. He builds strong cities, then abandons the LORD’s law. Shishak takes the treasures, but Rehoboam humbles himself and is not destroyed.",
+      "connections": "Son of Solomon and Naamah the Ammonitess. Father of Abijah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7346",
+        "key": "Rehoboam",
+        "checkedVerses": 23,
+        "example": [
+          9,
+          31
+        ],
+        "hebrew": "רְחַבְעָם",
+        "transliteration": "Rᵉchabʻâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "adoram": {
+      "name": "Hadoram",
+      "role": "Forced-labor officer stoned by Israel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 10"
+      ],
+      "importance": "He is over the men forced to work. Rehoboam sends him after Israel leaves. The people stone him to death, and Rehoboam flees to Jerusalem.",
+      "connections": "This book calls him Hadoram. Rehoboam sends him to the children of Israel.",
+      "verseScope": {},
+      "linkNames": [
+        "Hadoram"
+      ],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1913",
+        "key": "Hadoram",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          18
+        ],
+        "hebrew": "הֲדוֹרָם",
+        "transliteration": "Hădôwrâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jesse": {
+      "name": "Jesse",
+      "role": "Father of David",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 10"
+      ],
+      "importance": "He does not act in this book. All Israel calls David “the son of Jesse” when they leave Rehoboam. Chapter 11 names him as the father of Eliab.",
+      "connections": "Father of Eliab, Abinadab, Shammah, David, and other sons.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3448",
+        "key": "Jesse",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          16
+        ],
+        "hebrew": "יִשַׁי",
+        "transliteration": "Yishay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shemaiah": {
+      "name": "Shemaiah",
+      "role": "Man of God who speaks to Rehoboam twice",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 11, 12"
+      ],
+      "importance": "He tells Rehoboam’s army not to fight Israel, and the men go home. When Shishak attacks, he says Judah has left the LORD. The king and princes humble themselves. Shemaiah then says the LORD will not destroy them.",
+      "connections": "He speaks to Rehoboam, Judah, and the princes. His histories record Rehoboam’s acts.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11,
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8098",
+        "key": "Shemaiah",
+        "checkedVerses": 8,
+        "example": [
+          11,
+          2
+        ],
+        "hebrew": "שְׁמַעְיָה",
+        "transliteration": "Shᵉmaʻyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mahalath-rehoboam": {
+      "name": "Mahalath",
+      "role": "Wife of Rehoboam",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 11"
+      ],
+      "importance": "Rehoboam takes her as a wife. She bears him Jeush, Shemariah, and Zaham. The book tells nothing more about her.",
+      "connections": "Daughter of Jerimoth and Abihail. Mother of Jeush, Shemariah, and Zaham.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4258",
+        "key": "Mahalath",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          18
+        ],
+        "hebrew": "מַחֲלַת",
+        "transliteration": "Machălath",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abihail-rehoboam": {
+      "name": "Abihail, Mahalath’s mother",
+      "role": "Woman named in Rehoboam’s family record",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 11"
+      ],
+      "importance": "The book names her once, in Rehoboam’s family record. Her daughter Mahalath marries Rehoboam. Her father Eliab is a son of Jesse.",
+      "connections": "Daughter of Eliab, the son of Jesse. Mother of Mahalath.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H32",
+        "key": "Abihail",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          18
+        ],
+        "hebrew": "אֲבִיהַיִל",
+        "transliteration": "ʼĂbîyhayil",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "maacah-queen": {
+      "name": "Maacah",
+      "role": "Queen mother removed by Asa",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 11, 15"
+      ],
+      "importance": "Rehoboam loves her above all his wives and makes her son Abijah chief. Later she makes an image for an Asherah. Asa removes her as queen mother. He cuts down the image and burns it at the brook Kidron.",
+      "connections": "Granddaughter of Absalom and wife of Rehoboam. The text calls her mother of Abijah and of Asa.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11,
+        15
+      ]
+    },
+    "abijam": {
+      "name": "Abijah",
+      "role": "King of Judah who defeats Jeroboam",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 11, 12, 13, 14"
+      ],
+      "importance": "This book calls him Abijah. He stands on Mount Zemaraim and tells Israel not to fight the LORD. Jeroboam’s men trap Judah front and back. Judah cries to the LORD and wins, and Abijah takes Bethel.",
+      "connections": "Son of Rehoboam. Chapter 11 names his mother Maacah, but 13:2 names Micaiah.",
+      "verseScope": {
+        "11": [
+          20,
+          22
+        ]
+      },
+      "linkNames": [
+        "Abijah"
+      ],
+      "chapterIds": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H29",
+        "key": "Abijah",
+        "checkedVerses": 15,
+        "example": [
+          11,
+          20
+        ],
+        "hebrew": "אֲבִיָּה",
+        "transliteration": "ʼĂbîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shishak": {
+      "name": "Shishak",
+      "role": "Egyptian king who attacks Jerusalem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt · broad region",
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 12"
+      ],
+      "importance": "He takes Judah’s strong cities and comes to Jerusalem. He carries off the temple and palace treasures. He also takes Solomon’s gold shields. The LORD does not let him destroy Jerusalem.",
+      "connections": "King of Egypt. He comes against Rehoboam in the king’s fifth year.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7895",
+        "key": "Shishak",
+        "checkedVerses": 4,
+        "example": [
+          12,
+          2
+        ],
+        "hebrew": "שִׁישַׁק",
+        "transliteration": "Shîyshaq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "naamah": {
+      "name": "Naamah",
+      "role": "Ammonite mother of Rehoboam",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 12"
+      ],
+      "importance": "The book gives only her name and her people. She does nothing in the account.",
+      "connections": "An Ammonitess. Named once, at the end of Rehoboam’s reign.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5279",
+        "key": "Naamah",
+        "checkedVerses": 1,
+        "example": [
+          12,
+          13
+        ],
+        "hebrew": "נַעֲמָה",
+        "transliteration": "Naʻămâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Earlier priest whose sons serve at the altar",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 13, 26, 29, 31, 35"
+      ],
+      "importance": "He does not act in this book. His sons are the priests who burn incense and offer sacrifices. Abijah says Jeroboam drove them out. Azariah tells Uzziah that only they may burn incense.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        26,
+        29,
+        31,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 6,
+        "example": [
+          13,
+          9
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "asa": {
+      "name": "Asa",
+      "role": "King who trusts God, then turns to Syria",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem",
+        "Mareshah"
+      ],
+      "passages": [
+        "2 Chronicles 14, 15, 16, 17, 20"
+      ],
+      "importance": "He removes foreign altars and calls on the LORD against Zerah’s army. After Azariah’s words, he leads Judah into a covenant. Later he pays Ben Hadad to attack Baasha. He jails the seer Hanani and seeks only doctors when sick.",
+      "connections": "Son of Abijah. Father of Jehoshaphat.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H609",
+        "key": "Asa",
+        "checkedVerses": 25,
+        "example": [
+          14,
+          1
+        ],
+        "hebrew": "אָסָא",
+        "transliteration": "ʼÂçâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zerah-cushite": {
+      "name": "Zerah, the Cushite",
+      "role": "Leader of the army Asa meets at Mareshah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Mareshah"
+      ],
+      "passages": [
+        "2 Chronicles 14"
+      ],
+      "importance": "He comes to Mareshah with a million troops and three hundred chariots. Asa prays, and the LORD strikes Zerah’s army. Judah chases them to Gerar and takes much plunder.",
+      "connections": "The reading translation calls him the Ethiopian. It names no family.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2226",
+        "key": "Zerah",
+        "checkedVerses": 1,
+        "example": [
+          14,
+          9
+        ],
+        "hebrew": "זֶרַח",
+        "transliteration": "Zerach",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "azariah-oded": {
+      "name": "Azariah, son of Oded",
+      "role": "Prophet who speaks to Asa",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 15"
+      ],
+      "importance": "The Spirit of God comes on him, and he goes to meet Asa. He says the LORD is with those who seek him. He tells Asa to be strong. Asa takes courage and renews the LORD’s altar.",
+      "connections": "Son of Oded. He is not King Uzziah or any priest named Azariah.",
+      "verseScope": {
+        "15": [
+          1
+        ]
+      },
+      "linkNames": [
+        "Azariah"
+      ],
+      "chapterIds": [
+        15
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5838",
+        "key": "Azariah",
+        "checkedVerses": 10,
+        "example": [
+          15,
+          1
+        ],
+        "hebrew": "עֲזַרְיָה",
+        "transliteration": "ʻĂzaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "oded-azariah": {
+      "name": "Oded, Azariah’s father",
+      "role": "Father of the prophet Azariah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 15"
+      ],
+      "importance": "He does nothing in the account. Verse 8 gives the prophecy his name, not his son’s. The text does not explain the difference.",
+      "connections": "Father of Azariah in 15:1. Verse 8 speaks of “the prophecy of Oded the prophet.”",
+      "verseScope": {
+        "15": [
+          1,
+          8
+        ]
+      },
+      "linkNames": [
+        "Oded"
+      ],
+      "chapterIds": [
+        15
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5752",
+        "key": "Oded",
+        "checkedVerses": 3,
+        "example": [
+          15,
+          1
+        ],
+        "hebrew": "עוֹדֵד",
+        "transliteration": "ʻÔwdêd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "baasha": {
+      "name": "Baasha",
+      "role": "King of Israel who builds Ramah against Judah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 16"
+      ],
+      "importance": "He builds Ramah so no one can go in or out to Asa. Asa pays Ben Hadad to break his treaty with Baasha. Syria strikes Israel’s cities, and Baasha stops building. Asa carries away the stones and timber.",
+      "connections": "Son of Ahijah of the house of Issachar. Father of Elah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1201",
+        "key": "Baasha",
+        "checkedVerses": 4,
+        "example": [
+          16,
+          1
+        ],
+        "hebrew": "בַּעְשָׁא",
+        "transliteration": "Baʻshâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ben-hadad-asa": {
+      "name": "Ben Hadad, Asa’s ally",
+      "role": "King of Syria paid to attack Israel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Damascus"
+      ],
+      "passages": [
+        "2 Chronicles 16"
+      ],
+      "importance": "He lives at Damascus and has a treaty with Baasha. Asa sends him silver and gold from the temple. He sends his captains against Ijon, Dan, and Abel Maim. A later Ben Hadad fights Ahab in Kings.",
+      "connections": "Son of Tabrimmon, son of Hezion.",
+      "verseScope": {},
+      "linkNames": [
+        "Ben Hadad"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1130",
+        "key": "Ben Hadad",
+        "checkedVerses": 2,
+        "example": [
+          16,
+          2
+        ],
+        "hebrew": "בֶּן־הֲדַד",
+        "transliteration": "Ben-Hădad",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hanani-seer": {
+      "name": "Hanani, the seer",
+      "role": "Seer who warns Asa about Syria",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 16"
+      ],
+      "importance": "He tells Asa he relied on Syria’s king and not on the LORD. He reminds Asa of the win over the Ethiopians. He says Asa will now have wars. Asa is angry and puts him in prison.",
+      "connections": "He speaks to Asa. Jehu the son of Hanani speaks to Jehoshaphat in chapter 19.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2607",
+        "key": "Hanani",
+        "checkedVerses": 3,
+        "example": [
+          16,
+          7
+        ],
+        "hebrew": "חֲנָנִי",
+        "transliteration": "Chănânîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoshaphat": {
+      "name": "Jehoshaphat",
+      "role": "King who sends teachers, appoints judges, and prays",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem",
+        "Ramoth Gilead · locality disputed"
+      ],
+      "passages": [
+        "2 Chronicles 17, 18, 19, 20, 21"
+      ],
+      "importance": "He sends princes, Levites, and priests to teach the law in Judah. He joins Ahab’s war, and Jehu the son of Hanani corrects him. He appoints judges and prays when three armies come. His ships with Ahaziah are wrecked.",
+      "connections": "Son of Asa and Azubah. Father of Jehoram.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3092",
+        "key": "Jehoshaphat",
+        "checkedVerses": 38,
+        "example": [
+          17,
+          1
+        ],
+        "hebrew": "יְהוֹשָׁפָט",
+        "transliteration": "Yᵉhôwshâphâṭ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amasiah": {
+      "name": "Amasiah, son of Zichri",
+      "role": "Captain who offers himself to the LORD",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 17"
+      ],
+      "importance": "He leads two hundred thousand mighty men. The book says he willingly offered himself to the LORD. It tells nothing more about him.",
+      "connections": "Son of Zichri. One of Jehoshaphat’s captains from Judah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6007",
+        "key": "Amasiah",
+        "checkedVerses": 1,
+        "example": [
+          17,
+          16
+        ],
+        "hebrew": "עֲמַסְיָה",
+        "transliteration": "ʻĂmaçyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahab": {
+      "name": "Ahab",
+      "role": "King of Israel who dies at Ramoth Gilead",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria",
+        "Ramoth Gilead · locality disputed"
+      ],
+      "passages": [
+        "2 Chronicles 18, 21, 22"
+      ],
+      "importance": "He asks Jehoshaphat to fight for Ramoth Gilead. He jails Micaiah for saying he will fall. He goes into battle in disguise, but an arrow strikes him. He dies at sunset, and his house later leads Judah’s kings astray.",
+      "connections": "King of Israel and ally of Jehoshaphat. His daughter marries Jehoram of Judah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        18,
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H256",
+        "key": "Ahab",
+        "checkedVerses": 12,
+        "example": [
+          18,
+          1
+        ],
+        "hebrew": "אַחְאָב",
+        "transliteration": "ʼAchʼâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "micaiah": {
+      "name": "Micaiah",
+      "role": "Prophet who tells Ahab he will fall",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria"
+      ],
+      "passages": [
+        "2 Chronicles 18"
+      ],
+      "importance": "A messenger asks him to agree with the other prophets. He says he will speak what God says. He tells of Israel scattered and a lying spirit in the prophets. Zedekiah strikes him, and Ahab jails him.",
+      "connections": "Son of Imla. Ahab hates him and sends him to prison.",
+      "verseScope": {},
+      "linkNames": [
+        "Micaiah"
+      ],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4321",
+        "key": "Micaiah",
+        "checkedVerses": 7,
+        "example": [
+          18,
+          7
+        ],
+        "hebrew": "מִיכָיְהוּ",
+        "transliteration": "Mîykâyᵉhûw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zedekiah-chenaanah": {
+      "name": "Zedekiah",
+      "role": "Prophet who opposes Micaiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 18"
+      ],
+      "importance": "He makes iron horns and says Ahab will push the Syrians. He strikes Micaiah on the cheek. Micaiah says he will hide in an inner room. He is not the later king of Judah.",
+      "connections": "Son of Chenaanah. One of Ahab’s prophets.",
+      "verseScope": {},
+      "linkNames": [
+        "Zedekiah"
+      ],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6667",
+        "key": "Zedekiah",
+        "checkedVerses": 4,
+        "example": [
+          18,
+          10
+        ],
+        "hebrew": "צִדְקִיָּה",
+        "transliteration": "Tsidqîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amon-governor": {
+      "name": "Amon",
+      "role": "City governor ordered to hold Micaiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 18"
+      ],
+      "importance": "Ahab orders Micaiah taken back to him. He is to keep Micaiah in prison on bread and water. He is not Amon, the later king of Judah.",
+      "connections": "Governor of the city. Named with Joash the king’s son.",
+      "verseScope": {},
+      "linkNames": [
+        "Amon"
+      ],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H526",
+        "key": "Amon",
+        "checkedVerses": 6,
+        "example": [
+          18,
+          25
+        ],
+        "hebrew": "אָמוֹן",
+        "transliteration": "ʼÂmôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joash-prince": {
+      "name": "Joash",
+      "role": "King’s son named in Micaiah’s imprisonment order",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 18"
+      ],
+      "importance": "Ahab orders Micaiah taken to him and to Amon. They are to hold Micaiah until Ahab returns. He is not Joash king of Judah or Joash king of Israel.",
+      "connections": "Called the king’s son. Named with Amon the governor.",
+      "verseScope": {
+        "18": [
+          25
+        ]
+      },
+      "linkNames": [
+        "Joash"
+      ],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3101",
+        "key": "Joash",
+        "checkedVerses": 12,
+        "example": [
+          18,
+          25
+        ],
+        "hebrew": "יוֹאָשׁ",
+        "transliteration": "Yôwʼâsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahab-prophets": {
+      "name": "The prophets who counsel Ahab",
+      "role": "Four hundred prophets who promise Ahab victory",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 18"
+      ],
+      "importance": "Ahab asks them if he should go to Ramoth Gilead. They all say God will give it to the king. Micaiah says a lying spirit speaks through them. Ahab dies in the battle.",
+      "connections": "Four hundred men gathered by Ahab. Zedekiah the son of Chenaanah speaks among them.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        18
+      ]
+    },
+    "jehu-hanani": {
+      "name": "Jehu, Hanani’s son",
+      "role": "Seer’s son who corrects Jehoshaphat",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 19"
+      ],
+      "importance": "He meets Jehoshaphat after the war with Ahab. He asks why the king helps the wicked. He also says good things are found in him. His history records Jehoshaphat’s acts.",
+      "connections": "Son of Hanani the seer. He is not Jehu the son of Nimshi.",
+      "verseScope": {},
+      "linkNames": [
+        "Jehu"
+      ],
+      "chapterIds": [
+        19
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3058",
+        "key": "Jehu",
+        "checkedVerses": 6,
+        "example": [
+          19,
+          2
+        ],
+        "hebrew": "יֵהוּא",
+        "transliteration": "Yêhûwʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amariah-chief": {
+      "name": "Amariah, the chief priest",
+      "role": "Chief priest over matters of the LORD",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 19"
+      ],
+      "importance": "Jehoshaphat sets him over the Jerusalem judges in all matters of the LORD. Zebadiah has the king’s matters. The book tells nothing more about him.",
+      "connections": "Named with Zebadiah in Jehoshaphat’s appointments.",
+      "verseScope": {},
+      "linkNames": [
+        "Amariah"
+      ],
+      "chapterIds": [
+        19
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H568",
+        "key": "Amariah",
+        "checkedVerses": 2,
+        "example": [
+          19,
+          11
+        ],
+        "hebrew": "אֲמַרְיָה",
+        "transliteration": "ʼĂmaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zebadiah-ishmael": {
+      "name": "Zebadiah, son of Ishmael",
+      "role": "Ruler over the king’s matters in court",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 19"
+      ],
+      "importance": "Jehoshaphat sets him over the judges in all the king’s matters. Amariah has the matters of the LORD. The king tells them all to act with courage.",
+      "connections": "Son of Ishmael and ruler of the house of Judah. Named with Amariah.",
+      "verseScope": {},
+      "linkNames": [
+        "Zebadiah"
+      ],
+      "chapterIds": [
+        19
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2069",
+        "key": "Zebadiah",
+        "checkedVerses": 2,
+        "example": [
+          17,
+          8
+        ],
+        "hebrew": "זְבַדְיָה",
+        "transliteration": "Zᵉbadyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jahaziel": {
+      "name": "Jahaziel, the Levite",
+      "role": "Levite who speaks before Jehoshaphat’s battle",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 20"
+      ],
+      "importance": "The LORD’s Spirit comes on him in the assembly. He tells Judah not to fear, for the battle is God’s. He says where the enemy will be. Jehoshaphat bows down, and the army goes out singing.",
+      "connections": "Descendant of Asaph through Zechariah, Benaiah, Jeiel, and Mattaniah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3166",
+        "key": "Jahaziel",
+        "checkedVerses": 1,
+        "example": [
+          20,
+          14
+        ],
+        "hebrew": "יַחֲזִיאֵל",
+        "transliteration": "Yachăzîyʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "azubah": {
+      "name": "Azubah, Jehoshaphat’s mother",
+      "role": "Mother of Jehoshaphat",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 20"
+      ],
+      "importance": "The book names her once, at the end of Jehoshaphat’s reign. She does nothing in the account.",
+      "connections": "Daughter of Shilhi and mother of Jehoshaphat.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5806",
+        "key": "Azubah",
+        "checkedVerses": 1,
+        "example": [
+          20,
+          31
+        ],
+        "hebrew": "עֲזוּבָה",
+        "transliteration": "ʻĂzûwbâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahaziah-ahab": {
+      "name": "Ahaziah",
+      "role": "King of Israel who builds ships with Jehoshaphat",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 20"
+      ],
+      "importance": "The book says he did very wickedly. Jehoshaphat joins him to build ships at Ezion Geber. The ships are wrecked. He is not Ahaziah king of Judah.",
+      "connections": "Son of Ahab.",
+      "verseScope": {},
+      "linkNames": [
+        "Ahaziah"
+      ],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H274",
+        "key": "Ahaziah",
+        "checkedVerses": 9,
+        "example": [
+          20,
+          35
+        ],
+        "hebrew": "אֲחַזְיָה",
+        "transliteration": "ʼĂchazyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eliezer-dodavahu": {
+      "name": "Eliezer, son of Dodavahu",
+      "role": "Prophet who speaks against the ships",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 20"
+      ],
+      "importance": "He says the LORD has destroyed Jehoshaphat’s works for joining Ahaziah. The ships are wrecked and cannot go to Tarshish.",
+      "connections": "Son of Dodavahu, from Mareshah. He speaks against Jehoshaphat.",
+      "verseScope": {},
+      "linkNames": [
+        "Eliezer"
+      ],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H461",
+        "key": "Eliezer",
+        "checkedVerses": 1,
+        "example": [
+          20,
+          37
+        ],
+        "hebrew": "אֱלִיעֶזֶר",
+        "transliteration": "ʼĔlîyʻezer",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Earlier ancestor remembered as God’s friend",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 20, 30"
+      ],
+      "importance": "He does not act in this book. Jehoshaphat prays that God gave the land to Abraham’s offspring. He calls Abraham God’s friend. Hezekiah’s letters call the LORD the God of Abraham, Isaac, and Israel.",
+      "connections": "Husband of Sarah. Father of Ishmael and Isaac. Uncle of Lot.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        20,
+        30
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H85",
+        "key": "Abraham",
+        "checkedVerses": 2,
+        "example": [
+          20,
+          7
+        ],
+        "hebrew": "אַבְרָהָם",
+        "transliteration": "ʼAbrâhâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoram-judah": {
+      "name": "Jehoram, king of Judah",
+      "role": "King of Judah who kills his brothers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 21, 22"
+      ],
+      "importance": "He kills all his brothers with the sword. Edom and Libnah revolt from him. A letter from Elijah warns of plague and sickness. Raiders carry off his family, and he dies of a bowel disease.",
+      "connections": "Son of Jehoshaphat. Husband of Ahab’s daughter. Father of Ahaziah.",
+      "verseScope": {
+        "22": [
+          1,
+          11
+        ]
+      },
+      "linkNames": [
+        "Jehoram"
+      ],
+      "chapterIds": [
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3088",
+        "key": "Jehoram",
+        "checkedVerses": 12,
+        "example": [
+          17,
+          8
+        ],
+        "hebrew": "יְהוֹרָם",
+        "transliteration": "Yᵉhôwrâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "elijah": {
+      "name": "Elijah",
+      "role": "Prophet whose letter warns Jehoram",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 21"
+      ],
+      "importance": "His letter says Jehoram walked like Israel’s kings and killed his brothers. It warns of a plague on his people and family. It says Jehoram will have a bowel disease. Each thing then happens.",
+      "connections": "Called Elijah the prophet. His letter comes to Jehoram king of Judah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H452",
+        "key": "Elijah",
+        "checkedVerses": 1,
+        "example": [
+          21,
+          12
+        ],
+        "hebrew": "אֵלִיָּה",
+        "transliteration": "ʼÊlîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahaziah-judah": {
+      "name": "Ahaziah, king of Judah",
+      "role": "King of Judah killed by Jehu",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 21, 22"
+      ],
+      "importance": "Jerusalem’s people make him king after raiders kill his older brothers. His mother counsels him to do evil. He visits the wounded Joram, and Jehu kills him. The text gives his age as forty-two, but 2 Kings 8:26 says twenty-two.",
+      "connections": "Youngest son of Jehoram and Athaliah, and father of Joash. Also called Jehoahaz (21:17) and Azariah (22:6).",
+      "verseScope": {
+        "21": [
+          17
+        ],
+        "22": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "linkNames": [
+        "Ahaziah",
+        "Azariah",
+        "Jehoahaz"
+      ],
+      "chapterIds": [
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H274",
+        "key": "Ahaziah",
+        "checkedVerses": 9,
+        "example": [
+          20,
+          35
+        ],
+        "hebrew": "אֲחַזְיָה",
+        "transliteration": "ʼĂchazyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joram-israel": {
+      "name": "Joram, king of Israel",
+      "role": "King of Israel wounded fighting Hazael",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22"
+      ],
+      "importance": "He fights Hazael at Ramoth Gilead, and the Syrians wound him. He goes to Jezreel to heal. Ahaziah of Judah visits him there. He is not Jehoram king of Judah.",
+      "connections": "Son of Ahab. The text calls him both Jehoram and Joram.",
+      "verseScope": {
+        "22": [
+          5,
+          7
+        ]
+      },
+      "linkNames": [
+        "Jehoram",
+        "Joram"
+      ],
+      "chapterIds": [
+        22
+      ]
+    },
+    "athaliah": {
+      "name": "Athaliah",
+      "role": "Royal woman who seizes Judah’s throne",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22, 23, 24"
+      ],
+      "importance": "She counsels her son Ahaziah to do evil. When he dies, she kills the royal children and reigns six years. Jehoiada crowns Joash, and she cries, “Treason!” The captains kill her at the horse gate.",
+      "connections": "Mother of Ahaziah. The text calls her the daughter of Omri.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22,
+        23,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6271",
+        "key": "Athaliah",
+        "checkedVerses": 8,
+        "example": [
+          22,
+          2
+        ],
+        "hebrew": "עֲתַלְיָה",
+        "transliteration": "ʻĂthalyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "omri": {
+      "name": "Omri",
+      "role": "Name in Athaliah’s family record",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22"
+      ],
+      "importance": "He does not act in this book. The book names him once, in Ahaziah’s record.",
+      "connections": "Athaliah is called the daughter of Omri. Kings names him as Ahab’s father.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6018",
+        "key": "Omri",
+        "checkedVerses": 1,
+        "example": [
+          22,
+          2
+        ],
+        "hebrew": "עׇמְרִי",
+        "transliteration": "ʻOmrîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hazael": {
+      "name": "Hazael",
+      "role": "King of Syria who fights Israel and Judah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22"
+      ],
+      "importance": "He fights at Ramoth Gilead against Jehoram and Ahaziah. His Syrians wound Jehoram. The book names him only in chapter 22.",
+      "connections": "King of Syria. He fights Jehoram of Israel and Ahaziah of Judah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2371",
+        "key": "Hazael",
+        "checkedVerses": 2,
+        "example": [
+          22,
+          5
+        ],
+        "hebrew": "חֲזָאֵל",
+        "transliteration": "Chăzâʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehu-nimshi": {
+      "name": "Jehu, Nimshi’s son",
+      "role": "Man anointed to cut off Ahab’s house",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22, 25"
+      ],
+      "importance": "The LORD anoints him to cut off Ahab’s house. He kills the princes of Judah who serve Ahaziah. His men find Ahaziah hiding in Samaria, and Ahaziah is killed.",
+      "connections": "Son of Nimshi and grandfather of Joash king of Israel. He is not Jehu the son of Hanani.",
+      "verseScope": {
+        "25": [
+          17
+        ]
+      },
+      "linkNames": [
+        "Jehu"
+      ],
+      "chapterIds": [
+        22,
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3058",
+        "key": "Jehu",
+        "checkedVerses": 6,
+        "example": [
+          19,
+          2
+        ],
+        "hebrew": "יֵהוּא",
+        "transliteration": "Yêhûwʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehosheba": {
+      "name": "Jehoshabeath",
+      "role": "Royal woman who rescues the infant Joash",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22"
+      ],
+      "importance": "This book calls her Jehoshabeath. She takes the child Joash from among the king’s sons being killed. She hides him and his nurse in a bedroom. He stays hidden in God’s house six years.",
+      "connections": "Daughter of King Jehoram, sister of Ahaziah, and wife of Jehoiada the priest.",
+      "verseScope": {},
+      "linkNames": [
+        "Jehoshabeath"
+      ],
+      "chapterIds": [
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3090",
+        "key": "Jehoshabeath",
+        "checkedVerses": 1,
+        "example": [
+          22,
+          11
+        ],
+        "hebrew": "יְהוֹשַׁבְעַת",
+        "transliteration": "Yᵉhôwshabʻath",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joash-nurse": {
+      "name": "Joash’s nurse",
+      "role": "Unnamed caregiver hidden with the child",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22"
+      ],
+      "importance": "Jehoshabeath puts her and Joash in a bedroom. The book says nothing more about her.",
+      "connections": "Nurse of Joash. Jehoshabeath hides her with the child.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22
+      ]
+    },
+    "joash-judah": {
+      "name": "Joash, king of Judah",
+      "role": "Hidden child king who later kills Zechariah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22, 23, 24, 25"
+      ],
+      "importance": "He is hidden six years and crowned at age seven. He has a chest made and repairs the temple. After Jehoiada dies, he listens to the princes and serves idols. He has Zechariah stoned, and his own servants kill him.",
+      "connections": "Son of Ahaziah and Zibiah. Father of Amaziah. Also called Jehoash.",
+      "verseScope": {
+        "22": [
+          11
+        ],
+        "25": []
+      },
+      "linkNames": [
+        "Joash"
+      ],
+      "chapterIds": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3101",
+        "key": "Joash",
+        "checkedVerses": 12,
+        "example": [
+          18,
+          25
+        ],
+        "hebrew": "יוֹאָשׁ",
+        "transliteration": "Yôwʼâsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoiada": {
+      "name": "Jehoiada",
+      "role": "Priest who crowns Joash and guides him",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 22, 23, 24"
+      ],
+      "importance": "He arms the captains and Levites and crowns Joash in the temple. He orders Athaliah killed outside the LORD’s house. He makes a covenant and helps repair the temple. He dies at 130 and is buried among the kings.",
+      "connections": "Husband of Jehoshabeath and father of Zechariah. He raises and guides Joash.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        22,
+        23,
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3077",
+        "key": "Jehoiada",
+        "checkedVerses": 18,
+        "example": [
+          22,
+          11
+        ],
+        "hebrew": "יְהוֹיָדָע",
+        "transliteration": "Yᵉhôwyâdâʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mattan-baal": {
+      "name": "Mattan",
+      "role": "Priest of Baal killed at his altars",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 23"
+      ],
+      "importance": "The people break down the house of Baal after the covenant. They smash its altars and images. They kill Mattan before the altars.",
+      "connections": "Priest of Baal. The people kill him after Joash is crowned.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        23
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4977",
+        "key": "Mattan",
+        "checkedVerses": 1,
+        "example": [
+          23,
+          17
+        ],
+        "hebrew": "מַתָּן",
+        "transliteration": "Mattân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zibiah": {
+      "name": "Zibiah",
+      "role": "Mother of Joash king of Judah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 24"
+      ],
+      "importance": "The book names her once, as the mother of Joash. She comes from Beersheba.",
+      "connections": "From Beersheba. Mother of Joash of Judah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6645",
+        "key": "Zibiah",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          1
+        ],
+        "hebrew": "צִבְיָּה",
+        "transliteration": "Tsibyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zechariah-jehoiada": {
+      "name": "Zechariah, son of Jehoiada",
+      "role": "Prophet killed after correcting Joash",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 24"
+      ],
+      "importance": "The Spirit of God comes on him. He tells the people they left the LORD, so the LORD left them. They stone him in the temple court at the king’s command. Dying, he asks the LORD to see and repay.",
+      "connections": "Son of Jehoiada the priest. Joash orders his death.",
+      "verseScope": {},
+      "linkNames": [
+        "Zechariah"
+      ],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2148",
+        "key": "Zechariah",
+        "checkedVerses": 9,
+        "example": [
+          17,
+          7
+        ],
+        "hebrew": "זְכַרְיָה",
+        "transliteration": "Zᵉkaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zabad-shimeath": {
+      "name": "Zabad, son of Shimeath",
+      "role": "Servant who helps kill Joash",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 24"
+      ],
+      "importance": "He and Jehozabad plot against Joash for the blood of Jehoiada’s sons. They kill the wounded king on his bed. Kings gives him a different name.",
+      "connections": "Son of Shimeath the Ammonitess.",
+      "verseScope": {},
+      "linkNames": [
+        "Zabad"
+      ],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2066",
+        "key": "Zabad",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          26
+        ],
+        "hebrew": "זָבָד",
+        "transliteration": "Zâbâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehozabad": {
+      "name": "Jehozabad",
+      "role": "Servant who helps kill Joash",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 24"
+      ],
+      "importance": "He and Zabad plot against Joash after Zechariah’s death. They kill the wounded king on his bed. Amaziah later kills the servants who did it.",
+      "connections": "Son of Shimrith the Moabitess (24:26). Kings spells his mother’s name differently.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3075",
+        "key": "Jehozabad",
+        "checkedVerses": 2,
+        "example": [
+          17,
+          18
+        ],
+        "hebrew": "יְהוֹזָבָד",
+        "transliteration": "Yᵉhôwzâbâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amaziah": {
+      "name": "Amaziah",
+      "role": "King who defeats Edom and loses to Israel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 24, 25, 26"
+      ],
+      "importance": "He sends home the hired soldiers of Israel when a man of God warns him. He defeats Edom but brings back its gods. He challenges Joash of Israel and loses at Beth Shemesh. Plotters later kill him at Lachish.",
+      "connections": "Son of Joash and Jehoaddan. Father of Uzziah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24,
+        25,
+        26
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H558",
+        "key": "Amaziah",
+        "checkedVerses": 19,
+        "example": [
+          24,
+          27
+        ],
+        "hebrew": "אֲמַצְיָה",
+        "transliteration": "ʼĂmatsyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoaddan": {
+      "name": "Jehoaddan",
+      "role": "Mother of Amaziah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 25"
+      ],
+      "importance": "The book names her once, as Amaziah’s mother. She comes from Jerusalem.",
+      "connections": "From Jerusalem. Mother of Amaziah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3086",
+        "key": "Jehoaddan",
+        "checkedVerses": 1,
+        "example": [
+          25,
+          1
+        ],
+        "hebrew": "יְהוֹעַדִּין",
+        "transliteration": "Yᵉhôwʻaddîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joash-israel": {
+      "name": "Joash, king of Israel",
+      "role": "King of Israel who defeats Amaziah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 25"
+      ],
+      "importance": "Amaziah dares him to meet face to face. He answers with a story of a thistle and a cedar. He defeats Judah at Beth Shemesh and captures Amaziah. He breaks Jerusalem’s wall and takes the temple gold to Samaria.",
+      "connections": "Son of Jehoahaz and grandson of Jehu. He is not Joash king of Judah.",
+      "verseScope": {
+        "25": [
+          17,
+          18,
+          21
+        ]
+      },
+      "linkNames": [
+        "Joash"
+      ],
+      "chapterIds": [
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3101",
+        "key": "Joash",
+        "checkedVerses": 12,
+        "example": [
+          18,
+          25
+        ],
+        "hebrew": "יוֹאָשׁ",
+        "transliteration": "Yôwʼâsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoahaz-israel": {
+      "name": "Jehoahaz, king of Israel",
+      "role": "Father of Joash king of Israel",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 25"
+      ],
+      "importance": "He does not act in this book. Chapter 25 names him as the father of Joash king of Israel. He is not Josiah’s son Jehoahaz in chapter 36.",
+      "connections": "Son of Jehu. Father of Joash.",
+      "verseScope": {
+        "25": [
+          17
+        ]
+      },
+      "linkNames": [],
+      "chapterIds": [
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3059",
+        "key": "Jehoahaz",
+        "checkedVerses": 5,
+        "example": [
+          21,
+          17
+        ],
+        "hebrew": "יְהוֹאָחָז",
+        "transliteration": "Yᵉhôwʼâchâz",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amaziah-man-god": {
+      "name": "The man of God advising Amaziah",
+      "role": "Unnamed man of God against the hired troops",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 25"
+      ],
+      "importance": "He tells Amaziah not to take Israel’s army, for the LORD is not with Israel. Amaziah asks about the hundred talents he paid. The man says the LORD can give much more. Amaziah sends the soldiers home.",
+      "connections": "He speaks to Amaziah before the fight with Edom.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25
+      ]
+    },
+    "amaziah-prophet": {
+      "name": "The prophet warning Amaziah",
+      "role": "Unnamed prophet who questions Amaziah’s new gods",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 25"
+      ],
+      "importance": "He asks why Amaziah seeks gods that could not save their own people. The king tells him to stop or be struck down. He stops, but says God has decided to destroy Amaziah.",
+      "connections": "The LORD sends him to Amaziah after the win over Edom.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        25
+      ]
+    },
+    "obed-edom-amaziah": {
+      "name": "Obed-Edom, the temple custodian",
+      "role": "Man named with the seized temple vessels",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 25"
+      ],
+      "importance": "The gold, silver, and vessels in God’s house are “with Obed-Edom.” Joash of Israel takes them all to Samaria. The text says nothing more about him.",
+      "connections": "Named once, in 25:24, in Amaziah’s reign.",
+      "verseScope": {},
+      "linkNames": [
+        "Obed-Edom"
+      ],
+      "chapterIds": [
+        25
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5654",
+        "key": "Obed-Edom",
+        "checkedVerses": 1,
+        "example": [
+          25,
+          24
+        ],
+        "hebrew": "עֹבֵד אֱדוֹם",
+        "transliteration": "ʻÔbêd ʼĔdôwm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "azariah": {
+      "name": "Uzziah",
+      "role": "Uzziah, king struck with leprosy over incense",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 26, 27"
+      ],
+      "importance": "He seeks God in the days of Zechariah, and God makes him prosper. He builds towers, digs cisterns, and arms a large army. When he is strong, he goes into the temple to burn incense. Leprosy breaks out on his forehead, and he lives apart until death.",
+      "connections": "Son of Amaziah. Father of Jotham.",
+      "verseScope": {
+        "26": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          11,
+          14,
+          16,
+          18,
+          19,
+          21,
+          22,
+          23
+        ]
+      },
+      "linkNames": [
+        "Uzziah",
+        "Azariah"
+      ],
+      "chapterIds": [
+        26,
+        27
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5818",
+        "key": "Uzziah",
+        "checkedVerses": 12,
+        "example": [
+          26,
+          1
+        ],
+        "hebrew": "עֻזִּיָּה",
+        "transliteration": "ʻUzzîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jechiliah": {
+      "name": "Jechiliah",
+      "role": "Mother of Uzziah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 26"
+      ],
+      "importance": "The book names her once, as Uzziah’s mother. She comes from Jerusalem.",
+      "connections": "From Jerusalem. Named in Uzziah’s reign notice.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        26
+      ]
+    },
+    "zechariah-uzziah": {
+      "name": "Zechariah, Uzziah’s adviser",
+      "role": "Guide in Uzziah’s early years",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 26"
+      ],
+      "importance": "Uzziah sets himself to seek God in Zechariah’s days. The book gives no words or acts of his. He is not Zechariah the son of Jehoiada.",
+      "connections": "The book says he had understanding in the vision of God.",
+      "verseScope": {},
+      "linkNames": [
+        "Zechariah"
+      ],
+      "chapterIds": [
+        26
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2148",
+        "key": "Zechariah",
+        "checkedVerses": 9,
+        "example": [
+          17,
+          7
+        ],
+        "hebrew": "זְכַרְיָה",
+        "transliteration": "Zᵉkaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "azariah-uzziah-priest": {
+      "name": "Azariah, the priest opposing Uzziah",
+      "role": "Chief priest who stops Uzziah’s incense",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 26"
+      ],
+      "importance": "He follows Uzziah into the temple with eighty priests. They tell the king that only Aaron’s sons may burn incense. They see leprosy on his forehead and thrust him out. He is not the chief priest Azariah of Hezekiah’s day.",
+      "connections": "Chief priest. Eighty priests go in with him against the king.",
+      "verseScope": {
+        "26": [
+          17,
+          20
+        ]
+      },
+      "linkNames": [
+        "Azariah"
+      ],
+      "chapterIds": [
+        26
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5838",
+        "key": "Azariah",
+        "checkedVerses": 10,
+        "example": [
+          15,
+          1
+        ],
+        "hebrew": "עֲזַרְיָה",
+        "transliteration": "ʻĂzaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jotham": {
+      "name": "Jotham",
+      "role": "King of Judah who builds and grows strong",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 26, 27"
+      ],
+      "importance": "He judges the people while his father Uzziah is a leper. As king he builds the temple’s upper gate, cities, and towers. He defeats Ammon and receives silver, wheat, and barley. He does right, but the people still act corruptly.",
+      "connections": "Son of Uzziah. Father of Ahaz.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        26,
+        27
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3147",
+        "key": "Jotham",
+        "checkedVerses": 6,
+        "example": [
+          26,
+          21
+        ],
+        "hebrew": "יוֹתָם",
+        "transliteration": "Yôwthâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "isaiah": {
+      "name": "Isaiah",
+      "role": "Prophet who prays with Hezekiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 26, 32"
+      ],
+      "importance": "He writes the acts of Uzziah. He prays with Hezekiah when Sennacherib’s men mock the LORD. The LORD then sends an angel against Assyria’s camp. His vision also records Hezekiah’s acts.",
+      "connections": "Son of Amoz.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        26,
+        32
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3470",
+        "key": "Isaiah",
+        "checkedVerses": 3,
+        "example": [
+          26,
+          22
+        ],
+        "hebrew": "יְשַׁעְיָה",
+        "transliteration": "Yᵉshaʻyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jerushah": {
+      "name": "Jerushah",
+      "role": "Mother of Jotham",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 27"
+      ],
+      "importance": "The book names her once, as Jotham’s mother. She does nothing in the account.",
+      "connections": "Daughter of Zadok. The text does not say this is David’s priest Zadok.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        27
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3388",
+        "key": "Jerushah",
+        "checkedVerses": 1,
+        "example": [
+          27,
+          1
+        ],
+        "hebrew": "יְרוּשָׁא",
+        "transliteration": "Yᵉrûwshâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahaz": {
+      "name": "Ahaz",
+      "role": "King of Judah who shuts the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 27, 28, 29"
+      ],
+      "importance": "He makes images for the Baals and burns his children in the fire. Syria, Israel, Edom, and the Philistines defeat Judah. He pays Assyria’s king, who gives him trouble instead of help. He then shuts the temple doors and worships the gods of Damascus.",
+      "connections": "Son of Jotham. Father of Hezekiah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        27,
+        28,
+        29
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H271",
+        "key": "Ahaz",
+        "checkedVerses": 9,
+        "example": [
+          27,
+          9
+        ],
+        "hebrew": "אָחָז",
+        "transliteration": "ʼÂchâz",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "pekah": {
+      "name": "Pekah",
+      "role": "King of Israel who strikes Judah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 28"
+      ],
+      "importance": "He kills one hundred twenty thousand men of Judah in one day. Israel’s army then carries off two hundred thousand captives. The book says Judah had left the LORD.",
+      "connections": "Son of Remaliah. He fights Ahaz of Judah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        28
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6492",
+        "key": "Pekah",
+        "checkedVerses": 1,
+        "example": [
+          28,
+          6
+        ],
+        "hebrew": "פֶּקַח",
+        "transliteration": "Peqach",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "pul": {
+      "name": "Pul",
+      "role": "Assyrian ruler whom Ahaz asks for help",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 28"
+      ],
+      "importance": "Ahaz sends to Assyria for help against Edom and the Philistines. Tilgath-pilneser comes but gives him trouble. Ahaz gives him treasure from the temple and palace. It does not help.",
+      "connections": "King of Assyria. This book spells his name Tilgath-pilneser (28:20).",
+      "verseScope": {},
+      "linkNames": [
+        "Tilgath-pilneser"
+      ],
+      "chapterIds": [
+        28
+      ]
+    },
+    "oded-samaria": {
+      "name": "Oded, the prophet at Samaria",
+      "role": "Prophet who tells Israel to free captives",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria"
+      ],
+      "passages": [
+        "2 Chronicles 28"
+      ],
+      "importance": "He meets Israel’s army as it brings Judah’s captives to Samaria. He says they killed in a rage that reached heaven. He tells them to send the captives back. Four leaders agree, and the captives go home.",
+      "connections": "A prophet of the LORD at Samaria. He is not Oded, Azariah’s father.",
+      "verseScope": {},
+      "linkNames": [
+        "Oded"
+      ],
+      "chapterIds": [
+        28
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5752",
+        "key": "Oded",
+        "checkedVerses": 3,
+        "example": [
+          15,
+          1
+        ],
+        "hebrew": "עוֹדֵד",
+        "transliteration": "ʻÔwdêd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "captive-care-leaders": {
+      "name": "The four leaders who care for captives",
+      "role": "Four leaders of Ephraim who free the captives",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria",
+        "Jericho"
+      ],
+      "passages": [
+        "2 Chronicles 28"
+      ],
+      "importance": "They stand against the army and refuse the captives. They clothe the naked, feed them, and anoint them. They carry the weak on donkeys to Jericho. Then they return to Samaria.",
+      "connections": "Azariah is Johanan’s son. Berechiah is Meshillemoth’s son. Jehizkiah is Shallum’s son. Amasa is Hadlai’s son.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        28
+      ]
+    },
+    "hezekiah": {
+      "name": "Hezekiah",
+      "role": "King who reopens the temple and keeps Passover",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 28, 29, 30, 31, 32, 33"
+      ],
+      "importance": "He opens the temple doors and has the Levites cleanse it. He invites Israel and Judah to Passover and prays for the unclean. He stops the springs and prays when Sennacherib comes. Later his heart is proud, but he humbles himself.",
+      "connections": "Son of Ahaz and Abijah. Father of Manasseh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2396",
+        "key": "Hezekiah",
+        "checkedVerses": 38,
+        "example": [
+          28,
+          27
+        ],
+        "hebrew": "חִזְקִיָּה",
+        "transliteration": "Chizqîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abi": {
+      "name": "Abijah",
+      "role": "Mother of Hezekiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 29"
+      ],
+      "importance": "This book calls her Abijah. It names her once, as Hezekiah’s mother. She is not King Abijah, Rehoboam’s son.",
+      "connections": "Daughter of Zechariah. Mother of Hezekiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Abijah"
+      ],
+      "chapterIds": [
+        29
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H29",
+        "key": "Abijah",
+        "checkedVerses": 15,
+        "example": [
+          11,
+          20
+        ],
+        "hebrew": "אֲבִיָּה",
+        "transliteration": "ʼĂbîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gad": {
+      "name": "Gad",
+      "role": "Earlier seer named in Hezekiah’s music orders",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 29"
+      ],
+      "importance": "He does not act in this book. Hezekiah sets the Levites with cymbals and harps as David, Gad, and Nathan commanded. The book says the command came from the LORD by his prophets.",
+      "connections": "Called the king’s seer. Named with David and Nathan the prophet.",
+      "verseScope": {
+        "29": [
+          25
+        ]
+      },
+      "linkNames": [
+        "Gad"
+      ],
+      "chapterIds": [
+        29
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1410",
+        "key": "Gad",
+        "checkedVerses": 1,
+        "example": [
+          29,
+          25
+        ],
+        "hebrew": "גָּד",
+        "transliteration": "Gâd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "isaac": {
+      "name": "Isaac",
+      "role": "Earlier ancestor named in Hezekiah’s letters",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 30"
+      ],
+      "importance": "He does not act in this book. Hezekiah’s letters call the LORD the God of Abraham, Isaac, and Israel. The letters ask the northern tribes to turn back to that God.",
+      "connections": "Husband of Rebekah. Father of Esau and Jacob.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        30
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3327",
+        "key": "Isaac",
+        "checkedVerses": 1,
+        "example": [
+          30,
+          6
+        ],
+        "hebrew": "יִצְחָק",
+        "transliteration": "Yitschâq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "azariah-hezekiah-priest": {
+      "name": "Azariah, Hezekiah’s chief priest",
+      "role": "Chief priest who explains the heaps of offerings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 31"
+      ],
+      "importance": "Hezekiah asks about the heaps of offerings. Azariah says the priests have eaten enough and have plenty left. He and Hezekiah appoint men to oversee the stores. He is not the Azariah who opposed Uzziah.",
+      "connections": "Of the house of Zadok. Called ruler of God’s house under Hezekiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Azariah"
+      ],
+      "chapterIds": [
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5838",
+        "key": "Azariah",
+        "checkedVerses": 10,
+        "example": [
+          15,
+          1
+        ],
+        "hebrew": "עֲזַרְיָה",
+        "transliteration": "ʻĂzaryâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "conaniah-hezekiah": {
+      "name": "Conaniah, the Levite",
+      "role": "Supervisor of temple supplies",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 31"
+      ],
+      "importance": "He rules over the offerings, tithes, and dedicated things brought to the temple. Ten overseers work under him and Shimei. Hezekiah and Azariah appoint them.",
+      "connections": "A Levite. His brother Shimei is second to him.",
+      "verseScope": {},
+      "linkNames": [
+        "Conaniah"
+      ],
+      "chapterIds": [
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3562",
+        "key": "Conaniah",
+        "checkedVerses": 3,
+        "example": [
+          31,
+          12
+        ],
+        "hebrew": "כּוֹנַנְיָהוּ",
+        "transliteration": "Kôwnanyâhûw",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shimei-conaniah": {
+      "name": "Shimei, Conaniah’s brother",
+      "role": "Second over the temple stores",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 31"
+      ],
+      "importance": "He is second to Conaniah over the offerings and tithes. Ten overseers work under the two brothers. The book tells nothing more about him.",
+      "connections": "Brother of Conaniah the Levite. He serves under Hezekiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Shimei"
+      ],
+      "chapterIds": [
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8096",
+        "key": "Shimei",
+        "checkedVerses": 3,
+        "example": [
+          29,
+          14
+        ],
+        "hebrew": "שִׁמְעִי",
+        "transliteration": "Shimʻîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "kore-imnah": {
+      "name": "Kore, son of Imnah",
+      "role": "Gatekeeper who gives out the free will offerings",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 31"
+      ],
+      "importance": "He is over the free will offerings of God. He gives out the LORD’s offerings and the most holy things. Six men under him give shares in the priests’ cities.",
+      "connections": "Son of Imnah the Levite. Gatekeeper at the east gate.",
+      "verseScope": {},
+      "linkNames": [
+        "Kore"
+      ],
+      "chapterIds": [
+        31
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6981",
+        "key": "Kore",
+        "checkedVerses": 1,
+        "example": [
+          31,
+          14
+        ],
+        "hebrew": "קוֹרֵא",
+        "transliteration": "Qôwrêʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "sennacherib": {
+      "name": "Sennacherib",
+      "role": "King of Assyria who threatens Jerusalem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Lachish",
+        "Assyria · broad northern Mesopotamian region"
+      ],
+      "passages": [
+        "2 Chronicles 32"
+      ],
+      "importance": "He camps against Judah’s strong cities and attacks Lachish. His servants and letters say no god can save Jerusalem. An angel cuts down his mighty men, and he goes home in shame. His own royal record also tells of a war in Judah.",
+      "connections": "King of Assyria. His own children kill him in the house of his god.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        32
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5576",
+        "key": "Sennacherib",
+        "checkedVerses": 5,
+        "example": [
+          32,
+          1
+        ],
+        "hebrew": "סַנְחֵרִיב",
+        "transliteration": "Çanchêrîyb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "manasseh-king": {
+      "name": "Manasseh, king of Judah",
+      "role": "King of Judah who humbles himself in Babylon",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem",
+        "Babylon"
+      ],
+      "passages": [
+        "2 Chronicles 32, 33"
+      ],
+      "importance": "He rebuilds the high places and sets an idol in God’s house. Assyria’s captains take him in chains to Babylon. He humbles himself and prays, and God brings him back. Then he removes the idols and builds up the LORD’s altar.",
+      "connections": "Son of Hezekiah and Hephzibah. Father of Amon.",
+      "verseScope": {
+        "32": [
+          33
+        ]
+      },
+      "linkNames": [
+        "Manasseh"
+      ],
+      "chapterIds": [
+        32,
+        33
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4519",
+        "key": "Manasseh",
+        "checkedVerses": 18,
+        "example": [
+          15,
+          9
+        ],
+        "hebrew": "מְנַשֶּׁה",
+        "transliteration": "Mᵉnashsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "amon-king": {
+      "name": "Amon, king of Judah",
+      "role": "King of Judah who does not humble himself",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 33"
+      ],
+      "importance": "He sacrifices to the images his father Manasseh made. He does not humble himself as Manasseh did. His servants kill him in his own house after two years. The people of the land make his son Josiah king.",
+      "connections": "Son of Manasseh and Meshullemeth. Father of Josiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Amon"
+      ],
+      "chapterIds": [
+        33
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H526",
+        "key": "Amon",
+        "checkedVerses": 6,
+        "example": [
+          18,
+          25
+        ],
+        "hebrew": "אָמוֹן",
+        "transliteration": "ʼÂmôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "josiah": {
+      "name": "Josiah",
+      "role": "King renewing worship after the law book is found",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem",
+        "Megiddo"
+      ],
+      "passages": [
+        "2 Chronicles 33, 34, 35, 36"
+      ],
+      "importance": "He breaks down altars and images in Judah and beyond. He repairs the temple, hears the law book, and tears his clothes. He makes a covenant and keeps a great Passover. He ignores Neco’s warning and is shot at Megiddo.",
+      "connections": "Son of Amon and Jedidah. Father of Jehoahaz and Jehoiakim.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2977",
+        "key": "Josiah",
+        "checkedVerses": 15,
+        "example": [
+          33,
+          25
+        ],
+        "hebrew": "יֹאשִׁיָּה",
+        "transliteration": "Yôʼshîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hilkiah-priest": {
+      "name": "Hilkiah, the high priest",
+      "role": "High priest who finds the book of the law",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34, 35"
+      ],
+      "importance": "He finds the book of the LORD’s law while money is brought out. He gives it to Shaphan. He leads the king’s men to Huldah. At Passover he gives animals to the priests.",
+      "connections": "He works with Shaphan. He goes with the king’s men to Huldah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        34,
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2518",
+        "key": "Hilkiah",
+        "checkedVerses": 7,
+        "example": [
+          34,
+          9
+        ],
+        "hebrew": "חִלְקִיָּה",
+        "transliteration": "Chilqîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shaphan": {
+      "name": "Shaphan",
+      "role": "Scribe who reads the book to Josiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah sends him to repair the temple. Hilkiah gives him the book of the law. He reports on the work and reads the book to the king. Then he goes with the others to Huldah.",
+      "connections": "Son of Azaliah. Father of Ahikam.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        34
+      ]
+    },
+    "huldah": {
+      "name": "Huldah",
+      "role": "Prophetess asked about the book of the law",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah’s men come to ask her about the book. She says the LORD will bring its curses on Jerusalem. She says Josiah will go to his grave in peace before that evil. The men carry her message to the king.",
+      "connections": "Wife of Shallum, keeper of the wardrobe. She lives in Jerusalem’s second quarter.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2468",
+        "key": "Huldah",
+        "checkedVerses": 1,
+        "example": [
+          34,
+          22
+        ],
+        "hebrew": "חֻלְדָּה",
+        "transliteration": "Chuldâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shallum-huldah": {
+      "name": "Shallum, Huldah’s husband",
+      "role": "Keeper of the wardrobe",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "He is keeper of the wardrobe. The book names him only as Huldah’s husband.",
+      "connections": "Son of Tokhath, the son of Hasrah. Husband of Huldah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7967",
+        "key": "Shallum",
+        "checkedVerses": 2,
+        "example": [
+          28,
+          12
+        ],
+        "hebrew": "שַׁלּוּם",
+        "transliteration": "Shallûwm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ahikam": {
+      "name": "Ahikam",
+      "role": "One of the men sent to Huldah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah commands him and four others to ask the LORD about the book. They go to Huldah the prophetess. They bring her message back to the king.",
+      "connections": "Son of Shaphan. Father of Gedaliah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H296",
+        "key": "Ahikam",
+        "checkedVerses": 1,
+        "example": [
+          34,
+          20
+        ],
+        "hebrew": "אֲחִיקָם",
+        "transliteration": "ʼĂchîyqâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "achbor": {
+      "name": "Abdon",
+      "role": "One of the men sent to Huldah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah sends him with Hilkiah, Ahikam, Shaphan, and Asaiah. They ask Huldah about the book of the law. He does nothing else in the book.",
+      "connections": "This book calls him Abdon the son of Micah. Kings calls him Achbor the son of Micaiah.",
+      "verseScope": {
+        "34": [
+          20
+        ]
+      },
+      "linkNames": [
+        "Abdon"
+      ],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5658",
+        "key": "Abdon",
+        "checkedVerses": 1,
+        "example": [
+          34,
+          20
+        ],
+        "hebrew": "עַבְדוֹן",
+        "transliteration": "ʻAbdôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "asaiah": {
+      "name": "Asaiah",
+      "role": "King’s servant sent to Huldah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah sends him with four others after the book is read. They go to Huldah and bring back her message.",
+      "connections": "Called the king’s servant. He serves Josiah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6222",
+        "key": "Asaiah",
+        "checkedVerses": 1,
+        "example": [
+          34,
+          20
+        ],
+        "hebrew": "עֲשָׂיָה",
+        "transliteration": "ʻĂsâyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joah-joahaz": {
+      "name": "Joah, son of Joahaz",
+      "role": "Recorder sent to repair the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah sends him to repair the LORD’s house. The three men bring the gathered money to Hilkiah. He is not Joah the son of Asaph, Hezekiah’s recorder in Kings.",
+      "connections": "Son of Joahaz. Sent with Shaphan and Maaseiah by Josiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Joah"
+      ],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3098",
+        "key": "Joah",
+        "checkedVerses": 2,
+        "example": [
+          29,
+          12
+        ],
+        "hebrew": "יוֹאָח",
+        "transliteration": "Yôwʼâch",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "maaseiah-josiah": {
+      "name": "Maaseiah, Josiah’s city governor",
+      "role": "City governor sent to repair the temple",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 34"
+      ],
+      "importance": "Josiah sends him to repair the LORD’s house. The three men bring the gathered money to Hilkiah. The workmen use it to buy stone and timber.",
+      "connections": "Governor of the city. Sent with Shaphan and Joah by Josiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Maaseiah"
+      ],
+      "chapterIds": [
+        34
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4641",
+        "key": "Maaseiah",
+        "checkedVerses": 4,
+        "example": [
+          23,
+          1
+        ],
+        "hebrew": "מַעֲשֵׂיָה",
+        "transliteration": "Maʻăsêyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "necho": {
+      "name": "Pharaoh Neco",
+      "role": "Egyptian king who warns Josiah, then controls Judah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Egypt · broad region",
+        "Carchemish"
+      ],
+      "passages": [
+        "2 Chronicles 35, 36"
+      ],
+      "importance": "He marches to fight at Carchemish by the Euphrates. He tells Josiah that God sent him and to stay away. Josiah fights him at Megiddo and is shot. Neco later fines Judah and carries Joahaz to Egypt.",
+      "connections": "King of Egypt. He removes Jehoahaz and makes Jehoiakim king.",
+      "verseScope": {},
+      "linkNames": [
+        "Neco"
+      ],
+      "chapterIds": [
+        35,
+        36
+      ]
+    },
+    "jeremiah": {
+      "name": "Jeremiah",
+      "role": "Prophet who laments Josiah and warns Zedekiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 35, 36"
+      ],
+      "importance": "He laments when Josiah dies. Zedekiah does not humble himself before him. The book says the seventy empty years fulfill his word. Cyrus’s order also comes so that his word is done.",
+      "connections": "He laments Josiah. He speaks the LORD’s word to Zedekiah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        35,
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3414",
+        "key": "Jeremiah",
+        "checkedVerses": 4,
+        "example": [
+          35,
+          25
+        ],
+        "hebrew": "יִרְמְיָה",
+        "transliteration": "Yirmᵉyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "samuel": {
+      "name": "Samuel",
+      "role": "Earlier prophet named in a Passover comparison",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 35"
+      ],
+      "importance": "He does not act in this book. The book says no Passover like Josiah’s was kept since Samuel’s days.",
+      "connections": "Son of Hannah and Elkanah. Father of Joel and Abijah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        35
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8050",
+        "key": "Samuel",
+        "checkedVerses": 1,
+        "example": [
+          35,
+          18
+        ],
+        "hebrew": "שְׁמוּאֵל",
+        "transliteration": "Shᵉmûwʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoahaz-judah": {
+      "name": "Jehoahaz, king of Judah",
+      "role": "Josiah’s son removed by Egypt’s king",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 36"
+      ],
+      "importance": "The people of the land make him king after Josiah. He reigns three months. Egypt’s king removes him and fines the land. Neco carries him to Egypt, and the text also spells his name Joahaz.",
+      "connections": "Son of Josiah and Hamutal.",
+      "verseScope": {},
+      "linkNames": [
+        "Joahaz",
+        "Jehoahaz"
+      ],
+      "chapterIds": [
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3059",
+        "key": "Jehoahaz",
+        "checkedVerses": 5,
+        "example": [
+          21,
+          17
+        ],
+        "hebrew": "יְהוֹאָחָז",
+        "transliteration": "Yᵉhôwʼâchâz",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoiakim": {
+      "name": "Jehoiakim",
+      "role": "King of Judah bound by Nebuchadnezzar",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 36"
+      ],
+      "importance": "Egypt’s king makes him king and changes his name from Eliakim. He does evil for eleven years. Nebuchadnezzar binds him in fetters to carry him to Babylon. Some temple vessels go to Babylon too.",
+      "connections": "Son of Josiah and Zebidah. Earlier name Eliakim. Father of Jehoiachin.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3079",
+        "key": "Jehoiakim",
+        "checkedVerses": 3,
+        "example": [
+          36,
+          4
+        ],
+        "hebrew": "יְהוֹיָקִים",
+        "transliteration": "Yᵉhôwyâqîym",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jehoiachin": {
+      "name": "Jehoiachin",
+      "role": "King of Judah taken to Babylon",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 36"
+      ],
+      "importance": "He reigns three months and ten days and does evil. Nebuchadnezzar brings him to Babylon with the temple’s valuable vessels. This book says he was eight when he became king. Second Kings 24:8 says eighteen.",
+      "connections": "Son of Jehoiakim and Nehushta. Nephew of Zedekiah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3078",
+        "key": "Jehoiachin",
+        "checkedVerses": 2,
+        "example": [
+          36,
+          8
+        ],
+        "hebrew": "יְהוֹיָכִין",
+        "transliteration": "Yᵉhôwyâkîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zedekiah": {
+      "name": "Zedekiah",
+      "role": "Last king of Judah before Jerusalem falls",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Chronicles 36"
+      ],
+      "importance": "Nebuchadnezzar makes him king and makes him swear by God. He does not humble himself before Jeremiah. He rebels against Nebuchadnezzar. Then the Chaldeans burn the temple and carry the people away.",
+      "connections": "Kings calls him Josiah’s son and Jehoiachin’s uncle. This book calls him Jehoiachin’s brother (36:10).",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6667",
+        "key": "Zedekiah",
+        "checkedVerses": 4,
+        "example": [
+          18,
+          10
+        ],
+        "hebrew": "צִדְקִיָּה",
+        "transliteration": "Tsidqîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nebuchadnezzar": {
+      "name": "Nebuchadnezzar",
+      "role": "King of Babylon who destroys Jerusalem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Babylon"
+      ],
+      "passages": [
+        "2 Chronicles 36"
+      ],
+      "importance": "He binds Jehoiakim and takes temple vessels to Babylon. He brings Jehoiachin there and makes Zedekiah king. When Zedekiah rebels, his army burns the temple and breaks Jerusalem’s wall. He carries the people who are left to Babylon.",
+      "connections": "King of Babylon. He takes Jehoiakim and Jehoiachin and makes Zedekiah king.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5019",
+        "key": "Nebuchadnezzar",
+        "checkedVerses": 4,
+        "example": [
+          36,
+          6
+        ],
+        "hebrew": "נְבוּכַדְנֶאצַּר",
+        "transliteration": "Nᵉbûwkadneʼtstsar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "cyrus": {
+      "name": "Cyrus",
+      "role": "King of Persia who lets the people go up",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Babylon"
+      ],
+      "passages": [
+        "2 Chronicles 36"
+      ],
+      "importance": "In his first year the LORD stirs up his spirit. He says the LORD told him to build a house in Jerusalem. He tells any of the LORD’s people to go up. The book ends with his words.",
+      "connections": "King of Persia. His order goes through all his kingdom in writing.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        36
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3566",
+        "key": "Cyrus",
+        "checkedVerses": 2,
+        "example": [
+          36,
+          22
+        ],
+        "hebrew": "כּוֹרֶשׁ",
+        "transliteration": "Kôwresh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

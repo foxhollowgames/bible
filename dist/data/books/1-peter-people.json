@@ -1,0 +1,268 @@
+{
+  "featurePeople": {
+    "1-peter-1": [
+      "peter",
+      "jesus"
+    ],
+    "1-peter-2": [
+      "peter",
+      "jesus"
+    ],
+    "1-peter-3": [
+      "peter",
+      "jesus",
+      "sarah",
+      "abraham",
+      "noah"
+    ],
+    "1-peter-4": [
+      "peter",
+      "jesus"
+    ],
+    "1-peter-5": [
+      "peter",
+      "jesus",
+      "silas"
+    ]
+  },
+  "people": {
+    "peter": {
+      "name": "Peter",
+      "role": "Apostle of Jesus Christ and fellow elder",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Peter 1, 2, 3, 4, 5"
+      ],
+      "importance": "Peter greets believers living as foreigners in the Dispersion. He tells the elders to shepherd the flock willingly. They must not lord it over those in their care. He calls himself a witness of the sufferings of Christ. He sends greetings from Babylon and from Mark, his son.",
+      "connections": "He writes to believers in Pontus, Galatia, Cappadocia, Asia, and Bithynia. He sends the letter through Silvanus.",
+      "verseScope": {},
+      "linkNames": [
+        "Peter"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4074",
+        "key": "Peter",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πέτρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Pétros"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Christ who suffered, rose, and is at God’s right hand",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Peter 1, 2, 3, 4, 5"
+      ],
+      "importance": "Peter says God raised Jesus Christ from the dead. Christ suffered for us and left an example. When he was cursed, he did not curse back. He trusted the one who judges righteously. Peter says believers will receive a crown when the chief Shepherd is revealed.",
+      "connections": "Peter calls him the chief cornerstone and the chief Shepherd. He is also the Shepherd and Overseer of your souls.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 19,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "sarah": {
+      "name": "Sarah",
+      "role": "Holy woman who called Abraham lord",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Peter 3"
+      ],
+      "importance": "Peter tells wives to be gentle and quiet. He says holy women of the past did so. He says Sarah obeyed Abraham and called him lord. Wives are her children if they do well. They must not be put in fear by any terror.",
+      "connections": "Peter names her obeying her husband Abraham. He calls his readers her children if they do well.",
+      "verseScope": {},
+      "linkNames": [
+        "Sarah"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4564",
+        "key": "Sarah",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σάῤῥα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sárrha"
+      }
+    },
+    "abraham": {
+      "name": "Abraham",
+      "role": "Husband whom Sarah called lord",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Peter 3"
+      ],
+      "importance": "Peter names Abraham only as the one Sarah obeyed. He tells no story about him. The next verse tells husbands to honor their wives as joint heirs.",
+      "connections": "Peter says Sarah obeyed him and called him lord.",
+      "verseScope": {},
+      "linkNames": [
+        "Abraham"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G11",
+        "key": "Abraham",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀβραάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Abraám"
+      }
+    },
+    "noah": {
+      "name": "Noah",
+      "role": "Man in whose days the ship was built",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Peter 3"
+      ],
+      "importance": "Peter says some spirits in prison were disobedient in the days of Noah. God waited patiently while the ship was built. Eight souls were saved through water. Peter calls this a symbol of baptism.",
+      "connections": "Peter names his days, when God waited patiently. Eight souls were saved through water.",
+      "verseScope": {},
+      "linkNames": [
+        "Noah"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3575",
+        "key": "Noah",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          20
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Νῶε",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Nōe"
+      }
+    },
+    "silas": {
+      "name": "Silvanus",
+      "role": "Faithful brother who helped write the letter",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "First Peter 5"
+      ],
+      "importance": "Peter says he wrote this brief letter through Silvanus. The letter says nothing more about what Silvanus did. Peter says the letter shows the true grace of God.",
+      "connections": "Peter calls him our faithful brother, as he considers him.",
+      "verseScope": {},
+      "linkNames": [
+        "Silvanus"
+      ],
+      "chapterIds": [
+        5
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4610",
+        "key": "Silvanus",
+        "checkedVerses": 1,
+        "example": [
+          5,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σιλουανός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Silouanós"
+      }
+    }
+  }
+}

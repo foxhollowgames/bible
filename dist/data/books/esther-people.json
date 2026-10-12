@@ -1,0 +1,878 @@
+{
+  "featurePeople": {
+    "esther-1": [
+      "ahasuerus-esther",
+      "vashti",
+      "memucan",
+      "royal-servants-esther",
+      "royal-princes-esther"
+    ],
+    "esther-2": [
+      "ahasuerus-esther",
+      "vashti",
+      "esther",
+      "mordecai",
+      "hegai",
+      "shaashgaz",
+      "abihail-esther",
+      "mordecai-ancestors",
+      "bigthan-teresh",
+      "esther-maidens",
+      "jehoiachin",
+      "nebuchadnezzar"
+    ],
+    "esther-3": [
+      "ahasuerus-esther",
+      "mordecai",
+      "haman",
+      "jewish-families-esther",
+      "royal-scribes-esther",
+      "royal-couriers-esther"
+    ],
+    "esther-4": [
+      "esther",
+      "mordecai",
+      "hathach",
+      "jewish-families-esther",
+      "esther-maidens"
+    ],
+    "esther-5": [
+      "ahasuerus-esther",
+      "esther",
+      "haman",
+      "mordecai",
+      "zeresh"
+    ],
+    "esther-6": [
+      "ahasuerus-esther",
+      "haman",
+      "mordecai",
+      "zeresh",
+      "bigthan-teresh"
+    ],
+    "esther-7": [
+      "ahasuerus-esther",
+      "esther",
+      "haman",
+      "harbonah"
+    ],
+    "esther-8": [
+      "ahasuerus-esther",
+      "esther",
+      "mordecai",
+      "haman",
+      "royal-scribes-esther",
+      "royal-couriers-esther",
+      "jewish-families-esther"
+    ],
+    "esther-9": [
+      "ahasuerus-esther",
+      "esther",
+      "mordecai",
+      "haman",
+      "jewish-families-esther",
+      "haman-sons",
+      "abihail-esther"
+    ],
+    "esther-10": [
+      "ahasuerus-esther",
+      "mordecai"
+    ]
+  },
+  "people": {
+    "ahasuerus-esther": {
+      "name": "Ahasuerus, the king in Esther",
+      "role": "Persian king whose orders shape the crisis",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 1, 2, 3, 5, 6, 7, 8, 9, 10"
+      ],
+      "importance": "His choices spread danger and later give the Jews power to fight their enemies.",
+      "connections": "He removes Vashti, makes Esther queen, and gives his ring to Haman and Mordecai.",
+      "verseScope": {},
+      "linkNames": [
+        "Ahasuerus"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H325",
+        "key": "Ahasuerus",
+        "checkedVerses": 28,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "אֲחַשְׁוֵרוֹשׁ",
+        "transliteration": "ʼĂchashvêrôwsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "vashti": {
+      "name": "Vashti",
+      "role": "Queen removed after refusing the king’s order",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 1, 2"
+      ],
+      "importance": "Her refusal leads the king’s advisers to demand rules for all wives.",
+      "connections": "She holds a feast for women. She refuses to appear when the king sends servants.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2060",
+        "key": "Vashti",
+        "checkedVerses": 10,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "וַשְׁתִּי",
+        "transliteration": "Vashtîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "memucan": {
+      "name": "Memucan",
+      "role": "Adviser who urges the king to replace Vashti",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 1"
+      ],
+      "importance": "He turns the king’s anger into a claim that all husbands need protection.",
+      "connections": "He is one of seven princes close to the king.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4462",
+        "key": "Memucan",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          14
+        ],
+        "hebrew": "מְמוּכָן",
+        "transliteration": "Mᵉmûwkân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "royal-servants-esther": {
+      "name": "The seven royal servants",
+      "role": "Servants sent to bring Vashti before the king",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 1"
+      ],
+      "importance": "They carry the order that Vashti refuses.",
+      "connections": "The list names Mehuman, Biztha, Harbona, Bigtha, Abagtha, Zethar, and Carcass.",
+      "verseScope": {
+        "1": [
+          10
+        ]
+      },
+      "linkNames": [
+        "Mehuman",
+        "Biztha",
+        "Harbona",
+        "Bigtha",
+        "Abagtha",
+        "Zethar",
+        "Carcass"
+      ],
+      "chapterIds": [
+        1
+      ]
+    },
+    "royal-princes-esther": {
+      "name": "The king’s princes",
+      "role": "Advisers who know the laws and meet the king",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 1"
+      ],
+      "importance": "The king asks these advisers how to answer Vashti’s refusal.",
+      "connections": "Carshena, Shethar, Admatha, Tarshish, Meres, and Marsena sit with Memucan.",
+      "verseScope": {
+        "1": [
+          14
+        ]
+      },
+      "linkNames": [
+        "Carshena",
+        "Shethar",
+        "Admatha",
+        "Tarshish",
+        "Meres",
+        "Marsena"
+      ],
+      "chapterIds": [
+        1
+      ]
+    },
+    "esther": {
+      "name": "Esther",
+      "role": "Jewish queen who asks the king to save her people",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 2, 4, 5, 7, 8, 9"
+      ],
+      "importance": "She risks approaching the king and keeps asking for help after Haman dies.",
+      "connections": "Also called Hadassah, she is Abihail’s daughter. Mordecai raises her after her parents die.",
+      "verseScope": {},
+      "linkNames": [
+        "Hadassah"
+      ],
+      "chapterIds": [
+        2,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H635",
+        "key": "Esther",
+        "checkedVerses": 45,
+        "example": [
+          2,
+          7
+        ],
+        "hebrew": "אֶסְתֵּר",
+        "transliteration": "ʼEçtêr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mordecai": {
+      "name": "Mordecai",
+      "role": "Esther’s cousin and guardian, later a high official",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 2, 3, 4, 5, 6, 8, 9, 10"
+      ],
+      "importance": "His messages urge Esther to act. His later letters help organize defense and yearly remembrance.",
+      "connections": "He raises Esther, reports a plot against the king, and refuses to bow to Haman.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4782",
+        "key": "Mordecai",
+        "checkedVerses": 50,
+        "example": [
+          2,
+          5
+        ],
+        "hebrew": "מׇרְדְּכַי",
+        "transliteration": "Mordᵉkay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hegai": {
+      "name": "Hegai",
+      "role": "Royal servant in charge of the first women’s house",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 2"
+      ],
+      "importance": "His care helps Esther within a household controlled by the king.",
+      "connections": "He gives Esther food, cosmetics, attendants, and advice before she meets the king.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1896",
+        "key": "Hegai",
+        "checkedVerses": 3,
+        "example": [
+          2,
+          3
+        ],
+        "hebrew": "הֵגֵא",
+        "transliteration": "Hêgêʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shaashgaz": {
+      "name": "Shaashgaz",
+      "role": "Royal servant keeping the second women’s house",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 2"
+      ],
+      "importance": "His task shows how the king controls whether women return to see him.",
+      "connections": "Women enter his care after spending a night with the king.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8190",
+        "key": "Shaashgaz",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          14
+        ],
+        "hebrew": "שַׁעַשְׁגַּז",
+        "transliteration": "Shaʻashgaz",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abihail-esther": {
+      "name": "Abihail, Esther’s father",
+      "role": "Mordecai’s uncle and Esther’s deceased father",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Esther 2, 9"
+      ],
+      "importance": "Naming her father connects the queen to the family she first keeps secret.",
+      "connections": "Mordecai takes Esther into his family after both her parents die.",
+      "verseScope": {
+        "2": [
+          15
+        ],
+        "9": [
+          29
+        ]
+      },
+      "linkNames": [
+        "Abihail"
+      ],
+      "chapterIds": [
+        2,
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H32",
+        "key": "Abihail",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          15
+        ],
+        "hebrew": "אֲבִיהַיִל",
+        "transliteration": "ʼĂbîyhayil",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "mordecai-ancestors": {
+      "name": "Jair, Shimei, and Kish in Mordecai’s family",
+      "role": "Three ancestors named before the exile account",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Esther 2"
+      ],
+      "importance": "Their names connect Mordecai’s family with the earlier loss of Jerusalem.",
+      "connections": "The list calls Mordecai a son of Jair, Shimei, and Kish, from Benjamin’s family.",
+      "verseScope": {
+        "2": [
+          5
+        ]
+      },
+      "linkNames": [
+        "Jair",
+        "Shimei",
+        "Kish"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2971",
+        "key": "Jair",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          5
+        ],
+        "hebrew": "יָאִיר",
+        "transliteration": "Yâʼîyr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "bigthan-teresh": {
+      "name": "Bigthan and Teresh",
+      "role": "Two doorkeepers who plot against the king",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 2, 6"
+      ],
+      "importance": "The saved report later prompts the king to reward Mordecai. Chapter six calls Bigthan Bigthana.",
+      "connections": "Mordecai reports their plot through Esther. The king’s investigation leads to their deaths.",
+      "verseScope": {
+        "2": [
+          21
+        ],
+        "6": [
+          2
+        ]
+      },
+      "linkNames": [
+        "Bigthan",
+        "Bigthana",
+        "Teresh"
+      ],
+      "chapterIds": [
+        2,
+        6
+      ]
+    },
+    "esther-maidens": {
+      "name": "Esther’s attendants",
+      "role": "Women serving Esther in the palace",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 2, 4"
+      ],
+      "importance": "Esther prepares with others before facing the danger of approaching the king.",
+      "connections": "Hegai gives her seven attendants. Later, her women join her three-day fast.",
+      "verseScope": {
+        "2": [
+          9
+        ],
+        "4": [
+          4,
+          16
+        ]
+      },
+      "linkNames": [
+        "her maidens",
+        "my maidens"
+      ],
+      "chapterIds": [
+        2,
+        4
+      ]
+    },
+    "haman": {
+      "name": "Haman",
+      "role": "Official who plans to kill all the Jews",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 3, 5, 6, 7, 8, 9"
+      ],
+      "importance": "He uses the king’s authority against a whole people after Mordecai refuses to bow.",
+      "connections": "Hammedatha’s son, called an Agagite, receives high office. His wife is Zeresh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2001",
+        "key": "Haman",
+        "checkedVerses": 45,
+        "example": [
+          3,
+          1
+        ],
+        "hebrew": "הָמָן",
+        "transliteration": "Hâmân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zeresh": {
+      "name": "Zeresh",
+      "role": "Haman’s wife and adviser",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 5, 6"
+      ],
+      "importance": "Her advice changes as Haman’s apparent success becomes public humiliation.",
+      "connections": "She joins his friends in proposing a gallows. Later, she warns that he will fall.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        5,
+        6
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2238",
+        "key": "Zeresh",
+        "checkedVerses": 3,
+        "example": [
+          5,
+          10
+        ],
+        "hebrew": "זֶרֶשׁ",
+        "transliteration": "Zeresh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "hathach": {
+      "name": "Hathach",
+      "role": "Servant carrying messages for Esther",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 4"
+      ],
+      "importance": "His messages let Esther learn about the death order and answer Mordecai’s request.",
+      "connections": "The king assigns him to Esther. He visits Mordecai outside the gate.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ]
+    },
+    "harbonah": {
+      "name": "Harbonah",
+      "role": "Royal servant who points out Haman’s gallows",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 7"
+      ],
+      "importance": "His words connect Haman’s death plan with Mordecai’s earlier service to the king.",
+      "connections": "He speaks to the king after Esther names Haman as her enemy.",
+      "verseScope": {},
+      "linkNames": [
+        "Harbonah"
+      ],
+      "chapterIds": [
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2726",
+        "key": "Harbonah",
+        "checkedVerses": 1,
+        "example": [
+          7,
+          9
+        ],
+        "hebrew": "חַרְבוֹנָא",
+        "transliteration": "Charbôwnâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jewish-families-esther": {
+      "name": "The Jewish families in Esther",
+      "role": "Men, women, and children threatened by Haman’s letters",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Esther 3, 4, 8, 9"
+      ],
+      "importance": "The danger reaches whole families. Remembrance includes food gifts and help for people in need.",
+      "connections": "They mourn and fast, then gather to fight. Later, they keep Purim each year.",
+      "verseScope": {},
+      "linkNames": [
+        "the Jews",
+        "all Jews"
+      ],
+      "chapterIds": [
+        3,
+        4,
+        8,
+        9
+      ]
+    },
+    "royal-scribes-esther": {
+      "name": "The royal writers",
+      "role": "Writers preparing orders in many languages",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 3, 8"
+      ],
+      "importance": "Written words carry the king’s power far beyond his palace.",
+      "connections": "They write Haman’s orders and later write what Mordecai commands.",
+      "verseScope": {},
+      "linkNames": [
+        "the king’s scribes"
+      ],
+      "chapterIds": [
+        3,
+        8
+      ]
+    },
+    "royal-couriers-esther": {
+      "name": "The royal couriers",
+      "role": "Messengers carrying the king’s letters",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Esther 3, 8"
+      ],
+      "importance": "The letters reach distant communities before the chosen day of fighting.",
+      "connections": "They hurry out with the first death order. Later, riders carry the new letters.",
+      "verseScope": {},
+      "linkNames": [
+        "couriers"
+      ],
+      "chapterIds": [
+        3,
+        8
+      ]
+    },
+    "haman-sons": {
+      "name": "Haman’s ten sons",
+      "role": "Family members killed during the fighting in Susa",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Susa"
+      ],
+      "passages": [
+        "Esther 9"
+      ],
+      "importance": "Their deaths extend the conflict beyond Haman himself. The account gives none of their own words.",
+      "connections": "They are killed before Esther asks the king to hang their bodies.",
+      "verseScope": {
+        "9": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      "linkNames": [
+        "Parshandatha",
+        "Dalphon",
+        "Aspatha",
+        "Poratha",
+        "Adalia",
+        "Aridatha",
+        "Parmashta",
+        "Arisai",
+        "Aridai",
+        "Vaizatha",
+        "Haman’s ten sons"
+      ],
+      "chapterIds": [
+        9
+      ]
+    },
+    "jehoiachin": {
+      "name": "Jehoiachin",
+      "role": "Judah’s king named in the earlier exile account",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Esther 2"
+      ],
+      "importance": "His name connects the Persian setting with an earlier loss of Judah’s freedom.",
+      "connections": "Esther’s family account names him among those carried away by Nebuchadnezzar.",
+      "verseScope": {},
+      "linkNames": [
+        "Jeconiah"
+      ],
+      "chapterIds": [
+        2
+      ]
+    },
+    "nebuchadnezzar": {
+      "name": "Nebuchadnezzar",
+      "role": "Earlier Babylonian king named in Esther’s family account",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Esther 2"
+      ],
+      "importance": "His earlier conquests form part of the family’s remembered past.",
+      "connections": "The account recalls his capture of people from Jerusalem.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5019",
+        "key": "Nebuchadnezzar",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          6
+        ],
+        "hebrew": "נְבוּכַדְנֶאצַּר",
+        "transliteration": "Nᵉbûwkadneʼtstsar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

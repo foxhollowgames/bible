@@ -1,0 +1,330 @@
+{
+  "featurePeople": {
+    "ezekiel-1": [
+      "ezekiel",
+      "jehoiachin"
+    ],
+    "ezekiel-2": [
+      "ezekiel"
+    ],
+    "ezekiel-3": [
+      "ezekiel"
+    ],
+    "ezekiel-4": [
+      "ezekiel"
+    ],
+    "ezekiel-5": [
+      "ezekiel"
+    ],
+    "ezekiel-6": [
+      "ezekiel"
+    ],
+    "ezekiel-7": [
+      "ezekiel"
+    ],
+    "ezekiel-8": [
+      "ezekiel"
+    ],
+    "ezekiel-9": [
+      "ezekiel"
+    ],
+    "ezekiel-10": [
+      "ezekiel"
+    ],
+    "ezekiel-11": [
+      "ezekiel"
+    ],
+    "ezekiel-12": [
+      "ezekiel"
+    ],
+    "ezekiel-13": [
+      "ezekiel"
+    ],
+    "ezekiel-14": [
+      "ezekiel"
+    ],
+    "ezekiel-15": [
+      "ezekiel"
+    ],
+    "ezekiel-16": [
+      "ezekiel"
+    ],
+    "ezekiel-17": [
+      "ezekiel"
+    ],
+    "ezekiel-18": [
+      "ezekiel"
+    ],
+    "ezekiel-19": [
+      "ezekiel"
+    ],
+    "ezekiel-20": [
+      "ezekiel"
+    ],
+    "ezekiel-21": [
+      "ezekiel"
+    ],
+    "ezekiel-22": [
+      "ezekiel"
+    ],
+    "ezekiel-23": [
+      "ezekiel"
+    ],
+    "ezekiel-24": [
+      "ezekiel",
+      "ezekiel-wife"
+    ],
+    "ezekiel-25": [
+      "ezekiel"
+    ],
+    "ezekiel-26": [
+      "ezekiel",
+      "nebuchadnezzar"
+    ],
+    "ezekiel-27": [
+      "ezekiel"
+    ],
+    "ezekiel-28": [
+      "ezekiel"
+    ],
+    "ezekiel-29": [
+      "ezekiel",
+      "nebuchadnezzar"
+    ],
+    "ezekiel-30": [
+      "ezekiel"
+    ],
+    "ezekiel-31": [
+      "ezekiel"
+    ],
+    "ezekiel-32": [
+      "ezekiel"
+    ],
+    "ezekiel-33": [
+      "ezekiel"
+    ],
+    "ezekiel-34": [
+      "ezekiel"
+    ],
+    "ezekiel-35": [
+      "ezekiel"
+    ],
+    "ezekiel-36": [
+      "ezekiel"
+    ],
+    "ezekiel-37": [
+      "ezekiel"
+    ],
+    "ezekiel-38": [
+      "ezekiel"
+    ],
+    "ezekiel-39": [
+      "ezekiel"
+    ],
+    "ezekiel-40": [
+      "ezekiel"
+    ],
+    "ezekiel-41": [
+      "ezekiel"
+    ],
+    "ezekiel-42": [
+      "ezekiel"
+    ],
+    "ezekiel-43": [
+      "ezekiel"
+    ],
+    "ezekiel-44": [
+      "ezekiel"
+    ],
+    "ezekiel-45": [
+      "ezekiel"
+    ],
+    "ezekiel-46": [
+      "ezekiel"
+    ],
+    "ezekiel-47": [
+      "ezekiel"
+    ],
+    "ezekiel-48": [
+      "ezekiel"
+    ]
+  },
+  "people": {
+    "ezekiel": {
+      "name": "Ezekiel",
+      "role": "Priest and prophet among the captives",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezekiel 1–48"
+      ],
+      "importance": "His visions and public actions explain judgment and a future with God among the people.",
+      "connections": "He is Buzi’s son and speaks to the exiles.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3168",
+        "key": "Ezekiel",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "יְחֶזְקֵאל",
+        "transliteration": "Yᵉchezqêʼl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ezekiel-wife": {
+      "name": "Ezekiel’s wife",
+      "role": "Unnamed wife whose death becomes part of a public sign",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezekiel 24:15–24"
+      ],
+      "importance": "Her death brings the prophet’s warning into his household. The text gives no name or personal response.",
+      "connections": "Ezekiel calls her the desire of his eyes.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ]
+    },
+    "jehoiachin": {
+      "name": "Jehoiachin",
+      "role": "Captive king whose exile supplies the opening date",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezekiel 1:2"
+      ],
+      "importance": "His captivity locates Ezekiel’s calling within the experience of displaced people.",
+      "connections": "He is Jehoiakim’s son. His mother and officials share the deportation.",
+      "verseScope": {},
+      "linkNames": [
+        "Jehoiachin",
+        "Jeconiah",
+        "Coniah"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3112",
+        "key": "Jehoiachin",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "יוֹיָכִין",
+        "transliteration": "Yôwyâkîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nebuchadnezzar": {
+      "name": "Nebuchadnezzar",
+      "role": "Babylonian king named in speeches about Tyre and Egypt",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Ezekiel 26:7; 29:18–20"
+      ],
+      "importance": "The speeches connect his military effort with a promised reward in Egypt.",
+      "connections": "He rules over Judah, orders Jeremiah’s protection, and takes captives.",
+      "verseScope": {},
+      "linkNames": [
+        "Nebuchadnezzar"
+      ],
+      "chapterIds": [
+        26,
+        29
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5019",
+        "key": "Nebuchadnezzar",
+        "checkedVerses": 4,
+        "example": [
+          26,
+          7
+        ],
+        "hebrew": "נְבוּכַדְנֶאצַּר",
+        "transliteration": "Nᵉbûwkadneʼtstsar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

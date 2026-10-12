@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "2-timothy",
+    "name": "2 Timothy",
+    "bibleCode": "2TI",
+    "chapterCount": 4,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

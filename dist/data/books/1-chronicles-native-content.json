@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "1-chronicles",
+    "name": "1 Chronicles",
+    "bibleCode": "1CH",
+    "chapterCount": 29,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

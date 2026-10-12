@@ -1,0 +1,256 @@
+{
+  "featurePeople": {
+    "2-peter-1": [
+      "peter",
+      "jesus"
+    ],
+    "2-peter-2": [
+      "peter",
+      "jesus",
+      "noah",
+      "lot",
+      "balaam"
+    ],
+    "2-peter-3": [
+      "peter",
+      "jesus",
+      "paul"
+    ]
+  },
+  "people": {
+    "peter": {
+      "name": "Peter",
+      "role": "Simon Peter, servant and apostle of Jesus Christ",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Peter 1, 2, 3"
+      ],
+      "importance": "He says he will keep reminding the readers, because his death is near. He says he and others heard the voice from heaven on the holy mountain. He warns of false teachers and mockers. He ends by telling the readers to grow in grace and knowledge.",
+      "connections": "He writes to believers who share his precious faith. He calls Paul our beloved brother.",
+      "verseScope": {},
+      "linkNames": [
+        "Peter"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4074",
+        "key": "Peter",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πέτρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Pétros"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord and Savior, whose coming is promised",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Peter 1, 2, 3"
+      ],
+      "importance": "Peter says God’s power gives all things for life and godliness through knowing him. On the holy mountain, Peter heard the Father’s voice honor him. Mockers ask where the promise of his coming is. Peter tells the readers to be patient. They should keep growing in grace and knowledge of him.",
+      "connections": "Peter says the voice from the Majestic Glory called him “my beloved Son.”",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 8,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "noah": {
+      "name": "Noah",
+      "role": "Preacher of righteousness, kept safe in the flood",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Peter 2"
+      ],
+      "importance": "Peter says God did not spare the ancient world. He kept Noah with seven others when the flood came. Noah is one of Peter’s proofs that the Lord knows how to deliver the godly.",
+      "connections": "God kept him with seven others when the flood came.",
+      "verseScope": {},
+      "linkNames": [
+        "Noah"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3575",
+        "key": "Noah",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          5
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Νῶε",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Nōe"
+      }
+    },
+    "lot": {
+      "name": "Lot",
+      "role": "Righteous man rescued from Sodom",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Peter 2"
+      ],
+      "importance": "Peter says Lot lived among the wicked. Their lawless deeds tormented him day by day. God delivered him. Sodom and Gomorrah were turned to ashes. Peter says the Lord knows how to deliver the godly.",
+      "connections": "Peter names him with the destruction of Sodom and Gomorrah.",
+      "verseScope": {},
+      "linkNames": [
+        "Lot"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3091",
+        "key": "Lot",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          7
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Λώτ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Lṓt"
+      }
+    },
+    "balaam": {
+      "name": "Balaam",
+      "role": "Son of Beor, a prophet who loved wages",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Peter 2"
+      ],
+      "importance": "Peter says Balaam loved the wages of wrongdoing. He was rebuked for his disobedience. A speechless donkey spoke with a man’s voice and stopped his madness. Peter says the false teachers left the right way as he did.",
+      "connections": "He is called the son of Beor. Peter says the false teachers followed his way.",
+      "verseScope": {},
+      "linkNames": [
+        "Balaam"
+      ],
+      "chapterIds": [
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G903",
+        "key": "Balaam",
+        "checkedVerses": 1,
+        "example": [
+          2,
+          15
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαλαάμ",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Balaám"
+      }
+    },
+    "paul": {
+      "name": "Paul",
+      "role": "Our beloved brother, who wrote letters",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Second Peter 3"
+      ],
+      "importance": "Peter says Paul wrote to the readers about the Lord’s patience. Peter says some things in Paul’s letters are hard to understand. The ignorant and unsettled twist them, as they twist the other Scriptures.",
+      "connections": "Peter calls him our beloved brother. Peter says Paul wrote to these readers.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          15
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    }
+  }
+}

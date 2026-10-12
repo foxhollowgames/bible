@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {readFile,access} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
 const root=new URL('../dist/',import.meta.url);
 const read=async p=>JSON.parse(await readFile(new URL(p,root),'utf8'));
 const directory=await read('data/books/directory.json'),data=await read('data/books/genesis.json'),art=await read('data/books/genesis-art.json');
@@ -7,7 +8,7 @@ const counts=[31,25,24,26,32,22,24,22,29,32,32,20,18,24,21,16,27,33,38,18,34,24,
 assert.equal(directory.length,66);assert.equal(new Set(directory.map(b=>b.id)).size,66);
 assert.equal(directory.filter(b=>b.testament==='Old Testament').length,39);
 assert.equal(directory.filter(b=>b.testament==='New Testament').length,27);
-assert.equal(directory.find(b=>b.id==='isaiah').url,'./','Keep the original Isaiah route');
+assert(directory.every(b=>b.url===`${b.id}.html`),'Every book uses the same route');
 assert.equal(data.chapters.length,50);assert.equal(Object.keys(data.scripture).length,50);
 const sourceIds=new Set(data.sources.map(s=>s.id)),peopleIds=new Set(data.people.map(p=>p.id)),placeIds=new Set(data.places.map(p=>p.id));
 assert.equal(sourceIds.size,data.sources.length);assert.equal(peopleIds.size,data.people.length);assert.equal(placeIds.size,data.places.length);
@@ -29,8 +30,20 @@ assert.equal(total,1533);
 for(const p of data.people){assert(p.role&&p.relations&&p.life&&p.meaning&&p.passages);assert(art[p.id],`Missing portrait for ${p.id}`);await access(new URL(art[p.id].src,root));if(!art[p.id].generated){assert(art[p.id].sourceUrl.startsWith('https://commons.wikimedia.org/'));assert(art[p.id].license&&art[p.id].credit);assert(!/\.pdf\b/i.test(art[p.id].title),`A document is not a portrait: ${p.id}`);}}
 for(const p of data.places){assert(Number.isFinite(p.lat)&&Math.abs(p.lat)<=90);assert(Number.isFinite(p.lng)&&Math.abs(p.lng)<=180);assert(p.limits);}
 for(const s of data.sources){assert.equal(new URL(s.url).protocol,'https:');assert(s.summary&&s.limits);}
-const app=await readFile(new URL('book-genesis-app.js',root),'utf8'),index=await readFile(new URL('index.html',root),'utf8');
-assert(index.includes('href="books.html"'));
+const app=await readFile(new URL('app.js',root),'utf8'),index=await readFile(new URL('index.html',root),'utf8');
+assert(index.includes('id="bookGroups"'),'The home page is the book directory');
+assert(index.includes("location.replace('isaiah.html' + location.hash)"),'Keep earlier Isaiah links working');
+assert(!app.includes('Isaiah'),'The reader takes each book name from its data');
+// Link previews read each book's own page. Run python scripts/build-share.py to write the pages and cards.
+const shellPage=(await readFile(new URL('book.html',root),'utf8')).replace(/<!-- share -->.*?<!-- \/share -->/s,'');
+for(const b of directory.filter(b=>b.status==='ready')){
+  const page=await readFile(new URL(`${b.id}.html`,root),'utf8');
+  assert(page.includes(`data-book="${b.id}"`)&&page.includes(`<title>${b.name} · Bible Wayfinder</title>`),`${b.id}: book page`);
+  assert(page.includes(`property="og:image" content="https://isaiah.josephnewelldesign.com/assets/share/${b.id}.jpg"`)&&page.includes('name="twitter:card" content="summary_large_image"'),`${b.id}: share tags`);
+  assert.equal(page.replace(/<!-- share -->.*?<!-- \/share -->/s,'').replace(` data-book="${b.id}"`,'').replace(`<title>${b.name} · Bible Wayfinder</title>`,'<title>Bible Wayfinder</title>'),shellPage,`${b.id}: page differs from the shell. Run python scripts/build-share.py.`);
+  await access(new URL(`assets/share/${b.id}.jpg`,root));
+}
+assert(index.includes('assets/share/site.jpg'),'The home page needs its share card');
 assert(app.includes("$('#scriptureSidebar').hidden = mapMode"));
 assert(app.includes("$('.timeline').hidden = !mapMode"));
 const shell=await readFile(new URL('book.html',root),'utf8');
@@ -56,7 +69,9 @@ const jobCounts=[22,13,26,21,27,30,21,22,35,22,20,25,28,22,35,22,16,21,29,29,34,
 const firstChroniclesCounts=[54,55,24,43,26,81,40,40,44,14,47,40,14,17,29,43,27,17,19,8,30,19,32,31,31,32,34,21,30];
 const numbersCounts=[54,34,51,49,31,27,89,26,23,36,35,16,33,45,41,50,13,32,22,29,35,41,30,25,18,65,23,31,40,16,54,42,56,29,34,13];
 const leviticusCounts=[17,16,17,35,19,30,38,36,24,20,47,8,59,57,33,34,16,30,37,27,24,33,44,23,55,46,34];
-for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].includes(b.id))){
+// These checks read each book's base record. A book without one has its own checks.
+const hasRecord=b=>b.status==='ready'&&existsSync(new URL(`data/books/${b.id}.json`,root));
+for(const book of directory.filter(b=>hasRecord(b)&&b.id!=='genesis')){
   const content=await read(`data/books/${book.id}.json`),images=await read(`data/books/${book.id}-art.json`);
   assert.equal(content.chapters.length,content.chapterCount);assert.equal(Object.keys(content.scripture).length,content.chapterCount);
   const sources=new Map(content.sources.map(s=>[s.id,s])),people=new Set(content.people.map(p=>p.id)),places=new Set(content.places.map(p=>p.id));let verses=0;
@@ -120,7 +135,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&!['genesis','isaiah'].
 }
 
 // Reviewed chapter coverage must match the actual perspective associations.
-for(const book of directory.filter(b=>b.status==='ready'&&b.id!=='isaiah')){
+for(const book of directory.filter(hasRecord)){
   const content=await read(`data/books/${book.id}.json`);
   for(const s of content.sources){
     assert(s.summary&&s.limits&&new URL(s.url).protocol==='https:');
@@ -135,7 +150,7 @@ for(const book of directory.filter(b=>b.status==='ready'&&b.id!=='isaiah')){
 }
 console.log('Reviewed source coverage and attribution checks passed.');
 
-const profileData=async slug=>JSON.parse((await readFile(new URL(`book-${slug}-portraits.js`,root),'utf8')).match(/export const people = (.*);/)[1]);
+const profileData=async slug=>(await read(`data/books/${slug}-people.json`)).people;
 const genesisProfiles=await profileData('genesis');
 assert.equal(genesisProfiles.abraham.name,'Abraham');
 assert(genesisProfiles.abraham.linkNames.includes('Abram'));

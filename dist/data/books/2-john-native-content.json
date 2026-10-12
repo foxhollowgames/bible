@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "2-john",
+    "name": "2 John",
+    "bibleCode": "2JN",
+    "chapterCount": 1,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

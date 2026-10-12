@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "1-timothy",
+    "name": "1 Timothy",
+    "bibleCode": "1TI",
+    "chapterCount": 6,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

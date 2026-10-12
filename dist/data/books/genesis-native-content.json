@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "genesis",
+    "name": "Genesis",
+    "bibleCode": "GEN",
+    "chapterCount": 50,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

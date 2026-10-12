@@ -41,26 +41,28 @@ function normalized(value) {
 
 async function main() {
   const [content, scripture, relief] = await Promise.all([
-    readJson('data/content.json'), readJson('data/scripture.json'), readJson('data/relief.json'),
+    readJson('data/books/isaiah-native-content.json'), readJson('data/books/isaiah-native-scripture.json'), readJson('data/relief.json'),
   ]);
   const [appSource, styleSource, indexSource] = await Promise.all([
     readFile(resolve(dist, 'app.js'), 'utf8'),
     readFile(resolve(dist, 'styles.css'), 'utf8'),
-    readFile(resolve(dist, 'index.html'), 'utf8'),
+    readFile(resolve(dist, 'book.html'), 'utf8'),
   ]);
   assert(!/feature-uncertainty|<strong>Map limit\./.test(appSource), 'Map features must use the shared footer disclaimer instead of dedicated disclaimer panels');
-  assert(appSource.includes("visibleAt(region) && (state.studyMode === 'map' || (!region.chapterCoverage || region.chapterCoverage.includes(state.chapter)))"), 'The Nations toggle must show added regional powers only in relevant chapters');
+  assert(appSource.includes("visibleAt(region) && (datedMap() || !region.chapterCoverage || region.chapterCoverage.includes(state.chapter))"), 'The Nations toggle must show added regional powers only in relevant chapters');
   assert(appSource.includes("color:'#e1d6b8',weight:active ? 4 : 2.25"), 'Road selection must thicken the parchment road color without changing its hue');
   assert(styleSource.includes('path.ancient-road-hit:focus-visible{stroke:#e1d6b8;stroke-width:18;stroke-opacity:.08}'), 'Keyboard focus must not restore the blue road style');
   assert(appSource.includes("weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1"), 'Rivers must remain visible beneath political overlays');
   assert(appSource.includes('function ensureLayerOptions()') && appSource.includes("fetch(`${p}?v=${releaseVersion}`)"), 'Startup must recover the layer controls and version its data requests');
-  assert(indexSource.includes('styles.css?v=20261011.1') && indexSource.includes("app.js?v=20261011.1"), 'The page must request one version of its release assets');
-  assert(indexSource.includes('<title>Isaiah Study Guide</title>') && indexSource.includes('<b>ISAIAH<small>STUDY GUIDE</small></b>'), 'The app must use the Isaiah Study Guide brand');
+  assert(indexSource.includes('styles.css?v=20261011.3') && indexSource.includes("native-book.js?v=20261011.3") && appSource.includes("const releaseVersion = '20261011.3';"), 'The page must request one version of its release assets');
+  assert(indexSource.includes('<title>Bible Wayfinder</title>') && indexSource.includes('<b id="bookBrand">BIBLE<small>WAYFINDER</small></b>') && !indexSource.includes('Isaiah') && !appSource.includes('Isaiah'), 'The shared reader must take the book name from its data');
+  assert(content.book?.id === 'isaiah' && content.book.name === 'Isaiah' && content.book.chapterCount === 66 && content.book.bibleCode === 'ISA', 'The content must name its book for the shared reader');
   assert(!indexSource.includes('Meridian') && !appSource.includes('Meridian application'), 'The retired brand must not appear in the user interface');
-  assert(appSource.includes('aria-label="Isaiah chapter ${c}"') && appSource.includes('<span>${c}</span><span class="chapter-picker-check"'), 'Chapter-picker options must show numbers only while retaining descriptive labels');
-  assert(!appSource.includes('<span>Isaiah ${c}</span>'), 'Chapter-picker options must not repeat the book name');
-  assert(appSource.includes('function chapterDateLabel(') && appSource.includes("{from:40, to:55, label:'~550 - 539 BCE'}") && appSource.includes("{from:56, to:66, label:'~539 - 450 BCE'}"), 'Chapter headings must distinguish First, Second, and Third Isaiah date ranges');
-  assert(appSource.includes("{from:20, to:20, label:'~711 BCE'}") && appSource.includes("{from:36, to:36, label:'~701 BCE'}"), 'Historically anchored chapters must use narrower date labels');
+  assert(appSource.includes('aria-label="${esc(book.name)} chapter ${c}"') && appSource.includes('<span>${c}</span><span class="chapter-picker-check"'), 'Chapter-picker options must show numbers only while retaining descriptive labels');
+  assert(!appSource.includes('<span>${esc(book.name)} ${c}</span>'), 'Chapter-picker options must not repeat the book name');
+  const dateBand = (from, to) => content.chapterDateBands?.find(band => band.from === from && band.to === to)?.label;
+  assert(appSource.includes('function chapterDateLabel(') && dateBand(40, 55) === '~550 - 539 BCE' && dateBand(56, 66) === '~539 - 450 BCE', 'Chapter headings must distinguish First, Second, and Third Isaiah date ranges');
+  assert(dateBand(20, 20) === '~711 BCE' && dateBand(36, 36) === '~701 BCE', 'Historically anchored chapters must use narrower date labels');
   assert(!appSource.includes('chapterDateTooltip') && !appSource.includes('We do not know when this chapter was written.'), 'Chapter dates must not use the retired uncertainty tooltip');
   for (const key of ['sources', 'passages', 'events', 'places', 'campaigns', 'ancientRoads', 'regions', 'words', 'guides', 'periods']) {
     assert(Array.isArray(content[key]), `content.json.${key} must be an array`);
@@ -224,8 +226,8 @@ async function main() {
     try { assert((await stat(resolve(dist, asset))).size > 0, `Required local asset is empty: ${asset}`); } catch { fail(`Missing required local asset: ${asset}`); }
   }
 
-  if (errors.length) { console.error(`Isaiah Study Guide data check failed with ${errors.length} issue(s):`); errors.forEach(error => console.error(`- ${error}`)); process.exitCode = 1; return; }
-  console.log(`Isaiah Study Guide data check passed: ${verseCount} verses, ${content.sources.length} sources, ${content.passages.length} passages, ${content.words.length} curated word studies.`);
+  if (errors.length) { console.error(`Isaiah data check failed with ${errors.length} issue(s):`); errors.forEach(error => console.error(`- ${error}`)); process.exitCode = 1; return; }
+  console.log(`Isaiah data check passed: ${verseCount} verses, ${content.sources.length} sources, ${content.passages.length} passages, ${content.words.length} curated word studies.`);
 }
 
-main().catch(error => { console.error(`Isaiah Study Guide data check could not run: ${error.stack || error}`); process.exitCode = 1; });
+main().catch(error => { console.error(`Isaiah data check could not run: ${error.stack || error}`); process.exitCode = 1; });

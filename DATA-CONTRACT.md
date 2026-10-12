@@ -1,4 +1,37 @@
-# Isaiah Study Guide data contract
+# Bible Wayfinder data contract
+
+## Reader files for every book
+
+One reader serves all 66 books. `dist/<id>.html` opens a book. `dist/native-book.js` reads the id and loads `dist/app.js`.
+`scripts/build-share.py` writes each `dist/<id>.html` from the shell `dist/book.html`. The pages differ only in their title and share tags.
+`book.html?book=<id>` still opens a book and then shows the `<id>.html` address.
+Each book has four files in `dist/data/books`:
+
+- `<id>-native-content.json`: sources, passages, places, map data, words, guides, and the `book` settings.
+- `<id>-native-scripture.json`: the translation, its copyright, and `chapters`.
+- `<id>-people.json`: `people`, `featurePeople`, and optional `aliases`, `wordPeople`, and `profileFacts`.
+- `<id>-art.json`: one portrait record for each person. `generated` marks generated art. `licensed` holds licensed art for the same person.
+
+`book` has `id`, `name`, `bibleCode`, `chapterCount`, and `chapterDigits`. These optional settings change what the reader shows:
+
+- `timeline: {start, end, default}`: the book has dated events. The map has a date slider. Without it, the slider uses chapter order.
+- `verseLinks`: `words` links verse text to curated word studies. `entities` links people, places, and glossary terms.
+- `sourceNotes: "inline"`: source summaries show below the chapter introduction. Without it, they stay in Source details.
+- `mapLimits`: Map context also shows the chapter's location limits and states when a chapter has no mapped places.
+- `placeCredits: [{label, url}]`: credits for the place data in the map attribution.
+- `mapLabels: [{label, className}]`: fixed region names on the map.
+
+`chapterDateBands: [{from, to, label}]` gives the period label below a chapter heading. A book without reviewed periods has none.
+`sourceGroups: [{id, title, description}]` gives the heading and note for a group in the source library.
+The `conference-year` group has a `description` list, where `{count}` is the number of talks, and `parts` for its sections.
+A scripture reference that names the book through another book has `chapters`.
+`profileFacts` shows each person's lifespan, role, and date note. Use it only when the people have reviewed values.
+The non-generated portrait setting shows licensed art. A person with no licensed art shows an initial.
+
+The reader must not test for a book's name or id. A new difference between books needs a setting here.
+`scripts/build-native-books.py` writes these files for each book that has a base record, `dist/data/books/<id>.json`.
+Isaiah has no base record. Its content scripts write the same files, and `scripts/build-isaiah.py` adds its settings, people, and art.
+The sections below still say "added books" for the 65 books with base records.
 
 ## Full-book extension
 
@@ -18,7 +51,7 @@ The chapter selector supports all 66 chapters on desktop and mobile. Previous an
 
 The original pilot specification below documents the starting design. The full-book extension above supersedes its chapter, passage-date, guide-count, and word-count limits.
 
-The owner supplies `dist/data/content.json`, `dist/data/scripture.json`, `dist/data/land.geojson`, `dist/data/lakes.geojson`, `dist/vendor/leaflet.js`, `dist/vendor/leaflet.css`, and `dist/assets/reading-landscape.png`. Use native ES modules and Leaflet's global L. No package dependencies required to run; owner supplies local server. App files owned by interface agent: `dist/index.html`, `dist/styles.css`, `dist/app.js`, optional `dist/map.js` and `dist/state.js`.
+The owner supplies `dist/data/books/isaiah-native-content.json`, `dist/data/books/isaiah-native-scripture.json`, `dist/data/land.geojson`, `dist/data/lakes.geojson`, `dist/vendor/leaflet.js`, `dist/vendor/leaflet.css`, and `dist/assets/reading-landscape.png`. Use native ES modules and Leaflet's global L. No package dependencies required to run; owner supplies local server. App files owned by interface agent: `dist/index.html`, `dist/styles.css`, `dist/app.js`, optional `dist/map.js` and `dist/state.js`.
 
 `scripture.json` is `{ "translation":"World English Bible", "copyright":"Public domain", "source":"https://ebible.org/engwebp/ISA36.htm", "chapters": { "36":[{"verse":1,"text":"..."}], "37":[], "38":[], "39":[] } }`.
 
@@ -84,7 +117,7 @@ Word records include `strongId` (the Hebrew dictionary number). Generated genera
 
 Do not give a book nations when its text sets no political period. Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, and Joel have none. Genesis 1–11 and 1 Chronicles 1–9 have none.
 
-`books.<id>.roads` names one road set. Road lines that Isaiah has come from `dist/data/content.json`. `roadText` replaces Isaiah-only wording. New roads live in `roads`. A set can add `uncertainty` and `detailNote` when its sources describe a different period. The card shows `summary` and `detail` only, so a limit the reader needs goes in `detail`. The Levant roads in the Gospels and Acts follow Iron Age sources. No first-century road study was reviewed for them.
+`books.<id>.roads` names one road set. Road lines that Isaiah has come from `dist/data/books/isaiah-native-content.json`. `roadText` replaces Isaiah-only wording. New roads live in `roads`. A set can add `uncertainty` and `detailNote` when its sources describe a different period. The card shows `summary` and `detail` only, so a limit the reader needs goes in `detail`. The Levant roads in the Gospels and Acts follow Iron Age sources. No first-century road study was reviewed for them.
 
 `areas` maps a place id to an outline in `scripts/isaiah-geography.kml`. The builder adds an area when the book has that place and its marker lies inside the outline's extent.
 

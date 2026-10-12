@@ -8,9 +8,9 @@ The repository includes the application, study content, local assets, source dat
 
 1. Install Git and Node.js.
 2. Sign in to GitHub with an account that can access the private repository.
-3. Clone `https://github.com/foxhollowgames/isaiah-study-guide.git` with GitHub Desktop or Git.
+3. Clone `https://github.com/foxhollowgames/bible-wayfinder.git` with GitHub Desktop or Git.
 4. Open the cloned folder as a project in Codex.
-5. On Windows, double-click `Start Isaiah Study Guide.cmd` to run the guide.
+5. On Windows, double-click `Start Bible Wayfinder.cmd` to run the guide.
 
 ## Switch computers
 

@@ -119,12 +119,12 @@ const out={sources,passages,events,places,campaigns,regions,words:[],guides,peri
 addComeFollowMe(out);
 addMcClellan(out);
 addGeneralConference(out);
-addFullIsaiah(out, JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')));
+addFullIsaiah(out, JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-scripture.json', import.meta.url), 'utf8')));
 for (const campaign of out.campaigns) campaign.faction = ['lachish-mission', 'west-campaign'].includes(campaign.id) ? 'assyria' : 'babylonia';
 addPrismAndHarmony(out);
 addAncientRoads(out);
 addSourcePreviews(out);
-await addChapterGeography(out, JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')));
-addChapterEnrichment(out, JSON.parse(await readFile(new URL('../dist/data/scripture.json', import.meta.url), 'utf8')));
-await writeFile(new URL('../dist/data/content.json',import.meta.url),JSON.stringify(out,null,2));
+await addChapterGeography(out, JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-scripture.json', import.meta.url), 'utf8')));
+addChapterEnrichment(out, JSON.parse(await readFile(new URL('../dist/data/books/isaiah-native-scripture.json', import.meta.url), 'utf8')));
+await writeFile(new URL('../dist/data/books/isaiah-native-content.json',import.meta.url),JSON.stringify(out,null,2));
 console.log(`Created ${out.sources.length} sources, ${out.passages.length} passages, ${out.events.length} events, ${out.places.length} places and ${out.guides.length} guides.`);

@@ -1,0 +1,96 @@
+{
+  "featurePeople": {
+    "zephaniah-1": [
+      "zephaniah-prophet",
+      "josiah"
+    ],
+    "zephaniah-2": [
+      "zephaniah-prophet"
+    ],
+    "zephaniah-3": [
+      "zephaniah-prophet"
+    ]
+  },
+  "people": {
+    "zephaniah-prophet": {
+      "name": "Zephaniah, son of Cushi",
+      "role": "Prophet whose book opens during Josiah’s reign",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Zephaniah 1–3"
+      ],
+      "importance": "His warning confronts indifference before the ending promises to gather afflicted people.",
+      "connections": "The opening traces his family through Cushi, Gedaliah, Amariah, and Hezekiah.",
+      "verseScope": {},
+      "linkNames": [
+        "Zephaniah"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6846",
+        "key": "Zephaniah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "צְפַנְיָה",
+        "transliteration": "Tsᵉphanyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "josiah": {
+      "name": "Josiah",
+      "role": "King named in the book’s opening time reference",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Zephaniah 1:1"
+      ],
+      "importance": "His name gives the opening a royal setting without dating every later vision.",
+      "connections": "He is Amon’s son and king of Judah when the opening places Zephaniah’s message.",
+      "verseScope": {},
+      "linkNames": [
+        "Josiah"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2977",
+        "key": "Josiah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יֹאשִׁיָּה",
+        "transliteration": "Yôʼshîyâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

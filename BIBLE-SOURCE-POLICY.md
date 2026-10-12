@@ -1,6 +1,6 @@
 # Bible source review
 
-Apply the Isaiah source standard to every book. Keep Isaiah's reading, map, source dialogs, and perspective controls.
+Apply one source standard to every book. Keep the shared reading, map, source dialogs, and perspective controls.
 
 ## Required review
 

@@ -1,0 +1,428 @@
+{
+  "featurePeople": {
+    "leviticus-1": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-2": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-3": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-4": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-5": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-6": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-7": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-8": [
+      "moses",
+      "aaron",
+      "nadab",
+      "abihu",
+      "eleazar",
+      "ithamar"
+    ],
+    "leviticus-9": [
+      "moses",
+      "aaron",
+      "nadab",
+      "abihu",
+      "eleazar",
+      "ithamar"
+    ],
+    "leviticus-10": [
+      "moses",
+      "aaron",
+      "nadab",
+      "abihu",
+      "eleazar",
+      "ithamar"
+    ],
+    "leviticus-11": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-12": [
+      "moses"
+    ],
+    "leviticus-13": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-14": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-15": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-16": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-17": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-18": [
+      "moses"
+    ],
+    "leviticus-19": [
+      "moses"
+    ],
+    "leviticus-20": [
+      "moses"
+    ],
+    "leviticus-21": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-22": [
+      "moses",
+      "aaron"
+    ],
+    "leviticus-23": [
+      "moses"
+    ],
+    "leviticus-24": [
+      "moses",
+      "shelomith"
+    ],
+    "leviticus-25": [
+      "moses"
+    ],
+    "leviticus-26": [
+      "moses"
+    ],
+    "leviticus-27": [
+      "moses"
+    ]
+  },
+  "people": {
+    "moses": {
+      "name": "Moses",
+      "role": "Prophet who leads Israel from Egypt",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 1–27"
+      ],
+      "importance": "He conveys the laws and appoints the priests. His work joins worship with the community’s conduct.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 80,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Moses's brother and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 8–10; 16; 21–22"
+      ],
+      "importance": "He begins priestly service and performs the annual rite. His response to his sons’ deaths reveals personal grief.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        21,
+        22
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 77,
+        "example": [
+          1,
+          5
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "nadab": {
+      "name": "Nadab",
+      "role": "Son of Aaron who approaches Sinai",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 8–10"
+      ],
+      "importance": "Moses prepares him to serve as a priest. He later dies after offering fire God had not asked for.",
+      "connections": "Son of Aaron. Brother of Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5070",
+        "key": "Nadab",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          1
+        ],
+        "hebrew": "נָדָב",
+        "transliteration": "Nâdâb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abihu": {
+      "name": "Abihu",
+      "role": "Son of Aaron and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 8–10"
+      ],
+      "importance": "He serves with his father and brothers. His death becomes the setting for further priestly instructions.",
+      "connections": "Son of Aaron. Brother of Nadab, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H30",
+        "key": "Abihu",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          1
+        ],
+        "hebrew": "אֲבִיהוּא",
+        "transliteration": "ʼĂbîyhûwʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eleazar": {
+      "name": "Eleazar",
+      "role": "Son of Aaron and appointed priest",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 10:6–20"
+      ],
+      "importance": "He remains among Aaron’s surviving sons. Moses addresses him about mourning and the sacred offerings.",
+      "connections": "Brother of Nadab, Abihu, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H499",
+        "key": "Eleazar",
+        "checkedVerses": 3,
+        "example": [
+          10,
+          6
+        ],
+        "hebrew": "אֶלְעָזָר",
+        "transliteration": "ʼElʻâzâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ithamar": {
+      "name": "Ithamar",
+      "role": "Son of Aaron who oversees sanctuary accounts",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 10:6–20"
+      ],
+      "importance": "He remains with Eleazar after his brothers’ deaths. The instructions place mourning beside continuing service.",
+      "connections": "Brother of Nadab, Abihu, and Eleazar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8,
+        9,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H385",
+        "key": "Ithamar",
+        "checkedVerses": 3,
+        "example": [
+          10,
+          6
+        ],
+        "hebrew": "אִיתָמָר",
+        "transliteration": "ʼÎythâmâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shelomith": {
+      "name": "Shelomith",
+      "role": "Named mother in the judgment account",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sinai / traditional region"
+      ],
+      "passages": [
+        "Leviticus 24:10–23"
+      ],
+      "importance": "The account gives her name and tribe while telling about the judgment on her son.",
+      "connections": "Daughter of Dibri, from Dan. Her son has an Egyptian father.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        24
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8019",
+        "key": "Shelomith",
+        "checkedVerses": 1,
+        "example": [
+          24,
+          11
+        ],
+        "hebrew": "שְׁלֹמִית",
+        "transliteration": "Shᵉlômîyth",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

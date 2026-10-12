@@ -1,0 +1,176 @@
+{
+  "featurePeople": {
+    "haggai-1": [
+      "haggai",
+      "zerubbabel",
+      "jeshua-priest",
+      "darius-ezra"
+    ],
+    "haggai-2": [
+      "haggai",
+      "zerubbabel",
+      "jeshua-priest",
+      "darius-ezra"
+    ]
+  },
+  "people": {
+    "haggai": {
+      "name": "Haggai",
+      "role": "Prophet who calls the people to rebuild God’s house",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Haggai 1–2"
+      ],
+      "importance": "His message joins changed priorities with encouragement when the building seems small.",
+      "connections": "He addresses Zerubbabel, Joshua, and the remaining people.",
+      "verseScope": {},
+      "linkNames": [
+        "Haggai"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2292",
+        "key": "Haggai",
+        "checkedVerses": 9,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "חַגַּי",
+        "transliteration": "Chaggay",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zerubbabel": {
+      "name": "Zerubbabel",
+      "role": "Governor of Judah addressed during the temple rebuilding",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Haggai 1–2"
+      ],
+      "importance": "The signet ring, a seal, expresses God’s choice of him amid threatened kingdoms.",
+      "connections": "Haggai names him as Shealtiel’s son and addresses him with Joshua and the people.",
+      "verseScope": {},
+      "linkNames": [
+        "Zerubbabel"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2216",
+        "key": "Zerubbabel",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "זְרֻבָּבֶל",
+        "transliteration": "Zᵉrubbâbel",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jeshua-priest": {
+      "name": "Joshua, son of Jehozadak",
+      "role": "High priest addressed with the governor and the people",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Jerusalem"
+      ],
+      "passages": [
+        "Haggai 1–2"
+      ],
+      "importance": "His shared task keeps worship and public work connected in the rebuilding.",
+      "connections": "He is Jehozadak’s son, also called Jeshua son of Jozadak in Ezra.",
+      "verseScope": {},
+      "linkNames": [
+        "Joshua"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3091",
+        "key": "Joshua",
+        "checkedVerses": 5,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יְהוֹשׁוּעַ",
+        "transliteration": "Yᵉhôwshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "darius-ezra": {
+      "name": "Darius, the Persian king",
+      "role": "King whose second regnal year dates Haggai’s messages",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Haggai 1:1, 15; 2:10"
+      ],
+      "importance": "His regnal year supplies the opening time reference. He does not speak in this book.",
+      "connections": "He is the Persian ruler also named in Ezra’s temple rebuilding account.",
+      "verseScope": {},
+      "linkNames": [
+        "Darius"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1867",
+        "key": "Darius",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "דָּֽרְיָוֵשׁ",
+        "transliteration": "Dârᵉyâvêsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

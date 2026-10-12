@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "jude",
+    "name": "Jude",
+    "bibleCode": "JUD",
+    "chapterCount": 1,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

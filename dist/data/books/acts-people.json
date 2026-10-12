@@ -1,0 +1,786 @@
+{
+  "featurePeople": {
+    "acts-1": [
+      "jesus",
+      "peter",
+      "mary-mother",
+      "thomas"
+    ],
+    "acts-2": [
+      "jesus",
+      "peter"
+    ],
+    "acts-3": [
+      "jesus",
+      "peter"
+    ],
+    "acts-4": [
+      "jesus",
+      "peter",
+      "barnabas"
+    ],
+    "acts-5": [
+      "jesus",
+      "peter"
+    ],
+    "acts-6": [
+      "jesus",
+      "peter",
+      "stephen",
+      "philip-evangelist"
+    ],
+    "acts-7": [
+      "jesus",
+      "peter",
+      "paul",
+      "stephen"
+    ],
+    "acts-8": [
+      "jesus",
+      "peter",
+      "paul",
+      "stephen",
+      "philip-evangelist"
+    ],
+    "acts-9": [
+      "jesus",
+      "peter",
+      "paul",
+      "barnabas",
+      "tabitha"
+    ],
+    "acts-10": [
+      "jesus",
+      "peter",
+      "paul",
+      "cornelius"
+    ],
+    "acts-11": [
+      "jesus",
+      "peter",
+      "paul",
+      "barnabas",
+      "stephen"
+    ],
+    "acts-12": [
+      "jesus",
+      "peter",
+      "paul",
+      "barnabas"
+    ],
+    "acts-13": [
+      "jesus",
+      "paul",
+      "barnabas"
+    ],
+    "acts-14": [
+      "jesus",
+      "paul",
+      "barnabas"
+    ],
+    "acts-15": [
+      "jesus",
+      "peter",
+      "paul",
+      "barnabas",
+      "silas"
+    ],
+    "acts-16": [
+      "jesus",
+      "paul",
+      "lydia",
+      "silas"
+    ],
+    "acts-17": [
+      "jesus",
+      "paul",
+      "silas"
+    ],
+    "acts-18": [
+      "jesus",
+      "paul",
+      "priscilla",
+      "aquila",
+      "silas"
+    ],
+    "acts-19": [
+      "jesus",
+      "paul"
+    ],
+    "acts-20": [
+      "jesus",
+      "paul"
+    ],
+    "acts-21": [
+      "jesus",
+      "paul",
+      "philip-evangelist"
+    ],
+    "acts-22": [
+      "jesus",
+      "paul",
+      "stephen"
+    ],
+    "acts-23": [
+      "jesus",
+      "paul"
+    ],
+    "acts-24": [
+      "jesus",
+      "paul"
+    ],
+    "acts-25": [
+      "jesus",
+      "paul"
+    ],
+    "acts-26": [
+      "jesus",
+      "paul"
+    ],
+    "acts-27": [
+      "jesus",
+      "paul"
+    ],
+    "acts-28": [
+      "jesus",
+      "paul"
+    ]
+  },
+  "people": {
+    "jesus": {
+      "name": "Jesus of Nazareth",
+      "role": "Risen teacher who directs witnesses before his departure",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 1–28"
+      ],
+      "importance": "His name connects witness, healing, disputed hearings, and the message carried to Rome.",
+      "connections": "The apostles testify about him. Saul’s encounter changes his task.",
+      "verseScope": {
+        "13": [
+          33
+        ]
+      },
+      "linkNames": [
+        "Jesus"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 62,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "mary-mother": {
+      "name": "Mary, mother of Jesus",
+      "role": "Mother of Jesus who joins the opening prayer group",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 1:14"
+      ],
+      "importance": "Her presence connects the waiting group with Jesus’ earlier family story.",
+      "connections": "She prays with the apostles, other women, and Jesus’ brothers.",
+      "verseScope": {
+        "1": [
+          14
+        ]
+      },
+      "linkNames": [
+        "Mary"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3137",
+        "key": "Mary",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          14
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μαρία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "María"
+      }
+    },
+    "peter": {
+      "name": "Simon Peter",
+      "role": "Apostle who speaks publicly and enters Cornelius’ household",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 1–12; 15"
+      ],
+      "importance": "His remembered experience helps the Jerusalem meeting consider the shared gift of the Spirit.",
+      "connections": "John accompanies his early witness. Other believers question his meal with Gentiles.",
+      "verseScope": {},
+      "linkNames": [
+        "Peter",
+        "Simon Peter"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4074",
+        "key": "Peter",
+        "checkedVerses": 56,
+        "example": [
+          1,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πέτρος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Pétros",
+        "languageNote": "This is the dictionary form of the name “Peter.”"
+      }
+    },
+    "thomas": {
+      "name": "Thomas",
+      "role": "Apostle listed among the group waiting in Jerusalem",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 1:13"
+      ],
+      "importance": "His place in the opening group connects Acts with the earlier resurrection witnesses.",
+      "connections": "He shares the upper room with the other named apostles.",
+      "verseScope": {},
+      "linkNames": [
+        "Thomas"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2381",
+        "key": "Thomas",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Θωμᾶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Thōmâs"
+      }
+    },
+    "paul": {
+      "name": "Paul, also called Saul",
+      "role": "Former persecutor who becomes a traveling witness",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 7–28"
+      ],
+      "importance": "His hearings and captivity carry witness into settings his earlier plans did not control.",
+      "connections": "Barnabas supports his welcome. Silas and Timothy later travel with him.",
+      "verseScope": {
+        "13": [
+          1,
+          2,
+          7,
+          9,
+          13,
+          16,
+          43,
+          45,
+          46,
+          50
+        ]
+      },
+      "linkNames": [
+        "Paul",
+        "Saul"
+      ],
+      "chapterIds": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 128,
+        "example": [
+          13,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "barnabas": {
+      "name": "Barnabas",
+      "role": "Cypriot Levite who gives money and supports other believers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 4; 9; 11–15"
+      ],
+      "importance": "His encouragement connects shared material care with trust in a former opponent.",
+      "connections": "He introduces Saul and later travels with him. Mark joins their service.",
+      "verseScope": {},
+      "linkNames": [
+        "Barnabas",
+        "Joses"
+      ],
+      "chapterIds": [
+        4,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G921",
+        "key": "Barnabas",
+        "checkedVerses": 23,
+        "example": [
+          4,
+          36
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαρνάβας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Barnábas"
+      }
+    },
+    "stephen": {
+      "name": "Stephen",
+      "role": "One of seven selected men who speaks before the council",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 6–8; 11:19; 22:20"
+      ],
+      "importance": "His speech follows rejected helpers before his own refusal to answer violence with revenge.",
+      "connections": "Other believers bury him after his death. Saul watches the stoning.",
+      "verseScope": {},
+      "linkNames": [
+        "Stephen"
+      ],
+      "chapterIds": [
+        6,
+        7,
+        8,
+        11,
+        22
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4736",
+        "key": "Stephen",
+        "checkedVerses": 7,
+        "example": [
+          6,
+          5
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Στέφανος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Stéphanos"
+      }
+    },
+    "philip-evangelist": {
+      "name": "Philip the evangelist",
+      "role": "One of the seven who teaches in Samaria and explains Isaiah",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 6; 8; 21"
+      ],
+      "importance": "His explanation begins with another reader’s question and leads toward Jesus and baptism.",
+      "connections": "He has four daughters who prophesy. His house later welcomes Paul’s group.",
+      "verseScope": {},
+      "linkNames": [
+        "Philip"
+      ],
+      "chapterIds": [
+        6,
+        8,
+        21
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5376",
+        "key": "Philip",
+        "checkedVerses": 16,
+        "example": [
+          1,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Φίλιππος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Phílippos",
+        "languageNote": "This is the dictionary form of the name “Philip.”"
+      }
+    },
+    "lydia": {
+      "name": "Lydia",
+      "role": "Seller of purple who welcomes the visiting teachers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 16:14–15, 40"
+      ],
+      "importance": "Her invitation provides a household setting for the growing group after the riverside meeting.",
+      "connections": "Her household receives baptism. Believers later gather at her house.",
+      "verseScope": {},
+      "linkNames": [
+        "Lydia"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3070",
+        "key": "Lydia",
+        "checkedVerses": 2,
+        "example": [
+          16,
+          14
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Λυδία",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Lydía"
+      }
+    },
+    "priscilla": {
+      "name": "Priscilla",
+      "role": "Teacher and craft worker who helps Apollos learn more accurately",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 18"
+      ],
+      "importance": "Her shared explanation turns Apollos’ incomplete preparation toward useful teaching among other believers.",
+      "connections": "Aquila is her husband. They work and travel with Paul.",
+      "verseScope": {},
+      "linkNames": [
+        "Priscilla"
+      ],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4252",
+        "key": "Priscilla",
+        "checkedVerses": 3,
+        "example": [
+          18,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πρίσκιλλα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Prískilla"
+      }
+    },
+    "aquila": {
+      "name": "Aquila",
+      "role": "Jewish craft worker from Pontus who shares Paul’s trade",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 18"
+      ],
+      "importance": "Work, housing, and private instruction connect his household with the wider teaching task.",
+      "connections": "Priscilla is his wife. They teach Apollos together.",
+      "verseScope": {},
+      "linkNames": [
+        "Aquila"
+      ],
+      "chapterIds": [
+        18
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G207",
+        "key": "Aquila",
+        "checkedVerses": 3,
+        "example": [
+          18,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀκύλας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Akýlas"
+      }
+    },
+    "cornelius": {
+      "name": "Cornelius",
+      "role": "Roman officer whose household receives Peter and the Spirit",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 10"
+      ],
+      "importance": "His earlier prayers and generosity stand beside the surprising gift witnessed by Peter’s companions.",
+      "connections": "He gathers relatives and close friends. Servants bring Peter from Joppa.",
+      "verseScope": {},
+      "linkNames": [
+        "Cornelius"
+      ],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2883",
+        "key": "Cornelius",
+        "checkedVerses": 9,
+        "example": [
+          10,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Κορνήλιος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Kornḗlios"
+      }
+    },
+    "tabitha": {
+      "name": "Tabitha, also called Dorcas",
+      "role": "Disciple remembered for good works and clothing made for others",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 9:36–42"
+      ],
+      "importance": "The mourners’ displayed garments make her care visible before Peter presents her alive.",
+      "connections": "Widows show Peter the garments she made before her death.",
+      "verseScope": {},
+      "linkNames": [
+        "Tabitha",
+        "Dorcas"
+      ],
+      "chapterIds": [
+        9
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5000",
+        "key": "Tabitha",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          36
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ταβιθά",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Tabithá"
+      }
+    },
+    "silas": {
+      "name": "Silas",
+      "role": "Jerusalem messenger who later travels and suffers with Paul",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Acts 15–18"
+      ],
+      "importance": "Spoken encouragement supports the letter before prison tests his continued witness with Paul.",
+      "connections": "Judas carries the meeting’s letter with him. Timothy joins the later journey.",
+      "verseScope": {},
+      "linkNames": [
+        "Silas"
+      ],
+      "chapterIds": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4609",
+        "key": "Silas",
+        "checkedVerses": 12,
+        "example": [
+          15,
+          22
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σίλας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Sílas"
+      }
+    }
+  }
+}

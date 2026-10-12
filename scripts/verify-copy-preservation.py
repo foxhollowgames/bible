@@ -18,6 +18,6 @@ for item in json.loads(previous('dist/data/books/directory.json')):
    assert a[key]==b[key],f'{item["id"]} {a["chapter"]}: changed {key}'
   assert a['lds']['sourceIds']==b['lds']['sourceIds']
  count+=sum(map(len,new['scripture'].values()))
-for path in ['dist/app.js','dist/portraits.js','dist/data/content.json','dist/data/scripture.json','dist/index.html']:
+for path in ['dist/app.js','dist/portraits.js','dist/data/books/isaiah-native-content.json','dist/data/books/isaiah-native-scripture.json','dist/index.html']:
  assert previous(path).decode('utf8').replace('\r\n','\n')==(ROOT/path).read_text(encoding='utf8'),f'Changed original Isaiah file: {path}'
 print(f'Preserved {count} scripture verses, source records, chapter links, and the original Isaiah guide.')

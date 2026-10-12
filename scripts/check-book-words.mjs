@@ -21,8 +21,10 @@ assert(hebrewHead.size > 8000 && greekHead.size > 5000, 'Dictionaries did not lo
 
 let books = 0, entries = 0, links = 0, names = 0;
 for (const { id, status } of directory) {
-  if (status !== 'ready' || id === 'isaiah') continue;
+  if (status !== 'ready') continue;
   const [content, scripture] = await Promise.all([json(`../dist/data/books/${id}-native-content.json`), json(`../dist/data/books/${id}-native-scripture.json`)]);
+  // A book with curated word studies has its own check: check-word-coverage.mjs.
+  if (content.book.verseLinks !== 'entities') continue;
   const sources = new Set(content.sources.map(s => s.id));
   const ids = new Set(content.words.map(w => w.id));
   assert.equal(ids.size, content.words.length, `${id}: duplicate word IDs`);
@@ -67,8 +69,7 @@ for (const { id, status } of directory) {
     }
   }
   // Names of people and places: the name and the dictionary form must share the recorded verse.
-  const portraits = await read(`../dist/book-${id}-portraits.js`);
-  const people = JSON.parse(portraits.match(/export const people = (\{.*\});\r?\n/)[1]);
+  const { people } = await json(`../dist/data/books/${id}-people.json`);
   for (const item of [...Object.values(people), ...content.places]) {
     const word = item.word;
     if (!word) continue;

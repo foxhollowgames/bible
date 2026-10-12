@@ -1,0 +1,247 @@
+{
+  "featurePeople": {
+    "philippians-1": [
+      "paul",
+      "jesus",
+      "timothy"
+    ],
+    "philippians-2": [
+      "paul",
+      "jesus",
+      "timothy",
+      "epaphroditus"
+    ],
+    "philippians-3": [
+      "paul",
+      "jesus"
+    ],
+    "philippians-4": [
+      "paul",
+      "jesus",
+      "epaphroditus",
+      "euodia",
+      "syntyche"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer in chains who thanks the Philippians for their gift",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philippians 1–4"
+      ],
+      "importance": "Paul is in chains and does not know whether he will live or die. He says his chains have helped the Good News. He plans to send Timothy and Epaphroditus. He thanks the Philippians for the gift. He tells Euodia and Syntyche to agree.",
+      "connections": "He writes with Timothy. Epaphroditus brought him the Philippians’ gift.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Lord who humbled himself and was raised high",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philippians 1–4"
+      ],
+      "importance": "Paul says Jesus took the form of a servant. He was obedient to death on a cross. Paul says God then raised him high. Every tongue will confess that he is Lord. Paul uses this to call the Philippians to humility.",
+      "connections": "Paul calls himself and Timothy servants of Jesus Christ. Paul says to have the mind that was in him.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 36,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Worker Paul hopes to send to Philippi",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philippians 1:1; 2:19–23"
+      ],
+      "importance": "Paul hopes to send Timothy soon to learn how the Philippians are doing. Paul says no one else is so like-minded and truly cares about them. Paul says Timothy has proved himself. Paul will send him once he sees how things go.",
+      "connections": "He is named with Paul in the greeting. Paul says he served with him like a child with a father.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "epaphroditus": {
+      "name": "Epaphroditus",
+      "role": "Philippian messenger who was nearly dead",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philippians 2:25–30; 4:18"
+      ],
+      "importance": "Epaphroditus brought the Philippians’ gift to Paul. He fell sick nearly to death and longed for the Philippians. Paul sends him back. Paul asks them to receive him with joy and hold him in honor.",
+      "connections": "Paul calls him brother, fellow worker, and fellow soldier. He brought the Philippians’ gift.",
+      "verseScope": {},
+      "linkNames": [
+        "Epaphroditus"
+      ],
+      "chapterIds": [
+        2,
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1891",
+        "key": "Epaphroditus",
+        "checkedVerses": 2,
+        "example": [
+          2,
+          25
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἐπαφρόδιτος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Epaphróditos"
+      }
+    },
+    "euodia": {
+      "name": "Euodia",
+      "role": "Fellow worker told to agree with Syntyche",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philippians 4:2–3"
+      ],
+      "importance": "Paul urges Euodia to think the same way as Syntyche in the Lord. He says both women labored with him in the Good News. The letter does not say what they disagree about.",
+      "connections": "Paul names her with Syntyche. He asks a true partner to help both women.",
+      "verseScope": {},
+      "linkNames": [
+        "Euodia"
+      ],
+      "chapterIds": [
+        4
+      ]
+    },
+    "syntyche": {
+      "name": "Syntyche",
+      "role": "Fellow worker told to agree with Euodia",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Philippians 4:2–3"
+      ],
+      "importance": "Paul urges Syntyche to think the same way as Euodia in the Lord. He says both women labored with him in the Good News. The letter does not say what they disagree about.",
+      "connections": "Paul names her with Euodia. He asks a true partner to help both women.",
+      "verseScope": {},
+      "linkNames": [
+        "Syntyche"
+      ],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4941",
+        "key": "Syntyche",
+        "checkedVerses": 1,
+        "example": [
+          4,
+          2
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Συντύχη",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Syntýchē"
+      }
+    }
+  }
+}

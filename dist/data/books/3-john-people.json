@@ -1,0 +1,125 @@
+{
+  "featurePeople": {
+    "3-john-1": [
+      "gaius-letter",
+      "diotrephes",
+      "demetrius-letter"
+    ]
+  },
+  "people": {
+    "gaius-letter": {
+      "name": "Gaius",
+      "role": "Man the elder loves, praised for helping traveling believers",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Third John 1"
+      ],
+      "importance": "Brothers come to the elder and tell how Gaius walks in truth. They say he cared for brothers who were strangers. They testified about his love before the assembly. The elder asks him to help them journey on in a way worthy of God.",
+      "connections": "The elder writes to him and calls him beloved. He asks Gaius to keep helping the brothers.",
+      "verseScope": {},
+      "linkNames": [
+        "Gaius"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1050",
+        "key": "Gaius",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Γάϊος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Gáïos"
+      }
+    },
+    "diotrephes": {
+      "name": "Diotrephes",
+      "role": "Man in the assembly who loves to be first",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Third John 1"
+      ],
+      "importance": "The elder says Diotrephes does not accept what the elder writes. He accuses the elder with wicked words. He does not receive the brothers himself. He forbids others to receive them and throws them out of the assembly. The elder says he will call attention to these deeds if he comes. We hear only the elder’s side.",
+      "connections": "The elder wrote to the assembly, but Diotrephes did not accept what the elder said.",
+      "verseScope": {},
+      "linkNames": [
+        "Diotrephes"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1361",
+        "key": "Diotrephes",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Διοτρεφής",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Diotrephḗs"
+      }
+    },
+    "demetrius-letter": {
+      "name": "Demetrius",
+      "role": "Man with a good report from all",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Third John 1"
+      ],
+      "importance": "The elder says Demetrius has the testimony of all, and of the truth itself. The elder adds his own testimony. The letter says nothing more about him. It comes right after the warning about Diotrephes.",
+      "connections": "The elder names him in a note to Gaius.",
+      "verseScope": {},
+      "linkNames": [
+        "Demetrius"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G1216",
+        "key": "Demetrius",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Δημήτριος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Dēmḗtrios"
+      }
+    }
+  }
+}

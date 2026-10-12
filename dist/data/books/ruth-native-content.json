@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "ruth",
+    "name": "Ruth",
+    "bibleCode": "RUT",
+    "chapterCount": 4,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

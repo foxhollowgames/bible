@@ -1,4 +1,13 @@
 {
+  "book": {
+    "id": "ezekiel",
+    "name": "Ezekiel",
+    "bibleCode": "EZK",
+    "chapterCount": 48,
+    "chapterDigits": 2,
+    "verseLinks": "entities",
+    "mapLimits": true
+  },
   "sources": [
     {
       "id": "web",

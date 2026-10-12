@@ -6,7 +6,12 @@ globalThis.document = {
   querySelectorAll() { return []; }
 };
 
-const { people, portraitsHtml, personProfileHtml, personIdForLabel, setPortraitMode } = await import('../dist/portraits.js');
+const portraits = await import('../dist/portraits.js');
+const { portraitsHtml, personProfileHtml, personIdForLabel, setPeople, setPortraitMode } = portraits;
+const readJson = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
+const record = await readJson('../dist/data/books/isaiah-people.json'), art = await readJson('../dist/data/books/isaiah-art.json');
+setPeople(record, art);
+const { people } = portraits;
 const app = await readFile(new URL('../dist/app.js', import.meta.url), 'utf8');
 const styles = await readFile(new URL('../dist/styles.css', import.meta.url), 'utf8');
 const requiredPeople = [
@@ -36,10 +41,13 @@ const interactivePortrait = portraitsHtml(['isaiah']);
 assert.equal((interactivePortrait.match(/class="portrait-profile-button"/g) || []).length, 1, 'Each interactive portrait must use one profile button');
 assert.ok(interactivePortrait.includes('<strong class="portrait-name">Isaiah</strong>'), 'The profile button must contain the person name');
 
-setPortraitMode('non-generated', {});
-for (const id of Object.keys(people)) {
+// The non-generated setting uses licensed art. A person without it shows the initial, not generated art.
+setPortraitMode('non-generated');
+for (const [id, item] of Object.entries(art)) {
   const html = personProfileHtml(id);
-  assert.match(html, new RegExp(`assets/portraits/${id}-v2\\.png`), `${id} needs a generated fallback when no historical image is available`);
+  assert.ok(!html.includes(`assets/portraits/${id}-v2.png`), `${id} must not show generated art in the non-generated setting`);
+  if (item.licensed) assert.ok(html.includes(item.licensed.src), `${id} must use its licensed art in the non-generated setting`);
+  else assert.ok(html.includes('no portrait available') && !html.includes('<img'), `${id} must show its initial when no licensed art exists`);
 }
 setPortraitMode('generated');
 

@@ -1,0 +1,54 @@
+{
+  "featurePeople": {
+    "habakkuk-1": [
+      "habakkuk"
+    ],
+    "habakkuk-2": [
+      "habakkuk"
+    ],
+    "habakkuk-3": [
+      "habakkuk"
+    ]
+  },
+  "people": {
+    "habakkuk": {
+      "name": "Habakkuk",
+      "role": "Prophet who questions violence and waits for an answer",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Habakkuk 1–3"
+      ],
+      "importance": "His second complaint challenges an answer that uses violent conquerors to confront violence.",
+      "connections": "The book names no family members. His complaint and prayer address God.",
+      "verseScope": {},
+      "linkNames": [
+        "Habakkuk"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2265",
+        "key": "Habakkuk",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "חֲבַקּוּק",
+        "transliteration": "Chăbaqqûwq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

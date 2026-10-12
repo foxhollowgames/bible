@@ -9,7 +9,8 @@ export function chapterRoutes(data, chapter, scope = 'overview') {
   return refs.map(ref => {
     const route = [...data.campaigns, ...(data.textRoutes || [])].find(item => item.id === ref.id);
     if (!route) return null;
-    const passage = ref.reference?.match(/^Isaiah (\d+):(\d+)/);
+    // A reference to this book gives the path its chapter and verse.
+    const passage = ref.reference?.startsWith(`${data.book?.name} `) ? ref.reference.slice(data.book.name.length).match(/^ (\d+):(\d+)/) : null;
     return { ...route, id: `${chapter}:${route.id}:${ref.from}:${ref.to}`, originalId: route.id,
       chapter: passage ? Number(passage[1]) : route.chapter,
       verse: passage ? Number(passage[2]) : route.verse,

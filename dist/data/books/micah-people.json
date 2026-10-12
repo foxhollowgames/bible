@@ -1,0 +1,73 @@
+{
+  "featurePeople": {
+    "micah-1": [
+      "micah-prophet"
+    ],
+    "micah-2": [
+      "micah-prophet"
+    ],
+    "micah-3": [
+      "micah-prophet"
+    ],
+    "micah-4": [
+      "micah-prophet"
+    ],
+    "micah-5": [
+      "micah-prophet"
+    ],
+    "micah-6": [
+      "micah-prophet"
+    ],
+    "micah-7": [
+      "micah-prophet"
+    ]
+  },
+  "people": {
+    "micah-prophet": {
+      "name": "Micah, the Morashtite",
+      "role": "Prophet from Moresheth who warns rulers and promises gathering",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Samaria",
+        "Jerusalem"
+      ],
+      "passages": [
+        "Micah 1–7"
+      ],
+      "importance": "His warning exposes violence hidden beneath paid assurances of peace and confidence in God’s presence.",
+      "connections": "He names Samaria and Jerusalem while addressing rulers, prophets, priests, and the people.",
+      "verseScope": {},
+      "linkNames": [
+        "Micah"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4318",
+        "key": "Micah",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "מִיכָה",
+        "transliteration": "Mîykâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    }
+  }
+}

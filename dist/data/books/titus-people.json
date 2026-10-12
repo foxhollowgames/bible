@@ -1,0 +1,221 @@
+{
+  "featurePeople": {
+    "titus-1": [
+      "paul",
+      "jesus",
+      "titus"
+    ],
+    "titus-2": [
+      "paul",
+      "jesus",
+      "titus"
+    ],
+    "titus-3": [
+      "paul",
+      "jesus",
+      "titus",
+      "tychicus",
+      "apollos"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Writer who leaves Titus on Crete to set things in order",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Titus 1–3"
+      ],
+      "importance": "Paul says he left Titus on Crete to appoint elders in every city. He lists what an elder must be. He warns of deceivers who overthrow whole houses. He tells Titus to reprove them sharply. He then asks Titus to meet him at Nicopolis.",
+      "connections": "He calls Titus a true child in their common faith.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Savior whose grace and gift are the reason for good work",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Titus 1–3"
+      ],
+      "importance": "Paul says Jesus gave himself to redeem us from all iniquity. He says God saved us through mercy, and not by our works. Paul then asks his people to keep up good works.",
+      "connections": "Paul calls him Savior and our great God and Savior. Paul says he gave himself for us.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2424",
+        "key": "Jesus",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἰησοῦς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Iēsoûs",
+        "languageNote": "This is the dictionary form of the name “Jesus.”"
+      }
+    },
+    "titus": {
+      "name": "Titus",
+      "role": "Paul’s true child, told to appoint elders on Crete",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Titus 1–3"
+      ],
+      "importance": "Paul left Titus on Crete to appoint elders and set things in order. Paul tells him to teach each group what fits sound doctrine. Paul tells him to remind them to do good works. Paul asks him to come to Nicopolis once Artemas or Tychicus arrives.",
+      "connections": "Paul calls him his true child in a common faith. Paul asks him to come to Nicopolis.",
+      "verseScope": {},
+      "linkNames": [
+        "Titus"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5103",
+        "key": "Titus",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          4
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τίτος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Títos"
+      }
+    },
+    "tychicus": {
+      "name": "Tychicus",
+      "role": "Worker Paul may send to Titus",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Titus 3:12"
+      ],
+      "importance": "Paul says he will send Artemas or Tychicus to Titus. Then Titus is to come to Paul at Nicopolis. The letter does not say which of the two Paul sends.",
+      "connections": "Paul says he will send Artemas or Tychicus to Titus.",
+      "verseScope": {},
+      "linkNames": [
+        "Tychicus"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5190",
+        "key": "Tychicus",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τυχικός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Tychikós"
+      }
+    },
+    "apollos": {
+      "name": "Apollos",
+      "role": "Traveler Titus must send on his journey",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Titus 3:13"
+      ],
+      "importance": "Paul tells Titus to send Zenas the lawyer and Apollos on their journey. He must do it quickly. Nothing may be lacking for them.",
+      "connections": "Paul names him with Zenas the lawyer.",
+      "verseScope": {},
+      "linkNames": [
+        "Apollos"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G625",
+        "key": "Apollos",
+        "checkedVerses": 1,
+        "example": [
+          3,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀπολλῶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Apollōs"
+      }
+    }
+  }
+}

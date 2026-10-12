@@ -1,0 +1,2376 @@
+{
+  "featurePeople": {
+    "judges-1": [
+      "caleb",
+      "othniel",
+      "achsah",
+      "adonibezek",
+      "moses",
+      "joshua",
+      "joseph",
+      "judah",
+      "simeon",
+      "benjamin",
+      "ephraim",
+      "manasseh",
+      "zebulun",
+      "dan",
+      "naphtali",
+      "asher"
+    ],
+    "judges-2": [
+      "joshua",
+      "ephraim"
+    ],
+    "judges-3": [
+      "othniel",
+      "cushan-rishathaim",
+      "ehud",
+      "eglon",
+      "shamgar",
+      "moses",
+      "caleb",
+      "ephraim"
+    ],
+    "judges-4": [
+      "deborah",
+      "barak",
+      "sisera",
+      "jabin-judges",
+      "jael",
+      "heber",
+      "moses",
+      "ephraim",
+      "zebulun",
+      "naphtali"
+    ],
+    "judges-4-journey": [
+      "deborah",
+      "barak",
+      "sisera",
+      "jabin-judges",
+      "jael",
+      "heber",
+      "moses",
+      "ephraim",
+      "zebulun",
+      "naphtali"
+    ],
+    "judges-5": [
+      "deborah",
+      "barak",
+      "sisera",
+      "jael",
+      "shamgar",
+      "reuben",
+      "benjamin",
+      "ephraim",
+      "zebulun",
+      "issachar",
+      "dan",
+      "naphtali",
+      "asher"
+    ],
+    "judges-6": [
+      "gideon",
+      "joash-gideon",
+      "manasseh",
+      "zebulun",
+      "naphtali",
+      "asher"
+    ],
+    "judges-7": [
+      "gideon",
+      "oreb",
+      "zeeb",
+      "ephraim",
+      "manasseh",
+      "naphtali",
+      "asher"
+    ],
+    "judges-8": [
+      "gideon",
+      "zebah",
+      "zalmunna",
+      "jether",
+      "abimelech-judges",
+      "ephraim"
+    ],
+    "judges-8-journey": [
+      "gideon",
+      "zebah",
+      "zalmunna",
+      "jether",
+      "abimelech-judges",
+      "ephraim"
+    ],
+    "judges-9": [
+      "abimelech-judges",
+      "jotham-gideon",
+      "gaal",
+      "zebul",
+      "gideon"
+    ],
+    "judges-10": [
+      "tola",
+      "jair",
+      "judah",
+      "benjamin",
+      "ephraim",
+      "issachar"
+    ],
+    "judges-11": [
+      "jephthah",
+      "jephthah-daughter",
+      "moses",
+      "sihon",
+      "balak",
+      "manasseh"
+    ],
+    "judges-12": [
+      "jephthah",
+      "ibzan",
+      "elon",
+      "abdon",
+      "ephraim",
+      "manasseh",
+      "zebulun"
+    ],
+    "judges-13": [
+      "samson",
+      "manoah",
+      "samson-mother",
+      "dan"
+    ],
+    "judges-14": [
+      "samson",
+      "manoah",
+      "samson-mother",
+      "samson-wife"
+    ],
+    "judges-15": [
+      "samson",
+      "samson-wife",
+      "judah"
+    ],
+    "judges-16": [
+      "samson",
+      "delilah"
+    ],
+    "judges-17": [
+      "micah-judges",
+      "jonathan-priest",
+      "judah",
+      "ephraim"
+    ],
+    "judges-18": [
+      "micah-judges",
+      "jonathan-priest",
+      "moses",
+      "judah",
+      "ephraim",
+      "dan"
+    ],
+    "judges-18-journey": [
+      "micah-judges",
+      "jonathan-priest",
+      "moses",
+      "judah",
+      "ephraim",
+      "dan"
+    ],
+    "judges-19": [
+      "levite-traveler",
+      "levite-concubine",
+      "judah",
+      "benjamin",
+      "ephraim"
+    ],
+    "judges-19-journey": [
+      "levite-traveler",
+      "levite-concubine",
+      "judah",
+      "benjamin",
+      "ephraim"
+    ],
+    "judges-20": [
+      "levite-traveler",
+      "phinehas",
+      "eleazar",
+      "aaron",
+      "judah",
+      "benjamin",
+      "dan"
+    ],
+    "judges-21": [
+      "benjamin"
+    ]
+  },
+  "people": {
+    "moses": {
+      "name": "Moses",
+      "role": "Prophet who leads Israel from Egypt",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 3, 4, 11, 18"
+      ],
+      "importance": "Moses does not act in Judges. Caleb gets Hebron as Moses had said. The Kenites are the family of his brother-in-law. Judges 18:30 calls the priest Jonathan his grandson in this text.",
+      "connections": "Son of Amram and Jochebed. Brother of Aaron and Miriam. Husband of Zipporah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        3,
+        4,
+        11,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4872",
+        "key": "Moses",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          16
+        ],
+        "hebrew": "מֹשֶׁה",
+        "transliteration": "Môsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "aaron": {
+      "name": "Aaron",
+      "role": "Moses's brother and appointed priest",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 20"
+      ],
+      "importance": "Aaron does not act in Judges. Judges 20:28 names him as the grandfather of Phinehas the priest.",
+      "connections": "Son of Amram and Jochebed. Father of Nadab, Abihu, Eleazar, and Ithamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H175",
+        "key": "Aaron",
+        "checkedVerses": 1,
+        "example": [
+          20,
+          28
+        ],
+        "hebrew": "אַהֲרוֹן",
+        "transliteration": "ʼAhărôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joshua": {
+      "name": "Joshua",
+      "role": "Leader after Moses",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 2"
+      ],
+      "importance": "The book opens after his death. Chapter 2 tells again how he sent the people home and died. The people served the LORD while he and his elders lived. The people born after them did not know the LORD.",
+      "connections": "Son of Nun. He led Israel in the book of Joshua.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3091",
+        "key": "Joshua",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "יְהוֹשׁוּעַ",
+        "transliteration": "Yᵉhôwshûwaʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eleazar": {
+      "name": "Eleazar",
+      "role": "Priest, son of Aaron and father of Phinehas",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 20"
+      ],
+      "importance": "Eleazar does not act in Judges. Judges 20:28 names him as the father of Phinehas the priest.",
+      "connections": "Son of Aaron. Father of Phinehas.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H499",
+        "key": "Eleazar",
+        "checkedVerses": 1,
+        "example": [
+          20,
+          28
+        ],
+        "hebrew": "אֶלְעָזָר",
+        "transliteration": "ʼElʻâzâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "caleb": {
+      "name": "Caleb",
+      "role": "Leader who receives Hebron",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Hebron"
+      ],
+      "passages": [
+        "Judges 1, 3"
+      ],
+      "importance": "He offers his daughter Achsah to the man who takes Kiriath Sepher. Othniel takes it and marries her. Caleb gives Achsah the upper and lower springs. He receives Hebron and drives out the three sons of Anak.",
+      "connections": "Son of Jephunneh. Father of Achsah. Othniel is his relative and becomes his son-in-law.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3612",
+        "key": "Caleb",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "כָּלֵב",
+        "transliteration": "Kâlêb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "balak": {
+      "name": "Balak",
+      "role": "King of Moab",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 11"
+      ],
+      "importance": "Balak does not act in Judges. Jephthah names him in his message to the king of Ammon. He asks whether Balak ever fought against Israel.",
+      "connections": "Son of Zippor.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1111",
+        "key": "Balak",
+        "checkedVerses": 1,
+        "example": [
+          11,
+          25
+        ],
+        "hebrew": "בָּלָק",
+        "transliteration": "Bâlâq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "phinehas": {
+      "name": "Phinehas",
+      "role": "Priest who stands before the ark",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 20"
+      ],
+      "importance": "He stands before the ark when Israel asks the LORD about Benjamin. Israel asks whether to go out to battle a third time. The LORD says to go up and promises victory the next day.",
+      "connections": "Son of Eleazar. Grandson of Aaron.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6372",
+        "key": "Phinehas",
+        "checkedVerses": 1,
+        "example": [
+          20,
+          28
+        ],
+        "hebrew": "פִּינְחָס",
+        "transliteration": "Pîynᵉchâç",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "sihon": {
+      "name": "Sihon",
+      "role": "King of the Amorites at Heshbon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 11"
+      ],
+      "importance": "Sihon does not act in Judges. Jephthah tells how Israel asked to pass through his land. Sihon did not trust Israel and fought at Jahaz. Israel won and took the Amorite land.",
+      "connections": "Jephthah names him in his message to the king of Ammon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5511",
+        "key": "Sihon",
+        "checkedVerses": 3,
+        "example": [
+          11,
+          19
+        ],
+        "hebrew": "סִיחוֹן",
+        "transliteration": "Çîychôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joseph": {
+      "name": "Joseph",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1"
+      ],
+      "importance": "Joseph himself does not appear. The house of Joseph attacks Bethel in chapter 1. A man shows them the way in, and they let his family go. They later force the Amorites to work.",
+      "connections": "Son of Jacob and Rachel. Husband of Asenath. Father of Ephraim and Manasseh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3130",
+        "key": "Joseph",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          22
+        ],
+        "hebrew": "יוֹסֵף",
+        "transliteration": "Yôwçêph",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "judah": {
+      "name": "Judah",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 10, 15, 17, 18, 19, 20"
+      ],
+      "importance": "Judah himself does not appear. His tribe goes first against the Canaanites, with Simeon’s help. In chapter 15 its men tie up Samson for the Philistines. In chapter 20 the LORD sends Judah first against Benjamin.",
+      "connections": "Son of Jacob and Leah. Father of Perez and Zerah through Tamar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        10,
+        15,
+        17,
+        18,
+        19,
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3063",
+        "key": "Judah",
+        "checkedVerses": 22,
+        "example": [
+          1,
+          2
+        ],
+        "hebrew": "יְהוּדָה",
+        "transliteration": "Yᵉhûwdâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "reuben": {
+      "name": "Reuben",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 5"
+      ],
+      "importance": "Reuben himself does not appear. Deborah’s song asks why his people sat among the sheepfolds. It says they searched their hearts by their streams.",
+      "connections": "Son of Jacob and Leah. Brother of Joseph.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H7205",
+        "key": "Reuben",
+        "checkedVerses": 2,
+        "example": [
+          5,
+          15
+        ],
+        "hebrew": "רְאוּבֵן",
+        "transliteration": "Rᵉʼûwbên",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "simeon": {
+      "name": "Simeon",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1"
+      ],
+      "importance": "Simeon himself does not appear. His tribe goes with Judah to fight the Canaanites. The two tribes then destroy Zephath, and the city is called Hormah.",
+      "connections": "Brother of Levi and Dinah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8095",
+        "key": "Simeon",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          3
+        ],
+        "hebrew": "שִׁמְעוֹן",
+        "transliteration": "Shimʻôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "levi": {
+      "name": "Levi",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges "
+      ],
+      "importance": "Judges never names Levi himself. Two Levites appear near the end of the book. One becomes priest for Micah and then for Dan. The other travels with the woman from Bethlehem.",
+      "connections": "Brother of Simeon and Dinah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": []
+    },
+    "benjamin": {
+      "name": "Benjamin",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 5, 10, 19, 20, 21"
+      ],
+      "importance": "Benjamin himself does not appear. His tribe does not drive the Jebusites out of Jerusalem. Ehud comes from this tribe. It later shields the men of Gibeah and is nearly wiped out in war.",
+      "connections": "Son of Rachel. Full brother of Joseph.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        5,
+        10,
+        19,
+        20,
+        21
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1144",
+        "key": "Benjamin",
+        "checkedVerses": 40,
+        "example": [
+          1,
+          21
+        ],
+        "hebrew": "בִּנְיָמִין",
+        "transliteration": "Binyâmîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "ephraim": {
+      "name": "Ephraim",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 2, 3, 4, 5, 7, 8, 10, 12, 17, 18, 19"
+      ],
+      "importance": "Ephraim himself does not appear. His tribe holds the Jordan for Gideon and kills Oreb and Zeeb. Its men scold Gideon, and he calms them. They threaten Jephthah, and Gilead’s men kill 42,000 of them.",
+      "connections": "Son of Joseph and Asenath. Brother of Manasseh.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        17,
+        18,
+        19
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H669",
+        "key": "Ephraim",
+        "checkedVerses": 22,
+        "example": [
+          1,
+          29
+        ],
+        "hebrew": "אֶפְרַיִם",
+        "transliteration": "ʼEphrayim",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "manasseh": {
+      "name": "Manasseh",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 6, 7, 11, 12"
+      ],
+      "importance": "Manasseh himself does not appear. His tribe leaves Canaanites in Beth Shean, Megiddo, and other towns. Gideon comes from a poor family in this tribe. Its men answer Gideon’s call against Midian.",
+      "connections": "Son of Joseph and Asenath. Brother of Ephraim.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        6,
+        7,
+        11,
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4519",
+        "key": "Manasseh",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          27
+        ],
+        "hebrew": "מְנַשֶּׁה",
+        "transliteration": "Mᵉnashsheh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zebulun": {
+      "name": "Zebulun",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 4, 5, 6, 12"
+      ],
+      "importance": "Zebulun himself does not appear. His tribe sends men with Barak to Mount Tabor. Deborah’s song says they risked their lives. They also answer Gideon’s call, and the judge Elon comes from this tribe.",
+      "connections": "Son of Jacob and Leah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4,
+        5,
+        6,
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2074",
+        "key": "Zebulun",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          30
+        ],
+        "hebrew": "זְבוּלוּן",
+        "transliteration": "Zᵉbûwlûwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "issachar": {
+      "name": "Issachar",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 5, 10"
+      ],
+      "importance": "Issachar himself does not appear. Deborah’s song says his princes were with Deborah and Barak. The judge Tola is a man of Issachar.",
+      "connections": "Son of Jacob and Leah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        5,
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3485",
+        "key": "Issachar",
+        "checkedVerses": 2,
+        "example": [
+          5,
+          15
+        ],
+        "hebrew": "יִשָּׂשכָר",
+        "transliteration": "Yissâˢkâr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "dan": {
+      "name": "Dan",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 5, 13, 18, 20"
+      ],
+      "importance": "Dan himself does not appear. The Amorites push his tribe into the hill country. Samson comes from a family of Dan. In chapter 18 six hundred men of Dan take Laish and name it Dan.",
+      "connections": "Son of Jacob and Bilhah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        5,
+        13,
+        18,
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1835",
+        "key": "Dan",
+        "checkedVerses": 12,
+        "example": [
+          1,
+          34
+        ],
+        "hebrew": "דָּן",
+        "transliteration": "Dân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "naphtali": {
+      "name": "Naphtali",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 4, 5, 6, 7"
+      ],
+      "importance": "Naphtali himself does not appear. Barak comes from Kedesh in Naphtali and calls its men to fight Sisera. Deborah’s song says they risked their lives. They also follow Gideon against Midian.",
+      "connections": "Son of Jacob and Bilhah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5321",
+        "key": "Naphtali",
+        "checkedVerses": 6,
+        "example": [
+          1,
+          33
+        ],
+        "hebrew": "נַפְתָּלִי",
+        "transliteration": "Naphtâlîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gad": {
+      "name": "Gad",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges "
+      ],
+      "importance": "Judges does not use Gad’s name. His tribe lived east of the Jordan. Deborah’s song says only that Gilead stayed beyond the Jordan.",
+      "connections": "Son of Jacob and Zilpah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": []
+    },
+    "asher": {
+      "name": "Asher",
+      "role": "Ancestor recalled through a tribal name",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1, 5, 6, 7"
+      ],
+      "importance": "Asher himself does not appear. His tribe lives among the Canaanites it did not drive out. Deborah’s song says Asher sat still by the sea. Its men later join Gideon against Midian.",
+      "connections": "Son of Jacob and Zilpah. His name also identifies a later tribe.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H836",
+        "key": "Asher",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          31
+        ],
+        "hebrew": "אָשֵׁר",
+        "transliteration": "ʼÂshêr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "othniel": {
+      "name": "Othniel",
+      "role": "Caleb’s relative who takes Debir and judges Israel",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Debir · approximate southern region"
+      ],
+      "passages": [
+        "Judges 1, 3"
+      ],
+      "importance": "He takes Kiriath Sepher, also called Debir, and marries Achsah. Later the LORD’s Spirit comes on him, and he judges Israel. He defeats Cushan Rishathaim. The land rests forty years until he dies.",
+      "connections": "Son of Kenaz. He marries Caleb’s daughter Achsah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1,
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6274",
+        "key": "Othniel",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          13
+        ],
+        "hebrew": "עׇתְנִיאֵל",
+        "transliteration": "ʻOthnîyʼêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "achsah": {
+      "name": "Achsah",
+      "role": "Caleb’s daughter who asks for springs",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Debir · approximate southern region"
+      ],
+      "passages": [
+        "Judges 1"
+      ],
+      "importance": "Caleb gives her as wife to Othniel. She gets Othniel to ask her father for a field. Then she asks Caleb for springs of water. He gives her the upper and lower springs.",
+      "connections": "Daughter of Caleb and wife of Othniel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5915",
+        "key": "Achsah",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "עַכְסָה",
+        "transliteration": "ʻAkçâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "adonibezek": {
+      "name": "Adoni-bezek",
+      "role": "Ruler caught by Judah at Bezek",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 1:5–7"
+      ],
+      "importance": "Judah and Simeon fight him at Bezek, and he runs. They catch him and cut off his thumbs and big toes. He says he did the same to seventy kings. They bring him to Jerusalem, and he dies there.",
+      "connections": "Enemy of Judah and Simeon. No family is named.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H137",
+        "key": "Adoni-bezek",
+        "checkedVerses": 3,
+        "example": [
+          1,
+          5
+        ],
+        "hebrew": "אֲדֹנִי־בֶזֶק",
+        "transliteration": "ʼĂdônîy-Bezeq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "cushan-rishathaim": {
+      "name": "Cushan-rishathaim",
+      "role": "King of Mesopotamia who rules Israel",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 3:8–10"
+      ],
+      "importance": "The LORD sells Israel into his hand, and Israel serves him eight years. Israel cries to the LORD. Othniel goes out to war and defeats him.",
+      "connections": "Enemy of Othniel. No family is named.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3
+      ]
+    },
+    "ehud": {
+      "name": "Ehud",
+      "role": "Left-handed man of Benjamin who kills Eglon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 3:15–30; 4:1"
+      ],
+      "importance": "He hides a short sword on his right thigh and brings Israel’s payment to Eglon. Alone with the king, he stabs him and locks the doors. He escapes and leads Israel to the Jordan crossings. They defeat Moab, and the land rests eighty years.",
+      "connections": "Son of Gera. He carries tribute to Eglon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3,
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H164",
+        "key": "Ehud",
+        "checkedVerses": 7,
+        "example": [
+          3,
+          15
+        ],
+        "hebrew": "אֵהוּד",
+        "transliteration": "ʼÊhûwd",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "eglon": {
+      "name": "Eglon",
+      "role": "Moabite king killed by Ehud",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 3:12–30"
+      ],
+      "importance": "He takes the city of palm trees and rules Israel eighteen years. Ehud brings him payment and says he has a secret message. Eglon sends his servants out, and Ehud kills him. This man is not the Canaanite town named Eglon.",
+      "connections": "He gathers Ammon and Amalek to fight Israel.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5700",
+        "key": "Eglon",
+        "checkedVerses": 4,
+        "example": [
+          3,
+          12
+        ],
+        "hebrew": "עֶגְלוֹן",
+        "transliteration": "ʻEglôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "shamgar": {
+      "name": "Shamgar",
+      "role": "Man who strikes 600 Philistines with an ox goad",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 3:31; 5:6"
+      ],
+      "importance": "He strikes six hundred Philistines with an ox goad and saves Israel. Deborah’s song says the roads were empty in his days. The book says nothing more about him.",
+      "connections": "Son of Anath.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        3,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8044",
+        "key": "Shamgar",
+        "checkedVerses": 2,
+        "example": [
+          3,
+          31
+        ],
+        "hebrew": "שַׁמְגַּר",
+        "transliteration": "Shamgar",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "deborah": {
+      "name": "Deborah",
+      "role": "Prophet and judge",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethel · traditional Beitin locality"
+      ],
+      "passages": [
+        "Judges 4–5"
+      ],
+      "importance": "She lives under a palm tree between Ramah and Bethel and judges Israel. She gives Barak the LORD’s command and goes with him. She tells him the day to attack. Then she and Barak sing the song in chapter 5.",
+      "connections": "Wife of Lappidoth. She calls Barak to lead the army.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1683",
+        "key": "Deborah",
+        "checkedVerses": 9,
+        "example": [
+          4,
+          4
+        ],
+        "hebrew": "דְּבּוֹרָה",
+        "transliteration": "Dᵉbôwrâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "barak": {
+      "name": "Barak",
+      "role": "Commander called by Deborah",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Mount Tabor"
+      ],
+      "passages": [
+        "Judges 4–5"
+      ],
+      "importance": "He will not go to battle unless Deborah goes too. He leads ten thousand men down Mount Tabor and beats Sisera’s army. He chases Sisera and finds him dead in Jael’s tent. He sings the victory song with Deborah.",
+      "connections": "Son of Abinoam, from Kedesh in Naphtali.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1301",
+        "key": "Barak",
+        "checkedVerses": 12,
+        "example": [
+          4,
+          6
+        ],
+        "hebrew": "בָּרָק",
+        "transliteration": "Bârâq",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "sisera": {
+      "name": "Sisera",
+      "role": "Commander of Jabin’s army",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 4–5"
+      ],
+      "importance": "He brings nine hundred iron chariots to the river Kishon. His army loses, and he runs on foot to Jael’s tent. She gives him milk, covers him, and kills him as he sleeps. In the song his mother waits at the window for him.",
+      "connections": "Captain of the army of Jabin. Jael kills him.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5516",
+        "key": "Sisera",
+        "checkedVerses": 15,
+        "example": [
+          4,
+          2
+        ],
+        "hebrew": "סִיסְרָא",
+        "transliteration": "Çîyçᵉrâʼ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jabin-judges": {
+      "name": "Jabin",
+      "role": "King of Canaan who reigns in Hazor",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Hazor · excavated site"
+      ],
+      "passages": [
+        "Judges 4:2,7,23–24"
+      ],
+      "importance": "He has nine hundred iron chariots and crushes Israel for twenty years. He does not appear in the battle himself. After Sisera dies, Israel grows stronger until it destroys him.",
+      "connections": "Sisera is captain of his army. Heber’s house is at peace with him.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2985",
+        "key": "Jabin",
+        "checkedVerses": 5,
+        "example": [
+          4,
+          2
+        ],
+        "hebrew": "יָבִין",
+        "transliteration": "Yâbîyn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jael": {
+      "name": "Jael",
+      "role": "Woman who kills Sisera",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 4–5"
+      ],
+      "importance": "She goes out to Sisera and invites him into her tent. She gives him milk and covers him. While he sleeps she drives a tent peg through his head. She shows Barak the body, and the song calls her blessed.",
+      "connections": "Wife of Heber the Kenite.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4,
+        5
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3278",
+        "key": "Jael",
+        "checkedVerses": 6,
+        "example": [
+          4,
+          17
+        ],
+        "hebrew": "יָעֵל",
+        "transliteration": "Yâʻêl",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "heber": {
+      "name": "Heber",
+      "role": "Kenite man, husband of Jael",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 4:11,17"
+      ],
+      "importance": "He leaves the other Kenites and sets his tent near Kedesh. His house is at peace with Jabin. So Sisera runs to his wife’s tent. Heber himself does nothing in these chapters.",
+      "connections": "Husband of Jael. His household has peace with Jabin.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        4
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2268",
+        "key": "Heber",
+        "checkedVerses": 4,
+        "example": [
+          4,
+          11
+        ],
+        "hebrew": "חֶבֶר",
+        "transliteration": "Cheber",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gideon": {
+      "name": "Gideon",
+      "role": "Judge who defeats Midian with 300 men",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ophrah · proposed region"
+      ],
+      "passages": [
+        "Judges 6–9"
+      ],
+      "importance": "The LORD’s angel sends him to save Israel from Midian. He pulls down Baal’s altar, asks for signs, and beats Midian with three hundred men. He punishes Succoth and Penuel and kills two kings. He refuses to rule, but his gold ephod becomes a trap for Israel.",
+      "connections": "Son of Joash. Father of Jether, Jotham, and Abimelech. Also called Jerubbaal.",
+      "verseScope": {},
+      "linkNames": [
+        "Jerubbaal",
+        "Jerubbesheth"
+      ],
+      "chapterIds": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1439",
+        "key": "Gideon",
+        "checkedVerses": 37,
+        "example": [
+          6,
+          11
+        ],
+        "hebrew": "גִּדְעוֹן",
+        "transliteration": "Gidʻôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "joash-gideon": {
+      "name": "Joash",
+      "role": "Gideon’s father",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 6:11,25–32; 7:14; 8:13,29,32"
+      ],
+      "importance": "He owns an altar of Baal, and Gideon pulls it down. The men of the city want Gideon dead. Joash says Baal should fight for himself if he is a god. Gideon is later buried in Joash’s tomb.",
+      "connections": "Father of Gideon. An Abiezrite who owns the oak at Ophrah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        6,
+        7,
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3101",
+        "key": "Joash",
+        "checkedVerses": 8,
+        "example": [
+          6,
+          11
+        ],
+        "hebrew": "יוֹאָשׁ",
+        "transliteration": "Yôwʼâsh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "oreb": {
+      "name": "Oreb",
+      "role": "Prince of Midian",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 7:25; 8:3"
+      ],
+      "importance": "He flees after Gideon’s night attack. Ephraim’s men kill him at the place called Oreb’s rock. They bring his head to Gideon beyond the Jordan.",
+      "connections": "Prince of Midian beside Zeeb. Ephraim’s men kill them both.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7,
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6159",
+        "key": "Oreb",
+        "checkedVerses": 2,
+        "example": [
+          7,
+          25
+        ],
+        "hebrew": "עֹרֵב",
+        "transliteration": "ʻÔrêb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zeeb": {
+      "name": "Zeeb",
+      "role": "Prince of Midian",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 7:25; 8:3"
+      ],
+      "importance": "He flees after Gideon’s night attack. Ephraim’s men kill him at Zeeb’s wine press. They bring his head to Gideon. Gideon points to the two deaths to calm Ephraim’s anger.",
+      "connections": "Prince of Midian beside Oreb. Ephraim’s men kill them both.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        7,
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2062",
+        "key": "Zeeb",
+        "checkedVerses": 2,
+        "example": [
+          7,
+          25
+        ],
+        "hebrew": "זְאֵב",
+        "transliteration": "Zᵉʼêb",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zebah": {
+      "name": "Zebah",
+      "role": "King of Midian chased by Gideon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 8"
+      ],
+      "importance": "He and Zalmunna camp at Karkor with about fifteen thousand men. Gideon attacks, and they run, but he catches them. They admit they killed Gideon’s brothers at Tabor. Gideon kills them both.",
+      "connections": "King of Midian beside Zalmunna.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2078",
+        "key": "Zebah",
+        "checkedVerses": 8,
+        "example": [
+          8,
+          5
+        ],
+        "hebrew": "זֶבַח",
+        "transliteration": "Zebach",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zalmunna": {
+      "name": "Zalmunna",
+      "role": "King of Midian chased by Gideon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 8"
+      ],
+      "importance": "Gideon chases him and Zebah across the Jordan and catches them. Gideon learns they killed his brothers at Tabor. His son Jether will not kill them. The two kings tell Gideon to do it himself, and he does.",
+      "connections": "King of Midian beside Zebah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H6759",
+        "key": "Zalmunna",
+        "checkedVerses": 8,
+        "example": [
+          8,
+          5
+        ],
+        "hebrew": "צַלְמֻנָּע",
+        "transliteration": "Tsalmunnâʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jether": {
+      "name": "Jether",
+      "role": "Gideon’s firstborn son",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 8:20"
+      ],
+      "importance": "Gideon tells him to kill Zebah and Zalmunna. He does not draw his sword. He is afraid because he is still a youth. Gideon kills the kings himself.",
+      "connections": "Firstborn son of Gideon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3500",
+        "key": "Jether",
+        "checkedVerses": 1,
+        "example": [
+          8,
+          20
+        ],
+        "hebrew": "יֶתֶר",
+        "transliteration": "Yether",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abimelech-judges": {
+      "name": "Abimelech",
+      "role": "Gideon’s son who becomes king at Shechem",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 8:31; 9"
+      ],
+      "importance": "He hires men with Shechem’s silver and kills his brothers at Ophrah. Shechem makes him king, then turns on him after three years. He destroys Shechem, but a woman at Thebez drops a millstone on his head. He is not the Abimelech of Genesis.",
+      "connections": "Son of Gideon and his concubine from Shechem. Half brother of Jotham.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        8,
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H40",
+        "key": "Abimelech",
+        "checkedVerses": 36,
+        "example": [
+          8,
+          31
+        ],
+        "hebrew": "אֲבִימֶלֶךְ",
+        "transliteration": "ʼĂbîymelek",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jotham-gideon": {
+      "name": "Jotham",
+      "role": "Surviving son of Gideon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 9"
+      ],
+      "importance": "He hides when Abimelech kills his brothers. From Mount Gerizim he tells Shechem about trees that pick a thorn bush as king. He warns of fire between Abimelech and Shechem, then flees to Beer. He is not the later king Jotham.",
+      "connections": "Youngest son of Gideon. Half brother of Abimelech.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3147",
+        "key": "Jotham",
+        "checkedVerses": 4,
+        "example": [
+          9,
+          5
+        ],
+        "hebrew": "יוֹתָם",
+        "transliteration": "Yôwthâm",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "gaal": {
+      "name": "Gaal",
+      "role": "Man who turns Shechem against Abimelech",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 9:26–41"
+      ],
+      "importance": "He moves to Shechem, and its men trust him. At a harvest feast he mocks Abimelech and dares him to fight. Abimelech’s men come in the morning and chase him to the gate. Zebul drives him and his brothers out of Shechem.",
+      "connections": "Son of Ebed. He comes to Shechem with his brothers.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1603",
+        "key": "Gaal",
+        "checkedVerses": 9,
+        "example": [
+          9,
+          26
+        ],
+        "hebrew": "גַּעַל",
+        "transliteration": "Gaʻal",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "zebul": {
+      "name": "Zebul",
+      "role": "Ruler of Shechem under Abimelech",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 9:28–41"
+      ],
+      "importance": "He hears Gaal’s boast and secretly warns Abimelech. He tells Abimelech to hide in the field at night. When Gaal sees men coming, Zebul says they are shadows. Then he dares Gaal to fight and later drives him out.",
+      "connections": "Abimelech’s officer. He works against Gaal.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        9
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2083",
+        "key": "Zebul",
+        "checkedVerses": 5,
+        "example": [
+          9,
+          28
+        ],
+        "hebrew": "זְבֻל",
+        "transliteration": "Zᵉbul",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "tola": {
+      "name": "Tola",
+      "role": "Judge from Issachar",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 10:1–2"
+      ],
+      "importance": "He rises to save Israel after Abimelech. He judges Israel twenty-three years. He lives in Shamir in the hill country of Ephraim and is buried there.",
+      "connections": "Son of Puah, son of Dodo, a man of Issachar.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8439",
+        "key": "Tola",
+        "checkedVerses": 1,
+        "example": [
+          10,
+          1
+        ],
+        "hebrew": "תּוֹלָע",
+        "transliteration": "Tôwlâʻ",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jair": {
+      "name": "Jair",
+      "role": "Gileadite judge",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 10:3–5"
+      ],
+      "importance": "He judges Israel twenty-two years. His thirty sons ride thirty donkeys and hold thirty towns in Gilead. The towns are called Havvoth Jair. He is buried in Kamon.",
+      "connections": "Father of thirty sons. No parent is named.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        10
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H2971",
+        "key": "Jair",
+        "checkedVerses": 2,
+        "example": [
+          10,
+          3
+        ],
+        "hebrew": "יָאִיר",
+        "transliteration": "Yâʼîyr",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jephthah": {
+      "name": "Jephthah",
+      "role": "Gileadite leader called back from the land of Tob",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Gilead · broad region"
+      ],
+      "passages": [
+        "Judges 11–12"
+      ],
+      "importance": "His brothers drive him out, and he lives in Tob. The elders of Gilead bring him back to fight Ammon. He vows to offer whatever comes out of his house, and his daughter comes out. He later fights Ephraim and judges Israel six years.",
+      "connections": "Son of Gilead and a woman described as a prostitute. Father of one daughter.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11,
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3316",
+        "key": "Jephthah",
+        "checkedVerses": 24,
+        "example": [
+          11,
+          1
+        ],
+        "hebrew": "יִפְתָּח",
+        "transliteration": "Yiphtâch",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jephthah-daughter": {
+      "name": "Jephthah’s daughter",
+      "role": "Unnamed only child caught by her father’s vow",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 11:34–40"
+      ],
+      "importance": "She comes out to meet her father with tambourines and dances. She tells him to keep his vow. She asks for two months on the mountains with her friends. Her father then does as he vowed, and Israel’s daughters remember her each year.",
+      "connections": "Daughter of Jephthah. Her name is not given in Judges.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        11
+      ]
+    },
+    "ibzan": {
+      "name": "Ibzan",
+      "role": "Judge from Bethlehem",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 12:8–10"
+      ],
+      "importance": "He judges Israel seven years. He sends his thirty daughters to marry outside his clan. He brings in thirty wives from outside for his sons. He is buried at Bethlehem.",
+      "connections": "Father of thirty sons and thirty daughters.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H78",
+        "key": "Ibzan",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          8
+        ],
+        "hebrew": "אִבְצָן",
+        "transliteration": "ʼIbtsân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "elon": {
+      "name": "Elon",
+      "role": "Judge from Zebulun",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 12:11–12"
+      ],
+      "importance": "He judges Israel ten years. He dies and is buried in Aijalon in the land of Zebulun. The book says nothing more about him.",
+      "connections": "A man of Zebulun. No family is named.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H356",
+        "key": "Elon",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          11
+        ],
+        "hebrew": "אֵילוֹן",
+        "transliteration": "ʼÊylôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "abdon": {
+      "name": "Abdon",
+      "role": "Judge from Pirathon",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "Judges 12:13–15"
+      ],
+      "importance": "He judges Israel eight years. He has forty sons and thirty grandsons who ride seventy donkeys. He is buried in Pirathon in the land of Ephraim.",
+      "connections": "Son of Hillel, from Pirathon.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        12
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H5658",
+        "key": "Abdon",
+        "checkedVerses": 2,
+        "example": [
+          12,
+          13
+        ],
+        "hebrew": "עַבְדוֹן",
+        "transliteration": "ʻAbdôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "samson": {
+      "name": "Samson",
+      "role": "Nazirite strongman who fights the Philistines",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Zorah · traditional locality",
+        "Timnah · traditional Tel Batash",
+        "Gaza · ancient locality"
+      ],
+      "passages": [
+        "Judges 13–16"
+      ],
+      "importance": "He marries a Philistine woman, and a lost bet over a riddle starts a feud. He burns their grain and kills a thousand men with a jawbone. He tells Delilah his hair is the secret, and the Philistines blind him. At their feast he pulls down the house and dies with them.",
+      "connections": "Son of Manoah and his unnamed wife. He marries a woman of Timnah and later loves Delilah.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H8123",
+        "key": "Samson",
+        "checkedVerses": 37,
+        "example": [
+          13,
+          24
+        ],
+        "hebrew": "שִׁמְשׁוֹן",
+        "transliteration": "Shimshôwn",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "manoah": {
+      "name": "Manoah",
+      "role": "Samson’s father",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Zorah · traditional locality"
+      ],
+      "passages": [
+        "Judges 13–16"
+      ],
+      "importance": "He prays for the man of God to come back and teach them. He asks the angel about the child and offers a young goat. When the angel rises in the flame, he fears they will die. He later goes to Timnah with Samson, who is buried in his tomb.",
+      "connections": "A Danite from Zorah, husband of Samson’s unnamed mother.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4495",
+        "key": "Manoah",
+        "checkedVerses": 14,
+        "example": [
+          13,
+          2
+        ],
+        "hebrew": "מָנוֹחַ",
+        "transliteration": "Mânôwach",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "samson-mother": {
+      "name": "Samson’s mother",
+      "role": "Unnamed woman told she will bear Samson",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Zorah · traditional locality"
+      ],
+      "passages": [
+        "Judges 13–14"
+      ],
+      "importance": "The LORD’s angel tells her she will bear a son. He tells her to drink no wine and never cut the boy’s hair. She tells Manoah both times the angel comes. When Manoah fears death, she says the LORD accepted their offering.",
+      "connections": "Wife of Manoah and mother of Samson.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        13,
+        14
+      ]
+    },
+    "samson-wife": {
+      "name": "Samson’s wife at Timnah",
+      "role": "Unnamed Philistine woman Samson marries at Timnah",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Timnah · traditional Tel Batash"
+      ],
+      "passages": [
+        "Judges 14–15"
+      ],
+      "importance": "The wedding guests say they will burn her and her father’s house. She cries to Samson for seven days and gets the riddle’s answer. Her father gives her to another man. After Samson burns the fields, the Philistines burn her and her father.",
+      "connections": "Samson’s first wife. Her father later gives her to another man.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        14,
+        15
+      ]
+    },
+    "delilah": {
+      "name": "Delilah",
+      "role": "Woman who learns the secret of Samson’s strength",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Sorek · valley region"
+      ],
+      "passages": [
+        "Judges 16:4–22"
+      ],
+      "importance": "The Philistine lords offer her silver to learn Samson’s secret. She asks him four times, and three times he lies. He tells her at last that his hair has never been cut. She has his head shaved as he sleeps, and the Philistines take him.",
+      "connections": "Samson loves her. The Philistine lords pay her to trap him.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H1807",
+        "key": "Delilah",
+        "checkedVerses": 6,
+        "example": [
+          16,
+          4
+        ],
+        "hebrew": "דְּלִילָה",
+        "transliteration": "Dᵉlîylâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "micah-judges": {
+      "name": "Micah",
+      "role": "Man of Ephraim with a house of gods",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ephraim · hill-country region"
+      ],
+      "passages": [
+        "Judges 17–18"
+      ],
+      "importance": "He returns silver he took from his mother, and she has an image made. He hires a young Levite as his priest. Men of Dan take his images and his priest, and he cannot stop them. He is not the prophet Micah.",
+      "connections": "Son of an unnamed mother. He hires a young Levite as priest.",
+      "verseScope": {},
+      "linkNames": [],
+      "chapterIds": [
+        17,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H4318",
+        "key": "Micah",
+        "checkedVerses": 17,
+        "example": [
+          17,
+          5
+        ],
+        "hebrew": "מִיכָה",
+        "transliteration": "Mîykâh",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "jonathan-priest": {
+      "name": "Jonathan",
+      "role": "Levite priest for Micah, then for Dan",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Ephraim · hill-country region",
+        "Laish / Dan · Tel Dan locality"
+      ],
+      "passages": [
+        "Judges 17–18"
+      ],
+      "importance": "A young Levite leaves Bethlehem and becomes Micah’s priest for pay. Men of Dan offer him a whole tribe, and he goes with Micah’s images. Judges 18:30 names Dan’s priest Jonathan, likely this same Levite. Old copies differ over whether his ancestor’s name is Moses or Manasseh.",
+      "connections": "Judges 18:30 calls him son of Gershom, son of Moses.",
+      "verseScope": {},
+      "linkNames": [
+        "Levite"
+      ],
+      "chapterIds": [
+        17,
+        18
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3129",
+        "key": "Jonathan",
+        "checkedVerses": 1,
+        "example": [
+          18,
+          30
+        ],
+        "hebrew": "יוֹנָתָן",
+        "transliteration": "Yôwnâthân",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ]
+      }
+    },
+    "levite-traveler": {
+      "name": "The Levite traveler",
+      "role": "Unnamed Levite whose report starts a war",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Gibeah · traditional Tell el-Ful"
+      ],
+      "passages": [
+        "Judges 19–20"
+      ],
+      "importance": "He goes to Bethlehem to bring the woman home. At Gibeah a mob surrounds the house, and he pushes her out to them. He cuts up her body and sends the pieces through Israel. At Mizpah he tells the tribes of the crime but leaves out his own act.",
+      "connections": "The text calls the woman from Bethlehem his concubine. He travels with a servant.",
+      "verseScope": {},
+      "linkNames": [
+        "Levite"
+      ],
+      "chapterIds": [
+        19,
+        20
+      ],
+      "word": {
+        "language": "hebrew",
+        "strongId": "H3881",
+        "key": "Levite",
+        "checkedVerses": 10,
+        "example": [
+          17,
+          7
+        ],
+        "hebrew": "לֵוִיִּי",
+        "transliteration": "Lêvîyîy",
+        "greek": "",
+        "greekNote": "",
+        "sourceIds": [
+          "strong",
+          "oshb"
+        ],
+        "languageNote": "This is the dictionary form of the name “Levite.”"
+      }
+    },
+    "levite-concubine": {
+      "name": "The woman from Bethlehem",
+      "role": "Unnamed woman abused at Gibeah",
+      "life": "Historical birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [
+        "Bethlehem",
+        "Gibeah · traditional Tell el-Ful"
+      ],
+      "passages": [
+        "Judges 19–20"
+      ],
+      "importance": "She leaves the Levite and goes to her father’s house for four months. He comes for her, and they stop at Gibeah for the night. The men of the city abuse her all night. She falls at the door, and the text gives her no words.",
+      "connections": "The text calls her the Levite’s concubine. Her father lives in Bethlehem.",
+      "verseScope": {},
+      "linkNames": [
+        "concubine"
+      ],
+      "chapterIds": [
+        19,
+        20
+      ]
+    }
+  }
+}

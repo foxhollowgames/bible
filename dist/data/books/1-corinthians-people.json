@@ -1,0 +1,506 @@
+{
+  "featurePeople": {
+    "1-corinthians-1": [
+      "paul",
+      "jesus",
+      "peter",
+      "apollos",
+      "chloe"
+    ],
+    "1-corinthians-2": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-3": [
+      "paul",
+      "jesus",
+      "peter",
+      "apollos"
+    ],
+    "1-corinthians-4": [
+      "paul",
+      "jesus",
+      "timothy",
+      "apollos"
+    ],
+    "1-corinthians-5": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-6": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-7": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-8": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-9": [
+      "paul",
+      "jesus",
+      "peter",
+      "barnabas",
+      "moses"
+    ],
+    "1-corinthians-10": [
+      "paul",
+      "jesus",
+      "moses"
+    ],
+    "1-corinthians-11": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-12": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-13": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-14": [
+      "paul",
+      "jesus"
+    ],
+    "1-corinthians-15": [
+      "paul",
+      "jesus",
+      "peter"
+    ],
+    "1-corinthians-16": [
+      "paul",
+      "jesus",
+      "timothy",
+      "priscilla",
+      "aquila",
+      "apollos"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Letter speaker who challenges division and explains his own restraint",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 1–16"
+      ],
+      "importance": "His refusal of material rights supplies an example for the use of freedom.",
+      "connections": "Timothy represents his teaching. Apollos follows a different visiting plan.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "The crucified and risen Lord at the center of Paul’s argument",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 1–16"
+      ],
+      "importance": "His death and rising challenge the group’s measures of strength, ownership, and lasting hope.",
+      "connections": "Paul connects the shared meal and the believers’ future with him.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 59,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "peter": {
+      "name": "Cephas, also called Peter",
+      "role": "Apostle named in the dispute over teachers and among resurrection witnesses",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 1; 3; 9; 15"
+      ],
+      "importance": "His name appears in competing party claims that Paul refuses to accept.",
+      "connections": "Paul mentions his travel with a believing wife.",
+      "verseScope": {},
+      "linkNames": [
+        "Cephas"
+      ],
+      "chapterIds": [
+        1,
+        3,
+        9,
+        15
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G2786",
+        "key": "Cephas",
+        "checkedVerses": 4,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Κηφᾶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Kēphâs"
+      }
+    },
+    "barnabas": {
+      "name": "Barnabas",
+      "role": "Worker named with Paul in the question about material support",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 9:6"
+      ],
+      "importance": "His example makes the argument about support concern another worker as well as Paul.",
+      "connections": "Paul asks whether only they must continue working for their own needs.",
+      "verseScope": {},
+      "linkNames": [
+        "Barnabas"
+      ],
+      "chapterIds": [
+        9
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G921",
+        "key": "Barnabas",
+        "checkedVerses": 1,
+        "example": [
+          9,
+          6
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Βαρνάβας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Barnábas"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Trusted worker whom Paul sends to remind the group of his teaching",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 4:17; 16:10–11"
+      ],
+      "importance": "His welcome tests whether the group honors service rather than personal rank.",
+      "connections": "Paul asks the believers to receive him without fear or contempt.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        4,
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 2,
+        "example": [
+          4,
+          17
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "priscilla": {
+      "name": "Priscilla",
+      "role": "Worker who sends greetings from a shared household",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 16:19"
+      ],
+      "importance": "Her household greeting connects Corinth with another gathering of believers.",
+      "connections": "Aquila greets the believers with her. A church meets in their house.",
+      "verseScope": {},
+      "linkNames": [
+        "Priscilla"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4252",
+        "key": "Priscilla",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          19
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Πρίσκιλλα",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Prískilla"
+      }
+    },
+    "aquila": {
+      "name": "Aquila",
+      "role": "Worker whose household gathering sends a greeting",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 16:19"
+      ],
+      "importance": "His greeting makes the letter’s wider relationships visible at its close.",
+      "connections": "He and Priscilla greet the believers warmly in the Lord.",
+      "verseScope": {},
+      "linkNames": [
+        "Aquila"
+      ],
+      "chapterIds": [
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G207",
+        "key": "Aquila",
+        "checkedVerses": 1,
+        "example": [
+          16,
+          19
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀκύλας",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Akýlas"
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Remembered leader named in Paul’s law and wilderness examples",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 9:9; 10:2"
+      ],
+      "importance": "His recalled people show that shared gifts do not remove responsibility for later conduct.",
+      "connections": "Paul recalls the people’s shared passage through the sea and cloud.",
+      "verseScope": {},
+      "linkNames": [
+        "Moses"
+      ],
+      "chapterIds": [
+        9,
+        10
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3475",
+        "key": "Moses",
+        "checkedVerses": 2,
+        "example": [
+          9,
+          9
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μωσεύς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Mōseús"
+      }
+    },
+    "apollos": {
+      "name": "Apollos",
+      "role": "Teacher whom some believers use as a competing party name",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 1; 3; 4; 16"
+      ],
+      "importance": "His different visiting plan shows that shared service does not require identical decisions.",
+      "connections": "Paul describes his watering work and later urges him to visit.",
+      "verseScope": {},
+      "linkNames": [
+        "Apollos"
+      ],
+      "chapterIds": [
+        1,
+        3,
+        4,
+        16
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G625",
+        "key": "Apollos",
+        "checkedVerses": 7,
+        "example": [
+          1,
+          12
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Ἀπολλῶς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Apollōs"
+      }
+    },
+    "chloe": {
+      "name": "Chloe",
+      "role": "Named person whose household supplies the report of divisions",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "1 Corinthians 1:11"
+      ],
+      "importance": "Her named connection gives the complaint a stated source rather than an unnamed rumor.",
+      "connections": "Paul identifies her household when explaining what he has heard.",
+      "verseScope": {},
+      "linkNames": [
+        "Chloe"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5514",
+        "key": "Chloe",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          11
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χλόη",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Chlóē"
+      }
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "featurePeople": {
+    "2-corinthians-1": [
+      "paul",
+      "jesus",
+      "timothy",
+      "silas"
+    ],
+    "2-corinthians-2": [
+      "paul",
+      "jesus",
+      "titus"
+    ],
+    "2-corinthians-3": [
+      "paul",
+      "jesus",
+      "moses"
+    ],
+    "2-corinthians-4": [
+      "paul",
+      "jesus"
+    ],
+    "2-corinthians-5": [
+      "paul",
+      "jesus"
+    ],
+    "2-corinthians-6": [
+      "paul",
+      "jesus"
+    ],
+    "2-corinthians-7": [
+      "paul",
+      "jesus",
+      "titus"
+    ],
+    "2-corinthians-8": [
+      "paul",
+      "jesus",
+      "titus"
+    ],
+    "2-corinthians-9": [
+      "paul",
+      "jesus"
+    ],
+    "2-corinthians-10": [
+      "paul",
+      "jesus"
+    ],
+    "2-corinthians-11": [
+      "paul",
+      "jesus"
+    ],
+    "2-corinthians-12": [
+      "paul",
+      "jesus",
+      "titus"
+    ],
+    "2-corinthians-13": [
+      "paul",
+      "jesus"
+    ]
+  },
+  "people": {
+    "paul": {
+      "name": "Paul",
+      "role": "Apostle who explains his plans and defends his work",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Corinthians 1–13"
+      ],
+      "importance": "Paul explains why he changed his travel plans. He wrote earlier with many tears to spare them sorrow. He asks them to forgive and comfort the one who caused sorrow. He sends Titus and two brothers to finish the gift. He warns that he is coming a third time.",
+      "connections": "He writes with Timothy. Titus brings him news and finishes the gift.",
+      "verseScope": {},
+      "linkNames": [
+        "Paul"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3972",
+        "key": "Paul",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Παῦλος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Paûlos"
+      }
+    },
+    "jesus": {
+      "name": "Jesus Christ",
+      "role": "Crucified and risen Lord whose power works in weakness",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Corinthians 1–13"
+      ],
+      "importance": "Paul says that in Jesus is the “Yes” to all God’s promises. Paul says Jesus became poor so the readers might become rich. Paul asked that the thorn leave him. The Lord answered that his grace is enough and his power works in weakness.",
+      "connections": "Paul calls him the Son of God, preached by Paul, Silvanus, and Timothy. Paul says he became poor for the readers’ sake.",
+      "verseScope": {},
+      "linkNames": [
+        "Jesus",
+        "Christ"
+      ],
+      "chapterIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5547",
+        "key": "Christ",
+        "checkedVerses": 45,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Χριστός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Christós",
+        "languageNote": "This is the dictionary form of the name “Christ.”"
+      }
+    },
+    "timothy": {
+      "name": "Timothy",
+      "role": "Brother named with Paul in the greeting",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Corinthians 1:1, 19"
+      ],
+      "importance": "Paul names Timothy as our brother in the first line. In 1:19 Paul says Timothy preached the Son of God with him. They preached among the Corinthians. Paul uses this to show that their word was not “Yes and no.”",
+      "connections": "The letter names him beside Paul. Paul says Timothy and Silvanus preached Jesus Christ with him.",
+      "verseScope": {},
+      "linkNames": [
+        "Timothy"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5095",
+        "key": "Timothy",
+        "checkedVerses": 2,
+        "example": [
+          1,
+          1
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τιμόθεος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Timótheos"
+      }
+    },
+    "silas": {
+      "name": "Silvanus",
+      "role": "Preacher of Jesus Christ with Paul and Timothy",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Corinthians 1:19"
+      ],
+      "importance": "Paul names Silvanus once, in 1:19. He says Silvanus, Timothy, and Paul preached Jesus Christ among the Corinthians. Paul uses this to answer the charge that his plans change.",
+      "connections": "Paul names him between himself and Timothy in 1:19.",
+      "verseScope": {},
+      "linkNames": [
+        "Silvanus"
+      ],
+      "chapterIds": [
+        1
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G4610",
+        "key": "Silvanus",
+        "checkedVerses": 1,
+        "example": [
+          1,
+          19
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Σιλουανός",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Silouanós"
+      }
+    },
+    "moses": {
+      "name": "Moses",
+      "role": "Leader whose face shone with fading glory",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Corinthians 3:7–15"
+      ],
+      "importance": "Paul says Israel could not look at Moses’ face for its glory. Moses put a veil on his face. Paul says the new service has much more glory. He says the veil is taken away when someone turns to the Lord.",
+      "connections": "Paul sets the engraved stones beside hearts of flesh. He says the veil remains when Moses is read.",
+      "verseScope": {},
+      "linkNames": [
+        "Moses"
+      ],
+      "chapterIds": [
+        3
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G3475",
+        "key": "Moses",
+        "checkedVerses": 3,
+        "example": [
+          3,
+          7
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Μωσεύς",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Mōseús"
+      }
+    },
+    "titus": {
+      "name": "Titus",
+      "role": "Paul’s partner who brings news and finishes the gift",
+      "life": "Birth and death years are not securely known.",
+      "dateNote": "Historical life dates remain uncertain.",
+      "locations": [],
+      "passages": [
+        "2 Corinthians 2; 7; 8; 12"
+      ],
+      "importance": "At Troas Paul has no relief because he does not find Titus. In Macedonia Titus arrives with good news from Corinth. Paul sends him back to finish the gift. In chapter 12 Paul asks whether Titus took advantage of them.",
+      "connections": "Paul calls him my brother, my partner, and fellow worker. Two other brothers go with him.",
+      "verseScope": {},
+      "linkNames": [
+        "Titus"
+      ],
+      "chapterIds": [
+        2,
+        7,
+        8,
+        12
+      ],
+      "word": {
+        "language": "greek",
+        "strongId": "G5103",
+        "key": "Titus",
+        "checkedVerses": 8,
+        "example": [
+          2,
+          13
+        ],
+        "hebrew": "",
+        "transliteration": "",
+        "greek": "Τίτος",
+        "greekNote": "",
+        "sourceIds": [
+          "strong-greek",
+          "byz"
+        ],
+        "greekTransliteration": "Títos"
+      }
+    }
+  }
+}

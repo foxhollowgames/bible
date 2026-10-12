@@ -12,7 +12,7 @@ books = []
 for testament, names in [('Old Testament', OT), ('New Testament', NT)]:
     for name in names:
         slug = name.lower().replace(' ', '-')
-        books.append(dict(id=slug, name=name, testament=testament, status='ready' if slug in ['genesis','isaiah'] or (OUT/f'{slug}.json').exists() else 'planned', url='./' if slug == 'isaiah' else f'book.html?book={slug}'))
+        books.append(dict(id=slug, name=name, testament=testament, status='ready' if slug == 'genesis' or (OUT/f'{slug}-native-content.json').exists() else 'planned', url=f'{slug}.html'))
 (OUT / 'directory.json').write_text(json.dumps(books, indent=2)+'\n', encoding='utf-8')
 
 def get(url):
