@@ -1,4 +1,5 @@
 import coverPreviews from './book-cover-placeholders.js';
+import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261012.1';
 // WebP copies and blurred previews come from scripts/optimize-images.py.
 const bookArtwork={
   "genesis": "genesis/zilpah.png",
@@ -68,6 +69,26 @@ const bookArtwork={
   "jude": "jude/jude-letter.png",
   "revelation": "revelation/john-vision.png"
 };
+// The menu sets how each book opens. The reader uses the same choices.
+const menu=document.querySelector('#settingsMenu'),preferences={studyMode:'read',perspective:'historical',portraitMode:'generated',...readPreferences()};
+function showPreferences(){
+  for(const button of menu.querySelectorAll('[data-study-mode],[data-perspective]')){
+    const active=button.dataset.studyMode===preferences.studyMode||button.dataset.perspective===preferences.perspective;
+    button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));
+  }
+  menu.querySelector('#nonGeneratedPortraits').checked=preferences.portraitMode==='non-generated';
+}
+function setPreference(key,value){preferences[key]=value;savePreferences(preferences);showPreferences();}
+initMenu(menu);
+menu.addEventListener('click',event=>{
+  const mode=event.target.closest('[data-study-mode]'),perspective=event.target.closest('[data-perspective]');
+  if(mode)setPreference('studyMode',mode.dataset.studyMode);
+  if(perspective)setPreference('perspective',perspective.dataset.perspective);
+});
+menu.querySelector('#nonGeneratedPortraits').addEventListener('change',event=>setPreference('portraitMode',event.target.checked?'non-generated':'generated'));
+showPreferences();
+// A book page can change the choices. Show them again when the reader comes back.
+addEventListener('pageshow',()=>{Object.assign(preferences,readPreferences());showPreferences();});
 const groups=document.querySelector('#bookGroups'),status=document.querySelector('#directoryStatus');
 try {
   const response=await fetch('data/books/directory.json',{cache:'no-store'});
