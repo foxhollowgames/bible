@@ -183,6 +183,8 @@ path.map-feature.campaign-hit:hover,path.map-feature.campaign-hit:focus-visible{
 .chapter-picker-menu [role=option]:focus{outline:none;border-color:var(--cyan);background:#124766}
 .chapter-picker-check{width:16px;flex-shrink:0}
 .sidebar-next:disabled{opacity:.3;cursor:default}
+/* A one-chapter book has no other chapter to choose, so its chevron dims like the arrows. */
+.chapter-picker-trigger:disabled{cursor:default;background:transparent;border-color:transparent}.chapter-picker-trigger:disabled svg{opacity:.3}
 /* Phones: move the chapter arrows in from the screen edge and give them a full touch target. */
 @media(max-width:720px){.sidebar-next{flex:none;display:grid;place-items:center;width:48px;height:48px;padding:0 0 6px;line-height:1;border-radius:8px;touch-action:manipulation}.sidebar-next:not(:disabled):active{background:#062441}.sidebar-next:first-child{margin-left:8px}.sidebar-next:last-child{margin-right:8px}.scripture-heading{gap:4px}
 /* The title shrinks on narrow phones so the longest book names still fit between the arrows. */
