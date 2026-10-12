@@ -1,5 +1,5 @@
 import coverPreviews from './book-cover-placeholders.js';
-import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261012.1';
+import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261012.2';
 // WebP copies and blurred previews come from scripts/optimize-images.py.
 const bookArtwork={
   "genesis": "genesis/zilpah.png",
@@ -78,7 +78,7 @@ function showPreferences(){
   }
   menu.querySelector('#nonGeneratedPortraits').checked=preferences.portraitMode==='non-generated';
 }
-function setPreference(key,value){preferences[key]=value;savePreferences(preferences);showPreferences();}
+function setPreference(key,value){preferences[key]=value;savePreferences(preferences);showPreferences();if(key==='portraitMode')showCovers();}
 initMenu(menu);
 menu.addEventListener('click',event=>{
   const mode=event.target.closest('[data-study-mode]'),perspective=event.target.closest('[data-perspective]');
@@ -88,13 +88,20 @@ menu.addEventListener('click',event=>{
 menu.querySelector('#nonGeneratedPortraits').addEventListener('change',event=>setPreference('portraitMode',event.target.checked?'non-generated':'generated'));
 showPreferences();
 // A book page can change the choices. Show them again when the reader comes back.
-addEventListener('pageshow',()=>{Object.assign(preferences,readPreferences());showPreferences();});
-const groups=document.querySelector('#bookGroups'),status=document.querySelector('#directoryStatus');
+addEventListener('pageshow',()=>{const before=preferences.portraitMode;Object.assign(preferences,readPreferences());showPreferences();if(preferences.portraitMode!==before)showCovers();});
+const groups=document.querySelector('#bookGroups'),status=document.querySelector('#directoryStatus'),credits=document.querySelector('#coverCredits');
+// scripts/build-share.py lists the covers that have licensed old art.
+let oldCovers=null,showCovers=()=>{};
+async function loadOldCovers(){
+  if(oldCovers)return;
+  try{const response=await fetch('data/books/directory-covers.json',{cache:'no-store'});oldCovers=response.ok?await response.json():{};}catch{oldCovers={};}
+}
 try {
   const response=await fetch('data/books/directory.json',{cache:'no-store'});
   if(!response.ok)throw new Error('directory');
   const books=await response.json();
   function render(){
+    const old=preferences.portraitMode==='non-generated',credited=[];
     groups.replaceChildren();
     let covers=0;
     for(const testament of ['Old Testament','New Testament']){
@@ -104,9 +111,12 @@ try {
         const card=document.createElement('a');
         card.className=`book-card ${book.status}`;
         card.href=book.url;
-        const artwork=book.status==='ready'&&bookArtwork[book.id];
+        // The non-generated setting shows licensed old art. A book without old art shows its name only.
+        const generated=book.status==='ready'&&bookArtwork[book.id],licensed=old&&book.status==='ready'&&oldCovers[book.id];
+        const artwork=old?licensed&&licensed.src:generated&&`assets/portraits/${generated}`;
+        if(licensed)credited.push([book,licensed]);
         if(artwork){
-          const image=document.createElement('img'),base=`assets/portraits/${artwork.replace(/\.png$/,'')}`;
+          const image=document.createElement('img'),base=artwork.replace(/\.(png|jpe?g)$/,'');
           image.alt='';
           image.decoding='async';
           // Load the first screen of covers at once. Later covers wait for scrolling.
@@ -114,12 +124,12 @@ try {
           if(covers++>=18)image.loading='lazy';
           image.addEventListener('load',()=>image.classList.add('loaded'));
           // A missing WebP copy falls back to the master image.
-          image.addEventListener('error',()=>{image.removeAttribute('srcset');image.src=`assets/portraits/${artwork}`;},{once:true});
+          image.addEventListener('error',()=>{image.removeAttribute('srcset');image.src=artwork;},{once:true});
           image.sizes='(max-width:650px) 50vw, 240px';
           image.srcset=`${base}-480.webp 480w, ${base}.webp 960w`;
           image.src=`${base}-480.webp`;
           // Show a blurred preview until the cover arrives.
-          if(coverPreviews[artwork])card.style.backgroundImage=`url("${coverPreviews[artwork]}")`;
+          if(!old&&coverPreviews[generated])card.style.backgroundImage=`url("${coverPreviews[generated]}")`;
           card.classList.add('has-artwork');
           card.append(image);
         }
@@ -136,7 +146,18 @@ try {
       }
       groups.append(section);
     }
+    // Licensed art keeps its credit and source link.
+    credits.replaceChildren();
+    credits.hidden=!credited.length;
+    for(const [book,art] of credited){
+      const line=document.createElement('span'),source=document.createElement('a'),license=document.createElement('a');
+      source.href=art.sourceUrl;source.textContent=art.credit;license.href=art.licenseUrl;license.textContent=art.license;
+      for(const link of [source,license]){link.target='_blank';link.rel='noopener';}
+      line.append(`${book.name} cover: `,source,' · ',license,' · Cropped');
+      credits.append(line);
+    }
 
   }
-  render();
+  showCovers=async()=>{if(preferences.portraitMode==='non-generated')await loadOldCovers();render();};
+  await showCovers();
 }catch{status.hidden=false;status.textContent='The book directory could not load. Reload this page.';}
