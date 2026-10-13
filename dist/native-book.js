@@ -1,10 +1,11 @@
+import { initBookCrumb } from './breadcrumbs.js?v=20261013.1';
 // Every book opens through this entry. The address names the book.
 // A book page names its book in data-book. The earlier address names it in the query.
 const slug=document.documentElement.dataset.book||new URLSearchParams(location.search).get('book');
 if(!slug)location.replace('./');
 const directory=await fetch('data/books/directory.json',{cache:'no-store'}).then(r=>r.json());
 const book=directory.find(b=>b.id===slug);
-if(book)document.querySelector('#bookTitle').textContent=book.name;
+if(book)initBookCrumb(document.querySelector('#bookCrumb'),directory.filter(b=>b.status==='ready'||b===book),book);
 if(book?.status==='ready'){
   document.title=`${book.name} · Bible Wayfinder`;
   // Show the address that has this book's share tags.
@@ -19,7 +20,7 @@ if(book?.status==='ready'){
     if(earlier&&!localStorage.getItem(storageKey))localStorage.setItem(storageKey,earlier);
   }catch{}
   globalThis.studyBook={id:slug,name:book.name};
-  await import('./app.js?v=20261012.4');
+  await import('./app.js?v=20261013.1');
 }else if(slug){
   document.querySelector('#main').innerHTML=`<section class="word-view"><h1>${book?.name||'Book not found'}</h1><p>This guide has not been built yet.</p><a href="./">Open the Bible directory</a></section>`;
   document.querySelectorAll('.topbar button').forEach(b=>b.disabled=true);
