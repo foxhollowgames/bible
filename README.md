@@ -2,7 +2,7 @@
 
 Bible Wayfinder is a local, map-first study guide for all 66 books of the Bible. It connects the World English Bible text with chapter summaries, selected historical settings, geography, language notes, and an optional faithful Latter-day Saint reading layer.
 
-The public site is [isaiah.josephnewelldesign.com](https://isaiah.josephnewelldesign.com/). GitHub Pages publishes the contents of `dist` after each push to `main`. The address and the repository keep the name of the first book.
+The public site is [wayfinder.josephnewelldesign.com/bible](https://wayfinder.josephnewelldesign.com/bible/). GitHub Pages publishes the contents of `dist` after each push to `main`. The address and the repository keep the name of the first book.
 
 ## One reader for every book
 
@@ -104,7 +104,7 @@ Maintain chapter selections and source scope in `scripts/chapter-enrichment.mjs`
 
 ## Bible study directory
 
-The Bible directory is the home page, [Bible Wayfinder](https://isaiah.josephnewelldesign.com/).
+The Bible directory is the home page, [Bible Wayfinder](https://wayfinder.josephnewelldesign.com/bible/).
 All 66 books have ready guides covering 1,189 chapters. Isaiah is one of them.
 Genesis includes all 50 chapters and 1,533 verses. Exodus includes all 40 chapters and 1,213 verses.
 Leviticus includes all 27 chapters and 859 verses.

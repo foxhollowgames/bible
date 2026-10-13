@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://isaiah.josephnewelldesign.com/sitemap.xml
+Sitemap: https://wayfinder.josephnewelldesign.com/bible/sitemap.xml

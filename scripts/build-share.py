@@ -12,7 +12,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';SHARE=D/'assets/share'
-SITE='https://isaiah.josephnewelldesign.com/'
+SITE='https://wayfinder.josephnewelldesign.com/bible/'
 NAME='Bible Wayfinder'
 TAGLINE='Map-first study guides for all 66 books of the Bible.'
 W,H=1200,630

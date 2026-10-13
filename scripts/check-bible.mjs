@@ -39,7 +39,7 @@ const shellPage=(await readFile(new URL('book.html',root),'utf8')).replace(/<!--
 for(const b of directory.filter(b=>b.status==='ready')){
   const page=await readFile(new URL(`${b.id}.html`,root),'utf8');
   assert(page.includes(`data-book="${b.id}"`)&&page.includes(`<title>${b.name} · Bible Wayfinder</title>`),`${b.id}: book page`);
-  assert(page.includes(`property="og:image" content="https://isaiah.josephnewelldesign.com/assets/share/${b.id}.jpg"`)&&page.includes('name="twitter:card" content="summary_large_image"'),`${b.id}: share tags`);
+  assert(page.includes(`property="og:image" content="https://wayfinder.josephnewelldesign.com/bible/assets/share/${b.id}.jpg"`)&&page.includes('name="twitter:card" content="summary_large_image"'),`${b.id}: share tags`);
   assert.equal(page.replace(/<!-- share -->.*?<!-- \/share -->/s,'').replace(` data-book="${b.id}"`,'').replace(`<title>${b.name} · Bible Wayfinder</title>`,'<title>Bible Wayfinder</title>'),shellPage,`${b.id}: page differs from the shell. Run python scripts/build-share.py.`);
   await access(new URL(`assets/share/${b.id}.jpg`,root));
 }
