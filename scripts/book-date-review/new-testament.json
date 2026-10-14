@@ -1,0 +1,761 @@
+{
+  "reviewed": "2026-10-14",
+  "reviewer": "Claude (AI-assisted review)",
+  "sources": {
+    "lds-bible-chron-nt": {
+      "title": "Bible Chronology: Chronology of the New Testament",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition of the Bible study helps (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-chron/new-testament?lang=eng",
+      "read": "Whole table; rows parsed from the page HTML because the WebFetch summary misaligned the year column",
+      "limits": "The year cells are blank for the birth of Jesus through the Crucifixion. Some rows differ from other chronologies (e.g., the Burning of Rome sits under AD 62)."
+    },
+    "lds-bd-pauline": {
+      "title": "Bible Dictionary: Pauline Epistles",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/pauline-epistles?lang=eng",
+      "read": "Dating and grouping of the epistles; notes on each group, including Hebrews and the Pastorals",
+      "limits": "Church Bible Dictionary (appendix to the Church's King James Bible). WebFetch returned only the site index; the entry text was read from the page HTML by a direct HTTP request. It calls its dating approximate and assumes Pauline authorship of all fourteen letters."
+    },
+    "lds-bd-james": {
+      "title": "Bible Dictionary: James, Epistle of",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/james-epistle-of?lang=eng",
+      "read": "Whole entry",
+      "limits": "Church Bible Dictionary (appendix to the Church's King James Bible). WebFetch returned only the site index; the entry text was read from the page HTML by a direct HTTP request."
+    },
+    "lds-bd-peter": {
+      "title": "Bible Dictionary: Peter, Epistles of",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/peter-epistles-of?lang=eng",
+      "read": "Whole entry",
+      "limits": "Church Bible Dictionary (appendix to the Church's King James Bible). WebFetch returned only the site index; the entry text was read from the page HTML by a direct HTTP request."
+    },
+    "lds-bd-john-epistles": {
+      "title": "Bible Dictionary: John, Epistles of",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/john-epistles-of?lang=eng",
+      "read": "Whole entry",
+      "limits": "Church Bible Dictionary (appendix to the Church's King James Bible). WebFetch returned only the site index; the entry text was read from the page HTML by a direct HTTP request. Gives no year."
+    },
+    "lds-bd-jude": {
+      "title": "Bible Dictionary: Jude, Epistle of",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/jude-epistle-of?lang=eng",
+      "read": "Whole entry",
+      "limits": "Church Bible Dictionary (appendix to the Church's King James Bible). WebFetch returned only the site index; the entry text was read from the page HTML by a direct HTTP request. Gives no date."
+    },
+    "lds-bd-revelation": {
+      "title": "Bible Dictionary: Revelation of John",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/revelation-of-john?lang=eng",
+      "read": "Whole entry, including the paragraph on Patmos and the date",
+      "limits": "Church Bible Dictionary (appendix to the Church's King James Bible). WebFetch returned only the site index; the entry text was read from the page HTML by a direct HTTP request."
+    },
+    "byus-blumell-wayment": {
+      "title": "When Was Jesus Born? A Response to a Recent Proposal",
+      "author": "Lincoln H. Blumell and Thomas A. Wayment",
+      "publisher": "BYU Studies",
+      "date": "BYU Studies 51, no. 3 (year not shown on the page)",
+      "url": "https://development.byustudies.byu.edu/article/when-was-jesus-born-a-response-to-a-recent-proposal",
+      "read": "Article text on the page: conclusion on the birth year and the Quirinius census",
+      "limits": "Development mirror of the BYU Studies site. Responds to Chadwick (2010)."
+    },
+    "byus-chadwick-death": {
+      "title": "Dating the Death of Jesus Christ",
+      "author": "Jeffrey R. Chadwick",
+      "publisher": "BYU Studies",
+      "date": "BYU Studies 54, no. 4 (2015)",
+      "url": "https://development.byustudies.byu.edu/article/dating-the-death-of-jesus-christ",
+      "read": "First 100,000 characters: conclusion, Tiberius's fifteenth year, ministry length, AD 30 vs AD 33",
+      "limits": "Argues one position (AD 30) and uses Book of Mormon data. The scholarsarchive PDF returned HTTP 403."
+    },
+    "rsc-skinner": {
+      "title": "The Life of Jesus of Nazareth: An Overview",
+      "author": "Andrew C. Skinner",
+      "publisher": "Religious Studies Center, Brigham Young University; Deseret Book",
+      "date": "2019 (New Testament History, Culture, and Society, ed. Lincoln H. Blumell)",
+      "url": "https://rsc.byu.edu/new-testament-history-culture-society/life-jesus-nazareth",
+      "read": "Birth, census, and ministry sections (first 100,000 characters)",
+      "limits": "Latter-day Saint academic volume; it often favors traditional authorship. WebFetch read up to the first 100,000 characters."
+    },
+    "rsc-frederick": {
+      "title": "The Life of the Apostle Paul: An Overview",
+      "author": "Nicholas J. Frederick",
+      "publisher": "Religious Studies Center, Brigham Young University; Deseret Book",
+      "date": "2019 (New Testament History, Culture, and Society, ed. Lincoln H. Blumell)",
+      "url": "https://rsc.byu.edu/new-testament-history-culture-society/life-apostle-paul",
+      "read": "Dated sections and timeline of Paul's life",
+      "limits": "Latter-day Saint academic volume; it often favors traditional authorship. WebFetch read up to the first 100,000 characters."
+    },
+    "rsc-judd": {
+      "title": "The Epistles of the Apostle Paul: An Overview",
+      "author": "Frank F. Judd Jr.",
+      "publisher": "Religious Studies Center, Brigham Young University; Deseret Book",
+      "date": "2019 (New Testament History, Culture, and Society, ed. Lincoln H. Blumell)",
+      "url": "https://rsc.byu.edu/new-testament-history-culture-society/epistles-apostle-paul",
+      "read": "Date and setting given for each of the thirteen letters",
+      "limits": "Latter-day Saint academic volume; it often favors traditional authorship. WebFetch read up to the first 100,000 characters."
+    },
+    "rsc-hebrews-general": {
+      "title": "Hebrews and the General Epistles",
+      "author": "Lincoln H. Blumell, Frank F. Judd Jr., and George A. Pierce",
+      "publisher": "Religious Studies Center, Brigham Young University; Deseret Book",
+      "date": "2019 (New Testament History, Culture, and Society, ed. Lincoln H. Blumell)",
+      "url": "https://rsc.byu.edu/new-testament-history-culture-society/hebrews-general-epistles",
+      "read": "Authorship and date sections for Hebrews, James, 1-2 Peter, 1-3 John, Jude",
+      "limits": "Latter-day Saint academic volume; it often favors traditional authorship. WebFetch read up to the first 100,000 characters."
+    },
+    "rsc-kirby": {
+      "title": "The Book of Revelation: Following the Lamb",
+      "author": "D. Jill Kirby",
+      "publisher": "Religious Studies Center, Brigham Young University; Deseret Book",
+      "date": "2019 (New Testament History, Culture, and Society, ed. Lincoln H. Blumell)",
+      "url": "https://rsc.byu.edu/new-testament-history-culture-society/book-revelation",
+      "read": "Date and setting paragraph",
+      "limits": "Latter-day Saint academic volume; it often favors traditional authorship. WebFetch read up to the first 100,000 characters."
+    },
+    "yale-martin-11": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 11: Johannine Christianity: the Gospel",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-11",
+      "read": "Lecture 11 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "yale-martin-12": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 12: Johannine Christianity: the Letters",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-12",
+      "read": "Lecture 12 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "yale-martin-17": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 17: Paul's Disciples",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-17",
+      "read": "Lecture 17 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "yale-martin-19": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 19: The \"Household\" Paul: the Pastorals",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-19",
+      "read": "Lecture 19 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "yale-martin-21": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 21: Interpreting Scripture: Hebrews",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-21",
+      "read": "Lecture 21 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "yale-martin-23": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 23: Apocalyptic and Resistance",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-23",
+      "read": "Lecture 23 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "yale-martin-24": {
+      "title": "RLST 152 Introduction to New Testament History and Literature, Lecture 24: Apocalyptic and Accommodation",
+      "author": "Dale B. Martin",
+      "publisher": "Open Yale Courses (Yale University)",
+      "date": "2009 (course recorded spring 2009)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-152/lecture-24",
+      "read": "Lecture 24 transcript on the page, passages on authorship and date",
+      "limits": "Spoken lecture; Martin gives few calendar dates and calls some dating guesswork."
+    },
+    "bo-elledge": {
+      "title": "Erastus, Gallio, and Paul",
+      "author": "C. D. Elledge",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2017-07-27",
+      "url": "https://www.bibleodyssey.org/articles/erastus-gallio-and-paul/",
+      "read": "Whole article",
+      "limits": "WebFetch returned HTTP 403; the page was opened by a direct HTTP request and the article text was read."
+    },
+    "bo-hodge": {
+      "title": "The Corinthian Letters",
+      "author": "Caroline Johnson Hodge",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2017-06-20",
+      "url": "https://www.bibleodyssey.org/articles/the-corinthian-letters/",
+      "read": "Whole article",
+      "limits": "WebFetch returned HTTP 403; the page was opened by a direct HTTP request and the article text was read. Gives no dates."
+    },
+    "bo-concannon": {
+      "title": "Paul and Authorship",
+      "author": "Cavan W. Concannon",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2015-09-10",
+      "url": "https://www.bibleodyssey.org/articles/paul-and-authorship/",
+      "read": "Whole article",
+      "limits": "WebFetch returned HTTP 403; the page was opened by a direct HTTP request and the article text was read. Gives no dates."
+    },
+    "bo-hultin": {
+      "title": "2 Peter",
+      "author": "Jeremy F. Hultin",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2015-11-23",
+      "url": "https://www.bibleodyssey.org/articles/2-peter/",
+      "read": "Whole article",
+      "limits": "WebFetch returned HTTP 403; the page was opened by a direct HTTP request and the article text was read."
+    },
+    "bo-green": {
+      "title": "1 Peter",
+      "author": "Joel B. Green",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2015-02-17",
+      "url": "https://www.bibleodyssey.org/articles/1-peter/",
+      "read": "Whole article",
+      "limits": "WebFetch returned HTTP 403; the page was opened by a direct HTTP request and the article text was read."
+    },
+    "bo-stewart-lester": {
+      "title": "Pseudepigraphy",
+      "author": "Olivia Stewart Lester",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2023-08-14",
+      "url": "https://www.bibleodyssey.org/articles/pseudepigraphy/",
+      "read": "Whole article",
+      "limits": "WebFetch returned HTTP 403; the page was opened by a direct HTTP request and the article text was read. Lists letters where scholars find pseudepigraphy; gives no dates."
+    }
+  },
+  "books": {
+    "matthew": [
+      {
+        "from": 1,
+        "to": 2,
+        "label": "~6 - 4 BCE",
+        "sourceIds": [
+          "byus-blumell-wayment",
+          "rsc-skinner",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Blumell and Wayment place the birth before Herod died in spring 4 BC, probably no earlier than 6 BC. Matthew 2 ends after Herod's death. The Church table gives no year."
+      },
+      {
+        "from": 3,
+        "to": 25,
+        "label": "~27 - 33 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "yale-martin-11"
+        ],
+        "note": "Chadwick starts the ministry at Passover AD 28, after John began in late AD 27. Others date the crucifixion to AD 33. The range covers both views."
+      },
+      {
+        "from": 26,
+        "to": 28,
+        "label": "~30 - 33 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Chadwick argues for April AD 30. He reports that others, such as Humphreys and Waddington, favor AD 33. The Church table leaves the Crucifixion year blank."
+      }
+    ],
+    "mark": [
+      {
+        "from": 1,
+        "to": 13,
+        "label": "~27 - 33 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "yale-martin-11"
+        ],
+        "note": "Mark starts with John the Baptist. Ministry dates depend on an AD 30 or AD 33 crucifixion. Martin notes the synoptic Gospels imply a shorter ministry than John."
+      },
+      {
+        "from": 14,
+        "to": 16,
+        "label": "~30 - 33 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "lds-bible-chron-nt"
+        ],
+        "note": "The passion week. Chadwick argues for AD 30 and names AD 33 as the main other view. The Church table gives no year."
+      }
+    ],
+    "luke": [
+      {
+        "from": 1,
+        "to": 2,
+        "label": "~7 BCE - 8 CE",
+        "sourceIds": [
+          "byus-blumell-wayment",
+          "rsc-skinner"
+        ],
+        "note": "Luke 1 starts before John's birth; Luke 2 ends with Jesus at twelve. Blumell and Wayment place the birth about 6-4 BC. They find the AD 6 Quirinius census hard to fit."
+      },
+      {
+        "from": 3,
+        "to": 21,
+        "label": "~27 - 33 CE",
+        "previous": "~28 - 33 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "rsc-skinner"
+        ],
+        "note": "Luke 3:1 dates John to Tiberius's fifteenth year. Chadwick reckons it as autumn AD 27 to autumn AD 28. The label now matches Matthew and Mark."
+      },
+      {
+        "from": 22,
+        "to": 24,
+        "label": "~30 - 33 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "lds-bible-chron-nt"
+        ],
+        "note": "The passion and resurrection. Chadwick argues for AD 30 and reports AD 33 as the main other view."
+      }
+    ],
+    "john": [
+      {
+        "from": 1,
+        "to": 12,
+        "label": "~27 - 33 CE",
+        "sourceIds": [
+          "yale-martin-11",
+          "byus-chadwick-death"
+        ],
+        "note": "Martin notes John names three Passovers, so the ministry lasts over two years. Chadwick uses them for Passover AD 28 to AD 30. Others end it in AD 33."
+      },
+      {
+        "from": 13,
+        "to": 21,
+        "label": "~30 - 33 CE",
+        "sourceIds": [
+          "yale-martin-11",
+          "byus-chadwick-death"
+        ],
+        "note": "The last supper, death, and appearances. John puts the crucifixion the day before Passover. Chadwick dates it to April AD 30; others prefer AD 33."
+      }
+    ],
+    "acts": [
+      {
+        "from": 1,
+        "to": 7,
+        "label": "~30 - 34 CE",
+        "sourceIds": [
+          "byus-chadwick-death",
+          "rsc-frederick",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Starts after the crucifixion (AD 30 or 33). Frederick dates Paul's conversion about AD 34; the Church table says AD 35. Stephen dies before it."
+      },
+      {
+        "from": 8,
+        "to": 12,
+        "label": "~34 - 44 CE",
+        "sourceIds": [
+          "rsc-frederick",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Paul's conversion is about AD 34-35. The Church table dates the deaths of James and Herod Agrippa I (Acts 12) to AD 44."
+      },
+      {
+        "from": 13,
+        "to": 14,
+        "label": "~45 - 49 CE",
+        "previous": "~46 - 48 CE",
+        "sourceIds": [
+          "lds-bible-chron-nt",
+          "rsc-frederick"
+        ],
+        "note": "The Church table dates the first missionary tour to AD 45. Frederick dates it about AD 48-49. The label covers both."
+      },
+      {
+        "from": 15,
+        "to": 15,
+        "label": "~49 - 50 CE",
+        "previous": "~48 - 50 CE",
+        "sourceIds": [
+          "lds-bible-chron-nt",
+          "rsc-frederick",
+          "lds-bd-pauline"
+        ],
+        "note": "The Church table and Frederick date the Jerusalem council to AD 49. The Bible Dictionary says about AD 50."
+      },
+      {
+        "from": 16,
+        "to": 18,
+        "label": "~49 - 53 CE",
+        "sourceIds": [
+          "rsc-frederick",
+          "bo-elledge",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Frederick dates the second mission about AD 50-52. He dates Gallio (Acts 18:12) to spring AD 51-52. Elledge places Paul's Corinth stay in AD 50-51."
+      },
+      {
+        "from": 19,
+        "to": 20,
+        "label": "~53 - 57 CE",
+        "sourceIds": [
+          "rsc-frederick",
+          "lds-bd-pauline"
+        ],
+        "note": "Frederick dates the third mission, with about three years in Ephesus, to AD 53-56. He places the return to Jerusalem about AD 57."
+      },
+      {
+        "from": 21,
+        "to": 26,
+        "label": "~57 - 60 CE",
+        "previous": "~57 - 59 CE",
+        "sourceIds": [
+          "rsc-frederick",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Frederick dates the arrest about AD 57 and Caesarea about AD 58-60. The Church table has AD 57-58. Festus's start date differs by source."
+      },
+      {
+        "from": 27,
+        "to": 28,
+        "label": "~58 - 62 CE",
+        "previous": "~59 - 62 CE",
+        "sourceIds": [
+          "lds-bible-chron-nt",
+          "rsc-frederick"
+        ],
+        "note": "The Church table sends Paul to Rome in AD 58 and closes Acts in AD 61. Frederick dates the Roman imprisonment about AD 60-62."
+      }
+    ],
+    "romans": [
+      {
+        "from": 1,
+        "to": 16,
+        "label": "~55 - 57 CE",
+        "previous": "~56 - 57 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "lds-bible-chron-nt",
+          "rsc-judd",
+          "rsc-frederick"
+        ],
+        "note": "Written from Corinth before the trip to Jerusalem. The Bible Dictionary says AD 55-56; Judd says about AD 53-56. Frederick dates the arrest about AD 57."
+      }
+    ],
+    "1-corinthians": [
+      {
+        "from": 1,
+        "to": 16,
+        "label": "~53 - 56 CE",
+        "previous": "~53 - 55 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "rsc-frederick"
+        ],
+        "note": "Written near the end of Paul's stay in Ephesus. Judd dates it about AD 52-56; the Bible Dictionary says AD 55-56."
+      }
+    ],
+    "2-corinthians": [
+      {
+        "from": 1,
+        "to": 13,
+        "label": "~55 - 56 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "bo-hodge"
+        ],
+        "note": "The Bible Dictionary places it in Macedonia, AD 55-56; Judd says about AD 53-56. Hodge reports that many scholars see two or more joined letters."
+      }
+    ],
+    "galatians": [
+      {
+        "from": 1,
+        "to": 6,
+        "label": "~49 - 56 CE",
+        "previous": "~48 - 55 CE",
+        "sourceIds": [
+          "rsc-judd",
+          "rsc-frederick",
+          "lds-bd-pauline"
+        ],
+        "note": "Judd and Frederick date it about AD 49-50, soon after the council. The Bible Dictionary places it with Corinthians and Romans, AD 55-56. Frederick says the date is debated."
+      }
+    ],
+    "ephesians": [
+      {
+        "from": 1,
+        "to": 6,
+        "label": "~60 CE or later (disputed)",
+        "previous": "~60 - 90 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "yale-martin-17",
+          "bo-concannon"
+        ],
+        "note": "Traditional view: Paul wrote it in prison, about AD 58-62. Martin and Concannon report that many think a later disciple wrote it. These sources give no later year."
+      }
+    ],
+    "philippians": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~58 - 62 CE",
+        "previous": "~54 - 62 CE",
+        "sourceIds": [
+          "rsc-judd",
+          "lds-bd-pauline"
+        ],
+        "note": "Written in prison. Judd dates it about AD 58-62 and says most scholars place it in Rome. He notes another city is possible."
+      }
+    ],
+    "colossians": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~60 CE or later (disputed)",
+        "previous": "~60 - 80 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "yale-martin-17",
+          "bo-concannon"
+        ],
+        "note": "Traditional view: Paul wrote it in prison, about AD 58-62. Martin thinks a disciple of Paul wrote it later. These sources give no later year."
+      }
+    ],
+    "1-thessalonians": [
+      {
+        "from": 1,
+        "to": 5,
+        "label": "~50 - 52 CE",
+        "previous": "~50 - 51 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "lds-bible-chron-nt",
+          "rsc-judd"
+        ],
+        "note": "Written from Corinth soon after Paul left Thessalonica. The Church table says AD 50; the Bible Dictionary says AD 50-51; Judd says about AD 50-52."
+      }
+    ],
+    "2-thessalonians": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~51 CE or later (disputed)",
+        "previous": "~51 - 90 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "yale-martin-24",
+          "bo-concannon"
+        ],
+        "note": "Traditional view: soon after 1 Thessalonians, about AD 50-52. Martin and Concannon report that many scholars think someone else wrote it. They give no year."
+      }
+    ],
+    "1-timothy": [
+      {
+        "from": 1,
+        "to": 6,
+        "label": "~60s CE or 2nd century (disputed)",
+        "previous": "~62 - 110 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "yale-martin-19",
+          "bo-concannon"
+        ],
+        "note": "Traditional view: Paul, about AD 60-65. Martin says most scholars think another writer composed the Pastorals. He guesses the mid-second century."
+      }
+    ],
+    "2-timothy": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~60s CE or 2nd century (disputed)",
+        "previous": "~62 - 110 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "yale-martin-19",
+          "bo-concannon"
+        ],
+        "note": "Traditional view: Paul's last letter, from a second Roman imprisonment, about AD 64-65. Martin dates the Pastorals much later, probably the mid-second century."
+      }
+    ],
+    "titus": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~60s CE or 2nd century (disputed)",
+        "previous": "~62 - 110 CE",
+        "sourceIds": [
+          "lds-bd-pauline",
+          "rsc-judd",
+          "yale-martin-19",
+          "bo-concannon"
+        ],
+        "note": "Traditional view: Paul, about AD 60-65. Martin and Concannon report that most scholars think the Pastorals came from a later writer."
+      }
+    ],
+    "philemon": [
+      {
+        "from": 1,
+        "to": 1,
+        "label": "~58 - 62 CE",
+        "previous": "~54 - 62 CE",
+        "sourceIds": [
+          "rsc-judd",
+          "lds-bd-pauline"
+        ],
+        "note": "Written in prison. Judd dates it about AD 58-62; the Bible Dictionary says AD 60-62 in Rome. Judd does not name the city."
+      }
+    ],
+    "hebrews": [
+      {
+        "from": 1,
+        "to": 13,
+        "label": "~60 - 100 CE",
+        "previous": "~60 - 95 CE",
+        "sourceIds": [
+          "rsc-hebrews-general",
+          "lds-bd-pauline",
+          "yale-martin-21"
+        ],
+        "note": "Blumell, Judd, and Pierce give AD 60-100, likely before AD 70. The Bible Dictionary groups it with AD 60-62. Martin says the author is unknown."
+      }
+    ],
+    "james": [
+      {
+        "from": 1,
+        "to": 5,
+        "label": "Date unknown (disputed)",
+        "previous": "~50 - 100 CE",
+        "sourceIds": [
+          "lds-bd-james",
+          "rsc-hebrews-general",
+          "bo-stewart-lester"
+        ],
+        "note": "The Bible Dictionary says the date is not known. The RSC chapter suggests the 40s AD. Stewart Lester lists James among letters scholars call pseudepigraphic."
+      }
+    ],
+    "1-peter": [
+      {
+        "from": 1,
+        "to": 5,
+        "label": "~60 - 100 CE",
+        "previous": "~60 - 95 CE",
+        "sourceIds": [
+          "lds-bd-peter",
+          "rsc-hebrews-general",
+          "bo-green",
+          "yale-martin-24"
+        ],
+        "note": "The Bible Dictionary dates it soon after AD 64. Green allows Peter in the early 60s or a later writer in the first century. Martin doubts Peter wrote it."
+      }
+    ],
+    "2-peter": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~60s CE or 2nd century (disputed)",
+        "previous": "~90 - 130 CE",
+        "sourceIds": [
+          "rsc-hebrews-general",
+          "bo-hultin",
+          "yale-martin-24"
+        ],
+        "note": "Traditional view: before Peter's death, about AD 64-68. Hultin suggests the late first or well into the second century. Martin says the second century."
+      }
+    ],
+    "1-john": [
+      {
+        "from": 1,
+        "to": 5,
+        "label": "~70 - 100 CE",
+        "previous": "~90 - 110 CE",
+        "sourceIds": [
+          "rsc-hebrews-general",
+          "lds-bd-john-epistles",
+          "yale-martin-12"
+        ],
+        "note": "The RSC chapter gives about AD 70-100; it says most scholars favor the 90s. The Bible Dictionary and Martin both place it after the Gospel of John."
+      }
+    ],
+    "2-john": [
+      {
+        "from": 1,
+        "to": 1,
+        "label": "~70 - 100 CE",
+        "previous": "~90 - 110 CE",
+        "sourceIds": [
+          "rsc-hebrews-general",
+          "yale-martin-12"
+        ],
+        "note": "The RSC chapter gives about AD 70-100 for all three letters. Martin places 2 and 3 John after 1 John."
+      }
+    ],
+    "3-john": [
+      {
+        "from": 1,
+        "to": 1,
+        "label": "~70 - 100 CE",
+        "previous": "~90 - 110 CE",
+        "sourceIds": [
+          "rsc-hebrews-general",
+          "yale-martin-12"
+        ],
+        "note": "The RSC chapter gives about AD 70-100 for all three letters. Martin places 2 and 3 John after 1 John."
+      }
+    ],
+    "jude": [
+      {
+        "from": 1,
+        "to": 1,
+        "label": "Date unknown",
+        "previous": "~60 - 100 CE",
+        "sourceIds": [
+          "lds-bd-jude",
+          "rsc-hebrews-general",
+          "bo-hultin"
+        ],
+        "note": "The Bible Dictionary gives no date. The RSC chapter places it before Jude's traditional death about AD 65. Hultin says 2 Peter borrows from Jude."
+      }
+    ],
+    "revelation": [
+      {
+        "from": 1,
+        "to": 22,
+        "label": "~68 - 96 CE",
+        "sourceIds": [
+          "rsc-kirby",
+          "yale-martin-23",
+          "lds-bd-revelation",
+          "lds-bible-chron-nt"
+        ],
+        "note": "Martin says some date it to Nero's time, but more place it late in the century. Kirby favors late Domitian (AD 81-96). The Bible Dictionary says the date is unknown."
+      }
+    ]
+  }
+}

@@ -7925,5 +7925,17 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 7,
+      "label": "~1100 - 1000 BCE"
+    },
+    {
+      "from": 8,
+      "to": 31,
+      "label": "~1021 - 1000 BCE"
+    }
+  ]
 }

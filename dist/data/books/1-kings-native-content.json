@@ -8226,5 +8226,37 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 2,
+      "label": "~970 BCE"
+    },
+    {
+      "from": 3,
+      "to": 11,
+      "label": "~970 - 930 BCE"
+    },
+    {
+      "from": 12,
+      "to": 14,
+      "label": "~930 - 909 BCE"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "label": "~913 - 874 BCE"
+    },
+    {
+      "from": 17,
+      "to": 21,
+      "label": "~874 - 853 BCE"
+    },
+    {
+      "from": 22,
+      "to": 22,
+      "label": "~853 - 848 BCE"
+    }
+  ]
 }

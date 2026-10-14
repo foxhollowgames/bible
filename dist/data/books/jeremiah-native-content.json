@@ -10541,5 +10541,87 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 6,
+      "label": "~627 - 609 BCE"
+    },
+    {
+      "from": 7,
+      "to": 20,
+      "label": "~609 - 598 BCE"
+    },
+    {
+      "from": 21,
+      "to": 24,
+      "label": "~609 - 588 BCE"
+    },
+    {
+      "from": 25,
+      "to": 25,
+      "label": "~605 BCE"
+    },
+    {
+      "from": 26,
+      "to": 26,
+      "label": "~609 BCE"
+    },
+    {
+      "from": 27,
+      "to": 29,
+      "label": "~597 - 593 BCE"
+    },
+    {
+      "from": 30,
+      "to": 33,
+      "label": "~597 - 587 BCE"
+    },
+    {
+      "from": 34,
+      "to": 34,
+      "label": "~588 BCE"
+    },
+    {
+      "from": 35,
+      "to": 35,
+      "label": "~605 - 598 BCE"
+    },
+    {
+      "from": 36,
+      "to": 36,
+      "label": "~605 - 604 BCE"
+    },
+    {
+      "from": 37,
+      "to": 39,
+      "label": "~588 - 586 BCE"
+    },
+    {
+      "from": 40,
+      "to": 44,
+      "label": "~586 - 567 BCE"
+    },
+    {
+      "from": 45,
+      "to": 45,
+      "label": "~605 BCE"
+    },
+    {
+      "from": 46,
+      "to": 49,
+      "label": "~605 - 597 BCE"
+    },
+    {
+      "from": 50,
+      "to": 51,
+      "label": "~594 - 539 BCE"
+    },
+    {
+      "from": 52,
+      "to": 52,
+      "label": "~588 - 561 BCE"
+    }
+  ]
 }

@@ -3497,5 +3497,12 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 9,
+      "label": "~750 BCE"
+    }
+  ]
 }

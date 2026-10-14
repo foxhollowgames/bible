@@ -334,5 +334,12 @@
       "verse": 17,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 1,
+      "label": "~58 - 62 CE"
+    }
   ]
 }

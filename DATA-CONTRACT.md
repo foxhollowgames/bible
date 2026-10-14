@@ -21,7 +21,7 @@ Each book has four files in `dist/data/books`:
 - `placeCredits: [{label, url}]`: credits for the place data in the map attribution.
 - `mapLabels: [{label, className}]`: fixed region names on the map.
 
-`chapterDateBands: [{from, to, label}]` gives the period label below a chapter heading. A book without reviewed periods has none.
+`chapterDateBands: [{from, to, label}]` gives the period label below a chapter heading. Isaiah's bands live in `scripts/isaiah-book.json`. The added books' bands live in `scripts/book-date-bands.json`, keyed by book id. `scripts/book_dates.py` adds them during `scripts/build-native-books.py`. The bands must cover every chapter once, in order. A label is a scholarly estimate of the period that the chapter reflects: the setting for narrative, or the proposed composition period for poetry, prophecy, and letters. A chapter without a defensible date has a label such as "Date unknown". Each band has a source review record in `scripts/book-date-review/*.json`: the sources read, their URLs and access limits, the previous label, and a note. The build stops when a band does not match its review record.
 `sourceGroups: [{id, title, description}]` gives the heading and note for a group in the source library.
 The `conference-year` group has a `description` list, where `{count}` is the number of talks, and `parts` for its sections.
 A scripture reference that names the book through another book has `chapters`.

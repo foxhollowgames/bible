@@ -12905,6 +12905,88 @@
       "selectedBorder": "#5b221d"
     }
   },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 9,
+      "label": "~970 - 930 BCE"
+    },
+    {
+      "from": 10,
+      "to": 12,
+      "label": "~930 - 913 BCE"
+    },
+    {
+      "from": 13,
+      "to": 13,
+      "label": "~913 - 910 BCE"
+    },
+    {
+      "from": 14,
+      "to": 16,
+      "label": "~910 - 869 BCE"
+    },
+    {
+      "from": 17,
+      "to": 20,
+      "label": "~872 - 848 BCE"
+    },
+    {
+      "from": 21,
+      "to": 23,
+      "label": "~853 - 835 BCE"
+    },
+    {
+      "from": 24,
+      "to": 24,
+      "label": "~835 - 796 BCE"
+    },
+    {
+      "from": 25,
+      "to": 25,
+      "label": "~796 - 767 BCE"
+    },
+    {
+      "from": 26,
+      "to": 26,
+      "label": "~792 - 740 BCE"
+    },
+    {
+      "from": 27,
+      "to": 27,
+      "label": "~750 - 732 BCE"
+    },
+    {
+      "from": 28,
+      "to": 28,
+      "label": "~735 - 715 BCE"
+    },
+    {
+      "from": 29,
+      "to": 31,
+      "label": "~715 - 686 BCE"
+    },
+    {
+      "from": 32,
+      "to": 32,
+      "label": "~701 - 681 BCE"
+    },
+    {
+      "from": 33,
+      "to": 33,
+      "label": "~697 - 640 BCE"
+    },
+    {
+      "from": 34,
+      "to": 35,
+      "label": "~640 - 609 BCE"
+    },
+    {
+      "from": 36,
+      "to": 36,
+      "label": "~609 - 538 BCE"
+    }
+  ],
   "sourceGroups": [
     {
       "id": "sennacherib-prism",

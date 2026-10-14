@@ -6305,5 +6305,12 @@
       "verse": 8,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 27,
+      "label": "~1300 - 1200 BCE (disputed)"
+    }
   ]
 }

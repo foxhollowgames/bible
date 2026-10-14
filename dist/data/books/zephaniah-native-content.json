@@ -2110,5 +2110,12 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "~640 - 609 BCE"
+    }
+  ]
 }

@@ -1,0 +1,806 @@
+{
+  "reviewed": "2026-10-14",
+  "reviewer": "Claude (AI-assisted review)",
+  "sources": {
+    "bd-chronology": {
+      "title": "Bible Chronology (Introduction; Chronology of the Old Testament)",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "Intellectual Reserve, Inc. (Bible Dictionary appendix, King James Version study helps)",
+      "date": "2013, 2025",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng",
+      "read": "Introduction page and the full Old Testament table, from the patriarchs through the Persian period.",
+      "limits": "Older chronology: the first date column follows Kings and Chronicles (e.g., Saul 1095 BC, division 975 BC); a 'Rev. Chr.' column gives revised dates from Assyrian records. No dates before Saul; calls the Judges dates 'very uncertain'. Read through the Church content API."
+    },
+    "ot-instructors-appendix-b": {
+      "title": "Appendix B: Chronological Correlation of the Kings of Israel and of Judah",
+      "author": "The Church of Jesus Christ of Latter-day Saints (Church Educational System)",
+      "publisher": "Intellectual Reserve, Inc., Old Testament Instructor's Guide, Religion 301-2",
+      "date": "1994",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-instructors-guide/appendix-b?lang=eng",
+      "read": "Full reign table, Rehoboam and Jeroboam I through Zedekiah, with scripture references and the closing note.",
+      "limits": "Says the dates are 'a consensus of commonly held views of scholars', approximate, and may differ slightly from other chronologies. Names no chronology system; it uses co-regencies and runs about one year after Thiele (930 vs 931). Starts at 930 BC; no Saul, David, or Solomon dates."
+    },
+    "hayes-yale-lecture-6": {
+      "title": "Lecture 6 - Biblical Narrative: The Stories of the Patriarchs (Genesis 12-36)",
+      "author": "Christine Hayes",
+      "publisher": "Yale University, Open Yale Courses, RLST 145 Introduction to the Hebrew Bible",
+      "date": "2006 (lecture)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-6",
+      "read": "Transcript sections on archaeology and the historicity of the patriarchal stories.",
+      "limits": "Lecture overview of scholarly views; no fixed dates for the patriarchs."
+    },
+    "hayes-yale-lecture-7": {
+      "title": "Lecture 7 - Israel in Egypt: Moses and the Beginning of Yahwism (Genesis 37 - Exodus 4)",
+      "author": "Christine Hayes",
+      "publisher": "Yale University, Open Yale Courses, RLST 145 Introduction to the Hebrew Bible",
+      "date": "2006 (lecture)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-7",
+      "read": "Transcript section on the historical value and date of the Exodus (Merneptah Stele, Hyksos theory, the 480 years of 1 Kings 6:1).",
+      "limits": "Lecture, not a full argument; her 1265 BCE figure is an illustrative calculation."
+    },
+    "hayes-yale-lecture-12": {
+      "title": "Lecture 12 - The Deuteronomistic History: Life in the Land (Joshua and Judges)",
+      "author": "Christine Hayes",
+      "publisher": "Yale University, Open Yale Courses, RLST 145 Introduction to the Hebrew Bible",
+      "date": "2006 (lecture)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-12",
+      "read": "Transcript sections on the archaeology of the conquest and the immigration, revolt, and internal-development models.",
+      "limits": "Lecture overview; no exact dates for Joshua's campaigns."
+    },
+    "hayes-yale-lecture-13": {
+      "title": "Lecture 13 - The Deuteronomistic History: Prophets and Kings (1 and 2 Samuel)",
+      "author": "Christine Hayes",
+      "publisher": "Yale University, Open Yale Courses, RLST 145 Introduction to the Hebrew Bible",
+      "date": "2006 (lecture)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-13",
+      "read": "Transcript section introducing the setting of Judges.",
+      "limits": "Gives only a round period for Judges (about 1200 to 1000)."
+    },
+    "hayes-yale-lecture-22": {
+      "title": "Lecture 22 - The Restoration: 1 and 2 Chronicles, Ezra and Nehemiah",
+      "author": "Christine Hayes",
+      "publisher": "Yale University, Open Yale Courses, RLST 145 Introduction to the Hebrew Bible",
+      "date": "2006 (lecture)",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-22",
+      "read": "Transcript sections on Cyrus (539/538), the 597 exiles, the temple rebuilding (about 515), Nehemiah (about 445), and the problem of dating Ezra.",
+      "limits": "Lecture overview; does not name a specific alternative year for Ezra."
+    },
+    "britannica-saul": {
+      "title": "Saul (king of Israel)",
+      "author": "James King West",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/biography/Saul-king-of-Israel",
+      "read": "Opening summary and lead paragraphs.",
+      "limits": "Encyclopedia summary; reign dates approximate (c. 1021-1000 BCE). WebFetch was blocked (403); page read with curl."
+    },
+    "britannica-david": {
+      "title": "David",
+      "author": "J. Coert Rylaarsdam",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/biography/David",
+      "read": "Lead paragraphs, including the note on material evidence.",
+      "limits": "Gives only 'flourished c. 1000 bce'; no reign years. Page read with curl (WebFetch blocked)."
+    },
+    "britannica-solomon": {
+      "title": "Solomon",
+      "author": "Cyrus H. Gordon",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/biography/Solomon",
+      "read": "Lead and the paragraph on material evidence.",
+      "limits": "Gives approximate life dates (c. 975 - c. 926 BCE) and an 'early 10th century' reign; notes archaeological debate. Page read with curl (WebFetch blocked)."
+    },
+    "britannica-hezekiah": {
+      "title": "Hezekiah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/biography/Hezekiah",
+      "read": "Full short article.",
+      "limits": "Says the reign is 'often given as about 715 to about 686 bc' but records allow a wide range. Page read with curl (WebFetch blocked)."
+    },
+    "britannica-josiah": {
+      "title": "Josiah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/biography/Josiah",
+      "read": "Lead paragraphs.",
+      "limits": "Encyclopedia summary. Page read with curl (WebFetch blocked)."
+    },
+    "britannica-nehemiah": {
+      "title": "Nehemiah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/biography/Nehemiah",
+      "read": "Full short article.",
+      "limits": "Encyclopedia summary; gives 'about 444 bce' and a 12-year governorship. Page read with curl (WebFetch blocked)."
+    },
+    "britannica-exodus": {
+      "title": "Exodus",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/event/Exodus-Old-Testament",
+      "read": "Lead paragraphs on the event and the J, E, P strands.",
+      "limits": "States a 13th-century BCE setting; does not discuss the early-date view. Page read with curl (WebFetch blocked)."
+    },
+    "britannica-esther": {
+      "title": "The Book of Esther",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "online, accessed 2026-10-14",
+      "url": "https://www.britannica.com/topic/Book-of-Esther",
+      "read": "Lead paragraphs on the story, Xerxes I, historicity, and composition date.",
+      "limits": "Encyclopedia summary. Page read with curl (WebFetch blocked)."
+    },
+    "bibleodyssey-solomon": {
+      "title": "Solomon",
+      "author": "Sarah Malena",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2019",
+      "url": "https://www.bibleodyssey.org/articles/solomon/",
+      "read": "Full article.",
+      "limits": "Places Solomon in the 'mid-tenth century BCE'; gives no reign years."
+    },
+    "bibleodyssey-saul": {
+      "title": "Saul",
+      "author": "Nathaniel E. Greene",
+      "publisher": "Bible Odyssey (Society of Biblical Literature)",
+      "date": "2020",
+      "url": "https://www.bibleodyssey.org/articles/saul/",
+      "read": "Full article.",
+      "limits": "Discusses whether Saul was a king; gives no reign years."
+    }
+  },
+  "books": {
+    "genesis": [
+      {
+        "from": 1,
+        "to": 11,
+        "label": "Undated (primeval history)",
+        "sourceIds": [
+          "bd-chronology"
+        ],
+        "note": "The Bible Dictionary lists Adam to Babel without dates. It says early dates cannot be fixed with certainty."
+      },
+      {
+        "from": 12,
+        "to": 36,
+        "label": "Undated (ancestral stories)",
+        "sourceIds": [
+          "bd-chronology",
+          "hayes-yale-lecture-6"
+        ],
+        "note": "The Bible Dictionary gives no dates for the patriarchs. Hayes reports a scholarly debate about how much history the stories hold."
+      },
+      {
+        "from": 37,
+        "to": 50,
+        "label": "Undated (Joseph story)",
+        "sourceIds": [
+          "bd-chronology",
+          "hayes-yale-lecture-7"
+        ],
+        "note": "Hayes calls a Hyksos-period setting for Joseph a hypothesis that is not well supported. The Bible Dictionary gives no date."
+      }
+    ],
+    "exodus": [
+      {
+        "from": 1,
+        "to": 40,
+        "label": "~1300 - 1200 BCE (disputed)",
+        "sourceIds": [
+          "hayes-yale-lecture-7",
+          "britannica-exodus",
+          "bd-chronology"
+        ],
+        "note": "Hayes and Britannica place a possible Exodus in the 13th century BCE. The 480 years of 1 Kings 6:1 point earlier; Hayes calls that number ideal. Historicity is debated."
+      }
+    ],
+    "leviticus": [
+      {
+        "from": 1,
+        "to": 27,
+        "label": "~1300 - 1200 BCE (disputed)",
+        "sourceIds": [
+          "hayes-yale-lecture-7",
+          "britannica-exodus",
+          "bd-chronology"
+        ],
+        "note": "The laws are set at Sinai, in the Exodus setting. Hayes and Britannica favor the 13th century BCE; an earlier date rests on 1 Kings 6:1."
+      }
+    ],
+    "numbers": [
+      {
+        "from": 1,
+        "to": 36,
+        "label": "~1300 - 1200 BCE (disputed)",
+        "sourceIds": [
+          "hayes-yale-lecture-7",
+          "britannica-exodus",
+          "bd-chronology"
+        ],
+        "note": "The wilderness years follow the Exodus setting. Hayes allows 40 years of travel in a 13th-century reconstruction. An earlier date rests on 1 Kings 6:1."
+      }
+    ],
+    "deuteronomy": [
+      {
+        "from": 1,
+        "to": 34,
+        "label": "~1300 - 1200 BCE (disputed)",
+        "sourceIds": [
+          "hayes-yale-lecture-7",
+          "britannica-exodus",
+          "bd-chronology"
+        ],
+        "note": "The speeches are set at the end of the wilderness period. The setting follows the disputed Exodus date."
+      }
+    ],
+    "joshua": [
+      {
+        "from": 1,
+        "to": 24,
+        "label": "~1250 - 1200 BCE (disputed)",
+        "previous": "~1200 - 1150 BCE (disputed)",
+        "sourceIds": [
+          "hayes-yale-lecture-7",
+          "hayes-yale-lecture-12"
+        ],
+        "note": "Hayes places new highland settlements in the late 13th century. The Merneptah Stele (~1204) puts Israel in Canaan. Archaeology does not show Joshua's conquest."
+      }
+    ],
+    "judges": [
+      {
+        "from": 1,
+        "to": 21,
+        "label": "~1200 - 1000 BCE",
+        "previous": "~1200 - 1050 BCE",
+        "sourceIds": [
+          "hayes-yale-lecture-13",
+          "bd-chronology"
+        ],
+        "note": "Hayes sets Judges in a period from about 1200 to 1000. The Bible Dictionary says the order and dates of the judges are very uncertain."
+      }
+    ],
+    "ruth": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~1200 - 1000 BCE",
+        "previous": "~1150 - 1050 BCE",
+        "sourceIds": [
+          "hayes-yale-lecture-13",
+          "bd-chronology"
+        ],
+        "note": "Ruth 1:1 sets the story when the judges ruled. Hayes dates that period about 1200 to 1000; no source gives a closer date."
+      }
+    ],
+    "1-samuel": [
+      {
+        "from": 1,
+        "to": 7,
+        "label": "~1100 - 1000 BCE",
+        "previous": "~1100 - 1050 BCE",
+        "sourceIds": [
+          "britannica-saul",
+          "hayes-yale-lecture-13"
+        ],
+        "note": "Eli and Samuel come before Saul. Britannica dates Saul to the 11th century BCE; no source dates these chapters more closely."
+      },
+      {
+        "from": 8,
+        "to": 31,
+        "label": "~1021 - 1000 BCE",
+        "previous": "~1050 - 1025 BCE / ~1025 - 1010 BCE (bands 8-15, 16-31)",
+        "sourceIds": [
+          "britannica-saul",
+          "bibleodyssey-saul",
+          "bd-chronology"
+        ],
+        "note": "Britannica dates Saul's reign about 1021-1000 BCE. The older Bible Dictionary table starts it in 1095. Bible Odyssey notes his kingship is debated."
+      }
+    ],
+    "2-samuel": [
+      {
+        "from": 1,
+        "to": 24,
+        "label": "~1000 - 970 BCE",
+        "previous": "~1010 - 1003 BCE / ~1003 - 970 BCE (bands 1-4, 5-24)",
+        "sourceIds": [
+          "britannica-david",
+          "britannica-saul",
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Britannica says David flourished about 1000 BCE. Saul's reign ends about 1000; Solomon's 40 years end near 930. Exact years vary by chronology."
+      }
+    ],
+    "1-kings": [
+      {
+        "from": 1,
+        "to": 2,
+        "label": "~970 BCE",
+        "sourceIds": [
+          "bibleodyssey-solomon",
+          "britannica-solomon",
+          "ot-instructors-appendix-b"
+        ],
+        "note": "David dies and Solomon takes the throne. Sources place Solomon in the 10th century; ~970 counts his 40 years back from 930."
+      },
+      {
+        "from": 3,
+        "to": 11,
+        "label": "~970 - 930 BCE",
+        "previous": "~970 - 931 BCE",
+        "sourceIds": [
+          "bibleodyssey-solomon",
+          "britannica-solomon",
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Bible Odyssey places Solomon in the mid-10th century. The Church reign table starts Rehoboam in 930. Britannica notes archaeological debate."
+      },
+      {
+        "from": 12,
+        "to": 14,
+        "label": "~930 - 909 BCE",
+        "previous": "~931 - 910 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Rehoboam 930-913 and Jeroboam I 930-909 in the Church reign table, which reflects common scholarly views."
+      },
+      {
+        "from": 15,
+        "to": 16,
+        "label": "~913 - 874 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Abijam (913) through Omri (885-874) and Ahab's accession, in the Church reign table."
+      },
+      {
+        "from": 17,
+        "to": 21,
+        "label": "~874 - 853 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Elijah's stories fall in Ahab's reign, 874-853 in the Church reign table."
+      },
+      {
+        "from": 22,
+        "to": 22,
+        "label": "~853 - 848 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Ahab dies (853). The chapter ends with Jehoshaphat (to 848) and Ahaziah of Israel (853-852)."
+      }
+    ],
+    "2-kings": [
+      {
+        "from": 1,
+        "to": 1,
+        "label": "~852 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Ahaziah of Israel reigns 853-852 in the Church reign table."
+      },
+      {
+        "from": 2,
+        "to": 8,
+        "label": "~852 - 841 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Elisha's stories fall mainly under Joram of Israel, 852-841. Chapter 8 also covers Jehoram and Ahaziah of Judah, to 841."
+      },
+      {
+        "from": 9,
+        "to": 9,
+        "label": "~841 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Jehu's revolt kills Joram and Ahaziah in 841."
+      },
+      {
+        "from": 10,
+        "to": 10,
+        "label": "~841 - 814 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Jehu reigns 841-814 in the Church reign table."
+      },
+      {
+        "from": 11,
+        "to": 12,
+        "label": "~841 - 796 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Athaliah 841-835 and Joash of Judah 835-796."
+      },
+      {
+        "from": 13,
+        "to": 14,
+        "label": "~814 - 753 BCE",
+        "previous": "~814 - 750 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Jehoahaz (814) to the death of Jeroboam II (753) in the Church reign table. The old end year matched no listed reign."
+      },
+      {
+        "from": 15,
+        "to": 15,
+        "label": "~792 - 732 BCE",
+        "previous": "~767 - 732 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "bd-chronology"
+        ],
+        "note": "Azariah's reign starts 792 as co-regent in the Church table; 767 was his sole reign. Hoshea's coup is 732. Both tables call these numbers uncertain."
+      },
+      {
+        "from": 16,
+        "to": 16,
+        "label": "~735 - 715 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Ahaz reigns 735-715 in the Church reign table."
+      },
+      {
+        "from": 17,
+        "to": 17,
+        "label": "~732 - 722 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "bd-chronology"
+        ],
+        "note": "Hoshea reigns 732-722. Both Church tables end the northern kingdom in 722."
+      },
+      {
+        "from": 18,
+        "to": 18,
+        "label": "~715 - 701 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "britannica-hezekiah"
+        ],
+        "note": "Hezekiah's accession (about 715) to Sennacherib's 701 campaign. Britannica notes a wide range of possible reign dates."
+      },
+      {
+        "from": 19,
+        "to": 19,
+        "label": "~701 - 681 BCE",
+        "previous": "~701 BCE",
+        "sourceIds": [
+          "britannica-hezekiah",
+          "bd-chronology"
+        ],
+        "note": "The siege is 701. Verse 37 reports Sennacherib's death, which both sources date to 681. This matches Isaiah 37."
+      },
+      {
+        "from": 20,
+        "to": 20,
+        "label": "~715 - 686 BCE",
+        "previous": "~704 - 686 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "britannica-hezekiah"
+        ],
+        "note": "The illness and the Babylonian envoys match Isaiah 38-39 (~715-701, ~704-703). Hezekiah dies about 686."
+      },
+      {
+        "from": 21,
+        "to": 21,
+        "label": "~697 - 640 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "bd-chronology"
+        ],
+        "note": "Manasseh 697-642 (with co-regency) and Amon 642-640."
+      },
+      {
+        "from": 22,
+        "to": 22,
+        "label": "~640 - 622 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "britannica-josiah"
+        ],
+        "note": "Josiah's accession (about 640) to his eighteenth year (22:3), about 622."
+      },
+      {
+        "from": 23,
+        "to": 23,
+        "label": "~622 - 609 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "britannica-josiah"
+        ],
+        "note": "Josiah's reform to his death in 609. The chapter ends with Jehoahaz and Jehoiakim, both from 609."
+      },
+      {
+        "from": 24,
+        "to": 24,
+        "label": "~609 - 597 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "hayes-yale-lecture-22"
+        ],
+        "note": "Jehoiakim 609-598, Jehoiachin 598-597, then the 597 exile and Zedekiah's accession."
+      },
+      {
+        "from": 25,
+        "to": 25,
+        "label": "~588 - 561 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "bd-chronology",
+          "hayes-yale-lecture-12"
+        ],
+        "note": "The siege starts in Zedekiah's ninth year. Jerusalem falls in 587/586. The Bible Dictionary dates Jehoiachin's release to 561."
+      }
+    ],
+    "1-chronicles": [
+      {
+        "from": 1,
+        "to": 9,
+        "label": "Undated (genealogies)",
+        "sourceIds": [
+          "bd-chronology"
+        ],
+        "note": "Genealogies from Adam to the returned exiles. The lists cover many periods and have no single date."
+      },
+      {
+        "from": 10,
+        "to": 10,
+        "label": "~1000 BCE",
+        "previous": "~1010 BCE",
+        "sourceIds": [
+          "britannica-saul"
+        ],
+        "note": "Saul's death. Britannica ends his reign about 1000 BCE."
+      },
+      {
+        "from": 11,
+        "to": 29,
+        "label": "~1000 - 970 BCE",
+        "previous": "~1003 - 970 BCE",
+        "sourceIds": [
+          "britannica-david",
+          "ot-instructors-appendix-b"
+        ],
+        "note": "David's reign, to Solomon's accession. Britannica says David flourished about 1000 BCE. Exact years vary by chronology."
+      }
+    ],
+    "2-chronicles": [
+      {
+        "from": 1,
+        "to": 9,
+        "label": "~970 - 930 BCE",
+        "previous": "~970 - 931 BCE",
+        "sourceIds": [
+          "bibleodyssey-solomon",
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Solomon's reign. The Church reign table starts Rehoboam in 930."
+      },
+      {
+        "from": 10,
+        "to": 12,
+        "label": "~930 - 913 BCE",
+        "previous": "~931 - 913 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Rehoboam reigns 930-913 in the Church reign table. Thiele's 931 differs by one year."
+      },
+      {
+        "from": 13,
+        "to": 13,
+        "label": "~913 - 910 BCE",
+        "previous": "~913 - 911 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Abijah (Abijam) reigns 913-910 in the Church reign table."
+      },
+      {
+        "from": 14,
+        "to": 16,
+        "label": "~910 - 869 BCE",
+        "previous": "~911 - 870 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Asa reigns 910-869 in the Church reign table."
+      },
+      {
+        "from": 17,
+        "to": 20,
+        "label": "~872 - 848 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Jehoshaphat reigns 872-848, with co-regency, in the Church reign table."
+      },
+      {
+        "from": 21,
+        "to": 23,
+        "label": "~853 - 835 BCE",
+        "previous": "~848 - 835 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Jehoram of Judah 853-841 (with co-regency), Ahaziah 841, and Athaliah 841-835."
+      },
+      {
+        "from": 24,
+        "to": 24,
+        "label": "~835 - 796 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Joash reigns 835-796 in the Church reign table."
+      },
+      {
+        "from": 25,
+        "to": 25,
+        "label": "~796 - 767 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Amaziah reigns 796-767 in the Church reign table."
+      },
+      {
+        "from": 26,
+        "to": 26,
+        "label": "~792 - 740 BCE",
+        "previous": "~767 - 740 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Uzziah reigns 792-740, with co-regency, in the Church reign table. 767 was the start of his sole reign."
+      },
+      {
+        "from": 27,
+        "to": 27,
+        "label": "~750 - 732 BCE",
+        "previous": "~750 - 735 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Jotham reigns 750-732, with co-regencies, in the Church reign table."
+      },
+      {
+        "from": 28,
+        "to": 28,
+        "label": "~735 - 715 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Ahaz reigns 735-715 in the Church reign table."
+      },
+      {
+        "from": 29,
+        "to": 31,
+        "label": "~715 - 686 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "britannica-hezekiah"
+        ],
+        "note": "Hezekiah's reforms start in his first year (29:3). His reign is often dated about 715-686."
+      },
+      {
+        "from": 32,
+        "to": 32,
+        "label": "~701 - 681 BCE",
+        "previous": "~715 - 686 BCE (bands 29-32)",
+        "sourceIds": [
+          "britannica-hezekiah",
+          "bd-chronology"
+        ],
+        "note": "Sennacherib's campaign is 701. Verse 21 reports his death in 681. This matches Isaiah 37."
+      },
+      {
+        "from": 33,
+        "to": 33,
+        "label": "~697 - 640 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b"
+        ],
+        "note": "Manasseh 697-642 and Amon 642-640 in the Church reign table."
+      },
+      {
+        "from": 34,
+        "to": 35,
+        "label": "~640 - 609 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "britannica-josiah"
+        ],
+        "note": "Josiah reigns about 640-609."
+      },
+      {
+        "from": 36,
+        "to": 36,
+        "label": "~609 - 538 BCE",
+        "sourceIds": [
+          "ot-instructors-appendix-b",
+          "hayes-yale-lecture-22"
+        ],
+        "note": "Jehoahaz (609) to Cyrus's decree. Hayes dates the fall of Babylon to 539 and the return to after 538."
+      }
+    ],
+    "ezra": [
+      {
+        "from": 1,
+        "to": 6,
+        "label": "~538 - 515 BCE",
+        "sourceIds": [
+          "hayes-yale-lecture-22",
+          "bd-chronology"
+        ],
+        "note": "The return after Cyrus's decree (538) to the temple dedication, about 515 in Hayes. Ezra 4:6-23 inserts later letters."
+      },
+      {
+        "from": 7,
+        "to": 10,
+        "label": "~458 BCE (disputed)",
+        "previous": "~458 - 457 BCE",
+        "sourceIds": [
+          "hayes-yale-lecture-22",
+          "bd-chronology"
+        ],
+        "note": "The Bible Dictionary dates Ezra's commission to 458 under Artaxerxes I. Hayes notes a later Artaxerxes is possible, so experts disagree."
+      }
+    ],
+    "nehemiah": [
+      {
+        "from": 1,
+        "to": 12,
+        "label": "~445 - 432 BCE",
+        "previous": "~445 - 433 BCE",
+        "sourceIds": [
+          "hayes-yale-lecture-22",
+          "britannica-nehemiah",
+          "bd-chronology"
+        ],
+        "note": "Nehemiah arrives about 445 (Hayes) or 444 (Britannica, Bible Dictionary). He governs 12 years (Neh 5:14), to about 432."
+      },
+      {
+        "from": 13,
+        "to": 13,
+        "label": "~432 BCE or later",
+        "previous": "~432 - 425 BCE",
+        "sourceIds": [
+          "bd-chronology",
+          "britannica-nehemiah"
+        ],
+        "note": "The Bible Dictionary dates the second mission to 432. Nehemiah 13:6 gives no exact interval, and no source gives an end year."
+      }
+    ],
+    "esther": [
+      {
+        "from": 1,
+        "to": 10,
+        "label": "~483 - 473 BCE (setting)",
+        "previous": "~483 - 473 BCE",
+        "sourceIds": [
+          "britannica-esther",
+          "bd-chronology"
+        ],
+        "note": "The story is set under Xerxes I (486-465), in his third to twelfth years. Britannica finds no consensus on a historical basis."
+      }
+    ]
+  }
+}

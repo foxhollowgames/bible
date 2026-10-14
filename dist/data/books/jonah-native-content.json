@@ -1395,5 +1395,12 @@
       "verse": 11,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 4,
+      "label": "~500 - 300 BCE (written)"
+    }
   ]
 }

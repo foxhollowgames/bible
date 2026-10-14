@@ -1123,5 +1123,12 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 1,
+      "label": "After ~586 BCE (disputed)"
+    }
+  ]
 }

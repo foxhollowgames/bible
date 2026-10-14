@@ -18,9 +18,19 @@ for(const book of directory.filter(b=>b.status==='ready'&&existsSync(`dist/data/
     }
   }
   fields+=copy.length;
-  // These settings keep date labels, source summaries, and profile facts out of a book that has no reviewed values for them.
+  // Every chapter has exactly one date label from scripts/book-date-bands.json.
   const content=JSON.parse(readFileSync(`dist/data/books/${book.id}-native-content.json`,'utf8'));
-  assert(!content.chapterDateBands,'no chapter date label without reviewed dates');
+  const bands=content.chapterDateBands;
+  assert(Array.isArray(bands)&&bands.length,`${book.id}: chapter date bands`);
+  let next=1;
+  for(const band of bands){
+    assert.equal(band.from,next,`${book.id}: date bands must cover chapter ${next} once`);
+    assert(Number.isInteger(band.to)&&band.to>=band.from,`${book.id}: date band ${band.from}-${band.to}`);
+    assert(typeof band.label==='string'&&band.label.trim(),`${book.id}: date band ${band.from}-${band.to} has a label`);
+    next=band.to+1;
+  }
+  assert.equal(next,content.book.chapterCount+1,`${book.id}: date bands end at the last chapter`);
+  // These settings keep source summaries and profile facts out of a book that has no reviewed values for them.
   assert.notEqual(content.book.sourceNotes,'inline','source summaries stay in source details');
   const profiles=JSON.parse(readFileSync(`dist/data/books/${book.id}-people.json`,'utf8'));
   assert(!profiles.profileFacts,'the portrait already shows the role');

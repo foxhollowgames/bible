@@ -1508,5 +1508,12 @@
       "verse": 3,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "After ~516 BCE (disputed)"
+    }
   ]
 }

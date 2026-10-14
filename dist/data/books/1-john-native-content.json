@@ -719,5 +719,12 @@
       "verse": 14,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 5,
+      "label": "~70 - 100 CE"
+    }
   ]
 }

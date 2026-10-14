@@ -11451,5 +11451,47 @@
       "color": "#7b2f45",
       "selectedBorder": "#431726"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 7,
+      "label": "~30 - 34 CE"
+    },
+    {
+      "from": 8,
+      "to": 12,
+      "label": "~34 - 44 CE"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "label": "~45 - 49 CE"
+    },
+    {
+      "from": 15,
+      "to": 15,
+      "label": "~49 - 50 CE"
+    },
+    {
+      "from": 16,
+      "to": 18,
+      "label": "~49 - 53 CE"
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "label": "~53 - 57 CE"
+    },
+    {
+      "from": 21,
+      "to": 26,
+      "label": "~57 - 60 CE"
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "label": "~58 - 62 CE"
+    }
+  ]
 }

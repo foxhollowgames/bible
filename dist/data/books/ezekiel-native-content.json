@@ -8542,5 +8542,32 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "~593 BCE"
+    },
+    {
+      "from": 4,
+      "to": 24,
+      "label": "~593 - 588 BCE"
+    },
+    {
+      "from": 25,
+      "to": 32,
+      "label": "~587 - 571 BCE"
+    },
+    {
+      "from": 33,
+      "to": 39,
+      "label": "~585 - 570 BCE"
+    },
+    {
+      "from": 40,
+      "to": 48,
+      "label": "~573 BCE"
+    }
+  ]
 }

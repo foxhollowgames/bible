@@ -18544,5 +18544,12 @@
       "verse": 3,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 150,
+      "label": "~1000 - 300 BCE"
+    }
   ]
 }

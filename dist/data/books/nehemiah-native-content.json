@@ -4473,5 +4473,17 @@
       "color": "#2f6f8f",
       "selectedBorder": "#173f53"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 12,
+      "label": "~445 - 432 BCE"
+    },
+    {
+      "from": 13,
+      "to": 13,
+      "label": "~432 BCE or later"
+    }
+  ]
 }

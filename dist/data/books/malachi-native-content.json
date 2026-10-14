@@ -1572,5 +1572,12 @@
       "verse": 6,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 4,
+      "label": "~516 - 430 BCE"
+    }
   ]
 }

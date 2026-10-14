@@ -2682,5 +2682,22 @@
       "verse": 3,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 4,
+      "label": "~605 - 562 BCE (setting)"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "label": "~539 BCE (setting)"
+    },
+    {
+      "from": 7,
+      "to": 12,
+      "label": "~167 - 164 BCE (disputed)"
+    }
   ]
 }

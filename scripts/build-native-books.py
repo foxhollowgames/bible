@@ -5,6 +5,7 @@ from book_copy import revise
 from book_context import enrich_context
 from book_words import glossary_words,name_words
 from book_maps import add_map_context
+from book_dates import add_date_bands
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent.parent
 D=ROOT/'dist';OUT=D/'data/books'
@@ -55,6 +56,8 @@ for entry in json.loads((OUT/'directory.json').read_text(encoding='utf-8')):
     content['guides']=[b['contextGuide']]
     # Nations, ancient roads, and atlas areas come from scripts/book-map-context.json.
     add_map_context(slug,b,content)
+    # Chapter date labels come from scripts/book-date-bands.json.
+    add_date_bands(slug,content)
     # Glossary terms that occur in this book. Verse entries add a Hebrew or Greek dictionary form checked against that verse.
     content['words'],word_sources=glossary_words(b,glossary)
     # Names of people and places get the dictionary form found in a verse that names them.

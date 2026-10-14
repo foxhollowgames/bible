@@ -1,0 +1,1129 @@
+{
+  "reviewed": "2026-10-14",
+  "reviewer": "Claude (AI-assisted review)",
+  "sources": {
+    "hayes-l15": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 15: Hebrew Prophecy: The Non-Literary Prophets",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-15",
+      "read": "Full transcript; classical prophecy from about 750; fall of Israel 722.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l16": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 16: Literary Prophecy: Amos",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-16",
+      "read": "Full transcript; Amos around 750 under Jeroboam II; Nineveh fell 612.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l17": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 17: Literary Prophecy: Hosea and Isaiah",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-17",
+      "read": "Full transcript; Hosea in the 740s-720s; did not see the fall of Israel.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l18": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 18: Literary Prophecy: Micah, Zephaniah, Nahum and Habbakuk",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-18",
+      "read": "Full transcript; Micah 740-700; Zephaniah under Josiah, partly before 622; Nahum and 612; Habakkuk 600 to the destruction; Josiah died 609.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l19": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 19: Literary Prophecy: Perspectives on the Exile (Jeremiah, Ezekiel and 2nd Isaiah)",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-19",
+      "read": "Full transcript; Ezekiel deported 597, call about 593, chapters 33ff after 587/586; Cyrus about 539.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l20": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 20: Responses to Suffering and Evil: Lamentations and Wisdom Literature",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-20",
+      "read": "Full transcript; Lamentations setting; Proverbs final form post-exilic; Job no earlier than the 6th century.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l21": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 21: Biblical Poetry: Psalms and Song of Songs",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-21",
+      "read": "Full transcript; Psalms anthology 5th or 4th century, some psalms early pre-exilic; Ecclesiastes perhaps 4th century.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l22": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 22: The Restoration: 1 and 2 Chronicles, Ezra and Nehemiah",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-22",
+      "read": "Full transcript; Song of Songs post-exilic; Haggai and Zechariah post-exilic.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l23": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 23: Visions of the End: Daniel and Apocalyptic Literature",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-23",
+      "read": "Full transcript; Daniel 7-12 167-164 BCE, 1-6 perhaps late 3rd century; Haggai about 520; Zechariah 1-8 about 520, 9-14 5th century or later; Joel probably the latest prophetic book.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "hayes-l24": {
+      "title": "RLST 145 Introduction to the Old Testament (Hebrew Bible), Lecture 24: Alternative Visions: Esther, Ruth, and Jonah",
+      "author": "Christine Hayes",
+      "publisher": "Open Yale Courses, Yale University",
+      "date": "Spring 2006 lecture; transcript online",
+      "url": "https://oyc.yale.edu/religious-studies/rlst-145/lecture-24",
+      "read": "Full transcript; Jonah's date cannot be ascertained; many scholars date it late.",
+      "limits": "Spoken lecture transcript; gives few exact years; transcript has small errors (e.g., Josiah 740 corrected to 640 in lecture 18)."
+    },
+    "bd-job": {
+      "title": "Bible Dictionary, \"Job, book of\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/job-book-of?lang=eng",
+      "read": "Full entry; gives no date, author, or setting.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-psalms": {
+      "title": "Bible Dictionary, \"Psalms\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng",
+      "read": "Full entry; 73 psalms ascribed to David; Hebrew titles sometimes inaccurate; no collection date.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-proverbs": {
+      "title": "Bible Dictionary, \"Proverbs, book of\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/proverbs-book-of?lang=eng",
+      "read": "Full entry; sections 1-9, 10-24, 25-29 (Hezekiah's men), 30-31 (Agur, Lemuel); no dates.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-ecclesiastes": {
+      "title": "Bible Dictionary, \"Ecclesiastes\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/ecclesiastes?lang=eng",
+      "read": "Full entry; no date; notes the 1:1 self-description.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-song": {
+      "title": "Bible Dictionary, \"Song of Solomon\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/song-of-solomon?lang=eng",
+      "read": "Full entry; Solomon's authorship doubtful; no date.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-jeremiah": {
+      "title": "Bible Dictionary, \"Jeremiah\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/jeremiah?lang=eng",
+      "read": "Full entry; 626-586 B.C.; arrangement of chapters by reign.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-lamentations": {
+      "title": "Bible Dictionary, \"Lamentations, book of\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/lamentations-book-of?lang=eng",
+      "read": "Full entry; written some years after the fall of the city.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-ezekiel": {
+      "title": "Bible Dictionary, \"Ezekiel\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/ezekiel?lang=eng",
+      "read": "Full entry; prophesied 592-570 B.C.; divisions 1-24, 25-32, 33-39, 40-48.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-daniel": {
+      "title": "Bible Dictionary, \"Daniel\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/daniel?lang=eng",
+      "read": "Full entry; served Nebuchadnezzar and Darius; no dates or composition view.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-hosea": {
+      "title": "Bible Dictionary, \"Hosea\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng",
+      "read": "Full entry; began late in Jeroboam II's reign; probably died before Pekah's accession (736 B.C.).",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-joel": {
+      "title": "Bible Dictionary, \"Joel\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/joel?lang=eng",
+      "read": "Full entry; date uncertain; possibly before 850 B.C. or after the Return.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-amos": {
+      "title": "Bible Dictionary, \"Amos\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/amos?lang=eng",
+      "read": "Full entry; days of Uzziah (died about 740) and Jeroboam II (died about 750).",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-obadiah": {
+      "title": "Bible Dictionary, \"Obadiah\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/obadiah?lang=eng",
+      "read": "Full entry; after a capture of Jerusalem, 848-844 B.C. or more probably 586 B.C.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-jonah": {
+      "title": "Bible Dictionary, \"Jonah\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/jonah?lang=eng",
+      "read": "Full entry; prophet under Jeroboam II; book by a later writer.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-micah": {
+      "title": "Bible Dictionary, \"Micah\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/micah?lang=eng",
+      "read": "Full entry; prophesied under Hezekiah; no years.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-nahum": {
+      "title": "Bible Dictionary, \"Nahum\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/nahum?lang=eng",
+      "read": "Full entry; between the fall of No-amon/Thebes (about 660 B.C.) and of Nineveh (given as 606 B.C.).",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-habakkuk": {
+      "title": "Bible Dictionary, \"Habakkuk\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/habakkuk?lang=eng",
+      "read": "Full entry; date uncertain; Josiah or Jehoiakim (about 600 B.C.).",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-zephaniah": {
+      "title": "Bible Dictionary, \"Zephaniah\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/zephaniah?lang=eng",
+      "read": "Full entry; reign of Josiah (639-608 B.C.).",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-haggai": {
+      "title": "Bible Dictionary, \"Haggai\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/haggai?lang=eng",
+      "read": "Full entry; about 520 B.C.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-zechariah": {
+      "title": "Bible Dictionary, \"Zechariah\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/zechariah?lang=eng",
+      "read": "Full entry; 520-518 B.C.; treats chapters 9-14 as messianic prophecy with no separate date.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "bd-malachi": {
+      "title": "Bible Dictionary, \"Malachi\"",
+      "author": "The Church of Jesus Christ of Latter-day Saints",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "Current online edition (read 2026-10-14)",
+      "url": "https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng",
+      "read": "Full entry; about 430 B.C.",
+      "limits": "Short dictionary entry; Church reference work with older dating; names no chronology system."
+    },
+    "ot-guide-appendix-b": {
+      "title": "Old Testament Instructor's Guide (Religion 301-302), Appendix B: Chronological Correlation of the Kings of Israel and of Judah",
+      "author": "Church Educational System",
+      "publisher": "The Church of Jesus Christ of Latter-day Saints",
+      "date": "1994",
+      "url": "https://www.churchofjesuschrist.org/study/manual/old-testament-instructors-guide/appendix-b?lang=eng",
+      "read": "Full reign table (Jeroboam II 793-753, Uzziah 792-740, Jotham 750-732, Hezekiah 715-686, Josiah 640-609, Jehoiakim 609-598, Jehoiachin 598-597, Zedekiah 597-586).",
+      "limits": "Names no chronology system; calls itself a consensus of commonly held scholarly views and approximate. Gives no prophet dates."
+    },
+    "br-job": {
+      "title": "The Book of Job",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Job",
+      "read": "Opening section: prose frame before the 6th century BCE; poetry 6th-4th century; 28 and 32-37 probably later.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-psalms": {
+      "title": "Psalms",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Psalms",
+      "read": "Main text and FAQ: written from the early monarchy to post-Exilic times; older Persian/Maccabean dating set aside.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-proverbs": {
+      "title": "The Proverbs",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Proverbs",
+      "read": "Opening section: seven collections, all after Solomon; 25-29 about 700 BC; 1-9 4th century BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-ecclesiastes": {
+      "title": "Ecclesiastes",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Ecclesiastes-Old-Testament",
+      "read": "Opening section: about the second half of the 3rd century BCE.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-song": {
+      "title": "Song of Solomon",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Song-of-Solomon",
+      "read": "Opening section: present form post-exilic (5th century BC onward); poems may date from about the 10th century BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-jeremiah": {
+      "title": "The Book of Jeremiah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Jeremiah",
+      "read": "Opening section: call in Josiah's 13th year (627/626 BC) to after 586 BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-lamentations": {
+      "title": "The Lamentations of Jeremiah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Lamentations-of-Jeremiah",
+      "read": "Opening section: dated during the exile after 586 BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-ezekiel": {
+      "title": "The Book of Ezekiel",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Ezekiel",
+      "read": "Full article: call 592/593 BCE, active to about 570; threats up to 586, foreign oracles 586-585, restoration after.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-daniel": {
+      "title": "The Book of Daniel",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Daniel-Old-Testament",
+      "read": "Opening section: language and inaccuracies point after the Exile; many scholars date it to the first half of the 2nd century BC (Antiochus IV).",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-hosea": {
+      "title": "Book of Hosea",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Hosea",
+      "read": "Opening section: began under Jeroboam II (c. 786-746 BC); active until near the fall of Israel (721 BC).",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-joel": {
+      "title": "Book of Joel",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Joel",
+      "read": "Opening section: Joel lived in the Second Temple period (516 BC-AD 70).",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-amos": {
+      "title": "Book of Amos",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Amos",
+      "read": "Opening section: active under Jeroboam II (c. 786-746 BC); arrangement by a later hand.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-obadiah": {
+      "title": "Book of Obadiah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Obadiah",
+      "read": "Date paragraph: many scholars date it after 586 BC; others as early as the 9th century BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-jonah": {
+      "title": "Book of Jonah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Jonah",
+      "read": "Date paragraph: written after the Exile, probably 5th or 4th century, no later than the 3rd.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-micah": {
+      "title": "Book of Micah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Micah",
+      "read": "Full article: 1-3 and 6-7:7 usually Micah's (late 8th century BC); 4-5 and 7:8-20 generally centuries later.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-nahum": {
+      "title": "Book of Nahum",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Nahum",
+      "read": "Opening section: occasion is the fall of Nineveh (612 BC).",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-habakkuk": {
+      "title": "The Book of Habakkuk",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Habakkuk",
+      "read": "Full article: hard to date; Chaldean period after 626 BC; before 612 if 'the wicked' are Assyrians.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-zephaniah": {
+      "title": "Book of Zephaniah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Zephaniah",
+      "read": "Opening section: sayings probably written about 640-630 BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-haggai": {
+      "title": "The Book of Haggai",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Haggai",
+      "read": "Opening section: four prophecies in Darius I's second year (given as 521 BC).",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-zechariah": {
+      "title": "Book of Zechariah",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/Book-of-Zechariah",
+      "read": "Opening section: 1-8 dated 520-518 BC; 9-11 and 12-14 usually dated to the 4th and 3rd centuries BC.",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "br-malachi": {
+      "title": "The Book of Malachi",
+      "author": "Britannica Editors",
+      "publisher": "Encyclopaedia Britannica",
+      "date": "Online article (read 2026-10-14)",
+      "url": "https://www.britannica.com/topic/The-Book-of-Malachi",
+      "read": "Date paragraph: first half of the 5th century BCE, after 516 and before Ezra/Nehemiah (about 450).",
+      "limits": "Unsigned editor article; WebFetch got HTTP 403, so the page HTML was read by direct HTTP download; summary only, no argument detail."
+    },
+    "livius-abc5": {
+      "title": "ABC 5 (Jerusalem Chronicle)",
+      "author": "Ancient author; translation adapted from A.K. Grayson (1975) and J.-J. Glassner (2004); site by Jona Lendering",
+      "publisher": "Livius.org",
+      "date": "Online (read 2026-10-14)",
+      "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/",
+      "read": "Translation and notes: Carchemish in year 21 (605/604); Nebuchadnezzar enthroned 7 Sept 605; Jerusalem taken 2 Adar of year 7 (Feb/Mar 597).",
+      "limits": "Translation and editor notes on a reference site, not the tablet edition."
+    },
+    "livius-nebuchadnezzar": {
+      "title": "Nebuchadnezzar II",
+      "author": "Jona Lendering",
+      "publisher": "Livius.org",
+      "date": "Online (read 2026-10-14)",
+      "url": "https://www.livius.org/articles/person/nebuchadnezzar-ii/",
+      "read": "Reign 605-562; Carchemish 605; Jerusalem taken 597 and 587 (or 586); succeeded by Amel-Marduk.",
+      "limits": "Reference article; no date for Jehoiachin's release."
+    },
+    "livius-apries": {
+      "title": "Apries",
+      "author": "Jona Lendering",
+      "publisher": "Livius.org",
+      "date": "Online (read 2026-10-14)",
+      "url": "https://www.livius.org/articles/person/apries/",
+      "read": "Reign 589-567; support for Judah; Jeremiah escapes to Egypt.",
+      "limits": "Reference article."
+    },
+    "livius-assurbanipal": {
+      "title": "Assurbanipal",
+      "author": "Jona Lendering",
+      "publisher": "Livius.org",
+      "date": "Online (read 2026-10-14)",
+      "url": "https://www.livius.org/articles/person/assurbanipal/",
+      "read": "Timeline: Thebes sacked 664; Nineveh captured 612.",
+      "limits": "Reference article; credits the 664 sack to Psammetichus with Assyrian support."
+    },
+    "web-text": {
+      "title": "World English Bible (local project text)",
+      "author": "World English Bible translators",
+      "publisher": "Public domain; project files dist/data/books/<book>.json",
+      "date": "Project copy",
+      "url": "dist/data/books/",
+      "read": "Regnal-year headings: Jer 21:1-52:31 (selected), Ezek 1:1-40:1 (dated verses), Dan 1:1-11:1, Hag 1:1-2:20, Zech 1:1-12:1; superscriptions of Hosea, Amos, Micah, Zephaniah.",
+      "limits": "Biblical account, not independent evidence; BCE equivalents come from the chronology sources."
+    }
+  },
+  "books": {
+    "job": [
+      {
+        "from": 1,
+        "to": 2,
+        "label": "Before ~600 BCE (disputed)",
+        "previous": "Date unknown",
+        "sourceIds": [
+          "br-job",
+          "hayes-l20",
+          "bd-job"
+        ],
+        "note": "Britannica dates the prose frame before the 6th century BCE. Hayes says scholars disagree on Job's date. The Bible Dictionary gives no date."
+      },
+      {
+        "from": 3,
+        "to": 42,
+        "label": "~600 - 300 BCE (disputed)",
+        "previous": "Date unknown",
+        "sourceIds": [
+          "br-job",
+          "hayes-l20",
+          "hayes-l21",
+          "bd-job"
+        ],
+        "note": "Britannica dates the poetry to the 6th-4th centuries BCE, with 28 and 32-37 probably later. Hayes says probably no earlier than the 6th century. Job 42:7-17 is prose frame."
+      }
+    ],
+    "psalms": [
+      {
+        "from": 1,
+        "to": 150,
+        "label": "~1000 - 300 BCE",
+        "previous": "~1000 - 400 BCE",
+        "sourceIds": [
+          "br-psalms",
+          "hayes-l21",
+          "hayes-l22",
+          "bd-psalms"
+        ],
+        "note": "Britannica says the psalms span the early monarchy to post-exilic times. Hayes places the anthology in the 5th or 4th century, so the end moves to ~300."
+      }
+    ],
+    "proverbs": [
+      {
+        "from": 1,
+        "to": 9,
+        "label": "~400 - 300 BCE",
+        "previous": "~539 - 330 BCE",
+        "sourceIds": [
+          "br-proverbs",
+          "hayes-l20"
+        ],
+        "note": "Britannica dates chapters 1-9, the latest collection, to the 4th century BC. Hayes says the book reached final form in post-exilic times."
+      },
+      {
+        "from": 10,
+        "to": 24,
+        "label": "After ~700 BCE (disputed)",
+        "previous": "~900 - 600 BCE",
+        "sourceIds": [
+          "br-proverbs",
+          "bd-proverbs",
+          "hayes-l20"
+        ],
+        "note": "Britannica puts all collections after Solomon; the earliest (25-29) is about 700 BC. Hayes says much material is older. Tradition credits Solomon."
+      },
+      {
+        "from": 25,
+        "to": 29,
+        "label": "~715 - 686 BCE",
+        "previous": "~715 - 600 BCE",
+        "sourceIds": [
+          "br-proverbs",
+          "bd-proverbs",
+          "ot-guide-appendix-b"
+        ],
+        "note": "The heading credits Hezekiah's men; Britannica dates the collection about 700 BC. The Church reign table gives Hezekiah 715-686, as in the Isaiah labels."
+      },
+      {
+        "from": 30,
+        "to": 31,
+        "label": "Date unknown",
+        "sourceIds": [
+          "bd-proverbs",
+          "br-proverbs"
+        ],
+        "note": "The Bible Dictionary names Agur and Lemuel but gives no date. Britannica gives no separate date for these chapters."
+      }
+    ],
+    "ecclesiastes": [
+      {
+        "from": 1,
+        "to": 12,
+        "label": "~400 - 200 BCE",
+        "previous": "~400 - 250 BCE",
+        "sourceIds": [
+          "br-ecclesiastes",
+          "hayes-l21",
+          "bd-ecclesiastes"
+        ],
+        "note": "Hayes suggests perhaps a 4th-century date. Britannica dates it about the second half of the 3rd century BCE. The range covers both views."
+      }
+    ],
+    "song-of-solomon": [
+      {
+        "from": 1,
+        "to": 8,
+        "label": "After ~500 BCE (final form)",
+        "previous": "~500 - 250 BCE",
+        "sourceIds": [
+          "br-song",
+          "hayes-l22",
+          "bd-song"
+        ],
+        "note": "Britannica dates the present form after the Exile (5th century onward); some poems may be older. Hayes calls the lyrics post-exilic. No source gives an end date."
+      }
+    ],
+    "jeremiah": [
+      {
+        "from": 1,
+        "to": 6,
+        "label": "~627 - 609 BCE",
+        "sourceIds": [
+          "bd-jeremiah",
+          "br-jeremiah",
+          "hayes-l18",
+          "web-text"
+        ],
+        "note": "Jer 1:2 dates the call to Josiah's 13th year (627/626 per Britannica). The Bible Dictionary assigns 1-6 to Josiah, who died in 609."
+      },
+      {
+        "from": 7,
+        "to": 20,
+        "label": "~609 - 598 BCE",
+        "sourceIds": [
+          "bd-jeremiah",
+          "ot-guide-appendix-b"
+        ],
+        "note": "The Bible Dictionary assigns 7-20 to Jehoiakim's reign. The Church reign table gives Jehoiakim 609-598."
+      },
+      {
+        "from": 21,
+        "to": 24,
+        "label": "~609 - 588 BCE",
+        "sourceIds": [
+          "bd-jeremiah",
+          "web-text",
+          "ot-guide-appendix-b"
+        ],
+        "note": "These chapters address kings from Shallum to Zedekiah. Jer 21:1 reflects the final siege (588); 24:1 follows Jeconiah's exile."
+      },
+      {
+        "from": 25,
+        "to": 25,
+        "label": "~605 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-abc5",
+          "livius-nebuchadnezzar"
+        ],
+        "note": "Jer 25:1 equates Jehoiakim's 4th year with Nebuchadnezzar's 1st. The Babylonian Chronicle puts his accession in 605."
+      },
+      {
+        "from": 26,
+        "to": 26,
+        "label": "~609 BCE",
+        "sourceIds": [
+          "web-text",
+          "ot-guide-appendix-b"
+        ],
+        "note": "Jer 26:1 dates the temple sermon to the beginning of Jehoiakim's reign, which began in 609."
+      },
+      {
+        "from": 27,
+        "to": 29,
+        "label": "~597 - 593 BCE",
+        "sourceIds": [
+          "web-text",
+          "ot-guide-appendix-b",
+          "livius-abc5"
+        ],
+        "note": "Jer 27:3 and 28:1 point to Zedekiah's 4th year; 29:2 follows the 597 deportation. Zedekiah reigned 597-586."
+      },
+      {
+        "from": 30,
+        "to": 33,
+        "label": "~597 - 587 BCE",
+        "sourceIds": [
+          "bd-jeremiah",
+          "web-text"
+        ],
+        "note": "The Bible Dictionary places 30-33 under Zedekiah. Jer 32:1 dates the field purchase to his 10th year, Nebuchadnezzar's 18th (588/587)."
+      },
+      {
+        "from": 34,
+        "to": 34,
+        "label": "~588 BCE",
+        "sourceIds": [
+          "web-text",
+          "bd-jeremiah"
+        ],
+        "note": "Jer 34:1 sets the oracle during the Babylonian siege, which 52:4 dates to Zedekiah's 9th year."
+      },
+      {
+        "from": 35,
+        "to": 35,
+        "label": "~605 - 598 BCE",
+        "previous": "~601 - 598 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-abc5",
+          "ot-guide-appendix-b"
+        ],
+        "note": "Jer 35 is set under Jehoiakim while Nebuchadnezzar's army was in the land. No opened source fixes the year more closely than 605-598."
+      },
+      {
+        "from": 36,
+        "to": 36,
+        "label": "~605 - 604 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-abc5"
+        ],
+        "note": "Jer 36:1 and 36:9 name Jehoiakim's 4th and 5th years. These match 605/604 by the Babylonian Chronicle synchronism."
+      },
+      {
+        "from": 37,
+        "to": 39,
+        "label": "~588 - 586 BCE",
+        "sourceIds": [
+          "web-text",
+          "bd-jeremiah",
+          "livius-nebuchadnezzar"
+        ],
+        "note": "The siege runs from Zedekiah's 9th to 11th year (39:1-2). Livius dates the fall to 587 or 586; Church sources use 586."
+      },
+      {
+        "from": 40,
+        "to": 44,
+        "label": "~586 - 567 BCE",
+        "previous": "~586 - 580 BCE",
+        "sourceIds": [
+          "bd-jeremiah",
+          "web-text",
+          "livius-apries"
+        ],
+        "note": "These chapters follow the fall and the flight to Egypt. Jer 44:30 names Pharaoh Hophra (Apries), who reigned 589-567. No source supports 580."
+      },
+      {
+        "from": 45,
+        "to": 45,
+        "label": "~605 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-abc5"
+        ],
+        "note": "Jer 45:1 dates Baruch's oracle to Jehoiakim's 4th year (605)."
+      },
+      {
+        "from": 46,
+        "to": 49,
+        "label": "~605 - 597 BCE",
+        "previous": "~605 - 580 BCE",
+        "sourceIds": [
+          "web-text",
+          "bd-jeremiah",
+          "livius-abc5"
+        ],
+        "note": "Only 46:2 (Carchemish, 605) and 49:34 (start of Zedekiah's reign, 597) carry dates. The other oracles are undated."
+      },
+      {
+        "from": 50,
+        "to": 51,
+        "label": "~594 - 539 BCE",
+        "sourceIds": [
+          "web-text",
+          "bd-jeremiah",
+          "hayes-l19"
+        ],
+        "note": "Jer 51:59 links the scroll to Zedekiah's 4th year. The Bible Dictionary says 50-51 are later in present form; Babylon fell about 539."
+      },
+      {
+        "from": 52,
+        "to": 52,
+        "label": "~588 - 561 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-nebuchadnezzar"
+        ],
+        "note": "The chapter runs from the siege to Jehoiachin's release in Evil-merodach's first year. Nebuchadnezzar died in 562."
+      }
+    ],
+    "lamentations": [
+      {
+        "from": 1,
+        "to": 5,
+        "label": "~586 - 539 BCE",
+        "previous": "~586 - 520 BCE",
+        "sourceIds": [
+          "br-lamentations",
+          "bd-lamentations",
+          "hayes-l20",
+          "hayes-l19"
+        ],
+        "note": "Britannica dates the poems to the exile after 586. The Bible Dictionary says some years after the fall. Hayes dates Cyrus's conquest about 539; no source supports 520."
+      }
+    ],
+    "ezekiel": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~593 BCE",
+        "sourceIds": [
+          "hayes-l19",
+          "br-ezekiel",
+          "bd-ezekiel",
+          "web-text"
+        ],
+        "note": "Ezek 1:2 dates the call to the 5th year of Jehoiachin's exile. Hayes and Britannica give 593; the Bible Dictionary gives 592."
+      },
+      {
+        "from": 4,
+        "to": 24,
+        "label": "~593 - 588 BCE",
+        "sourceIds": [
+          "br-ezekiel",
+          "bd-ezekiel",
+          "web-text"
+        ],
+        "note": "Britannica dates the judgment oracles from the call to the fall. Ezek 24:1 (9th year) matches the siege start in 588."
+      },
+      {
+        "from": 25,
+        "to": 32,
+        "label": "~587 - 571 BCE",
+        "sourceIds": [
+          "br-ezekiel",
+          "web-text",
+          "livius-abc5"
+        ],
+        "note": "Britannica puts the foreign oracles about 586-585. Dated verses run from the 10th year (29:1) to the 27th year (29:17), about 571."
+      },
+      {
+        "from": 33,
+        "to": 39,
+        "label": "~585 - 570 BCE",
+        "previous": "~585 - 573 BCE",
+        "sourceIds": [
+          "br-ezekiel",
+          "bd-ezekiel",
+          "hayes-l19",
+          "web-text"
+        ],
+        "note": "Ezek 33:21 reports the fall in the 12th year. Britannica and the Bible Dictionary place restoration oracles after that, with activity to about 570."
+      },
+      {
+        "from": 40,
+        "to": 48,
+        "label": "~573 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-abc5",
+          "bd-ezekiel"
+        ],
+        "note": "Ezek 40:1 dates the temple vision to the 25th year of exile, counted from the 597 deportation."
+      }
+    ],
+    "daniel": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~605 - 562 BCE (setting)",
+        "previous": "~605 - 562 BCE",
+        "sourceIds": [
+          "web-text",
+          "livius-nebuchadnezzar",
+          "br-daniel",
+          "hayes-l23",
+          "bd-daniel"
+        ],
+        "note": "The stories are set under Nebuchadnezzar (605-562); Britannica notes no deportation in 605. Hayes dates chapters 1-6 perhaps to the late 3rd century; tradition says 6th century."
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "label": "~539 BCE (setting)",
+        "previous": "~539 BCE",
+        "sourceIds": [
+          "web-text",
+          "hayes-l23",
+          "hayes-l19",
+          "br-daniel"
+        ],
+        "note": "These stories are set at Babylon's fall (about 539). Hayes says Darius the Mede is unknown to history. The composition view follows chapters 1-4."
+      },
+      {
+        "from": 7,
+        "to": 12,
+        "label": "~167 - 164 BCE (disputed)",
+        "previous": "~167 - 164 BCE",
+        "sourceIds": [
+          "hayes-l23",
+          "br-daniel",
+          "bd-daniel"
+        ],
+        "note": "Hayes and Britannica date the visions to Antiochus IV's persecution, 167-164 BCE. The traditional view dates them to Daniel in the 6th century, as their headings state."
+      }
+    ],
+    "hosea": [
+      {
+        "from": 1,
+        "to": 14,
+        "label": "~750 - 722 BCE",
+        "sourceIds": [
+          "hayes-l17",
+          "br-hosea",
+          "bd-hosea",
+          "hayes-l15"
+        ],
+        "note": "Hayes places Hosea in the 740s-720s, before Israel fell in 722. Britannica and the Bible Dictionary start him late in Jeroboam II's reign."
+      }
+    ],
+    "joel": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "After ~516 BCE (disputed)",
+        "previous": "~500 - 350 BCE",
+        "sourceIds": [
+          "br-joel",
+          "hayes-l23",
+          "bd-joel"
+        ],
+        "note": "Britannica places Joel in the Second Temple period (after 516). Hayes calls it probably the latest prophetic book. The Bible Dictionary allows a date before 850 BC."
+      }
+    ],
+    "amos": [
+      {
+        "from": 1,
+        "to": 9,
+        "label": "~750 BCE",
+        "previous": "~760 - 750 BCE",
+        "sourceIds": [
+          "hayes-l16",
+          "br-amos",
+          "bd-amos"
+        ],
+        "note": "Hayes dates Amos around 750 under Jeroboam II. Britannica and the Bible Dictionary name Jeroboam II and Uzziah. No opened source gives 760."
+      }
+    ],
+    "obadiah": [
+      {
+        "from": 1,
+        "to": 1,
+        "label": "After ~586 BCE (disputed)",
+        "previous": "~586 - 500 BCE",
+        "sourceIds": [
+          "br-obadiah",
+          "bd-obadiah"
+        ],
+        "note": "Britannica says many scholars date it after 586; others allow the 9th century. The Bible Dictionary prefers 586. No source supports an end date of 500."
+      }
+    ],
+    "jonah": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~500 - 300 BCE (written)",
+        "previous": "~500 - 300 BCE",
+        "sourceIds": [
+          "br-jonah",
+          "hayes-l24",
+          "bd-jonah"
+        ],
+        "note": "The story is set under Jeroboam II. Britannica dates the book to the 5th or 4th century; Hayes and the Bible Dictionary call it later than the prophet."
+      }
+    ],
+    "micah": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~740 - 700 BCE",
+        "previous": "~735 - 701 BCE",
+        "sourceIds": [
+          "hayes-l18",
+          "br-micah",
+          "bd-micah",
+          "ot-guide-appendix-b"
+        ],
+        "note": "Hayes dates Micah 740-700. Britannica credits chapters 1-3 to him in the late 8th century."
+      },
+      {
+        "from": 4,
+        "to": 7,
+        "label": "~740 - 500 BCE (disputed)",
+        "previous": "~735 - 500 BCE",
+        "sourceIds": [
+          "br-micah",
+          "hayes-l18"
+        ],
+        "note": "Britannica credits 6:1-7:7 to Micah but dates 4-5 and 7:8-20 generally centuries later. Some promises may come from Micah himself."
+      }
+    ],
+    "nahum": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~664 - 612 BCE",
+        "previous": "~663 - 612 BCE",
+        "sourceIds": [
+          "bd-nahum",
+          "livius-assurbanipal",
+          "br-nahum",
+          "hayes-l18"
+        ],
+        "note": "Nahum 3:8 recalls the fall of Thebes (Livius 664; Bible Dictionary about 660). Britannica and Hayes tie the book to Nineveh's fall in 612."
+      }
+    ],
+    "habakkuk": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~626 - 586 BCE",
+        "previous": "~609 - 597 BCE",
+        "sourceIds": [
+          "br-habakkuk",
+          "hayes-l18",
+          "bd-habakkuk"
+        ],
+        "note": "Britannica allows any time after 626, possibly before 612. Hayes dates it 600 to the destruction; the Bible Dictionary says about 600."
+      }
+    ],
+    "zephaniah": [
+      {
+        "from": 1,
+        "to": 3,
+        "label": "~640 - 609 BCE",
+        "sourceIds": [
+          "br-zephaniah",
+          "hayes-l18",
+          "bd-zephaniah",
+          "ot-guide-appendix-b"
+        ],
+        "note": "Zeph 1:1 names Josiah (640-609). Britannica dates the sayings about 640-630; Hayes puts some before the 622 reform."
+      }
+    ],
+    "haggai": [
+      {
+        "from": 1,
+        "to": 2,
+        "label": "~520 BCE",
+        "sourceIds": [
+          "hayes-l23",
+          "bd-haggai",
+          "br-haggai",
+          "web-text"
+        ],
+        "note": "Hag 1:1 names Darius's 2nd year. Hayes and the Bible Dictionary give 520; Britannica gives 521."
+      }
+    ],
+    "zechariah": [
+      {
+        "from": 1,
+        "to": 8,
+        "label": "~520 - 518 BCE",
+        "sourceIds": [
+          "bd-zechariah",
+          "br-zechariah",
+          "hayes-l23",
+          "web-text"
+        ],
+        "note": "Dated headings run from Darius's 2nd to 4th year. The Bible Dictionary and Britannica give 520-518."
+      },
+      {
+        "from": 9,
+        "to": 14,
+        "label": "~500 - 200 BCE (disputed)",
+        "previous": "~500 - 300 BCE",
+        "sourceIds": [
+          "hayes-l23",
+          "br-zechariah",
+          "bd-zechariah"
+        ],
+        "note": "Hayes dates 9-14 to the 5th century or later. Britannica dates 9-11 and 12-14 to the 4th and 3rd centuries. The Bible Dictionary treats them as Zechariah's."
+      }
+    ],
+    "malachi": [
+      {
+        "from": 1,
+        "to": 4,
+        "label": "~516 - 430 BCE",
+        "previous": "~500 - 450 BCE",
+        "sourceIds": [
+          "br-malachi",
+          "bd-malachi"
+        ],
+        "note": "Britannica dates it after the 516 temple and before about 450. The Bible Dictionary gives about 430. The range covers both."
+      }
+    ]
+  }
+}

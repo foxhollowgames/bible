@@ -3313,5 +3313,27 @@
       "verse": 8,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 9,
+      "label": "~400 - 300 BCE"
+    },
+    {
+      "from": 10,
+      "to": 24,
+      "label": "After ~700 BCE (disputed)"
+    },
+    {
+      "from": 25,
+      "to": 29,
+      "label": "~715 - 686 BCE"
+    },
+    {
+      "from": 30,
+      "to": 31,
+      "label": "Date unknown"
+    }
   ]
 }

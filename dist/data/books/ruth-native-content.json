@@ -1829,5 +1829,12 @@
       "color": "#9a5b3c",
       "selectedBorder": "#55301e"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 4,
+      "label": "~1200 - 1000 BCE"
+    }
+  ]
 }

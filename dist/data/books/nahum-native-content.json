@@ -1421,5 +1421,12 @@
       "verse": 19,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "~664 - 612 BCE"
+    }
   ]
 }

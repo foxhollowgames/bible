@@ -3042,5 +3042,17 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "~740 - 700 BCE"
+    },
+    {
+      "from": 4,
+      "to": 7,
+      "label": "~740 - 500 BCE (disputed)"
+    }
+  ]
 }

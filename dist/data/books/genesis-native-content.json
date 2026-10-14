@@ -10051,5 +10051,22 @@
       "color": "#6b7f4e",
       "selectedBorder": "#3b4729"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 11,
+      "label": "Undated (primeval history)"
+    },
+    {
+      "from": 12,
+      "to": 36,
+      "label": "Undated (ancestral stories)"
+    },
+    {
+      "from": 37,
+      "to": 50,
+      "label": "Undated (Joseph story)"
+    }
+  ]
 }

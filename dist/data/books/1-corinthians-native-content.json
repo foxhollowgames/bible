@@ -5070,5 +5070,12 @@
       "color": "#7b2f45",
       "selectedBorder": "#431726"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 16,
+      "label": "~53 - 56 CE"
+    }
+  ]
 }

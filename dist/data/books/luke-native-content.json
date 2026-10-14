@@ -7683,5 +7683,22 @@
       "color": "#4f8278",
       "selectedBorder": "#285047"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 2,
+      "label": "~7 BCE - 8 CE"
+    },
+    {
+      "from": 3,
+      "to": 21,
+      "label": "~27 - 33 CE"
+    },
+    {
+      "from": 22,
+      "to": 24,
+      "label": "~30 - 33 CE"
+    }
+  ]
 }

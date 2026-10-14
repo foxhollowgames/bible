@@ -3084,5 +3084,12 @@
       "color": "#7b2f45",
       "selectedBorder": "#431726"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 4,
+      "label": "~60 CE or later (disputed)"
+    }
+  ]
 }

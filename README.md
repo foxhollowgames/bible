@@ -131,6 +131,9 @@ Maintain the final six books' authored summaries in `scripts/book-summaries-fina
 Maintain the preceding seven letters' summaries in `scripts/book-summaries-letters.json`.
 Rebuild their base records with `python scripts/build-reviewed-letter.py <id> --ready` before the native build.
 Maintain short guide selections and museum metadata in `scripts/book_context.py`.
+Maintain the chapter date labels in `scripts/book-date-bands.json`. The source review for each label is in `scripts/book-date-review/`. It was done on October 14, 2026, with Yale lecture transcripts, Church Bible Dictionary and manual tables, BYU Religious Studies Center chapters, Bible Odyssey, Britannica, and Livius. A changed label needs a new review record.
+Each label is a broad scholarly estimate, not a certain date.
+Run `python scripts/book_dates.py` to update only the labels in the reader data.
 Rebuild with `python scripts/build-native-books.py`.
 The build requires exactly one contextual row per ready chapter.
 Run both `npm run check` and `npm run check:bible` before publishing.

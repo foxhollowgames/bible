@@ -2096,5 +2096,12 @@
       "verse": 7,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 8,
+      "label": "After ~500 BCE (final form)"
+    }
   ]
 }

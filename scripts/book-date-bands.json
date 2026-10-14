@@ -1,0 +1,280 @@
+{
+  "genesis": [
+    {"from": 1, "to": 11, "label": "Undated (primeval history)"},
+    {"from": 12, "to": 36, "label": "Undated (ancestral stories)"},
+    {"from": 37, "to": 50, "label": "Undated (Joseph story)"}
+  ],
+  "exodus": [
+    {"from": 1, "to": 40, "label": "~1300 - 1200 BCE (disputed)"}
+  ],
+  "leviticus": [
+    {"from": 1, "to": 27, "label": "~1300 - 1200 BCE (disputed)"}
+  ],
+  "numbers": [
+    {"from": 1, "to": 36, "label": "~1300 - 1200 BCE (disputed)"}
+  ],
+  "deuteronomy": [
+    {"from": 1, "to": 34, "label": "~1300 - 1200 BCE (disputed)"}
+  ],
+  "joshua": [
+    {"from": 1, "to": 24, "label": "~1250 - 1200 BCE (disputed)"}
+  ],
+  "judges": [
+    {"from": 1, "to": 21, "label": "~1200 - 1000 BCE"}
+  ],
+  "ruth": [
+    {"from": 1, "to": 4, "label": "~1200 - 1000 BCE"}
+  ],
+  "1-samuel": [
+    {"from": 1, "to": 7, "label": "~1100 - 1000 BCE"},
+    {"from": 8, "to": 31, "label": "~1021 - 1000 BCE"}
+  ],
+  "2-samuel": [
+    {"from": 1, "to": 24, "label": "~1000 - 970 BCE"}
+  ],
+  "1-kings": [
+    {"from": 1, "to": 2, "label": "~970 BCE"},
+    {"from": 3, "to": 11, "label": "~970 - 930 BCE"},
+    {"from": 12, "to": 14, "label": "~930 - 909 BCE"},
+    {"from": 15, "to": 16, "label": "~913 - 874 BCE"},
+    {"from": 17, "to": 21, "label": "~874 - 853 BCE"},
+    {"from": 22, "to": 22, "label": "~853 - 848 BCE"}
+  ],
+  "2-kings": [
+    {"from": 1, "to": 1, "label": "~852 BCE"},
+    {"from": 2, "to": 8, "label": "~852 - 841 BCE"},
+    {"from": 9, "to": 9, "label": "~841 BCE"},
+    {"from": 10, "to": 10, "label": "~841 - 814 BCE"},
+    {"from": 11, "to": 12, "label": "~841 - 796 BCE"},
+    {"from": 13, "to": 14, "label": "~814 - 753 BCE"},
+    {"from": 15, "to": 15, "label": "~792 - 732 BCE"},
+    {"from": 16, "to": 16, "label": "~735 - 715 BCE"},
+    {"from": 17, "to": 17, "label": "~732 - 722 BCE"},
+    {"from": 18, "to": 18, "label": "~715 - 701 BCE"},
+    {"from": 19, "to": 19, "label": "~701 - 681 BCE"},
+    {"from": 20, "to": 20, "label": "~715 - 686 BCE"},
+    {"from": 21, "to": 21, "label": "~697 - 640 BCE"},
+    {"from": 22, "to": 22, "label": "~640 - 622 BCE"},
+    {"from": 23, "to": 23, "label": "~622 - 609 BCE"},
+    {"from": 24, "to": 24, "label": "~609 - 597 BCE"},
+    {"from": 25, "to": 25, "label": "~588 - 561 BCE"}
+  ],
+  "1-chronicles": [
+    {"from": 1, "to": 9, "label": "Undated (genealogies)"},
+    {"from": 10, "to": 10, "label": "~1000 BCE"},
+    {"from": 11, "to": 29, "label": "~1000 - 970 BCE"}
+  ],
+  "2-chronicles": [
+    {"from": 1, "to": 9, "label": "~970 - 930 BCE"},
+    {"from": 10, "to": 12, "label": "~930 - 913 BCE"},
+    {"from": 13, "to": 13, "label": "~913 - 910 BCE"},
+    {"from": 14, "to": 16, "label": "~910 - 869 BCE"},
+    {"from": 17, "to": 20, "label": "~872 - 848 BCE"},
+    {"from": 21, "to": 23, "label": "~853 - 835 BCE"},
+    {"from": 24, "to": 24, "label": "~835 - 796 BCE"},
+    {"from": 25, "to": 25, "label": "~796 - 767 BCE"},
+    {"from": 26, "to": 26, "label": "~792 - 740 BCE"},
+    {"from": 27, "to": 27, "label": "~750 - 732 BCE"},
+    {"from": 28, "to": 28, "label": "~735 - 715 BCE"},
+    {"from": 29, "to": 31, "label": "~715 - 686 BCE"},
+    {"from": 32, "to": 32, "label": "~701 - 681 BCE"},
+    {"from": 33, "to": 33, "label": "~697 - 640 BCE"},
+    {"from": 34, "to": 35, "label": "~640 - 609 BCE"},
+    {"from": 36, "to": 36, "label": "~609 - 538 BCE"}
+  ],
+  "ezra": [
+    {"from": 1, "to": 6, "label": "~538 - 515 BCE"},
+    {"from": 7, "to": 10, "label": "~458 BCE (disputed)"}
+  ],
+  "nehemiah": [
+    {"from": 1, "to": 12, "label": "~445 - 432 BCE"},
+    {"from": 13, "to": 13, "label": "~432 BCE or later"}
+  ],
+  "esther": [
+    {"from": 1, "to": 10, "label": "~483 - 473 BCE (setting)"}
+  ],
+  "job": [
+    {"from": 1, "to": 2, "label": "Before ~600 BCE (disputed)"},
+    {"from": 3, "to": 42, "label": "~600 - 300 BCE (disputed)"}
+  ],
+  "psalms": [
+    {"from": 1, "to": 150, "label": "~1000 - 300 BCE"}
+  ],
+  "proverbs": [
+    {"from": 1, "to": 9, "label": "~400 - 300 BCE"},
+    {"from": 10, "to": 24, "label": "After ~700 BCE (disputed)"},
+    {"from": 25, "to": 29, "label": "~715 - 686 BCE"},
+    {"from": 30, "to": 31, "label": "Date unknown"}
+  ],
+  "ecclesiastes": [
+    {"from": 1, "to": 12, "label": "~400 - 200 BCE"}
+  ],
+  "song-of-solomon": [
+    {"from": 1, "to": 8, "label": "After ~500 BCE (final form)"}
+  ],
+  "jeremiah": [
+    {"from": 1, "to": 6, "label": "~627 - 609 BCE"},
+    {"from": 7, "to": 20, "label": "~609 - 598 BCE"},
+    {"from": 21, "to": 24, "label": "~609 - 588 BCE"},
+    {"from": 25, "to": 25, "label": "~605 BCE"},
+    {"from": 26, "to": 26, "label": "~609 BCE"},
+    {"from": 27, "to": 29, "label": "~597 - 593 BCE"},
+    {"from": 30, "to": 33, "label": "~597 - 587 BCE"},
+    {"from": 34, "to": 34, "label": "~588 BCE"},
+    {"from": 35, "to": 35, "label": "~605 - 598 BCE"},
+    {"from": 36, "to": 36, "label": "~605 - 604 BCE"},
+    {"from": 37, "to": 39, "label": "~588 - 586 BCE"},
+    {"from": 40, "to": 44, "label": "~586 - 567 BCE"},
+    {"from": 45, "to": 45, "label": "~605 BCE"},
+    {"from": 46, "to": 49, "label": "~605 - 597 BCE"},
+    {"from": 50, "to": 51, "label": "~594 - 539 BCE"},
+    {"from": 52, "to": 52, "label": "~588 - 561 BCE"}
+  ],
+  "lamentations": [
+    {"from": 1, "to": 5, "label": "~586 - 539 BCE"}
+  ],
+  "ezekiel": [
+    {"from": 1, "to": 3, "label": "~593 BCE"},
+    {"from": 4, "to": 24, "label": "~593 - 588 BCE"},
+    {"from": 25, "to": 32, "label": "~587 - 571 BCE"},
+    {"from": 33, "to": 39, "label": "~585 - 570 BCE"},
+    {"from": 40, "to": 48, "label": "~573 BCE"}
+  ],
+  "daniel": [
+    {"from": 1, "to": 4, "label": "~605 - 562 BCE (setting)"},
+    {"from": 5, "to": 6, "label": "~539 BCE (setting)"},
+    {"from": 7, "to": 12, "label": "~167 - 164 BCE (disputed)"}
+  ],
+  "hosea": [
+    {"from": 1, "to": 14, "label": "~750 - 722 BCE"}
+  ],
+  "joel": [
+    {"from": 1, "to": 3, "label": "After ~516 BCE (disputed)"}
+  ],
+  "amos": [
+    {"from": 1, "to": 9, "label": "~750 BCE"}
+  ],
+  "obadiah": [
+    {"from": 1, "to": 1, "label": "After ~586 BCE (disputed)"}
+  ],
+  "jonah": [
+    {"from": 1, "to": 4, "label": "~500 - 300 BCE (written)"}
+  ],
+  "micah": [
+    {"from": 1, "to": 3, "label": "~740 - 700 BCE"},
+    {"from": 4, "to": 7, "label": "~740 - 500 BCE (disputed)"}
+  ],
+  "nahum": [
+    {"from": 1, "to": 3, "label": "~664 - 612 BCE"}
+  ],
+  "habakkuk": [
+    {"from": 1, "to": 3, "label": "~626 - 586 BCE"}
+  ],
+  "zephaniah": [
+    {"from": 1, "to": 3, "label": "~640 - 609 BCE"}
+  ],
+  "haggai": [
+    {"from": 1, "to": 2, "label": "~520 BCE"}
+  ],
+  "zechariah": [
+    {"from": 1, "to": 8, "label": "~520 - 518 BCE"},
+    {"from": 9, "to": 14, "label": "~500 - 200 BCE (disputed)"}
+  ],
+  "malachi": [
+    {"from": 1, "to": 4, "label": "~516 - 430 BCE"}
+  ],
+  "matthew": [
+    {"from": 1, "to": 2, "label": "~6 - 4 BCE"},
+    {"from": 3, "to": 25, "label": "~27 - 33 CE"},
+    {"from": 26, "to": 28, "label": "~30 - 33 CE"}
+  ],
+  "mark": [
+    {"from": 1, "to": 13, "label": "~27 - 33 CE"},
+    {"from": 14, "to": 16, "label": "~30 - 33 CE"}
+  ],
+  "luke": [
+    {"from": 1, "to": 2, "label": "~7 BCE - 8 CE"},
+    {"from": 3, "to": 21, "label": "~27 - 33 CE"},
+    {"from": 22, "to": 24, "label": "~30 - 33 CE"}
+  ],
+  "john": [
+    {"from": 1, "to": 12, "label": "~27 - 33 CE"},
+    {"from": 13, "to": 21, "label": "~30 - 33 CE"}
+  ],
+  "acts": [
+    {"from": 1, "to": 7, "label": "~30 - 34 CE"},
+    {"from": 8, "to": 12, "label": "~34 - 44 CE"},
+    {"from": 13, "to": 14, "label": "~45 - 49 CE"},
+    {"from": 15, "to": 15, "label": "~49 - 50 CE"},
+    {"from": 16, "to": 18, "label": "~49 - 53 CE"},
+    {"from": 19, "to": 20, "label": "~53 - 57 CE"},
+    {"from": 21, "to": 26, "label": "~57 - 60 CE"},
+    {"from": 27, "to": 28, "label": "~58 - 62 CE"}
+  ],
+  "romans": [
+    {"from": 1, "to": 16, "label": "~55 - 57 CE"}
+  ],
+  "1-corinthians": [
+    {"from": 1, "to": 16, "label": "~53 - 56 CE"}
+  ],
+  "2-corinthians": [
+    {"from": 1, "to": 13, "label": "~55 - 56 CE"}
+  ],
+  "galatians": [
+    {"from": 1, "to": 6, "label": "~49 - 56 CE"}
+  ],
+  "ephesians": [
+    {"from": 1, "to": 6, "label": "~60 CE or later (disputed)"}
+  ],
+  "philippians": [
+    {"from": 1, "to": 4, "label": "~58 - 62 CE"}
+  ],
+  "colossians": [
+    {"from": 1, "to": 4, "label": "~60 CE or later (disputed)"}
+  ],
+  "1-thessalonians": [
+    {"from": 1, "to": 5, "label": "~50 - 52 CE"}
+  ],
+  "2-thessalonians": [
+    {"from": 1, "to": 3, "label": "~51 CE or later (disputed)"}
+  ],
+  "1-timothy": [
+    {"from": 1, "to": 6, "label": "~60s CE or 2nd century (disputed)"}
+  ],
+  "2-timothy": [
+    {"from": 1, "to": 4, "label": "~60s CE or 2nd century (disputed)"}
+  ],
+  "titus": [
+    {"from": 1, "to": 3, "label": "~60s CE or 2nd century (disputed)"}
+  ],
+  "philemon": [
+    {"from": 1, "to": 1, "label": "~58 - 62 CE"}
+  ],
+  "hebrews": [
+    {"from": 1, "to": 13, "label": "~60 - 100 CE"}
+  ],
+  "james": [
+    {"from": 1, "to": 5, "label": "Date unknown (disputed)"}
+  ],
+  "1-peter": [
+    {"from": 1, "to": 5, "label": "~60 - 100 CE"}
+  ],
+  "2-peter": [
+    {"from": 1, "to": 3, "label": "~60s CE or 2nd century (disputed)"}
+  ],
+  "1-john": [
+    {"from": 1, "to": 5, "label": "~70 - 100 CE"}
+  ],
+  "2-john": [
+    {"from": 1, "to": 1, "label": "~70 - 100 CE"}
+  ],
+  "3-john": [
+    {"from": 1, "to": 1, "label": "~70 - 100 CE"}
+  ],
+  "jude": [
+    {"from": 1, "to": 1, "label": "Date unknown"}
+  ],
+  "revelation": [
+    {"from": 1, "to": 22, "label": "~68 - 96 CE"}
+  ]
+}

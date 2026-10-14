@@ -6343,5 +6343,12 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 24,
+      "label": "~1250 - 1200 BCE (disputed)"
+    }
+  ]
 }

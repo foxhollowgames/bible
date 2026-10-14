@@ -676,5 +676,12 @@
       "verse": 4,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 5,
+      "label": "Date unknown (disputed)"
+    }
   ]
 }

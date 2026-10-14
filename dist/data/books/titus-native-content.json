@@ -2339,5 +2339,12 @@
       "color": "#7b2f45",
       "selectedBorder": "#431726"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "~60s CE or 2nd century (disputed)"
+    }
+  ]
 }

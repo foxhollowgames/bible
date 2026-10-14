@@ -2663,5 +2663,12 @@
       "verse": 3,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 10,
+      "label": "~483 - 473 BCE (setting)"
+    }
   ]
 }

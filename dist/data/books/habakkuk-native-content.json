@@ -1681,5 +1681,12 @@
       "verse": 18,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 3,
+      "label": "~626 - 586 BCE"
+    }
   ]
 }

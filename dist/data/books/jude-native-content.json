@@ -411,5 +411,12 @@
       "verse": 22,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 1,
+      "label": "Date unknown"
+    }
   ]
 }

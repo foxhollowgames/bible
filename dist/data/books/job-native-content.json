@@ -4730,5 +4730,17 @@
       "verse": 7,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 2,
+      "label": "Before ~600 BCE (disputed)"
+    },
+    {
+      "from": 3,
+      "to": 42,
+      "label": "~600 - 300 BCE (disputed)"
+    }
   ]
 }

@@ -3293,5 +3293,17 @@
       "verse": 20,
       "context": ""
     }
+  ],
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 8,
+      "label": "~520 - 518 BCE"
+    },
+    {
+      "from": 9,
+      "to": 14,
+      "label": "~500 - 200 BCE (disputed)"
+    }
   ]
 }

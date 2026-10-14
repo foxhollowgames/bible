@@ -8571,5 +8571,22 @@
       "color": "#a3423a",
       "selectedBorder": "#5b221d"
     }
-  }
+  },
+  "chapterDateBands": [
+    {
+      "from": 1,
+      "to": 9,
+      "label": "Undated (genealogies)"
+    },
+    {
+      "from": 10,
+      "to": 10,
+      "label": "~1000 BCE"
+    },
+    {
+      "from": 11,
+      "to": 29,
+      "label": "~1000 - 970 BCE"
+    }
+  ]
 }
