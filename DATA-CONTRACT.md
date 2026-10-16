@@ -47,7 +47,7 @@ The current guide contains Isaiah 1–66, with 1,292 verses. Every verse belongs
 
 Passage `year` can be `null` when no event year is assigned. The map then keeps its independent reference date and labels that distinction. Historical map events retain the range 780–539 BCE. This range does not cover every proposed composition period. Source chapter URLs use two digits, such as `ISA01.htm`.
 
-The chapter selector supports all 66 chapters on desktop and mobile. Previous and Next stop at the book boundaries. Word associations remain selected rather than comprehensive. New Hebrew-only notes use an empty `greek` field.
+The chapter selector supports all 66 chapters on desktop and mobile. At a book boundary, Previous opens the last chapter of the previous book. Next opens chapter 1 of the next book. They stop at Genesis 1 and Revelation 22. Word associations remain selected rather than comprehensive. New Hebrew-only notes use an empty `greek` field.
 
 The original pilot specification below documents the starting design. The full-book extension above supersedes its chapter, passage-date, guide-count, and word-count limits.
 
