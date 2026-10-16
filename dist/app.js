@@ -1,11 +1,11 @@
-import { initChapterPicker } from './chapter-picker.js?v=20261013.1';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261013.1';
-import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261013.1';
-import { initModalDragging } from './modal-drag.js?v=20261013.1';
-import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261013.1';
+import { initChapterPicker } from './chapter-picker.js?v=20261016.1';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261016.1';
+import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261016.1';
+import { initModalDragging } from './modal-drag.js?v=20261016.1';
+import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261016.1';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261013.1';
+const releaseVersion = '20261016.1';
 // One reader serves every book. native-book.js names the book. The book's content file supplies its settings.
 const book = { id: '', name: '', bibleCode: '', chapterCount: 0, chapterDigits: 2, ...globalThis.studyBook };
 const storageKey = `${book.id}-native-study-state`;
@@ -187,7 +187,9 @@ function buildStaticUi() {
   initTimelineTooltip();
   const layerOptions = ensureLayerOptions();
   if (!layerOptions) throw new Error('Map layer controls are unavailable.');
-  layerOptions.innerHTML = [['places','Places','place'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}"><span class="layer-swatch ${kind}"></span>${label}</label>`).join('');
+  // The Places icon shows the same dots the map draws: large for this chapter, small for other places.
+  const placeIcon = `<span class="layer-swatch place-dots" title="Large blue dot: a place in this chapter. Small dot: another place.">${placeDotSvg({ relevant: true })}${placeDotSvg({ mentioned: false })}</span>`;
+  layerOptions.innerHTML = [['places','Places','place-dots'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}">${kind === 'place-dots' ? placeIcon : `<span class="layer-swatch ${kind}"></span>`}<span>${label}</span></label>`).join('');
   $('#periods').innerHTML = data.periods.slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
@@ -994,6 +996,15 @@ function displayedCampaigns() {
 }
 function chapterPlaceVisible(p) { return !p.chapterLocation || chapterFocus(data, state.chapter)?.placeIds.includes(p.id); }
 function placeMentionedInChapter(place) { return !!placeVerseInChapter(place, state.chapter); }
+// One style for each place dot. The map markers and the layer panel icons both use it.
+function placeDotStyle({ active = false, relevant = false, mentioned = true } = {}) {
+  return { radius: active ? 8 : relevant ? 6.5 : 4, color: active ? '#fff' : '#fff4dc', weight: active ? 3 : 2, fillColor: active || relevant ? '#0877c4' : '#594530', fillOpacity: mentioned ? 1 : .72 };
+}
+function placeDotSvg(options) {
+  // Leaflet rounds a circle marker's radius, so the icon does too.
+  const s = placeDotStyle(options), r = Math.max(Math.round(s.radius), 1), size = 2 * r + s.weight, c = size / 2;
+  return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" aria-hidden="true" focusable="false"><circle cx="${c}" cy="${c}" r="${r}" stroke="${s.color}" stroke-width="${s.weight}" fill="${s.fillColor}" fill-opacity="${s.fillOpacity}"/></svg>`;
+}
 function regionMentionedInChapter(region) {
   const text = (scripture.chapters[state.chapter] || []).map(verse => verse.text).join(' ');
   const patterns = {
@@ -1047,9 +1058,10 @@ function drawOverlays() {
   });
   if (state.layers.places) data.places.filter(p => datedMap() ? visibleAt(p) : chapterPlaceVisible(p)).forEach(p => {
     const mentioned = placeMentionedInChapter(p);
-    const layer = feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places',radius:mentioned ? 6 : 4, color:mentioned ? '#fff4dc' : '#9bb2b7', weight:mentioned ? 2.5 : 1.25, fillColor:mentioned ? '#594530' : '#304c55', fillOpacity:mentioned ? 1 : .72}), p);
-    layer.setRadius(mentioned ? 6 : 4);
-    layer.setStyle({color:mentioned ? '#fff4dc' : '#9bb2b7',weight:mentioned ? 2.5 : 1.25,fillColor:mentioned ? '#594530' : '#304c55',fillOpacity:mentioned ? 1 : .72});
+    const style = placeDotStyle({ relevant: chapterFocus(data, state.chapter)?.focusPlaceIds.includes(p.id), mentioned });
+    const layer = feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places', ...style}), p);
+    layer.setRadius(style.radius);
+    layer.setStyle(style);
     layer.getElement()?.classList.toggle('chapter-relevant-place', mentioned);
   });
   if (state.layers.places && state.studyMode === 'read') chapterImpacts().forEach(p => {
@@ -1185,8 +1197,9 @@ function syncMapSelection() {
     const relevant = chapterFocus(data, state.chapter)?.focusPlaceIds.includes(place.id);
     const marker = mapFeatures.get(`place:${place.id}`)?.layer;
     marker?.getElement()?.setAttribute('tabindex', labelFeatures.get(place.id)?.visible ? '-1' : '0');
-    marker?.setRadius(active ? 8 : relevant ? 6.5 : 4);
-    marker?.setStyle({color:active ? '#fff' : '#fff4dc', weight:active ? 3 : 2, fillColor:active || relevant ? '#0877c4' : '#594530'});
+    const style = placeDotStyle({ active, relevant, mentioned: placeMentionedInChapter(place) });
+    marker?.setRadius(style.radius);
+    marker?.setStyle(style);
     for (const layer of [marker, labelFeatures.get(place.id)?.layer]) {
       const el = layer?.getElement();
       el?.classList.toggle('selected-place', active);
