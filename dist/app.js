@@ -188,7 +188,7 @@ function buildStaticUi() {
   const layerOptions = ensureLayerOptions();
   if (!layerOptions) throw new Error('Map layer controls are unavailable.');
   // The Places icon shows the same dots the map draws: large for this chapter, small for other places.
-  const placeIcon = `<span class="layer-swatch place-dots" title="Large blue dot: a place in this chapter. Small dot: another place.">${placeDotSvg({ relevant: true })}${placeDotSvg({ mentioned: false })}</span>`;
+  const placeIcon = `<span class="layer-swatch place-dots">${placeDotSvg({ relevant: true })}${placeDotSvg({ mentioned: false })}</span>`;
   layerOptions.innerHTML = [['places','Places','place-dots'],['regions','Areas','region'],['campaigns','Paths','route'],['roads','Ancient roads','road'],['history','Nations','region']].filter(([key]) => ({places:data.places.length, regions:data.narrativeRegions?.length, campaigns:data.textRoutes?.length || data.campaigns.length, roads:data.ancientRoads.length, history:data.regions.length})[key]).map(([key,label,kind]) => `<label class="layer-option"><input type="checkbox" data-layer="${key}">${kind === 'place-dots' ? placeIcon : `<span class="layer-swatch ${kind}"></span>`}<span>${label}</span></label>`).join('');
   $('#periods').innerHTML = data.periods.slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
