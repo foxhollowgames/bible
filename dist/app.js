@@ -11,6 +11,8 @@ const book = { id: '', name: '', bibleCode: '', chapterCount: 0, chapterDigits: 
 const storageKey = `${book.id}-native-study-state`;
 const dataFile = part => `data/books/${book.id}-${part}.json`;
 let chapters = [];
+// Chapters with a path, story area, or place of loss on the map. The scrubber and the event buttons step through these.
+let mapEvents = [];
 // A book with dated events has a date timeline. Other books use chapter order.
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 // Menu choices apply to every book. The rest of the state belongs to this book.
@@ -151,6 +153,7 @@ async function load() {
   if (results[1].status === 'fulfilled') scripture = results[1].value;
   Object.assign(book, data.book);
   chapters = Array.from({ length: book.chapterCount }, (_, i) => i + 1);
+  mapEvents = chapters.filter(isEventChapter);
   if (book.timeline) {
     defaults.date = book.timeline.default;
     if (!(state.date >= book.timeline.start && state.date <= book.timeline.end)) state.date = defaults.date;
@@ -198,9 +201,9 @@ function buildStaticUi() {
     range.addEventListener('input', e => { state.date = Number(e.target.value); renderTimeline(); drawOverlays(); persist(); });
     range.addEventListener('change', () => { if (!isPassageDate()) showToast('The map now shows your date. Select Return to passage to go back.'); });
   } else {
-    // These are chapter sections, not years.
-    range.min = 1; range.max = chapters.length; range.setAttribute('aria-label', 'Chapter in narrative order');
-    range.addEventListener('input', e => { selectChapter(Number(e.target.value)); focusChapterMap(); });
+    // Each step is a map event, not a year. A book without map events steps through its chapters.
+    range.min = 0; range.max = scrubChapters().length - 1; range.setAttribute('aria-label', mapEvents.length ? 'Map event in narrative order' : 'Chapter in narrative order');
+    range.addEventListener('input', e => { const chapter = scrubChapters()[Number(e.target.value)]; if (chapter && chapter !== state.chapter) selectChapter(chapter); focusChapterMap(); });
   }
   $('#libraryDialog .dialog-close').addEventListener('click', () => hideModalPanel($('#libraryDialog')));
   $('#sourceDialog .dialog-close').addEventListener('click', () => hideModalPanel($('#sourceDialog')));
@@ -317,6 +320,7 @@ function selectPeriod(p) {
 function onChange(e) { if (e.target.matches('[data-layer]')) { state.layers[e.target.dataset.layer] = e.target.checked; drawOverlays(); persist(); } if (e.target.matches('[data-passage-select]')) selectPassage(e.target.value); if (e.target.matches('[data-chapter-select]')) selectChapter(Number(e.target.value)); }
 function performAction(action, id) {
   if (action === 'chapter-prev' || action === 'chapter-next') { const i = chapters.indexOf(state.chapter); const next = chapters[i + (action === 'chapter-prev' ? -1 : 1)]; if (next) selectChapter(next); return; }
+  if (action === 'event-prev' || action === 'event-next') { const next = adjacentMapEvent(action === 'event-prev' ? -1 : 1); if (next) selectChapter(next); return; }
   if (action === 'focus-chapter') focusChapterMap();
   if (action === 'story-route') {
     const route = focusedRoutes().find(r=>r.id === id);
@@ -389,9 +393,30 @@ function renderScripture() {
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
   const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>${esc(book.name)} ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} chapter, current chapter ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only chapter`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === chapters.length ? 'disabled' : ''}>›</button></div>${body}`;
+  const prevEvent = adjacentMapEvent(-1), nextEvent = adjacentMapEvent(1);
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading">${mapEventButtonHtml(-1, prevEvent)}<button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} chapter, current chapter ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only chapter`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === chapters.length ? 'disabled' : ''}>›</button>${mapEventButtonHtml(1, nextEvent)}</div>${body}`;
   initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
+}
+// A map event is a chapter that draws a path, a story area, or a place of loss.
+// A chapter that only names towns is not a map event.
+function isEventChapter(chapter) {
+  const focus = chapterFocus(data, chapter);
+  if (!focus) return false;
+  if (focus.impacts?.some(item => data.places.some(p => p.id === item.placeId))) return true;
+  if (focus.routes?.some(ref => [...data.campaigns, ...(data.textRoutes || [])].some(route => route.id === ref.id))) return true;
+  return (data.narrativeRegions || []).some(region => focus.placeIds?.includes(region.placeId));
+}
+function adjacentMapEvent(direction, chapter = state.chapter) {
+  return direction < 0 ? mapEvents.findLast(c => c < chapter) : mapEvents.find(c => c > chapter);
+}
+// A map pin beside a chevron marks a jump to the next map event, not the next chapter.
+function mapEventButtonHtml(direction, target) {
+  if (!mapEvents.length) return '';
+  const label = `${direction < 0 ? 'Previous' : 'Next'} map event${target ? `: ${book.name} ${target}` : ''}`;
+  const chevron = direction < 0 ? '<path d="M8 7 3 12l5 5"/>' : '<path d="m16 7 5 5-5 5"/>';
+  const pin = direction < 0 ? '<path d="M15.5 20s-5-4.3-5-8.5a5 5 0 0 1 10 0c0 4.2-5 8.5-5 8.5z"/><circle cx="15.5" cy="11.5" r="1.7"/>' : '<path d="M8.5 20s-5-4.3-5-8.5a5 5 0 0 1 10 0c0 4.2-5 8.5-5 8.5z"/><circle cx="8.5" cy="11.5" r="1.7"/>';
+  return `<button class="sidebar-event" data-action="event-${direction < 0 ? 'prev' : 'next'}" aria-label="${esc(label)}" title="${esc(label)}" ${target ? '' : 'disabled'}><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${chevron}${pin}</svg></button>`;
 }
 function chapterSourceIds(chapter = state.chapter) {
   return [...new Set(data.passages.filter(p => p.chapter === chapter).flatMap(p => [
@@ -505,9 +530,10 @@ function scrollVerse(verse, focus = true) {
 function isPassageDate() { const p = activePassage(); return !p?.year || state.date === p.year; }
 function renderTimeline() {
   if (!book.timeline) {
-    $('#timelineRange').value = state.chapter;
+    const steps = scrubChapters(), position = steps.indexOf(state.chapter);
+    $('#timelineRange').value = scrubIndex();
     $('#timelineRange').setAttribute('aria-valuetext', `${book.name} ${state.chapter}`);
-    $('#timelineChapter').textContent = 'Chapter order';
+    $('#timelineChapter').textContent = !mapEvents.length ? 'Chapter order' : position >= 0 ? `Map event ${position + 1} of ${steps.length}` : `Between map events · ${steps.length} in all`;
     $('#dateLabel').value = `${book.name} ${state.chapter} · ${activePassage()?.title || ''}`;
     $('#returnPassage').classList.add('hidden');
     $('#timelineTooltip').textContent = `${book.name} ${state.chapter}`;
@@ -521,11 +547,15 @@ function renderTimeline() {
   $('#returnPassage').classList.toggle('hidden', follow || !p?.year);
   $('#timelineTooltip').textContent = `${Math.abs(state.date)} BCE`;
 }
+// The chapter-order scrubber steps through map events. A book without map events uses every chapter.
+function scrubChapters() { return mapEvents.length ? mapEvents : chapters; }
+// A chapter between events keeps the handle on the event before it.
+function scrubIndex(chapter = state.chapter) { const steps = scrubChapters(); return Math.max(0, steps.findLastIndex(c => c <= chapter)); }
 function initTimelineTooltip() {
   const range = $('#timelineRange'), tooltip = $('#timelineTooltip');
   let pointerId = null;
   function position(event) {
-    tooltip.textContent = book.timeline ? `${Math.abs(Number(range.value))} BCE` : `${book.name} ${range.value}`;
+    tooltip.textContent = book.timeline ? `${Math.abs(Number(range.value))} BCE` : `${book.name} ${scrubChapters()[Number(range.value)] ?? ''}`;
     tooltip.hidden = false;
     tooltip.style.left = `${Math.max(8, Math.min(event.clientX - tooltip.offsetWidth / 2, innerWidth - tooltip.offsetWidth - 8))}px`;
     tooltip.style.top = `${Math.max(8, event.clientY - tooltip.offsetHeight - 16)}px`;
