@@ -24,7 +24,7 @@ function publisherChapter(chapter) { return `https://ebible.org/engwebp/${book.b
 function readSaved() { try { return JSON.parse(localStorage.getItem(storageKey)) || {}; } catch { return {}; } }
 function persist() { try { localStorage.setItem(storageKey, JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} savePreferences(state); updateUrl(); }
 function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, study: state.studyMode, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
-function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); if (['read','map'].includes(p.get('study'))) state.studyMode = p.get('study'); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
+function parseUrl() { const p = new URLSearchParams(location.hash.slice(1)); if (['read','map'].includes(p.get('study'))) state.studyMode = p.get('study'); for (const key of ['chapter', 'verse']) if (p.has(key) && Number(p.get(key))) state[key] = Number(p.get(key)); if (p.get('chapter') === 'last') state.chapter = 'last'; if (['historical','lds'].includes(p.get('mode'))) state.perspective = p.get('mode'); }
 function esc(s='') { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 function richText(s='') { return esc(s).replace(/\n/g, '<br>'); }
 function showToast(message) { const el = $('#toast'); el.textContent = message; el.classList.remove('hidden'); clearTimeout(toastTimer); toastTimer = setTimeout(() => el.classList.add('hidden'), 4200); }
@@ -156,6 +156,7 @@ async function load() {
     if (!(state.date >= book.timeline.start && state.date <= book.timeline.end)) state.date = defaults.date;
   }
   setPeople(results[2].status === 'fulfilled' ? results[2].value : {}, results[3].status === 'fulfilled' ? results[3].value : {});
+  if (state.chapter === 'last') state.chapter = chapters.length;
   if (!chapters.includes(state.chapter)) state.chapter = 1;
   if (!scripture.chapters[state.chapter]?.some(v => v.verse === state.verse)) state.verse = 1;
   state.view = 'map';
@@ -318,7 +319,7 @@ function selectPeriod(p) {
 }
 function onChange(e) { if (e.target.matches('[data-layer]')) { state.layers[e.target.dataset.layer] = e.target.checked; drawOverlays(); persist(); } if (e.target.matches('[data-passage-select]')) selectPassage(e.target.value); if (e.target.matches('[data-chapter-select]')) selectChapter(Number(e.target.value)); }
 function performAction(action, id) {
-  if (action === 'chapter-prev' || action === 'chapter-next') { const i = chapters.indexOf(state.chapter); const next = chapters[i + (action === 'chapter-prev' ? -1 : 1)]; if (next) selectChapter(next); return; }
+  if (action === 'chapter-prev' || action === 'chapter-next') { const back = action === 'chapter-prev', i = chapters.indexOf(state.chapter), next = chapters[i + (back ? -1 : 1)]; if (next) selectChapter(next); else openNeighborBook(back); return; }
   if (action === 'focus-chapter') focusChapterMap();
   if (action === 'story-route') {
     const route = focusedRoutes().find(r=>r.id === id);
@@ -377,6 +378,11 @@ function renderView() {
   requestAnimationFrame(() => map?.invalidateSize({ pan: false }));
 }
 function activePassage() { return data.passages.find(p => Number(p.chapter) === state.chapter && state.verse >= p.start && state.verse <= p.end) || data.passages.find(p => Number(p.chapter) === state.chapter); }
+// At a book boundary, Previous opens the last chapter of the previous book. Next opens chapter 1 of the next book.
+function neighborBook(back) { return back ? book.previousBook : book.nextBook; }
+function openNeighborBook(back) { const target = neighborBook(back); if (!target) return; persist(); const p = new URLSearchParams({ chapter: back ? 'last' : 1, verse: 1, view: state.view, study: state.studyMode, mode: state.perspective }); location.href = `${target.url}#${p}`; }
+function chapterStepLabel(back) { const atEdge = state.chapter === (back ? 1 : chapters.length), target = atEdge && neighborBook(back); return target ? `${back ? 'Previous book' : 'Next book'}: ${target.name}` : back ? 'Previous chapter' : 'Next chapter'; }
+function chapterStepDisabled(back) { return state.chapter === (back ? 1 : chapters.length) && !neighborBook(back) ? 'disabled' : ''; }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
 function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `${book.name} ${p.chapter}:${p.start}–${p.end}`}.`); }
 function chapterDateLabel(chapter = state.chapter) {
@@ -391,7 +397,7 @@ function renderScripture() {
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
   const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>${esc(book.name)} ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="Previous chapter" ${state.chapter === 1 ? 'disabled' : ''}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} chapter, current chapter ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only chapter`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="Next chapter" ${state.chapter === chapters.length ? 'disabled' : ''}>›</button></div>${body}`;
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading"><button class="sidebar-next" data-action="chapter-prev" aria-label="${esc(chapterStepLabel(true))}" title="${esc(chapterStepLabel(true))}" ${chapterStepDisabled(true)}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} chapter, current chapter ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only chapter`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="${esc(chapterStepLabel(false))}" title="${esc(chapterStepLabel(false))}" ${chapterStepDisabled(false)}>›</button></div>${body}`;
   initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
 }

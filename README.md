@@ -33,7 +33,7 @@ Open the hamburger menu in the upper right to select **Historical** or **LDS**. 
 
 Portrait credits and license records are in `scripts/isaiah-portrait-images.json`. `python scripts/build-isaiah.py` copies them to `dist/data/books/isaiah-art.json`. The images are in `dist/assets/portraits/commons/`. To download these images again, run `python scripts/fetch-portrait-images.py`. Historical art does not establish actual appearance.
 
-The guide includes all 1,292 verses of Isaiah, 70 passage notes, 1,310 word-study records, and six guided studies. Use the chapter selector above the reading text to reach any chapter. Previous and Next stop at chapters 1 and 66.
+The guide includes all 1,292 verses of Isaiah, 70 passage notes, 1,310 word-study records, and six guided studies. Use the chapter selector above the reading text to reach any chapter. At chapter 1, Previous opens Song of Solomon 8. At chapter 66, Next opens Jeremiah 1.
 
 Each chapter has an original summary, a devotional question, and source links. Passage divisions follow changes in content, setting, or date. No chapter range receives default priority. The five Come, Follow Me lessons and the conference sources connect to the chapters they cite.
 

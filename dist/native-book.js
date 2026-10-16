@@ -19,8 +19,11 @@ if(book?.status==='ready'){
     const earlier=earlierKeys.map(key=>localStorage.getItem(key)).find(Boolean);
     if(earlier&&!localStorage.getItem(storageKey))localStorage.setItem(storageKey,earlier);
   }catch{}
-  globalThis.studyBook={id:slug,name:book.name};
-  await import('./app.js?v=20261016.1');
+  // Previous and Next continue into the neighboring ready books.
+  const ready=directory.filter(b=>b.status==='ready'),at=ready.indexOf(book);
+  const neighbor=b=>b&&{id:b.id,name:b.name,url:b.url||`${b.id}.html`};
+  globalThis.studyBook={id:slug,name:book.name,previousBook:neighbor(ready[at-1]),nextBook:neighbor(ready[at+1])};
+  await import('./app.js?v=20261016.2');
 }else if(slug){
   document.querySelector('#main').innerHTML=`<section class="word-view"><h1>${book?.name||'Book not found'}</h1><p>This guide has not been built yet.</p><a href="./">Open the Bible directory</a></section>`;
   document.querySelectorAll('.topbar button').forEach(b=>b.disabled=true);
