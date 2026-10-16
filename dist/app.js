@@ -13,6 +13,8 @@ const dataFile = part => `data/books/${book.id}-${part}.json`;
 let chapters = [];
 // Chapters with a path, story area, or place of loss on the map. The scrubber and the event buttons step through these.
 let mapEvents = [];
+// A dated map snaps to these dates: event chapters, path starts, and the book's dated milestones.
+let mapEventDates = [];
 // A book with dated events has a date timeline. Other books use chapter order.
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
 // Menu choices apply to every book. The rest of the state belongs to this book.
@@ -154,6 +156,8 @@ async function load() {
   Object.assign(book, data.book);
   chapters = Array.from({ length: book.chapterCount }, (_, i) => i + 1);
   mapEvents = chapters.filter(isEventChapter);
+  if (book.timeline) mapEventDates = [...new Set([...mapEvents.map(c => data.passages.find(p => Number(p.chapter) === c)?.year), ...data.campaigns.map(c => c.start), ...data.events.map(e => e.year)].map(Number))]
+    .filter(d => Number.isFinite(d) && d >= book.timeline.start && d <= book.timeline.end).sort((a, b) => a - b);
   if (book.timeline) {
     defaults.date = book.timeline.default;
     if (!(state.date >= book.timeline.start && state.date <= book.timeline.end)) state.date = defaults.date;
@@ -197,8 +201,10 @@ function buildStaticUi() {
   $('.map-labels').insertAdjacentHTML('afterbegin', (book.mapLabels || []).map(label => `<span class="map-label ${esc(label.className)}">${esc(label.label)}</span>`).join(''));
   const range = $('#timelineRange');
   if (book.timeline) {
-    range.min = book.timeline.start; range.max = book.timeline.end;
-    range.addEventListener('input', e => { state.date = Number(e.target.value); renderTimeline(); drawOverlays(); persist(); });
+    // Each step is a map event date. A timeline without map events keeps every year.
+    if (mapEventDates.length) { range.min = 0; range.max = mapEventDates.length - 1; range.setAttribute('aria-label', 'Map event date'); }
+    else { range.min = book.timeline.start; range.max = book.timeline.end; }
+    range.addEventListener('input', e => { state.date = scrubDate(e.target.value); renderTimeline(); drawOverlays(); focusMapEventDate(); persist(); });
     range.addEventListener('change', () => { if (!isPassageDate()) showToast('The map now shows your date. Select Return to passage to go back.'); });
   } else {
     // Each step is a map event, not a year. A book without map events steps through its chapters.
@@ -315,7 +321,8 @@ function onClick(e) {
 function selectPeriod(p) {
   const middle = Math.round((p.start + p.end) / 2);
   if (!book.timeline) { selectChapter(middle); focusChapterMap(); return; }
-  state.date = middle; renderTimeline(); drawOverlays(); persist();
+  // Open the period at its first map event when it has one.
+  state.date = mapEventDates.find(d => d >= p.start && d <= p.end) ?? middle; renderTimeline(); drawOverlays(); focusMapEventDate(); persist();
 }
 function onChange(e) { if (e.target.matches('[data-layer]')) { state.layers[e.target.dataset.layer] = e.target.checked; drawOverlays(); persist(); } if (e.target.matches('[data-passage-select]')) selectPassage(e.target.value); if (e.target.matches('[data-chapter-select]')) selectChapter(Number(e.target.value)); }
 function performAction(action, id) {
@@ -540,10 +547,11 @@ function renderTimeline() {
     return;
   }
   const p = activePassage(), follow = isPassageDate();
-  $('#timelineRange').value = state.date;
-  $('#timelineRange').setAttribute('aria-valuetext', `${Math.abs(state.date)} BCE`);
-  $('#timelineChapter').textContent = state.studyMode === 'map' ? 'Historical map' : `${book.name} ${state.chapter}`;
-  $('#dateLabel').value = state.studyMode === 'map' ? `${Math.abs(state.date)} BCE` : p?.year == null ? 'Date not known' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
+  const position = mapEventDates.indexOf(state.date), title = state.studyMode === 'map' && position >= 0 ? mapEventTitle() : '';
+  $('#timelineRange').value = mapEventDates.length ? dateIndex() : state.date;
+  $('#timelineRange').setAttribute('aria-valuetext', `${Math.abs(state.date)} BCE${title ? ` · ${title}` : ''}`);
+  $('#timelineChapter').textContent = state.studyMode !== 'map' ? `${book.name} ${state.chapter}` : !mapEventDates.length ? 'Historical map' : position >= 0 ? `Map event ${position + 1} of ${mapEventDates.length}` : `Between map events · ${mapEventDates.length} in all`;
+  $('#dateLabel').value = state.studyMode === 'map' ? `${Math.abs(state.date)} BCE${title ? ` · ${title}` : ''}` : p?.year == null ? 'Date not known' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
   $('#returnPassage').classList.toggle('hidden', follow || !p?.year);
   $('#timelineTooltip').textContent = `${Math.abs(state.date)} BCE`;
 }
@@ -551,11 +559,15 @@ function renderTimeline() {
 function scrubChapters() { return mapEvents.length ? mapEvents : chapters; }
 // A chapter between events keeps the handle on the event before it.
 function scrubIndex(chapter = state.chapter) { const steps = scrubChapters(); return Math.max(0, steps.findLastIndex(c => c <= chapter)); }
+function dateIndex(date = state.date) { return Math.max(0, mapEventDates.findLastIndex(d => d <= date)); }
+function scrubDate(value) { return mapEventDates.length ? mapEventDates[Number(value)] : Number(value); }
+// A dated milestone names the map event at its date.
+function mapEventTitle(date = state.date) { const event = data.events.find(e => Number(e.year) === date); return event?.title || event?.name || ''; }
 function initTimelineTooltip() {
   const range = $('#timelineRange'), tooltip = $('#timelineTooltip');
   let pointerId = null;
   function position(event) {
-    tooltip.textContent = book.timeline ? `${Math.abs(Number(range.value))} BCE` : `${book.name} ${scrubChapters()[Number(range.value)] ?? ''}`;
+    tooltip.textContent = book.timeline ? `${Math.abs(scrubDate(range.value))} BCE` : `${book.name} ${scrubChapters()[Number(range.value)] ?? ''}`;
     tooltip.hidden = false;
     tooltip.style.left = `${Math.max(8, Math.min(event.clientX - tooltip.offsetWidth / 2, innerWidth - tooltip.offsetWidth - 8))}px`;
     tooltip.style.top = `${Math.max(8, event.clientY - tooltip.offsetHeight - 16)}px`;
@@ -995,6 +1007,18 @@ function focusChapterMap(animate = true, keepCard = false) {
   const bounds = L.latLngBounds(points).pad(.12), target = map._getBoundsCenterZoom?.(bounds, options);
   mapHome = target && { zoom:target.zoom, center:map._limitCenter(target.center, target.zoom, map.options.maxBounds) };
   map.fitBounds(bounds, options);
+}
+// A map event date shows its paths. A date without a drawn path shows its event chapter or milestone places.
+function focusMapEventDate() {
+  if (!map || !mapEventDates.includes(state.date)) return;
+  const chapter = mapEvents.find(c => data.passages.find(p => Number(p.chapter) === c)?.year === state.date);
+  const paths = state.layers.campaigns ? data.campaigns.filter(visibleAt) : [];
+  const milestone = (data.events.find(e => Number(e.year) === state.date)?.placeIds || []).map(id => data.places.find(p => p.id === id)).filter(Boolean).map(p => [p.lat, p.lng]);
+  const points = paths.length ? paths.flatMap(c => c.points) : chapter ? chapterPoints(data, chapter) : milestone;
+  if (!points.length) return;
+  map.stop();
+  const panel = $('.layers').getBoundingClientRect(), size = map.getSize();
+  map.fitBounds(L.latLngBounds(points).pad(.12), { maxZoom:9, paddingTopLeft:[Math.min(panel.width + 35, size.x * .5), 50], paddingBottomRight:[40,50], animate:!reducedMapMotion.matches, duration:.8 });
 }
 function focusedRoutes() { return chapterRoutes(data, state.chapter); }
 function chapterAreas() { return (data.narrativeRegions || []).filter(r=>chapterFocus(data,state.chapter)?.placeIds.includes(r.placeId)); }
