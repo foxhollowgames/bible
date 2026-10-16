@@ -55,7 +55,7 @@ for (const book of books) {
     chapterEvidenceHtml:() => '', chapterInterviewNotesHtml:() => '',
     sourceImageHtml:() => '', webpSourceHtml:() => ''});
   for (const name of ['bookNamePattern', 'publisherChapter', 'sourcesHtml', 'passageFootnotes', 'chapterSourceIds', 'sourceMediaHtml', 'sourceInsightsHtml',
-    'scriptureExcerptHtml', 'placeVerseInChapter', 'sourceChapters', 'genericPlaceDescription',
+    'scriptureCredit', 'scriptureExcerptHtml', 'placeVerseInChapter', 'sourceChapters', 'genericPlaceDescription',
     'featureChapterContext', 'passageContextHtml', 'librarySourceHtml', 'chapterContextHtml',
     'chapterEvidenceHtml', 'sourceImageHtml']) {
     const start = app.indexOf(`function ${name}(`);
@@ -151,7 +151,7 @@ for (const book of books) {
   assert(data.book.mapLimits, 'Keep location limits beside map context');
 }
 assert(app.includes('.filter(([key]) =>'), 'Do not offer empty layer controls');
-assert(app.includes('This chapter has no mapped places.'), 'Describe empty map information');
+assert(app.includes('This ${unit()} has no mapped places.'), 'Describe empty map information');
 assert(app.includes('[focus.narrative, focus.limits]'), 'Keep location limits beside map context');
 assert(app.includes('function librarySourceHtml('), 'Keep full source details available');
 assert(app.includes('We do not know how these people looked.'), 'Keep the shared footer artwork note');

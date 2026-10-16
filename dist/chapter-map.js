@@ -1,3 +1,4 @@
+// Shared Wayfinder viewer file. Edit Wayfinder/viewer/chapter-map.js, then run npm run sync-viewer. Hash 54e65f35dd3e.
 // Pure helpers shared by the map and the chapter geography checks.
 export function chapterFocus(data, chapter) {
   return data.chapterMaps?.find(item => item.chapter === Number(chapter));
@@ -36,6 +37,10 @@ export const movementStyles = {
   flight:{label:'Escape path',color:'#db8410',dash:'3 6'},
   exile:{label:'Path into exile',color:'#904fac',dash:'10 4 2 4'},
   restoration:{label:'Path home',color:'#128879',dash:'8 5'},
-  diplomacy:{label:'Message or gift',color:'#257fbd',dash:'12 5'}
+  diplomacy:{label:'Message or gift',color:'#257fbd',dash:'12 5'},
+  mission:{label:'Mission journey',color:'#128879',dash:'8 5'},
+  gathering:{label:'Move to gather',color:'#257fbd',dash:'12 5'},
+  expulsion:{label:'Forced departure',color:'#db8410',dash:'3 6'},
+  custody:{label:'Taken as prisoners',color:'#904fac',dash:'10 4 2 4'}
 };
 export function movementStyle(route) { return movementStyles[route.kind] || movementStyles.diplomacy; }

@@ -1,3 +1,4 @@
+// Shared Wayfinder viewer file. Edit Wayfinder/viewer/portraits.js, then run npm run sync-viewer. Hash 09962fc50a1b.
 // Portraits illustrate people in each story. They do not establish actual appearance.
 let portraitMode = 'generated';
 const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));

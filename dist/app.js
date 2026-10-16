@@ -1,19 +1,20 @@
-import { initChapterPicker } from './chapter-picker.js?v=20261016.1';
-import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261016.1';
-import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261016.1';
-import { initModalDragging } from './modal-drag.js?v=20261016.1';
-import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261016.1';
+// Shared Wayfinder viewer file. Edit Wayfinder/viewer/app.js, then run npm run sync-viewer. Hash 4daf317120ee.
+import { initChapterPicker } from './chapter-picker.js?v=20261016.2';
+import { people, featurePortraits, wordPortraits, personProfileHtml, personIdForLabel, setPeople, setPortraitMode, webpCopy, webpSourceHtml } from './portraits.js?v=20261016.2';
+import { initMenu, readPreferences, savePreferences } from './settings-menu.js?v=20261016.2';
+import { initModalDragging } from './modal-drag.js?v=20261016.2';
+import { chapterFocus, chapterRoutes, chapterPoints, movementStyle } from './chapter-map.js?v=20261016.2';
 const $ = (s, root = document) => root.querySelector(s);
 const $$ = (s, root = document) => [...root.querySelectorAll(s)];
-const releaseVersion = '20261016.1';
+const releaseVersion = '20261016.2';
 // One reader serves every book. native-book.js names the book. The book's content file supplies its settings.
 const book = { id: '', name: '', bibleCode: '', chapterCount: 0, chapterDigits: 2, ...globalThis.studyBook };
 const storageKey = `${book.id}-native-study-state`;
 const dataFile = part => `data/books/${book.id}-${part}.json`;
 let chapters = [];
-// Chapters with a path, story area, or place of loss on the map. The scrubber and the event buttons step through these.
+// Chapters or sections with a path, story area, or place of loss on the map. The scrubber and the event buttons step through these.
 let mapEvents = [];
-// A dated map snaps to these dates: event chapters, path starts, and the book's dated milestones.
+// A dated map snaps to these dates: each map event's date, the start of each drawn path, and the book's dated milestones.
 let mapEventDates = [];
 // A book with dated events has a date timeline. Other books use chapter order.
 const defaults = { chapter: 1, verse: 1, studyMode: 'read', view: 'map', perspective: 'historical', portraitMode: 'generated', date: 1, layers: { places: true, regions: true, campaigns: true, roads: false, history: false }, sidebar: 'scripture', map: { center: [32.1, 35.0], zoom: 7 } };
@@ -24,7 +25,20 @@ let scripture = { translation: 'World English Bible', chapters: {} };
 let map, savedScroll = 0, selectedWordButton, toastTimer, guideState = null, sidebarPersonHistory = [], entityLinkCache = {chapter:null, terms:[]};
 
 function bookNamePattern() { return book.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
-function publisherChapter(chapter) { return `https://ebible.org/engwebp/${book.bibleCode}${String(chapter).padStart(book.chapterDigits, '0')}.htm`; }
+// A book names its unit (chapter or section), its scripture links, and its date format in data.
+const unit = () => book.unitLabel || 'chapter';
+const Unit = () => unit()[0].toUpperCase() + unit().slice(1);
+const monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+function formatDate(value) {
+  const v = Number(value);
+  if (book.timeline?.unit === 'month') return `${monthNames[((v % 12) + 12) % 12]} ${Math.floor(v / 12)}`;
+  return v < 0 ? `${Math.abs(v)} BCE` : `${v} CE`;
+}
+function scriptureCredit() { return `${scripture.translation || 'World English Bible'} · ${scripture.copyright || 'Public domain'}`; }
+function publisherChapter(chapter, verse) {
+  if (book.scriptureUrl) return book.scriptureUrl.replace('{chapter}', chapter).replace(/\{verse\}/g, verse ?? '').replace(/[&?]id=p#p$|#p$/, '');
+  return `https://ebible.org/engwebp/${book.bibleCode}${String(chapter).padStart(book.chapterDigits, '0')}.htm${verse ? `#V${verse}` : ''}`;
+}
 function readSaved() { try { return JSON.parse(localStorage.getItem(storageKey)) || {}; } catch { return {}; } }
 function persist() { try { localStorage.setItem(storageKey, JSON.stringify({ ...state, map: map ? { center: [map.getCenter().lat, map.getCenter().lng], zoom: map.getZoom() } : state.map })); } catch {} savePreferences(state); updateUrl(); }
 function updateUrl() { const p = new URLSearchParams({ chapter: state.chapter, verse: state.verse, view: state.view, study: state.studyMode, mode: state.perspective }); history.replaceState(null, '', `#${p}`); }
@@ -106,7 +120,8 @@ function entityLinkTerms(verse = null) {
     const scope = person.verseScope?.[state.chapter];
     if (verse != null && scope && !scope.includes(verse)) continue;
     const aliases = verse == null && scope ? [] : (person.linkNames || []);
-    for (const label of [person.name, ...aliases]) add(label, 'person', id, person.name);
+    // A short name can belong to more than one person. linkScope lists the units where it names this person.
+    for (const label of [person.name, ...aliases]) if (!person.linkScope?.[label] || person.linkScope[label].includes(state.chapter)) add(label, 'person', id, person.name);
   }
   for (const feature of [...data.places, ...data.regions, ...data.campaigns, ...data.events, ...data.ancientRoads]) {
     const scope = feature.verseScope?.[state.chapter];
@@ -117,7 +132,9 @@ function entityLinkTerms(verse = null) {
   // A glossary entry for one chapter links only its checked verse. Other text uses the chapter entry or the plain entry.
   const checked = word => word.scope === 'glossary' && word.chapter != null;
   const words = data.words.filter(word => word.chapter == null ? word.scope === 'glossary' : Number(word.chapter) === state.chapter && (!checked(word) || (verse == null ? word.chapterDefault : word.verses.includes(verse))));
-  for (const word of words) for (const label of checked(word) ? word.matches : [word.label, ...(word.matches || [])]) add(label, 'word', word.id, word.label);
+  for (const word of words) for (const label of checked(word) || word.caseSensitive ? word.matches : [word.label, ...(word.matches || [])]) add(label, 'word', word.id, word.label);
+  // Case-sensitive terms link only their exact forms, such as a title written in capitals.
+  for (const word of words.filter(item => item.caseSensitive)) for (const label of word.matches) { const term = terms.get(label.toLowerCase()); if (term?.id === word.id) term.forms = word.matches; }
   entityLinkCache = {chapter:state.chapter, verse, terms:[...terms.values()].sort((a, b) => b.label.length - a.label.length)};
   return entityLinkCache.terms;
 }
@@ -135,7 +152,7 @@ function linkedEntityHtml(text = '', options = {}) {
     if (/(?:Tubal|Uzzen|Obed)[ -]$/i.test(text.slice(0,start))) continue;
     if (/\p{L}|\p{N}/u.test(text[start - 1] || '') || /\p{L}|\p{N}/u.test(text[end] || '')) continue;
     const term = byLabel.get(match[0].toLowerCase());
-    if (!term) continue;
+    if (!term || (term.forms && !term.forms.includes(match[0]))) continue;
     html += esc(text.slice(cursor, start));
     html += term.type === 'person'
       ? `<button type="button" class="entity-inline-link" data-person-id="${esc(term.id)}" aria-label="Open profile for ${esc(term.name)}">${esc(match[0])}</button>`
@@ -156,7 +173,7 @@ async function load() {
   Object.assign(book, data.book);
   chapters = Array.from({ length: book.chapterCount }, (_, i) => i + 1);
   mapEvents = chapters.filter(isEventChapter);
-  if (book.timeline) mapEventDates = [...new Set([...mapEvents.map(c => data.passages.find(p => Number(p.chapter) === c)?.year), ...data.campaigns.map(c => c.start), ...data.events.map(e => e.year)].map(Number))]
+  if (book.timeline) mapEventDates = [...new Set([...mapEvents.map(c => data.passages.find(p => Number(p.chapter) === c)?.year), ...data.campaigns.map(c => c.start), ...milestones().map(e => e.year)].map(Number))]
     .filter(d => Number.isFinite(d) && d >= book.timeline.start && d <= book.timeline.end).sort((a, b) => a - b);
   if (book.timeline) {
     defaults.date = book.timeline.default;
@@ -190,7 +207,7 @@ function ensureLayerOptions() {
 function buildStaticUi() {
   initSettings();
   initModalDragging();
-  $('#scriptureAttribution').textContent = `${scripture.translation || 'World English Bible'} · ${scripture.copyright || 'Public domain'}`;
+  $('#scriptureAttribution').textContent = scriptureCredit();
   initScriptureResize();
   initTimelineTooltip();
   const layerOptions = ensureLayerOptions();
@@ -201,17 +218,18 @@ function buildStaticUi() {
   $('#periods').innerHTML = data.periods.slice(0,3).map(p => `<button data-period="${esc(p.id)}">${esc(p.label)}<small>${esc(p.description || '')}</small></button>`).join('');
   document.addEventListener('click', onClick);
   document.addEventListener('change', onChange);
+  if (book.relief === false) $('.map-coverage-key')?.remove();
   $('.map-labels').insertAdjacentHTML('afterbegin', (book.mapLabels || []).map(label => `<span class="map-label ${esc(label.className)}">${esc(label.label)}</span>`).join(''));
   const range = $('#timelineRange');
   if (book.timeline) {
-    // Each step is a map event date. A timeline without map events keeps every year.
+    // Each step is a map event date. A timeline without map events keeps every month.
     if (mapEventDates.length) { range.min = 0; range.max = mapEventDates.length - 1; range.setAttribute('aria-label', 'Map event date'); }
     else { range.min = book.timeline.start; range.max = book.timeline.end; }
     range.addEventListener('input', e => { state.date = scrubDate(e.target.value); renderTimeline(); drawOverlays(); focusMapEventDate(); persist(); });
     range.addEventListener('change', () => { if (!isPassageDate()) showToast('The map now shows your date. Select Return to passage to go back.'); });
   } else {
-    // Each step is a map event, not a year. A book without map events steps through its chapters.
-    range.min = 0; range.max = scrubChapters().length - 1; range.setAttribute('aria-label', mapEvents.length ? 'Map event in narrative order' : 'Chapter in narrative order');
+    // Each step is a map event, not a year. A book without map events steps through every ${unit()}.
+    range.min = 0; range.max = scrubChapters().length - 1; range.setAttribute('aria-label', mapEvents.length ? 'Map event in narrative order' : `${Unit()} in narrative order`);
     range.addEventListener('input', e => { const chapter = scrubChapters()[Number(e.target.value)]; if (chapter && chapter !== state.chapter) selectChapter(chapter); focusChapterMap(); });
   }
   $('#libraryDialog .dialog-close').addEventListener('click', () => hideModalPanel($('#libraryDialog')));
@@ -228,7 +246,7 @@ function buildStaticUi() {
 function initSettings() {
   const panel = $('#settingsPanel'), close = initMenu($('#settingsMenu'));
   panel.addEventListener('click', event => { if (event.target.closest('[data-study-mode]')) close(true); });
-  $('#nonGeneratedPortraits').addEventListener('change', event => {
+  $('#nonGeneratedPortraits')?.addEventListener('change', event => {
     state.portraitMode = event.target.checked ? 'non-generated' : 'generated';
     setPortraitMode(state.portraitMode);
     renderTop();
@@ -359,8 +377,8 @@ function renderTop() {
   $$('[data-chapter]').forEach(b => b.classList.toggle('active', Number(b.dataset.chapter) === state.chapter));
   $$('[data-perspective]').forEach(b => { const active = b.dataset.perspective === state.perspective; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
   $$('[data-layer]').forEach(i => i.checked = !!state.layers[i.dataset.layer]);
-  $('#nonGeneratedPortraits').checked = state.portraitMode === 'non-generated';
-  $('#portraitAttribution').textContent = state.portraitMode === 'non-generated'
+  const portraitSwitch = $('#nonGeneratedPortraits'); if (portraitSwitch) portraitSwitch.checked = state.portraitMode === 'non-generated';
+  $('#portraitAttribution').textContent = book.portraitNote ? book.portraitNote : state.portraitMode === 'non-generated'
     ? 'These old pictures are free to use. We do not know how these people looked.'
     : 'Portraits are illustrations or later historical art. We do not know how these people looked.';
 }
@@ -392,7 +410,7 @@ function activePassage() { return data.passages.find(p => Number(p.chapter) === 
 // At a book boundary, Previous opens the last chapter of the previous book. Next opens chapter 1 of the next book.
 function neighborBook(back) { return back ? book.previousBook : book.nextBook; }
 function openNeighborBook(back) { const target = neighborBook(back); if (!target) return; persist(); const p = new URLSearchParams({ chapter: back ? 'last' : 1, verse: 1, view: state.view, study: state.studyMode, mode: state.perspective }); location.href = `${target.url}#${p}`; }
-function chapterStepLabel(back) { const atEdge = state.chapter === (back ? 1 : chapters.length), target = atEdge && neighborBook(back); return target ? `${back ? 'Previous book' : 'Next book'}: ${target.name}` : back ? 'Previous chapter' : 'Next chapter'; }
+function chapterStepLabel(back) { const atEdge = state.chapter === (back ? 1 : chapters.length), target = atEdge && neighborBook(back); return target ? `${back ? 'Previous book' : 'Next book'}: ${target.name}` : `${back ? 'Previous' : 'Next'} ${unit()}`; }
 function chapterStepDisabled(back) { return state.chapter === (back ? 1 : chapters.length) && !neighborBook(back) ? 'disabled' : ''; }
 function selectChapter(chapter, verse = 1) { state.chapter = chapter; state.verse = verse; state.sidebar = 'scripture'; const p = activePassage(); if (p?.year) state.date = p.year; renderAll(); persist(); $('#sidebarContent').scrollTop=0; }
 function selectPassage(id) { const p = data.passages.find(x => x.id === id); if (!p) return; state.chapter = Number(p.chapter); state.verse = Number(p.start); state.sidebar = 'scripture'; if (p.year != null) state.date = Number(p.year); renderAll(); persist(); showToast(`Following ${p.title || `${book.name} ${p.chapter}:${p.start}–${p.end}`}.`); }
@@ -407,31 +425,10 @@ function renderScripture() {
   sidebarPersonHistory = [];
   if (state.sidebar === 'word') return renderWord();
   const verses = scripture.chapters?.[state.chapter] || [];
-  const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>${esc(book.name)} ${state.chapter}</h2><p>The text for this chapter is not available.</p></div>`;
-  const prevEvent = adjacentMapEvent(-1), nextEvent = adjacentMapEvent(1);
-  $('#sidebarContent').innerHTML = `<div class="scripture-heading">${mapEventButtonHtml(-1, prevEvent)}<button class="sidebar-next" data-action="chapter-prev" aria-label="${esc(chapterStepLabel(true))}" title="${esc(chapterStepLabel(true))}" ${chapterStepDisabled(true)}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} chapter, current chapter ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only chapter`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} chapter">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} chapter ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="${esc(chapterStepLabel(false))}" title="${esc(chapterStepLabel(false))}" ${chapterStepDisabled(false)}>›</button>${mapEventButtonHtml(1, nextEvent)}</div>${body}`;
+  const body = verses.length ? verses.map(v => renderVerse(v)).join('') : `<div class="word-view"><h2>${esc(book.name)} ${state.chapter}</h2><p>The text for this ${unit()} is not available.</p></div>`;
+  $('#sidebarContent').innerHTML = `<div class="scripture-heading">${mapEventButtonHtml(-1, adjacentMapEvent(-1))}<button class="sidebar-next" data-action="chapter-prev" aria-label="${esc(chapterStepLabel(true))}" title="${esc(chapterStepLabel(true))}" ${chapterStepDisabled(true)}>‹</button><div class="chapter-picker-block"><h1 class="chapter-picker"><button type="button" class="chapter-picker-trigger" aria-label="${chapters.length > 1 ? `Choose ${esc(book.name)} ${unit()}, current ${unit()} ${state.chapter}` : `${esc(book.name)} ${state.chapter}, the only ${unit()}`}" aria-haspopup="listbox" aria-expanded="false" aria-controls="chapterPickerMenu" ${chapters.length > 1 ? '' : 'disabled'}>${esc(book.name)} ${state.chapter}<svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16"><path d="m4 6 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></button></h1>${chapterDateHtml()}</div><div id="chapterPickerMenu" class="chapter-picker-menu" popover="auto" role="listbox" aria-label="Choose ${esc(book.name)} ${unit()}">${chapters.map(c => `<button type="button" role="option" aria-label="${esc(book.name)} ${unit()} ${c}" aria-selected="${c === state.chapter}" tabindex="-1" data-value="${c}"><span>${c}</span><span class="chapter-picker-check" aria-hidden="true">${c === state.chapter ? '✓' : ''}</span></button>`).join('')}</div><button class="sidebar-next" data-action="chapter-next" aria-label="${esc(chapterStepLabel(false))}" title="${esc(chapterStepLabel(false))}" ${chapterStepDisabled(false)}>›</button>${mapEventButtonHtml(1, adjacentMapEvent(1))}</div>${body}`;
   initChapterPicker(document.querySelector('#sidebarContent'), state.chapter, chapters, selectChapter);
   $('#sidebarContent .verse')?.insertAdjacentHTML('beforebegin', passageContextHtml());
-}
-// A map event is a chapter that draws a path, a story area, or a place of loss.
-// A chapter that only names towns is not a map event.
-function isEventChapter(chapter) {
-  const focus = chapterFocus(data, chapter);
-  if (!focus) return false;
-  if (focus.impacts?.some(item => data.places.some(p => p.id === item.placeId))) return true;
-  if (focus.routes?.some(ref => [...data.campaigns, ...(data.textRoutes || [])].some(route => route.id === ref.id))) return true;
-  return (data.narrativeRegions || []).some(region => focus.placeIds?.includes(region.placeId));
-}
-function adjacentMapEvent(direction, chapter = state.chapter) {
-  return direction < 0 ? mapEvents.findLast(c => c < chapter) : mapEvents.find(c => c > chapter);
-}
-// A map pin beside a chevron marks a jump to the next map event, not the next chapter.
-function mapEventButtonHtml(direction, target) {
-  if (!mapEvents.length) return '';
-  const label = `${direction < 0 ? 'Previous' : 'Next'} map event${target ? `: ${book.name} ${target}` : ''}`;
-  const chevron = direction < 0 ? '<path d="M8 7 3 12l5 5"/>' : '<path d="m16 7 5 5-5 5"/>';
-  const pin = direction < 0 ? '<path d="M15.5 20s-5-4.3-5-8.5a5 5 0 0 1 10 0c0 4.2-5 8.5-5 8.5z"/><circle cx="15.5" cy="11.5" r="1.7"/>' : '<path d="M8.5 20s-5-4.3-5-8.5a5 5 0 0 1 10 0c0 4.2-5 8.5-5 8.5z"/><circle cx="8.5" cy="11.5" r="1.7"/>';
-  return `<button class="sidebar-event" data-action="event-${direction < 0 ? 'prev' : 'next'}" aria-label="${esc(label)}" title="${esc(label)}" ${target ? '' : 'disabled'}><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${chevron}${pin}</svg></button>`;
 }
 function chapterSourceIds(chapter = state.chapter) {
   return [...new Set(data.passages.filter(p => p.chapter === chapter).flatMap(p => [
@@ -450,7 +447,7 @@ function openSource(id) {
   const s = source(id); if (!s) return;
   hideSourceTooltip();
   const chapter = /^web(?:\d+)?$/.test(id) ? (id === 'web' ? state.chapter : Number(id.slice(3))) : null;
-  const reading = chapter && scripture.chapters[chapter] ? `<details><summary>Read ${esc(book.name)} ${chapter} here · World English Bible</summary>${scripture.chapters[chapter].map(v => `<p><b>${v.verse}</b> ${esc(v.text)}</p>`).join('')}</details>` : '';
+  const reading = chapter && scripture.chapters[chapter] ? `<details><summary>Read ${esc(book.name)} ${chapter} here · ${esc(scripture.translation || 'World English Bible')}</summary>${scripture.chapters[chapter].map(v => `<p><b>${v.verse}</b> ${esc(v.text)}</p>`).join('')}</details>` : '';
   $('#sourceContent').innerHTML = `<h2 id="sourceDialogTitle">Source details</h2>${librarySourceHtml(s).replace(`id="library-${esc(s.id)}"`, `id="detail-${esc(s.id)}"`)}${reading}<p class="source-rights">${esc(s.license || '')}</p>`;
   const dialog = $('#sourceDialog');
   // Keep the reader or guide underneath this dialog so closing returns to it.
@@ -466,7 +463,7 @@ function passageContextHtml() {
   const cite = passageFootnotes(p);
   const ids = [...new Set(passages.flatMap(p => p.sourceIds || []))];
   const reflection = state.perspective === 'lds' ? `<h3>LDS lens</h3><p>${esc(p.lds?.text || '')}${cite(p.lds?.sourceIds)}</p>${sourceInsightsHtml(passages.flatMap(item => item.lds?.sourceIds || []))}` : '';
-  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose"><p>${book.verseLinks === 'entities' ? linkedEntityHtml(p.summary) : esc(p.summary)}${cite(ids)}</p>${chapterContextHtml()}${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
+  return `<section class="passage-context chapter-introduction" aria-label="Chapter introduction"><h2>${esc(p.title)}</h2><div class="passage-prose">${p.setting ? `<p class="passage-setting"><span class="eyebrow">Setting</span>${book.verseLinks === 'entities' ? linkedEntityHtml(p.setting) : esc(p.setting)}</p>` : ''}<p>${book.verseLinks === 'entities' ? linkedEntityHtml(p.summary) : esc(p.summary)}${cite(ids)}</p>${chapterContextHtml()}${chapterEvidenceHtml()}${sourceInsightsHtml(ids)}${reflection}${chapterInterviewNotesHtml()}</div>${mapStoryHtml()}</section>`;
 }
 // An original close reading is distinct from source summaries.
 function chapterContextHtml(chapter = state.chapter) {
@@ -506,13 +503,14 @@ function wordReferences(word) {
   return { greek, hebrew, meaning, discussion: ordered, ordered, cite: passageFootnotes({ sourceIds: ordered }) };
 }
 function wordLanguagesHtml(word) {
+  if (book.wordLanguages === false) return '';
   const refs = wordReferences(word), cite = refs.cite, greekBook = word.language === 'greek';
   return `<div class="word-section word-languages"><div class="word-language-grid"><div class="word-language"><h3>${greekBook ? 'Greek' : 'Greek (Septuagint)'}</h3>${word.greek ? `<p class="term" lang="grc">${esc(word.greek)}${cite(refs.greek)}</p>${word.greekTransliteration ? `<p>${esc(word.greekTransliteration)}</p>` : ''}` : '<p>No Greek match was found.</p>'}</div><div class="word-language word-language-hebrew"><h3>Hebrew</h3>${word.hebrew ? `<p class="term hebrew-term"><bdi lang="he" dir="rtl">${esc(word.hebrew)}</bdi>${cite(refs.hebrew)}</p><p>${esc(word.transliteration || '')}</p>` : `<p>${greekBook ? 'This book has no Hebrew text.' : 'No Hebrew match was found.'}</p>`}</div></div>${word.greek && word.greekNote ? `<p class="word-language-note">${esc(word.greekNote)}${cite(refs.greek)}</p>` : ''}${word.languageNote ? `<p class="word-language-note">${esc(word.languageNote)}</p>` : ''}</div>`;
 }
 function wordStudyBodyHtml(word, title = word?.label || 'Selected word') {
   const personId = personIdForLabel(title);
   let html = personId ? linkedPersonProfileHtml(personId) : `<h2>${esc(title)}</h2>${wordPortraits(title)}`;
-  if (!word) html += `<p class="translation">No study note yet</p><div class="word-section"><p>This word has no study note yet. The app does not give a Hebrew or Greek match for it.</p></div>`;
+  if (!word) html += `<p class="translation">No study note yet</p><div class="word-section"><p>This word has no study note yet.</p></div>`;
   else {
     const refs = wordReferences(word), cite = refs.cite;
     html += wordLanguagesHtml(word);
@@ -542,13 +540,43 @@ function scrollVerse(verse, focus = true) {
   }
   renderTop(); persist();
 }
+// A map event is a chapter or section that draws a path, a story area, or a place of loss.
+// A chapter or section that only names towns is not a map event.
+function isEventChapter(chapter) {
+  const focus = chapterFocus(data, chapter);
+  if (!focus) return false;
+  if (focus.impacts?.some(item => data.places.some(p => p.id === item.placeId))) return true;
+  if (focus.routes?.some(ref => [...data.campaigns, ...(data.textRoutes || [])].some(route => route.id === ref.id))) return true;
+  return (data.narrativeRegions || []).some(region => focus.placeIds?.includes(region.placeId));
+}
+function adjacentMapEvent(direction, chapter = state.chapter) {
+  return direction < 0 ? mapEvents.findLast(c => c < chapter) : mapEvents.find(c => c > chapter);
+}
+// A map pin beside a chevron marks a jump to the next map event, not the next chapter or section.
+function mapEventButtonHtml(direction, target) {
+  if (!mapEvents.length) return '';
+  const label = `${direction < 0 ? 'Previous' : 'Next'} map event${target ? `: ${book.name} ${target}` : ''}`;
+  const chevron = direction < 0 ? '<path d="M8 7 3 12l5 5"/>' : '<path d="m16 7 5 5-5 5"/>';
+  const pin = direction < 0 ? '<path d="M15.5 20s-5-4.3-5-8.5a5 5 0 0 1 10 0c0 4.2-5 8.5-5 8.5z"/><circle cx="15.5" cy="11.5" r="1.7"/>' : '<path d="M8.5 20s-5-4.3-5-8.5a5 5 0 0 1 10 0c0 4.2-5 8.5-5 8.5z"/><circle cx="8.5" cy="11.5" r="1.7"/>';
+  return `<button class="sidebar-event" data-action="event-${direction < 0 ? 'prev' : 'next'}" aria-label="${esc(label)}" title="${esc(label)}" ${target ? '' : 'disabled'}><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${chevron}${pin}</svg></button>`;
+}
+// The chapter-order scrubber steps through map events. A book without map events uses every chapter or section.
+function scrubChapters() { return mapEvents.length ? mapEvents : chapters; }
+// A chapter, section, or date between events keeps the handle on the event before it.
+function scrubIndex(chapter = state.chapter) { return Math.max(0, scrubChapters().findLastIndex(c => c <= chapter)); }
+function dateIndex(date = state.date) { return Math.max(0, mapEventDates.findLastIndex(d => d <= date)); }
+function scrubDate(value) { return mapEventDates.length ? mapEventDates[Number(value)] : Number(value); }
+// Dated milestones are the book's events. A book turns them off with timeline.milestones: false.
+function milestones() { return book.timeline?.milestones === false ? [] : data.events || []; }
+// A dated milestone names the map event at its date.
+function mapEventTitle(date = state.date) { const event = milestones().find(e => Number(e.year) === date); return event?.title || event?.name || ''; }
 function isPassageDate() { const p = activePassage(); return !p?.year || state.date === p.year; }
 function renderTimeline() {
   if (!book.timeline) {
     const steps = scrubChapters(), position = steps.indexOf(state.chapter);
     $('#timelineRange').value = scrubIndex();
     $('#timelineRange').setAttribute('aria-valuetext', `${book.name} ${state.chapter}`);
-    $('#timelineChapter').textContent = !mapEvents.length ? 'Chapter order' : position >= 0 ? `Map event ${position + 1} of ${steps.length}` : `Between map events · ${steps.length} in all`;
+    $('#timelineChapter').textContent = !mapEvents.length ? `${Unit()} order` : position >= 0 ? `Map event ${position + 1} of ${steps.length}` : `Between map events · ${steps.length} in all`;
     $('#dateLabel').value = `${book.name} ${state.chapter} · ${activePassage()?.title || ''}`;
     $('#returnPassage').classList.add('hidden');
     $('#timelineTooltip').textContent = `${book.name} ${state.chapter}`;
@@ -557,25 +585,17 @@ function renderTimeline() {
   const p = activePassage(), follow = isPassageDate();
   const position = mapEventDates.indexOf(state.date), title = state.studyMode === 'map' && position >= 0 ? mapEventTitle() : '';
   $('#timelineRange').value = mapEventDates.length ? dateIndex() : state.date;
-  $('#timelineRange').setAttribute('aria-valuetext', `${Math.abs(state.date)} BCE${title ? ` · ${title}` : ''}`);
+  $('#timelineRange').setAttribute('aria-valuetext', `${formatDate(state.date)}${title ? ` · ${title}` : ''}`);
   $('#timelineChapter').textContent = state.studyMode !== 'map' ? `${book.name} ${state.chapter}` : !mapEventDates.length ? 'Historical map' : position >= 0 ? `Map event ${position + 1} of ${mapEventDates.length}` : `Between map events · ${mapEventDates.length} in all`;
-  $('#dateLabel').value = state.studyMode === 'map' ? `${Math.abs(state.date)} BCE${title ? ` · ${title}` : ''}` : p?.year == null ? 'Date not known' : follow && p?.dateLabel ? p.dateLabel : `${Math.abs(state.date)} BCE`;
+  $('#dateLabel').value = state.studyMode === 'map' ? `${formatDate(state.date)}${title ? ` · ${title}` : ''}` : p?.year == null ? (p?.dateLabel || 'Date not known') : follow && p?.dateLabel ? p.dateLabel : formatDate(state.date);
   $('#returnPassage').classList.toggle('hidden', follow || !p?.year);
-  $('#timelineTooltip').textContent = `${Math.abs(state.date)} BCE`;
+  $('#timelineTooltip').textContent = formatDate(state.date);
 }
-// The chapter-order scrubber steps through map events. A book without map events uses every chapter.
-function scrubChapters() { return mapEvents.length ? mapEvents : chapters; }
-// A chapter between events keeps the handle on the event before it.
-function scrubIndex(chapter = state.chapter) { const steps = scrubChapters(); return Math.max(0, steps.findLastIndex(c => c <= chapter)); }
-function dateIndex(date = state.date) { return Math.max(0, mapEventDates.findLastIndex(d => d <= date)); }
-function scrubDate(value) { return mapEventDates.length ? mapEventDates[Number(value)] : Number(value); }
-// A dated milestone names the map event at its date.
-function mapEventTitle(date = state.date) { const event = data.events.find(e => Number(e.year) === date); return event?.title || event?.name || ''; }
 function initTimelineTooltip() {
   const range = $('#timelineRange'), tooltip = $('#timelineTooltip');
   let pointerId = null;
   function position(event) {
-    tooltip.textContent = book.timeline ? `${Math.abs(scrubDate(range.value))} BCE` : `${book.name} ${scrubChapters()[Number(range.value)] ?? ''}`;
+    tooltip.textContent = book.timeline ? formatDate(scrubDate(range.value)) : `${book.name} ${scrubChapters()[Number(range.value)] ?? ''}`;
     tooltip.hidden = false;
     tooltip.style.left = `${Math.max(8, Math.min(event.clientX - tooltip.offsetWidth / 2, innerWidth - tooltip.offsetWidth - 8))}px`;
     tooltip.style.top = `${Math.max(8, event.clientY - tooltip.offsetHeight - 16)}px`;
@@ -601,7 +621,7 @@ function selectEvent(event) {
   openFeature(event, true, null);
 }
 function findFeature(id) { return [...data.places, ...data.events, ...data.campaigns, ...data.ancientRoads, ...data.regions, ...focusedRoutes(), ...chapterImpacts(), ...chapterAreas()].find(f => f.id === id); }
-function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? 'Chapter path' : data.ancientRoads.includes(f) ? 'Major road' : data.campaigns.includes(f) ? 'Army path' : data.regions.includes(f) ? (f.typeLabel || 'Area of rule') : data.places.includes(f) ? 'Place' : 'Event'; }
+function featureType(f) { return f.narrativeRegion ? 'Map area' : f.impact ? 'Loss or pain' : f.chapterRoute || f.textRoute ? `${Unit()} path` : data.ancientRoads.includes(f) ? 'Major road' : data.campaigns.includes(f) ? (f.typeLabel || 'Army path') : data.regions.includes(f) ? (f.typeLabel || 'Area of rule') : data.places.includes(f) ? 'Place' : 'Event'; }
 function mapDisplayText(text = '') {
   const footerCovered = /\b(?:map|line|connection|route|road|itinerary|coordinate|pin|location|border|area of influence|travel order|sequence of (?:movement|stops))\b/i;
   const caveat = /\b(?:approximate|schematic|representative|precise|exact|verified|confirmed|unknown|uncertain|does not (?:establish|show|trace|identify|reconstruct)|not (?:a|an|the)|remain debated)\b/i;
@@ -686,7 +706,7 @@ function sourceInsightsHtml(ids = [], chapter = state.chapter) {
       return match ? Number(match[1]) === Number(chapter) : !!ref.chapters?.includes(Number(chapter));
     })) return '';
     const related = item.chapterCoverage && !item.chapterCoverage.includes(Number(chapter));
-    const context = mapDisplayText((related ? `This lesson covers nearby chapters, not ${book.name} ${chapter}. ` : '') + (item.studyText || item.summary || ''));
+    const context = mapDisplayText((related ? `This lesson covers nearby ${unit()}s, not ${book.name} ${chapter}. ` : '') + (item.studyText || item.summary || ''));
     const note = context && !item.image ? `<p class="source-insight">${esc(context)} <a class="source-inline-citation" href="${esc(item.url)}" data-source-id="${esc(id)}" aria-haspopup="dialog">${esc(item.author || item.title)}</a></p>` : '';
     const cited = (item.citedSourceIds || []).filter(id => !ids.includes(id) && !seen.has(id)).map(source).filter(Boolean);
     cited.forEach(work => seen.add(work.id));
@@ -697,8 +717,8 @@ function sourceInsightsHtml(ids = [], chapter = state.chapter) {
 function scriptureExcerptHtml(chapter, verse, context = '') {
   const reading = scripture.chapters[chapter]?.find(item => item.verse === Number(verse));
   if (!reading) return '';
-  const url = `${publisherChapter(chapter)}#V${Number(verse)}`;
-  return `<figure class="study-quotation scripture-excerpt"><blockquote cite="${esc(url)}">${esc(reading.text)}</blockquote><figcaption><a href="${esc(url)}" target="_blank" rel="noopener">${esc(book.name)} ${Number(chapter)}:${Number(verse)} ↗</a> · World English Bible · Public domain</figcaption>${context ? `<p>${esc(context)}</p>` : ''}</figure>`;
+  const url = publisherChapter(chapter, Number(verse));
+  return `<figure class="study-quotation scripture-excerpt"><blockquote cite="${esc(url)}">${esc(reading.text)}</blockquote><figcaption><a href="${esc(url)}" target="_blank" rel="noopener">${esc(book.name)} ${Number(chapter)}:${Number(verse)} ↗</a> · ${esc(scriptureCredit())}</figcaption>${context ? `<p>${esc(context)}</p>` : ''}</figure>`;
 }
 function chapterEvidenceHtml(chapter = state.chapter) {
   const study = data.chapterStudies?.find(item => item.chapter === Number(chapter));
@@ -849,12 +869,15 @@ function closeCard() { const card = $('#contextCard'); if (card.classList.contai
 
 function initMap() {
   if (!window.L) { showToast('The map did not load. Reload the page to try again.'); return; }
-  const stored = state.map || defaults.map; const center = Array.isArray(stored.center) && stored.center[0] >= 8 && stored.center[0] <= 48 && stored.center[1] >= 1 && stored.center[1] <= 57 ? stored.center : defaults.map.center; const zoom = stored.zoom >= 3 && stored.zoom <= 14 ? stored.zoom : defaults.map.zoom;
-  map = L.map('map', { zoomControl: false, attributionControl: true, preferCanvas: false, minZoom: 3, maxZoom: 14, zoomSnap: .25, maxBounds: [[8,1],[48,57]], maxBoundsViscosity: .8 }).setView(center, zoom);
+  // A book can set its own map area. The Levant view stays the default.
+  const view = { center: [32.1, 35.0], zoom: 7, bounds: [[8,1],[48,57]], minZoom: 3, maxZoom: 14, ...(book.map || {}) };
+  const [[south, west], [north, east]] = view.bounds;
+  const stored = state.map || view; const center = Array.isArray(stored.center) && stored.center[0] >= south && stored.center[0] <= north && stored.center[1] >= west && stored.center[1] <= east ? stored.center : view.center; const zoom = stored.zoom >= view.minZoom && stored.zoom <= view.maxZoom ? stored.zoom : view.zoom;
+  map = L.map('map', { zoomControl: false, attributionControl: true, preferCanvas: false, minZoom: view.minZoom, maxZoom: view.maxZoom, zoomSnap: .25, maxBounds: view.bounds, maxBoundsViscosity: .8 }).setView(center, zoom);
   L.control.zoom({position:'bottomright'}).addTo(map);
   L.control.scale({position:'bottomleft',imperial:false}).addTo(map);
   map.attributionControl.setPrefix(false);
-  map.attributionControl.addAttribution(`Natural Earth · Terrain: Mapzen / USGS / NOAA · ${book.placeCredits?.length ? `Places: ${book.placeCredits.map(credit => `<a href="${esc(credit.url)}">${esc(credit.label)}</a>`).join(' / ')}` : 'Place sources: see study notes'}`);
+  map.attributionControl.addAttribution(`Natural Earth${book.relief === false ? '' : ' · Terrain: Mapzen / USGS / NOAA'} · ${book.placeCredits?.length ? `Places: ${book.placeCredits.map(credit => `<a href="${esc(credit.url)}">${esc(credit.label)}</a>`).join(' / ')}` : 'Place sources: see study notes'}`);
   for (const [name,z] of [['base',200],['relief',220],['detail',230],['water',240],['outsideFocus',250]]) { map.createPane(name); map.getPane(name).style.zIndex=z; map.getPane(name).style.pointerEvents='none'; }
   // Remove color outside the terrain bounds. Keep story markers above this pane.
   map.getPane('outsideFocus').style.mixBlendMode = 'saturation';
@@ -865,11 +888,12 @@ function initMap() {
   map.getPane('geography').style.pointerEvents = 'none';
   addGeographyLabels();
   map.on('moveend', persist).on('moveend zoomend', updateRecenter).on('resize', keepChapterView).on('moveend zoomend resize', refreshMapDetails).on('dragstart zoomstart', () => { const card = $('#contextCard'); if (card.dataset.pinned !== 'true') hideModalPanel(card); });
-  Promise.allSettled(['data/land.geojson','data/lakes-detail.geojson','data/relief.json','data/rivers.geojson'].map(p => fetch(p).then(r => r.json()))).then(r => {
+  Promise.allSettled(['data/land.geojson','data/lakes-detail.geojson',book.relief === false ? '' : 'data/relief.json','data/rivers.geojson'].map(p => p ? fetch(p).then(r => { if (!r.ok) throw Error(p); return r.json(); }) : Promise.reject(Error('No relief layer')))).then(r => {
     if (r[0].status === 'fulfilled') L.geoJSON(r[0].value, {pane:'base',interactive:false, style: { color: '#dfc990', weight: 1, fillColor: '#a4ac79', fillOpacity: 1 } }).addTo(map);
     if (r[1].status === 'fulfilled') L.geoJSON(r[1].value, {pane:'water',interactive:false, style: { color: '#81bbca', weight: 1.2, fillColor: '#155c80', fillOpacity: 1 } }).addTo(map);
     if (r[3].status === 'fulfilled') L.geoJSON(r[3].value, {pane:'water', interactive:false,
-      style: f => ({color:'#4b9fbd', weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1})}).addTo(map);
+      // A book with many small rivers can draw the smallest ones thin and faint with map.fadeMinorRivers.
+      style: f => book.map?.fadeMinorRivers && f.properties.rank > 8 ? {color:'#4b9fbd', weight:1.1, opacity:.75} : ({color:'#4b9fbd', weight:f.properties.rank <= 5 ? 3.2 : 2.2, opacity:1})}).addTo(map);
     if (r[2].status === 'fulfilled') {
       L.imageOverlay('assets/relief.webp',r[2].value.bounds,{pane:'relief',opacity:1,interactive:false}).addTo(map);
       const [[south,west],[north,east]] = r[2].value.bounds;
@@ -892,7 +916,7 @@ function initMap() {
 const geographyLabels = [];
 function addGeographyLabels() {
   // Fixed geographic anchors keep names on their water features as the map moves.
-  const labels = [
+  const labels = book.geographyLabels || [
     ['Mediterranean Sea',34,32,4,0], ['Red Sea',23.5,37,4,-62],
     ['Dead Sea',31.5,35.48,7,-78], ['Sea of Galilee',32.82,35.59,8,0],
     ['Gulf of Aqaba',28.8,34.75,7,-62], ['Gulf of Suez',28.8,32.9,7,-55],
@@ -905,7 +929,7 @@ function addGeographyLabels() {
       icon:L.divIcon({className:'geography-label',iconSize:[0,0],iconAnchor:[0,0],
         html:`<span style="--water-angle:${angle}deg">${esc(name)}</span>`})}).addTo(map);
     layer.getElement().setAttribute('aria-hidden','true');
-    const positions = name === 'Mediterranean Sea' ? [[34,32],[32,33],[35,34],[33,33]]
+    const positions = book.geographyLabels ? [[lat,lng]] : name === 'Mediterranean Sea' ? [[34,32],[32,33],[35,34],[33,33]]
       : name === 'Red Sea' ? [[23.5,37],[26,35],[27.3,34.1]] : [[lat,lng]];
     geographyLabels.push({layer,minZoom,positions});
   }
@@ -1019,10 +1043,10 @@ function focusChapterMap(animate = true, keepCard = false) {
 // A map event date shows its paths. A date without a drawn path shows its event chapter or milestone places.
 function focusMapEventDate() {
   if (!map || !mapEventDates.includes(state.date)) return;
-  const chapter = mapEvents.find(c => data.passages.find(p => Number(p.chapter) === c)?.year === state.date);
+  const section = mapEvents.find(c => data.passages.find(p => Number(p.chapter) === c)?.year === state.date);
   const paths = state.layers.campaigns ? data.campaigns.filter(visibleAt) : [];
-  const milestone = (data.events.find(e => Number(e.year) === state.date)?.placeIds || []).map(id => data.places.find(p => p.id === id)).filter(Boolean).map(p => [p.lat, p.lng]);
-  const points = paths.length ? paths.flatMap(c => c.points) : chapter ? chapterPoints(data, chapter) : milestone;
+  const milestone = (milestones().find(e => Number(e.year) === state.date)?.placeIds || []).map(id => data.places.find(p => p.id === id)).filter(Boolean).map(p => [p.lat, p.lng]);
+  const points = paths.length ? paths.flatMap(c => c.points) : section ? chapterPoints(data, section) : milestone;
   if (!points.length) return;
   map.stop();
   const panel = $('.layers').getBoundingClientRect(), size = map.getSize();
@@ -1042,7 +1066,7 @@ function chapterImpacts() {
 function mapContextHtml(focus) {
   if (!book.mapLimits) return focus?.narrative ? `<details><summary>Map context</summary>${esc(focus.narrative)}</details>` : '';
   // Explain an empty map and show the location limits with the narrative.
-  return `${!chapterPoints(data, state.chapter).length ? '<p>This chapter has no mapped places.</p>' : ''}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join('')}</details>` : ''}`;
+  return `${!chapterPoints(data, state.chapter).length ? `<p>This ${unit()} has no mapped places.</p>` : ''}${focus?.narrative || focus?.limits ? `<details><summary>Map context</summary>${[focus.narrative, focus.limits].filter(Boolean).map(text => `<p>${esc(text)}</p>`).join('')}</details>` : ''}`;
 }
 function mapStoryHtml() {
   const routes = focusedRoutes();
@@ -1055,6 +1079,9 @@ function displayedCampaigns() {
   return datedMap() ? data.campaigns.filter(visibleAt) : focusedRoutes();
 }
 function chapterPlaceVisible(p) { return !p.chapterLocation || chapterFocus(data, state.chapter)?.placeIds.includes(p.id); }
+// The stops of each path on the map. A `routeOnly` place shows only as a stop.
+function routeStopIds() { return new Set(state.layers.campaigns ? displayedCampaigns().flatMap(c => c.placeIds || []) : []); }
+function placeShown(p, stops) { return p.routeOnly ? stops.has(p.id) : stops.has(p.id) || (datedMap() ? visibleAt(p) : chapterPlaceVisible(p)); }
 function placeMentionedInChapter(place) { return !!placeVerseInChapter(place, state.chapter); }
 // One style for each place dot. The map markers and the layer panel icons both use it.
 function placeDotStyle({ active = false, relevant = false, mentioned = true } = {}) {
@@ -1111,12 +1138,13 @@ function drawOverlays() {
     feature(`road-hit:${road.id}`, () => L.polyline(road.points, {pane:'roads',color:'#e1d6b8',weight:18,opacity:0,className:'ancient-road-hit'}), road);
   });
   campaigns.forEach(c => {
-    const style = movementStyle(c), color = c.chapterRoute ? style.color : factionFor(c).color;
+    const style = movementStyle(c), color = c.chapterRoute || (c.kind && !c.faction) ? style.color : factionFor(c).color;
     // Keep every enabled route readable before hover or selection.
     feature(`campaign:${c.id}`, () => L.polyline(c.points, { pane:'routes', color, weight: c.chapterRoute && !c.contextRoute ? 5 : 3.5, opacity: 1, dashArray: c.chapterRoute ? style.dash : '10 7', interactive: false, className: 'campaign-overlay' }));
     feature(`hit:${c.id}`, () => L.polyline(c.points, {pane:'routes', color, weight:22, opacity:0, className:'campaign-hit'}), c);
   });
-  if (state.layers.places) data.places.filter(p => datedMap() ? visibleAt(p) : chapterPlaceVisible(p)).forEach(p => {
+  const stops = routeStopIds();
+  if (state.layers.places) data.places.filter(p => placeShown(p, stops)).forEach(p => {
     const mentioned = placeMentionedInChapter(p);
     const style = placeDotStyle({ relevant: chapterFocus(data, state.chapter)?.focusPlaceIds.includes(p.id), mentioned });
     const layer = feature(`place:${p.id}`, () => L.circleMarker([p.lat,p.lng], {pane:'places', ...style}), p);
@@ -1128,7 +1156,7 @@ function drawOverlays() {
     feature(p.id,()=>L.circleMarker([p.lat,p.lng],{pane:'impacts',radius:11,color:'#b52e26',weight:2.5,fillColor:'#c43c32',fillOpacity:.16,className:'chapter-impact'}),p);
   });
   retireMapFeatures(mapFeatures, wanted);
-  const active = [...new Set([...regions, ...campaigns].map(f => f.faction || f.id))];
+  const active = [...new Set([...regions, ...campaigns].map(f => f.faction || f.id))].filter(id => factionById(id));
   $('#factionLegend').innerHTML = active.map(id => factionById(id) ? '<span><i style="background:' + factionById(id).color + '"></i>' + esc(factionById(id).name) + '</span>' : '').join('');
   $('#factionLegend').hidden = !active.length;
   const focus = chapterFocus(data, state.chapter);
@@ -1156,7 +1184,7 @@ function refreshMapDetails() {
         wanted.add(key);
         const latlng = map.containerPointToLatLng([x,y]);
         const entering = !arrowFeatures.has(key);
-        const arrow = keepMapFeature(arrowFeatures, key, () => L.marker(latlng, {interactive:false, keyboard:false, icon:L.divIcon({className:'route-arrow', iconSize:[18,18], iconAnchor:[9,9], html:'<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 3 L14 9 L3 15 L6 9 Z" fill="' + (c.chapterRoute ? movementStyle(c).color : factionFor(c).color) + '" stroke="#fff0d5" stroke-width="1.2"/></svg>'})}).addTo(map));
+        const arrow = keepMapFeature(arrowFeatures, key, () => L.marker(latlng, {interactive:false, keyboard:false, icon:L.divIcon({className:'route-arrow', iconSize:[18,18], iconAnchor:[9,9], html:'<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 3 L14 9 L3 15 L6 9 Z" fill="' + (c.chapterRoute || (c.kind && !c.faction) ? movementStyle(c).color : factionFor(c).color) + '" stroke="#fff0d5" stroke-width="1.2"/></svg>'})}).addTo(map));
         arrow.setLatLng(latlng);
         const svg = arrow.getElement().firstElementChild;
         svg.style.opacity = '1';
@@ -1197,7 +1225,8 @@ function layoutPlaceLabels() {
     const r = el.getBoundingClientRect();
     if (r.width && r.height) occupied.push({x:r.left-mapRect.left-5,y:r.top-mapRect.top-5,w:r.width+10,h:r.height+10});
   });
-  const places = data.places.filter(p => datedMap() ? visibleAt(p) : chapterPlaceVisible(p)).map(p => ({p, point:map.latLngToContainerPoint([p.lat,p.lng]), priority:placePriority(p)}));
+  const stops = routeStopIds();
+  const places = data.places.filter(p => placeShown(p, stops)).map(p => ({p, point:map.latLngToContainerPoint([p.lat,p.lng]), priority:placePriority(p) || (stops.has(p.id) ? 70 : 0)}));
   places.forEach(({p,point}) => occupied.push({id:p.id,x:point.x-6,y:point.y-6,w:12,h:12}));
   const collides = (r, id) => occupied.some(b => b.id !== id && r.x < b.x+b.w && r.x+r.w > b.x && r.y < b.y+b.h && r.y+r.h > b.y);
   places.sort((a,b) => b.priority-a.priority || a.p.name.localeCompare(b.p.name)).forEach(({p,point,priority}) => {
@@ -1213,7 +1242,7 @@ function layoutPlaceLabels() {
     const w = text.offsetWidth, h = text.offsetHeight;
     const gap = priority ? 3 : Math.max(4, 20-(zoom-7)*7);
     const offset = 8 + gap;
-    const offsets = [[offset,-h/2],[-w-offset,-h/2]];
+    const offsets = [[offset,-h/2],[-w-offset,-h/2],[offset-4,-h-offset+2],[offset-4,offset-2],[-w/2,-h-offset],[-w/2,offset]];
     const target = x => ({left:Math.min(-16,x), right:Math.max(16,x+w)});
     const fit = offsets.find(([x,y]) => {
       const hit = target(x);
@@ -1337,7 +1366,7 @@ function sourceImageHtml(image) {
 }
 function guideReadingHtml(step) {
   const verses = (scripture.chapters[step.chapter] || []).filter(v => v.verse === Number(step.verse));
-  const reading = verses.length ? `<section class="guide-reading"><h3>${esc(book.name)} ${Number(step.chapter)}:${Number(step.verse)}</h3><blockquote>${verses.map(v => esc(v.text)).join(' ')}</blockquote><a class="source-link" href="${publisherChapter(step.chapter)}" target="_blank" rel="noopener">Read full chapter ↗</a><small>World English Bible · Public domain</small></section>` : '';
+  const reading = verses.length ? `<section class="guide-reading"><h3>${esc(book.name)} ${Number(step.chapter)}:${Number(step.verse)}</h3><blockquote>${verses.map(v => esc(v.text)).join(' ')}</blockquote><a class="source-link" href="${publisherChapter(step.chapter)}" target="_blank" rel="noopener">Read full ${unit()} ↗</a><small>${esc(scriptureCredit())}</small></section>` : '';
   const words = (step.wordIds || []).map(id => data.words.find(w => w.id === id)).filter(Boolean);
   return reading + words.map(w => `<section class="guide-reading"><h3>${esc(w.label)}</h3><p>${esc(w.meaning)}</p><p>${esc(w.discussion)}</p>${sourcesHtml(w.sourceIds)}</section>`).join('');
 }

@@ -5,6 +5,7 @@ The product name is Bible Wayfinder.
 Read `WRITING-GUIDE.md` before changing reader text.
 Read `BIBLE-SOURCE-POLICY.md` before adding research claims or evidence.
 Read `DATA-CONTRACT.md` before changing generated data or its renderer.
+The shared reader files come from the Wayfinder repository: `app.js`, `styles.css`, `native-book.js`, `portraits.js`, `chapter-map.js`, `breadcrumbs.js`, `breadcrumbs.css`, `chapter-picker.js`, `modal-drag.js`, and `settings-menu.js`. Each copy starts with a stamp line. Edit `Wayfinder/viewer/<file>`, then run `npm run sync-viewer` in the Wayfinder folder. Do not edit the copies in `dist/`.
 
 ## One reader for every book
 
