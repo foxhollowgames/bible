@@ -90,6 +90,11 @@ showPreferences();
 // A book page can change the choices. Show them again when the reader comes back.
 addEventListener('pageshow',()=>{const before=preferences.portraitMode;Object.assign(preferences,readPreferences());showPreferences();if(preferences.portraitMode!==before)showCovers();});
 const groups=document.querySelector('#bookGroups'),status=document.querySelector('#directoryStatus'),credits=document.querySelector('#coverCredits');
+// The testament buttons and the search box narrow the list. The page keeps the testament choice.
+const filter=document.querySelector('#bookFilter'),testamentButtons=document.querySelectorAll('[data-testament]');
+let testamentChoice=(()=>{try{return localStorage.getItem('bible-wayfinder-testament')||'all';}catch{return 'all';}})();
+// Compare names without case, spaces, or hyphens, so "1 kings" and "1kings" both find 1 Kings.
+const plain=text=>text.toLowerCase().replace(/[^a-z0-9]/g,'');
 // scripts/build-share.py lists the covers that have licensed old art.
 let oldCovers=null,showCovers=()=>{};
 async function loadOldCovers(){
@@ -104,8 +109,11 @@ try {
     const old=preferences.portraitMode==='non-generated',credited=[];
     groups.replaceChildren();
     let covers=0;
+    const query=plain(filter.value);
+    for(const button of testamentButtons)button.setAttribute('aria-pressed',String(button.dataset.testament===testamentChoice));
     for(const testament of ['Old Testament','New Testament']){
-      const rows=books.filter(b=>b.testament===testament);if(!rows.length)continue;
+      if(testamentChoice!=='all'&&testamentChoice!==testament)continue;
+      const rows=books.filter(b=>b.testament===testament&&(!query||plain(b.name).includes(query)));if(!rows.length)continue;
       const section=document.createElement('section'),heading=document.createElement('h2'),grid=document.createElement('div');heading.textContent=testament;grid.className='book-grid';section.append(heading,grid);
       for(const book of rows){
         const card=document.createElement('a');
@@ -146,6 +154,8 @@ try {
       }
       groups.append(section);
     }
+    status.hidden=!!groups.children.length;
+    status.textContent=groups.children.length?'':'No book matches that search.';
     // Licensed art keeps its credit and source link.
     credits.replaceChildren();
     credits.hidden=!credited.length;
@@ -158,6 +168,12 @@ try {
     }
 
   }
+  for(const button of testamentButtons)button.addEventListener('click',()=>{
+    testamentChoice=button.dataset.testament;
+    try{localStorage.setItem('bible-wayfinder-testament',testamentChoice);}catch{}
+    render();
+  });
+  filter.addEventListener('input',render);
   showCovers=async()=>{if(preferences.portraitMode==='non-generated')await loadOldCovers();render();};
   await showCovers();
 }catch{status.hidden=false;status.textContent='The book directory could not load. Reload this page.';}
