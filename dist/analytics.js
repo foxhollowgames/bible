@@ -110,6 +110,7 @@
   // After a choice, the shared settings menu holds the control. Pages without that menu keep the floating button.
   const menuPanel = document.querySelector ? document.querySelector('.settings-panel') : null;
   let menuItem = null;
+  const menuButton = menuPanel && menuPanel.closest ? menuPanel.closest('.settings-menu')?.querySelector('.settings-button') : null;
   if (menuPanel) {
     menuItem = document.createElement('button');
     menuItem.id = 'wf-analytics-menu-item';
@@ -126,7 +127,7 @@
     for (const trigger of [settings, menuItem]) if (trigger) trigger.setAttribute('aria-expanded', String(open));
     if (!moveFocus) return;
     if (open) accept.focus();
-    else (settings.hidden ? document.getElementById('settingsButton') || menuItem : settings).focus();
+    else (settings.hidden ? menuButton || menuItem : settings).focus();
   }
   settings.addEventListener('click', () => show(panel.hidden, true));
   panel.addEventListener('keydown', event => { if (event.key === 'Escape') show(false, true); });
